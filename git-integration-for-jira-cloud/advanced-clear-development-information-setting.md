@@ -1,6 +1,6 @@
 ---
 
-title: Advanced: Clear Development Information setting
+title: Advanced - Clear Development Information setting
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
