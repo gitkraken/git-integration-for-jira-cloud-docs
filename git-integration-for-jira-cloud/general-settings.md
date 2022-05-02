@@ -9,7 +9,7 @@ taxonomy:
 
 # General Settings
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/781942911/General+Settings>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/781942911/General+Settings>
 
 * * *
 
