@@ -1,6 +1,15 @@
+---
+
+title: Jira Git integration development panel
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Jira Git integration development panel
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel>
 
 * * *
 
