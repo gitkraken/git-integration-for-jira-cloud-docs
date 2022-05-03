@@ -1,6 +1,15 @@
+---
+
+title: Installation via Atlassian Marketplace
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Installation via Atlassian Marketplace
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1923023030/Installation+via+Atlassian+Marketplace>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923023030/Installation+via+Atlassian+Marketplace>
 
 * * *
 

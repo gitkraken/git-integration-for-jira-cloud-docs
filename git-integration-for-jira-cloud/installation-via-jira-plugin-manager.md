@@ -1,6 +1,15 @@
+---
+
+title: Installation via Jira Plugin Manager
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Installation via Jira Plugin Manager
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1923023056/Installation+via+Jira+Plugin+Manager>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923023056/Installation+via+Jira+Plugin+Manager>
 
 * * *
 
