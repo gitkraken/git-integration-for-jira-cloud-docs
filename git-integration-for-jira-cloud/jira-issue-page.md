@@ -1,6 +1,15 @@
+---
+
+title: Jira issue page
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Jira issue page
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1923025695/Jira+issue+page>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025695/Jira+issue+page>
 
 * * *
 
