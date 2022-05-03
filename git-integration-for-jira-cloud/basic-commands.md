@@ -1,6 +1,15 @@
+---
+
+title: Basic Commands
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Basic commands
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1923025355/Basic+commands>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands>
 
 * * *
 
