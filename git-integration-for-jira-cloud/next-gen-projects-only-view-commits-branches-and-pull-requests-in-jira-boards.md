@@ -1,6 +1,6 @@
 ---
 
-title: Next-gen projects only: View commits, branches, and pull requests in Jira Boards
+title: Next-gen projects only - View commits, branches, and pull requests in Jira Boards
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
