@@ -1,6 +1,15 @@
+---
+
+title: Server-side Hook
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Server-side Hook
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/179044399/Server-side+Hook>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/179044399/Server-side+Hook>
 
 * * *
 

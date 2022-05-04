@@ -1,6 +1,15 @@
+---
+
+title: Adding webhooks for GitLab repository
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Adding webhooks for GitLab repository
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/171377217/Adding+webhooks+for+GitLab+repository>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171377217/Adding+webhooks+for+GitLab+repository>
 
 * * *
 

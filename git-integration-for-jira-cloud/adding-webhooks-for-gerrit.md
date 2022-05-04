@@ -1,6 +1,15 @@
+---
+
+title: Adding webhooks for Gerrit
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Adding webhooks for Gerrit
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/628523026/Adding+webhooks+for+Gerrit>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/628523026/Adding+webhooks+for+Gerrit>
 
 * * *
 
