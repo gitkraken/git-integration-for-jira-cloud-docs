@@ -1,6 +1,15 @@
+---
+
+title: Commit-msg Hook
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Commit-msg Hook
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/179011603/Commit-msg+Hook>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/179011603/Commit-msg+Hook>
 
 * * *
 

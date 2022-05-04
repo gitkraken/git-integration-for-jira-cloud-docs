@@ -1,6 +1,15 @@
+---
+
+title: Adding webhooks for GitHub repository
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Adding webhooks for GitHub repository
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/171377213/Adding+webhooks+for+GitHub+repository>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171377213/Adding+webhooks+for+GitHub+repository>
 
 * * *
 

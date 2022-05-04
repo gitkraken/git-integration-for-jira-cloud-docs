@@ -1,6 +1,15 @@
+---
+
+title: Indexing Triggers
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Indexing Triggers
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/171475219/Indexing+Triggers>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers>
 
 * * *
 

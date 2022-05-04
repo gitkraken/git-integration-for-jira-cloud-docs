@@ -1,6 +1,15 @@
+---
+
+title: Creating indexing triggers for a single repository
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Creating indexing triggers for a single repository
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/171213231/Creating+indexing+triggers+for+a+single+repository>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171213231/Creating+indexing+triggers+for+a+single+repository>
 
 * * *
 

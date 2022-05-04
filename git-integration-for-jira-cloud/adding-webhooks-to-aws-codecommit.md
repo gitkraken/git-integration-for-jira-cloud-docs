@@ -1,6 +1,15 @@
+---
+
+title: Adding webhooks to AWS CodeCommit
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Adding webhooks to AWS CodeCommit
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/864288787/Adding+webhooks+to+AWS+CodeCommit>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/864288787/Adding+webhooks+to+AWS+CodeCommit>
 
 * * *
 

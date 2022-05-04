@@ -1,6 +1,15 @@
+---
+
+title: Webhook GitHub Organization support
+description:
+taxonomy:
+    category: git-integration-for-jira-cloud
+
+---
+
 # Webhook GitHub Organization support
 
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/171278791/Webhook+GitHub+Organization+support>
+<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171278791/Webhook+GitHub+Organization+support>
 
 * * *
 
