@@ -1,6 +1,6 @@
 ---
 
-title: Release Hub: Warnings 
+title: Release Hub - Warnings 
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
