@@ -1,6 +1,6 @@
 ---
 
-title: Repository Browser: Viewing all repositories
+title: Repository Browser - Viewing all repositories
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
