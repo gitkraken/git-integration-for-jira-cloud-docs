@@ -8,13 +8,6 @@ taxonomy:
 ---
 
 
-# Create branch
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/733282366/Create+branch>
-
-* * *
-
-  
 
 **Jira administrator notes**
 
@@ -22,11 +15,11 @@ taxonomy:
 *   The **View developer tools** _permission_ is required to view the Source Code panel (see more in [Issue Git Source Code Panel](/wiki/spaces/GITCLOUD/pages/138346503/Issue+Git+Source+Code+Panel)). Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
 *   Creating branch feature can be disabled for all Jira users (regardless of permissions) in General settings
 
-  
+
 
 * * *
 
-  
+
 
 ## **Introduction**
 
@@ -34,7 +27,7 @@ The Create branch feature offers Jira users the ability to create a git branch d
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/733282366/gitcloud-create-branch-dlg.png?version=1&modificationDate=1635931446719&cacheVersion=1&api=v2)
 
-  
+
 For information about creating pull/merge requests from a Jira issue - see [Create pull or merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request).
 
 ## **Advantages**
@@ -46,7 +39,7 @@ When creating a branch from within Jira: 
 *   Require each Jira user to provide their Personal Access Token for creating branches.  This option adds some friction to creating branches/pull requests but enabling this setting will enforce the git server user permissions as well as give better attribution for the actions.  See [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GITCLOUD/pages/131137621) for more information.
 *   Each Jira user can set a **Default repository** for the current Jira project. (See User settings for more information).
 
-  
+
 
 ## **Supported**
 
@@ -62,7 +55,7 @@ When creating a branch from within Jira: 
 *   Company-managed and Team-managed Jira projects supported.
 *   New and old Jira Issue View supported.
 
-  
+
 
 ## **Steps to creating a git branch in Jira**
 
@@ -79,24 +72,24 @@ When creating a branch from within Jira: 
 7.  Verify branch name is correct. Edit as desired. Note: the Jira issue key must remain in the branch name to create the branch ↔ Jira issue association.
 8.  Click **Create branch**.
 
-  
+
 
 **Video: **Creating branch from** Git Development panel**
 
-  
+
 
 _Right click_ [_here_](https://bigbrassband.wistia.com/medias/8cy7v6ykug) _to open this video in a new browser tab for more viewing options._
 
-  
+
 
 **Video: Creating branch from Git Source Code panel**
 
-  
+
 
 _Right click_ [_here_](https://bigbrassband.wistia.com/medias/2re05azbwl) _to open this video in a new browser tab for more viewing options._
 
-  
 
-  
+
+
 
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).

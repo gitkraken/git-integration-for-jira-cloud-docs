@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# Working with JMESPath Filters
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/133234759/Working+with+JMESPath+Filters>
-
-* * *
-
 JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
 For help with writing expressions, please contact [**support**](mailto:support@bigbrassband.com).
@@ -41,21 +34,21 @@ Read about JMESPath expressions on their [**website**](http://jmespath.org/).
 ## Read more on JMESPath filters for supported git services
 
 *   Page:
-    
+
     [GitHub.com | GitHub Enterprise JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615768/GitHub.com+%7C+GitHub+Enterprise+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [GitLab.com | GitLab CE/EE JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615801) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1343979648/Microsoft+%7C+VSTS+%7C+TFS+%7C+Azure+Repos+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Bitbucket JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615828/Bitbucket+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Gerrit JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1898020871/Gerrit+JMESPath+filter+examples) (Git Integration for Jira Cloud)

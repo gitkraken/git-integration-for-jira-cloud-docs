@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# How to link commits, branches and pull requests to a Jira issue?
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1503526923>
-
-* * *
-
 For information on linking git commits to Jira, see [**Linking git commits to Jira issues**](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/923238543/Linking+Git+Commits+to+Jira+Issue?src=search).
 
 |     |

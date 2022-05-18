@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Comparing branches or tags in Repository browser
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025590/Comparing+branches+or+tags+in+Repository+browser>
-
-* * *
-
 On the Repository browser (_Jira dashboard ➜ Apps menu ➜ **Git Integration: Repository browser**_), click the **Compare** page tab.
 
 On this page, two branches from the current repository can be compared.
@@ -24,11 +17,11 @@ A diff between the _**base**_ branch and the _**compare**_ branch is display
 To view desired results, use the following selection scenarios:
 
 *   select **master** as compare; select the most recent branch as base.
-    
+
 *   select **master** as compare; select a tag with a version release.
-    
+
 *   select different branches as base and compare. (Example: `TYT-212` against `TYT-316`)
-    
+
 
 Click **…** to swap the base and the compare selection.
 
@@ -51,17 +44,17 @@ On the **Issues** page, clicking the **View in issue navigator** label will 
 ### More related topics about repository browser
 
 *   Page:
-    
+
     [Repository browser](/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Viewing list of commits in Repository browser](/wiki/spaces/GITCLOUD/pages/1923025571/Viewing+list+of+commits+in+Repository+browser) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Comparing branches or tags in Repository browser](/wiki/spaces/GITCLOUD/pages/1923025590/Comparing+branches+or+tags+in+Repository+browser) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Repository browser general settings](/wiki/spaces/GITCLOUD/pages/1923025615/Repository+browser+general+settings) (Git Integration for Jira Cloud)

@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Jira Development Information settings
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1941373113/Jira+Development+Information+settings>
-
-* * *
-
 Access this setting on the dashboard menu via Apps ➜ Git Integration: Manage Git repositories ➜ (sidebar) **General settings**. Alternatively, go to dashboard ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Settings ➜ Apps ➜ (sidebar) **General settings**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1941373113/gitcloud-gencfg-jira-dev-info-settings.png?version=1&modificationDate=1631349902457&cacheVersion=1&api=v2)
@@ -46,21 +39,21 @@ Note that this action takes some time to process and Development Information may
 ## More related topics about Jira development information
 
 *   Page:
-    
+
     [How can a Jira administrator enable or disable Jira Development Information?](/wiki/spaces/GITCLOUD/pages/1941373145) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Jira Development Information settings](/wiki/spaces/GITCLOUD/pages/1941373113/Jira+Development+Information+settings) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Development Information Views](/wiki/spaces/GITCLOUD/pages/643203115/Development+Information+Views) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [JQL Searching for Commits and Pull Requests](/wiki/spaces/GITCLOUD/pages/643596299/JQL+Searching+for+Commits+and+Pull+Requests) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Jira Cloud Smart Commits and Workflow Triggers](/wiki/spaces/GITCLOUD/pages/144310383/Jira+Cloud+Smart+Commits+and+Workflow+Triggers) (Git Integration for Jira Cloud)

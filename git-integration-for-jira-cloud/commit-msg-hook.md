@@ -6,33 +6,26 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Commit-msg Hook
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/179011603/Commit-msg+Hook>
-
-* * *
-
 Every developer must have this hook on his local machine in order to:
 
 *   Commit codes locally several times then pushes it to the server.
-    
+
 *   Merge auto-commits with auto-messages without referencing to a Jira ticket.
-    
+
 
 The commit-msg hook is a python script file and it must be placed in the developer's local repository as: **`.git/hooks/commit-msg`**.  There is no server-side hook required.
 
 The following settings must be configured in the script file:
 
-*   **JIRA\_XMLRPC** -- path to Jira.  
+*   **JIRA\_XMLRPC** -- path to Jira.
     Example: `https://jira.example.com/rpc/xmlrpc`
-    
+
 
 *   **JIRA\_USER**, **JIRA\_PASSWORD** -- developer's credentials.
-    
-*   **JIRA\_TICKET\_PATTERN** -- pattern that will search ticket references.  
+
+*   **JIRA\_TICKET\_PATTERN** -- pattern that will search ticket references.
     Example: `re.compile(r'\[(\w+7-\d+?)\]')`
-    
+
 
 In Linux and OSX, this file must have executable permissions in the file system; in Windows, setting this permission is not necessary.  To use the hook in Windows without python installed, see [**Python on Windows FAQ »**](https://docs.python.org/2/faq/windows.html#how-do-i-make-an-executable-from-a-python-script).
 
@@ -126,17 +119,17 @@ if err_msg:
 ## Related articles
 
 *   Page:
-    
+
     [Indexing Triggers](/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Hooks and Webhooks](/wiki/spaces/GITCLOUD/pages/179011589/Hooks+and+Webhooks) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Commit-msg Hook](/wiki/spaces/GITCLOUD/pages/179011603/Commit-msg+Hook) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Server-side Hook](/wiki/spaces/GITCLOUD/pages/179044399/Server-side+Hook) (Git Integration for Jira Cloud)

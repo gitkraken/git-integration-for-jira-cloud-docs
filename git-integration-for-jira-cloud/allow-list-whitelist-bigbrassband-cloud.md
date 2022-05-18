@@ -6,18 +6,11 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Allow list (whitelist) BigBrassBand Cloud
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/121241614/Allow+list+%28whitelist%29+BigBrassBand+Cloud>
-
-* * *
-
 The information on this page is for BigBrassBand Atlassian Cloud products only. These currently include Git Integration for Jira Cloud and Dev Info for Jira Cloud.
 
 _**Jira Server and Jira Data Center products are not hosted by BigBrassBand.**_
 
-  
+
 If using restrictive firewall or proxy server settings, you or your network admin will need to allow (allow list / whitelist) a specific IP address to ensure BigBrassBand Cloud applications work as expected. Specifically – if your team hosts a private git server (GitHub Enterprise, GitLab CE/EE, Microsoft TFS or Azure DevOps Server, Gerrit, Bitbucket Server, or a plain git server).
 
 Alternatively, you can use our [Webhook indexing feature](#Webhooks-indexing-integration-for-private-networks) to avoid incoming API requests.
@@ -159,17 +152,17 @@ Webhook indexing integration supports indexing of commits and pull requests usin
 For more information on this feature, see the following articles:
 
 *   [Classic webhook indexing explainer](/wiki/spaces/GITCLOUD/pages/183369754/Classic+Indexing+Explainer)
-    
+
 *   [Webhook indexing explainer](/wiki/spaces/GITCLOUD/pages/1422819484/Webhook+Indexing+Explainer)
-    
+
 *   [Webhook indexing integration](/wiki/spaces/GITCLOUD/pages/1508081882/Webhook+indexing+integration)
-    
+
     *   [GitHub](/wiki/spaces/GITCLOUD/pages/1494646787/GitHub+webhook+indexing+integration)
-        
+
     *   [GitLab](/wiki/spaces/GITCLOUD/pages/1503494176/GitLab+webhook+indexing+integration)
-        
+
     *   [Microsoft](/wiki/spaces/GITCLOUD/pages/1509032469/Microsoft+webhook+indexing+integration)
-        
+
 
 ## BigBrassBand Cloud apps
 
@@ -184,53 +177,53 @@ If you need additional support connecting your self-hosted git servers or reposi
 ## Related articles
 
 *   Page:
-    
+
     [Creating Personal Access Tokens](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Allow list (whitelist) BigBrassBand Cloud](/wiki/spaces/GITCLOUD/pages/121241614/Allow+list+%28whitelist%29+BigBrassBand+Cloud) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [How to Calculate Pricing](/wiki/spaces/GITCLOUD/pages/128483369/How+to+Calculate+Pricing) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GITCLOUD/pages/131137621) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [How to Create Reindex Triggers for a Single Repository](/wiki/spaces/GITCLOUD/pages/132448361/How+to+Create+Reindex+Triggers+for+a+Single+Repository) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Working with JMESPath Filters](/wiki/spaces/GITCLOUD/pages/133234759/Working+with+JMESPath+Filters) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Working with Custom API Path](/wiki/spaces/GITCLOUD/pages/133201972/Working+with+Custom+API+Path) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Setting Project Permissions](/wiki/spaces/GITCLOUD/pages/509509708/Setting+Project+Permissions) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Connecting SSH Git Repositories to Jira Cloud](/wiki/spaces/GITCLOUD/pages/864288769/Connecting+SSH+Git+Repositories+to+Jira+Cloud) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [How to get a quote?](/wiki/spaces/GITCLOUD/pages/1165459457) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [How to link commits, branches and pull requests to a Jira issue?](/wiki/spaces/GITCLOUD/pages/1503526923) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [How to link branches to a Jira issue?](/wiki/spaces/GITCLOUD/pages/2090729485) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [How to link pull or merge requests to a Jira issue?](/wiki/spaces/GITCLOUD/pages/2091220997) (Git Integration for Jira Cloud)

@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# Reindex
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/87785473/Reindex>
-
-* * *
-
 This page contains related questions about git notes, reindex tracking and control.
 
 Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Reindex%20issues%20-)) if you don't see what you're looking for.
@@ -26,7 +19,7 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 
 [Is it possible to track the specified branches when reindexing?](/wiki/pages/resumedraft.action?draftId=87785473#Reindex-idxtrackbranches)
 
-  
+
 
 * * *
 
@@ -54,7 +47,7 @@ Commits won't appear immediately. Configure webhooks via **Manage Git repositor
 
 No.  The Git Integration for Jira app is designed to do a full index.
 
-  
+
 
 The reindex process won't start if reindex is already running.
 

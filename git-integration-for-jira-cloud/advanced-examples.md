@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Advanced examples
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025375/Advanced+examples>
-
-* * *
-
 |     |
 | --- |
 | **Usage and Description** |
@@ -38,10 +31,10 @@ taxonomy:
 | **TEST-100 TEST-101 TEST-102** **#resolve** **#time** 2d 4h **#comment** Fixed code |
 | Resolves specified issues; logs specified `#time` of **2 days and 4 hours** and adds `#comment` "Fixed code" against the issues. |
 
-VERSION 2.6.33+  
+VERSION 2.6.33+
 Implemented support for multi-line commit messages with smart commits.
 
-  
+
 The following examples show correct usage of the smart commit message:
 
 |     |
@@ -66,25 +59,25 @@ The following examples show correct usage of the smart commit message:
 ### More related topics about smart commits
 
 *   Page:
-    
+
     [Smart commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Basic commands](/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Workflow transitions](/wiki/spaces/GITCLOUD/pages/1923025389/Workflow+transitions) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Advanced examples](/wiki/spaces/GITCLOUD/pages/1923025375/Advanced+examples) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Viewing workflows](/wiki/spaces/GITCLOUD/pages/1923025415/Viewing+workflows) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Smart commits general settings](/wiki/spaces/GITCLOUD/pages/1923025462/Smart+commits+general+settings) (Git Integration for Jira Cloud)

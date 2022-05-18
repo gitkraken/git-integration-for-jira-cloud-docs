@@ -6,16 +6,9 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# JQL Searching for Commits and Pull Requests
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/643596299/JQL+Searching+for+Commits+and+Pull+Requests>
-
-* * *
-
 Access JQL searching via _Issues and Filters_ > **Search Issues**.
 
-**Limitation**  
+**Limitation**
 Only Jira _**Company-managed**_ projects support development JQL searching. _**Team-managed**_ projects are not currently supported.
 
 ## JQL: Commits
@@ -60,21 +53,21 @@ Use the following JQL syntax to locate all Jira issues with more than one pull r
 ### More related topics about Jira development information
 
 *   Page:
-    
+
     [How can a Jira administrator enable or disable Jira Development Information?](/wiki/spaces/GITCLOUD/pages/1941373145) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Jira Development Information settings](/wiki/spaces/GITCLOUD/pages/1941373113/Jira+Development+Information+settings) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Development Information Views](/wiki/spaces/GITCLOUD/pages/643203115/Development+Information+Views) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [JQL Searching for Commits and Pull Requests](/wiki/spaces/GITCLOUD/pages/643596299/JQL+Searching+for+Commits+and+Pull+Requests) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Jira Cloud Smart Commits and Workflow Triggers](/wiki/spaces/GITCLOUD/pages/144310383/Jira+Cloud+Smart+Commits+and+Workflow+Triggers) (Git Integration for Jira Cloud)

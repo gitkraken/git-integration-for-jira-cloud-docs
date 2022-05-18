@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# Classic Indexing Explainer
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/183369754/Classic+Indexing+Explainer>
-
-* * *
-
 **What's on this page:**
 
 * * *
@@ -22,7 +15,7 @@ The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/4984
 
 Starting on October 28, 2019, indexing is now calculated based on per repository activity. The overall goals are to reduce the strain on git services and make the indexing service more available for the webhook triggers.
 
-**Note**  
+**Note**
 Pull/merge requests are only indexed for repositories connected using the Full feature integrations panel in **Manage Git Repositories**. They can be accessed via the Jira Developer Panel on the right sidebar of a Jira issue. Git repositories added individually via SSH or HTTPS credentials will not show pull/merge requests.
 
 ## How is git data indexed?
@@ -143,7 +136,7 @@ The upper limit of the indexer checking frequency is daily (24 hours / 86400 sec
 
 ![Git commits tab in Jira issue showing indexing error messages](https://bigbrassband.atlassian.net/wiki/download/attachments/183369754/image-20200828-050318.png?version=1&modificationDate=1598591997511&cacheVersion=1&api=v2)
 
-**Indexing Errors**  
+**Indexing Errors**
 A notification about indexing error is displayed in the Git Commits tab so that Jira administrators can be alerted immediately.
 
 If you still have a question – reach out to our [**Support Desk**](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).

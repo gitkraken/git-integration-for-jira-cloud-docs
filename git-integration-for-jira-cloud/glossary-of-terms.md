@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Glossary of terms
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923026202/Glossary+of+terms>
-
-* * *
-
 ### Git
 
 Git is a term used for version control system to easily track changes in one or more of files. Git is a source code repository where developers keep track of their source code using Git.

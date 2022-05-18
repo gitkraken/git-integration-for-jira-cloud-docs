@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# App Support
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/366084122/App+Support>
-
-* * *
-
 The Git Integration for Jira app currently supports **Jira** **7.13** to **8.22**!
 
 We are committed to provide you with an efficient and reliable support. Scroll down to see helpful tips to get started.
@@ -31,7 +24,7 @@ For more information, see [**Atlassian Jira Cloud Supported Browsers**](https://
 
 ## Quick Installation Video
 
-  
+
 **Installation video will be uploaded/updated very soon.**
 
 No changes necessary to your Git server. This Jira app acts as a regular Git client.
@@ -101,5 +94,5 @@ With the release of the Edge browser since 2015, IE has not been receiving major
 In view of this, BigBrassBand LLC will also follow this decision effectively:
 
 *   For all Atlassian Cloud products, support will end on **31 March 2020**.
-    
+
 *   For Atlassian server and data center products, the last version to support IE11 will be released between **September 2019** and **March 2020**.

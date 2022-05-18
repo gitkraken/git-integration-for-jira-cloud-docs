@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Server-side Hook
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/179044399/Server-side+Hook>
-
-* * *
-
 In addition to the commit-msg hook, you can use server-side hooks to apply policies for your project.  The server runs these scripts before and after the push.  The server-side hook, like commit-msg hook, requires Python to be installed.
 
 In Linux and OSX, hook scripts must have executable permissions in the file system.
@@ -24,9 +17,9 @@ When the server handles the push from a client, the **pre-receive** script is 
 The **pre-receive** server-side hook requires git administrators to:
 
 1.  Copy the **pre-receive** script file from the `hooks/` folder in the git repository to the Git server repository `hooks/` folder.
-    
+
 2.  Configure **JIRA\_XMLRPC**, **JIRA\_USER**, **JIRA\_PASSWORD** and **PROJECT\_KEYS** in the pre-receive file.
-    
+
 
 The PROJECT\_KEYS setting defines an array of project keys which is compared to a ticket key from the commit message.  When Jira is not available, the hook simply checks the commit message if it contains the string pattern satisfying its declared conditions.
 
@@ -164,22 +157,22 @@ for c, msg in commits.iteritems():
         sys.exit(1)
 ```
 
-  
+
 
 ## Related articles
 
 *   Page:
-    
+
     [Indexing Triggers](/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Hooks and Webhooks](/wiki/spaces/GITCLOUD/pages/179011589/Hooks+and+Webhooks) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Commit-msg Hook](/wiki/spaces/GITCLOUD/pages/179011603/Commit-msg+Hook) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Server-side Hook](/wiki/spaces/GITCLOUD/pages/179044399/Server-side+Hook) (Git Integration for Jira Cloud)

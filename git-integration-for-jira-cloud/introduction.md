@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# Introduction
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923022977/Introduction>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923022977/bbb-overview.png?version=1&modificationDate=1630815378241&cacheVersion=1&api=v2)
 
 The [**Git Integration for Jira**](https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin) app is intended for displaying list of commits linked with a particular Jira issue. It is often useful to figure out real issue progress as well as contributors involved in the real work of an issue.
@@ -28,14 +21,14 @@ Ask your Git administrator if you need access to the Git repository just like a 
 
 If you are the Git administrator, define a new Git user for this Jira Server/Data Center.
 
-  
+
 The Git Integration for Jira app is available for Jira Server, Data Center and Cloud. It supports seamless integration with most git hosts and can be configured with ease.
 
 Click on a topic on the sidebar or continue immediately to the next article by clicking the next topic link at the bottom of the page.
 
 For permissions requirement, see [App platform and system permissions requirement](/wiki/spaces/GITCLOUD/pages/405962836/Permissions).
 
-**Browser Compatibility**  
+**Browser Compatibility**
 Atlassian has released mobile app versions of their Jira software.
 
 The Git Integration for Jira Cloud app supports the desktop browsers that Atlassian supports for Jira Cloud. However, mobile browsers are not officially supported. This means that the desktop version of Git Integration for Jira Cloud app will not work using Android or iOS web browsers.

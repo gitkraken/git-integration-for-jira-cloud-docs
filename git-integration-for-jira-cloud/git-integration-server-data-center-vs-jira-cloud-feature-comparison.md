@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Git Integration Server/Data Center vs Jira Cloud - Feature Comparison
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/656244758>
-
-* * *
-
 See also [Feature matrix of Git Integration for Jira Cloud](/wiki/spaces/GITCLOUD/pages/1470398499/Feature+matrix+of+Git+Integration+for+Jira+Cloud) on which features are offered when using a specific type of integration.
 
 We publish roadmaps for [**Jira Cloud**](https://trello.com/b/Af64QYkE/git-integration-jira-cloud-roadmap) and [**Jira Server + Data Center**](https://trello.com/b/WRrWMs87/git-integration-server-data-center-roadmap). If you have questions about specific differences between Jira Server + Data Center and Jira Cloud - [contact us through our support desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals).
@@ -124,18 +117,18 @@ For more information, see [Whitelist BigBrassBand Cloud](https://bigbrassband.at
 **Git Integration for Jira Server / Jira Data Center**
 
 *   `gitCommitsReferenced is not empty`
-    
+
 *   `gitCommitsReferenced is empty`
-    
+
 *   `gitBranch in (Version-5.2, Version-5.3)`
-    
+
 
 **Git Integration for Jira Cloud**
 
 *   `development[commits].all > 15`
-    
+
 *   `development[pullrequests].open > 0`
-    
+
 
 **4** GIT INTEGRATION: JIRA CLOUD Smart commit email notifications will fail when using [Jira Development Information](/wiki/spaces/GITCLOUD/pages/138772493/Jira+Development+Information).
 
@@ -143,8 +136,8 @@ For more information, see [Whitelist BigBrassBand Cloud](https://bigbrassband.at
 
 **6** See notes below:
 
-**Git Integration for Jira Server | Git Integration for Jira Data Center**  
+**Git Integration for Jira Server | Git Integration for Jira Data Center**
 Jira administrators have the option to disable this feature.
 
-**Git Integration for Jira Cloud**  
+**Git Integration for Jira Cloud**
 There is no setting to disable this feature.

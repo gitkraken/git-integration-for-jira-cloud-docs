@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Support
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/88047630/Support>
-
-* * *
-
 This page contains helpful topics related to Git Integration for Jira app support.
 
 Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com)) if you don't see what you're looking for.
@@ -21,7 +14,7 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 
 [Which versions of Jira does the Git for Jira Cloud app support?](/wiki/pages/resumedraft.action?draftId=88047630#Support-jiraversupport)
 
-  
+
 
 * * *
 

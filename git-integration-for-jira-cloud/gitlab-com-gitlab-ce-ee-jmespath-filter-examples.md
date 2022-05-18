@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# GitLab.com | GitLab CE/EE JMESPath filter examples
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1349615801>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1349615801/gitlab-mobile-custom1.png?version=1&modificationDate=1615466210438&cacheVersion=1&api=v2&width=226&height=70)
 
 An optional JMESPath filter can be configured when adding GitLab integration or repositories.
@@ -52,24 +45,24 @@ An optional JMESPath filter can be configured when adding GitLab integration or 
 ## Other examples for supported git services
 
 *   Page:
-    
+
     [GitHub.com | GitHub Enterprise JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615768/GitHub.com+%7C+GitHub+Enterprise+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [GitLab.com | GitLab CE/EE JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615801) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1343979648/Microsoft+%7C+VSTS+%7C+TFS+%7C+Azure+Repos+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Bitbucket JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615828/Bitbucket+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Gerrit JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1898020871/Gerrit+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-    
+
 
 1 _Logo owned by_ [_GitLab Inc_](https://gitlab.com/) _used under_ [_license_](https://creativecommons.org/licenses/by-nc-sa/4.0/)

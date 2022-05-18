@@ -6,21 +6,14 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Adding webhooks for GitLab repository
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171377217/Adding+webhooks+for+GitLab+repository>
-
-* * *
-
 Merge request webhooks are now supported. [See details](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171377217/Adding+webhooks+for+GitLab+repository#Merge-request-event-webhook) on this page.
 
 Supported webhook events:
 
 *   Push events
-    
+
 *   Merge request events
-    
+
 
 Git Integration for Jira Cloud app now supports **GitLab System Hooks** (menu Admin Area ➜ System Hooks ➜ _Merge Request events)_. However, it is only available for self-hosted GitLab instances. We highly recommend that Jira administrators should use this feature as it greatly reduces the amount of configuration time to setup webhooks.
 
@@ -33,20 +26,20 @@ Before you can proceed with the steps outlined on this guide, webhooks must be e
 Configure webhook by logging in to your GitLab account:
 
 1.  Select a repository.
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377217/web-hooks-gitlab-settings(c).png?version=1&modificationDate=1617193057400&cacheVersion=1&api=v2)
 2.  Go to the settings page by clicking ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Settings** on the sidebar.
-    
+
 3.  Select **Webhooks**. The following page is displayed.
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171377217/web-hooks-gitlab-settings-add(c).png?version=1&modificationDate=1617193057409&cacheVersion=1&api=v2&width=584&height=867)
 4.  Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app ➜ **Webhooks** page into the _**Payload URL**_ field.
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171377217/jira-cloud-webhook-url-loc(c1).png?version=1&modificationDate=1617193057414&cacheVersion=1&api=v2&width=646&height=430)
 5.  Select the _**Push events**_ as a triggering event option. This is the default option when creating a new webhook.
-    
+
 6.  Click **Add webhook** to save the new webhook settings.
-    
+
 
 ## Merge request event webhook
 

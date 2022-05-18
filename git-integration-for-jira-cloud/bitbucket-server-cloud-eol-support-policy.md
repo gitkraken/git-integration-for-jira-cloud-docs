@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Bitbucket Server/Cloud EOL Support Policy
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/716636417>
-
-* * *
-
 **What’s on this page:**
 
 * * *

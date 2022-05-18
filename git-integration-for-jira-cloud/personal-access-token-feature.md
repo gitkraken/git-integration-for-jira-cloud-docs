@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Personal access token feature
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1739948039/Personal+access+token+feature>
-
-* * *
-
 This feature allows users to configure personal access tokens for the connected git integration.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1739948039/gitcloud-user-settings-pat-feature.png?version=1&modificationDate=1623726472615&cacheVersion=1&api=v2&width=557&height=220)
@@ -38,21 +31,21 @@ Click the **New token** label to generate a new personal access token via the gi
 ### More related topics about user settings
 
 *   Page:
-    
+
     [Connected apps](/wiki/spaces/GITCLOUD/pages/1958805530/Connected+apps) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Default branch feature](/wiki/spaces/GITCLOUD/pages/1958936625/Default+branch+feature) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Default repository feature](/wiki/spaces/GITCLOUD/pages/1741094916/Default+repository+feature) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Personal access token feature](/wiki/spaces/GITCLOUD/pages/1739948039/Personal+access+token+feature) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [User Settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings) (Git Integration for Jira Cloud)

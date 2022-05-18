@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Getting started for Git administrators
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923023183/Getting+started+for+Git+administrators>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923023183/bbb-overview.png?version=1&modificationDate=1630063544665&cacheVersion=1&api=v2)
 
 # Welcome Git Admin!
@@ -71,21 +64,21 @@ Webhook indexing refers to automatic indexing designed to record changes in a ti
 ## More related topics about getting started for Jira admins
 
 *   Page:
-    
+
     [New GitLab v10+ authentication](/wiki/spaces/GITCLOUD/pages/1923023311) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Setup GitLab Server to respond to incoming network API calls](/wiki/spaces/GITCLOUD/pages/1923023297/Setup+GitLab+Server+to+respond+to+incoming+network+API+calls) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Setting up web linking](/wiki/spaces/GITCLOUD/pages/1923023467/Setting+up+web+linking) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Setting up indexing triggers](/wiki/spaces/GITCLOUD/pages/1923023481/Setting+up+indexing+triggers) (Git Integration for Jira Cloud)
-    
+
 
 * * *
 

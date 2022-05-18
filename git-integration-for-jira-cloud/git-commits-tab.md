@@ -6,18 +6,11 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Git Commits tab
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025766/Git+Commits+tab>
-
-* * *
-
 The Git Commits tab shows commit information such as commit authors, date of commit, commit messages, access to view code diffs, commit id and view full commit.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025766/gitcloud-jira-issue-git-commits-tab-chart.png?version=1&modificationDate=1635422802164&cacheVersion=1&api=v2&width=680&height=272)
 
-  
+
 Open an issue then go to the _**Git Commits**_ tab to view commit information:
 
 |     |     |     |
@@ -45,17 +38,17 @@ View code diff information of the particular file by clicking the filename for e
 ### More related topics about Jira issue page
 
 *   Page:
-    
+
     [Jira issue page](/wiki/spaces/GITCLOUD/pages/1923025695/Jira+issue+page) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Git Roll Up tab](/wiki/spaces/GITCLOUD/pages/1923025721/Git+Roll+Up+tab) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Git Commits tab](/wiki/spaces/GITCLOUD/pages/1923025766/Git+Commits+tab) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Code syntax highlighter](/wiki/spaces/GITCLOUD/pages/1923025790/Code+syntax+highlighter) (Git Integration for Jira Cloud)

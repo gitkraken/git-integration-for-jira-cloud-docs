@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-# Create pull or merge request
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request>
-
-* * *
-
-  
 
 **Jira administrator notes**
 
@@ -21,17 +14,17 @@ taxonomy:
 *   The **View developer tools** _permission_ is required to view the Source Code panel (see more in [Issue Git Source Code Panel](/wiki/spaces/GITCLOUD/pages/138346503/Issue+Git+Source+Code+Panel)).  Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
 *   Creating pull/merge request feature can be disabled for all Jira users (regardless of permissions) in General settings.
 
-  
+
 
 * * *
 
-  
+
 
 GitLab note
 
 GitLab uses the term Merge Request rather than Pull Request (used by the other major git services). In the following article,  Pull Request and Merge Request can be used interchangeably. 
 
-  
+
 
 ## **Introduction**
 
@@ -49,7 +42,7 @@ When creating a pull request from within Jira: 
 *   Require each Jira user to provide their Personal Access Token for creating pull requests. This option adds some friction to creating pull requests/branches but enabling this setting will enforce the git server user permissions as well as give better attribution for the actions. See [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GITCLOUD/pages/131137621) for more information.
 *   Each Jira user can set a **Default repository** for the current Jira project. (See User settings for more information).
 
-  
+
 
 ## **Supported**
 
@@ -65,7 +58,7 @@ When creating a pull request from within Jira: 
 *   Company-managed and Team-managed Jira projects supported.
 *   New and old Jira Issue View supported.
 
-  
+
 
 ## **Steps to creating a git pull request in Jira**
 
@@ -83,24 +76,24 @@ When creating a pull request from within Jira: 
 8.  Verify pull request title is correct. Edit as desired. Note: the Jira issue key must remain in the pull request name to create the pull request ↔ Jira issue association.
 9.  Click **Create pull request**.
 
-  
+
 
 **Video: **Creating pull request from** Git Development panel**
 
-  
+
 
 _Right click_ [_here_](https://bigbrassband.wistia.com/medias/rsccl5wxps) _to open this video in a new browser tab for more viewing options._
 
-  
+
 
 **Video: Creating pull request from Git Source Code panel**
 
-  
+
 
 _Right click_ [_here_](https://bigbrassband.wistia.com/medias/zbjshija1o) _to open this video in a new browser tab for more viewing options._
 
-  
 
-  
+
+
 
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).

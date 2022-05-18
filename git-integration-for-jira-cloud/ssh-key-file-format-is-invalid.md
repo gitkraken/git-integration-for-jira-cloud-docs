@@ -6,25 +6,18 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# SSH key file format is invalid
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/421363756/SSH+key+file+format+is+invalid>
-
-* * *
-
 ## Problem
 
 Git Integration for Jira application SSH keys:
 
 1.  Must not be created using the OpenSSH format
-    
+
 2.  Must be the private SSH key
-    
+
 3.  Must use the supported certificate format: RSA
-    
+
 4.  Must use the supported storage format: OpenSSL PEM
-    
+
 
 ## Diagnosis
 
@@ -34,7 +27,7 @@ Jira admins will see a message similar to the one below when adding the SSH key:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/421363756/private-key.png?version=1&modificationDate=1586319555483&cacheVersion=1&api=v2&width=453&height=416)
 
-Full error (stack trace) available in the Manage Git Repositories wizard or in Jira logs `/application-logs/atlassian-jira.log`:  
+Full error (stack trace) available in the Manage Git Repositories wizard or in Jira logs `/application-logs/atlassian-jira.log`:
 
 |     |
 | --- |
@@ -71,41 +64,41 @@ If you still have a question - reach out to our [Support Desk](https://bigbrass
 ## Related articles
 
 *   Page:
-    
+
     [Why don't I see commits? (Git Integration for Cloud)](/wiki/spaces/GITCLOUD/pages/110755841) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Repositories missing from Azure DevOps (or VSTS) integration](/wiki/spaces/GITCLOUD/pages/421462017/Repositories+missing+from+Azure+DevOps+%28or+VSTS%29+integration) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Licensing error - installCheck failed](/wiki/spaces/GITCLOUD/pages/420282445/Licensing+error+-+installCheck+failed) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Why don't I see the Create branch or pull request features?](/wiki/spaces/GITCLOUD/pages/421593107) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Connection error for self-hosted git servers](/wiki/spaces/GITCLOUD/pages/419659840/Connection+error+for+self-hosted+git+servers) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [SSH key file format is invalid](/wiki/spaces/GITCLOUD/pages/421363756/SSH+key+file+format+is+invalid) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Error while reindexing - Java heap space / Object too large, rejecting the pack](/wiki/spaces/GITCLOUD/pages/421462043) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [OAuth connection error or error 401 page with Azure DevOps integration](/wiki/spaces/GITCLOUD/pages/420282493/OAuth+connection+error+or+error+401+page+with+Azure+DevOps+integration) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [OAuth connection error or error 401 page with Azure DevOps with Active Directory integration](/wiki/spaces/GITCLOUD/pages/421527629/OAuth+connection+error+or+error+401+page+with+Azure+DevOps+with+Active+Directory+integration) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Empty list of repositories after integration of Azure Repos](/wiki/spaces/GITCLOUD/pages/421298248/Empty+list+of+repositories+after+integration+of+Azure+Repos) (Git Integration for Jira Cloud)

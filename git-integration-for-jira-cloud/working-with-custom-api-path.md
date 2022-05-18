@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Working with Custom API Path
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/133201972/Working+with+Custom+API+Path>
-
-* * *
-
 The Custom API Path is a relative path that starts with "/". The maximum allowed length is **2000** characters. The integration will use the relative REST API path to retrieve the list of tracked repositories.
 
 The Custom API Path is called in the integration setup, settings changes, on a regular scheduled reindex and for a manual reindex.
@@ -141,11 +134,11 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 For more information on GitLab custom API paths, see [**GitLab API**](https://docs.gitlab.com/ee/api/projects.html).
 
-**GitLab version API support:**  
-Gitlab v9.5 and above -- only API v4  
+**GitLab version API support:**
+Gitlab v9.5 and above -- only API v4
 Gitlab v9.0 to v9.4.x -- API v3 and API v4
 
-**Remember:**  
+**Remember:**
 The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible. For more information, see [Working with JMESPath filters](/wiki/spaces/GITCLOUD/pages/133234759/Working+with+JMESPath+Filters).
 
 * * *

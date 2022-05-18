@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Uninstall and Reinstall
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/87982081/Uninstall+and+Reinstall>
-
-* * *
-
 This page contains related questions about installation management of Git Integration for Jira app.
 
 Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Uninstall/Reinstall%20issues%20-)) if you don't see what you're looking for.
@@ -21,11 +14,11 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 
 [How do I uninstall the Git Integration Plugin for Jira app?](#UninstallandReinstall-uninstallapp)
 
-  
+
 
 * * *
 
-  
+
 
 ## **How do I reinstall the app?**
 

@@ -6,18 +6,11 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Creating branches and pull | merge requests
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/923566251/Creating+branches+and+pull+%7C+merge+requests>
-
-* * *
-
 The Git Integration for Jira app adds two features on the Jira issue developer panel –  **Create branch**, and **Create pull/merge request**. For more information on where to access them, see the [Jira Git development panel documentation](https://bigbrassband.com/git-integration-for-jira/documentation/jira-developer-panel.html).
 
 Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
 
-  
+
 **What’s on this page:**
 
 * * *

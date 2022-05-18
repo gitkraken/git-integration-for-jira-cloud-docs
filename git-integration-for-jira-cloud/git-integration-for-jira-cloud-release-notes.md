@@ -6,25 +6,18 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Git Integration for Jira Cloud - Release Notes
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/871792645/Git+Integration+for+Jira+Cloud+-+Release+Notes>
-
-* * *
-
 We publish new features, bug fixes, security updates/patches, and Jira compatibility regularly. Below are highlights of the changes.
 
 **Important links**
 
 *   [Roadmap for Git Integration for Jira Cloud](https://trello.com/b/Af64QYkE/git-integration-jira-cloud-roadmap)
-    
+
 *   [Atlassian Marketplace listing](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview)
-    
+
 *   [BigBrassBand Cloud Status](https://status.bigbrassband.com)
-    
+
 *   [BigBrassBand Cloud Security](https://bigbrassband.com/security.html)
-    
+
 
 If you have any questions, please contact us through our [Support Portal](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or by emailing [support@bigbrassband.com](mailto:support@bigbrassband.com)
 
@@ -53,13 +46,13 @@ This is a new feature that allows you to reindex individual repositories or disa
 Some new features have been brought to the Manage repositories screen such as:
 
 *   permissions
-    
+
 *   smart commits
-    
+
 *   the state of indexing triggers for webhooks
-    
+
 *   Last indexed (shows dates for the last time it was indexed)
-    
+
 
 The status field has been upgraded to be much more accurate as well as show a symbol to let you know the state of progress.
 
@@ -154,13 +147,13 @@ Using this new feature, you can now stop or pause the integration without having
 Some new features have been brought to the Manage integrations screen such as:
 
 *   permissions
-    
+
 *   smart commits
-    
+
 *   the state of indexing triggers for webhooks
-    
+
 *   Last indexed (shows dates for the last time it was indexed)
-    
+
 
 The status field has been upgraded to be much more accurate as well as show a symbol to let you know the state of progress.
 
@@ -195,15 +188,15 @@ This handy new feature we’ve included on the Manage integrations page shows th
 25 Mar 2022 IMPROVEMENT ADMINS
 
 *   Admins will be able to take advantage of a new wizard to add integrations in a streamlined fashion. The wizard features an easy 3-step setup process:
-    
+
     *   Select integration type
-        
+
     *   Select Git service
-        
+
     *   Select repositories
-        
+
     *   The wizard makes it clear to admins where they are in the process and guides them through each step to completion.
-        
+
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/add-integration.png?version=1&modificationDate=1644948694935&cacheVersion=1&api=v2&width=510&height=282)
 
@@ -229,7 +222,7 @@ There are also an array of new settings now visible from this screen such as: pe
 
 25 Mar 2022 NEW FEATURE ADMINS
 
-The “Manage Git repositories” menu item (from previous versions) has now been split into two new menu items named “Manage integrations” and “Manage repositories”.  
+The “Manage Git repositories” menu item (from previous versions) has now been split into two new menu items named “Manage integrations” and “Manage repositories”.
 Take a look at what each of these new sections entail in the following entries.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/New-menu-items.png?version=2&modificationDate=1644948507935&cacheVersion=1&api=v2&width=510&height=282)
@@ -321,15 +314,15 @@ Video (0:09):
 Development Information (branches, commits, and pull requests) are now visible in:
 
 *   [Jira Cloud iOS app](https://www.atlassian.com/software/jira/mobile-app)
-    
+
 *   [Jira Cloud Android app](https://www.atlassian.com/software/jira/mobile-app)
-    
+
 *   [Jira Cloud MacOS app](https://www.atlassian.com/software/jira/mac)
-    
+
 
 This information is visible in the native Jira Cloud development information area + the Git Integration glance where you can view branches, commits, pull requests and tags.  You can create branches and pull requests all from the above applications.
 
-  
+
 **Mobile apps**
 
 |     |     |     |

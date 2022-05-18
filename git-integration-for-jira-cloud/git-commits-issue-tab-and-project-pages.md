@@ -7,20 +7,13 @@ taxonomy:
 
 ---
 
-# Git Commits Issue Tab and Project Pages
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/138346498/Git+Commits+Issue+Tab+and+Project+Pages>
-
-* * *
-
-  
 
 **Features**
 
 *   By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Git Commits Issue and Project Tabs enabled.  ([How to disable](/wiki/pages/resumedraft.action?draftId=138346498#GitCommitsIssueTabandProjectPages-howToEnableDisable))
 *   By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Git Commits Issue and Project Tabs disabled.  ([How to enable](/wiki/pages/resumedraft.action?draftId=138346498#GitCommitsIssueTabandProjectPages-howToEnableDisable))
 
-  
+
 
 The **View developer tools** _permission_ is required to view the Git Commits Issue Tab and Projects Page. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
 
@@ -32,11 +25,11 @@ The **View developer tools** _permission_ is required to view the Git Commits Is
 *   [Change Association](/wiki/pages/resumedraft.action?draftId=138346498#GitCommitsIssueTabandProjectPages-changeassociation)
 *   [How can a Jira administrator enable or disable the Git Commits Issue Tabs and Project Page?](/wiki/pages/resumedraft.action?draftId=138346498#GitCommitsIssueTabandProjectPages-howToEnableDisable)
 
-  
+
 
 * * *
 
-  
+
 
 **Git Commits Issue Tab**
 
@@ -71,6 +64,6 @@ The Change association feature allows for updating the Jira issues associated wi
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/138346498/gitcloud-general-settings-git-commits-issue-project.png?version=1&modificationDate=1561740800896&cacheVersion=1&api=v2)
 
-  
+
 
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).

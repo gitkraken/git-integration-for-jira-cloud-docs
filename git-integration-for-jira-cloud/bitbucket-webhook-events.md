@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Bitbucket webhook events
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1921548328/Bitbucket+webhook+events>
-
-* * *
-
 GIT INTEGRATION: JIRA CLOUD
 
 The following are the supported types of Bitbucket events for triggering webhooks:
@@ -44,21 +37,21 @@ The following are the supported types of Bitbucket events for triggering webhook
 ### Other webhook type events
 
 *   Page:
-    
+
     [GitHub webhook events](/wiki/spaces/GITCLOUD/pages/1921482779/GitHub+webhook+events) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [GitLab webhook events](/wiki/spaces/GITCLOUD/pages/1922465801/GitLab+webhook+events) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Microsoft webhook events](/wiki/spaces/GITCLOUD/pages/1921876015/Microsoft+webhook+events) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [AWS CodeCommit webhook events](/wiki/spaces/GITCLOUD/pages/1922203671/AWS+CodeCommit+webhook+events) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Bitbucket webhook events](/wiki/spaces/GITCLOUD/pages/1921548328/Bitbucket+webhook+events) (Git Integration for Jira Cloud)

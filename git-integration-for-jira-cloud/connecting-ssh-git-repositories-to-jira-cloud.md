@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Connecting SSH Git Repositories to Jira Cloud
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/864288769/Connecting+SSH+Git+Repositories+to+Jira+Cloud>
-
-* * *
-
 **What’s on this page:**
 
 * * *
@@ -43,25 +36,25 @@ ssh-keygen -p -P "old_password" -N "new_password" -m pem
 ## Connecting SSH Git Repositories
 
 1.  Generate an SSH key pair as stated in the previous section.
-    
+
 2.  Obtain the Clone SSH git URL from your git host repository page.
-    
+
 3.  On your Jira Cloud dashboard, go to menu **Apps** ➜ **Git Integration: Manage Git repositories**.
-    
+
 4.  On the Limited feature connect panel, click **Git**.
-    
+
 5.  Paste the clone URL into the **Remote Git URL** field.
-    
+
 6.  Click **Next**.
-    
+
 7.  Click **Connect**.
-    
+
 8.  Paste the Private SSH key on the provided box or click **Upload Key File** to upload a private SSH key file.
-    
+
 9.  Enter the **Passphrase** of the private SSH key, if any. Otherwise, leave it blank.
-    
+
 10.  Click **Connect**.
-    
+
 
 The connected repository is listed in the git configuration page.
 

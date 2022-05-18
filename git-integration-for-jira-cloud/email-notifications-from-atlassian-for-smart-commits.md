@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Email Notifications from Atlassian for Smart Commits
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/805437441/Email+Notifications+from+Atlassian+for+Smart+Commits>
-
-* * *
-
 **What’s on this page:**
 
 ## Background
@@ -30,9 +23,9 @@ Smart Commits fail due to a wrong command.
 For some example insights:
 
 *   For a valid issue key, intentionally make an error in the smart commit command. This will cause Jira to still ensure that the command reaches the destination and will show it on the Commits tab in the Development panel.
-    
+
 *   For an invalid issue-key, the notification should be triggered for the failure of any command used.
-    
+
 
 ## Examples of Smart Commits Messages that Fail
 

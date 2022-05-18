@@ -6,16 +6,9 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Why don't I see commits? (Git Integration for Cloud)
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/110755841>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/110755841/Asset%202@5x_1.png?version=4&modificationDate=1554913758813&cacheVersion=1&api=v2)
 
-  
+
 
 JIRA ADMIN
 
@@ -39,7 +32,7 @@ Using the **Permission Helper** within Jira Cloud - verify that the user in ques
 
 The Permission Helper is available to Jira admins: Jira settings → System → Permission Helper.
 
-  
+
 
 Permissions are correct
 
@@ -101,7 +94,7 @@ Example commit messages:
 
 **MAIN-345 adding important new feature**.
 
-  
+
 
 Valid Jira issue key examples are shown in the following screenshot:
 

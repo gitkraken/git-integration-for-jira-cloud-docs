@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Initial setup guide
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/2092531714/Initial+setup+guide>
-
-* * *
-
 Congratulations! You have successfully installed Git Integration for Jira Cloud.
 
 Welcome to the initial setup guide. Follow through the topics below to get you started with git integration and linking git commits, branches and pull/merge requests to Jira issues.
@@ -38,13 +31,13 @@ Learn how to associate branches to Jira issues by following the simple steps in 
 ### More on administrator toolbox guides
 
 *   Page:
-    
+
     [Initial setup guide](/wiki/spaces/GITCLOUD/pages/2092531714/Initial+setup+guide) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Permissions](/wiki/spaces/GITCLOUD/pages/405962836/Permissions) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Productivity guide](/wiki/spaces/GITCLOUD/pages/2092236811/Productivity+guide) (Git Integration for Jira Cloud)

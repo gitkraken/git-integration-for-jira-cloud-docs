@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Jira Git integration development panel
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel>
-
-* * *
-
 This page applies to Jira Server, Jira Data Center and Jira Cloud.
 
 ## Permissions
@@ -31,11 +24,11 @@ This page applies to Jira Server, Jira Data Center and Jira Cloud.
 Git links are now available on the developer panel in the following locations:
 
 *   Issue page
-    
+
 *   Search page in detailed view
-    
+
 *   Jira Agile screen
-    
+
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025809/gitcloud-git-integration-panel.png?version=1&modificationDate=1635751417005&cacheVersion=1&api=v2&width=340&height=346)
 
@@ -60,21 +53,21 @@ This section displays the list of created pull or merge requests that are associ
 ### More related topics about Jira developer panel
 
 *   Page:
-    
+
     [Jira Git integration development panel](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Development panel locations](/wiki/spaces/GITCLOUD/pages/1923025834/Development+panel+locations) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Branches (Development panel)](/wiki/spaces/GITCLOUD/pages/1923025879) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Pull or merge requests (Development panel)](/wiki/spaces/GITCLOUD/pages/1923025925) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Git tags](/wiki/spaces/GITCLOUD/pages/1923025983/Git+tags) (Git Integration for Jira Cloud)

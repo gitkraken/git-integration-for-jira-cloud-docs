@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1343979648/Microsoft+%7C+VSTS+%7C+TFS+%7C+Azure+Repos+JMESPath+filter+examples>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1343979648/azure2.png?version=1&modificationDate=1615466245457&cacheVersion=1&api=v2&width=340&height=57)
 
 An optional JMESPath filter can be configured when adding Azure Repos integration or repositories.
@@ -39,21 +32,21 @@ An optional JMESPath filter can be configured when adding Azure Repos integratio
 ## Other examples for supported git services
 
 *   Page:
-    
+
     [GitHub.com | GitHub Enterprise JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615768/GitHub.com+%7C+GitHub+Enterprise+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [GitLab.com | GitLab CE/EE JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615801) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1343979648/Microsoft+%7C+VSTS+%7C+TFS+%7C+Azure+Repos+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Bitbucket JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615828/Bitbucket+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Gerrit JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1898020871/Gerrit+JMESPath+filter+examples) (Git Integration for Jira Cloud)

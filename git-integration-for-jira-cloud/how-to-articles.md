@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# How-to articles
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/131006702/How-to+articles>
-
-* * *
-
 Add how-to article
 
 * * *

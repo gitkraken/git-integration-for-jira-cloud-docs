@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# Web linking
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025184/Web+linking>
-
-* * *
-
 OPTIONAL
 
 The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab. Configure web linking options while editing **repository settings** (![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ _Edit integration_ | ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _Edit repository_) so that commits can include links to the git host pages.
@@ -22,52 +15,52 @@ The Git Integration for Jira Cloud app automatically configures web links for mo
 
 For single git repository integration, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/qmumdo048n) _to open this video in a new browser tab for more viewing options._  
+_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/qmumdo048n) _to open this video in a new browser tab for more viewing options._
 _(Updated video coming soon)_
 
-  
+
 The following providers are supported:
 
 *   **cgit**
-    
+
 *   **Fisheye**
-    
+
 *   **GitHub**
-    
+
 *   **Gitorious**
-    
+
 *   **gitweb**
-    
+
 *   **Beanstalk**
-    
+
 *   **CloudForge**
-    
+
 *   **Atlassian Stash**
-    
+
 *   **GitLab**
-    
+
 *   **TFS (starting v2013)**
-    
+
 *   **Azure Server**
-    
+
 *   **VSTS**
-    
+
 *   **Azure DevOps**
-    
+
 *   **Gerrit**
-    
+
 *   **Bonobo**
-    
+
 *   **AWS CodeCommit**
-    
+
 *   **Bitbucket**
-    
+
 *   **Bitbucket Server**
-    
+
 *   **Gitblit**
-    
+
 *   **Gitolite**
-    
+
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025184/gitcloud-edit-repo-cfg-web-linking-sel.png?version=2&modificationDate=1648637786816&cacheVersion=1&api=v2&width=680&height=675)
 
@@ -75,7 +68,7 @@ Select a git host from the **Web Link** list. The web linking format fields a
 
 Only configure the variables enclosed in `<>` (tags) and leave variables enclosed in `{}` (brackets) as is.
 
-  
+
 You can create several custom configuration to support other git hosting providers. The following five URLs should be configured for setup:
 
 |     |     |
@@ -93,10 +86,10 @@ Some git hosts require web linking to be configured via the Git Integration app 
 
 The Bonobo git server requires a branch name to construct URL.  Use `$convert(${branch},"/","~2")` for web linking since bonobo requires substitution of "/" with "~2" in the branch name.
 
-**For example:**  
+**For example:**
 `http://<host>/Bonobo.Git.Server/Repository/<project>/$convert(${branch},"/","~2")/Commit/${rev}`
 
-  
+
 Any Git host that is accessible via SSH, HTTP, HTTPS and git protocol is supported.
 
 Once properly configured, the **Git Commits** tab on the Jira **Issues** page will display as follows:

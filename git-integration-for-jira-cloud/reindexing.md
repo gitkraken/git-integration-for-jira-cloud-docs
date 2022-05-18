@@ -6,14 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Reindexing
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923026060/Reindexing>
-
-* * *
-
-**Permissions**  
+**Permissions**
 You must be a member of the **jira-developers** _group_ to start reindex.
 
 Synchronization between the repository and app will start automatically. However, reindexing may be required to manually start the synchronization process.
@@ -25,11 +18,11 @@ Synchronization between the repository and app will start automatically. However
 There are two ways to do this:
 
 *   To start update of all repositories, go to the **Git Integration for Jira** app git configuration page then click **Reindex All** button. Once synchronization is started, the progress will be displayed on this tab.
-    
-*   If a specific repository or integration needs to be synchronized, click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** icon then **Reindex integration/repository**.
-    
 
-**Initial Synchronization**  
+*   If a specific repository or integration needs to be synchronized, click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** icon then **Reindex integration/repository**.
+
+
+**Initial Synchronization**
 Git log entries may not immediately appear when you open _**Git Commits**_ tab right after the app installation. You need to wait until the revision indexer job completes the initial synchronization.
 
 ## Indexing Explainer for Jira Cloud

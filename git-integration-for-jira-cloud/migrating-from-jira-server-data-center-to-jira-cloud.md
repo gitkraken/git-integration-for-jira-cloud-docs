@@ -8,13 +8,6 @@ taxonomy:
 ---
 
 
-
-# Migrating from Jira Server + Data Center to Jira Cloud
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/670138387>
-
-* * *
-
 **What’s on this page:**
 
 ## ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Let us assist you with your migration to Jira Cloud!
@@ -38,13 +31,13 @@ For more information, see: [**Allowlist (whitelist) BigBrassBand Cloud**](https:
 ## ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Links
 
 *   [Git Integration Server/Data Center vs Jira Cloud](/wiki/spaces/GITCLOUD/pages/656244758) - Evaluating a move to Jira Cloud? Learn more about the similarities and differences.
-    
+
 *   [Atlassian Migration Program](https://www.atlassian.com/migration/cloud) - Leverage the Atlassian Migration Program for step-by-step migration resources, free tools, and dedicated support.
-    
+
 *   [Self-guided Server to Cloud migration guide](https://www.atlassian.com/migration/cloud/guide/introduction/overview) - Migrate to Cloud using Atlassian's step-by-step guide, tools and best practices.
-    
+
 *   [Enterprise migration guide](https://www.atlassian.com/migration/cloud/enterprise) - For teams migrating 1,000 users or more, Atlassian offers additional resources and support.
-    
+
 
 ## ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Steps to migrate
 

@@ -6,19 +6,12 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Issue Git Source Code Panel
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/138346503/Issue+Git+Source+Code+Panel>
-
-* * *
-
 Note
 
 *   By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Git Source Code Panel enabled. ([How to disable](/wiki/pages/resumedraft.action?draftId=138346503#IssueGitSourceCodePanel-howToEnableDisable))
 *   By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Git Source Code Panel disabled. ([How to enable](/wiki/pages/resumedraft.action?draftId=138346503#IssueGitSourceCodePanel-howToEnableDisable))
 
-  
+
 
 The **View developer tools** _permission_ is required to view the Git Source Code Panel. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
 
@@ -29,11 +22,11 @@ The **View developer tools** _permission_ is required to view the Git Source Cod
 *   [New Issue View & Next-gen Projects](/wiki/pages/resumedraft.action?draftId=138346503#IssueGitSourceCodePanel-newIssueView)
 *   [How can a Jira administrator enable or disable the Git Source Code Panel?](/wiki/pages/resumedraft.action?draftId=138346503#IssueGitSourceCodePanel-howToEnableDisable)
 
-  
+
 
 * * *
 
-  
+
 
 ## **Introduction**
 
@@ -44,13 +37,13 @@ The Issue Git Source Code Panel displays:
 *   Pull/Merge Requests:  Create pull/merge request function, list of pull/merge requests associated to Jira issue (Jira issue key must be in PR/MR title), status of pull/merge request
 *   Tags: git tags associated to Jira issue (via associated commit). Tags are sometimes referred to as Releases in some products.
 
-  
+
 
 **Git Source Code Panel (old issue view)**
 
 **![](https://bigbrassband.atlassian.net/wiki/download/attachments/138346503/git-cloud-oldview-source-code-panel.png?version=1&modificationDate=1561742276535&cacheVersion=1&api=v2)**
 
-  
+
 
 **Git Source Code Panel (New issue view & next-gen projects)**
 

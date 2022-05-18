@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Trusted Users
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/792002572/Trusted+Users>
-
-* * *
-
 **What's on this page:**
 
 * * *

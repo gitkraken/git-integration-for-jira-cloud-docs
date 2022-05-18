@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# How to Create Reindex Triggers for a Single Repository
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/132448361/How+to+Create+Reindex+Triggers+for+a+Single+Repository>
-
-* * *
-
 To create a webhook that triggers the reindex of a single repository, the following requirements are required::
 
 1. The **`git_http_url`** matches the **Repository Origin** URL from the Jira git configuration page (**Git** \> **Manage repositories** \> **Actions** \> **Edit integration settings**).

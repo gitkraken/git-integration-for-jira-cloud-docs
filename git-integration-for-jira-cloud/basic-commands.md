@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Basic commands
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands>
-
-* * *
-
 There are smart commits commands that you can use in your commit messages. Read on for more details on each smart commit command.
 
 ## #comment
@@ -101,25 +94,25 @@ The `#label` command will add a new label to a Jira issue. If more than one J
 ### More related topics about smart commits
 
 *   Page:
-    
+
     [Smart commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Basic commands](/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Workflow transitions](/wiki/spaces/GITCLOUD/pages/1923025389/Workflow+transitions) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Advanced examples](/wiki/spaces/GITCLOUD/pages/1923025375/Advanced+examples) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Viewing workflows](/wiki/spaces/GITCLOUD/pages/1923025415/Viewing+workflows) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Smart commits general settings](/wiki/spaces/GITCLOUD/pages/1923025462/Smart+commits+general+settings) (Git Integration for Jira Cloud)

@@ -6,21 +6,14 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Repository browser
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser>
-
-* * *
-
 The **Repository Browser** allows users to view git repositories of configured projects via the **Git** menu on the Jira dashboard.
 
 ## Getting started
 
-**Jira Cloud**  
+**Jira Cloud**
 Git Integration for Jira Cloud only has **Repository Browser:** **Compare** feature. See [Compare view](/wiki/spaces/GITCLOUD/pages/1923025590/Comparing+branches+or+tags+in+Repository+browser).
 
-**Permissions**  
+**Permissions**
 Users must have the **View Development Tools** _project permission_ in order to gain access to the **Repository Browser**. For more information on assigning Jira permissions, see [**Managing Permissions in Jira**](https://confluence.atlassian.com/display/Jira/Managing+Global+Permissions).
 
 ## Apps git integration menu
@@ -28,9 +21,9 @@ Users must have the **View Development Tools** _project permission_ in order 
 After installing the Git Integration for Jira Cloud app, the **Apps** dropdown dashboard menu will have two new commands for Git integration, namely:
 
 *   Git Integration: Manage integrations
-    
+
 *   Git Integration: Repository browser
-    
+
 
 The menu commands are hidden for all users if there are no repositories with Repository browser enabled for that user. The Git Integration for Jira Cloud app will always show these menu commands to Jira administrators.
 
@@ -45,17 +38,17 @@ Available git repositories of configured projects are displayed.
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025500/gitcloud-repo-browser-page-list.png?version=1&modificationDate=1650260840880&cacheVersion=1&api=v2)
 
 *   On the list table, you will see git repositories, recent issues updated by users, and the last commits made.
-    
+
 *   Clicking **Manage integrations** at the top right of the screen will open the git integration configuration page.
-    
+
 *   Use the search bar to look for repositories that contains the specified name.
-    
+
 *   Click on a git repository name to browse its contents. See [Repository view](#Repository-view) below.
-    
+
 *   Click on the GitKraken icon under the Actions column to view the selected repository in GitKraken git client app.
-    
+
 *   Use the page navigation at the bottom right of the list to display the next list.
-    
+
 
 ## Repository view
 
@@ -67,7 +60,7 @@ The Repository browser in Git Integration for Jira Cloud only supports displayin
 
 If the selected path is a _**root**_ of the repository and no files are present, a message will be displayed instead of an empty file list.
 
-**Administration**  
+**Administration**
 Administrators can turn on/off the repository browser feature via General settings ➜ _Jira Issue View Options_ ➜ **Show Repository browser: View all repositories, Commits and Compare pages**.
 
 [« Smart commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits)
@@ -77,17 +70,17 @@ Administrators can turn on/off the repository browser feature via General settin
 ### More related topics about repository browser
 
 *   Page:
-    
+
     [Repository browser](/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Viewing list of commits in Repository browser](/wiki/spaces/GITCLOUD/pages/1923025571/Viewing+list+of+commits+in+Repository+browser) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Comparing branches or tags in Repository browser](/wiki/spaces/GITCLOUD/pages/1923025590/Comparing+branches+or+tags+in+Repository+browser) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Repository browser general settings](/wiki/spaces/GITCLOUD/pages/1923025615/Repository+browser+general+settings) (Git Integration for Jira Cloud)

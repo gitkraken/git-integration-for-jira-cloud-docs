@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Repository browser general settings
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025615/Repository+browser+general+settings>
-
-* * *
-
 Access the repository browser setting via Jira dashboard menu Apps ➜ **Git Integration: Repository browser**. Click **General settings** on the sidebar.
 
 ## Repository browser settings
@@ -30,17 +23,17 @@ Click **Update** to save configuration changes.
 ### More related topics about repository browser
 
 *   Page:
-    
+
     [Repository browser](/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Viewing list of commits in Repository browser](/wiki/spaces/GITCLOUD/pages/1923025571/Viewing+list+of+commits+in+Repository+browser) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Comparing branches or tags in Repository browser](/wiki/spaces/GITCLOUD/pages/1923025590/Comparing+branches+or+tags+in+Repository+browser) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Repository browser general settings](/wiki/spaces/GITCLOUD/pages/1923025615/Repository+browser+general+settings) (Git Integration for Jira Cloud)

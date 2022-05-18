@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Generating SSH Keys
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923023647/Generating+SSH+Keys>
-
-* * *
-
 Configure and generate SSH keys for the following git hosting systems by following the reference links on each sub-section:
 
 |     |
@@ -47,17 +40,17 @@ Users can use HTTPS or SSH to securely connect to git repositories. HTTPS conne
 ### More related topics about SSH integration
 
 *   Page:
-    
+
     [Working with SSH keys](/wiki/spaces/GITCLOUD/pages/1923023617/Working+with+SSH+keys) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Generating SSH Keys](/wiki/spaces/GITCLOUD/pages/1923023647/Generating+SSH+Keys) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Connecting SSH Git Repositories (Jira Cloud)](/wiki/spaces/GITCLOUD/pages/1923023732) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Adding a public SSH Key](/wiki/spaces/GITCLOUD/pages/1923023758/Adding+a+public+SSH+Key) (Git Integration for Jira Cloud)

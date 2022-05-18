@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Purchase and Pricing
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/87818278/Purchase+and+Pricing>
-
-* * *
-
 This page contains related questions about trial or purchase of Git Integration for Jira app and accepted payment methods.
 
 Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=About%20purchasing%20Git%20Plugin)) if you don't see what you're looking for.
@@ -23,11 +16,11 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 
 [How do I determine the Git Integration for Jira app pricing after the trial?](#PurchaseandPricing-pricing)
 
-  
+
 
 * * *
 
-  
+
 
 ## **How do I buy this add-on?**
 
@@ -49,7 +42,7 @@ Atlassian Marketplace accepts MasterCard, Visa and American Express.  You may a
 
 There are four ways to determine the pricing:
 
-  
+
 
 **1.** Install the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=pricing) app then go to:
 

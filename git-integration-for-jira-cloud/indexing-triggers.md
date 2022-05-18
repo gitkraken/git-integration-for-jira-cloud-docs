@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Indexing Triggers
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers>
-
-* * *
-
 **What’s on this page:**
 
 * * *
@@ -24,11 +17,11 @@ Indexing triggers (webhooks) can be an extremely powerful tool that can be confi
 Webhooks can be initiated whenever certain actions are performed. For example, you can configure a webhook to execute when:
 
 *   a new commit is pushed
-    
+
 *   a pull request is opened
-    
+
 *   a branch is merged
-    
+
 
 You can create indexing triggers for individual repositories. Most git providers will also allow you to create webhooks at an account-level or org-level.
 
@@ -40,34 +33,34 @@ Without setting up indexing triggers, you will be relying on the default polling
 
 ## Getting started
 
-**Important**  
+**Important**
 To use the indexing triggers feature, it must be enabled in the Manage (Git) repositories ➜ **Indexing triggers** page.
 
 Configure indexing triggers to activate immediate reindex of your repositories from remote systems.
 
 1.  From your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Repository browser**. (_Alternatively, go to_ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira Settings ➜ Apps_).
-    
+
 2.  On the sidebar, click **Indexing triggers**. The following screen is displayed.
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171475219/gitcloud-new-webhooks-settings-page(c).png?version=1&modificationDate=1617197700707&cacheVersion=1&api=v2)
 3.  Enable/disable the indexing trigger feature by clicking on the **Indexing triggers enabled** toggle switch.
-    
+
 
 ## Where to get the indexing triggers webhook URL?
 
 The webhooks URL can be accessed on the following locations:
 
 1.  From your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Repository browser**. On the sidebar, click **Indexing triggers**. (_Alternatively, go to_ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira Settings_ ➜ _Apps**.** On the sidebar, click Indexing triggers_).
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/gitcloud-indexing-triggers-loc-01(c).png?version=1&modificationDate=1617197700714&cacheVersion=1&api=v2&width=646&height=301)
 2.  On the Manage Git repositories configuration page, click the Indexing triggers button at the top right of the page.
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/gitcloud-indexing-triggers-loc-02(c).png?version=1&modificationDate=1617197700717&cacheVersion=1&api=v2&width=646&height=414)
 3.  In the **Manage repository** page of a tracked repository — click on a repository/integration from the git configuration list. Look for the Webhook URL field.
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/git-cloud-webhook-url-repo-list-loc(c).png?version=1&modificationDate=1617197700720&cacheVersion=1&api=v2&width=646&height=206)
 4.  In the Repository Settings page of a repository in a tracked repository or a single connected repository — on the git configuration page, go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories**.
-    
+
     *   ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/git-cloud-webhook-url-repo-cfg-tracked-repos(c).png?version=1&modificationDate=1617197700722&cacheVersion=1&api=v2&width=625&height=196)
     *   ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/jira-cloud-repo-cfg-view-tracked-repo-dlg(c).png?version=1&modificationDate=1617197700725&cacheVersion=1&api=v2&width=625&height=338)
 
@@ -85,7 +78,7 @@ Copy the **Webhook URL** to the system clipboard by clicking the copy icon adjac
 | Assign your Jira base URL and Secret Key to the example URL structure: |
 | [https://gitforjiracloud.bigbrassband.com/api/1/webhook/reindex/install/](https://gitforjiracloud.bigbrassband.com/api/1/webhook/reindex/install/)**x5chdqpqln0j04xcgv02zy7h9**/**vfTmXtqIFyqeCYYS3WjLIn2RRz5rHSDO** |
 
-**HTTP Method**  
+**HTTP Method**
 All the repositories will be reindexed if the URL specified above is activated through `GET`, `POST`, or `PUT` and the webhooks are enabled.
 
 There is no support for other HTTP methods such as `DELETE` or `HEAD`. 
@@ -101,11 +94,11 @@ _Right click_ [_here_](https://bigbrassband.wistia.net/medias/4o796wnrdx) _to op
 There are three (3) levels of webhook url:
 
 1.  Install level
-    
+
 2.  Integration Level
-    
+
 3.  Repository level
-    
+
 
 Each level references which webhook URL was utilized to configure the webhook:
 
@@ -129,33 +122,33 @@ For indexing to trigger, the repository URL that arrives in the webhook payload 
 ## More indexing triggers recommended topics
 
 *   Page:
-    
+
     [Creating indexing triggers for a single repository](/wiki/spaces/GITCLOUD/pages/171213231/Creating+indexing+triggers+for+a+single+repository) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Adding webhooks for GitHub repository](/wiki/spaces/GITCLOUD/pages/171377213/Adding+webhooks+for+GitHub+repository) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Adding webhooks for GitLab repository](/wiki/spaces/GITCLOUD/pages/171377217/Adding+webhooks+for+GitLab+repository) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Webhook GitHub Organization support](/wiki/spaces/GITCLOUD/pages/171278791/Webhook+GitHub+Organization+support) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Adding webhooks for Azure DevOps Repos | VSTS](/wiki/spaces/GITCLOUD/pages/172294150/Adding+webhooks+for+Azure+DevOps+Repos+%7C+VSTS) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Adding webhooks for Azure DevOps Server | TFS](/wiki/spaces/GITCLOUD/pages/234782736/Adding+webhooks+for+Azure+DevOps+Server+%7C+TFS) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Adding webhooks for Bitbucket Cloud](/wiki/spaces/GITCLOUD/pages/467271681/Adding+webhooks+for+Bitbucket+Cloud) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Adding webhooks to AWS CodeCommit](/wiki/spaces/GITCLOUD/pages/864288787/Adding+webhooks+to+AWS+CodeCommit) (Git Integration for Jira Cloud)

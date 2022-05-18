@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Known Issues
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/591986707/Known+Issues>
-
-* * *
-
 The Git Integration for Jira app is packed with features that makes Jira administrators and developers happy. However, with different hardware configurations out there, these great features can also become burdened by issues.
 
 Below are the Git Integration app known issues and workarounds:

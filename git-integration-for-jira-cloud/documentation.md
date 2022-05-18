@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Documentation
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923022940/Documentation>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923022940/git-for-jira-landing-pages-title-banner.png?version=1&modificationDate=1630063533036&cacheVersion=1&api=v2&width=660&height=159)
 
 This documentation guide covers the release version for Git Integration for Jira Cloud shipped on 25 Mar 2022.
@@ -23,7 +16,7 @@ Click on the next topic below to know more about the Git Integration app's admin
 
  Search
 
-   
+
 
 |     |
 | --- |

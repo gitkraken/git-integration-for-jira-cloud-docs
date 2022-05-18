@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Email Support
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/91947266/Email+Support>
-
-* * *
-
 If you need help with the Git Integration for Jira app, please e-mail us: [support@bigbrassband.com](mailto:support@bigbrassband.com).
 
 Please include information about:

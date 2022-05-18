@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# Using the Single git integration wizard
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923024154/Using+the+Single+git+integration+wizard>
-
-* * *
-
 Connect specific single git repositories to Jira by performing the following steps:
 
 ## Getting started
@@ -52,16 +45,16 @@ For establishing safety connection with SSH, upload a public Key to the SSH serv
 
 Take note that the SSH server is the Git server (git service such as GitHub, GitLab etc.); and the SSH client is the Jira server (in this case, the Jira Cloud instance).
 
-**SSH**  
+**SSH**
 When setting up repositories with the Git Integration app, you need to have the necessary access permissions on the private key in the Git server to proceed.
 
 If the [generated SSH key pair](/wiki/spaces/GITCLOUD/pages/1923023617/Working+with+SSH+keys) has a passphrase, enter the _**Passphrase**_ for your private key.
 
-  
+
 **Step 3** – Click **Add integration** to complete this setup.
 
-Finally, after completing the setup, the wizard will index the git repository to build change history. This completes the setup and the newly added repository appears on the integration list in the Manage integrations page.  
-  
+Finally, after completing the setup, the wizard will index the git repository to build change history. This completes the setup and the newly added repository appears on the integration list in the Manage integrations page.
+
 
 [« Using the Git service integration wizard](/wiki/spaces/GITCLOUD/pages/1923024112/Using+the+Git+service+integration+wizard)
 
@@ -70,17 +63,17 @@ Finally, after completing the setup, the wizard will index the git repository to
 ### More topics about setting up integration
 
 *   Page:
-    
+
     [Git integration configuration page](/wiki/spaces/GITCLOUD/pages/1923024023/Git+integration+configuration+page) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Using the Git service integration wizard](/wiki/spaces/GITCLOUD/pages/1923024112/Using+the+Git+service+integration+wizard) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Using the Single git integration wizard](/wiki/spaces/GITCLOUD/pages/1923024154/Using+the+Single+git+integration+wizard) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Managing integration or repository configuration](/wiki/spaces/GITCLOUD/pages/1923024455/Managing+integration+or+repository+configuration) (Git Integration for Jira Cloud)

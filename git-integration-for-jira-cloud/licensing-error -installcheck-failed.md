@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Licensing error - installCheck failed
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/420282445/Licensing+error+-+installCheck+failed>
-
-* * *
-
 ## Problem
 
 Occasionally when the Git Integration for Jira Cloud app is installed - the licensing fails to fully provision.
@@ -32,15 +25,15 @@ Jira administrators and users will see a message similar to the one below.
 Most users can resolve this issue on their own by re-installing the app.
 
 1.  Navigate to the **Manage Apps** screen
-    
+
 2.  Locate and expand the **Git Integration for Jira Cloud** app
-    
+
 3.  Prior to uninstalling the app - you must **Stop trial\***
-    
+
 4.  Proceed to **Uninstall** the app
-    
+
 5.  Install the **Git Integration for Jira** app
-    
+
 
 |     |
 | --- |
@@ -54,41 +47,41 @@ If you still have a question - reach out to our [Support Desk](https://bigbrass
 ## Related articles
 
 *   Page:
-    
+
     [Why don't I see commits? (Git Integration for Cloud)](/wiki/spaces/GITCLOUD/pages/110755841) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Repositories missing from Azure DevOps (or VSTS) integration](/wiki/spaces/GITCLOUD/pages/421462017/Repositories+missing+from+Azure+DevOps+%28or+VSTS%29+integration) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Licensing error - installCheck failed](/wiki/spaces/GITCLOUD/pages/420282445/Licensing+error+-+installCheck+failed) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Why don't I see the Create branch or pull request features?](/wiki/spaces/GITCLOUD/pages/421593107) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Connection error for self-hosted git servers](/wiki/spaces/GITCLOUD/pages/419659840/Connection+error+for+self-hosted+git+servers) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [SSH key file format is invalid](/wiki/spaces/GITCLOUD/pages/421363756/SSH+key+file+format+is+invalid) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Error while reindexing - Java heap space / Object too large, rejecting the pack](/wiki/spaces/GITCLOUD/pages/421462043) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [OAuth connection error or error 401 page with Azure DevOps integration](/wiki/spaces/GITCLOUD/pages/420282493/OAuth+connection+error+or+error+401+page+with+Azure+DevOps+integration) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [OAuth connection error or error 401 page with Azure DevOps with Active Directory integration](/wiki/spaces/GITCLOUD/pages/421527629/OAuth+connection+error+or+error+401+page+with+Azure+DevOps+with+Active+Directory+integration) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Empty list of repositories after integration of Azure Repos](/wiki/spaces/GITCLOUD/pages/421298248/Empty+list+of+repositories+after+integration+of+Azure+Repos) (Git Integration for Jira Cloud)

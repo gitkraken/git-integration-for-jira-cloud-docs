@@ -6,24 +6,17 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Frequently Asked Questions
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/86966392/Frequently+Asked+Questions>
-
-* * *
-
 Find answers to questions asked by Git Integration for Jira app users, workarounds and solutions to help you get up and running.  Click a topic title to view its contents.
 
-  
+
 
  Search
 
-   
 
-  
 
-  
+
+
+
 
 Add troubleshooting article
 

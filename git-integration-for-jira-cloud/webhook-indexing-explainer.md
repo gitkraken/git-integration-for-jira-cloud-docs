@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Webhook Indexing Explainer
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1422819484/Webhook+Indexing+Explainer>
-
-* * *
-
 The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/4984) app now offers a new type of integration: **Webhook Indexing**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1422819484/CleanShot2021-03-26%20at%2021.37.36@2x-20210327-013823.png?version=1&modificationDate=1616809113344&cacheVersion=1&api=v2)
@@ -52,23 +45,23 @@ Webhook indexing for Gerrit FEATURE COMING SOON
 Each git server is different, but generally the webhooks sent by leading git server vendors such as GitHub, GitLab, and Azure DevOps include the following:
 
 *   Repository URL
-    
+
 *   Repository name
-    
+
 *   Commit URL
-    
+
 *   Commit author name
-    
+
 *   Commit author email
-    
+
 *   Commit SHA
-    
+
 *   Commit message
-    
+
 *   Files changed
-    
+
 *   and other meta-data
-    
+
 
 Webhook payloads by the leading git server vendors **do not include source code**.
 
@@ -103,13 +96,13 @@ See: [Security & Trust](https://bigbrassband.com/security-and-trust.html)
 ### 10\. What are the limitations of Webhook indexing?
 
 *   Webhook indexing relies on git server webhook sending which are only sent for new activity. This means that previous pushes containing commit, branch, and pull request activity cannot be resent. Historical repository information is not available through Webhook indexing.
-    
+
 *   Git servers have a variety of webhook sending behaviors. GitHub will limit a webhook to 1000 commits in a single push. Azure DevOps limits a webhook to 25 commits in a single push. GitLab limits a webhook to 20 commits in a single push. We recommend communicating these limitations to developers on your teams.
-    
+
 *   Because no source code is included in the webhook payload, the code review capabilities available in Classic Indexing integrations are not available.
-    
+
 *   For more - see [Feature matrix of Git Integration for Jira Cloud](/wiki/spaces/GITCLOUD/pages/1470398499/Feature+matrix+of+Git+Integration+for+Jira+Cloud).
-    
+
 
 ### 11\. I have more questions about Webhook indexing
 

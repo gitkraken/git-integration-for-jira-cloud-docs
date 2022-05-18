@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Feature matrix of Git Integration for Jira Cloud
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1470398499/Feature+matrix+of+Git+Integration+for+Jira+Cloud>
-
-* * *
-
 See also [Feature Comparison](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/656244758/Git+Integration+Server+Data+Center+vs+Jira+Cloud+-+Feature+Comparison) for information on features and differences between Git Integration for Server/Data Center versus Git Integration for Jira Cloud.
 
 The [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app offers a variety of integration options and features. The below matrix explains which features are offered when using a specific type of integration. For any questions, contact [BigBrassBand Support](https://bigbrassband.atlassian.net/servicedesk/customer/portals/).

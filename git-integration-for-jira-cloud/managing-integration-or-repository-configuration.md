@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Managing integration or repository configuration
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923024455/Managing+integration+or+repository+configuration>
-
-* * *
-
 After successfully integrating the git host service or connecting the git repositories via Git Integration for Jira app, modify integration or repository settings depending on the connection protocol of the repository or integration.
 
 ## Getting started
@@ -59,7 +52,7 @@ Manage connected integration or repositories via the ![(blue star)](/wiki/s/-16
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923024455/gitcloud-managed-ui-manage-integrations-actions-sel.png?version=1&modificationDate=1648187125452&cacheVersion=1&api=v2)
 
-##   
+##
 
 [« Self-signed HTTPS integration](/wiki/spaces/GITCLOUD/pages/1923024386/Self-signed+HTTPS+integration)
 
@@ -68,37 +61,37 @@ Manage connected integration or repositories via the ![(blue star)](/wiki/s/-16
 ### More topics about managing repository/integration configuration
 
 *   Page:
-    
+
     [Managing integration or repository configuration](/wiki/spaces/GITCLOUD/pages/1923024455/Managing+integration+or+repository+configuration) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Managing integrations via Actions (Jira Cloud)](/wiki/spaces/GITCLOUD/pages/1923024517) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Edit integration](/wiki/spaces/GITCLOUD/pages/1923024559/Edit+integration) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [SSL Verify](/wiki/spaces/GITCLOUD/pages/1923024654/SSL+Verify) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Viewing indexing properties (Jira Cloud)](/wiki/spaces/GITCLOUD/pages/1923024741) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Removing integration or repository configuration](/wiki/spaces/GITCLOUD/pages/1923024762/Removing+integration+or+repository+configuration) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Associating project permissions](/wiki/spaces/GITCLOUD/pages/1923024786/Associating+project+permissions) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Edit repository](/wiki/spaces/GITCLOUD/pages/1977384961/Edit+repository) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [View repository indexing logs](/wiki/spaces/GITCLOUD/pages/2013626625/View+repository+indexing+logs) (Git Integration for Jira Cloud)

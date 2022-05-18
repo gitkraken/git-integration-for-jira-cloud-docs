@@ -6,17 +6,10 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Jira user information card
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025668/Jira+user+information+card>
-
-* * *
-
 The Jira user card is available on the following screens:
 
 *   Jira issue → Developer panel (_Assignee / Reporter_)
-    
+
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025668/git-user-profile.png?version=2&modificationDate=1635332991431&cacheVersion=1&api=v2&width=340&height=270)
 

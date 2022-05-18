@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Working with SSH keys
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923023617/Working+with+SSH+keys>
-
-* * *
-
 SSH keys are required in order to provide secure connection with the remote git host. The Git Integration for Jira app uses one set of keys for accessing all configured repositories.
 
 Follow this guide if you are one of the users who are limited to or wanted to use SSH to securely connect to your git repositories.
@@ -30,22 +23,22 @@ For establishing safety connection with SSH, upload a **public key** to the SS
 In this case, the SSH server is the Git server and the SSH client is the Jira server. Therefore:
 
 *   Git server — public key
-    
+
 *   Jira server — private key
-    
+
 
 Note that Git Integration for Jira app SSH key:
 
 *   must not be created using the OpenSSH format.
-    
-*   must be the private key.
-    
-*   must use the supported certificate format: RSA.
-    
-*   must use the supported storage format: OpenSSL PEM.
-    
 
-\------------------------------------------------------------------------------------------------------------  
+*   must be the private key.
+
+*   must use the supported certificate format: RSA.
+
+*   must use the supported storage format: OpenSSL PEM.
+
+
+\------------------------------------------------------------------------------------------------------------
 For more information, see known issue [SSH key format is invalid](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/421363756/SSH+key+file+format+is+invalid).
 
 |     |
@@ -65,61 +58,61 @@ For more information, see known issue [SSH key format is invalid](https://bigbr
 ### More related topics about SSH integration
 
 *   Page:
-    
+
     [Working with SSH keys](/wiki/spaces/GITCLOUD/pages/1923023617/Working+with+SSH+keys) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Generating SSH Keys](/wiki/spaces/GITCLOUD/pages/1923023647/Generating+SSH+Keys) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Connecting SSH Git Repositories (Jira Cloud)](/wiki/spaces/GITCLOUD/pages/1923023732) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Adding a public SSH Key](/wiki/spaces/GITCLOUD/pages/1923023758/Adding+a+public+SSH+Key) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Working with SSH keys](/wiki/spaces/GITSERVER/pages/1923027331/Working+with+SSH+keys) (Git Integration for Jira Server)
-    
+
 *   Page:
-    
+
     [Generating SSH keys](/wiki/spaces/GITSERVER/pages/1923027361/Generating+SSH+keys) (Git Integration for Jira Server)
-    
+
 *   Page:
-    
+
     [Adding a private SSH key](/wiki/spaces/GITSERVER/pages/1923027446/Adding+a+private+SSH+key) (Git Integration for Jira Server)
-    
+
 *   Page:
-    
+
     [Adding a public SSH Key](/wiki/spaces/GITSERVER/pages/1923745275/Adding+a+public+SSH+Key) (Git Integration for Jira Server)
-    
+
 *   Page:
-    
+
     [SSH keys configuration](/wiki/spaces/GITSERVER/pages/1923745291/SSH+keys+configuration) (Git Integration for Jira Server)
-    
+
 *   Page:
-    
+
     [Adding and associating SSH keys](/wiki/spaces/GITSERVER/pages/1923745314/Adding+and+associating+SSH+keys) (Git Integration for Jira Server)
-    
+
 *   Page:
-    
+
     [Removing SSH keys](/wiki/spaces/GITSERVER/pages/1923031128/Removing+SSH+keys) (Git Integration for Jira Server)
-    
+
 *   Page:
-    
+
     [Reconfigure Git repositories and SSH keys](/wiki/spaces/GITSERVER/pages/1923031158/Reconfigure+Git+repositories+and+SSH+keys) (Git Integration for Jira Server)
-    
+
 *   Page:
-    
+
     [Working with SSH keys](/wiki/spaces/GIJDC/pages/1930396577/Working+with+SSH+keys) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Generating SSH keys](/wiki/spaces/GIJDC/pages/1930396609/Generating+SSH+keys) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding a private SSH key](/wiki/spaces/GIJDC/pages/1930396698/Adding+a+private+SSH+key) (Git Integration for Jira Data Center)

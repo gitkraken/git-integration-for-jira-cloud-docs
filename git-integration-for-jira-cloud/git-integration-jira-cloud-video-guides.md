@@ -6,22 +6,15 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Git Integration (Jira Cloud): Video Guides
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/92242272/Git+Integration+%28Jira+Cloud%29%3A+Video+Guides>
-
-* * *
-
 On this page, you will find videos showcasing important features of the app such as installation, connecting supported git hosts and viewing git commits from Jira Cloud.
 
 Get started with connecting your favorite git host to Jira Cloud now!
 
-  
+
 
 **INSTALLATION**
 
-  
+
 
 **[Installation with Jira 7 »](https://bigbrassband.wistia.com/medias/lr0jp6ntfd)**
 
@@ -39,7 +32,7 @@ Learn how automatic and manual updating of Git Integration for Jira Cloud app �
 
 Familiarize quick steps on how to associate git commits to Jira issues in Jira Cloud.
 
-  
+
 
 **ADMINISTRATION**
 
@@ -51,13 +44,13 @@ Learn how to set project permissions with View Development Tools. The "View Deve
 
 Learn how to create branches, merge/pull requests by watching this video. These steps is also applicable to supported git hosts such as GitLab, GitHub, VSTS, TFS, etc.
 
-  
+
 
 **INTEGRATION**
 
 Quick and easy! Learn about the basics of integrating git repositories to Jira Cloud and associating git commits to a Jira issue. Click on a link to see specific steps for the selected git host.
 
-  
+
 
 **[GitHub.com »](https://bigbrassband.wistia.com/medias/8jtnqzp79y)**
 
@@ -83,7 +76,7 @@ Quick and easy! Learn about the basics of integrating git repositories to Jira C
 
 **[HTTPS/HTTP/SSH »](https://bigbrassband.wistia.com/medias/bu0wamg1fx)**
 
-  
+
 
 **CUSTOMIZATION**
 
@@ -103,7 +96,7 @@ Learn how to configure webhooks for GitLab git hosts.
 
 Learn how to configure webhooks for GitHub git hosts.
 
-  
+
 
 **SUPPORT**
 

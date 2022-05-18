@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-# Smart Commits Overview
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/109314182/Smart+Commits+Overview>
-
-* * *
-
-  
 
 Git Integration for Jira. See Git commits in Jira.
 
@@ -43,7 +36,7 @@ _<ignored text>_ 
 
 _<optional command\_params>_
 
-  
+
 
 Using the format above, the smart commit structure will actually look like this:
 
@@ -59,7 +52,7 @@ fixed bug 
 
 Bug fixes 
 
-  
+
 
 In the above example, the commit is associated to **TST-123**, adds the comment "fixed bug" to the **Issue** > **Comment** tab, logs the time of 1 hour and 30 minutes with worklog comment "Bug fixes" to the Jira issue.
 
@@ -69,25 +62,25 @@ TST-1 
 
 implemented feature 1
 
-  
+
 
 #comment 
 
 some comment
 
-  
+
 
 in Jira
 
-  
+
 
 on several lines
 
-  
+
 
 #resolve
 
-  
+
 
 TST-2 
 
@@ -95,7 +88,7 @@ TST-2 
 
 1h 30m 
 
-  
+
 
 The above example is a valid multi-line commit message.
 
@@ -113,19 +106,19 @@ admin@example.com user1@example.com requested-feature new-feature 
 
 Return email when implemented
 
-  
+
 
 **In the above example:** 
 
 The labels **admin@example.com**, **user1@example.com**, **requested-feature** and **new-feature** are applied to Jira issues **GITCL-443**, **GITCL-247** and **GITCL-214**. Also, the comment is added to each of the mentioned Jira issues.
 
-  
 
-  
+
+
 
 * * *
 
-  
+
 
 ## **Workflow Transitions**
 
@@ -137,7 +130,7 @@ The name of the status is the transition.  So, for the example above, the valid
 *   **#in-progress**
 *   **#in-review**
 
-  
+
 
 ### **Viewing Workflows**
 
@@ -147,13 +140,13 @@ The name of the status is the transition.  So, for the example above, the valid
 
 ![](https://bigbrassband.com/docimgs/jira-workflow-hover.png)
 
-  
+
 
 * * *
 
 ## **Smart Commits General Setting**
 
-  
+
 
 ![General Settings smart commits max age](https://bigbrassband.com/docimgs/gen-cfg-smart-commits-max-age.png)
 
@@ -162,47 +155,47 @@ The name of the status is the transition.  So, for the example above, the valid
 | Max commit age |
 | JIRA CLOUD  DEV INFO<br><br>This setting is a hidden feature in Git Integration for Jira Cloud and Dev Info for Jira Cloud.  All commits which are older than this setting (in seconds) shall be ignored for smart commits processing.<br><br>The default value is **1209600** seconds (14 days). |
 
-  
+
 
 * * *
 
-  
+
 
 ## **Did You Know?**
 
-  
 
-  
+
+
 
 Jira User
 
 The committers’ email address in the git configuration must match with the email address of the corresponding Jira user (or vice versa) for the smart commit to work.
 
-  
+
 
 Project Permissions
 
 The Jira user must have the appropriate project permissions to transition issues.
 
-  
+
 
 Workflow Transition
 
 When you hover a status on the Issue Workflow - it will highlight available transitions.  This is the transition name that is used in Smart Commits.
 
-  
+
 
 Email Notifications
 
 If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user cannot be identified.
 
-  
+
 
 Transition Names
 
 To avoid conflict when transitioning issues, give a unique name to a workflow transition.
 
-  
+
 
 Multi-line Commits
 
@@ -210,7 +203,7 @@ The Git Integration for Jira app, support for multi-line commit messages for Sma
 
 [Related topic »](/wiki/pages/resumedraft.action?draftId=109314182#SmartCommitsOverview-Developer-handlemultikeys)
 
-  
+
 
 Smart Commit Status
 

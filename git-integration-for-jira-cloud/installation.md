@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Installation
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923023014/Installation>
-
-* * *
-
 Install our product via the Atlassian Marketplace or Jira Plugin Manager.
 
 ## Getting started
@@ -30,9 +23,9 @@ _Right click_ [**here**](https://bigbrassband.wistia.com/medias/m9u64t1a3h) _to 
 ### More topics about Git Integration for Jira app installation
 
 *   Page:
-    
+
     [Installation via Atlassian Marketplace](/wiki/spaces/GITCLOUD/pages/1923023030/Installation+via+Atlassian+Marketplace) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Installation via Jira Plugin Manager](/wiki/spaces/GITCLOUD/pages/1923023056/Installation+via+Jira+Plugin+Manager) (Git Integration for Jira Cloud)
