@@ -36,7 +36,7 @@ Learn how to associate branches to Jira issues by following the simple steps in 
 
 *   Page:
 
-    [Permissions](/wiki/spaces/GITCLOUD/pages/405962836/Permissions) (Git Integration for Jira Cloud)
+    [Permissions](/git-integration-for-jira-cloud/Permissions) (Git Integration for Jira Cloud)
 
 *   Page:
 

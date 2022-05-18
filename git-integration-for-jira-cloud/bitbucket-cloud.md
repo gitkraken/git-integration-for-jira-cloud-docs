@@ -183,4 +183,4 @@ page icon as list [Integrate Azure DevOps Server/TFS with Jira Cloud](/wiki/spac
 
 page icon as list [Integrate AWS CodeCommit with Jira Cloud](/git-integration-for-jira-cloud/AWS-CodeCommit)
 
-page icon as list [Integrate Gerrit with Jira Cloud](/wiki/spaces/GITCLOUD/pages/86474926/Gerrit)
+page icon as list [Integrate Gerrit with Jira Cloud](/git-integration-for-jira-cloud/Gerrit)

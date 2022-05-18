@@ -26,7 +26,7 @@ Learn how to set and fire up [**Git integration + Automation for Jira**](/wiki/s
 
 *   Page:
 
-    [Permissions](/wiki/spaces/GITCLOUD/pages/405962836/Permissions) (Git Integration for Jira Cloud)
+    [Permissions](/git-integration-for-jira-cloud/Permissions) (Git Integration for Jira Cloud)
 
 *   Page:
 

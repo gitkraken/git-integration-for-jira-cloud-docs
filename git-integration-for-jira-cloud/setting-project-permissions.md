@@ -92,7 +92,7 @@ _Right click_ [_here_](https://bigbrassband.wistia.com/medias/xvzj32nxou) _to op
 
 *   Page:
 
-    [Permissions](/wiki/spaces/GITCLOUD/pages/405962836/Permissions) (Git Integration for Jira Cloud)
+    [Permissions](/git-integration-for-jira-cloud/Permissions) (Git Integration for Jira Cloud)
 
 *   Page:
 

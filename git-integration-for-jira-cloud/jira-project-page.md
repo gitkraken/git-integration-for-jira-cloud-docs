@@ -25,4 +25,4 @@ History of commits can also be viewed within the whole project scope. To do this
 
 [« Git tags](/git-integration-for-jira-cloud/Git-tags)
 
-[Reindexing »](/wiki/spaces/GITCLOUD/pages/1923026060/Reindexing)
+[Reindexing »](/git-integration-for-jira-cloud/Reindexing)

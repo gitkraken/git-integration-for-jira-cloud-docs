@@ -57,7 +57,7 @@ Classic indexing refers to an internal process which runs in a set amount of tim
 
 Webhook indexing refers to automatic indexing designed to record changes in a timely manner for all types of repositories resulting in immediate reindex times. For more information on how this works, see [Webhook indexing explainer](/wiki/spaces/GITCLOUD/pages/1422819484/Webhook+Indexing+Explainer).
 
-[« Installation](/wiki/spaces/GITCLOUD/pages/1923023014/Installation)
+[« Installation](/git-integration-for-jira-cloud/Installation)
 
 [Setup GitLab Server to respond to incoming network API calls »](/wiki/spaces/GITCLOUD/pages/1923023297/Setup+GitLab+Server+to+respond+to+incoming+network+API+calls)
 

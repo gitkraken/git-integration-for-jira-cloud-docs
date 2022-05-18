@@ -20,8 +20,8 @@ Click on the next topic below to know more about the Git Integration app's admin
 
 |     |
 | --- |
-| ### [Introduction](/wiki/spaces/GITCLOUD/pages/1923022977/Introduction)<br><br>Learn the basic requirements to install the app.<br><br>See also [App platform and system permission requirements](/wiki/spaces/GITCLOUD/pages/405962836/Permissions). |
-| ### [Installation](/wiki/spaces/GITCLOUD/pages/1923023014/Installation)<br><br>Learn how to install the Git Integration for Jira app. The app supports UPM for automatic installation, manual installation or install via upload. |
+| ### [Introduction](/git-integration-for-jira-cloud/Introduction)<br><br>Learn the basic requirements to install the app.<br><br>See also [App platform and system permission requirements](/git-integration-for-jira-cloud/Permissions). |
+| ### [Installation](/git-integration-for-jira-cloud/Installation)<br><br>Learn how to install the Git Integration for Jira app. The app supports UPM for automatic installation, manual installation or install via upload. |
 | ### [Getting started for Git administrators](/wiki/spaces/GITCLOUD/pages/1923023183/Getting+started+for+Git+administrators)<br><br>Learn configuration and troubleshooting information for Jira and Git administrators. |
 | ### [Working with SSH keys](/wiki/spaces/GITCLOUD/pages/1923023617/Working+with+SSH+keys)<br><br>Learn how to integrate git repositories using SSH keys via Git Integration for Jira app. |
 | ### [Git URL Ports](/wiki/spaces/GITCLOUD/pages/1937965122/Git+URL+Ports)<br><br>Learn how to configure the firewall to allow access using the URL schemes for git repositories. |
@@ -38,7 +38,7 @@ Click on the next topic below to know more about the Git Integration app's admin
 | ### [Jira Git integration development panel](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel)<br><br>The git links are added to the developer panel; create branches and pull/merge requests via the Jira issue page, etc. |
 | ### [Git tags](/git-integration-for-jira-cloud/Git-tags)<br><br>See git tags support information and how to work with them. |
 | ### [Jira project page](/wiki/spaces/GITCLOUD/pages/1923026027/Jira+project+page)<br><br>The Git Commits tab is added to the Jira project page. See more information about this feature. |
-| ### [Reindexing](/wiki/spaces/GITCLOUD/pages/1923026060/Reindexing)<br><br>Learn more about reindex, REST API, configuration and performance tuning. |
+| ### [Reindexing](/git-integration-for-jira-cloud/Reindexing)<br><br>Learn more about reindex, REST API, configuration and performance tuning. |
 | ### [Indexing triggers (formerly Webhooks)](/wiki/spaces/GITCLOUD/pages/1923026143)<br><br>This page contains information on how to configure webhooks with Git Integration for Jira app and specific git hosts. |
 | ### [Localization support](/git-integration-for-jira-cloud/Localization-support)<br><br>View localization support for Git Integration for Jira app. |
 | ### [Glossary of terms](/wiki/spaces/GITCLOUD/pages/1923026202/Glossary+of+terms)<br><br>Documentation terms or glossary. |

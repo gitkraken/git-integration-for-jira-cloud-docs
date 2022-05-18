@@ -46,6 +46,6 @@ See [About indexing triggers in Jira Cloud](/git-integration-for-jira-cloud/Inde
 
 For more information about triggers and event types, see [Creating reindex triggers for a single repository](/wiki/spaces/GITCLOUD/pages/171213231/Creating+indexing+triggers+for+a+single+repository).
 
-[« Reindexing](/wiki/spaces/GITCLOUD/pages/1923026060/Reindexing)
+[« Reindexing](/git-integration-for-jira-cloud/Reindexing)
 
 [Localization support »](/git-integration-for-jira-cloud/Localization-support)

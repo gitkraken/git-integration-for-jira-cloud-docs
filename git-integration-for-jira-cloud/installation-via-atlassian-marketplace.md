@@ -25,7 +25,7 @@ taxonomy:
 5.  Start integrating your repositories with Git Integration for Jira Cloud app.
 
 
-[« Installation (index)](/wiki/spaces/GITCLOUD/pages/1923023014/Installation)
+[« Installation (index)](/git-integration-for-jira-cloud/Installation)
 
 [Installation via Jira Plugin Manager »](/wiki/spaces/GITCLOUD/pages/1923023056/Installation+via+Jira+Plugin+Manager)
 

@@ -45,19 +45,19 @@ Currently there are not automatic steps to migrate from Jira Server + Data Cente
 
 *   Create a **test** Jira Cloud instance. See below note.
 *   Install [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) on a test Jira Cloud instance
-*   Verify self-hosted git servers have a a publicly addressable + rout-able address. For more information, see [Whitelist BigBrassBand Cloud](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/121241614/).
-*   Configure your git repositories via Full feature integrations or single, plain git repositories. For guides on connecting git servers + repositories to Jira Cloud, see [Integration Guide](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/82378780/)
+*   Verify self-hosted git servers have a a publicly addressable + rout-able address. For more information, see [Whitelist BigBrassBand Cloud](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/).
+*   Configure your git repositories via Full feature integrations or single, plain git repositories. For guides on connecting git servers + repositories to Jira Cloud, see [Integration Guide](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/)
 
 *   Connect GitHub.com to Jira Cloud - see guide: [GitHub.com](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/)
-*   Connect GitHub Enterprise to Jira Cloud - see guide: [GitHub Enterprise](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/85622870/)
-*   Connect GitLab.com to Jira Cloud - see guide: [GitLab.com](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/85622895/)
+*   Connect GitHub Enterprise to Jira Cloud - see guide: [GitHub Enterprise](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/)
+*   Connect GitLab.com to Jira Cloud - see guide: [GitLab.com](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/)
 *   Connect GitLab CE/EE to Jira Cloud - see guide: [GitLab CE/EE](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/)
-*   Connect AWS CodeCommit to Jira Cloud - see guide: [AWS CodeCommit](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/86180077/)
-*   Connect Bitbucket Cloud to Jira Cloud - see guide: [Bitbucket Cloud](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/86343820/)
-*   Connect Microsoft Azure DevOps (Cloud) to Jira Cloud - see guide: [Azure DevOps | Visual Studio Team Services (VSTS)](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/86278279/)
-*   Connect Microsoft Visual Studio Team Services (VSTS) to Jira Cloud - see guide: [Azure DevOps | Visual Studio Team Services (VSTS)](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/86278279/)
-*   Connect Microsoft Azure DevOps Server to Jira Cloud - see guide: [Azure DevOps Server | Team Foundation Services (TFS)](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/86409345/)
-*   Connect Microsoft Azure Team Foundation Server (TFS) to Jira Cloud - see guide: [Azure DevOps Server | Team Foundation Services (TFS)](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/86409345/)
+*   Connect AWS CodeCommit to Jira Cloud - see guide: [AWS CodeCommit](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/)
+*   Connect Bitbucket Cloud to Jira Cloud - see guide: [Bitbucket Cloud](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/)
+*   Connect Microsoft Azure DevOps (Cloud) to Jira Cloud - see guide: [Azure DevOps | Visual Studio Team Services (VSTS)](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/)
+*   Connect Microsoft Visual Studio Team Services (VSTS) to Jira Cloud - see guide: [Azure DevOps | Visual Studio Team Services (VSTS)](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/)
+*   Connect Microsoft Azure DevOps Server to Jira Cloud - see guide: [Azure DevOps Server | Team Foundation Services (TFS)](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/)
+*   Connect Microsoft Azure Team Foundation Server (TFS) to Jira Cloud - see guide: [Azure DevOps Server | Team Foundation Services (TFS)](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/)
 *   Connect Gerrit to Jira Cloud - see guide: [Gerrit](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/86474926/Gerrit/)
 
 *   Once indexing is completed, verify Jira issues are showing commits, branches, and pull requests as expected.

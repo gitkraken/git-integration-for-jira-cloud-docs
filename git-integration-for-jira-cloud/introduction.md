@@ -26,7 +26,7 @@ The Git Integration for Jira app is available for Jira Server, Data Center and C
 
 Click on a topic on the sidebar or continue immediately to the next article by clicking the next topic link at the bottom of the page.
 
-For permissions requirement, see [App platform and system permissions requirement](/wiki/spaces/GITCLOUD/pages/405962836/Permissions).
+For permissions requirement, see [App platform and system permissions requirement](/git-integration-for-jira-cloud/Permissions).
 
 **Browser Compatibility**
 Atlassian has released mobile app versions of their Jira software.
@@ -40,4 +40,4 @@ For more information, see [**Atlassian Jira Cloud Supported Browsers**](https:/
 | **Get new product notifications and feature updates from BigBrassBand LLC.** |
 | [**Click here to subscribe to our mailing list**](http://eepurl.com/hhfbwz) |
 
-[Installation »](/wiki/spaces/GITCLOUD/pages/1923023014/Installation)
+[Installation »](/git-integration-for-jira-cloud/Installation)

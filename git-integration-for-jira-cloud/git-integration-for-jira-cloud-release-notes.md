@@ -377,7 +377,7 @@ All Jira users with the `View development tools` permission have access to the *
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/CleanShot%202020-11-05%20at%2013.21.15@2x-20201105-182120.png?version=1&modificationDate=1604600486980&cacheVersion=1&api=v2&width=612&height=428)
 
-The [Webhooks](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171475219/Webhooks) page now includes logs of inbound webhooks sent to the Git Integration for Jira Cloud app. Status, reindex status, type, and related repository are shown in the table to assist Jira administrators in troubleshooting and identifying which webhooks are triggered for reindexing.
+The [Webhooks](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/Webhooks) page now includes logs of inbound webhooks sent to the Git Integration for Jira Cloud app. Status, reindex status, type, and related repository are shown in the table to assist Jira administrators in troubleshooting and identifying which webhooks are triggered for reindexing.
 
 Webhook logs are retained for 7 days.
 

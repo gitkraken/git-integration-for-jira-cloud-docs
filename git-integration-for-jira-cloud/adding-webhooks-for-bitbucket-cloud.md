@@ -20,7 +20,7 @@ Supported webhook events:
 _Right-click_ [_here_](https://bigbrassband.wistia.com/medias/7tt09xc1my) _and view this video in a new browser tab._
 _(While the above video showcases other integration, jump to 01:41 to see Webhook setup for Bitbucket Cloud.)_
 
-Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [**Indexing triggers - Getting Started**](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171475219/Webhooks).
+Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [**Indexing triggers - Getting Started**](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/Webhooks).
 
 ## Setting up webhooks for Bitbucket Cloud
 

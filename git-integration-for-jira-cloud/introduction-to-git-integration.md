@@ -60,7 +60,7 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 *   [Bitbucket Cloud](/git-integration-for-jira-cloud/Bitbucket-Cloud)
 
-*   [Gerrit](/wiki/spaces/GITCLOUD/pages/86474926/Gerrit)
+*   [Gerrit](/git-integration-for-jira-cloud/Gerrit)
 
 
 ### Webhook indexing integration

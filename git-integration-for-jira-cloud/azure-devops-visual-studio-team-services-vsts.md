@@ -403,7 +403,7 @@ Once approved, the team leader or reviewer can then complete the merge. The comm
 
 *   Page:
 
-    [Gerrit](/wiki/spaces/GITCLOUD/pages/86474926/Gerrit) (Git Integration for Jira Cloud)
+    [Gerrit](/git-integration-for-jira-cloud/Gerrit) (Git Integration for Jira Cloud)
 
 *   Page:
 

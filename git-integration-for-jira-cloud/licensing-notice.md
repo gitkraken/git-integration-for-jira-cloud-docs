@@ -26,4 +26,4 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 [« Glossary of terms](/wiki/spaces/GITCLOUD/pages/1923026202/Glossary+of+terms)
 
-[Back to table of contents »](/wiki/spaces/GITCLOUD/pages/1923022940/Documentation)
+[Back to table of contents »](/git-integration-for-jira-cloud/Documentation)

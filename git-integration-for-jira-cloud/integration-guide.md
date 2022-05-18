@@ -68,7 +68,7 @@ Connect your AWS CodeCommit repositories via Git Integration for Jira app in Jir
 
 
 
-[Gerrit](/wiki/spaces/GITCLOUD/pages/86474926/Gerrit)
+[Gerrit](/git-integration-for-jira-cloud/Gerrit)
 
 Connect your Gerrit repositories via Git Integration for Jira app in Jira Cloud.
 

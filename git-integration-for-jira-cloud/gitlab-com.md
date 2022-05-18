@@ -291,7 +291,7 @@ The merge request is also ready for approval by the reviewers in your GitLab web
 
 *   Page:
 
-    [Gerrit](/wiki/spaces/GITCLOUD/pages/86474926/Gerrit) (Git Integration for Jira Cloud)
+    [Gerrit](/git-integration-for-jira-cloud/Gerrit) (Git Integration for Jira Cloud)
 
 *   Page:
 

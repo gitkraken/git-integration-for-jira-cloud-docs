@@ -53,7 +53,7 @@ The above UI descriptions also apply to the Manage repositories page since it ha
 | --- |
 | ### Reindex selected (formerly Reindex All) |
 | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923024023/gitcloud-managed-ui-reindex-all.png?version=1&modificationDate=1647934041821&cacheVersion=1&api=v2) |
-| UPDATE  <br>In the new managed user interface, the Reindex all function is further improved and superseded by selecting one or more integration/repositories using the checkboxes and then ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Reindex selected**.<br><br>This function will perform a reindex queue of all the selected integration/repository from the list.<br><br>**Note**  <br>Reindex will ignore disabled integrations. Enable them first to run reindex on these integrations.<br><br>  <br>For more information on this topic, see [Reindexing](/wiki/spaces/GITCLOUD/pages/1923026060/Reindexing). |
+| UPDATE  <br>In the new managed user interface, the Reindex all function is further improved and superseded by selecting one or more integration/repositories using the checkboxes and then ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Reindex selected**.<br><br>This function will perform a reindex queue of all the selected integration/repository from the list.<br><br>**Note**  <br>Reindex will ignore disabled integrations. Enable them first to run reindex on these integrations.<br><br>  <br>For more information on this topic, see [Reindexing](/git-integration-for-jira-cloud/Reindexing). |
 
 |     |
 | --- |

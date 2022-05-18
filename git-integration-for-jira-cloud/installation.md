@@ -16,7 +16,7 @@ Installation is quick and easy and you can get started in just a few clicks. For
 
 _Right click_ [**here**](https://bigbrassband.wistia.com/medias/m9u64t1a3h) _to open this video in a new tab/window for more viewing options._
 
-[« Introduction](/wiki/spaces/GITCLOUD/pages/1923022977/Introduction)
+[« Introduction](/git-integration-for-jira-cloud/Introduction)
 
 [Installation via Atlassian Marketplace »](/wiki/spaces/GITCLOUD/pages/1923023030/Installation+via+Atlassian+Marketplace)
 
