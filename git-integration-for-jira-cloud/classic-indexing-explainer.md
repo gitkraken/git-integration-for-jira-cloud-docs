@@ -60,7 +60,7 @@ Automatic indexing is designed to record changes in a timely manner for all type
 
 When webhooks are received by the indexing service, the indexing service will reduce the automatic indexing to once - hourly.
 
-For more information on configuring webhooks, see: [Indexing triggers](/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers).
+For more information on configuring webhooks, see: [Indexing triggers](/git-integration-for-jira-cloud/Indexing-Triggers).
 
 ### Automatic indexing period limits
 

@@ -12,7 +12,7 @@ Welcome to the productivity guide. Follow through the topics below to get you st
 
 ## Configure indexing triggers
 
-Learn how to setup indexing triggers by following the steps in [**Indexing triggers**](/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers).
+Learn how to setup indexing triggers by following the steps in [**Indexing triggers**](/git-integration-for-jira-cloud/Indexing-Triggers).
 
 ## Configure Automation for Jira triggers
 
@@ -30,4 +30,4 @@ Learn how to set and fire up [**Git integration + Automation for Jira**](/wiki/s
 
 *   Page:
 
-    [Productivity guide](/wiki/spaces/GITCLOUD/pages/2092236811/Productivity+guide) (Git Integration for Jira Cloud)
+    [Productivity guide](/git-integration-for-jira-cloud/Productivity-guide) (Git Integration for Jira Cloud)

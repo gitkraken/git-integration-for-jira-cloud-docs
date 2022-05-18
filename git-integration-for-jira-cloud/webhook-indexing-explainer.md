@@ -67,7 +67,7 @@ Webhook payloads by the leading git server vendors **do not include source code*
 
 ### 3\. How is Webhook indexing different from Indexing triggers?
 
-Previously in the application we called Indexing triggers “Webhooks”). Indexing triggers are used simply to trigger a reindex of a repository in a “Classic” integration to update Jira Cloud with commits, branches, pull requests and tags (see [Indexing Triggers](/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers)).
+Previously in the application we called Indexing triggers “Webhooks”). Indexing triggers are used simply to trigger a reindex of a repository in a “Classic” integration to update Jira Cloud with commits, branches, pull requests and tags (see [Indexing Triggers](/git-integration-for-jira-cloud/Indexing-Triggers)).
 
 ### 4\. If webhooks are sent only once by my git server - what if Git Integration for Jira Cloud is down?
 

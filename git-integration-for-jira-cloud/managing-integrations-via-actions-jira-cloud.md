@@ -25,7 +25,7 @@ Utilize the following actions to manage integrations in Jira Cloud:
 
 The **Show integration repositories** command is deprecated and the displayed integration repositories are moved to the Manage repositories page.
 
-Jump to [Edit integration](/wiki/spaces/GITCLOUD/pages/1923024559/Edit+integration) settings page documentation.
+Jump to [Edit integration](/git-integration-for-jira-cloud/Edit-integration) settings page documentation.
 
 ## Action commands (repositories)
 
@@ -46,7 +46,7 @@ Disconnect or disable selected repositories if they are not used for faster inte
 
 To disconnect a repository integration (plain git), use the relative action command from the Manage integrations page instead to remove its settings and clone data from the Git Integration for Jira Cloud app integration configuration page.
 
-Jump to [Edit repository](/wiki/spaces/GITCLOUD/pages/1977384961/Edit+repository) settings page documentation.
+Jump to [Edit repository](/git-integration-for-jira-cloud/Edit-repository) settings page documentation.
 
 ## Action commands (Group selection)
 
@@ -70,11 +70,11 @@ Group action becomes available when selecting multiple integrations and reposito
 
 *   Page:
 
-    [Edit integration](/wiki/spaces/GITCLOUD/pages/1923024559/Edit+integration) (Git Integration for Jira Cloud)
+    [Edit integration](/git-integration-for-jira-cloud/Edit-integration) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [SSL Verify](/wiki/spaces/GITCLOUD/pages/1923024654/SSL+Verify) (Git Integration for Jira Cloud)
+    [SSL Verify](/git-integration-for-jira-cloud/SSL-Verify) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -90,7 +90,7 @@ Group action becomes available when selecting multiple integrations and reposito
 
 *   Page:
 
-    [Edit repository](/wiki/spaces/GITCLOUD/pages/1977384961/Edit+repository) (Git Integration for Jira Cloud)
+    [Edit repository](/git-integration-for-jira-cloud/Edit-repository) (Git Integration for Jira Cloud)
 
 *   Page:
 

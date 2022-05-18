@@ -22,7 +22,7 @@ Learn how to associate git commits to Jira issues by following the steps in [**L
 
 ## ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Linking branches to a Jira issue
 
-Learn how to associate branches to Jira issues by following the simple steps in [**How to link branches to a Jira issue?**](/wiki/spaces/GITCLOUD/pages/2090729485) or see related page on [**Creating git branches inside Jira**](/wiki/spaces/GITCLOUD/pages/733282366/Create+branch).
+Learn how to associate branches to Jira issues by following the simple steps in [**How to link branches to a Jira issue?**](/wiki/spaces/GITCLOUD/pages/2090729485) or see related page on [**Creating git branches inside Jira**](/git-integration-for-jira-cloud/Create-branch).
 
 ## ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Linking pull or merge requests to a Jira issue
 
@@ -40,4 +40,4 @@ Learn how to associate branches to Jira issues by following the simple steps in 
 
 *   Page:
 
-    [Productivity guide](/wiki/spaces/GITCLOUD/pages/2092236811/Productivity+guide) (Git Integration for Jira Cloud)
+    [Productivity guide](/git-integration-for-jira-cloud/Productivity-guide) (Git Integration for Jira Cloud)

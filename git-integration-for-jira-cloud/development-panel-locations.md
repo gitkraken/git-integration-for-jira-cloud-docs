@@ -42,4 +42,4 @@ On the Kanban board, click on an issue on the board grid. On a dialog that disp
 
 *   Page:
 
-    [Git tags](/wiki/spaces/GITCLOUD/pages/1923025983/Git+tags) (Git Integration for Jira Cloud)
+    [Git tags](/git-integration-for-jira-cloud/Git-tags) (Git Integration for Jira Cloud)

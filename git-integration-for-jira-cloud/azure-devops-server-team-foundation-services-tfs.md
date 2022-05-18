@@ -368,7 +368,7 @@ Once approved, the team leader or reviewer can then complete the merge. The com
 
 *   Page:
 
-    [AWS CodeCommit](/wiki/spaces/GITCLOUD/pages/86180077/AWS+CodeCommit) (Git Integration for Jira Cloud)
+    [AWS CodeCommit](/git-integration-for-jira-cloud/AWS-CodeCommit) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -376,7 +376,7 @@ Once approved, the team leader or reviewer can then complete the merge. The com
 
 *   Page:
 
-    [Bitbucket Cloud](/wiki/spaces/GITCLOUD/pages/86343820/Bitbucket+Cloud) (Git Integration for Jira Cloud)
+    [Bitbucket Cloud](/git-integration-for-jira-cloud/Bitbucket-Cloud) (Git Integration for Jira Cloud)
 
 *   Page:
 

@@ -56,7 +56,7 @@ Saving the changes triggers a repository reindexing to show new associations.
 
 [« Linking git commits to Jira issues](/wiki/spaces/GITCLOUD/pages/1923025229/Linking+git+commits+to+Jira+issues)
 
-[Smart commits »](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits)
+[Smart commits »](/git-integration-for-jira-cloud/Smart-commits)
 
 ### More related topics about associating commits to Jira issues
 

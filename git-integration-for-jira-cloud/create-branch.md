@@ -59,13 +59,13 @@ When creating a branch from within Jira: 
 
 ## **Steps to creating a git branch in Jira**
 
-1.  **Prerequisite:** Jira administrator configures a Full feature integration in the Git Integration for Jira Cloud app. See [Integration Guide](/wiki/spaces/GITCLOUD/pages/82378780/Integration+Guide) for more information.
+1.  **Prerequisite:** Jira administrator configures a Full feature integration in the Git Integration for Jira Cloud app. See [Integration Guide](/git-integration-for-jira-cloud/Integration-Guide) for more information.
 2.  To access the Create branch action - do one of the following:
     1.  Enable the **Git Development panel** or
     2.  Open the [Issue Git Source Code Panel](/wiki/spaces/GITCLOUD/pages/138346503/Issue+Git+Source+Code+Panel)
 3.  Click **Create branch** in one of the panels from step 2.
 4.  Select git repository.
-    1.  Optional: designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings) page.
+    1.  Optional: designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/User-Settings) page.
     2.  Use the search box to look for the specific name of the repository that will be used.
 5.  If a [personal access token is required](/wiki/spaces/GITCLOUD/pages/131137621) (and not yet provided) - follow on screen instructions to provide a [personal access token](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens) with correct permissions for selected repository.
 6.  Select base branch.

@@ -97,4 +97,4 @@ For detailed information about creating branches, see article _**Creating branch
 
 *   Page:
 
-    [Git tags](/wiki/spaces/GITCLOUD/pages/1923025983/Git+tags) (Git Integration for Jira Cloud)
+    [Git tags](/git-integration-for-jira-cloud/Git-tags) (Git Integration for Jira Cloud)

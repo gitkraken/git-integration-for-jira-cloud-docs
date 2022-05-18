@@ -100,4 +100,4 @@ _Right click_ [_here_](https://bigbrassband.wistia.com/medias/xvzj32nxou) _to op
 
 *   Page:
 
-    [Trusted Users](/wiki/spaces/GITCLOUD/pages/792002572/Trusted+Users) (Git Integration for Jira Cloud)
+    [Trusted Users](/git-integration-for-jira-cloud/Trusted-Users) (Git Integration for Jira Cloud)

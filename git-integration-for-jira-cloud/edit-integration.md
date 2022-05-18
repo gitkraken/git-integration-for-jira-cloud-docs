@@ -64,7 +64,7 @@ Click **Save** to save the changes and apply the integration settings.
 
 [« Show integration repositories](/wiki/spaces/~493751811/pages/1923024534/Show+integration+repositories)
 
-[Edit repository »](/wiki/spaces/GITCLOUD/pages/1977384961/Edit+repository)
+[Edit repository »](/git-integration-for-jira-cloud/Edit-repository)
 
 ### More topics about managing repository/integration configuration
 
@@ -78,11 +78,11 @@ Click **Save** to save the changes and apply the integration settings.
 
 *   Page:
 
-    [Edit integration](/wiki/spaces/GITCLOUD/pages/1923024559/Edit+integration) (Git Integration for Jira Cloud)
+    [Edit integration](/git-integration-for-jira-cloud/Edit-integration) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [SSL Verify](/wiki/spaces/GITCLOUD/pages/1923024654/SSL+Verify) (Git Integration for Jira Cloud)
+    [SSL Verify](/git-integration-for-jira-cloud/SSL-Verify) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -98,7 +98,7 @@ Click **Save** to save the changes and apply the integration settings.
 
 *   Page:
 
-    [Edit repository](/wiki/spaces/GITCLOUD/pages/1977384961/Edit+repository) (Git Integration for Jira Cloud)
+    [Edit repository](/git-integration-for-jira-cloud/Edit-repository) (Git Integration for Jira Cloud)
 
 *   Page:
 

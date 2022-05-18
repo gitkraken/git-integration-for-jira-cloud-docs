@@ -33,7 +33,7 @@ Use this function to assign a branch for the selected repository:
 
 *   Page:
 
-    [Connected apps](/wiki/spaces/GITCLOUD/pages/1958805530/Connected+apps) (Git Integration for Jira Cloud)
+    [Connected apps](/git-integration-for-jira-cloud/Connected-apps) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -49,4 +49,4 @@ Use this function to assign a branch for the selected repository:
 
 *   Page:
 
-    [User Settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings) (Git Integration for Jira Cloud)
+    [User Settings](/git-integration-for-jira-cloud/User-Settings) (Git Integration for Jira Cloud)

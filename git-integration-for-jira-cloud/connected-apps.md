@@ -25,7 +25,7 @@ When enabled, this feature adds the deep linking feature to open commits, branch
 
 *   Page:
 
-    [Connected apps](/wiki/spaces/GITCLOUD/pages/1958805530/Connected+apps) (Git Integration for Jira Cloud)
+    [Connected apps](/git-integration-for-jira-cloud/Connected-apps) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -41,4 +41,4 @@ When enabled, this feature adds the deep linking feature to open commits, branch
 
 *   Page:
 
-    [User Settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings) (Git Integration for Jira Cloud)
+    [User Settings](/git-integration-for-jira-cloud/User-Settings) (Git Integration for Jira Cloud)

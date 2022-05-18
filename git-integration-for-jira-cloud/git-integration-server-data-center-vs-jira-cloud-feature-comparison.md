@@ -102,7 +102,7 @@ We publish roadmaps for [**Jira Cloud**](https://trello.com/b/Af64QYkE/git-integ
 | **View Code Diffs in Jira** **6** | ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | Code expanders to see context of changes in diff screen | ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 
-**\*** Requires [Jira Development Information](/wiki/spaces/GITCLOUD/pages/138772493/Jira+Development+Information) to be enabled in the [General settings](/wiki/spaces/GITCLOUD/pages/781942911/General+Settings).
+**\*** Requires [Jira Development Information](/wiki/spaces/GITCLOUD/pages/138772493/Jira+Development+Information) to be enabled in the [General settings](/git-integration-for-jira-cloud/General-Settings).
 
 **1** See information for self-hosted git servers in Jira Cloud below:
 

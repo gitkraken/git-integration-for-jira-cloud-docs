@@ -198,7 +198,7 @@ The Git Integration for Jira app automatically configures web linking for GitHub
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information on this feature, see [Documentation: Web linking](/wiki/spaces/GITCLOUD/pages/1923025184/Web+linking).
+For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-cloud/Web-linking).
 
 ## Viewing git commits in Jira Cloud
 
@@ -244,7 +244,7 @@ On your Jira Cloud, open a Jira issue. On the Jira Git integration development p
 4.  Click **Create branch** to complete this process.
 
 
-For more detailed information on this feature, see [Create branch](/wiki/spaces/GITCLOUD/pages/733282366/Create+branch).
+For more detailed information on this feature, see [Create branch](/git-integration-for-jira-cloud/Create-branch).
 
 
 The newly-created branch is now listed in the Jira developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
@@ -315,7 +315,7 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 *   Page:
 
-    [AWS CodeCommit](/wiki/spaces/GITCLOUD/pages/86180077/AWS+CodeCommit) (Git Integration for Jira Cloud)
+    [AWS CodeCommit](/git-integration-for-jira-cloud/AWS-CodeCommit) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -323,7 +323,7 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 *   Page:
 
-    [Bitbucket Cloud](/wiki/spaces/GITCLOUD/pages/86343820/Bitbucket+Cloud) (Git Integration for Jira Cloud)
+    [Bitbucket Cloud](/git-integration-for-jira-cloud/Bitbucket-Cloud) (Git Integration for Jira Cloud)
 
 *   Page:
 

@@ -95,4 +95,4 @@ If some commits relate only to tags, these commits will not be displayed. For mo
 
 *   Page:
 
-    [Git tags](/wiki/spaces/GITCLOUD/pages/1923025983/Git+tags) (Git Integration for Jira Cloud)
+    [Git tags](/git-integration-for-jira-cloud/Git-tags) (Git Integration for Jira Cloud)

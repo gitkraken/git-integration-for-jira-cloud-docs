@@ -27,7 +27,7 @@ To learn more about these features such as default repository and setting up PAT
 
 *   Page:
 
-    [Create branch](/wiki/spaces/GITCLOUD/pages/733282366/Create+branch) (Git Integration for Jira Cloud)
+    [Create branch](/git-integration-for-jira-cloud/Create-branch) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -43,7 +43,7 @@ To learn more about these features such as default repository and setting up PAT
 
 *   Page:
 
-    [Connected apps](/wiki/spaces/GITCLOUD/pages/1958805530/Connected+apps) (Git Integration for Jira Cloud)
+    [Connected apps](/git-integration-for-jira-cloud/Connected-apps) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -86,7 +86,7 @@ To learn more about these features such as default repository and setting up PAT
 
 *   Page:
 
-    [Create branch](/wiki/spaces/GITCLOUD/pages/733282366/Create+branch) (Git Integration for Jira Cloud)
+    [Create branch](/git-integration-for-jira-cloud/Create-branch) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -94,11 +94,11 @@ To learn more about these features such as default repository and setting up PAT
 
 *   Page:
 
-    [General Settings](/wiki/spaces/GITCLOUD/pages/781942911/General+Settings) (Git Integration for Jira Cloud)
+    [General Settings](/git-integration-for-jira-cloud/General-Settings) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [User Settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings) (Git Integration for Jira Cloud)
+    [User Settings](/git-integration-for-jira-cloud/User-Settings) (Git Integration for Jira Cloud)
 
 *   Page:
 

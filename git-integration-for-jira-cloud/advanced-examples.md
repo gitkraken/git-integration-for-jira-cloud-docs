@@ -52,31 +52,31 @@ The following examples show correct usage of the smart commit message:
 | **TEST-3** Background color of settings should be lighter  <br>**TEST-3** **#in-progress** **#time** 1h  <br>**TEST-4** resolve **TEST-2** **#resolve** |
 | _This example, containing several issue keys, is also a valid multi-line smart commit message._ |
 
-[« Basic commands](/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands)
+[« Basic commands](/git-integration-for-jira-cloud/Basic-commands)
 
-[Workflow transitions »](/wiki/spaces/GITCLOUD/pages/1923025389/Workflow+transitions)
+[Workflow transitions »](/git-integration-for-jira-cloud/Workflow-transitions)
 
 ### More related topics about smart commits
 
 *   Page:
 
-    [Smart commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits) (Git Integration for Jira Cloud)
+    [Smart commits](/git-integration-for-jira-cloud/Smart-commits) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Basic commands](/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands) (Git Integration for Jira Cloud)
+    [Basic commands](/git-integration-for-jira-cloud/Basic-commands) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Workflow transitions](/wiki/spaces/GITCLOUD/pages/1923025389/Workflow+transitions) (Git Integration for Jira Cloud)
+    [Workflow transitions](/git-integration-for-jira-cloud/Workflow-transitions) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Advanced examples](/wiki/spaces/GITCLOUD/pages/1923025375/Advanced+examples) (Git Integration for Jira Cloud)
+    [Advanced examples](/git-integration-for-jira-cloud/Advanced-examples) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Viewing workflows](/wiki/spaces/GITCLOUD/pages/1923025415/Viewing+workflows) (Git Integration for Jira Cloud)
+    [Viewing workflows](/git-integration-for-jira-cloud/Viewing-workflows) (Git Integration for Jira Cloud)
 
 *   Page:
 

@@ -19,7 +19,7 @@ Git Integration for Jira Cloud app now supports **GitLab System Hooks** (menu 
 
 _Right click_ [_here_](https://bigbrassband.wistia.net/medias/trp1frsfl4) _to open this video in a new tab/window for more viewing options._
 
-Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira Cloud instance.  For more details, see [**Indexing Triggers - Getting Started**](/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers).
+Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira Cloud instance.  For more details, see [**Indexing Triggers - Getting Started**](/git-integration-for-jira-cloud/Indexing-Triggers).
 
 ## Setting up webhooks for GitLab
 

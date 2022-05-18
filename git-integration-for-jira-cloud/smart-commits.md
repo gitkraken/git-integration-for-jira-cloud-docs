@@ -52,29 +52,29 @@ To know more about syntax, commands and examples on Smart Commits, see [**Proce
 
 [« Linking git commits to Jira issues](/wiki/spaces/GITCLOUD/pages/1923025229/Linking+git+commits+to+Jira+issues)
 
-[Smart commit: Basic commands »](/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands)
+[Smart commit: Basic commands »](/git-integration-for-jira-cloud/Basic-commands)
 
 ### More related topics about smart commits
 
 *   Page:
 
-    [Smart commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits) (Git Integration for Jira Cloud)
+    [Smart commits](/git-integration-for-jira-cloud/Smart-commits) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Basic commands](/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands) (Git Integration for Jira Cloud)
+    [Basic commands](/git-integration-for-jira-cloud/Basic-commands) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Workflow transitions](/wiki/spaces/GITCLOUD/pages/1923025389/Workflow+transitions) (Git Integration for Jira Cloud)
+    [Workflow transitions](/git-integration-for-jira-cloud/Workflow-transitions) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Advanced examples](/wiki/spaces/GITCLOUD/pages/1923025375/Advanced+examples) (Git Integration for Jira Cloud)
+    [Advanced examples](/git-integration-for-jira-cloud/Advanced-examples) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Viewing workflows](/wiki/spaces/GITCLOUD/pages/1923025415/Viewing+workflows) (Git Integration for Jira Cloud)
+    [Viewing workflows](/git-integration-for-jira-cloud/Viewing-workflows) (Git Integration for Jira Cloud)
 
 *   Page:
 

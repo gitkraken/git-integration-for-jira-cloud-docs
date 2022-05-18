@@ -57,7 +57,7 @@ The Jira user must have the appropriate project permissions to be able to transi
 | **GIT-1720** **#close** `Closing ticket.` **#comment** `Tasks completed.` |
 | The first example will transition the Jira issue to the specified workflow state and adds the comment message to the commit.<br><br>The second example will transition the Jira issue to the specified workflow state, adds the comment “_**Closing ticket**”**.**_ to the Comment tab and adds the specified comment, “_**Task completed.**_” to the mentioned Jira issue. |
 
-For more information on transitions and workflow names and how they work, see [Workflow Transitions](/wiki/spaces/GITCLOUD/pages/1923025389/Workflow+transitions).
+For more information on transitions and workflow names and how they work, see [Workflow Transitions](/git-integration-for-jira-cloud/Workflow-transitions).
 
 ## #assign
 
@@ -87,31 +87,31 @@ The `#label` command will add a new label to a Jira issue. If more than one J
 | **GITCL-443** **#label** `bucketbreakfix` `bucketenhancement` |
 | **GITCL-443 GITCL-247 GITCL-214** **#label** _admin@example.com_ _user1@example.com_ requested-feature new-feature **#comment** `Return email when implemented` |
 
-[« Smart commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits)
+[« Smart commits](/git-integration-for-jira-cloud/Smart-commits)
 
-[Advanced examples »](/wiki/spaces/GITCLOUD/pages/1923025375/Advanced+examples)
+[Advanced examples »](/git-integration-for-jira-cloud/Advanced-examples)
 
 ### More related topics about smart commits
 
 *   Page:
 
-    [Smart commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits) (Git Integration for Jira Cloud)
+    [Smart commits](/git-integration-for-jira-cloud/Smart-commits) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Basic commands](/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands) (Git Integration for Jira Cloud)
+    [Basic commands](/git-integration-for-jira-cloud/Basic-commands) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Workflow transitions](/wiki/spaces/GITCLOUD/pages/1923025389/Workflow+transitions) (Git Integration for Jira Cloud)
+    [Workflow transitions](/git-integration-for-jira-cloud/Workflow-transitions) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Advanced examples](/wiki/spaces/GITCLOUD/pages/1923025375/Advanced+examples) (Git Integration for Jira Cloud)
+    [Advanced examples](/git-integration-for-jira-cloud/Advanced-examples) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Viewing workflows](/wiki/spaces/GITCLOUD/pages/1923025415/Viewing+workflows) (Git Integration for Jira Cloud)
+    [Viewing workflows](/git-integration-for-jira-cloud/Viewing-workflows) (Git Integration for Jira Cloud)
 
 *   Page:
 

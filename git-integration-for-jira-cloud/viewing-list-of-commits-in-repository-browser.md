@@ -29,7 +29,7 @@ The list of commits for the currently selected project is displayed in descendin
 8.  Click on the GitKraken icon at the far right of the row to view this commit in GitKraken git client app.
 
 
-[« Repository browser](/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser)
+[« Repository browser](/git-integration-for-jira-cloud/Repository-browser)
 
 [Comparing branches/tags in Repository browser »](/wiki/spaces/GITCLOUD/pages/1923025590/Comparing+branches+or+tags+in+Repository+browser)
 
@@ -37,7 +37,7 @@ The list of commits for the currently selected project is displayed in descendin
 
 *   Page:
 
-    [Repository browser](/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser) (Git Integration for Jira Cloud)
+    [Repository browser](/git-integration-for-jira-cloud/Repository-browser) (Git Integration for Jira Cloud)
 
 *   Page:
 

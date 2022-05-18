@@ -16,7 +16,7 @@ Web linking is automatically configured for repositories added via Full feature 
 ![(info)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/information.png) Updated video guide is coming soon.
 
 
-For more information, see [Documentation: Web Linking](/wiki/spaces/GITCLOUD/pages/1923025184/Web+linking).
+For more information, see [Documentation: Web Linking](/git-integration-for-jira-cloud/Web-linking).
 
 [« General settings: Improving Jira performance](/wiki/spaces/GITCLOUD/pages/1923023325)
 

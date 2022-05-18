@@ -32,7 +32,7 @@ To connect a git repository to Jira via the Git Integration for Jira app:
 
     *   Enter login credentials for this repository integration. If 2FA is enabled for this account, enter the personal access token (PAT) for the password instead.
 
-    *   Enable/disable [SSL Verify](/wiki/spaces/GITCLOUD/pages/1923024654/SSL+Verify) for this repository integration.
+    *   Enable/disable [SSL Verify](/git-integration-for-jira-cloud/SSL-Verify) for this repository integration.
 
 5.  Click **Add integration** to complete this setup.
 

@@ -112,7 +112,7 @@ On your Jira Cloud, open a Jira issue. On the Jira Git integration development p
 
 
 
-For more detailed information on this feature, see [**Create branch**](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/733282366/Create+branch).
+For more detailed information on this feature, see [**Create branch**](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/Create-branch).
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
@@ -181,6 +181,6 @@ page icon as list [Integrate Azure DevOps/VSTS with Jira Cloud](/wiki/spaces/GIT
 
 page icon as list [Integrate Azure DevOps Server/TFS with Jira Cloud](/wiki/spaces/GITCLOUD/pages/86409345)
 
-page icon as list [Integrate AWS CodeCommit with Jira Cloud](/wiki/spaces/GITCLOUD/pages/86180077/AWS+CodeCommit)
+page icon as list [Integrate AWS CodeCommit with Jira Cloud](/git-integration-for-jira-cloud/AWS-CodeCommit)
 
 page icon as list [Integrate Gerrit with Jira Cloud](/wiki/spaces/GITCLOUD/pages/86474926/Gerrit)

@@ -89,7 +89,7 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/1jwzeex5qa) _t
 
 [« Branches (Developer panel)](/wiki/spaces/GITCLOUD/pages/1923025879)
 
-[Git tags »](/wiki/spaces/GITCLOUD/pages/1923025983/Git+tags)
+[Git tags »](/git-integration-for-jira-cloud/Git-tags)
 
 ### More related topics about Jira git integration development panel
 
@@ -111,4 +111,4 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/1jwzeex5qa) _t
 
 *   Page:
 
-    [Git tags](/wiki/spaces/GITCLOUD/pages/1923025983/Git+tags) (Git Integration for Jira Cloud)
+    [Git tags](/git-integration-for-jira-cloud/Git-tags) (Git Integration for Jira Cloud)

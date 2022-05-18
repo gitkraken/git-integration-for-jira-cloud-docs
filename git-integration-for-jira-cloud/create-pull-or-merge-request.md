@@ -32,7 +32,7 @@ The **Create pull request** feature offers Jira users the ability to create a gi
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/733315235/create-pull-request.png?version=2&modificationDate=1599320965937&cacheVersion=1&api=v2&width=933&height=349)
 
-For information about creating a branch from a Jira issue - see [Create branch](/wiki/spaces/GITCLOUD/pages/733282366/Create+branch).
+For information about creating a branch from a Jira issue - see [Create branch](/git-integration-for-jira-cloud/Create-branch).
 
 ## **Advantages**
 
@@ -62,7 +62,7 @@ When creating a pull request from within Jira: 
 
 ## **Steps to creating a git pull request in Jira**
 
-1.  **Prerequisite:** Jira administrator configures a Full feature integration in the Git Integration for Jira Cloud app. See [Integration Guide](/wiki/spaces/GITCLOUD/pages/82378780/Integration+Guide) for more information.
+1.  **Prerequisite:** Jira administrator configures a Full feature integration in the Git Integration for Jira Cloud app. See [Integration Guide](/git-integration-for-jira-cloud/Integration-Guide) for more information.
 2.  To access the Create pull request action - do one of the following:
     1.  Enable the **Git Development panel** or
     2.  Open the [Issue Git Source Code Panel](/wiki/spaces/GITCLOUD/pages/138346503/Issue+Git+Source+Code+Panel)

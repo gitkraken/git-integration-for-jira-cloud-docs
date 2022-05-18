@@ -45,7 +45,7 @@ On the **Issues** page, clicking the **View in issue navigator** label will 
 
 *   Page:
 
-    [Repository browser](/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser) (Git Integration for Jira Cloud)
+    [Repository browser](/git-integration-for-jira-cloud/Repository-browser) (Git Integration for Jira Cloud)
 
 *   Page:
 

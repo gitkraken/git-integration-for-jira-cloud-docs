@@ -51,7 +51,7 @@ Thus, the part of the transition name up to the invalid character can be used fo
 
 If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user can't be identified.
 
-[« Workflow transitions](/wiki/spaces/GITCLOUD/pages/1923025389/Workflow+transitions)
+[« Workflow transitions](/git-integration-for-jira-cloud/Workflow-transitions)
 
 [Smart commits general settings »](/wiki/spaces/GITCLOUD/pages/1923025462/Smart+commits+general+settings)
 
@@ -59,23 +59,23 @@ If a smart commit fails, an email notification is sent to either the Jira user, 
 
 *   Page:
 
-    [Smart commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits) (Git Integration for Jira Cloud)
+    [Smart commits](/git-integration-for-jira-cloud/Smart-commits) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Basic commands](/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands) (Git Integration for Jira Cloud)
+    [Basic commands](/git-integration-for-jira-cloud/Basic-commands) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Workflow transitions](/wiki/spaces/GITCLOUD/pages/1923025389/Workflow+transitions) (Git Integration for Jira Cloud)
+    [Workflow transitions](/git-integration-for-jira-cloud/Workflow-transitions) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Advanced examples](/wiki/spaces/GITCLOUD/pages/1923025375/Advanced+examples) (Git Integration for Jira Cloud)
+    [Advanced examples](/git-integration-for-jira-cloud/Advanced-examples) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Viewing workflows](/wiki/spaces/GITCLOUD/pages/1923025415/Viewing+workflows) (Git Integration for Jira Cloud)
+    [Viewing workflows](/git-integration-for-jira-cloud/Viewing-workflows) (Git Integration for Jira Cloud)
 
 *   Page:
 

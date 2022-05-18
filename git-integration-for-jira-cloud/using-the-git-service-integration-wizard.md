@@ -33,7 +33,7 @@ The integration is added to the Git integration configuration list.
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923024112/gitcloud-managed-ui-integration-list.png?version=1&modificationDate=1647939245350&cacheVersion=1&api=v2)
 
 
-For more detailed information on specific integration steps for supported git host services, see our [Integration Guides](/wiki/spaces/GITCLOUD/pages/82378780/Integration+Guide).
+For more detailed information on specific integration steps for supported git host services, see our [Integration Guides](/git-integration-for-jira-cloud/Integration-Guide).
 
 [« Git integration configuration page](/wiki/spaces/GITCLOUD/pages/1923024023/Git+integration+configuration+page)
 

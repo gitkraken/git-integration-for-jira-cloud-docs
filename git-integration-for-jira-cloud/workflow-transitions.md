@@ -31,31 +31,31 @@ Only letters and "-" (dash) are valid for workflow transition names for smart co
 **Jira Administrators**
 When adding transitions in the Workflow editor, make transition names simple and easy to remember. Only use letters and only one space between words.
 
-[« Advanced examples](/wiki/spaces/GITCLOUD/pages/1923025375/Advanced+examples)
+[« Advanced examples](/git-integration-for-jira-cloud/Advanced-examples)
 
-[Viewing workflows »](/wiki/spaces/GITCLOUD/pages/1923025415/Viewing+workflows)
+[Viewing workflows »](/git-integration-for-jira-cloud/Viewing-workflows)
 
 ### More related topics about smart commits
 
 *   Page:
 
-    [Smart commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits) (Git Integration for Jira Cloud)
+    [Smart commits](/git-integration-for-jira-cloud/Smart-commits) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Basic commands](/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands) (Git Integration for Jira Cloud)
+    [Basic commands](/git-integration-for-jira-cloud/Basic-commands) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Workflow transitions](/wiki/spaces/GITCLOUD/pages/1923025389/Workflow+transitions) (Git Integration for Jira Cloud)
+    [Workflow transitions](/git-integration-for-jira-cloud/Workflow-transitions) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Advanced examples](/wiki/spaces/GITCLOUD/pages/1923025375/Advanced+examples) (Git Integration for Jira Cloud)
+    [Advanced examples](/git-integration-for-jira-cloud/Advanced-examples) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Viewing workflows](/wiki/spaces/GITCLOUD/pages/1923025415/Viewing+workflows) (Git Integration for Jira Cloud)
+    [Viewing workflows](/git-integration-for-jira-cloud/Viewing-workflows) (Git Integration for Jira Cloud)
 
 *   Page:
 

@@ -25,7 +25,7 @@ Main branch for repositories within an integration can only be changed on the gi
 
 Open a Jira issue then on the developer panel, click **Create Branch** label to create a branch for the selected repository.
 
-For detailed information on this feature, see [Creating branches from Jira](/wiki/spaces/GITCLOUD/pages/733282366/Create+branch).
+For detailed information on this feature, see [Creating branches from Jira](/git-integration-for-jira-cloud/Create-branch).
 
 ## Creating pull/merge requests
 

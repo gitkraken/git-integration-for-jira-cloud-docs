@@ -42,7 +42,7 @@ There are two scenarios related to the rename/move:
 **Jira Activity Stream**
 Only the commits that are linked to Jira issues will show on the Jira Activity Stream (not all commits in repositories).
 
-[« Web linking](/wiki/spaces/GITCLOUD/pages/1923025184/Web+linking)
+[« Web linking](/git-integration-for-jira-cloud/Web-linking)
 
 [Associating git commits to Jira issues »](/wiki/spaces/GITCLOUD/pages/1923025256/Associating+git+commits+manually+to+Jira+issues)
 

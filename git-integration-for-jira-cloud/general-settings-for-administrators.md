@@ -25,11 +25,11 @@ If you're using Jira Server or Jira Data Center, [view this page instead](/wiki/
 
 After making changes to the configuration settings, click **Save** to apply the changes.
 
-For detailed information about this feature and the supported settings, see [Administration: General settings](/wiki/spaces/GITCLOUD/pages/781942911/General+Settings).
+For detailed information about this feature and the supported settings, see [Administration: General settings](/git-integration-for-jira-cloud/General-Settings).
 
 [« Setting up repositories](/wiki/spaces/GITCLOUD/pages/1923023982/Setting+up+integrations)
 
-[Web linking »](/wiki/spaces/GITCLOUD/pages/1923025184/Web+linking)
+[Web linking »](/git-integration-for-jira-cloud/Web-linking)
 
 ### More related topics about general settings
 

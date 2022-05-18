@@ -63,7 +63,7 @@ If the selected path is a _**root**_ of the repository and no files are presen
 **Administration**
 Administrators can turn on/off the repository browser feature via General settings ➜ _Jira Issue View Options_ ➜ **Show Repository browser: View all repositories, Commits and Compare pages**.
 
-[« Smart commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits)
+[« Smart commits](/git-integration-for-jira-cloud/Smart-commits)
 
 [Viewing list of commits in Repository browser »](/wiki/spaces/GITCLOUD/pages/1923025571/Viewing+list+of+commits+in+Repository+browser)
 
@@ -71,7 +71,7 @@ Administrators can turn on/off the repository browser feature via General settin
 
 *   Page:
 
-    [Repository browser](/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser) (Git Integration for Jira Cloud)
+    [Repository browser](/git-integration-for-jira-cloud/Repository-browser) (Git Integration for Jira Cloud)
 
 *   Page:
 

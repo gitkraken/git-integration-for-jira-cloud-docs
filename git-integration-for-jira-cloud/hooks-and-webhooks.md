@@ -36,6 +36,6 @@ Use server-side hooks to apply policies for your project.  The server runs thes
 
 
 
-[Indexing Triggers](/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers)
+[Indexing Triggers](/git-integration-for-jira-cloud/Indexing-Triggers)
 
 Trigger immediate reindex of your repositories from remote systems via webhooks.

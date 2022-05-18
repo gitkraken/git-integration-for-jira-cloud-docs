@@ -14,14 +14,14 @@ taxonomy:
 
 * * *
 
-This setting is part of the [**General Settings**](/wiki/spaces/GITCLOUD/pages/781942911/General+Settings) configuration page for Git Integration for Jira Cloud.
+This setting is part of the [**General Settings**](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud.
 
-  
+
 These settings will take effect at integration level for projects with connected GitLab/GitHub git hosts. The default state for each setting is _enabled_.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829137/gitcloud-gencfg-git-integration-options.png?version=1&modificationDate=1645097188275&cacheVersion=1&api=v2&width=566&height=368)
 
-  
+
 **What’s on this page:**
 
 ## Git integration settings
@@ -90,37 +90,37 @@ After all the settings have been configured according to your requirements, clic
 ## More General settings options
 
 *   Page:
-    
+
     [Git roll up issue tab setting](/wiki/spaces/GITCLOUD/pages/1207796128/Git+roll+up+issue+tab+setting) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Git commits issue tab and project page](/wiki/spaces/GITCLOUD/pages/1207829071/Git+commits+issue+tab+and+project+page) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Issue git source code panel setting](/wiki/spaces/GITCLOUD/pages/1207829089/Issue+git+source+code+panel+setting) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Repository browser settings](/wiki/spaces/GITCLOUD/pages/1207829111/Repository+browser+settings) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Git integration options](/wiki/spaces/GITCLOUD/pages/1207829137/Git+integration+options) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Jira development information settings](/wiki/spaces/GITCLOUD/pages/1207796181/Jira+development+information+settings) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [General settings for administrators](/wiki/spaces/GITCLOUD/pages/1923025087/General+settings+for+administrators) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [GitKraken integration settings](/wiki/spaces/GITCLOUD/pages/1980563563/GitKraken+integration+settings) (Git Integration for Jira Cloud)
-    
+
 *   Page:
-    
+
     [Enable beta features setting](/wiki/spaces/GITCLOUD/pages/2070216724/Enable+beta+features+setting) (Git Integration for Jira Cloud)

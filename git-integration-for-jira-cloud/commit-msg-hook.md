@@ -120,7 +120,7 @@ if err_msg:
 
 *   Page:
 
-    [Indexing Triggers](/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers) (Git Integration for Jira Cloud)
+    [Indexing Triggers](/git-integration-for-jira-cloud/Indexing-Triggers) (Git Integration for Jira Cloud)
 
 *   Page:
 

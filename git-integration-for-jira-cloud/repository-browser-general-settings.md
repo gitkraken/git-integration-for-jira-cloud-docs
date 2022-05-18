@@ -24,7 +24,7 @@ Click **Update** to save configuration changes.
 
 *   Page:
 
-    [Repository browser](/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser) (Git Integration for Jira Cloud)
+    [Repository browser](/git-integration-for-jira-cloud/Repository-browser) (Git Integration for Jira Cloud)
 
 *   Page:
 

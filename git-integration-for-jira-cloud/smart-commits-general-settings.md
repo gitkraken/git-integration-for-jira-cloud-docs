@@ -17,31 +17,31 @@ Navigate to Git integration for Jira (sidebar) ➜ **General settings** to acces
 
 In case [when DevInfo for Jira Cloud is enabled](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/138772493/Jira+Development+Information#Send-Development-Information-to-Jira-Cloud), commits shall be sent with _**disabledTransition**_ flag.
 
-[« Viewing workflows](/wiki/spaces/GITCLOUD/pages/1923025415/Viewing+workflows)
+[« Viewing workflows](/git-integration-for-jira-cloud/Viewing-workflows)
 
-[Repository browser »](/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser)
+[Repository browser »](/git-integration-for-jira-cloud/Repository-browser)
 
 ### More related topics about smart commits
 
 *   Page:
 
-    [Smart commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits) (Git Integration for Jira Cloud)
+    [Smart commits](/git-integration-for-jira-cloud/Smart-commits) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Basic commands](/wiki/spaces/GITCLOUD/pages/1923025355/Basic+commands) (Git Integration for Jira Cloud)
+    [Basic commands](/git-integration-for-jira-cloud/Basic-commands) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Workflow transitions](/wiki/spaces/GITCLOUD/pages/1923025389/Workflow+transitions) (Git Integration for Jira Cloud)
+    [Workflow transitions](/git-integration-for-jira-cloud/Workflow-transitions) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Advanced examples](/wiki/spaces/GITCLOUD/pages/1923025375/Advanced+examples) (Git Integration for Jira Cloud)
+    [Advanced examples](/git-integration-for-jira-cloud/Advanced-examples) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Viewing workflows](/wiki/spaces/GITCLOUD/pages/1923025415/Viewing+workflows) (Git Integration for Jira Cloud)
+    [Viewing workflows](/git-integration-for-jira-cloud/Viewing-workflows) (Git Integration for Jira Cloud)
 
 *   Page:
 

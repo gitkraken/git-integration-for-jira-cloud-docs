@@ -42,7 +42,7 @@ On this page you will find topics related to the supported features of the app.
 
 *   Page:
 
-    [Create branch](/wiki/spaces/GITCLOUD/pages/733282366/Create+branch) (Git Integration for Jira Cloud)
+    [Create branch](/git-integration-for-jira-cloud/Create-branch) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -50,11 +50,11 @@ On this page you will find topics related to the supported features of the app.
 
 *   Page:
 
-    [General Settings](/wiki/spaces/GITCLOUD/pages/781942911/General+Settings) (Git Integration for Jira Cloud)
+    [General Settings](/git-integration-for-jira-cloud/General-Settings) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [User Settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings) (Git Integration for Jira Cloud)
+    [User Settings](/git-integration-for-jira-cloud/User-Settings) (Git Integration for Jira Cloud)
 
 *   Page:
 

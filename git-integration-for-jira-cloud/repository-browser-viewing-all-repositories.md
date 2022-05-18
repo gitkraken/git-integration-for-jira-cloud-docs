@@ -51,7 +51,7 @@ While on the Repository browser page:
 
 *   Click on a repository to view Commits and Compare tabs.
 
-*   Click on **Go to User Settings: Git integration** to access the [User settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings) page for setting up connected apps, default repositories, default branches and personal access tokens configuration.
+*   Click on **Go to User Settings: Git integration** to access the [User settings](/git-integration-for-jira-cloud/User-Settings) page for setting up connected apps, default repositories, default branches and personal access tokens configuration.
 
 *   Click on **Manage Git repositories** to go to the Git integration repositories configuration page.
 
@@ -60,13 +60,13 @@ While on the Repository browser page:
 
 Jira administrators can configure git integrations (example: GitHub, GitLab) to require that Jira users create and provide their own [Personal Access Token](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens) to enable features like creating branches, pull request or merge request via Jira Git integration development panel inside Jira.
 
-The personal access column and configuration is relocated to [User settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings).
+The personal access column and configuration is relocated to [User settings](/git-integration-for-jira-cloud/User-Settings).
 
 ## How can a Jira administrator enable or disable the Repository browser?
 
 1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) or the [Dev Info for Jira](https://marketplace.atlassian.com/1219270) app.
 
-2.  Navigate to the [General settings](/wiki/spaces/GITCLOUD/pages/781942911/General+Settings) page of the application.
+2.  Navigate to the [General settings](/git-integration-for-jira-cloud/General-Settings) page of the application.
 
 3.  Enable or disable the setting – **Show Repository browser: View all repositories, Commits and Compare pages**.
 
@@ -75,6 +75,6 @@ The personal access column and configuration is relocated to [User settings](/wi
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/138706958/gitcloud-gencfg-repo-browser.png?version=1&modificationDate=1636096946037&cacheVersion=1&api=v2)
 
-For detailed information about this feature, see [Documentation: Repository browser](/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser).
+For detailed information about this feature, see [Documentation: Repository browser](/git-integration-for-jira-cloud/Repository-browser).
 
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).

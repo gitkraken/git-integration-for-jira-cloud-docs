@@ -56,9 +56,9 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 *   [Azure DevOps Server | Team Foundation Services (TFS)](/wiki/spaces/GITCLOUD/pages/86409345)
 
-*   [AWS CodeCommit](/wiki/spaces/GITCLOUD/pages/86180077/AWS+CodeCommit)
+*   [AWS CodeCommit](/git-integration-for-jira-cloud/AWS-CodeCommit)
 
-*   [Bitbucket Cloud](/wiki/spaces/GITCLOUD/pages/86343820/Bitbucket+Cloud)
+*   [Bitbucket Cloud](/git-integration-for-jira-cloud/Bitbucket-Cloud)
 
 *   [Gerrit](/wiki/spaces/GITCLOUD/pages/86474926/Gerrit)
 

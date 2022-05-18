@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-This feature allows users to set the default repository for a Jira project when using the [Create Branch](/wiki/spaces/GITCLOUD/pages/733282366/Create+branch) and [Create pull/merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request) features.
+This feature allows users to set the default repository for a Jira project when using the [Create Branch](/git-integration-for-jira-cloud/Create-branch) and [Create pull/merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request) features.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1741094916/gitcloud-user-settings-default-repo-feature.png?version=1&modificationDate=1623726181829&cacheVersion=1&api=v2&width=680&height=332)
 
@@ -47,7 +47,7 @@ Referring to the above example image, the selected default repository has a labe
 
 *   Page:
 
-    [Connected apps](/wiki/spaces/GITCLOUD/pages/1958805530/Connected+apps) (Git Integration for Jira Cloud)
+    [Connected apps](/git-integration-for-jira-cloud/Connected-apps) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -63,4 +63,4 @@ Referring to the above example image, the selected default repository has a labe
 
 *   Page:
 
-    [User Settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings) (Git Integration for Jira Cloud)
+    [User Settings](/git-integration-for-jira-cloud/User-Settings) (Git Integration for Jira Cloud)

@@ -221,7 +221,7 @@ The modified URL can now be used as a valid repository URL via **Manage Git rep
 
 The Git Integration for Jira app automatically configures web linking for AWS CodeCommit repositories connected via Full feature integration in Jira Cloud.
 
-For single repository connections, configuring web linking is optional. For more information, see [Web linking documentation](/wiki/spaces/GITCLOUD/pages/1923025184/Web+linking).
+For single repository connections, configuring web linking is optional. For more information, see [Web linking documentation](/git-integration-for-jira-cloud/Web-linking).
 
 ## Viewing git commits in Jira Cloud
 
@@ -264,7 +264,7 @@ On your Jira Cloud, open a Jira issue. On the Jira Git development panel, click
 
     3.  Use the search box to look for the specific repository that will be used.
 
-    4.  Optional – designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings) page.
+    4.  Optional – designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/User-Settings) page.
 
 2.  Choose the newly-created branch as the **Source branch**.
 
@@ -295,7 +295,7 @@ On your Jira Cloud, open the Jira issue where your previously created a branch. 
 
     3.  Use the search box to look for the specific repository that will be used.
 
-    4.  Optional – designate the repository to be the default selected repository for current Jira project.  To configure default repositories for more than one Jira project - use the [User settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings) page.
+    4.  Optional – designate the repository to be the default selected repository for current Jira project.  To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/User-Settings) page.
 
 2.  Set the **Source branch** to the newly-created branch.
 
@@ -343,7 +343,7 @@ The branch and the pull request status are also displayed on the developer panel
 
 *   Page:
 
-    [AWS CodeCommit](/wiki/spaces/GITCLOUD/pages/86180077/AWS+CodeCommit) (Git Integration for Jira Cloud)
+    [AWS CodeCommit](/git-integration-for-jira-cloud/AWS-CodeCommit) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -351,7 +351,7 @@ The branch and the pull request status are also displayed on the developer panel
 
 *   Page:
 
-    [Bitbucket Cloud](/wiki/spaces/GITCLOUD/pages/86343820/Bitbucket+Cloud) (Git Integration for Jira Cloud)
+    [Bitbucket Cloud](/git-integration-for-jira-cloud/Bitbucket-Cloud) (Git Integration for Jira Cloud)
 
 *   Page:
 

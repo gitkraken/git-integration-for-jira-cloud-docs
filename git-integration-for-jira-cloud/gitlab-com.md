@@ -207,7 +207,7 @@ On your Jira Cloud instance, open a Jira issue. On the Jira Git integration deve
 
     3.  Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings) page.
+    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/User-Settings) page.
 
 2.  Choose a **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one connected repository - use the [User settings](#) page.
 
@@ -216,7 +216,7 @@ On your Jira Cloud instance, open a Jira issue. On the Jira Git integration deve
 4.  Click **Create branch** to complete this process.
 
 
-For more detailed information on this feature, see [Create branch](/wiki/spaces/GITCLOUD/pages/733282366/Create+branch).
+For more detailed information on this feature, see [Create branch](/git-integration-for-jira-cloud/Create-branch).
 
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
@@ -287,7 +287,7 @@ The merge request is also ready for approval by the reviewers in your GitLab web
 
 *   Page:
 
-    [AWS CodeCommit](/wiki/spaces/GITCLOUD/pages/86180077/AWS+CodeCommit) (Git Integration for Jira Cloud)
+    [AWS CodeCommit](/git-integration-for-jira-cloud/AWS-CodeCommit) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -295,7 +295,7 @@ The merge request is also ready for approval by the reviewers in your GitLab web
 
 *   Page:
 
-    [Bitbucket Cloud](/wiki/spaces/GITCLOUD/pages/86343820/Bitbucket+Cloud) (Git Integration for Jira Cloud)
+    [Bitbucket Cloud](/git-integration-for-jira-cloud/Bitbucket-Cloud) (Git Integration for Jira Cloud)
 
 *   Page:
 

@@ -215,7 +215,7 @@ On your Jira Cloud, open a Jira issue. On the [Jira Git integration development 
 4.  Click **Create branch** to complete this process.
 
 
-For more detailed information on this feature, see [Create Branch](/wiki/spaces/GITCLOUD/pages/733282366/Create+branch).
+For more detailed information on this feature, see [Create Branch](/git-integration-for-jira-cloud/Create-branch).
 
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
@@ -286,7 +286,7 @@ The merge request is also ready for approval by the reviewers in your GitLab web
 
 *   Page:
 
-    [AWS CodeCommit](/wiki/spaces/GITCLOUD/pages/86180077/AWS+CodeCommit) (Git Integration for Jira Cloud)
+    [AWS CodeCommit](/git-integration-for-jira-cloud/AWS-CodeCommit) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -294,7 +294,7 @@ The merge request is also ready for approval by the reviewers in your GitLab web
 
 *   Page:
 
-    [Bitbucket Cloud](/wiki/spaces/GITCLOUD/pages/86343820/Bitbucket+Cloud) (Git Integration for Jira Cloud)
+    [Bitbucket Cloud](/git-integration-for-jira-cloud/Bitbucket-Cloud) (Git Integration for Jira Cloud)
 
 *   Page:
 

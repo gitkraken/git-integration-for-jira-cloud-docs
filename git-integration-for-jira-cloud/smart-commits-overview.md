@@ -209,4 +209,4 @@ Smart Commit Status
 
 The commit status shown on the Issue page depends on the Smart Commits setting that was set at the time the commits were processed.
 
-Need to know more?  Read further at  [Documentation: Smart Commits](/wiki/spaces/GITCLOUD/pages/1923025332/Smart+commits).
+Need to know more?  Read further at  [Documentation: Smart Commits](/git-integration-for-jira-cloud/Smart-commits).

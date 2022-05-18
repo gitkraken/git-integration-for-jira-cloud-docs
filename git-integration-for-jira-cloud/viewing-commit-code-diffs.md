@@ -28,6 +28,6 @@ Access the commit code diff dialog via the following locations:
 
 Each click on the  **\# lines hidden** label expands up to 20 lines of code on that section.
 
-[« Repository browser](/wiki/spaces/GITCLOUD/pages/1923025500/Repository+browser)
+[« Repository browser](/git-integration-for-jira-cloud/Repository-browser)
 
 [Git user identity »](/wiki/spaces/GITCLOUD/pages/1923023946/Git+user+Identity)

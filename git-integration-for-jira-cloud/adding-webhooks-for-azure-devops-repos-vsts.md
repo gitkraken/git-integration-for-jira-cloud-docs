@@ -21,7 +21,7 @@ Supported webhook events:
 
 _Right click_ [_here_](https://bigbrassband.wistia.net/medias/61wl72vp91) _to open this video in a new tab/window for more viewing options._
 
-Before you can proceed with the steps outlined on this guide, indexing triggers must be enabled in the Git Integration for Jira app repository configuration for your Jira Cloud instance. For more details, see [**Indexing Triggers - Getting Started**](/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers).
+Before you can proceed with the steps outlined on this guide, indexing triggers must be enabled in the Git Integration for Jira app repository configuration for your Jira Cloud instance. For more details, see [**Indexing Triggers - Getting Started**](/git-integration-for-jira-cloud/Indexing-Triggers).
 
 ## Setting up webhook for Azure Repos
 

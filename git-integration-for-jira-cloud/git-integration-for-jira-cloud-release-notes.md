@@ -351,9 +351,9 @@ Developers will often work in a single repository in a given Jira project. Each 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/create-pull-request-annotated.png?version=1&modificationDate=1605045753159&cacheVersion=1&api=v2&width=510&height=190)
 
-Default repository selection for Jira projects is available in the [Create branch](/wiki/spaces/GITCLOUD/pages/733282366/Create+branch) and [Create pull / merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request) features of the app.
+Default repository selection for Jira projects is available in the [Create branch](/git-integration-for-jira-cloud/Create-branch) and [Create pull / merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request) features of the app.
 
-All default selections can be reviewed and updated in [User Settings](/wiki/spaces/GITCLOUD/pages/781975665/User+Settings):
+All default selections can be reviewed and updated in [User Settings](/git-integration-for-jira-cloud/User-Settings):
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/user-settings-default.png?version=1&modificationDate=1605564848523&cacheVersion=1&api=v2&width=510&height=246)
 

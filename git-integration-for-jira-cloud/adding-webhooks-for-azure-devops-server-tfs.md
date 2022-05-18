@@ -21,7 +21,7 @@ Supported webhook events:
 
 _Right-click_ [_here_](https://bigbrassband.wistia.com/medias/61wl72vp91) _and view this video in a new browser tab. (While the above video showcases VSTS/Azure DevOps, the entire process is entirely the same for Azure Repos webhooks setup.)_
 
-Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [**Indexing triggers - Getting Started**](/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers).
+Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [**Indexing triggers - Getting Started**](/git-integration-for-jira-cloud/Indexing-Triggers).
 
 ## Setting up webhooks for Azure DevOps Server | TFS
 

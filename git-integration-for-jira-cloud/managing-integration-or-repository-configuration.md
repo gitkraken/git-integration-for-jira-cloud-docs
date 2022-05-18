@@ -70,11 +70,11 @@ Manage connected integration or repositories via the ![(blue star)](/wiki/s/-16
 
 *   Page:
 
-    [Edit integration](/wiki/spaces/GITCLOUD/pages/1923024559/Edit+integration) (Git Integration for Jira Cloud)
+    [Edit integration](/git-integration-for-jira-cloud/Edit-integration) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [SSL Verify](/wiki/spaces/GITCLOUD/pages/1923024654/SSL+Verify) (Git Integration for Jira Cloud)
+    [SSL Verify](/git-integration-for-jira-cloud/SSL-Verify) (Git Integration for Jira Cloud)
 
 *   Page:
 
@@ -90,7 +90,7 @@ Manage connected integration or repositories via the ![(blue star)](/wiki/s/-16
 
 *   Page:
 
-    [Edit repository](/wiki/spaces/GITCLOUD/pages/1977384961/Edit+repository) (Git Integration for Jira Cloud)
+    [Edit repository](/git-integration-for-jira-cloud/Edit-repository) (Git Integration for Jira Cloud)
 
 *   Page:
 

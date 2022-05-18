@@ -62,7 +62,7 @@ Connect to Team Foundation Server (TFS) via Full feature integrations panel in M
 
 
 
-[AWS CodeCommit](/wiki/spaces/GITCLOUD/pages/86180077/AWS+CodeCommit)
+[AWS CodeCommit](/git-integration-for-jira-cloud/AWS-CodeCommit)
 
 Connect your AWS CodeCommit repositories via Git Integration for Jira app in Jira Cloud.
 
@@ -74,7 +74,7 @@ Connect your Gerrit repositories via Git Integration for Jira app in Jira Cloud.
 
 
 
-[Bitbucket Cloud](/wiki/spaces/GITCLOUD/pages/86343820/Bitbucket+Cloud)
+[Bitbucket Cloud](/git-integration-for-jira-cloud/Bitbucket-Cloud)
 
 Integrate Bitbucket Server git repositories via Git Integration for Jira app using HTTP/SSH connection.
 
