@@ -1,12 +1,12 @@
 ---
 
-title: AWS CodeCommit
+title: AWS CodeCommit for Git Integration for Jira Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Using **Jira Server or Data Center**? [See the corresponding article](https://bigbrassband.atlassian.net/wiki/x/JQDRB).
+Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/aws-codecommit/).
 
 ![AWS codecommit banner logo](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86180077/image-20200909-134637.png?version=1&modificationDate=1599745472495&cacheVersion=1&api=v2&width=442&height=92)
 
