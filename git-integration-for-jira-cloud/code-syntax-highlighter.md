@@ -39,20 +39,3 @@ This feature will only display properly on browsers supported by Atlassian for s
 
 [Jira Git integration development panel »](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel)
 
-### More related topics about Jira issue page
-
-*   Page:
-
-    [Jira issue page](/wiki/spaces/GITCLOUD/pages/1923025695/Jira+issue+page) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Git Roll Up tab](/wiki/spaces/GITCLOUD/pages/1923025721/Git+Roll+Up+tab) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Git Commits tab](/wiki/spaces/GITCLOUD/pages/1923025766/Git+Commits+tab) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Code syntax highlighter](/wiki/spaces/GITCLOUD/pages/1923025790/Code+syntax+highlighter) (Git Integration for Jira Cloud)

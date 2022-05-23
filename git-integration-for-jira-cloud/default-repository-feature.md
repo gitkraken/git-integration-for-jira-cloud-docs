@@ -43,24 +43,3 @@ This will set the repository as the default selection of the branch and pull req
 
 Referring to the above example image, the selected default repository has a label DEFAULT. Users can clear this setting using the adjacent button. Reselect a repository from the dropdown list to set a new default repository for this project, then click **Make default** (see Figure 1).
 
-### More related topics about user settings
-
-*   Page:
-
-    [Connected apps](/git-integration-for-jira-cloud/Connected-apps) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Default branch feature](/wiki/spaces/GITCLOUD/pages/1958936625/Default+branch+feature) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Default repository feature](/wiki/spaces/GITCLOUD/pages/1741094916/Default+repository+feature) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Personal access token feature](/wiki/spaces/GITCLOUD/pages/1739948039/Personal+access+token+feature) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [User Settings](/git-integration-for-jira-cloud/User-Settings) (Git Integration for Jira Cloud)

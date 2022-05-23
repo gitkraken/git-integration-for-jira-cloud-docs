@@ -116,20 +116,3 @@ if err_msg:
     sys.exit(1)
 ```
 
-## Related articles
-
-*   Page:
-
-    [Indexing Triggers](/git-integration-for-jira-cloud/Indexing-Triggers) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Hooks and Webhooks](/wiki/spaces/GITCLOUD/pages/179011589/Hooks+and+Webhooks) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Commit-msg Hook](/wiki/spaces/GITCLOUD/pages/179011603/Commit-msg+Hook) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Server-side Hook](/wiki/spaces/GITCLOUD/pages/179044399/Server-side+Hook) (Git Integration for Jira Cloud)

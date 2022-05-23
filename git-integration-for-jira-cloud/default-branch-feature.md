@@ -29,24 +29,3 @@ Use this function to assign a branch for the selected repository:
 2.  Click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Add default branch** to add more default branch configuration for the selected repository.
 
 
-### More related topics about user settings
-
-*   Page:
-
-    [Connected apps](/git-integration-for-jira-cloud/Connected-apps) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Default branch feature](/wiki/spaces/GITCLOUD/pages/1958936625/Default+branch+feature) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Default repository feature](/wiki/spaces/GITCLOUD/pages/1741094916/Default+repository+feature) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Personal access token feature](/wiki/spaces/GITCLOUD/pages/1739948039/Personal+access+token+feature) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [User Settings](/git-integration-for-jira-cloud/User-Settings) (Git Integration for Jira Cloud)

@@ -34,24 +34,3 @@ The following are the supported types of Bitbucket events for triggering webhook
 | _Request headers_  <br>**Content-type:** `application/json`  <br>**X-Event-Key:** `repo:commit_comment_created` |
 | _Request payload example_<br><br>```java<br>{<br>  "comment": {<br>    "commit": {<br>      "links": {<br>        "html": {"href": "https://bitbucket.org/johnsmith/test-bitbucket/commits/6d32f7643bfffdea17e8c498454971508fbdd5b1"}<br>      },<br>      "hash": "6d32f7643bfffdea17e8c498454971508fbdd5b1"<br>    },<br>    "id": 8917242,<br>    "type": "commit_comment",    <br>    "content": {<br>      "markup": "markdown",<br>      "raw": "Comment",<br>      "html": "<p>This is a comment<\/p>",<br>      "type": "rendered"<br>    },  <br>  },<br>}<br>``` |
 
-### Other webhook type events
-
-*   Page:
-
-    [GitHub webhook events](/wiki/spaces/GITCLOUD/pages/1921482779/GitHub+webhook+events) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [GitLab webhook events](/wiki/spaces/GITCLOUD/pages/1922465801/GitLab+webhook+events) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Microsoft webhook events](/wiki/spaces/GITCLOUD/pages/1921876015/Microsoft+webhook+events) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [AWS CodeCommit webhook events](/wiki/spaces/GITCLOUD/pages/1922203671/AWS+CodeCommit+webhook+events) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Bitbucket webhook events](/wiki/spaces/GITCLOUD/pages/1921548328/Bitbucket+webhook+events) (Git Integration for Jira Cloud)

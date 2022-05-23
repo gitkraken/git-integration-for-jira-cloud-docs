@@ -59,16 +59,3 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/r8fm0tbrcs) _a
 
 [**More information from Atlassian**](https://confluence.atlassian.com/jirasoftwarecloud/configuring-development-tools-764478056.html#Configuringdevelopmenttools-Workflowtriggers)
 
-### More related topics about Jira Cloud smart commits and workflow triggers
-
-*   Page:
-
-    [Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers](/wiki/spaces/GITCLOUD/pages/1940455528/Enable+Jira+Cloud+Smart+Commits%2C+Automation+for+Jira+and+Workflow+Triggers) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [How can a Jira administrator enable or disable the Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers?](/wiki/spaces/GITCLOUD/pages/1940914229) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Automatic Workflow Triggers](/wiki/spaces/GITCLOUD/pages/1940783182/Automatic+Workflow+Triggers) (Git Integration for Jira Cloud)

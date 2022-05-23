@@ -161,26 +161,3 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 Access the **Create branch** and **Create pull/merge request** features in the Jira issue developer panel.  For more information, see **[Jira Git integration development panel](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel)**.
 
-
-
-
-
-* * *
-
-## More Integration Guides
-
-page icon as list [Integrate GitHub.com with Jira Cloud](/wiki/spaces/GITCLOUD/pages/82477058/GitHub.com)
-
-page icon as list [Integrate GitHub Enterprise with Jira Cloud](/wiki/spaces/GITCLOUD/pages/85622870/GitHub+Enterprise+Server)
-
-page icon as list [Integrate GitLab.com with Jira Cloud](/wiki/spaces/GITCLOUD/pages/85622895/GitLab.com)
-
-page icon as list [Integrate GitLab CE/EE with Jira Cloud](/wiki/spaces/GITCLOUD/pages/85524528)
-
-page icon as list [Integrate Azure DevOps/VSTS with Jira Cloud](/wiki/spaces/GITCLOUD/pages/86278279)
-
-page icon as list [Integrate Azure DevOps Server/TFS with Jira Cloud](/wiki/spaces/GITCLOUD/pages/86409345)
-
-page icon as list [Integrate AWS CodeCommit with Jira Cloud](/git-integration-for-jira-cloud/AWS-CodeCommit)
-
-page icon as list [Integrate Gerrit with Jira Cloud](/git-integration-for-jira-cloud/Gerrit)

@@ -22,24 +22,3 @@ On the Kanban board, click on an issue on the board grid. On a dialog that disp
 
 [Branches (Developer panel) »](/wiki/spaces/GITCLOUD/pages/1923025879)
 
-### More related topics about Jira Git integration development panel
-
-*   Page:
-
-    [Jira Git integration development panel](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Development panel locations](/wiki/spaces/GITCLOUD/pages/1923025834/Development+panel+locations) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Branches (Development panel)](/wiki/spaces/GITCLOUD/pages/1923025879) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Pull or merge requests (Development panel)](/wiki/spaces/GITCLOUD/pages/1923025925) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Git tags](/git-integration-for-jira-cloud/Git-tags) (Git Integration for Jira Cloud)

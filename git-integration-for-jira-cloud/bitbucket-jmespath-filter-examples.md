@@ -35,24 +35,3 @@ An optional JMESPath filter can be configured when adding Bitbucket integration 
 | ```java<br>{values: values[?(name == 'repo1name') \| (name == 'repo2name')]}<br>``` |
 | Lists repositories with names `'repo1name'` and `'repo2name'`. |
 
-## Other examples for supported git services
-
-*   Page:
-
-    [GitHub.com | GitHub Enterprise JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615768/GitHub.com+%7C+GitHub+Enterprise+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [GitLab.com | GitLab CE/EE JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615801) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1343979648/Microsoft+%7C+VSTS+%7C+TFS+%7C+Azure+Repos+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Bitbucket JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1349615828/Bitbucket+JMESPath+filter+examples) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Gerrit JMESPath filter examples](/wiki/spaces/GITCLOUD/pages/1898020871/Gerrit+JMESPath+filter+examples) (Git Integration for Jira Cloud)

@@ -42,16 +42,3 @@ For Jira Cloud integration, we recommend to use the Auto-connect integration pan
 
 [Adding a public SSH key »](/wiki/spaces/GITCLOUD/pages/1923023758/Adding+a+public+SSH+Key)
 
-### More related topics about SSH integration
-
-*   Page:
-
-    [Generating SSH Keys](/wiki/spaces/GITCLOUD/pages/1923023647/Generating+SSH+Keys) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Connecting SSH Git Repositories (Jira Cloud)](/wiki/spaces/GITCLOUD/pages/1923023732) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Adding a public SSH Key](/wiki/spaces/GITCLOUD/pages/1923023758/Adding+a+public+SSH+Key) (Git Integration for Jira Cloud)

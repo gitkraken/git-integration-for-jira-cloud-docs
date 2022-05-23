@@ -104,21 +104,3 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/nnao2x4ses) _t
 [« Viewing indexing properties](/wiki/spaces/GITCLOUD/pages/1923024741)
 
 [View repository indexing logs »](/wiki/spaces/GITCLOUD/pages/2013626625/View+repository+indexing+logs)
-
-### More topics about setting up repositories
-
-*   Page:
-
-    [Git integration configuration page](/wiki/spaces/GITCLOUD/pages/1923024023/Git+integration+configuration+page) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Using the Git service integration wizard](/wiki/spaces/GITCLOUD/pages/1923024112/Using+the+Git+service+integration+wizard) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Using the Single git integration wizard](/wiki/spaces/GITCLOUD/pages/1923024154/Using+the+Single+git+integration+wizard) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Managing integration or repository configuration](/wiki/spaces/GITCLOUD/pages/1923024455/Managing+integration+or+repository+configuration) (Git Integration for Jira Cloud)

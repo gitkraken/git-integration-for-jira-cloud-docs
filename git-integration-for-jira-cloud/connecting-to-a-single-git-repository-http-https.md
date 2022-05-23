@@ -39,24 +39,3 @@ To connect a git repository to Jira via the Git Integration for Jira app:
 
 The repository is now connected for use with Jira.
 
-### Setup next features to improve Git user experience
-
-*   Page:
-
-    [Setting up web links](/wiki/spaces/GITCLOUD/pages/923566197/Setting+up+web+links) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Link git commits to Jira issue](/wiki/spaces/GITCLOUD/pages/923238543/Link+git+commits+to+Jira+issue) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Using Smart Commits](/wiki/spaces/GITCLOUD/pages/923664519/Using+Smart+Commits) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Using the Repository Browser](/wiki/spaces/GITCLOUD/pages/923664546/Using+the+Repository+Browser) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Creating branches and pull | merge requests](/wiki/spaces/GITCLOUD/pages/923566251/Creating+branches+and+pull+%7C+merge+requests) (Git Integration for Jira Cloud)
