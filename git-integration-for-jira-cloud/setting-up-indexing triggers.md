@@ -44,20 +44,3 @@ The Git Integration for Jira app supports GitHub and GitLab push events to defin
 
 [Working with SSH Keys »](/wiki/spaces/GITCLOUD/pages/1923023617/Working+with+SSH+keys)
 
-### More related topics about getting started for git admins
-
-*   Page:
-
-    [New GitLab v10+ authentication](/wiki/spaces/GITCLOUD/pages/1923023311) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Setup GitLab Server to respond to incoming network API calls](/wiki/spaces/GITCLOUD/pages/1923023297/Setup+GitLab+Server+to+respond+to+incoming+network+API+calls) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Setting up web linking](/wiki/spaces/GITCLOUD/pages/1923023467/Setting+up+web+linking) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Setting up indexing triggers](/wiki/spaces/GITCLOUD/pages/1923023481/Setting+up+indexing+triggers) (Git Integration for Jira Cloud)

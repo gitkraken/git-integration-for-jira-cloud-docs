@@ -211,16 +211,3 @@ Webhook indexing integration will only show new commit/branch/pull request activ
 
 Webhook indexing integration does not have this option as webhooks do not contain source code.
 
-## Other supported webhook indexing integration articles
-
-*   Page:
-
-    [GitHub webhook indexing integration](/wiki/spaces/GITCLOUD/pages/1494646787/GitHub+webhook+indexing+integration) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [GitLab webhook indexing integration](/wiki/spaces/GITCLOUD/pages/1503494176/GitLab+webhook+indexing+integration) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Microsoft webhook indexing integration](/wiki/spaces/GITCLOUD/pages/1509032469/Microsoft+webhook+indexing+integration) (Git Integration for Jira Cloud)

@@ -259,47 +259,6 @@ The merge request is listed on the developer panel of the Jira issue page.
 
 The merge request is also ready for approval by the reviewers in your GitLab web portal.
 
-## More Integration Guides
-
-*   Page:
-
-    [GitHub.com](/wiki/spaces/GITCLOUD/pages/82477058/GitHub.com) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [GitLab CE/EE](/wiki/spaces/GITCLOUD/pages/85524528) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [GitHub Enterprise Server](/wiki/spaces/GITCLOUD/pages/85622870/GitHub+Enterprise+Server) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [GitLab.com](/wiki/spaces/GITCLOUD/pages/85622895/GitLab.com) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Azure DevOps | Visual Studio Team Services (VSTS)](/wiki/spaces/GITCLOUD/pages/86278279) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Azure DevOps Server | Team Foundation Services (TFS)](/wiki/spaces/GITCLOUD/pages/86409345) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [AWS CodeCommit](/git-integration-for-jira-cloud/AWS-CodeCommit) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Gerrit](/git-integration-for-jira-cloud/Gerrit) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Bitbucket Cloud](/git-integration-for-jira-cloud/Bitbucket-Cloud) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Introduction to Git integration](/wiki/spaces/GITCLOUD/pages/86966273/Introduction+to+Git+integration) (Git Integration for Jira Cloud)
 
 
 _1 Logo owned by_ [_GitLab Inc_](https://gitlab.com/) _used under_ [_license_](https://creativecommons.org/licenses/by-nc-sa/4.0/)

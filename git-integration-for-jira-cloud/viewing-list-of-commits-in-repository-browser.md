@@ -33,20 +33,3 @@ The list of commits for the currently selected project is displayed in descendin
 
 [Comparing branches/tags in Repository browser »](/wiki/spaces/GITCLOUD/pages/1923025590/Comparing+branches+or+tags+in+Repository+browser)
 
-### More related topics about repository browser
-
-*   Page:
-
-    [Repository browser](/git-integration-for-jira-cloud/Repository-browser) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Viewing list of commits in Repository browser](/wiki/spaces/GITCLOUD/pages/1923025571/Viewing+list+of+commits+in+Repository+browser) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Comparing branches or tags in Repository browser](/wiki/spaces/GITCLOUD/pages/1923025590/Comparing+branches+or+tags+in+Repository+browser) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Repository browser general settings](/wiki/spaces/GITCLOUD/pages/1923025615/Repository+browser+general+settings) (Git Integration for Jira Cloud)

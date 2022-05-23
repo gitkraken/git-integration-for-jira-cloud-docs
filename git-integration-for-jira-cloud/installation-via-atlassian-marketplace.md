@@ -29,12 +29,3 @@ taxonomy:
 
 [Installation via Jira Plugin Manager »](/wiki/spaces/GITCLOUD/pages/1923023056/Installation+via+Jira+Plugin+Manager)
 
-### More topics about Git Integration for Jira app installation
-
-*   Page:
-
-    [Installation via Atlassian Marketplace](/wiki/spaces/GITCLOUD/pages/1923023030/Installation+via+Atlassian+Marketplace) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Installation via Jira Plugin Manager](/wiki/spaces/GITCLOUD/pages/1923023056/Installation+via+Jira+Plugin+Manager) (Git Integration for Jira Cloud)

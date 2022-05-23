@@ -75,31 +75,5 @@ Personal Access Tokens are saved per integration by individual Jira users app. E
 
 Jira users must have the **View Development Tools** permission in the context of a Jira project to view content from the Git Integration for Jira app.
 
-## Related articles
-
-*   Page:
-
-    [Git Integration (Server): Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/BBBSUPPORT/pages/131006605)
-
-*   Page:
-
-    [Git Integration (Cloud): Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/BBBSUPPORT/pages/131039339)
-
-*   Page:
-
-    [Git Integration (Server/Data Center): Setting Project Permissions](/wiki/spaces/BBBSUPPORT/pages/125927519)
-
-*   Page:
-
-    [Permissions](/wiki/spaces/BBBSUPPORT/pages/405962825/Permissions)
-
-*   Page:
-
-    [Git Integration (Server): Configure Source Code Diff Viewing](/wiki/spaces/BBBSUPPORT/pages/125927674/Git+Integration+%28Server%29%3A+Configure+Source+Code+Diff+Viewing)
-
-
-
-
-
 
 _1 Logo owned by_ [_GitLab Inc_](https://gitlab.com/) _used under_ [_license_](https://creativecommons.org/licenses/by-nc-sa/4.0/)

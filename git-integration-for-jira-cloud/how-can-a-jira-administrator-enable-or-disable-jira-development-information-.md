@@ -17,24 +17,3 @@ Install the [**Git Integration for Jira**](https://marketplace.atlassian.com/49
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1941373145/gitcloud-gencfg-send-devinfo-to-jira-cloud.png?version=1&modificationDate=1631350766174&cacheVersion=1&api=v2&width=680&height=515)
 
-### More related topics about Jira development information
-
-*   Page:
-
-    [How can a Jira administrator enable or disable Jira Development Information?](/wiki/spaces/GITCLOUD/pages/1941373145) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Jira Development Information settings](/wiki/spaces/GITCLOUD/pages/1941373113/Jira+Development+Information+settings) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Development Information Views](/wiki/spaces/GITCLOUD/pages/643203115/Development+Information+Views) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [JQL Searching for Commits and Pull Requests](/wiki/spaces/GITCLOUD/pages/643596299/JQL+Searching+for+Commits+and+Pull+Requests) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Jira Cloud Smart Commits and Workflow Triggers](/wiki/spaces/GITCLOUD/pages/144310383/Jira+Cloud+Smart+Commits+and+Workflow+Triggers) (Git Integration for Jira Cloud)

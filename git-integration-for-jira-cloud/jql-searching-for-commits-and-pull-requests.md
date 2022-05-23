@@ -50,24 +50,3 @@ Use the following JQL syntax to locate all Jira issues with more than one pull r
 
 [**More information from Atlassian**](https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-developer-reference-967312910.html)
 
-### More related topics about Jira development information
-
-*   Page:
-
-    [How can a Jira administrator enable or disable Jira Development Information?](/wiki/spaces/GITCLOUD/pages/1941373145) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Jira Development Information settings](/wiki/spaces/GITCLOUD/pages/1941373113/Jira+Development+Information+settings) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Development Information Views](/wiki/spaces/GITCLOUD/pages/643203115/Development+Information+Views) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [JQL Searching for Commits and Pull Requests](/wiki/spaces/GITCLOUD/pages/643596299/JQL+Searching+for+Commits+and+Pull+Requests) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Jira Cloud Smart Commits and Workflow Triggers](/wiki/spaces/GITCLOUD/pages/144310383/Jira+Cloud+Smart+Commits+and+Workflow+Triggers) (Git Integration for Jira Cloud)

@@ -55,28 +55,3 @@ If a smart commit fails, an email notification is sent to either the Jira user, 
 
 [Smart commits general settings »](/wiki/spaces/GITCLOUD/pages/1923025462/Smart+commits+general+settings)
 
-### More related topics about smart commits
-
-*   Page:
-
-    [Smart commits](/git-integration-for-jira-cloud/Smart-commits) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Basic commands](/git-integration-for-jira-cloud/Basic-commands) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Workflow transitions](/git-integration-for-jira-cloud/Workflow-transitions) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Advanced examples](/git-integration-for-jira-cloud/Advanced-examples) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Viewing workflows](/git-integration-for-jira-cloud/Viewing-workflows) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Smart commits general settings](/wiki/spaces/GITCLOUD/pages/1923025462/Smart+commits+general+settings) (Git Integration for Jira Cloud)

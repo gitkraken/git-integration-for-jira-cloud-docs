@@ -49,24 +49,3 @@ The following are the supported types of GitLab events for triggering webhooks:
 | _Request headers_  <br>**Content-type:** `application/json`  <br>**X-GitHub-Event:** `system hook` |
 | _Request payload example_<br><br>```java<br>{<br>  "owner_email": "admin@example.com",<br>  "path": "jsmith_4",<br>  "owner_name": "Administrator",<br>  "project_id": 85,<br>  "path_with_namespace": "root/jsmith_4",<br>  "name": "JohnSmith_5",<br>  "project_visibility": "private",<br>  "event_name": "project_destroy",<br>}<br>``` |
 
-### Other webhook type events
-
-*   Page:
-
-    [GitHub webhook events](/wiki/spaces/GITCLOUD/pages/1921482779/GitHub+webhook+events) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [GitLab webhook events](/wiki/spaces/GITCLOUD/pages/1922465801/GitLab+webhook+events) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Microsoft webhook events](/wiki/spaces/GITCLOUD/pages/1921876015/Microsoft+webhook+events) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [AWS CodeCommit webhook events](/wiki/spaces/GITCLOUD/pages/1922203671/AWS+CodeCommit+webhook+events) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Bitbucket webhook events](/wiki/spaces/GITCLOUD/pages/1921548328/Bitbucket+webhook+events) (Git Integration for Jira Cloud)

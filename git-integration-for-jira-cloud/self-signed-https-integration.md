@@ -18,16 +18,3 @@ Continue to the next topic for further information on setup and integration.
 
 [Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues »](/wiki/spaces/GITCLOUD/pages/1923024398/Automatically+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues)
 
-### More related topics about self-signed HTTPS connection
-
-*   Page:
-
-    [Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/wiki/spaces/GITCLOUD/pages/1923024398/Automatically+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Self-signed HTTPS integration](/wiki/spaces/GITCLOUD/pages/1923024386/Self-signed+HTTPS+integration) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/wiki/spaces/GITCLOUD/pages/1923024437/Manually+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues) (Git Integration for Jira Cloud)

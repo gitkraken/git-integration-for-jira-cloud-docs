@@ -33,16 +33,3 @@ taxonomy:
 | **Administrator note** |
 | Both **Send Development Information to Jira Cloud** and **Enable Dev Info Smart Commits & Workflow** settings must be enabled for automatic workflow triggers to be enabled.<br><br>![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1940914229/gitcloud-general-settings.png%3Fversion=1&modificationDate=1561755642353&cacheVersion=1&api=v2&width=350&height=184?version=1&modificationDate=1631336816979&cacheVersion=1&api=v2&width=442&height=232) |
 
-### More related topics about Jira Cloud smart commits and workflow triggers
-
-*   Page:
-    
-    [Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers](/wiki/spaces/GITCLOUD/pages/1940455528/Enable+Jira+Cloud+Smart+Commits%2C+Automation+for+Jira+and+Workflow+Triggers) (Git Integration for Jira Cloud)
-    
-*   Page:
-    
-    [How can a Jira administrator enable or disable the Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers?](/wiki/spaces/GITCLOUD/pages/1940914229) (Git Integration for Jira Cloud)
-    
-*   Page:
-    
-    [Automatic Workflow Triggers](/wiki/spaces/GITCLOUD/pages/1940783182/Automatic+Workflow+Triggers) (Git Integration for Jira Cloud)

@@ -84,20 +84,3 @@ To limit which Jira projects are associated for individual repositories:
 
 _Right click_ [_here_](https://bigbrassband.wistia.com/medias/xvzj32nxou) _to open this video in a new browser tab for more viewing options._
 
-## Related articles
-
-*   Page:
-
-    [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GITCLOUD/pages/131137621) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Permissions](/git-integration-for-jira-cloud/Permissions) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Setting Project Permissions](/wiki/spaces/GITCLOUD/pages/509509708/Setting+Project+Permissions) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Trusted Users](/git-integration-for-jira-cloud/Trusted-Users) (Git Integration for Jira Cloud)

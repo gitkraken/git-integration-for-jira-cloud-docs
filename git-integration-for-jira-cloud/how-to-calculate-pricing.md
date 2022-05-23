@@ -19,8 +19,3 @@ taxonomy:
 
 All active Jira users must be licensed for an Atlassian Marketplace app - [Atlassian Marketplace FAQ](https://www.atlassian.com/licensing/marketplace#licensingandpricing-1)
 
-## Related articles
-
-*   Page:
-
-    [How to Calculate Pricing](/wiki/spaces/GITCLOUD/pages/128483369/How+to+Calculate+Pricing)

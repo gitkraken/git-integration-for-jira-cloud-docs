@@ -28,16 +28,3 @@ Learn how to associate branches to Jira issues by following the simple steps in 
 
 Learn how to associate branches to Jira issues by following the simple steps in [**How to link pull or merge request to a Jira issue?**](/wiki/spaces/GITCLOUD/pages/2091220997) or see related page on [**Creating pull or merge requests inside Jira**](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request).
 
-### More on administrator toolbox guides
-
-*   Page:
-
-    [Initial setup guide](/wiki/spaces/GITCLOUD/pages/2092531714/Initial+setup+guide) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Permissions](/git-integration-for-jira-cloud/Permissions) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Productivity guide](/git-integration-for-jira-cloud/Productivity-guide) (Git Integration for Jira Cloud)

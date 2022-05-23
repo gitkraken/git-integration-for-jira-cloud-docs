@@ -47,28 +47,6 @@ Note that the **Project Permissions** feature in the [**Git Integration for Ji
 *   [NextGen projects only: View commits, branches, and pull requests in Jira Boards](/wiki/spaces/GITCLOUD/pages/1940783272/Next-gen+projects+only%3A+View+commits%2C+branches%2C+and+pull+requests+in+Jira+Boards)
 
 
-## More related features about Jira development information
-
-*   Page:
-
-    [How can a Jira administrator enable or disable Jira Development Information?](/wiki/spaces/GITCLOUD/pages/1941373145) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Jira Development Information settings](/wiki/spaces/GITCLOUD/pages/1941373113/Jira+Development+Information+settings) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Development Information Views](/wiki/spaces/GITCLOUD/pages/643203115/Development+Information+Views) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [JQL Searching for Commits and Pull Requests](/wiki/spaces/GITCLOUD/pages/643596299/JQL+Searching+for+Commits+and+Pull+Requests) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Jira Cloud Smart Commits and Workflow Triggers](/wiki/spaces/GITCLOUD/pages/144310383/Jira+Cloud+Smart+Commits+and+Workflow+Triggers) (Git Integration for Jira Cloud)
-
 
 **Contact Us**
 If you still have a question - reach out to our [**Support Desk**](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).

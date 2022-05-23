@@ -46,20 +46,3 @@ You should be able to add the GitLab repositories via Git Integration for Jira a
 
 [New GitLab v10+ authentication »](/wiki/spaces/GITCLOUD/pages/1923023311)
 
-### More related topics about getting started for Jira admins
-
-*   Page:
-
-    [New GitLab v10+ authentication](/wiki/spaces/GITCLOUD/pages/1923023311) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Setup GitLab Server to respond to incoming network API calls](/wiki/spaces/GITCLOUD/pages/1923023297/Setup+GitLab+Server+to+respond+to+incoming+network+API+calls) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Setting up web linking](/wiki/spaces/GITCLOUD/pages/1923023467/Setting+up+web+linking) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Setting up indexing triggers](/wiki/spaces/GITCLOUD/pages/1923023481/Setting+up+indexing+triggers) (Git Integration for Jira Cloud)

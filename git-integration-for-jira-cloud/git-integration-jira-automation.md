@@ -115,16 +115,3 @@ Create a rule to configure triggers and actions for automating tasks. There are 
 
 For advanced examples, see sub-page [Automation Advanced Examples](/wiki/spaces/GITCLOUD/pages/1714257921).
 
-### More related topics about Jira automation
-
-*   Page:
-
-    [Git Integration + Jira Automation](/wiki/spaces/GITCLOUD/pages/1698922497)
-
-*   Page:
-
-    [Git Integration + Jira Automation Advanced Examples](/wiki/spaces/GITCLOUD/pages/1714257921)
-
-*   Page:
-
-    [Git Integration for Jira automation template library](/wiki/spaces/GITCLOUD/pages/1595736065/Git+Integration+for+Jira+automation+template+library)

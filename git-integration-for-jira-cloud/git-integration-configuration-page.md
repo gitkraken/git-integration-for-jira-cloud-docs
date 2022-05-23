@@ -70,20 +70,3 @@ Click on the next » topic below (recommended) to learn about adding a new full 
 
 [Using the Git service integration wizard »](/wiki/spaces/GITCLOUD/pages/1923024112/Using+the+Git+service+integration+wizard)
 
-### More topics about setting up integration
-
-*   Page:
-
-    [Git integration configuration page](/wiki/spaces/GITCLOUD/pages/1923024023/Git+integration+configuration+page) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Using the Git service integration wizard](/wiki/spaces/GITCLOUD/pages/1923024112/Using+the+Git+service+integration+wizard) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Using the Single git integration wizard](/wiki/spaces/GITCLOUD/pages/1923024154/Using+the+Single+git+integration+wizard) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Managing integration or repository configuration](/wiki/spaces/GITCLOUD/pages/1923024455/Managing+integration+or+repository+configuration) (Git Integration for Jira Cloud)

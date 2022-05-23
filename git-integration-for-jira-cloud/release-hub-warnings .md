@@ -20,16 +20,3 @@ Currently two types of warnings are available:
 
 [**More information from Atlassian**](https://confluence.atlassian.com/jirasoftwarecloud/using-the-release-page-to-check-the-progress-of-a-version-764478141.html)
 
-### More related topics about development information views
-
-*   Page:
-
-    [Development status in Jira issue searching](/wiki/spaces/GITCLOUD/pages/1940914287/Development+status+in+Jira+issue+searching) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Release Hub: Warnings](/wiki/spaces/GITCLOUD/pages/1941373081)  (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Next-gen projects only: View commits, branches, and pull requests in Jira Boards](/wiki/spaces/GITCLOUD/pages/1940783272/Next-gen+projects+only%3A+View+commits%2C+branches%2C+and+pull+requests+in+Jira+Boards) (Git Integration for Jira Cloud)
