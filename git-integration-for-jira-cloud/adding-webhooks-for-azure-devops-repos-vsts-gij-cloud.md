@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Pull request webhooks are now supported.  [See details](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/172294150/Adding+webhooks+for+Azure+DevOps+Repos+%7C+VSTS#Pull-request-webhooks) on this page.
+Pull request webhooks are now supported.  [See details](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-repos-vsts/) on this page.
 
 Supported webhook events:
 

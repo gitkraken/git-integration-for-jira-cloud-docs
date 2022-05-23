@@ -6,8 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/628523026/gerrit-webhook-banner.png?version=1&modificationDate=1594989770246&cacheVersion=1&api=v2&width=510&height=117)
-
 
 **What’s on this page:**
 
@@ -64,37 +62,3 @@ _**Optional headers:**_
 | --- |
 | **Payload.json** |
 | ```java<br>{<br>  "origin": "repository-origin"<br>}<br>``` |
-
-## More Webhook Articles
-
-*   Page:
-
-    [Creating indexing triggers for a single repository](/wiki/spaces/GITCLOUD/pages/171213231/Creating+indexing+triggers+for+a+single+repository) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Adding webhooks for GitHub repository](/wiki/spaces/GITCLOUD/pages/171377213/Adding+webhooks+for+GitHub+repository) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Adding webhooks for GitLab repository](/wiki/spaces/GITCLOUD/pages/171377217/Adding+webhooks+for+GitLab+repository) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Webhook GitHub Organization support](/wiki/spaces/GITCLOUD/pages/171278791/Webhook+GitHub+Organization+support) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Adding webhooks for Azure DevOps Repos | VSTS](/wiki/spaces/GITCLOUD/pages/172294150/Adding+webhooks+for+Azure+DevOps+Repos+%7C+VSTS) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Adding webhooks for Azure DevOps Server | TFS](/wiki/spaces/GITCLOUD/pages/234782736/Adding+webhooks+for+Azure+DevOps+Server+%7C+TFS) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Adding webhooks for Bitbucket Cloud](/wiki/spaces/GITCLOUD/pages/467271681/Adding+webhooks+for+Bitbucket+Cloud) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Adding webhooks to AWS CodeCommit](/wiki/spaces/GITCLOUD/pages/864288787/Adding+webhooks+to+AWS+CodeCommit) (Git Integration for Jira Cloud)

@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Merge request webhooks are now supported. [See details](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171377217/Adding+webhooks+for+GitLab+repository#Merge-request-event-webhook) on this page.
+Merge request webhooks are now supported. [See details](/git-integration-for-jira-cloud/adding-webhooks-for-gitlab-repository/) on this page.
 
 Supported webhook events:
 

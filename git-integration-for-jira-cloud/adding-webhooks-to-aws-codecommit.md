@@ -21,7 +21,7 @@ Supported webhook events:
 *   _Pull request_ - Updated
 
 
-Before you can proceed with the steps outlined in this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [**Indexing triggers - Getting started**](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers#Getting-started).
+Before you can proceed with the steps outlined in this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [**Indexing triggers - Getting started**](/git-integration-for-jira-cloud/Indexing-Triggers).
 
 ## Getting started
 
@@ -113,37 +113,3 @@ If errors are received, verify AWS triggers settings and make the necessary chan
 Webhooks will be automatically registered for each AWS CodeCommit repository connected to Jira Cloud to instantly index your commits. For this to work, the connecting service user must have the [**basic + all features** required permissions](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/86180077/AWS+CodeCommit#Required-permissions) mentioned in the integration guide.
 
 Webhooks will be deleted when AWS CodeCommit integration is disconnected from Git Integration for Jira Cloud.
-
-## Related topics about webhooks setup
-
-*   Page:
-
-    [Creating indexing triggers for a single repository](/wiki/spaces/GITCLOUD/pages/171213231/Creating+indexing+triggers+for+a+single+repository)
-
-*   Page:
-
-    [Adding webhooks for GitHub repository](/wiki/spaces/GITCLOUD/pages/171377213/Adding+webhooks+for+GitHub+repository)
-
-*   Page:
-
-    [Adding webhooks for GitLab repository](/wiki/spaces/GITCLOUD/pages/171377217/Adding+webhooks+for+GitLab+repository)
-
-*   Page:
-
-    [Webhook GitHub Organization support](/wiki/spaces/GITCLOUD/pages/171278791/Webhook+GitHub+Organization+support)
-
-*   Page:
-
-    [Adding webhooks for Azure DevOps Repos | VSTS](/wiki/spaces/GITCLOUD/pages/172294150/Adding+webhooks+for+Azure+DevOps+Repos+%7C+VSTS)
-
-*   Page:
-
-    [Adding webhooks for Azure DevOps Server | TFS](/wiki/spaces/GITCLOUD/pages/234782736/Adding+webhooks+for+Azure+DevOps+Server+%7C+TFS)
-
-*   Page:
-
-    [Adding webhooks for Bitbucket Cloud](/wiki/spaces/GITCLOUD/pages/467271681/Adding+webhooks+for+Bitbucket+Cloud)
-
-*   Page:
-
-    [Adding webhooks to AWS CodeCommit](/wiki/spaces/GITCLOUD/pages/864288787/Adding+webhooks+to+AWS+CodeCommit)

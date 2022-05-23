@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Pull request webhooks are now supported. [See details](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/467271681/Adding+webhooks+for+Bitbucket+Cloud#Pull-Request-Webhooks) on this page.
+Pull request webhooks are now supported. [See details](/git-integration-for-jira-cloud/adding-webhooks-for-bitbucket-cloud/) on this page.
 
 Supported webhook events:
 
@@ -30,7 +30,7 @@ Configure webhook by logging in to your Bitbucket.
 
 2.  ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/467271681/webhooks-bitbucket-add-shooks(c).png?version=1&modificationDate=1588130532215&cacheVersion=1&api=v2&width=408&height=329)
 
-    Click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Repository Settings** then under **WORKFLOW**, select **Webhooks**.
+    Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Repository Settings** then under **WORKFLOW**, select **Webhooks**.
 
 3.  Click **Add webhook** to create a webhook for the repository. The _**Add new webhook**_ screen appears.
 
@@ -60,7 +60,7 @@ Configure webhook by logging in to your Bitbucket.
 
 7.  Enter a meaningful **Title** name for this webhook.
 
-8.  For the **Triggers**, if your organization does not require pull request events, select ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Repository push**. Otherwise, select _**Choose from a full list of triggers**_ (recommended) and then tick Repository (**Push**) and Pull Request (**Created**, **Updated**).
+8.  For the **Triggers**, if your organization does not require pull request events, select ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Repository push**. Otherwise, select _**Choose from a full list of triggers**_ (recommended) and then tick Repository (**Push**) and Pull Request (**Created**, **Updated**).
 
 9.  Click **Save** to complete this setup.
 
