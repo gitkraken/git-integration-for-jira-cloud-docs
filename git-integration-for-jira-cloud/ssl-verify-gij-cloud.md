@@ -1,6 +1,6 @@
 ---
 
-title: SSL Verify - GIJ Cloud
+title: SSL Verify
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

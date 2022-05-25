@@ -1,6 +1,6 @@
 ---
 
-title: Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues - GIJ Cloud
+title: Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

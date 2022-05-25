@@ -1,6 +1,6 @@
 ---
 
-title: Viewing commit code diffs - GIJ Cloud
+title: Viewing commit code diffs
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
