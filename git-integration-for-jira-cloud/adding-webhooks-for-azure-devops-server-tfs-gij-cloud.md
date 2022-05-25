@@ -1,6 +1,6 @@
 ---
 
-title: Adding webhooks for Azure DevOps Server | TFS - GIJ Cloud
+title: Adding webhooks for Azure DevOps Server | TFS
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

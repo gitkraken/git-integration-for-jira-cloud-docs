@@ -1,6 +1,6 @@
 ---
 
-title: Reindexing GIJ Cloud
+title: Reindexing
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

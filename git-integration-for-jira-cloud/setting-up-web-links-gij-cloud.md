@@ -1,6 +1,6 @@
 ---
 
-title: Setting up web links - GIJ Cloud
+title: Setting up web links
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

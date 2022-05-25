@@ -1,6 +1,6 @@
 ---
 
-title: Jira project page - GIJ Cloud
+title: Jira project page
 description: 
 taxonomy:
     category: git-integration-for-jira-cloud

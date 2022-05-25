@@ -1,6 +1,6 @@
 ---
 
-title: Adding webhooks for Gerrit - GIJ cloud
+title: Adding webhooks for Gerrit
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
