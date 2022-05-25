@@ -7,12 +7,6 @@ taxonomy:
 
 ---
 
-# How can a Jira administrator enable or disable the Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers?
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1940914229>
-
-* * *
-
 1.  Install the [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) or the [**Dev Info for Jira**](https://marketplace.atlassian.com/1219270) app.
     
 2.  Navigate to the **General settings** page of the application (![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira Settings_ ➜ _Apps_ ➜ (sidebar) _General settings_).

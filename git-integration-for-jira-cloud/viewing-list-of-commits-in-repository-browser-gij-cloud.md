@@ -1,6 +1,6 @@
 ---
 
-title: Viewing list of commits in Repository browser
+title: Viewing list of commits in Repository browser GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

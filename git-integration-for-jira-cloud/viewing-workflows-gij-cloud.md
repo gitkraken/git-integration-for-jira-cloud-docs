@@ -1,6 +1,6 @@
 ---
 
-title: Viewing workflows GIJ Cloud
+title: Viewing workflows
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

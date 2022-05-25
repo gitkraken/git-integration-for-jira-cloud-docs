@@ -1,6 +1,6 @@
 ---
 
-title: Repository browser GIJ Cloud
+title: Repository browser
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

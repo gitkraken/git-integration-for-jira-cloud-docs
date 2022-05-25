@@ -1,6 +1,6 @@
 ---
 
-title: Advanced examples GIJ Cloud
+title: Advanced examples
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

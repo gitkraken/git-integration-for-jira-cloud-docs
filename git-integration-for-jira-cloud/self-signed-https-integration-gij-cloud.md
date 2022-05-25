@@ -1,6 +1,6 @@
 ---
 
-title: Self-signed HTTPS integration
+title: Self-signed HTTPS integration GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
