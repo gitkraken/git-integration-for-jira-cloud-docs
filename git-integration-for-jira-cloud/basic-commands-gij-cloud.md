@@ -1,6 +1,6 @@
 ---
 
-title: Basic Commands
+title: Basic Commands GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

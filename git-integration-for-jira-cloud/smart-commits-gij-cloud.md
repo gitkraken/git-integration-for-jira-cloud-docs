@@ -1,6 +1,6 @@
 ---
 
-title: Smart commits
+title: Smart commits GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

@@ -1,6 +1,6 @@
 ---
 
-title: Workflow transitions
+title: Workflow transitions GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
