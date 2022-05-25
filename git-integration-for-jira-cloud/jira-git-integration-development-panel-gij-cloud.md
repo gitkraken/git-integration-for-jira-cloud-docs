@@ -1,6 +1,6 @@
 ---
 
-title: Jira Git integration development panel
+title: Jira Git integration development panel - GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

@@ -1,6 +1,6 @@
 ---
-
-title: Git Roll Up tab
+ 
+title: Git Roll Up tab - GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

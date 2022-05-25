@@ -1,6 +1,6 @@
 ---
 
-title: Code syntax highlighter
+title: Code syntax highlighter - GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

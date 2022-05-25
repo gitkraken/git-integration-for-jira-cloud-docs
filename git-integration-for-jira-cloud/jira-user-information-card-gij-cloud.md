@@ -1,6 +1,6 @@
 ---
 
-title: Jira user information card
+title: Jira user information card - GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
