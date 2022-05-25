@@ -7,12 +7,6 @@ taxonomy:
 
 ---
 
-# Git roll up issue tab setting
-
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1207796128/Git+roll+up+issue+tab+setting>
-
-* * *
-
 This setting is part of the [**General settings**](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud.
 
 **Default settings**

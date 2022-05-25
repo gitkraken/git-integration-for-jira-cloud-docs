@@ -1,6 +1,6 @@
 ---
 
-title: Git Commits tab - GIJ Cloud
+title: Git Commits tab
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

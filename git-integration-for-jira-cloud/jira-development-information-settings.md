@@ -7,12 +7,6 @@ taxonomy:
 
 ---
 
-# Jira development information settings
-
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1207796181/Jira+development+information+settings>
-
-* * *
-
 These settings are part of the [**General Settings**](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207796181/gitcloud-gencfg-jira-dev-info.png?version=1&modificationDate=1645097837632&cacheVersion=1&api=v2&width=548&height=253)

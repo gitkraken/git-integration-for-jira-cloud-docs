@@ -7,11 +7,6 @@ taxonomy:
 
 ---
 
-# Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers setting
-
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1207796196/Enable+Jira+Cloud+Smart+Commits%2C+Automation+for+Jira+and+Workflow+Triggers+setting>
-
-* * *
 
 These settings are part of the [General settings](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud under [Jira Development Information settings](/wiki/spaces/GITCLOUD/pages/1207796181/Jira+development+information+settings).
 

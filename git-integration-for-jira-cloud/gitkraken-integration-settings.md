@@ -7,11 +7,6 @@ taxonomy:
 
 ---
 
-# GitKraken integration settings
-
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1980563563/GitKraken+integration+settings>
-
-* * *
 
 This setting is part of the [**General settings**](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud.
 

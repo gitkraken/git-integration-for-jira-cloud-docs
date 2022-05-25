@@ -1,6 +1,6 @@
 ---
 
-title: Git tags
+title: Git tags - GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

@@ -7,11 +7,6 @@ taxonomy:
 
 ---
 
-# Git commits issue tab and project page
-
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1207829071/Git+commits+issue+tab+and+project+page>
-
-* * *
 
 This setting is part of the [**General settings**](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud.
 

@@ -1,6 +1,6 @@
 ---
 
-title: Pull or merge requests (Development panel)
+title: Pull or merge requests (Development panel) - GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

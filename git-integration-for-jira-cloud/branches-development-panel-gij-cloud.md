@@ -1,6 +1,6 @@
 ---
  
-title: Branches (Development panel) - GIJ Cloud
+title: Branches (Development panel)
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

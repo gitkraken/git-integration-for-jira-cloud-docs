@@ -1,6 +1,6 @@
 ---
 
-title: Licensing notice
+title: Licensing notice - GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

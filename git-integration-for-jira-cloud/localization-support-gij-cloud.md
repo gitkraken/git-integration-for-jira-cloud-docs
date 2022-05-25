@@ -1,6 +1,6 @@
 ---
 
-title: Localization support
+title: Localization support - GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

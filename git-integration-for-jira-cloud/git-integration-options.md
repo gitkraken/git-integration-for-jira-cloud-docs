@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# Git integration options
-
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1207829137/Git+integration+options>
-
-* * *
-
 This setting is part of the [**General Settings**](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud.
 
 

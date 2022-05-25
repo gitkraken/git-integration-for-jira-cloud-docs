@@ -7,11 +7,6 @@ taxonomy:
 
 ---
 
-# Enable Git Integration app smart commits setting
-
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1207829205/Enable+Git+Integration+app+smart+commits+setting>
-
-* * *
 
 These settings are part of the [General settings](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud under [Jira Development Information settings](/wiki/spaces/GITCLOUD/pages/1207796181/Jira+development+information+settings).
 

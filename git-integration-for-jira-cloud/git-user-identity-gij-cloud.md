@@ -1,6 +1,6 @@
 ---
 
-title: Git user Identity - GIJ Cloud
+title: Git user Identity
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

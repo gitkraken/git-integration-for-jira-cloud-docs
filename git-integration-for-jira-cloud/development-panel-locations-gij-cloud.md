@@ -1,6 +1,6 @@
 ---
 
-title: Development panel locations - GIJ Cloud
+title: Development panel locations
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

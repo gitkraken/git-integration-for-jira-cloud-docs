@@ -1,6 +1,6 @@
 ---
 
-title: Adding webhooks for Azure DevOps Repos | VSTS
+title: Adding webhooks for Azure DevOps Repos | VSTS - GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

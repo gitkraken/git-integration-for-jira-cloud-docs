@@ -7,12 +7,6 @@ taxonomy:
 
 ---
 
-# Send development information to Jira Cloud setting
-
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/1207829176/Send+development+information+to+Jira+Cloud+setting>
-
-* * *
-
 These settings are part of the [**General Settings**](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud under [**Jira Development Information settings**](/wiki/spaces/GITCLOUD/pages/1207796181/Jira+development+information+settings).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829176/gitcloud-gencfg-jira-dev-info-send-to-cloud.png?version=1&modificationDate=1645097991562&cacheVersion=1&api=v2&width=548&height=253)
