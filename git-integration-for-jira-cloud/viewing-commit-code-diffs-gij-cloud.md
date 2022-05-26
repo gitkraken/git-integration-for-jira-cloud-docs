@@ -13,7 +13,7 @@ Access the commit code diff dialog via the following locations:
 
 *   On the **Compare** results screen of the Repository browser, click a file on the **Roll Up** tab.
 
-*   Go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ **Projects**. Select a project. Click **Git Commits** on the sidebar. Click **View full commit** on a commit panel.
+*   Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ **Projects**. Select a project. Click **Git Commits** on the sidebar. Click **View full commit** on a commit panel.
 
 *   Click **Open in GitKraken** on the commit panel to open the commit via GitKraken git client app.
 

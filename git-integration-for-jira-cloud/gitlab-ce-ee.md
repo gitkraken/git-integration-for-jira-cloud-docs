@@ -141,7 +141,7 @@ The Git Integration for Jira app supports GitLab API v4 (in both Jira Cloud and 
 For newer GitLab authentication - in order to access a Git repository over HTTP, use the username as the username and the PAT for the password.
 
 **Administrators**
-If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration**.
+If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85524528/gitcloud-edit-integration-feature-cfg-req-user-PAT.png?version=1&modificationDate=1649690453368&cacheVersion=1&api=v2&width=680&height=75)
 

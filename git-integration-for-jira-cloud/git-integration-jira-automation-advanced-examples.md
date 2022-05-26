@@ -16,7 +16,7 @@ taxonomy:
 
 ### More Jira automation information
 
-![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) [Automation basics](https://www.atlassian.com/software/jira/guides/expand-jira/automation)
-![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) [What are smart values?](https://support.atlassian.com/jira-software-cloud/docs/what-are-smart-values/)
-![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) [Automation conditions](https://support.atlassian.com/jira-software-cloud/docs/automation-conditions/)
-![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) [Back to Git Integration + Jira Automation](/wiki/spaces/GITCLOUD/pages/1698922497)
+![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) [Automation basics](https://www.atlassian.com/software/jira/guides/expand-jira/automation)
+![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) [What are smart values?](https://support.atlassian.com/jira-software-cloud/docs/what-are-smart-values/)
+![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) [Automation conditions](https://support.atlassian.com/jira-software-cloud/docs/automation-conditions/)
+![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) [Back to Git Integration + Jira Automation](/wiki/spaces/GITCLOUD/pages/1698922497)

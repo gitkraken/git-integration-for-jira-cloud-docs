@@ -17,7 +17,7 @@ Open the **General settings** page in the Jira Apps Management (**Applications
 |     |     |
 | --- | --- |
 | The **General settings** configuration page can be accessed thru the following location: |     |
-| *   Jira dashboard **Git** menu ➜ Apps ➜ Git Integration: Manage Git repositories ➜ **General settings**. | *   Jira dashboard ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira settings ➜ Apps ➜ **General settings** (sidebar). |
+| *   Jira dashboard **Git** menu ➜ Apps ➜ Git Integration: Manage Git repositories ➜ **General settings**. | *   Jira dashboard ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira settings ➜ Apps ➜ **General settings** (sidebar). |
 | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/781942911/gitcloud-gitmenu-apps-gencfg-sel.png?version=1&modificationDate=1633776362871&cacheVersion=1&api=v2) | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/781942911/gitcloud-gencfg-admin-apps-menu.png?version=1&modificationDate=1633776790816&cacheVersion=1&api=v2) |
 
 ## Settings index

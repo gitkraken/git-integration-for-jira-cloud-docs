@@ -50,13 +50,13 @@ Create a rule to configure triggers and actions for automating tasks. There are 
 
 ### Project level (projects)
 
-1.  Open a project to work on, then go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Project settings**.
+1.  Open a project to work on, then go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Project settings**.
 
 2.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1698922497/gitcloud-automation-proj-level-02(c).png?version=2&modificationDate=1632383594084&cacheVersion=1&api=v2)
 
     On the sidebar, click **Automation**.
 
-3.  Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Rules** tab.
+3.  Click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Rules** tab.
 
 4.  Click **Create rule** to create a new automation rule.
 
@@ -86,7 +86,7 @@ Create a rule to configure triggers and actions for automating tasks. There are 
 
 3.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1698922497/gitcloud-automation-proj-level-02(c).png?version=2&modificationDate=1632383594084&cacheVersion=1&api=v2)
 
-    Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Rules** tab.
+    Click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Rules** tab.
 
 4.  Click **Create rule** to create a new automation rule.
 

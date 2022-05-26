@@ -36,7 +36,7 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/l6msatuap5) _a
 
 The steps outlined below requires that [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app is already installed on your Jira Cloud instance. Otherwise, install the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app first from the Atlassian Marketplace.
 
-1.  ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Webhook indexing integration**
+1.  ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Webhook indexing integration**
 
     1.  On your Jira Cloud dashboard, go to **Apps** ➜ **Git Integration: Manage integrations**.
 
@@ -59,16 +59,16 @@ The steps outlined below requires that [Git Integration for Jira](https://market
         ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1494646787/gitcloud-managed-ui-webhook-idx-github-setup(c).png?version=1&modificationDate=1648383893223&cacheVersion=1&api=v2)
         1.  The webhook indexing integration has been added to the manage integration list.
 
-        2.  ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Before clicking **Finish**, make sure to configure webhook for your git service. Use the **Webhook URL** and the **Secret key** then follow the steps below for repository level or organization level webhook setup.
+        2.  ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Before clicking **Finish**, make sure to configure webhook for your git service. Use the **Webhook URL** and the **Secret key** then follow the steps below for repository level or organization level webhook setup.
 
-2.  ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Repository Level** ([see full video walkthrough on this page](#Repository-Level))
+2.  ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Repository Level** ([see full video walkthrough on this page](#Repository-Level))
     Open a new browser tab and login to your GitHub web portal to setup webhook triggers for the selected _**repository**_. Configure a webhook on your git service by performing the following steps:
 
     1.  On your GitHub web portal, open a repository to work on.
 
     2.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1494646787/github-webhooks-setup-add-loc(acc).png?version=1&modificationDate=1618548411025&cacheVersion=1&api=v2)
 
-        Go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Settings**.
+        Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Settings**.
 
     3.  On the sidebar, click **Webhooks**.
 
@@ -94,13 +94,13 @@ The steps outlined below requires that [Git Integration for Jira](https://market
 
     10.  The webhook configuration is added to the webhooks list.
 
-3.  ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Organization Level** ([see full video walkthrough on this page](#Organization-Level))
+3.  ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Organization Level** ([see full video walkthrough on this page](#Organization-Level))
     Open a new browser tab and login to your GitHub web portal to configure webhook triggers for your selected _**organization**_. Configure a webhook on your git service by performing the following steps:
 
     1.  On your GitHub web portal, open an organization to work on.
 
         ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1494646787/github-web-acc-webhook-org-settings(c).png?version=1&modificationDate=1618478203844&cacheVersion=1&api=v2&width=612&height=461)
-    2.  Go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Settings**. The following screen is displayed.
+    2.  Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Settings**. The following screen is displayed.
 
     3.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1494646787/github-web-acc-webhook-org-add(ca).png?version=2&modificationDate=1618548809758&cacheVersion=1&api=v2)
 
@@ -161,11 +161,11 @@ The webhooks indexing integration limits the features available. However, networ
 
 ### ![(tick)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) View commits, branches, pull requests in Jira
 
-Commits, branches, pull requests are visible in the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Development Information** panel as well as in the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Git Commits issue** tab and ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Git Integration** side panel of the Jira issue. Jira administrators can regulate access to these displays using the _View development tools_ permission.
+Commits, branches, pull requests are visible in the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Development Information** panel as well as in the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Git Commits issue** tab and ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Git Integration** side panel of the Jira issue. Jira administrators can regulate access to these displays using the _View development tools_ permission.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1494646787/gitcloud-jira-issue-webhook-idx-sample.png?version=1&modificationDate=1618483032016&cacheVersion=1&api=v2)
 
-### ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) View tags in Jira
+### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) View tags in Jira
 
 COMMING SOON
 

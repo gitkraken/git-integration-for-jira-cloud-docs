@@ -8,7 +8,7 @@ taxonomy:
 ---
 Install the [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) or the [**Dev Info for Jira**](https://marketplace.atlassian.com/1219270) app.
 
-1.  Navigate to the **General settings** page of the application (![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira Settings_ ➜ _Apps_ ➜ _(sidebar) General settings_).
+1.  Navigate to the **General settings** page of the application (![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira Settings_ ➜ _Apps_ ➜ _(sidebar) General settings_).
 
 2.  Enable or disable the setting: **Send Development Information to Jira Cloud**.
 

@@ -112,7 +112,7 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
             Gitlab v9.5 and above -- only API v4.
             ```
 
-            *   ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Remember:**
+            *   ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Remember:**
                 The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
 
         *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
@@ -140,7 +140,7 @@ The GitLab.com git repositories are now connected to Jira Cloud.
 There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
 **Administrators**
-If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration** ➜ Feature settings.
+If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration** ➜ Feature settings.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85622895/gitcloud-edit-integration-feature-cfg-req-user-PAT.png?version=1&modificationDate=1649328090252&cacheVersion=1&api=v2&width=680&height=75)
 

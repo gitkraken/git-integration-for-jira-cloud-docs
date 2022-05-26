@@ -23,7 +23,7 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 |     |
 | --- |
-| *   Go to Manage Git repositories page ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ Edit integration settings (for integration) or Edit repository settings (for repositories) ➜ Integration settings section ➜ **Custom API Path**. |
+| *   Go to Manage Git repositories page ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ Edit integration settings (for integration) or Edit repository settings (for repositories) ➜ Integration settings section ➜ **Custom API Path**. |
 | ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/133201972/gitcloud-actions-edit-integration-settings-cAPI-path.png?version=1&modificationDate=1638348403238&cacheVersion=1&api=v2&width=566&height=211) |
 
 * * *

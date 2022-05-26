@@ -22,7 +22,7 @@ The list of commits for the currently selected project is displayed in descendin
 
 5.  Displays the Jira issue key associated with this commit or pull/merge request (for example, `GIJDEMO-1`).
 
-6.  Click on the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Change icon** to edit/manage associated Jira issue keys to the selected commit.
+6.  Click on the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Change icon** to edit/manage associated Jira issue keys to the selected commit.
 
 7.  Click on the copy icon to put the commit ID to the system clipboard for later use.
 

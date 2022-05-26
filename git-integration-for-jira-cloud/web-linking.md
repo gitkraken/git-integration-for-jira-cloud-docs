@@ -9,7 +9,7 @@ taxonomy:
 
 OPTIONAL
 
-The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab. Configure web linking options while editing **repository settings** (![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ _Edit integration_ | ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _Edit repository_) so that commits can include links to the git host pages.
+The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab. Configure web linking options while editing **repository settings** (![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ _Edit integration_ | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _Edit repository_) so that commits can include links to the git host pages.
 
 The Git Integration for Jira Cloud app automatically configures web links for most git hosts via Git service integration panel.
 
@@ -82,7 +82,7 @@ You can create several custom configuration to support other git hosting provide
 
 The **Git Integration for Jira** app supports an unlimited number of repositories.
 
-Some git hosts require web linking to be configured via the Git Integration app ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository** screen (_mostly single git repository integrations_).
+Some git hosts require web linking to be configured via the Git Integration app ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository** screen (_mostly single git repository integrations_).
 
 The Bonobo git server requires a branch name to construct URL.  Use `$convert(${branch},"/","~2")` for web linking since bonobo requires substitution of "/" with "~2" in the branch name.
 
