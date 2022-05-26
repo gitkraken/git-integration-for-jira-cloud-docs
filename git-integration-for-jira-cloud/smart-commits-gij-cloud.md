@@ -12,9 +12,9 @@ Smart commits allows your team to perform actions on Jira issues from a single c
 
 The smart commit processing is **active by default** and can be enabled/disabled via the repository settings:
 
-*   Manage integrations page **➜** _Git repo type_ **➜** ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions **➜** Edit integration **➜** **Feature settings**.
+*   Manage integrations page **➜** _Git repo type_ **➜** ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions **➜** Edit integration **➜** **Feature settings**.
 
-*   Manage repositories page **➜** ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions **➜** Edit repository **➜** **Feature settings**.
+*   Manage repositories page **➜** ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions **➜** Edit repository **➜** **Feature settings**.
 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025332/gitcloud-repo-cfg-smart-commits.png?version=1&modificationDate=1650252785364&cacheVersion=1&api=v2&width=312&height=108)

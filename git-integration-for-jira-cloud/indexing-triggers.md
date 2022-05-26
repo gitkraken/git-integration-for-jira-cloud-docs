@@ -38,7 +38,7 @@ To use the indexing triggers feature, it must be enabled in the Manage (Git) rep
 
 Configure indexing triggers to activate immediate reindex of your repositories from remote systems.
 
-1.  From your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Repository browser**. (_Alternatively, go to_ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira Settings ➜ Apps_).
+1.  From your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Repository browser**. (_Alternatively, go to_ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira Settings ➜ Apps_).
 
 2.  On the sidebar, click **Indexing triggers**. The following screen is displayed.
 
@@ -50,7 +50,7 @@ Configure indexing triggers to activate immediate reindex of your repositories f
 
 The webhooks URL can be accessed on the following locations:
 
-1.  From your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Repository browser**. On the sidebar, click **Indexing triggers**. (_Alternatively, go to_ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira Settings_ ➜ _Apps**.** On the sidebar, click Indexing triggers_).
+1.  From your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Repository browser**. On the sidebar, click **Indexing triggers**. (_Alternatively, go to_ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira Settings_ ➜ _Apps**.** On the sidebar, click Indexing triggers_).
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/gitcloud-indexing-triggers-loc-01(c).png?version=1&modificationDate=1617197700714&cacheVersion=1&api=v2&width=646&height=301)
 2.  On the Manage Git repositories configuration page, click the Indexing triggers button at the top right of the page.
@@ -59,7 +59,7 @@ The webhooks URL can be accessed on the following locations:
 3.  In the **Manage repository** page of a tracked repository — click on a repository/integration from the git configuration list. Look for the Webhook URL field.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/git-cloud-webhook-url-repo-list-loc(c).png?version=1&modificationDate=1617197700720&cacheVersion=1&api=v2&width=646&height=206)
-4.  In the Repository Settings page of a repository in a tracked repository or a single connected repository — on the git configuration page, go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories**.
+4.  In the Repository Settings page of a repository in a tracked repository or a single connected repository — on the git configuration page, go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories**.
 
     *   ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/git-cloud-webhook-url-repo-cfg-tracked-repos(c).png?version=1&modificationDate=1617197700722&cacheVersion=1&api=v2&width=625&height=196)
     *   ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/jira-cloud-repo-cfg-view-tracked-repo-dlg(c).png?version=1&modificationDate=1617197700725&cacheVersion=1&api=v2&width=625&height=338)
@@ -110,12 +110,12 @@ Each level references which webhook URL was utilized to configure the webhook:
 |     |
 | --- |
 | ### Webhook URL: Integration level |
-| This webhook URL triggers events only for the repositories within that integration.<br><br>**Webhook access location:**<br><br>*   Manage Git repositories page ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration settings**<br>    <br>    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/webhook-level-integration.png?version=2&modificationDate=1617197854067&cacheVersion=1&api=v2&width=646&height=301) |
+| This webhook URL triggers events only for the repositories within that integration.<br><br>**Webhook access location:**<br><br>*   Manage Git repositories page ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration settings**<br>    <br>    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/webhook-level-integration.png?version=2&modificationDate=1617197854067&cacheVersion=1&api=v2&width=646&height=301) |
 
 |     |
 | --- |
 | ### Webhook URL: Repository level |
-| This webhook URL triggers events only for the configured repository.<br><br>**Webhook access location:**<br><br>*   Manage Git repositories page ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories** ➜ click a repository; or<br>    <br>*   Manage Git repositories page ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository settings**<br>    <br>    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/webhook-level-repository.png?version=2&modificationDate=1617197898666&cacheVersion=1&api=v2&width=646&height=599) |
+| This webhook URL triggers events only for the configured repository.<br><br>**Webhook access location:**<br><br>*   Manage Git repositories page ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories** ➜ click a repository; or<br>    <br>*   Manage Git repositories page ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository settings**<br>    <br>    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/webhook-level-repository.png?version=2&modificationDate=1617197898666&cacheVersion=1&api=v2&width=646&height=599) |
 
 For indexing to trigger, the repository URL that arrives in the webhook payload must match a repository that is in the Git Integration configuration account. However, it must also match within the webhook level.
 

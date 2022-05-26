@@ -30,7 +30,7 @@ After the installation, the Git Integration for Jira app repository configuratio
 | --- |
 | *   Jira dashboard menu Apps ➜ **Git Integration: Manage integrations** |
 | ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923023982/gitcloud-managed-ui-menu-access.png?version=1&modificationDate=1647843557648&cacheVersion=1&api=v2&width=340&height=448) |
-| *   Jira dashboard menu ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Settings ➜ Apps ➜ **Manage integrations** (sidebar) |
+| *   Jira dashboard menu ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Settings ➜ Apps ➜ **Manage integrations** (sidebar) |
 | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923023982/gitcloud-managed-ui-system-apps-access.png?version=1&modificationDate=1647844058298&cacheVersion=1&api=v2) |
 
 [« Git URL ports](/wiki/spaces/GITCLOUD/pages/1937965122/Git+URL+Ports)

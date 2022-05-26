@@ -10,11 +10,11 @@ taxonomy:
 
 **What’s on this page:**
 
-## ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Let us assist you with your migration to Jira Cloud!
+## ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Let us assist you with your migration to Jira Cloud!
 
 Use this page as a resource to get all the information you need to start your migration. If you need additional support or one-on-one assistance, we'll be glad to help. Contact us at [BigBrassBand Support](https://bigbrassband.atlassian.net/servicedesk/customer/portals/).
 
-## ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Important Notes
+## ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Important Notes
 
 **Licensing:** We’re happy to assist our customers migrate to Jira Cloud from Jira Server or Jira Data Center. To alleviate any concerns about paying for "double licensing" during your transition we will provide discount codes so you will only have to pay for one platform (either Cloud or Server/Data Center). We’ll do this by verifying your active license on one platform and we’ll provide a promotion code for the license on the other.
 
@@ -28,7 +28,7 @@ For more information, see: [**Allowlist (whitelist) BigBrassBand Cloud**](https:
 
 **Known Atlassian issue:** We highly recommend testing your Jira migration to the Cloud on a test Jira Cloud site. [AC-1528](https://ecosystem.atlassian.net/browse/AC-1528) is a bug in Atlassian Jira Cloud that breaks all Jira Cloud Atlassian Marketplace apps when a new project import is made. When migrating your users to Jira Cloud – we recommend installing and configuring the Git Integration for Jira Cloud app **after** all of your Jira users/projects/issues data is imported and verified.
 
-## ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Links
+## ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Links
 
 *   [Git Integration Server/Data Center vs Jira Cloud](/wiki/spaces/GITCLOUD/pages/656244758) - Evaluating a move to Jira Cloud? Learn more about the similarities and differences.
 
@@ -39,7 +39,7 @@ For more information, see: [**Allowlist (whitelist) BigBrassBand Cloud**](https:
 *   [Enterprise migration guide](https://www.atlassian.com/migration/cloud/enterprise) - For teams migrating 1,000 users or more, Atlassian offers additional resources and support.
 
 
-## ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Steps to migrate
+## ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Steps to migrate
 
 Currently there are not automatic steps to migrate from Jira Server + Data Center to Jira Cloud.
 
