@@ -12,7 +12,7 @@ After integrating Azure DevOps to Jira, the Tracked Folder/Repositories dialog d
 
 ## Diagnosis
 
-The integration status is UPDATED but users will see a blank list when performing ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** > **Show integration repositories** in the Git Integration app manage repository configuration list.
+The integration status is UPDATED but users will see a blank list when performing ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** > **Show integration repositories** in the Git Integration app manage repository configuration list.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/421298248/azure-no-repo-view-repos-cloud.png?version=1&modificationDate=1586356225011&cacheVersion=1&api=v2&width=557&height=345)
 

@@ -29,7 +29,7 @@ The following settings must be configured in the script file:
 
 In Linux and OSX, this file must have executable permissions in the file system; in Windows, setting this permission is not necessary.  To use the hook in Windows without python installed, see [**Python on Windows FAQ »**](https://docs.python.org/2/faq/windows.html#how-do-i-make-an-executable-from-a-python-script).
 
-See the commit-msg hook code on the right panel or download the sample [**commit-msg file**](https://bigbrassband.com/files/commit-msg.zip) ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png), make the necessary changes, and place it in the required folder.
+See the commit-msg hook code on the right panel or download the sample [**commit-msg file**](https://bigbrassband.com/files/commit-msg.zip) ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png), make the necessary changes, and place it in the required folder.
 
 The **commit-msg** hook is a python script file that must be located in the developer's local repository.
 

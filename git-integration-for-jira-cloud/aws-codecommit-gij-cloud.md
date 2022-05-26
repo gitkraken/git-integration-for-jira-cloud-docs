@@ -201,7 +201,7 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/xq1xzic0tm) _t
 
 Connect a single AWS CodeCommit repository manually to Jira via SSH connection.
 
-SSH connections are handled automatically if the PUBLIC KEY was added in the AWS IAM console and the associated PRIVATE KEY was added/uploaded on the Jira side (_Manage Git repositories page_ ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _**Edit repository settings** with an SSH repository on the list_).
+SSH connections are handled automatically if the PUBLIC KEY was added in the AWS IAM console and the associated PRIVATE KEY was added/uploaded on the Jira side (_Manage Git repositories page_ ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _**Edit repository settings** with an SSH repository on the list_).
 
 If authentication issues are encountered during connecting an AWS repository to Jira, modify the original URL by inserting the **SSH Key ID** as the username. The **SSH Key ID** is an alphanumeric sequence provided by AWS IAM when importing a PUBLIC KEY for a particular user account in IAM.
 

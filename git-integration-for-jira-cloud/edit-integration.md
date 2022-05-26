@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-On the Manage integrations page. click on ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration** for the selected integration to open its configuration page.
+On the Manage integrations page. click on ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration** for the selected integration to open its configuration page.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923024559/gitcloud-manage-integration-actions-edit-cfg.png?version=1&modificationDate=1648985387880&cacheVersion=1&api=v2&width=680&height=271)
 

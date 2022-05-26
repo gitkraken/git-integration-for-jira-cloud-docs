@@ -12,7 +12,7 @@ taxonomy:
 
 You can configure a default branch for a repository when creating new branches. This feature automatically sets the configured default branch for the selected repository each time you create new branches from a Jira issue.
 
-Click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Add default branch** to setup a default branch for the selected repository. The following dialog is displayed.
+Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Add default branch** to setup a default branch for the selected repository. The following dialog is displayed.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1958936625/gitcloud-user-settings-create-def-branch-dlg.png?version=2&modificationDate=1632842489171&cacheVersion=1&api=v2&width=442&height=245)
 
@@ -26,6 +26,6 @@ Use this function to assign a branch for the selected repository:
 
 1.  Use the **Edit** or **Delete** options to make changes to the default branch configuration of the selected repository.
 
-2.  Click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Add default branch** to add more default branch configuration for the selected repository.
+2.  Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Add default branch** to add more default branch configuration for the selected repository.
 
 

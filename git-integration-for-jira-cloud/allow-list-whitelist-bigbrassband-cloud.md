@@ -21,7 +21,7 @@ We support [Atlassian’s Data Residency](https://www.atlassian.com/software/dat
 
 How to find out which geographic region your Git Integration for Jira Cloud application is hosted at - see…
 
-#### ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Global hosted customers
+#### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Global hosted customers
 
 For customers that are hosted on the Global (hosted in the Northern Virginia, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
@@ -30,7 +30,7 @@ For customers that are hosted on the Global (hosted in the Northern Virginia, US
 | **IP address** |
 | `52.73.151.196` |
 
-#### ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) European Union hosted customers
+#### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) European Union hosted customers
 
 For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), set the allow list/whitelist for self-hosted git repositories:
 
@@ -41,7 +41,7 @@ For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), se
 
 [Dev Info for Jira Cloud](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?tab=overview&hosting=cloud) does not have EU hosting support.
 
-#### ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) USA hosted customers
+#### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) USA hosted customers
 
 For customers that are hosted on the US stack (hosted in the Ohio, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
@@ -73,7 +73,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 
 |     |
 | --- |
-| ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Global Region Hosted IP addresses** |
+| ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Global Region Hosted IP addresses** |
 | 54.175.75.157 |
 | 54.198.195.73 |
 | 54.226.216.3 |
@@ -97,7 +97,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 
 |     |
 | --- |
-| #### ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **USA Region Hosted IP addresses** |
+| #### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **USA Region Hosted IP addresses** |
 | 3.130.34.25 |
 | 18.218.122.134 |
 | 3.131.213.149 |
@@ -112,7 +112,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 
 |     |
 | --- |
-| #### ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **EU Region Hosted IP addresses** |
+| #### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **EU Region Hosted IP addresses** |
 | 18.156.13.64 |
 | 3.123.136.62 |
 | 18.156.8.182 |
@@ -138,12 +138,12 @@ If your git server is only reachable on a private intranet or through a virtual 
 |     |
 | --- |
 | **Examples:** |
-| ![(tick)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://git.corp.com/repository/widget-production.git](https://git.corp.com/repository/widget-production.git) - a hosted git repository added directly |
-| ![(tick)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://git.corp.com](https://git.corp.com) - a git server running GitHub/Gitlab/etc |
-| ![(tick)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://gitlab.corp.com:8088](https://gitlab.corp.com:8088) - a server running on a non-standard port |
-| ![(tick)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [http://52.123.19.12](http://52.123.19.12) - server without DNS, just an IP |
-| ![(error)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/error.png) 192.168.1.92 |
-| ![(error)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/error.png) git.corp (private network) |
+| ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://git.corp.com/repository/widget-production.git](https://git.corp.com/repository/widget-production.git) - a hosted git repository added directly |
+| ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://git.corp.com](https://git.corp.com) - a git server running GitHub/Gitlab/etc |
+| ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://gitlab.corp.com:8088](https://gitlab.corp.com:8088) - a server running on a non-standard port |
+| ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [http://52.123.19.12](http://52.123.19.12) - server without DNS, just an IP |
+| ![(error)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/error.png) 192.168.1.92 |
+| ![(error)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/error.png) git.corp (private network) |
 
 ## Webhooks indexing integration for private networks
 

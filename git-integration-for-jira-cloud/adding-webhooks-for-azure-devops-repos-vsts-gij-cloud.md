@@ -31,10 +31,10 @@ Configure webhook by logging in to your VSTS/Azure DevOps account.
 
 2.  ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/172294150/webhooks-azure-devops-sel-proj(c).png?version=1&modificationDate=1617193372470&cacheVersion=1&api=v2&width=646&height=361)
 
-    Click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Project Settings** then select **Service Hooks**. The following screen is displayed.
+    Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Project Settings** then select **Service Hooks**. The following screen is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/172294150/webhooks-azure-devops-add-shooks(c).png?version=1&modificationDate=1617193372476&cacheVersion=1&api=v2&width=544&height=233)
-3.  Click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) to add a new service hook subscription.
+3.  Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) to add a new service hook subscription.
 
 4.  Scroll to **Web Hooks** and click to select it.
 

@@ -31,11 +31,11 @@ Available triggers through the [**Git Integration for Jira**](https://marketpla
 
 To configure automatic workflow triggers for your project:
 
-1.  Go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Project settings**.
+1.  Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Project settings**.
 
 2.  Select **Workflow** on the sidebar.
 
-3.  Click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Edit** on the _**Actions**_ column.
+3.  Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Edit** on the _**Actions**_ column.
 
 4.  Click **Text** to display the Diagram in text mode.
 

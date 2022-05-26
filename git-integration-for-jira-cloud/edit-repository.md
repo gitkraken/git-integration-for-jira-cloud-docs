@@ -8,7 +8,7 @@ taxonomy:
 ---
 HOSTED EXTERNAL
 
-On the Manage repositories page, click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository** for the selected repository to open its repository configuration page where you can change the settings of the connected repository.
+On the Manage repositories page, click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository** for the selected repository to open its repository configuration page where you can change the settings of the connected repository.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1977384961/gitcloud-edit-repo-cfg-single-repo.png?version=1&modificationDate=1648989722770&cacheVersion=1&api=v2)
 

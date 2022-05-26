@@ -87,13 +87,13 @@ All repositories and integrations can be updated manually via the Manage Git rep
 
 ### Repositories
 
-Repositories can be updated manually via the Manage git repositories screen by opening the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions menu and selecting **Reindex repository**:
+Repositories can be updated manually via the Manage git repositories screen by opening the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions menu and selecting **Reindex repository**:
 
 ![Git Cloud manage git repositories page highlighting Reindex repository action](https://bigbrassband.atlassian.net/wiki/download/attachments/183369754/gitcloud-reindex-repo-iex.png?version=1&modificationDate=1598591995919&cacheVersion=1&api=v2)
 
 ### Integrations 
 
-Integrations can be updated manually via the Manage git repositories screen by opening the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions menu and selecting **Reindex integration**:
+Integrations can be updated manually via the Manage git repositories screen by opening the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions menu and selecting **Reindex integration**:
 
 ![Git Cloud manage git repositories page highlighting Reindex integration action](https://bigbrassband.atlassian.net/wiki/download/attachments/183369754/gitcloud-reindex-integration-iex.png?version=1&modificationDate=1598591996399&cacheVersion=1&api=v2)
 

@@ -35,7 +35,7 @@ Using Atlassian's marketplace system, a Jira administrator can install the Git I
 
 ## Viewing Reindex Logs
 
-Go to the Manage Git Repositories page, click the **Actions** ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon then **View Log** to view the indexing logs.
+Go to the Manage Git Repositories page, click the **Actions** ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon then **View Log** to view the indexing logs.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/366084122/gitcloud-repomgr-view-log-action.png?version=1&modificationDate=1616931865688&cacheVersion=1&api=v2&width=612&height=206)
 
