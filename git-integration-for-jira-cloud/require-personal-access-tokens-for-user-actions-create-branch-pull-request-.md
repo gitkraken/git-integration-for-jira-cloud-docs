@@ -61,7 +61,7 @@ To enable/disable the _Require User PAT_ setting for all repositories within a
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/131137621/Screen%20Shot%202019-05-10%20at%2015.39.24.png?version=1&modificationDate=1557517178591&cacheVersion=1&api=v2)
 
 2.  Following that link - the user is taken to a prompt in the **View all repositories** screen to enter their Personal Access Token (PAT) for the service (GitHub, GitLab, etc).
-    [Instructions: Creating Personal Access Tokens](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens)
+    [Instructions: Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens/)
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/131137621/Screen%20Shot%202019-05-10%20at%2015.40.18.png?version=1&modificationDate=1557517242825&cacheVersion=1&api=v2)
 

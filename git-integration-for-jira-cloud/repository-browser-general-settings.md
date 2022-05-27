@@ -16,7 +16,7 @@ Enable/disable this feature to show or hide access to this feature from Jira das
 
 Click **Update** to save configuration changes.
 
-[« Comparing branches/tags in Repository browser](/wiki/spaces/GITCLOUD/pages/1923025590/Comparing+branches+or+tags+in+Repository+browser)
+[« Comparing branches/tags in Repository browser](/git-integration-for-jira-cloud/comparing-branches-or-tags-in-repository-browser/)
 
-[Viewing commit code diffs »](/wiki/spaces/GITCLOUD/pages/1923025639/Viewing+commit+code+diffs)
+[Viewing commit code diffs »](/git-integration-for-jira-cloud/viewing-commit-code-diffs-gij-cloud/)
 

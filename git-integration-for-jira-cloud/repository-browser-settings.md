@@ -26,7 +26,7 @@ Jira users must have the **Browse Project** _permissions_ to a project associ
 
 Disabling this feature, hides the **Git Integration: Repository browser** – dashboard Apps menu context.
 
-For more details, see [Features: Repository Browser (Jira Cloud)](http://link.bigbrassband.com/jira-gitcloud-repository-browser).
+For more details, see [Features: Repository Browser (Jira Cloud)](/git-integration-for-jira-cloud/repository-browser-viewing-all-repositories/).
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
 

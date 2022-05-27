@@ -38,9 +38,9 @@ The secret key also has the same restrictions on the valid set of characters as 
 
 For detailed information on setting up webhooks for supported git hosts, see Indexing triggers.
 
-The Git Integration for Jira app supports GitHub and GitLab push events to define individual repository to index. For more information, see [Creating reindex triggers manually](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/171213231/Creating+indexing+triggers+for+a+single+repository) and it’s sub-pages.
+The Git Integration for Jira app supports GitHub and GitLab push events to define individual repository to index. For more information, see [Creating reindex triggers manually](/git-integration-for-jira-cloud/creating-indexing-triggers-for-a-single-repository/) and it’s sub-pages.
 
-[« Setting up web linking](/wiki/spaces/GITCLOUD/pages/1923023467/Setting+up+web+linking)
+[« Setting up web linking](/git-integration-for-jira-cloud/setting-up-web-linking/)
 
-[Working with SSH Keys »](/wiki/spaces/GITCLOUD/pages/1923023617/Working+with+SSH+keys)
+[Working with SSH Keys »](/git-integration-for-jira-cloud/working-with-ssh-keys-gij-cloud/)
 

@@ -58,7 +58,7 @@ While on the Repository browser page:
 
 ## Personal access column
 
-Jira administrators can configure git integrations (example: GitHub, GitLab) to require that Jira users create and provide their own [Personal Access Token](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens) to enable features like creating branches, pull request or merge request via Jira Git integration development panel inside Jira.
+Jira administrators can configure git integrations (example: GitHub, GitLab) to require that Jira users create and provide their own [Personal Access Token](/git-integration-for-jira-cloud/creating-personal-access-tokens/) to enable features like creating branches, pull request or merge request via Jira Git integration development panel inside Jira.
 
 The personal access column and configuration is relocated to [User settings](/git-integration-for-jira-cloud/User-Settings).
 
@@ -75,6 +75,6 @@ The personal access column and configuration is relocated to [User settings](/gi
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/138706958/gitcloud-gencfg-repo-browser.png?version=1&modificationDate=1636096946037&cacheVersion=1&api=v2)
 
-For detailed information about this feature, see [Documentation: Repository browser](/git-integration-for-jira-cloud/Repository-browser).
+For detailed information about this feature, see [Documentation: Repository browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud/).
 
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).

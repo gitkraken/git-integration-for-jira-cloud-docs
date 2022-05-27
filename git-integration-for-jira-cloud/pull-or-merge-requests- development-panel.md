@@ -89,5 +89,5 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/1jwzeex5qa) _t
 
 [« Branches (Developer panel)](/wiki/spaces/GITCLOUD/pages/1923025879)
 
-[Git tags »](/git-integration-for-jira-cloud/Git-tags)
+[Git tags »](/git-integration-for-jira-cloud/git-tags-gij-cloud/)
 

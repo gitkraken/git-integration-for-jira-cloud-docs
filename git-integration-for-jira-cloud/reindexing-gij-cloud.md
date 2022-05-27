@@ -39,6 +39,6 @@ Indexer will show an error message on the Jira issue ➜ Git Commits tab if inde
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923026060/git-cloud-indexing-error-sample.png?version=1&modificationDate=1630063694862&cacheVersion=1&api=v2&width=544&height=172)
 
-[« Jira project page](/wiki/spaces/GITCLOUD/pages/1923026027/Jira+project+page)
+[« Jira project page](/git-integration-for-jira-cloud/jira-project-page-gij-cloud/)
 
-[Indexing triggers (formerly Webhooks) »](/wiki/spaces/GITCLOUD/pages/1923026143)
+[Indexing triggers (formerly Webhooks) »](/git-integration-for-jira-cloud/indexing-triggers/)

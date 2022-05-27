@@ -30,6 +30,6 @@ Steps:
 
 Videos:
 
-[CleanShot2022-03-03 at 01.24.59.mp4](/wiki/download/attachments/2079686657/CleanShot2022-03-03%20at%2001.24.59.mp4?version=1&modificationDate=1646288892990&cacheVersion=1&api=v2&width=210)
+[CleanShot2022-03-03 at 01.24.59.mp4](https://bigbrassband.atlassian.net/wiki/download/attachments/2079686657/CleanShot2022-03-03%20at%2001.24.59.mp4?version=1&modificationDate=1646288892990&cacheVersion=1&api=v2&width=210)
 
-[CleanShot2022-03-03 at 01.26.20.mp4](/wiki/download/attachments/2079686657/CleanShot2022-03-03%20at%2001.26.20.mp4?version=1&modificationDate=1646288879632&cacheVersion=1&api=v2&width=210)
+[CleanShot2022-03-03 at 01.26.20.mp4](https://bigbrassband.atlassian.net/wiki/download/attachments/2079686657/CleanShot2022-03-03%20at%2001.26.20.mp4?version=1&modificationDate=1646288879632&cacheVersion=1&api=v2&width=210)

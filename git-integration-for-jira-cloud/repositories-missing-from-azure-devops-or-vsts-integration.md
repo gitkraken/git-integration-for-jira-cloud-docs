@@ -36,11 +36,11 @@ Some or all repositories in Azure DevOps (or Visual Studio Team Services - VSTS)
 
 See the following of the articles:
 
-[OAuth connection error or error 401 page with Azure DevOps integration](/wiki/spaces/GITCLOUD/pages/420282493/OAuth+connection+error+or+error+401+page+with+Azure+DevOps+integration)
+[OAuth connection error or error 401 page with Azure DevOps integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-integration/)
 
-[OAuth connection error or error 401 page with Azure DevOps with Active Directory integration](/wiki/spaces/GITCLOUD/pages/421527629/OAuth+connection+error+or+error+401+page+with+Azure+DevOps+with+Active+Directory+integration)
+[OAuth connection error or error 401 page with Azure DevOps with Active Directory integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-with-active-directory-integration/)
 
-[I'm seeing a blank list of repositories after integration of Azure Repos](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/421298248/I+m+seeing+a+blank+list+of+repositories+after+integration+of+Azure+Repos)
+[I'm seeing a blank list of repositories after integration of Azure Repos](/git-integration-for-jira-cloud/empty-list-of-repositories-after-integration-of-azure-repos/)
 
 **Contact Us**
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).

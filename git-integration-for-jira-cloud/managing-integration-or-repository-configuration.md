@@ -54,7 +54,7 @@ Manage connected integration or repositories via the ![(blue star)](https://big
 
 ##
 
-[« Self-signed HTTPS integration](/wiki/spaces/GITCLOUD/pages/1923024386/Self-signed+HTTPS+integration)
+[« Self-signed HTTPS integration](/git-integration-for-jira-cloud/self-signed-https-integration/)
 
-[Managing integration via Actions »](/wiki/spaces/GITCLOUD/pages/1923024517)
+[Managing integration via Actions »](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud/)
 

@@ -19,8 +19,6 @@ Click **Reported issues** to view the latest reported issues performed by that
 
 Click **View profile** to view this user’s profile.
 
-The [**Git user identity**](/wiki/spaces/GITCLOUD/pages/1923023946/Git+user+Identity) should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
+The [**Git user identity**](/git-integration-for-jira-cloud/git-user-identity-gij-cloud) should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
 
-[« Git user identity](/wiki/spaces/GITCLOUD/pages/1923023946/Git+user+Identity)
-
-[Jira issue page »](/wiki/spaces/GITCLOUD/pages/1923025695/Jira+issue+page)
+[Jira issue page »](/git-integration-for-jira-cloud/jira-user-information-card-gij-cloud)

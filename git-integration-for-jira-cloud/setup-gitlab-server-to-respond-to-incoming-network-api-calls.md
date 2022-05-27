@@ -42,7 +42,3 @@ You should be able to add the GitLab repositories via Git Integration for Jira a
 *   **Limited feature connect** (Git – single repository or SSH repository integration)
 
 
-[« Getting started for Git administrators (index)](/wiki/spaces/GITCLOUD/pages/1923023183/Getting+started+for+Git+administrators)
-
-[New GitLab v10+ authentication »](/wiki/spaces/GITCLOUD/pages/1923023311)
-

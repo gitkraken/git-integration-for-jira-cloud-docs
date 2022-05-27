@@ -44,5 +44,5 @@ Only the commits that are linked to Jira issues will show on the Jira Activity S
 
 [« Web linking](/git-integration-for-jira-cloud/Web-linking)
 
-[Associating git commits to Jira issues »](/wiki/spaces/GITCLOUD/pages/1923025256/Associating+git+commits+manually+to+Jira+issues)
+[Associating git commits to Jira issues »](/git-integration-for-jira-cloud/associating-git-commits-manually-to-jira-issues/)
 

@@ -50,7 +50,7 @@ The basic syntax for a Smart commit message is:
 
 To know more about syntax, commands and examples on Smart Commits, see [**Processing Jira Software Issues with Smart Commit Messages**](https://support.atlassian.com/bitbucket-cloud/docs/use-smart-commits/) at the Atlassian website or proceed to the next page.
 
-[« Linking git commits to Jira issues](/wiki/spaces/GITCLOUD/pages/1923025229/Linking+git+commits+to+Jira+issues)
+[« Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/)
 
 [Smart commit: Basic commands »](/git-integration-for-jira-cloud/Basic-commands)
 

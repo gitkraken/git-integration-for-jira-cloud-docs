@@ -54,7 +54,7 @@ Group action becomes available when selecting multiple integrations and reposito
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923024517/gitcloud-actions-group-selection-feature.png?version=1&modificationDate=1649145056712&cacheVersion=1&api=v2&width=680&height=349)
 
-[« Managing repository or integration configuration](/wiki/spaces/GITCLOUD/pages/1923024455/Managing+integration+or+repository+configuration)
+[« Managing repository or integration configuration](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration/)
 
-[Edit integration »](/wiki/spaces/GITSERVER/pages/1923028309/Edit+integration+feature+settings)
+[Edit integration »](/git-integration-for-jira-cloud/edit-integration/)
 

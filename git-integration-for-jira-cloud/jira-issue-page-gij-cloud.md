@@ -8,7 +8,7 @@ taxonomy:
 ---
 If the Git Integration for Jira app is configured and licensed successfully, new tabs are added to each Jira issue.
 
-Some features can be switched on and off via [**General settings**](/wiki/spaces/GITCLOUD/pages/1923025087/General+settings+for+administrators):
+Some features can be switched on and off via [**General settings**](/git-integration-for-jira-cloud/general-settings-for-administrators/):
 
 *   Jira dashboard menu Apps ➜ Git Integration: Repository browser/Git Integration: Manage Git repositories ➜ **General settings** (sidebar).
 
@@ -39,7 +39,7 @@ Also, users should be able to see available features in the Jira issue page, nam
 | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | These are the deep link shortcuts to view the selected branch in your git host service or in GitKraken git client app. |
 | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | **Pull/Merge Requests**  <br>This feature allows service users to create pull/merge request against the specified repository from inside Jira. The created pull/merge requests are also displayed as a list. |
 
-[« Jira user information card](/wiki/spaces/GITCLOUD/pages/1923025668/Jira+user+information+card)
+[« Jira user information card](/git-integration-for-jira-cloud/jira-user-information-card-gij-cloud)
 
-[Git Roll Up tab »](/wiki/spaces/GITCLOUD/pages/1923025721/Git+Roll+Up+tab)
+[Git Roll Up tab »](/git-integration-for-jira-cloud/git-roll-up-tab-gij-cloud/)
 

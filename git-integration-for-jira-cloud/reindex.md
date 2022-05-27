@@ -51,4 +51,4 @@ No.  The Git Integration for Jira app is designed to do a full index.
 
 The reindex process won't start if reindex is already running.
 
-For more information on indexing, see [Indexing Explainer for Git Integration for Jira Cloud](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/Indexing-Explainer).
+For more information on indexing, see [Indexing Explainer for Git Integration for Jira Cloud](/git-integration-for-jira-cloud/classic-indexing-explainer/).
