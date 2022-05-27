@@ -76,7 +76,7 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 ### Single repository integration
 
-*   [HTTP/HTTPS integration](/wiki/spaces/GITCLOUD/pages/923238448)
+*   [HTTP/HTTPS integration](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/)
 
 *   [SSH integration](/wiki/spaces/GITCLOUD/pages/923238489)
 

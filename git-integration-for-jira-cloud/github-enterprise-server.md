@@ -96,7 +96,7 @@ This process requires an existing GitHub Enterprise Server git repository. Look
 
 Use this information to connect the GitHub git repository to your Jira Cloud via Git Integration for Jira app:
 
-[Single git repository integration (HTTPS)](/wiki/spaces/GITCLOUD/pages/923238448)
+[Single git repository integration (HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/)
 
 ## Setting up GitHub Enterprise Server permissions
 

@@ -24,7 +24,7 @@ Enable this setting to turn on the deep linking feature which allows you to quic
 The **View developer tools** _permission_ is required to view the git commits. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
 
 
-For more details, see [Features: Deep Linking to the GitKraken Git client (Jira Cloud)](/wiki/spaces/GITCLOUD/pages/1952579617/Deep+Linking+to+the+GitKraken+client).
+For more details, see [Features: Deep Linking to the GitKraken Git client (Jira Cloud)](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client/).
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
 

@@ -183,7 +183,7 @@ This process requires an existing Azure/VSTS git repository. Look for the the A
 
 Use this information to connect the Azure/VSTS git repository to your Jira Cloud via Git Integration for Jira app:
 
-[Single git repository integration (HTTPS)](/wiki/spaces/GITCLOUD/pages/923238448)
+[Single git repository integration (HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/)
 
 [Single git repository integration (SSH)](/wiki/spaces/GITCLOUD/pages/923238489)
 

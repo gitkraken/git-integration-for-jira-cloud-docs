@@ -38,7 +38,7 @@ The connected repository is listed in the git configuration page.
 
 For Jira Cloud integration, we recommend to use the Auto-connect integration panel for connecting git repositories. It supports multiple git repository connections and provides additional features that are not present in SSH integration.
 
-[« Generating SSH keys](/wiki/spaces/GITCLOUD/pages/1923023647/Generating+SSH+Keys)
+[« Generating SSH keys](/git-integration-for-jira-cloud/generating-ssh-keys/)
 
 [Adding a public SSH key »](/wiki/spaces/GITCLOUD/pages/1923023758/Adding+a+public+SSH+Key)
 
