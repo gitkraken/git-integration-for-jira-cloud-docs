@@ -8,9 +8,9 @@ taxonomy:
 ---
 For more information on Webhook indexing:
 
-*   [Webhook Indexing Explainer](/wiki/spaces/GITCLOUD/pages/1422819484/Webhook+Indexing+Explainer)
+*   [Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-integration/)
 
-*   [Feature matrix of Git Integration for Jira Cloud](/wiki/spaces/GITCLOUD/pages/1470398499/Feature+matrix+of+Git+Integration+for+Jira+Cloud)
+*   [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud/)
 
 
 With webhook indexing integration, there’s no need to enable indexing triggers in the git manager configuration page.
@@ -140,13 +140,13 @@ The Git Roll Up tab is now supported for GitLab webhook indexing integration.
 
 ## Limited features for GitLab webhook indexing integration
 
-The feature table displays the supported git features for the selected git server. For more information, see [Feature matrix for Git Integration for Jira Cloud](/wiki/spaces/GITCLOUD/pages/1470398499/Feature+matrix+of+Git+Integration+for+Jira+Cloud).
+The feature table displays the supported git features for the selected git server. For more information, see [Feature matrix for Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud/).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1503494176/gitcloud-webhook-indexing-compare-vs-full-gitlab.png?version=1&modificationDate=1648552846840&cacheVersion=1&api=v2&width=566&height=372)
 
 ### ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) Works with git servers behind firewall
 
-The webhooks indexing integration limits the features available. However, networks hosting git do not need to be updated to allow incoming requests as long as outbound requests can be made. See [Webhook Indexing explainer](/wiki/spaces/GITCLOUD/pages/1422819484/Webhook+Indexing+Explainer) for more information.
+The webhooks indexing integration limits the features available. However, networks hosting git do not need to be updated to allow incoming requests as long as outbound requests can be made. See [Webhook Indexing explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer/) for more information.
 
 ### ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) View commits, branches, pull requests in Jira
 

@@ -46,7 +46,7 @@ To the right are the deep link icons: (1) opens this branch in the git host serv
 
 This section displays the list of created pull or merge requests that are associated to this Jira issue. Click the PR/MR links to view the selected PR/MR in the git host service portal.
 
-[« Jira issue page](/wiki/spaces/GITCLOUD/pages/1923025695/Jira+issue+page)
+[« Jira issue page](/git-integration-for-jira-cloud/jira-issue-page/)
 
-[Development panel locations »](/wiki/spaces/GITCLOUD/pages/1923025834/Development+panel+locations)
+[Development panel locations »](/git-integration-for-jira-cloud/development-panel-locations-gij-cloud/)
 

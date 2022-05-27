@@ -22,7 +22,7 @@ The Git Integration for Jira Cloud app offers three (3) types of integration, na
 *   Single repository integration (plain git)
 
 
-The **Git service integration** (formerly auto-connect/full feature integration) allows administrators to setup multiple repositories for integration with Jira. This is the recommended way and offers features not found in other integration types. _If you are behind a firewall, you need to_ [_whitelist the app_](/wiki/spaces/GITCLOUD/pages/121241614/Allow+list+%28whitelist%29+BigBrassBand+Cloud) _to get it to work._
+The **Git service integration** (formerly auto-connect/full feature integration) allows administrators to setup multiple repositories for integration with Jira. This is the recommended way and offers features not found in other integration types. _If you are behind a firewall, you need to_ [_whitelist the app_](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud/) _to get it to work._
 
 The **Webhook indexing integration** allows administrators to integrate multiple repositories behind a firewall. However, this type of integration does not support creating branches or pull/merge request inside Jira.
 
@@ -44,21 +44,21 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 ### Git service integration
 
-*   [GitHub.com and GitHub Enterprise (Cloud)](/wiki/spaces/GITCLOUD/pages/82477058/GitHub.com)
+*   [GitHub.com and GitHub Enterprise (Cloud)](/git-integration-for-jira-cloud/github-com/)
 
-*   [GitHub Enterprise Server](/wiki/spaces/GITCLOUD/pages/85622870/GitHub+Enterprise+Server)
+*   [GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server/)
 
-*   [GitLab.com](/wiki/spaces/GITCLOUD/pages/85622895/GitLab.com)
+*   [GitLab.com](/git-integration-for-jira-cloud/gitlab-com/)
 
-*   [GitLab CE/EE](/wiki/spaces/GITCLOUD/pages/85524528)
+*   [GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee/)
 
-*   [Azure DevOps | Visual Studio Team Services (VSTS)](/wiki/spaces/GITCLOUD/pages/86278279)
+*   [Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts/)
 
-*   [Azure DevOps Server | Team Foundation Services (TFS)](/wiki/spaces/GITCLOUD/pages/86409345)
+*   [Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs/)
 
-*   [AWS CodeCommit](/git-integration-for-jira-cloud/AWS-CodeCommit)
+*   [AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud/)
 
-*   [Bitbucket Cloud](/git-integration-for-jira-cloud/Bitbucket-Cloud)
+*   [Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud/)
 
 *   [Gerrit](/git-integration-for-jira-cloud/Gerrit)
 
@@ -71,35 +71,25 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 *   [Microsoft](/git-integration-for-jira-cloud/github-webhook-indexing-integration/)
 
-*   [Gerrit](/wiki/spaces/GITCLOUD/pages/1647116289/Gerrit+webhook+indexing+integration) (_guide coming soon_)
+*   [Gerrit](/git-integration-for-jira-cloud/gerrit-webhook-indexing-integration/) (_guide coming soon_)
 
 
 ### Single repository integration
 
 *   [HTTP/HTTPS integration](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/)
 
-*   [SSH integration](/wiki/spaces/GITCLOUD/pages/923238489)
+*   [SSH integration](/connecting-to-a-single-git-repository-ssh/)
 
 
 ###
 Setup next features to improve Git user experience
 
-*   Page:
+*   [Setting up web links](/git-integration-for-jira-cloud/setting-up-web-links-gij-cloud/) (Git Integration for Jira Cloud)
 
-    [Setting up web links](/wiki/spaces/GITCLOUD/pages/923566197/Setting+up+web+links) (Git Integration for Jira Cloud)
+*   [Link git commits to Jira issue](/git-integration-for-jira-cloud/link-git-commits-to-jira-issue/) (Git Integration for Jira Cloud)
 
-*   Page:
+*   [Using Smart Commits](/git-integration-for-jira-cloud/using-smart-commits/) (Git Integration for Jira Cloud)
 
-    [Link git commits to Jira issue](/wiki/spaces/GITCLOUD/pages/923238543/Link+git+commits+to+Jira+issue) (Git Integration for Jira Cloud)
+*   [Using the Repository Browser](/git-integration-for-jira-cloud/using-the-repository-browser/) (Git Integration for Jira Cloud)
 
-*   Page:
-
-    [Using Smart Commits](/wiki/spaces/GITCLOUD/pages/923664519/Using+Smart+Commits) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Using the Repository Browser](/wiki/spaces/GITCLOUD/pages/923664546/Using+the+Repository+Browser) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Creating branches and pull | merge requests](/wiki/spaces/GITCLOUD/pages/923566251/Creating+branches+and+pull+%7C+merge+requests) (Git Integration for Jira Cloud)
+*   [Creating branches and pull | merge requests](/git-integration-for-jira-cloud/creating-branches-and-pull-merge-requests/) (Git Integration for Jira Cloud)

@@ -24,13 +24,13 @@ On this page, you will find the list of available hooks and webhooks supported b
 
 
 
-[Client-side Hook](/wiki/spaces/GITCLOUD/pages/179011603/Commit-msg+Hook)
+[Client-side Hook](/git-integration-for-jira-cloud/commit-msg-hook/)
 
 The **_commit-msg_** hook is a python script file that must be located in the developer's local repository.
 
 
 
-[Server-side Hook](/wiki/spaces/GITCLOUD/pages/179044399/Server-side+Hook)
+[Server-side Hook](/git-integration-for-jira-cloud/server-side-hook/)
 
 Use server-side hooks to apply policies for your project.  The server runs these scripts before and after the push.  The server-side hook, like commit-msg hook, requires Python to be installed.
 

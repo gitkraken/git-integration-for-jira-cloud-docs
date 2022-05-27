@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Using **Jira Server or Data Center**? [See the corresponding article](/wiki/spaces/GITSERVER/pages/80805889).
+Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/gitlab-com-ce-ee/).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85524528/image-20200815-134810.png?version=1&modificationDate=1597500982662&cacheVersion=1&api=v2&width=374&height=84)
 

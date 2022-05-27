@@ -44,8 +44,8 @@ There is no support for other HTTP methods such as  `DELETE`  or  `HEAD` 
 
 See [About indexing triggers in Jira Cloud](/git-integration-for-jira-cloud/Indexing-Triggers) for a more detailed information on this topic.
 
-For more information about triggers and event types, see [Creating reindex triggers for a single repository](/wiki/spaces/GITCLOUD/pages/171213231/Creating+indexing+triggers+for+a+single+repository).
+For more information about triggers and event types, see [Creating reindex triggers for a single repository](/git-integration-for-jira-cloud/creating-indexing-triggers-for-a-single-repository/).
 
-[« Reindexing](/git-integration-for-jira-cloud/Reindexing)
+[« Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud/)
 
-[Localization support »](/git-integration-for-jira-cloud/Localization-support)
+[Localization support »](/git-integration-for-jira-cloud/localization-support-gij-cloud/)

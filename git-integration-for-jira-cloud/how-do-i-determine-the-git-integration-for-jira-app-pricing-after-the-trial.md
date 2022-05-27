@@ -35,4 +35,3 @@ There are four ways to determine the pricing:
 
 All four should provide the same answer.
 
-[< Back to topic index](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/276824215)

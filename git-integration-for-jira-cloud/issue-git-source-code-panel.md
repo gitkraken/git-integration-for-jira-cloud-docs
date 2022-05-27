@@ -8,20 +8,12 @@ taxonomy:
 ---
 Note
 
-*   By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Git Source Code Panel enabled. ([How to disable](/wiki/pages/resumedraft.action?draftId=138346503#IssueGitSourceCodePanel-howToEnableDisable))
-*   By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Git Source Code Panel disabled. ([How to enable](/wiki/pages/resumedraft.action?draftId=138346503#IssueGitSourceCodePanel-howToEnableDisable))
+*   By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Git Source Code Panel enabled. ([How to disable](/git-integration-for-jira-cloud/issue-git-source-code-panel/))
+*   By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Git Source Code Panel disabled. ([How to enable](/git-integration-for-jira-cloud/issue-git-source-code-panel/))
 
 
 
 The **View developer tools** _permission_ is required to view the Git Source Code Panel. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
-
-**What's in this page:**
-
-*   [Introduction](/wiki/pages/resumedraft.action?draftId=138346503#IssueGitSourceCodePanel-introduction)
-*   [Old Issue View](/wiki/pages/resumedraft.action?draftId=138346503#IssueGitSourceCodePanel-oldIssueView)
-*   [New Issue View & Next-gen Projects](/wiki/pages/resumedraft.action?draftId=138346503#IssueGitSourceCodePanel-newIssueView)
-*   [How can a Jira administrator enable or disable the Git Source Code Panel?](/wiki/pages/resumedraft.action?draftId=138346503#IssueGitSourceCodePanel-howToEnableDisable)
-
 
 
 * * *
@@ -32,7 +24,7 @@ The **View developer tools** _permission_ is required to view the Git Source Cod
 
 The Issue Git Source Code Panel displays:
 
-*   Git Commits: # of commits and link to [Git Commits Issue Tab](/wiki/spaces/GITCLOUD/pages/138346498/Git+Commits+Issue+Tab+and+Project+Pages), link to [Git Roll Up Issue Tab](/wiki/spaces/GITCLOUD/pages/138510337/Git+Roll+Up+Issue+Tab)
+*   Git Commits: # of commits and link to [Git Commits Issue Tab](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page/), link to [Git Roll Up Issue Tab](/git-integration-for-jira-cloud/git-roll-up-issue-tab/)
 *   Branches: Create branch function, list of branches associated to Jira issue (Jira issue key must be in branch title)
 *   Pull/Merge Requests:  Create pull/merge request function, list of pull/merge requests associated to Jira issue (Jira issue key must be in PR/MR title), status of pull/merge request
 *   Tags: git tags associated to Jira issue (via associated commit). Tags are sometimes referred to as Releases in some products.

@@ -14,7 +14,7 @@ There are four Jira Development Information settings that Jira administrators sh
 
 ### Send Development Information to Jira Cloud
 
-Enabling _**Send Development Information to Jira Cloud**_ setting will send new commit/branch/pull request data to Jira Cloud where it is processed and made available in a variety of views and features (described [here](/wiki/spaces/GITCLOUD/pages/643203115/Development+Information+Views) and [here](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/138772493/Jira+Development+Information#What-other-features-are-enabled-by-Jira-Development-Information%3F)).
+Enabling _**Send Development Information to Jira Cloud**_ setting will send new commit/branch/pull request data to Jira Cloud where it is processed and made available in a variety of views and features (described [here](/git-integration-for-jira-cloud/development-information-views/) and [here](/git-integration-for-jira-cloud/jira-development-information/)).
 
 Only newly received data is sent to Jira Cloud - so if you wish to see historical data in these views - remove the current repositories/integrations in Manage Git repositories and re-connect.
 
@@ -22,13 +22,13 @@ Only newly received data is sent to Jira Cloud - so if you wish to see historica
 
 The _**Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers**_ setting engages the native Jira Cloud Smart Commit processing (only `#time`, `#comment`, and `#transitions`) as well as enables **Automatic workflow triggers**.
 
-For more information - see our [Smart Commits^](https://bigbrassband.com/git-integration-for-jira/documentation/smart-commits.html) or [Automatic workflow triggers](/wiki/spaces/GITCLOUD/pages/1940783182/Automatic+Workflow+Triggers) documentation.
+For more information - see our [Smart Commits^](/git-integration-for-jira-cloud/smart-commits-gij-cloud/) or [Automatic workflow triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers/) documentation.
 
 ### Enable Git Integration app Smart Commits
 
 The _**Enable Git Integration app Smart Commits**_ setting engages BigBrassBand's Git Integration Smart Commit processing (`#time`, `#comment`, `#transitions`, and `#label`).
 
-For more information - see our [Smart Commit documentation^](https://bigbrassband.com/git-integration-for-jira/documentation/smart-commits.html).
+For more information - see our [Smart Commit documentation^](/git-integration-for-jira-cloud/smart-commits-gij-cloud/).
 
 ### Advanced: Clear Development Information
 

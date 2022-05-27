@@ -152,7 +152,7 @@ Use this information to connect the GitLab git repository to your Jira Cloud via
 
 [Single git repository integration (HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/)
 
-[Single git repository integration (SSH)](/wiki/spaces/GITCLOUD/pages/923238489)
+[Single git repository integration (SSH)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-ssh/)
 
 There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
@@ -164,7 +164,7 @@ The Git Integration for Jira app automatically configures web linking for GitLab
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information on this feature, see [Documentation: Web linking](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025184).
+For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-cloud/web-linking/).
 
 ## Viewing git commits in Jira Cloud
 
@@ -177,7 +177,7 @@ For more information on this feature, see [Documentation: Web linking](https://b
 4.  Click **View full commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Linking git commits to Jira issues](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025229).
+For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/).
 
 ## Working with branches and merge requests with GitLab
 
@@ -252,7 +252,7 @@ Merge requests are still indexed based on branch name even if the MR title does 
 
 **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
 
-For more detailed information on this feature, see [Create pull/merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request).
+For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request/).
 
 
 The merge request is listed on the developer panel of the Jira issue page.

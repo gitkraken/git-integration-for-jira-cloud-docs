@@ -8,15 +8,15 @@ taxonomy:
 ---
 The **View Development Tools** _permission_ only applies to Jira _**Company-managed**_ projects. _**Team-managed**_ projects don't allow to modify the permission.
 
-Only newly added commits, branches and pull requests will be uploaded to Jira Cloud when enabling the [Send Development Information to Jira Cloud](/wiki/spaces/GITCLOUD/pages/1941373145) setting. If you wish to upload the entire history of an integration or repository - remove the integration/repository and then add the integration/repository back.
+Only newly added commits, branches and pull requests will be uploaded to Jira Cloud when enabling the [Send Development Information to Jira Cloud](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting/) setting. If you wish to upload the entire history of an integration or repository - remove the integration/repository and then add the integration/repository back.
 
 ## What is Jira Development Information?
 
 Jira Development Information is a suite of new features available in Jira Software on the Cloud platform that puts commits, branches, and pull requests in context of Jira issue.
 
-*   By default, [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) has Jira Development Information disabled. ([How to enable?](/wiki/spaces/GITCLOUD/pages/1941373145))
+*   By default, [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) has Jira Development Information disabled. ([How to enable?](/git-integration-for-jira-cloud/how-can-a-jira-administrator-enable-or-disable-jira-development-information/))
 
-*   By default, [**Dev Info for Jira**](https://marketplace.atlassian.com/1219270) has Jira Development Information enabled. ([How to disable?](/wiki/spaces/GITCLOUD/pages/1941373145))
+*   By default, [**Dev Info for Jira**](https://marketplace.atlassian.com/1219270) has Jira Development Information enabled. ([How to disable?](/git-integration-for-jira-cloud/how-can-a-jira-administrator-enable-or-disable-jira-development-information/))
 
 
 ## How does Jira Development Information work?
@@ -36,15 +36,15 @@ Note that the **Project Permissions** feature in the [**Git Integration for Ji
 
 ## What other features are enabled by Jira Development Information?
 
-*   [JQL searching for commits and pull requests](/wiki/spaces/GITCLOUD/pages/643596299/JQL+Searching+for+Commits+and+Pull+Requests)
+*   [JQL searching for commits and pull requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests/)
 
-*   [Development status in Jira Issue Searching](/wiki/spaces/GITCLOUD/pages/1940914287/Development+status+in+Jira+issue+searching)
+*   [Development status in Jira Issue Searching](/git-integration-for-jira-cloud/development-status-in-jira-issue-searching/)
 
-*   [Release Hub](/wiki/spaces/GITCLOUD/pages/1941373081)
+*   [Release Hub](/git-integration-for-jira-cloud/release-hub-warnings/)
 
-*   [Automatic Workflow Triggers](/wiki/spaces/GITCLOUD/pages/1940783182/Automatic+Workflow+Triggers)
+*   [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers/)
 
-*   [NextGen projects only: View commits, branches, and pull requests in Jira Boards](/wiki/spaces/GITCLOUD/pages/1940783272/Next-gen+projects+only%3A+View+commits%2C+branches%2C+and+pull+requests+in+Jira+Boards)
+*   [NextGen projects only: View commits, branches, and pull requests in Jira Boards](/git-integration-for-jira-cloud/next-gen-projects-only-view-commits-branches-and-pull-requests-in-jira-boards/)
 
 
 

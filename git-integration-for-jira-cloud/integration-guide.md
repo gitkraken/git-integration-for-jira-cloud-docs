@@ -8,7 +8,7 @@ taxonomy:
 ---
 Welcome to the Git Integration for Jira app reference page index for topics about integration of git repositories to Jira Cloud.
 
-On this page, you will find the list of integration guides for specific git hosts. For general Jira git integration, see our **[Introduction to Git integration](/wiki/spaces/GITCLOUD/pages/86966273/Introduction+to+Git+integration)** to get you more familiar with integration, viewing commits inside Jira, smart commits, and many more.
+On this page, you will find the list of integration guides for specific git hosts. For general Jira git integration, see our **[Introduction to Git integration](/git-integration-for-jira-cloud/introduction-to-git-integration/)** to get you more familiar with integration, viewing commits inside Jira, smart commits, and many more.
 
 Click on a topic title to view its content or search through the related topics.
 
@@ -26,37 +26,37 @@ Click on a topic title to view its content or search through the related topics.
 
 
 
-[GitLab.com](/wiki/spaces/GITCLOUD/pages/85622895/GitLab.com)1
+[GitLab.com](/git-integration-for-jira-cloud/gitlab-com/)
 
 Connect your GitLab.com remote repositories via Connect to Git Repository wizard or Connect to GitLab wizard.
 
 
 
-[GitLab CE/EE Server](/wiki/spaces/GITCLOUD/pages/85524528)1
+[GitLab CE/EE Server](/git-integration-for-jira-cloud/gitlab-ce-ee/)
 
 Connect and manage multiple GitLab server repositories at once via **Connect to GitLab wizard** and the **Show connected repositories** dialog.
 
 
 
-[GitHub.com](/wiki/spaces/GITCLOUD/pages/82477058/GitHub.com)
+[GitHub.com](/git-integration-for-jira-cloud/github-com/)
 
 Connect your GitHub remote repositories via Connect to Git Repository Wizard.
 
 
 
-[GitHub Enterprise Server](/wiki/spaces/GITCLOUD/pages/85622870/GitHub+Enterprise+Server)
+[GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server/)
 
 Connect your GitHub Enterprise remote repositories via Connect to Git Repository Wizard.
 
 
 
-[Azure DevOps / Visual Studio Team Services (VSTS)](/wiki/spaces/GITCLOUD/pages/86278279)
+[Azure DevOps / Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts/)
 
 Connect to Visual Studio Team Services (VSTS) / Azure DevOps via Full feature integrations panel in Manage Git repositories.
 
 
 
-[Azure DevOps Server | Team Foundation Services (TFS)](/wiki/spaces/GITCLOUD/pages/86409345)
+[Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs/)
 
 Connect to Team Foundation Server (TFS) via Full feature integrations panel in Manage Git repositories.
 
