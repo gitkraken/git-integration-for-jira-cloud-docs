@@ -96,6 +96,6 @@ Once properly configured, the **Git Commits** tab on the Jira **Issues** pag
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025184/gitcloud-jira-issue-commits-tab-weblink-sample-sel.png?version=1&modificationDate=1634298669637&cacheVersion=1&api=v2&width=680&height=355)
 
-[« General settings](/wiki/spaces/GITCLOUD/pages/1923025087/General+settings+for+administrators)
+[« General settings](/git-integration-for-jira-cloud/general-settings-for-administrators/)
 
-[Linking git commits to Jira issues »](/wiki/spaces/GITCLOUD/pages/1923025229/Linking+git+commits+to+Jira+issues)
+[Linking git commits to Jira issues »](/git-integration-for-jira-cloud/smart-commits-gij-cloud/)

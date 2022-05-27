@@ -21,15 +21,15 @@ Follow the supported git servers below for webhook indexing integration.
 
 *   Page:
 
-    [GitHub webhook indexing integration](/wiki/spaces/GITCLOUD/pages/1494646787/GitHub+webhook+indexing+integration) (Git Integration for Jira Cloud)
+    [GitHub webhook indexing integration](/git-integration-for-jira-cloud/github-webhook-indexing-integration/) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [GitLab webhook indexing integration](/wiki/spaces/GITCLOUD/pages/1503494176/GitLab+webhook+indexing+integration) (Git Integration for Jira Cloud)
+    [GitLab webhook indexing integration](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration/) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Microsoft webhook indexing integration](/wiki/spaces/GITCLOUD/pages/1509032469/Microsoft+webhook+indexing+integration) (Git Integration for Jira Cloud)
+    [Microsoft webhook indexing integration](/git-integration-for-jira-cloud/github-webhook-indexing-integration/) (Git Integration for Jira Cloud)
 
 
 _more coming soon…_

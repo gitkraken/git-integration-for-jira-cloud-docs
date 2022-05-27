@@ -36,7 +36,7 @@ The [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984
 
 For more information about the different types of integrations:
 
-[Classic Indexing Explainer](/wiki/spaces/GITCLOUD/pages/183369754/Classic+Indexing+Explainer)
+[Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer/)
 
 [Webhook Indexing Explainer](/wiki/spaces/GITCLOUD/pages/1422819484/Webhook+Indexing+Explainer)
 

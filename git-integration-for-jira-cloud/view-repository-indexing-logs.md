@@ -17,7 +17,7 @@ The above dialog displays partial log information. Download the full log to save
 
 If you encounter issues, you can send this log to [support@bigbrassband.com](mailto:support@bigbrassband.com) for further analysis.
 
-[« Associating project permissions](/wiki/spaces/GITCLOUD/pages/1923024786/Associating+project+permissions)
+[« Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/)
 
-[Removing integration or repository configuration »](/wiki/spaces/GITCLOUD/pages/1923024762/Removing+integration+or+repository+configuration)
+[Removing integration or repository configuration »](/removing-integration-or-repository-configuration-gij-cloud/)
 

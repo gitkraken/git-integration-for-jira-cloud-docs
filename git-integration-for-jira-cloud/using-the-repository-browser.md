@@ -20,7 +20,7 @@ The Repository Browser page is displayed.
 
     2.  Use the **Compare** tab to view commit diff for compared branches.
 
-*   Under the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions column, click the GitKraken icon to open the selected repository in GitKraken git client app.
+*   Under the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions column, click the GitKraken icon to open the selected repository in GitKraken git client app.
 
 
 The personal access tokens configuration is moved to the [User settings](/git-integration-for-jira-cloud/User-Settings) page.

@@ -65,11 +65,11 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 ### Webhook indexing integration
 
-*   [GitHub](/wiki/spaces/GITCLOUD/pages/1494646787/GitHub+webhook+indexing+integration)
+*   [GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration/)
 
-*   [GitLab](/wiki/spaces/GITCLOUD/pages/1503494176/GitLab+webhook+indexing+integration)
+*   [GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration/)
 
-*   [Microsoft](/wiki/spaces/GITCLOUD/pages/1509032469/Microsoft+webhook+indexing+integration)
+*   [Microsoft](/git-integration-for-jira-cloud/github-webhook-indexing-integration/)
 
 *   [Gerrit](/wiki/spaces/GITCLOUD/pages/1647116289/Gerrit+webhook+indexing+integration) (_guide coming soon_)
 

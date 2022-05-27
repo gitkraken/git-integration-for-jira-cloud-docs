@@ -201,8 +201,6 @@ Multi-line Commits
 
 The Git Integration for Jira app, support for multi-line commit messages for Smart Commits has been implemented.
 
-[Related topic »](/wiki/pages/resumedraft.action?draftId=109314182#SmartCommitsOverview-Developer-handlemultikeys)
-
 
 
 Smart Commit Status

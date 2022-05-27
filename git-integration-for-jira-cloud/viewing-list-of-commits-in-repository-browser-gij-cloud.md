@@ -31,5 +31,5 @@ The list of commits for the currently selected project is displayed in descendin
 
 [« Repository browser](/git-integration-for-jira-cloud/Repository-browser)
 
-[Comparing branches/tags in Repository browser »](/wiki/spaces/GITCLOUD/pages/1923025590/Comparing+branches+or+tags+in+Repository+browser)
+[Comparing branches/tags in Repository browser »](/git-integration-for-jira-cloud/comparing-branches-or-tags-in-repository-browser/)
 

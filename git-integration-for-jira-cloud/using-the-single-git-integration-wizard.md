@@ -56,7 +56,7 @@ If the [generated SSH key pair](/git-integration-for-jira-cloud/working-with-ssh
 Finally, after completing the setup, the wizard will index the git repository to build change history. This completes the setup and the newly added repository appears on the integration list in the Manage integrations page.
 
 
-[« Using the Git service integration wizard](/wiki/spaces/GITCLOUD/pages/1923024112/Using+the+Git+service+integration+wizard)
+[« Using the Git service integration wizard](/git-integration-for-jira-cloud/using-the-git-service-integration-wizard/)
 
-[Self-signed HTTPS integration »](/wiki/spaces/GITCLOUD/pages/1923024386/Self-signed+HTTPS+integration)
+[Self-signed HTTPS integration »](/git-integration-for-jira-cloud/self-signed-https-integration-gij-cloud/)
 

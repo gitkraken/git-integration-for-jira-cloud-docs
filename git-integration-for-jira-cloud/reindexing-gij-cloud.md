@@ -31,7 +31,7 @@ The Git Integration for Jira Cloud app automatically indexes commits, branches, 
 
 Starting on October 28, 2019, indexing is now calculated based on per repository activity. The overall goals are to reduce the strain on git services and make the indexing service more available for the webhook triggers.
 
-For detailed information on this Jira Cloud feature, see [Feature: Classic Indexing Explainer](/wiki/spaces/GITCLOUD/pages/183369754/Classic+Indexing+Explainer).
+For detailed information on this Jira Cloud feature, see [Feature: Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer/).
 
 ## Indexing errors
 

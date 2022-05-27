@@ -53,5 +53,5 @@ If a smart commit fails, an email notification is sent to either the Jira user, 
 
 [« Workflow transitions](/git-integration-for-jira-cloud/Workflow-transitions)
 
-[Smart commits general settings »](/wiki/spaces/GITCLOUD/pages/1923025462/Smart+commits+general+settings)
+[Smart commits general settings »](/git-integration-for-jira-cloud/smart-commits-general-settings/)
 

@@ -30,7 +30,7 @@ On this page you will find topics related to the supported features of the app.
 
 *   Page:
 
-    [Classic Indexing Explainer](/wiki/spaces/GITCLOUD/pages/183369754/Classic+Indexing+Explainer) (Git Integration for Jira Cloud)
+    [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer/) (Git Integration for Jira Cloud)
 
 *   Page:
 

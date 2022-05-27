@@ -23,4 +23,4 @@ Enable/disable this feature via:
 *   Manage Git repositories ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories** ➜ click a repository ➜ Smart Commits and Workflow Triggers
 
 
-See our [Smart Commits Overview](/wiki/spaces/GITCLOUD/pages/109314182/Smart+Commits+Overview) to learn further about syntax and structure; then follow the link at the bottom of that page to learn more information on advanced syntax.
+See our [Smart Commits Overview](/git-integration-for-jira-cloud/smart-commits-overview/) to learn further about syntax and structure; then follow the link at the bottom of that page to learn more information on advanced syntax.

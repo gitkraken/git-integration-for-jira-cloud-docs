@@ -35,7 +35,7 @@ The integration is added to the Git integration configuration list.
 
 For more detailed information on specific integration steps for supported git host services, see our [Integration Guides](/git-integration-for-jira-cloud/Integration-Guide).
 
-[« Git integration configuration page](/wiki/spaces/GITCLOUD/pages/1923024023/Git+integration+configuration+page)
+[« Git integration configuration page](/git-integration-for-jira-cloud/git-integration-configuration-page/)
 
-[Using the Webhook indexing integration wizard »](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/2092859407)
+[Using the Webhook indexing integration wizard »](/git-integration-for-jira-cloud/webhook-indexing-integration/)
 

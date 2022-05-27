@@ -30,4 +30,4 @@ Each click on the  **\# lines hidden** label expands up to 20 lines of code on 
 
 [« Repository browser](/git-integration-for-jira-cloud/Repository-browser)
 
-[Git user identity »](/wiki/spaces/GITCLOUD/pages/1923023946/Git+user+Identity)
+[Git user identity »](/git-integration-for-jira-cloud/git-user-identity-gij-cloud)

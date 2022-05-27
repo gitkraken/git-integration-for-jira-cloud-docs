@@ -19,7 +19,6 @@ If a new SSH key pair is generated for the configured repository, do the followi
 
 3\. Click **Update** at the bottom of the page to save the settings.
 
-[« Adding a public SSH key](/wiki/spaces/GITCLOUD/pages/1923023758/Adding+a+public+SSH+Key)
 
-[Git URL ports »](/wiki/spaces/GITCLOUD/pages/1937965122/Git+URL+Ports)
+[Git URL ports »](/git-integration-for-jira-cloud/git-url-ports/)
 
