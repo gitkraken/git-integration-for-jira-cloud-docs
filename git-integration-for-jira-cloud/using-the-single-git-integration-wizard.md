@@ -48,7 +48,7 @@ Take note that the SSH server is the Git server (git service such as GitHub, Git
 **SSH**
 When setting up repositories with the Git Integration app, you need to have the necessary access permissions on the private key in the Git server to proceed.
 
-If the [generated SSH key pair](/wiki/spaces/GITCLOUD/pages/1923023617/Working+with+SSH+keys) has a passphrase, enter the _**Passphrase**_ for your private key.
+If the [generated SSH key pair](/git-integration-for-jira-cloud/working-with-ssh-keys-gij-cloud/) has a passphrase, enter the _**Passphrase**_ for your private key.
 
 
 **Step 3** – Click **Add integration** to complete this setup.

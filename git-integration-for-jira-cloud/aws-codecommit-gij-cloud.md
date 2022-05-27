@@ -146,7 +146,7 @@ To connect your repository to Jira thru the Git Integration for Jira app, open t
 4.  After the import process, the **Settings** dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86180077/gitcloud-autoconnect-projacl-pat-wizard(c).png?version=1&modificationDate=1599745473683&cacheVersion=1&api=v2)
-    *   On the Integration Settings, setting the [Require User PAT option](/wiki/spaces/GITSERVER/pages/131170306) to `ON`, will require users to provide valid AWS Access Key ID and Secret Access Key for branch and pull requests creation/deletion _(via the_ [_developer panel_](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel) _on the Jira issue page)_. The required permission must be configured for the service user to do specific tasks as described in the [Required permissions](#Required-permissions) section.
+    *   On the Integration Settings, setting the [Require User PAT option](/wiki/spaces/GITSERVER/pages/131170306) to `ON`, will require users to provide valid AWS Access Key ID and Secret Access Key for branch and pull requests creation/deletion _(via the_ [_developer panel_](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud) _on the Jira issue page)_. The required permission must be configured for the service user to do specific tasks as described in the [Required permissions](#Required-permissions) section.
 
     *   Set Project Permissions according to your organization's project association rules.
 

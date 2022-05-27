@@ -95,7 +95,7 @@ We recommend using the Git service integration panel to connect multiple reposit
 
         4.  For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
 
-        5.  To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/wiki/spaces/GITCLOUD/pages/133234759/Working+with+JMESPath+Filters).
+        5.  To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters/).
 
 5.  Click **Connect Azure Repos/VSTS** to continue.
 

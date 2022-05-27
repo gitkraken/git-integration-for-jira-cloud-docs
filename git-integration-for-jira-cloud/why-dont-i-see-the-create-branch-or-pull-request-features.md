@@ -8,7 +8,7 @@ taxonomy:
 ---
 ## Problem
 
-Users cannot see the **Create branch** or **Create pull/merge request** actions on the [Jira issue developer panel](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel).
+Users cannot see the **Create branch** or **Create pull/merge request** actions on the [Jira issue developer panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/421593107/createbranch-pullrequest.png?version=1&modificationDate=1586317455810&cacheVersion=1&api=v2)
 

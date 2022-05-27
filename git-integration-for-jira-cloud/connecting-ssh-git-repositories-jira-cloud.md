@@ -8,7 +8,7 @@ taxonomy:
 ---
 SSH git repositories can be integrated with Jira Cloud via Git Integration for Jira app.
 
-1.  [**Generate an SSH key pair**](/wiki/spaces/GITCLOUD/pages/1923023617/Working+with+SSH+keys). We recommend to generate a 4096-bit key.
+1.  [**Generate an SSH key pair**](/git-integration-for-jira-cloud/working-with-ssh-keys-gij-cloud/). We recommend to generate a 4096-bit key.
 
 2.  Obtain the SSH git clone URL from your git host repository page.
 

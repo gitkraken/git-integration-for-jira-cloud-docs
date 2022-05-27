@@ -1,6 +1,6 @@
 ---
 
-title: Working with SSH keys - GIJ Cloud
+title: Working with SSH keys
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

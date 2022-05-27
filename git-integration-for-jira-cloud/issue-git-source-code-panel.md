@@ -60,7 +60,7 @@ The Git Commits Issue tab lists the git commits associated to the Jira issue gr
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/138346503/gitcloud-general-settings-git-source-code-panel.png?version=1&modificationDate=1561742705018&cacheVersion=1&api=v2)
 
-For detailed information about this feature, see [Documentation: Jira Git integration development panel](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel).
+For detailed information about this feature, see [Documentation: Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud).
 
 Contact Us
 

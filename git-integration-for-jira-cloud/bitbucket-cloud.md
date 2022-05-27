@@ -79,7 +79,7 @@ For more information about this feature, see [Documentation: Linking git commits
 
 ## **Creating branches and pull/merge requests**
 
-The Git Integration for Jira Cloud app adds two features on the Jira issue developer panel – **Create Branch**, and **Create Pull/Merge Request**. For more information about the developer panel, see the **[Jira Git development panel documentation](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel)**.
+The Git Integration for Jira Cloud app adds two features on the Jira issue developer panel – **Create Branch**, and **Create Pull/Merge Request**. For more information about the developer panel, see the **[Jira Git development panel documentation](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud)**.
 
 ### **Default Branch**
 
@@ -159,5 +159,5 @@ The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your GitHub web portal.
 
-Access the **Create branch** and **Create pull/merge request** features in the Jira issue developer panel.  For more information, see **[Jira Git integration development panel](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel)**.
+Access the **Create branch** and **Create pull/merge request** features in the Jira issue developer panel.  For more information, see **[Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud)**.
 

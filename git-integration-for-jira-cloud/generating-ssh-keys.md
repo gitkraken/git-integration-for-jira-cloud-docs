@@ -33,7 +33,7 @@ Configure and generate SSH keys for the following git hosting systems by followi
 
 Users can use HTTPS or SSH to securely connect to git repositories. HTTPS connections will require the user's login credentials, while SSH connections will require SSH keys.
 
-[« Working with SSH keys (index)](/wiki/spaces/GITCLOUD/pages/1923023617/Working+with+SSH+keys)
+[« Working with SSH keys (index)](/git-integration-for-jira-cloud/working-with-ssh-keys-gij-cloud/)
 
 [Connecting SSH git repositories (Jira Cloud) »](/wiki/spaces/GITCLOUD/pages/1923023732)
 

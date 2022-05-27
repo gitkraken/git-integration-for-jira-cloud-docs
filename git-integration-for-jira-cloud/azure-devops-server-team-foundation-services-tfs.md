@@ -90,7 +90,7 @@ We recommend using the Git service integrations panel to connect multiple reposi
 
 
         Read about JMESPath expressions on their website. For help with writing expressions, please contact support.
-        To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/wiki/spaces/GITCLOUD/pages/133234759/Working+with+JMESPath+Filters).
+        To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters/).
 
 6.  After filling up required fields, click **Connect and select repositories** to continue. The Git Integration for Jira app will read all available repositories from Azure DevOps Server/TFS.
 

@@ -19,7 +19,7 @@ Add how-to article
 | [How to link branches to a Jira issue?](/wiki/spaces/GITCLOUD/pages/2090729485) | [Shanmarc Florete](/people/557058:1e48e57d-18d4-4bf2-8ae7-0e8b25958331?ref=confluence) | Mar 18, 2022 |
 | [How to link commits, branches and pull requests to a Jira issue?](/wiki/spaces/GITCLOUD/pages/1503526923) | [Shanmarc Florete](/people/557058:1e48e57d-18d4-4bf2-8ae7-0e8b25958331?ref=confluence) | Mar 18, 2022 |
 | [Allow list (whitelist) BigBrassBand Cloud](/wiki/spaces/GITCLOUD/pages/121241614/Allow+list+%28whitelist%29+BigBrassBand+Cloud) | [Adam Wride](/people/557058:722bff1a-09a0-4ddd-b711-f23d9b67d17a?ref=confluence) | Mar 17, 2022 |
-| [Working with JMESPath Filters](/wiki/spaces/GITCLOUD/pages/133234759/Working+with+JMESPath+Filters) | [Shanmarc Florete](/people/557058:1e48e57d-18d4-4bf2-8ae7-0e8b25958331?ref=confluence) | Dec 02, 2021 |
+| [Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters/) | [Shanmarc Florete](/people/557058:1e48e57d-18d4-4bf2-8ae7-0e8b25958331?ref=confluence) | Dec 02, 2021 |
 | [Working with Custom API Path](/wiki/spaces/GITCLOUD/pages/133201972/Working+with+Custom+API+Path) | [Shanmarc Florete](/people/557058:1e48e57d-18d4-4bf2-8ae7-0e8b25958331?ref=confluence) | Dec 01, 2021 |
 | [How to get a quote?](/wiki/spaces/GITCLOUD/pages/1165459457) | [Shanmarc Florete](/people/557058:1e48e57d-18d4-4bf2-8ae7-0e8b25958331?ref=confluence) | Feb 05, 2021 |
 | [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GITCLOUD/pages/131137621) | [Adam Wride](/people/557058:722bff1a-09a0-4ddd-b711-f23d9b67d17a?ref=confluence) | Sep 07, 2020 |

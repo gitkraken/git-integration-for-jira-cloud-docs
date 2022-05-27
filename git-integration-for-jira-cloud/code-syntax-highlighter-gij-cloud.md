@@ -37,5 +37,5 @@ This feature will only display properly on browsers supported by Atlassian for s
 
 [« Git Commits tab](/wiki/spaces/GITCLOUD/pages/1923025766/Git+Commits+tab)
 
-[Jira Git integration development panel »](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel)
+[Jira Git integration development panel »](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud)
 

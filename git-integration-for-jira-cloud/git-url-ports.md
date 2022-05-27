@@ -32,6 +32,6 @@ The Git Integration for Jira app will run successfully if the above connection t
 
 For detailed information on whitelisting your Git server, see [Allow list (whitelist) BigBrassBand Cloud](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/121241614/Allow+list+whitelist+BigBrassBand+Cloud).
 
-[« Working with SSH keys](/wiki/spaces/GITCLOUD/pages/1923023617/Working+with+SSH+keys)
+[« Working with SSH keys](/git-integration-for-jira-cloud/working-with-ssh-keys-gij-cloud/)
 
 [Setting up repositories »](/wiki/spaces/GITCLOUD/pages/1923023982/Setting+up+integrations)

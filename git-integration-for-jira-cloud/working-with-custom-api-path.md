@@ -139,7 +139,7 @@ Gitlab v9.5 and above -- only API v4
 Gitlab v9.0 to v9.4.x -- API v3 and API v4
 
 **Remember:**
-The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible. For more information, see [Working with JMESPath filters](/wiki/spaces/GITCLOUD/pages/133234759/Working+with+JMESPath+Filters).
+The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible. For more information, see [Working with JMESPath filters](/git-integration-for-jira-cloud/working-with-jmespath-filters/).
 
 * * *
 

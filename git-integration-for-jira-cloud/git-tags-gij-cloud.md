@@ -71,7 +71,7 @@ Tags are only associated with the Jira issue by Jira keys that are specified in 
 
 If some commits relate only to tags, these commits will not be displayed. For more information, see the [related known issue](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/591986707/Known+Issues#Tags-taking-longer-than-10s-to-load-on-an-issue-will-timeout).
 
-[« Jira Git integration development panel](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel)
+[« Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud)
 
 [Jira project page »](/wiki/spaces/GITCLOUD/pages/1923026027/Jira+project+page)
 

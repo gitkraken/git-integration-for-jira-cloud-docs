@@ -18,7 +18,7 @@ On the Kanban board, click on an issue on the board grid. On a dialog that disp
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025834/gitcloud-kanban-devpanel-location.png?version=1&modificationDate=1635753982993&cacheVersion=1&api=v2&width=680&height=422)
 
-[« Jira Git integration development panel](/wiki/spaces/GITCLOUD/pages/1923025809/Jira+Git+integration+development+panel)
+[« Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud)
 
 [Branches (Developer panel) »](/wiki/spaces/GITCLOUD/pages/1923025879)
 

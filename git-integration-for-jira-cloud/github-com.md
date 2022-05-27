@@ -64,7 +64,7 @@ We strongly recommend to use personal access tokens for GitHub.com account integ
 
         *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
             Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
-            To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](http://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/133234759/Working+with+JMESPath+Filters).
+            To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters/).
 
     2.  While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
