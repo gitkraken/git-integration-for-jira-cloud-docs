@@ -21,7 +21,7 @@ Jira admins will see a message similar to the one below when connecting to self-
 
 ## Solution
 
-See [Whitelist BigBrassBand Cloud](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/121241614/Whitelist+BigBrassBand+Cloud).
+See [Whitelist BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud/).
 
 **Contact Us**
 

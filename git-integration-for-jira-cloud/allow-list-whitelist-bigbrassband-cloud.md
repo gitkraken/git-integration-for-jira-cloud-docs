@@ -153,9 +153,7 @@ For more information on this feature, see the following articles:
 
 *   [Classic webhook indexing explainer](/git-integration-for-jira-cloud/classic-indexing-explainer/)
 
-*   [Webhook indexing explainer](/wiki/spaces/GITCLOUD/pages/1422819484/Webhook+Indexing+Explainer)
-
-*   [Webhook indexing integration](/wiki/spaces/GITCLOUD/pages/1508081882/Webhook+indexing+integration)
+*   [Webhook indexing integration](/git-integration-for-jira-cloud/webhook-indexing-explainer/)
 
     *   [GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration/)
 

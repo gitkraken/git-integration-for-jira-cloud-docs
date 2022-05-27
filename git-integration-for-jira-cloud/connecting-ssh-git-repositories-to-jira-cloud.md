@@ -58,4 +58,4 @@ ssh-keygen -p -P "old_password" -N "new_password" -m pem
 
 The connected repository is listed in the git configuration page.
 
-For Jira Cloud integration, we recommend to use the [**Git service integration**](/wiki/spaces/GITCLOUD/pages/1923024112/Using+the+Git+service+integration+wizard) panel for connecting multiple git repositories. It provides additional features that are not present with SSH integrations in Jira Cloud.
+For Jira Cloud integration, we recommend to use the [**Git service integration**](/git-integration-for-jira-cloud/using-the-git-service-integration-wizard/) panel for connecting multiple git repositories. It provides additional features that are not present with SSH integrations in Jira Cloud.

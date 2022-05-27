@@ -72,8 +72,3 @@ The **Branches** section is only visible if commits from this branch are not m
 If the user does not have the **View Development Tools** _project permission_ for the project, the developer panel will be unavailable for that user.
 
 For detailed information about creating branches, see article _**Creating branches**_.
-
-[« Development panel locations](/wiki/spaces/GITCLOUD/pages/1923025834/Development+panel+locations)
-
-[Pull/merge requests (Development panel) »](/wiki/spaces/GITCLOUD/pages/1923025925)
-

@@ -61,4 +61,4 @@ We currently support the 5 highlighted triggers depicted below, and we will supp
 
 ### Setup:
 
-[Git Integration + Jira Automation](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1698922497/Git+Integration+Jira+Automation)
+[Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation/)

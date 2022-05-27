@@ -30,8 +30,4 @@ Test git connection and repository URL by doing the following:
 The Git Integration for Jira app will run successfully if the above connection test ran without errors.
 
 
-For detailed information on whitelisting your Git server, see [Allow list (whitelist) BigBrassBand Cloud](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/121241614/Allow+list+whitelist+BigBrassBand+Cloud).
-
-[« Working with SSH keys](/git-integration-for-jira-cloud/working-with-ssh-keys-gij-cloud/)
-
-[Setting up repositories »](/wiki/spaces/GITCLOUD/pages/1923023982/Setting+up+integrations)
+For detailed information on whitelisting your Git server, see [Allow list (whitelist) BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud/).

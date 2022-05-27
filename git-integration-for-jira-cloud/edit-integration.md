@@ -39,8 +39,8 @@ The Feature settings page contains configuration options related to user and pro
 | --- | --- |
 | **Option** | **Description** |
 | _**Indexing triggers**_ | This is the automatically-generated webhook URL upon installation of Git Integration for Jira Cloud app.<br><br>Use the URL to setup webhook triggers to your git host service which allows immediate reindex of connected integrations. |
-| _**Require User PAT**_ | Enable this option to require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.<br><br>This option requires the [**Repository Browser**](/wiki/spaces/GITCLOUD/pages/1207829111/Repository+browser+settings) feature enabled.<br><br>This setting is only available for integrations connected via [**Git service integration** panel](/wiki/spaces/GITCLOUD/pages/86966273/Introduction+to+Git+integration). |
-| _**Project permissions**_ | This feature allows administrators to configure project associations with repositories/integration to restrict which users can view development information. For more information, see [Associating project permissions](/wiki/spaces/GITCLOUD/pages/1923024786/Associating+project+permissions). |
+| _**Require User PAT**_ | Enable this option to require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.<br><br>This option requires the [**Repository Browser**](/git-integration-for-jira-cloud/repository-browser-settings/) feature enabled.<br><br>This setting is only available for integrations connected via [**Git service integration** panel](/git-integration-for-jira-cloud/introduction-to-git-integration/). |
+| _**Project permissions**_ | This feature allows administrators to configure project associations with repositories/integration to restrict which users can view development information. For more information, see [Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/). |
 
 ## Choose repositories
 
@@ -60,9 +60,4 @@ Click **Cancel** to return to the Manage integrations page and discard the chang
 
 Click **Save** to save the changes and apply the integration settings.
 
-
-
-[« Show integration repositories](/wiki/spaces/~493751811/pages/1923024534/Show+integration+repositories)
-
-[Edit repository »](/git-integration-for-jira-cloud/Edit-repository)
 

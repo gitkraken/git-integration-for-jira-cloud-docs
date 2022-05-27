@@ -60,4 +60,4 @@ The Git Integration for Jira Cloud app also supports multiple issue keys in a co
 
 Yes – the Git Integration for Jira Cloud app supports multiple Jira issue keys in a multiple-line commit message.
 
-For more information, see **[Smart Commits »](https://bigbrassband.com/git-integration-for-jira/documentation/smart-commits.html)**.
+For more information, see **[Smart Commits »](/git-integration-for-jira-cloud/smart-commits-gij-cloud/)**.

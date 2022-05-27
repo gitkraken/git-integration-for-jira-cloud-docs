@@ -100,7 +100,3 @@ Watch the video below to learn different settings for each project permissions l
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/nnao2x4ses) _to open this video in a new browser tab for more viewing options._
 (_Updated video coming soon_)
-
-[« Viewing indexing properties](/wiki/spaces/GITCLOUD/pages/1923024741)
-
-[View repository indexing logs »](/wiki/spaces/GITCLOUD/pages/2013626625/View+repository+indexing+logs)

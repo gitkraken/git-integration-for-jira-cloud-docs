@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-See also [Feature matrix of Git Integration for Jira Cloud](/wiki/spaces/GITCLOUD/pages/1470398499/Feature+matrix+of+Git+Integration+for+Jira+Cloud) on which features are offered when using a specific type of integration.
+See also [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud/) on which features are offered when using a specific type of integration.
 
 We publish roadmaps for [**Jira Cloud**](https://trello.com/b/Af64QYkE/git-integration-jira-cloud-roadmap) and [**Jira Server + Data Center**](https://trello.com/b/WRrWMs87/git-integration-server-data-center-roadmap). If you have questions about specific differences between Jira Server + Data Center and Jira Cloud - [contact us through our support desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals).
 
@@ -108,7 +108,7 @@ We publish roadmaps for [**Jira Cloud**](https://trello.com/b/Af64QYkE/git-integ
 
 When connecting a self-hosted git server to [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview), the git server must have a publicly addressable + route-able address. For example, [GitHub.com](http://github.com/), [https://dev.azure.com](https://dev.azure.com/), [GitLab.com](http://gitlab.com/) and other services hosted on the “public cloud” work without any administrator interventions.
 
-For more information, see [Whitelist BigBrassBand Cloud](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/121241614/Whitelist+BigBrassBand+Cloud).
+For more information, see [Whitelist BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud/).
 
 **2** No support on Jira Cloud for third-party publishing to Jira Activity Stream.
 
@@ -130,9 +130,9 @@ For more information, see [Whitelist BigBrassBand Cloud](https://bigbrassband.at
 *   `development[pullrequests].open > 0`
 
 
-**4** GIT INTEGRATION: JIRA CLOUD Smart commit email notifications will fail when using [Jira Development Information](/wiki/spaces/GITCLOUD/pages/138772493/Jira+Development+Information).
+**4** GIT INTEGRATION: JIRA CLOUD Smart commit email notifications will fail when using [Jira Development Information](/git-integration-for-jira-cloud/jira-development-information/).
 
-**5** GIT INTEGRATION: JIRA CLOUD [Jira Development Information](/wiki/spaces/GITCLOUD/pages/138772493/Jira+Development+Information) is not controlled by Project Permissions.
+**5** GIT INTEGRATION: JIRA CLOUD [Jira Development Information](/git-integration-for-jira-cloud/jira-development-information/) is not controlled by Project Permissions.
 
 **6** See notes below:
 

@@ -96,7 +96,7 @@ If you have not yet generated a personal access token (PAT):
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107216897/vsts-azure-devops-user-profile-settings(c).png?version=2&modificationDate=1650863645614&cacheVersion=1&api=v2&width=375&height=424)
 2.  Click **Personal access tokens**. You will be taken to the Personal Access Tokens configuration page.
 
-3.  Click ![(plus)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/add.png) **New Token**. The following dialog is displayed.
+3.  Click ![(plus)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/add.png) **New Token**. The following dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107216897/vsts-azure-create-pats-jira-server-cloud(c).png?version=1&modificationDate=1650863935339&cacheVersion=1&api=v2&width=545&height=645)
     1.  Enter a descriptive name for your PAT. Since this is a connection to Jira, you can name it, for example, `git-integration-for-jira`.

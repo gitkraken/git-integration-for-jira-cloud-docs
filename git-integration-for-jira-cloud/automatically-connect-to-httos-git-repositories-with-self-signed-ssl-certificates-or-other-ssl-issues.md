@@ -38,7 +38,7 @@ For this guide, we will use GitLab as an example:
 8.  Import the detected repositories and then click **Finish** to complete the setup.
     
 
-[« Self-signed HTTPS connections](/wiki/spaces/GITCLOUD/pages/1923024386/Self-signed+HTTPS+integration)
+[« Self-signed HTTPS connections](/git-integration-for-jira-cloud/self-signed-https-integration/)
 
 [Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues »](/wiki/spaces/GITCLOUD/pages/1923024437/Manually+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues)
 

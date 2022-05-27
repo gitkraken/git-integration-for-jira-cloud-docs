@@ -24,9 +24,9 @@ If the problem still persists:
 
 1.  Follow the solutions outlined in the following articles:
 
-    1.  [OAuth connection error or error 401 page with Azure DevOps integration](/wiki/spaces/GITCLOUD/pages/420282493/OAuth+connection+error+or+error+401+page+with+Azure+DevOps+integration)
+    1.  [OAuth connection error or error 401 page with Azure DevOps integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-integration/)
 
-    2.  [OAuth connection error or error 401 page with Azure DevOps with Active Directory integration](/wiki/spaces/GITCLOUD/pages/421527629/OAuth+connection+error+or+error+401+page+with+Azure+DevOps+with+Active+Directory+integration)
+    2.  [OAuth connection error or error 401 page with Azure DevOps with Active Directory integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-with-active-directory-integration/)
 
-2.  Configure [Creating Personal Access Tokens](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens#CreatingPersonalAccessTokens-AzureDevOps|VisualStudioTeamServices(VSTS)).
+2.  Configure [Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens/)).
 

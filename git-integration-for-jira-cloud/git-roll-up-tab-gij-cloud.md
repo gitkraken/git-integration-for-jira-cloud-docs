@@ -26,8 +26,3 @@ Sort the code statistics by clicking the respective **Sort** button then selec
 Select roll up options by clicking the respective **Rollup** button.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025721/gitcloud-git-rollup-sort03.png?version=1&modificationDate=1635418846848&cacheVersion=1&api=v2&width=183&height=258)
-
-[« Jira issue page](/wiki/spaces/GITCLOUD/pages/1923025695/Jira+issue+page)
-
-[Git Commits tab »](/wiki/spaces/GITCLOUD/pages/1923025766/Git+Commits+tab)
-

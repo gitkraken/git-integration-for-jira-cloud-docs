@@ -30,8 +30,3 @@ Open an issue then go to the _**Git Commits**_ tab to view commit information:
 View the whole commit code diff information by clicking the **View full commit** button to the right of the commit message.
 
 View code diff information of the particular file by clicking the filename for each file adjacent to the rollup counter markers.
-
-[« Git Roll Up tab](/wiki/spaces/GITCLOUD/pages/1923025721/Git+Roll+Up+tab)
-
-[Code syntax highlighter »](/wiki/spaces/GITCLOUD/pages/1923025790/Code+syntax+highlighter)
-

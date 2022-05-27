@@ -24,7 +24,7 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/n840jfrer4) 
 
 ## Creating personal access tokens
 
-If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens) – use the table of content anchor link to go to the Azure DevOps / VSTS section.
+If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens/) – use the table of content anchor link to go to the Azure DevOps / VSTS section.
 
 This step is **highly required** for Azure DevOps/ VSTS integrations connected via the Full feature integrations panel.
 
@@ -55,7 +55,7 @@ Connecting Azure DevOps / VSTS accounts with Full feature integration enables us
 
 **Creating personal access token**
 
-If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens) – use the table of content anchor link to go to the Azure DevOps / VSTS section.
+If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens/) – use the table of content anchor link to go to the Azure DevOps / VSTS section.
 
 This step is **highly required** for Azure DevOps/ VSTS integrations connected via the Full feature integrations panel.
 
@@ -185,7 +185,7 @@ Use this information to connect the Azure/VSTS git repository to your Jira Cloud
 
 [Single git repository integration (HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/)
 
-[Single git repository integration (SSH)](/wiki/spaces/GITCLOUD/pages/923238489)
+[Single git repository integration (SSH)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-ssh/)
 
 The repository is now connected to Jira Cloud.
 
@@ -203,7 +203,7 @@ Some repositories are not showing for the integration user. If this is the case
 3.  Convert the current repository format to git.
 
 
-For detailed information, see [Troubleshooting: Repositories missing from Azure/VSTS/TFS integrations](http://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/421462017/Repositories+missing+from+Azure+DevOps+or+VSTS+integration).
+For detailed information, see [Troubleshooting: Repositories missing from Azure/VSTS/TFS integrations](/git-integration-for-jira-cloud/repositories-missing-from-azure-devops-or-vsts-integration/).
 
 ## Webhooks and web linking
 
@@ -212,7 +212,7 @@ The Git Integration for Jira app automatically configures web linking for Azure 
 **Webhooks are supported on Azure DevOps and VSTS.**
 First - configure webhooks in the Git Integration app in Jira via the **Apps** menu ➜ **Git Integration:** **Manage Git Repositories** then click **Indexing triggers** (sidebar). Enable the feature and save the settings. Then [follow these instructions](https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts) to setup the webhook trigger. Azure DevOps/VSTS webhooks will trigger an immediate index of all repositories within the integration.
 
-For detailed step-by-step guide showcasing webhooks setup, [see this article](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/172294150/Adding+Webhooks+for+Azure+DevOps+%7C+VSTS).
+For detailed step-by-step guide showcasing webhooks setup, [see this article](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-repos-vsts-gij-cloud/).
 
 ## Linking Azure DevOps/VSTS git commits to Jira Cloud
 
@@ -252,7 +252,7 @@ This process requires a VSTS/Azure DevOps git repository.
 4.  Click **View full commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Linking git commits to Jira issues](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025229).
+For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/).
 
 ## Working with branches and pull requests with Azure DevOps/VSTS
 
@@ -282,11 +282,11 @@ On your Jira Cloud, open a Jira issue. On the Jira Git integration development 
 
     3.  Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/82477058/GitHub.com#) page.
+    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/github-com/) page.
 
     5.  For integration that uses PAT, the user is required to provide a personal access token for the repository to proceed creating the branch. Otherwise, no branch is created.
 
-2.  Choose a **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/82477058/GitHub.com#) page.
+2.  Choose a **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/github-com/) page.
 
 3.  Enter a **Branch name** or leave it as is (recommended).
 
@@ -321,7 +321,7 @@ On your Jira Cloud, open the Jira issue where your previously created a branch. 
 
     5.  For integration that uses PAT, the user is required to provide a personal access token for the repository to proceed creating the branch. Otherwise, no branch is created.
 
-2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/82477058/GitHub.com#) page.
+2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/github-com/) page.
 
 3.  Set _**master**_ as the **Target branch**.
 
@@ -332,7 +332,7 @@ Pull requests are still indexed based on branch name even if the PR title does n
 
 **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
 
-For more detailed information on this feature, see [Create pull/merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request).
+For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request/).
 
 
 The pull request is listed on the developer panel of the Jira issue page.

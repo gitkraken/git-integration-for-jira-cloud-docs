@@ -37,7 +37,3 @@ Click **Issues** on the sidebar to view list of unique Jira issues related to 
 
 On the **Issues** page, clicking the **View in issue navigator** label will open the search page with passed query of a list of Jira issues found based from the compare criteria.
 
-[« Viewing list of commits in Repository browser](/wiki/spaces/GITCLOUD/pages/1923025571/Viewing+list+of+commits+in+Repository+browser)
-
-[Enable/disable Repository browser via git repository configuration page »](/wiki/spaces/GITCLOUD/pages/1923025615/Repository+browser+general+settings)
-

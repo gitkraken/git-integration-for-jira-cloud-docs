@@ -243,7 +243,7 @@ We’ve launched an all-new management user interface, supporting the goal of ma
 
 With the [acquisition](https://www.gitkraken.com/blog/gitkraken-acquires-git-integration-jira-bigbrassband) of BigBrassBand's Git Integration for Jira app (GIJ) by GitKraken, we have introduced deep linking between GIJ and GitKraken so users can now have a stronger integration between the two. You can now click to open commits, branches, tags and repositories directly in GitKraken from the Jira issue view giving you a seamless transition from your Jira issues to GitKraken.
 
-[Learn more](https://link.bigbrassband.com/docs-gitcloud-integration-with-gitkraken)
+[Learn more](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client/)
 
 You will see the added ability to open the GitKraken client from our app in various locations. See an example of what this looks like below.
 
@@ -261,13 +261,13 @@ You may immediately set the selected branch as default for the current repositor
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/gitcloud-user-settings-create-def-branch-dlg.png?version=2&modificationDate=1632899635182&cacheVersion=1&api=v2&width=340&height=188)
 
-For more information on this feature, see article [Default branch feature](/wiki/spaces/GITCLOUD/pages/1958936625/Default+branch+feature).
+For more information on this feature, see article [Default branch feature](/git-integration-for-jira-cloud/default-branch-feature/).
 
 ## Webhook indexing integration
 
 13 May 2021 NEW FEATURE ADMINS
 
-Webhook indexing integration allows your connected git servers to work behind a firewall but will have limited features which are stated under the Connect the your Git server features comparison table. For detailed information on this new feature, see [Git Integration for Jira Cloud: Webhook indexing integration](/wiki/spaces/GITCLOUD/pages/1508081882/Webhook+indexing+integration).
+Webhook indexing integration allows your connected git servers to work behind a firewall but will have limited features which are stated under the Connect the your Git server features comparison table. For detailed information on this new feature, see [Git Integration for Jira Cloud: Webhook indexing integration](/git-integration-for-jira-cloud/webhook-indexing-explainer/).
 
 |     |     |
 | --- | --- |
@@ -347,11 +347,11 @@ This information is visible in the native Jira Cloud development information are
 
 Developers will often work in a single repository in a given Jira project. Each Jira user can now set their own default repository for a Jira project.
 
-[default-repo-feature.mov](/wiki/download/attachments/871792645/default-repo-feature.mov?version=1&modificationDate=1605046934883&cacheVersion=1&api=v2&width=612)
+[default-repo-feature.mov](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/default-repo-feature.mov?version=1&modificationDate=1605046934883&cacheVersion=1&api=v2&width=612)
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/create-pull-request-annotated.png?version=1&modificationDate=1605045753159&cacheVersion=1&api=v2&width=510&height=190)
 
-Default repository selection for Jira projects is available in the [Create branch](/git-integration-for-jira-cloud/Create-branch) and [Create pull / merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request) features of the app.
+Default repository selection for Jira projects is available in the [Create branch](/git-integration-for-jira-cloud/Create-branch) and [Create pull / merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request/) features of the app.
 
 All default selections can be reviewed and updated in [User Settings](/git-integration-for-jira-cloud/User-Settings):
 
@@ -365,9 +365,9 @@ All default selections can be reviewed and updated in [User Settings](/git-integ
 
 All Jira users with the `View development tools` permission have access to the **Repository browser** screen (_formerly View all repositories_) in Jira Cloud. We have added pagination to this screen to better support large numbers of repositories and the ability to filter the list by search term.
 
-**Note:** Permissions to specific repositories can be limited using Project Permissions (see [Permissions](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/405962836) for more information).
+**Note:** Permissions to specific repositories can be limited using Project Permissions (see [Permissions](/git-integration-for-jira-cloud/permissions/) for more information).
 
-[view-all-repos-pagination-feature.mov](/wiki/download/attachments/871792645/view-all-repos-pagination-feature.mov?version=1&modificationDate=1605048187186&cacheVersion=1&api=v2&width=612)
+[view-all-repos-pagination-feature.mov](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/view-all-repos-pagination-feature.mov?version=1&modificationDate=1605048187186&cacheVersion=1&api=v2&width=612)
 
 * * *
 
@@ -387,7 +387,7 @@ Webhook logs are retained for 7 days.
 
 28 Feb 2020 NEW FEATURE ALL USERS
 
-When a Jira user creates a pull request or merge request (GitLab) using the Git Integration for Jira app ([Create pull / merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request)), a link to the Jira issue is included in the pull request / merge request description.
+When a Jira user creates a pull request or merge request (GitLab) using the Git Integration for Jira app ([Create pull / merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request/)), a link to the Jira issue is included in the pull request / merge request description.
 
 |     |     |     |
 | --- | --- | --- |
@@ -417,7 +417,7 @@ Integration type icons and org/group names have been added to user facing reposi
 
 Jira administrators can now edit the names of integrations and repositories that are shown in Jira Cloud.
 
-[display-name-feature.mov](/wiki/download/attachments/871792645/display-name-feature.mov?version=1&modificationDate=1605047598752&cacheVersion=1&api=v2&width=578)
+[display-name-feature.mov](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/display-name-feature.mov?version=1&modificationDate=1605047598752&cacheVersion=1&api=v2&width=578)
 
 **Tip:** Use the Display Name feature to record information about the git server account.
 

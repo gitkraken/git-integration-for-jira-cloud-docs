@@ -19,7 +19,7 @@ This setting is turned off by default in [**Dev Info for Jira Cloud**](https://
 
 The Git Roll Up Issue tab displays a summary of the files, lines and the developers who made the changes in the commits commits associated with the Jira issue. Enable/disable this setting to allow the **Git Roll Up** tab on the Issue page for all Jira projects.
 
-For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](http://link.bigbrassband.com/jira-gitcloud-rollup).
+For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integration-for-jira-cloud/git-roll-up-issue-tab/).
 
 **Permissions**
 The **View developer tools** _permission_ is required to view the Git Roll Up Issue Tab. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.

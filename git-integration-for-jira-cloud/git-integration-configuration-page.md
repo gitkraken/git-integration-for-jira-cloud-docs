@@ -63,10 +63,3 @@ The above UI descriptions also apply to the Manage repositories page since it ha
 | The rest of the features can also be accessed on the left sidebar. |
 | ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923024023/gitcloud-managed-ui-other-features-sidebar.png?version=1&modificationDate=1647935812707&cacheVersion=1&api=v2&width=680&height=413) |
 
-
-Click on the next » topic below (recommended) to learn about adding a new full feature integration in Jira.
-
-[« Setting up repositories (topic index)](/wiki/spaces/GITCLOUD/pages/1923023982/Setting+up+integrations)
-
-[Using the Git service integration wizard »](/wiki/spaces/GITCLOUD/pages/1923024112/Using+the+Git+service+integration+wizard)
-

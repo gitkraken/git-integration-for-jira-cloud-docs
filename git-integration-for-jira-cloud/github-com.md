@@ -29,7 +29,7 @@ _(Updated video coming soon)_
 
 If two-factor authentication is enabled for your GitHub account, you will need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitHub.com account for increased security.
 
-While instructions from GitHub works just fine, please [follow this article](http://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens#CreatingPersonalAccessTokens-github) for a quick step-by-step guide to get you started.
+While instructions from GitHub works just fine, please [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens/) for a quick step-by-step guide to get you started.
 
 ## Using Git service integration
 
@@ -113,7 +113,7 @@ Use this information to connect the GitHub git repository to your Jira Cloud via
 
 [Single git repository integration (HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/)
 
-[Single git repository integration (SSH)](/wiki/spaces/GITCLOUD/pages/923238489)
+[Single git repository integration (SSH)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-ssh/)
 
 ## Setting up GitHub permissions
 
@@ -211,7 +211,7 @@ For more information on this feature, see [Documentation: Web linking](/git-inte
 4.  Click **View full commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Linking git commits to Jira issues](/wiki/spaces/GITCLOUD/pages/1923025229/Linking+git+commits+to+Jira+issues).
+For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/).
 
 ## Working with branches and pull requests with GitHub
 
@@ -280,7 +280,7 @@ Pull/merge requests are still indexed based on branch name even if the PR/MR tit
 
 **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
 
-For more detailed information on this feature, see [Create pull/merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request).
+For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request/).
 
 
 The pull request is listed on the developer panel of the Jira issue page.

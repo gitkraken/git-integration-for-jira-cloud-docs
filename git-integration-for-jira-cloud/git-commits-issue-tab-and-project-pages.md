@@ -10,21 +10,12 @@ taxonomy:
 
 **Features**
 
-*   By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Git Commits Issue and Project Tabs enabled.  ([How to disable](/wiki/pages/resumedraft.action?draftId=138346498#GitCommitsIssueTabandProjectPages-howToEnableDisable))
-*   By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Git Commits Issue and Project Tabs disabled.  ([How to enable](/wiki/pages/resumedraft.action?draftId=138346498#GitCommitsIssueTabandProjectPages-howToEnableDisable))
+*   By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Git Commits Issue and Project Tabs enabled.  ([How to disable](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page/))
+*   By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Git Commits Issue and Project Tabs disabled.  ([How to enable](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page/))
 
 
 
 The **View developer tools** _permission_ is required to view the Git Commits Issue Tab and Projects Page. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
-
-**What's in this page:**
-
-*   [Git Commits Issue Tab](/wiki/pages/resumedraft.action?draftId=138346498#GitCommitsIssueTabandProjectPages-gitCommitsIssueTab)
-*   [Git Commits Project Page](/wiki/pages/resumedraft.action?draftId=138346498#GitCommitsIssueTabandProjectPages-gitCommitsProjectPage)
-*   [View Full Commit](/wiki/pages/resumedraft.action?draftId=138346498#GitCommitsIssueTabandProjectPages-viewFullCommit)
-*   [Change Association](/wiki/pages/resumedraft.action?draftId=138346498#GitCommitsIssueTabandProjectPages-changeassociation)
-*   [How can a Jira administrator enable or disable the Git Commits Issue Tabs and Project Page?](/wiki/pages/resumedraft.action?draftId=138346498#GitCommitsIssueTabandProjectPages-howToEnableDisable)
-
 
 
 * * *

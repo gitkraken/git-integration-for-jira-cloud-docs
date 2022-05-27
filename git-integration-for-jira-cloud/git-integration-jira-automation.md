@@ -109,9 +109,9 @@ Create a rule to configure triggers and actions for automating tasks. There are 
 
 ## Known issue
 
-![(info)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/information.png) The limitation of Git Integration for Jira (GIJ) app not working with Automation for Jira (A4J) Lite is not a GIJ limitation but an Atlassian limitation.
+![(info)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/information.png) The limitation of Git Integration for Jira (GIJ) app not working with Automation for Jira (A4J) Lite is not a GIJ limitation but an Atlassian limitation.
 
 ## Advanced Examples
 
-For advanced examples, see sub-page [Automation Advanced Examples](/wiki/spaces/GITCLOUD/pages/1714257921).
+For advanced examples, see sub-page [Automation Advanced Examples](/git-integration-for-jira-cloud/git-integration-jira-automation-advanced-examples/).
 

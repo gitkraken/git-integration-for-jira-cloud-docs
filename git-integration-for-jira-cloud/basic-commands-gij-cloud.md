@@ -57,7 +57,7 @@ The Jira user must have the appropriate project permissions to be able to transi
 | **GIT-1720** **#close** `Closing ticket.` **#comment** `Tasks completed.` |
 | The first example will transition the Jira issue to the specified workflow state and adds the comment message to the commit.<br><br>The second example will transition the Jira issue to the specified workflow state, adds the comment “_**Closing ticket**”**.**_ to the Comment tab and adds the specified comment, “_**Task completed.**_” to the mentioned Jira issue. |
 
-For more information on transitions and workflow names and how they work, see [Workflow Transitions](/git-integration-for-jira-cloud/Workflow-transitions).
+For more information on transitions and workflow names and how they work, see [Workflow Transitions](/git-integration-for-jira-cloud/workflow-transitions-gij-cloud/).
 
 ## #assign
 
@@ -86,8 +86,4 @@ The `#label` command will add a new label to a Jira issue. If more than one J
 | **Examples:** |
 | **GITCL-443** **#label** `bucketbreakfix` `bucketenhancement` |
 | **GITCL-443 GITCL-247 GITCL-214** **#label** _admin@example.com_ _user1@example.com_ requested-feature new-feature **#comment** `Return email when implemented` |
-
-[« Smart commits](/git-integration-for-jira-cloud/Smart-commits)
-
-[Advanced examples »](/git-integration-for-jira-cloud/Advanced-examples)
 

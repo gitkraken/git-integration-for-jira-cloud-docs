@@ -33,9 +33,3 @@ This feature will only display properly on browsers supported by Atlassian for s
 *   [**Jira 7.x supported platforms**](https://confluence.atlassian.com/adminjiraserver0713/supported-platforms-964983071.html)
 
 *   [**Jira 8.x supported platforms**](https://confluence.atlassian.com/adminjiraserver/supported-platforms-938846830.html)
-
-
-[« Git Commits tab](/wiki/spaces/GITCLOUD/pages/1923025766/Git+Commits+tab)
-
-[Jira Git integration development panel »](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud)
-

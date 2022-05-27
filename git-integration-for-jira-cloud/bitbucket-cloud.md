@@ -73,7 +73,7 @@ Set Bitbucket Cloud permissions according to your organization's rules. Viewing
 3.  Scroll down to the **_Activity_** panel then click the **Git Commits** tab.
 4.  Click **View Full Commit** to view the code diff.
 
-For more information about this feature, see [Documentation: Linking git commits to Jira issues](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025229 "/wiki/spaces/GITCLOUD/pages/1923025229").
+For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/").
 
 
 
@@ -108,11 +108,11 @@ On your Jira Cloud, open a Jira issue. On the Jira Git integration development p
 
 2.  Choose a **Base branch**.
 
-3.  The Git Integration app will populate the **Branch name** field according to the _Branch Name Template_ declared in the **[Git integration options »](/wiki/spaces/GITCLOUD/pages/1207829137/Git+integration+options)** via **General Settings**. Enter a descriptive name or leave it as is (recommended).
+3.  The Git Integration app will populate the **Branch name** field according to the _Branch Name Template_ declared in the **[Git integration options »](/git-integration-for-jira-cloud/git-integration-options/)** via **General Settings**. Enter a descriptive name or leave it as is (recommended).
 
 
 
-For more detailed information on this feature, see [**Create branch**](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/Create-branch).
+For more detailed information on this feature, see [**Create branch**](/git-integration-for-jira-cloud/Create-branch).
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
@@ -149,7 +149,7 @@ The pull request feature works the same as merge request. On your Jira Cloud, op
 
 
 
-For more detailed information on this feature, see [**Create pull/merge request**](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request).
+For more detailed information on this feature, see [**Create pull/merge request**](/git-integration-for-jira-cloud/create-pull-or-merge-request/).
 
 Index trigger
 

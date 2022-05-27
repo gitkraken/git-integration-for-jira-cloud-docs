@@ -38,8 +38,8 @@ For more information about the different types of integrations:
 
 [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer/)
 
-[Webhook Indexing Explainer](/wiki/spaces/GITCLOUD/pages/1422819484/Webhook+Indexing+Explainer)
+[Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer/)
 
-[Setting up integrations](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923023982/Setting+up+integrations)
+[Setting up integrations](/git-integration-for-jira-cloud/setting-up-integrations/)
 
 If you have questions or need additional support - contact [BigBrassBand Support](https://bigbrassband.atlassian.net/servicedesk/customer/portals/).

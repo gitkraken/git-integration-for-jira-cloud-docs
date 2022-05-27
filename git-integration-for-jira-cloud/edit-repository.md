@@ -34,16 +34,11 @@ Utilize the options below for configuring repository settings.
 | **Option** | **Description** | **Repository type** |
 | _**Main Branch**_ | Set the main branch. The default setting is `master`. | SINGLE  <br>INTEGRATION |
 | _**Indexing triggers**_ | Displays the indexing triggers URL for this repository. Click the adjacent copy icon to send the indexing triggers URL to the system clipboard. Use this URL to setup webhook to your git host service. | SINGLE  <br>INTEGRATION |
-| _**Tags**_ | Set whether to show all tags or show on tags with matching regex pattern. For more information on git tags, see [Git tags](/git-integration-for-jira-cloud/Git-tags). | SINGLE  <br>INTEGRATION |
-| _**Smart Commits & Workflow Triggers**_ | Enable/disable this setting to allows the users to use the [smart commits](/git-integration-for-jira-cloud/Smart-commits) feature. | SINGLE  <br>INTEGRATION |
-| _**Project Permissions: Restrict to projects**_ | The default setting is **Associate with all projects**. You can restrict access to the Repository Browser and Git Commit tabs (Advanced) for the selected repository by [setting the project associations](/wiki/spaces/GITCLOUD/pages/1923024786/Associating+project+permissions). | SINGLE  <br>INTEGRATION |
+| _**Tags**_ | Set whether to show all tags or show on tags with matching regex pattern. For more information on git tags, see [Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud/). | SINGLE  <br>INTEGRATION |
+| _**Smart Commits & Workflow Triggers**_ | Enable/disable this setting to allows the users to use the [smart commits](/git-integration-for-jira-cloud/smart-commits-gij-cloud/) feature. | SINGLE  <br>INTEGRATION |
+| _**Project Permissions: Restrict to projects**_ | The default setting is **Associate with all projects**. You can restrict access to the Repository Browser and Git Commit tabs (Advanced) for the selected repository by [setting the project associations](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/). | SINGLE  <br>INTEGRATION |
 | _**Web Linking**_ | _Optional._<br><br>The web linking feature adds links to your git hosting provider directly into the Git Commits tab. For special integrations (Auto-Connect), this feature is configured automatically. For more information on about this topic, see [Web linking](/git-integration-for-jira-cloud/Web-linking). | SINGLE |
 
 Click **Save** to save the changes and apply the settings.
 
 Click **Cancel** to return to the manage git configuration page and discard the changes.
-
-[« Edit integration](/git-integration-for-jira-cloud/Edit-integration)
-
-[SSL verify »](/git-integration-for-jira-cloud/SSL-Verify)
-

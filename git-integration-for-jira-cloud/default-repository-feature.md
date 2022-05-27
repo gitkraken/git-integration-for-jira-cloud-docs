@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-This feature allows users to set the default repository for a Jira project when using the [Create Branch](/git-integration-for-jira-cloud/Create-branch) and [Create pull/merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request) features.
+This feature allows users to set the default repository for a Jira project when using the [Create Branch](/git-integration-for-jira-cloud/Create-branch) and [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request/) features.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1741094916/gitcloud-user-settings-default-repo-feature.png?version=1&modificationDate=1623726181829&cacheVersion=1&api=v2&width=680&height=332)
 
@@ -25,7 +25,7 @@ On the **Repository** column, default repositories can be set using the dropdown
 
 ## Effect on branch and pull request dialogs
 
-This configuration affects the [Create Branch](https://link.bigbrassband.com/docs-gitcloud-create-branch-from-jira-issue), [Create Pull Request](https://link.bigbrassband.com/docs-gitcloud-create-pull-request-from-jira-issue) and [Create Merge Request](https://link.bigbrassband.com/docs-gitcloud-create-merge-request-from-jira-issue) dialogs.
+This configuration affects the [Create Branch](/git-integration-for-jira-cloud/create-branch/), [Create Pull Request](/git-integration-for-jira-cloud/create-pull-or-merge-request/) and [Create Merge Request](/git-integration-for-jira-cloud/create-pull-or-merge-request/) dialogs.
 
 If no default repository is set, the **Create Branch** and **Create Pull/Merge Request** dialogs will allow users to select a repository and _**make it as default**_ by clicking the corresponding button.
 

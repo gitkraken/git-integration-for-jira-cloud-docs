@@ -10,7 +10,7 @@ These instructions apply to self-hosted GitHub Enterprise Server.
 
 For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans), please go to [this page](/wiki/spaces/GITCLOUD/pages/82477058/GitHub.com).
 
-Using **Jira Server or Data Center**? [See the corresponding article](https://bigbrassband.atlassian.net/wiki/x/E4FMAw).
+Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/github-enterprise-server/).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85622870/github-ent-server-banner-logo.png?version=1&modificationDate=1646820087185&cacheVersion=1&api=v2&width=510&height=59)
 
@@ -29,7 +29,7 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/vfwwqnn3mm) _a
 
 If two-factor authentication is enabled for your GitHub Enterprise Server account, you will need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitHub Enterprise Server account for increased security.
 
-While instructions from GitHub works just fine, [follow this article](http://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens#CreatingPersonalAccessTokens-github) for a quick step-by-step guide to get you started.
+While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens/) for a quick step-by-step guide to get you started.
 
 ## Using Git service integration
 
@@ -64,7 +64,7 @@ We recommend using the **Git service integration** panel to connect multiple rep
     1.  **SSL Verify** – The **SSL Verify** option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira Cloud app will ignore verification of SSL certificates when connecting to a git server. _This option is not available for non-fetched repositories._
 
     2.  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories.
-        To learn more examples, see article [Jira Cloud: Working with Custom API Path](http://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/133201972/Working+with+Custom+API+Path).
+        To learn more examples, see article [Jira Cloud: Working with Custom API Path](/git-integration-for-jira-cloud/working-with-custom-api-path/).
 
     3.  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
         Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
@@ -179,7 +179,7 @@ The Git Integration for Jira app automatically configures web linking for GitHub
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information on this feature, see [Documentation: Web linking](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025184).
+For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-cloud/web-linking/).
 
 ## Viewing git commits in Jira Cloud
 
@@ -192,7 +192,7 @@ For more information on this feature, see [Documentation: Web linking](https://b
 4.  Click **View Full Commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Linking git commits to Jira issues](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025229).
+For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/).
 
 ## Working with branches and pull requests with GitHub Enterprise Server
 
@@ -262,7 +262,7 @@ Pull/merge requests are still indexed based on branch name even if the PR/MR tit
 
 **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
 
-For more detailed information on this feature, see [Create pull/merge request](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/733315235).
+For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request/).
 
 
 The pull request is listed on the developer panel of the Jira issue page.

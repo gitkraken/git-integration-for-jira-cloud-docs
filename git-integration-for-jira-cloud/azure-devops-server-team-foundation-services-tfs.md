@@ -22,7 +22,7 @@ The Git Integration for Jira app supports Azure Repos.
 
 ## Creating personal access tokens
 
-If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens) – use the table of content anchor link to go to the Azure DevOps Server/TFS section.
+If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens/) – use the table of content anchor link to go to the Azure DevOps Server/TFS section.
 
 This step is **highly required** for Azure DevOps Server/TFS integrations connected via the Full feature integrations panel.
 
@@ -114,7 +114,7 @@ Use this information to connect the Azure DevOps Server/TFS git repository to yo
 
 [Single git repository integration (HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/)
 
-[Single git repository integration (SSH)](/wiki/spaces/GITCLOUD/pages/923238489)
+[Single git repository integration (SSH)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-ssh/)
 
 The repository is now connected to Jira Cloud.
 
@@ -138,7 +138,7 @@ The Git Integration for Jira app automatically configures web linking for Azure 
 **Webhooks are supported on Azure DevOps Server and TFS.**
 First - configure webhooks in the Git Integration app in Jira via the **Apps** menu ➜ **Git Integration: Manage integrations** then click **Indexing triggers** (sidebar). Enable the feature and save the settings. Then [follow these instructions](https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts) to setup the webhook trigger. Azure DevOps Server/TFS webhooks will trigger an immediate index of all repositories within the integration.
 
-For detailed step-by-step guide showcasing webhooks setup, [see this article](/wiki/spaces/GITCLOUD/pages/234782736/Adding+webhooks+for+Azure+DevOps+Server+%7C+TFS).
+For detailed step-by-step guide showcasing webhooks setup, [see this article](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-server-tfs-gij-cloud/).
 
 ## Linking Azure DevOps Server/TFS git commits to Jira Cloud
 
@@ -201,7 +201,7 @@ The commit is published to the Azure DevOps Server/TFS.  To view the commit in 
 4.  Click **View full commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Linking git commits to Jira issues](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923025229).
+For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/).
 
 ## Working with branches and pull requests with Azure DevOps Server/TFS
 
@@ -292,11 +292,11 @@ On your Jira Cloud, open the Jira issue where your previously created a branch. 
 
     3.  Use the search box to look for the specific repository that will be used.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/781975665) page.
+    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings/) page.
 
     5.  For integration that uses PAT, the user is required to provide a personal access token for the repository to proceed creating the branch. Otherwise, no branch is created.
 
-2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/82477058/GitHub.com#) page.
+2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/github-com/) page.
 
 3.  Set _**master**_ as the **Target branch**.
 

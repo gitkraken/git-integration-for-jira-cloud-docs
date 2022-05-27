@@ -8,15 +8,15 @@ taxonomy:
 ---
 Git Integration for Jira app currently supports all the cloud hosted versions and the officially supported versions of the self-hosted git services:
 
-*   [GitHub Enterprise](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/716734813)
+*   [GitHub Enterprise](/git-integration-for-jira-cloud/github-enterprise-eol/)
 
-*   [GitLab CE/EE](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/716636410)
+*   [GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-eol-support-policy/)
 
-*   [Bitbucket Server/Cloud](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/716636417)
+*   [Bitbucket Server/Cloud](/git-integration-for-jira-cloud/bitbucket-server-cloud-eol-support-policy/)
 
-*   [Azure DevOps Server / TFS](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/716833131/Azure+DevOps+Server+Lifecycle+Policies)
+*   [Azure DevOps Server / TFS](/git-integration-for-jira-cloud/azure-devops-server-lifecycle-policies/)
 
-*   [Gerrit](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/717128167)
+*   [Gerrit](/git-integration-for-jira-cloud/gerrit-end-of-life/)
 
 
 Most offered services have their own End-of-Life (EOL) policies that ranges from one year or more. For most cases, it’s generally one year following its release date.

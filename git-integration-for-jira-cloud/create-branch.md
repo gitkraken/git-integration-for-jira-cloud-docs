@@ -11,8 +11,8 @@ taxonomy:
 
 **Jira administrator notes**
 
-*   Jira users can now provide their own personal access tokens (PAT) even if they are not required/mandated by the Jira admin. See [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GITCLOUD/pages/131137621) for instructions on how to configure this feature.
-*   The **View developer tools** _permission_ is required to view the Source Code panel (see more in [Issue Git Source Code Panel](/wiki/spaces/GITCLOUD/pages/138346503/Issue+Git+Source+Code+Panel)). Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
+*   Jira users can now provide their own personal access tokens (PAT) even if they are not required/mandated by the Jira admin. See [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) for instructions on how to configure this feature.
+*   The **View developer tools** _permission_ is required to view the Source Code panel (see more in [Issue Git Source Code Panel](/git-integration-for-jira-cloud/issue-git-source-code-panel/). Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
 *   Creating branch feature can be disabled for all Jira users (regardless of permissions) in General settings
 
 
@@ -28,7 +28,7 @@ The Create branch feature offers Jira users the ability to create a git branch d
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/733282366/gitcloud-create-branch-dlg.png?version=1&modificationDate=1635931446719&cacheVersion=1&api=v2)
 
 
-For information about creating pull/merge requests from a Jira issue - see [Create pull or merge request](/wiki/spaces/GITCLOUD/pages/733315235/Create+pull+or+merge+request).
+For information about creating pull/merge requests from a Jira issue - see [Create pull or merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request/).
 
 ## **Advantages**
 
@@ -36,7 +36,7 @@ When creating a branch from within Jira: 
 
 *   Automatically populates branch name with issue key (necessary for branch ↔ issue association) and issue summary.
 *   Further - default branch naming conventions can be customized to match your development workflow.  For example: `${issuetype:New Issue,new,Bug Fix,bug}/${issuekey}-${summary}` generates "`bug/PRJ-123-add-more-logging`" (See General settings for more information).
-*   Require each Jira user to provide their Personal Access Token for creating branches.  This option adds some friction to creating branches/pull requests but enabling this setting will enforce the git server user permissions as well as give better attribution for the actions.  See [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GITCLOUD/pages/131137621) for more information.
+*   Require each Jira user to provide their Personal Access Token for creating branches.  This option adds some friction to creating branches/pull requests but enabling this setting will enforce the git server user permissions as well as give better attribution for the actions.  See [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) for more information.
 *   Each Jira user can set a **Default repository** for the current Jira project. (See User settings for more information).
 
 
@@ -62,12 +62,12 @@ When creating a branch from within Jira: 
 1.  **Prerequisite:** Jira administrator configures a Full feature integration in the Git Integration for Jira Cloud app. See [Integration Guide](/git-integration-for-jira-cloud/Integration-Guide) for more information.
 2.  To access the Create branch action - do one of the following:
     1.  Enable the **Git Development panel** or
-    2.  Open the [Issue Git Source Code Panel](/wiki/spaces/GITCLOUD/pages/138346503/Issue+Git+Source+Code+Panel)
+    2.  Open the [Issue Git Source Code Panel](/git-integration-for-jira-cloud/issue-git-source-code-panel/)
 3.  Click **Create branch** in one of the panels from step 2.
 4.  Select git repository.
     1.  Optional: designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/User-Settings) page.
     2.  Use the search box to look for the specific name of the repository that will be used.
-5.  If a [personal access token is required](/wiki/spaces/GITCLOUD/pages/131137621) (and not yet provided) - follow on screen instructions to provide a [personal access token](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens) with correct permissions for selected repository.
+5.  If a [personal access token is required](/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) (and not yet provided) - follow on screen instructions to provide a [personal access token](/git-integration-for-jira-cloud/creating-personal-access-tokens/) with correct permissions for selected repository.
 6.  Select base branch.
 7.  Verify branch name is correct. Edit as desired. Note: the Jira issue key must remain in the branch name to create the branch ↔ Jira issue association.
 8.  Click **Create branch**.

@@ -7,12 +7,6 @@ taxonomy:
 
 ---
 
-# Enable beta features setting
-
-<https://bigbrassband.atlassian.net/spaces/GITCLOUD/pages/2070216724/Enable+beta+features+setting>
-
-* * *
-
 This setting is part of the [**General settings**](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/781942911) configuration page for Git Integration for Jira Cloud.
 
 **Default settings**  

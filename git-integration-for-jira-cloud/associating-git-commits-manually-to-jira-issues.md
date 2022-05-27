@@ -53,8 +53,3 @@ If the commit is associated with multiple Jira issues, you will see the followin
 In the above example, the selected commit is associated with Jira issues `TEST-1` and `TEST-4` .
 
 Saving the changes triggers a repository reindexing to show new associations.
-
-[« Linking git commits to Jira issues](/wiki/spaces/GITCLOUD/pages/1923025229/Linking+git+commits+to+Jira+issues)
-
-[Smart commits »](/git-integration-for-jira-cloud/Smart-commits)
-

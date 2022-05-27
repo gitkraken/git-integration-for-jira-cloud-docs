@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/aws-codecommit/).
+Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud/).
 
 ![AWS codecommit banner logo](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86180077/image-20200909-134637.png?version=1&modificationDate=1599745472495&cacheVersion=1&api=v2&width=442&height=92)
 
@@ -54,7 +54,7 @@ Configure [**AWSCodeCommitPowerUser »**](https://docs.aws.amazon.com/codecommi
 | delete branch | `codecommit:DeleteBranch` |
 | configure webhooks automatically | `codecommit:GetRepositoryTriggers`  <br>`codecommit:PutRepositoryTriggers`  <br>`sns:CreateTopic`  <br>`sns:DeleteTopic`  <br>`sns:Subscribe` |
 
-See [this article](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens#CreatingPersonalAccessTokens-aws_codecommit) for related information.
+See [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens/) for related information.
 
 ## Webhooks | Triggers
 
@@ -146,7 +146,7 @@ To connect your repository to Jira thru the Git Integration for Jira app, open t
 4.  After the import process, the **Settings** dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86180077/gitcloud-autoconnect-projacl-pat-wizard(c).png?version=1&modificationDate=1599745473683&cacheVersion=1&api=v2)
-    *   On the Integration Settings, setting the [Require User PAT option](/wiki/spaces/GITSERVER/pages/131170306) to `ON`, will require users to provide valid AWS Access Key ID and Secret Access Key for branch and pull requests creation/deletion _(via the_ [_developer panel_](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud) _on the Jira issue page)_. The required permission must be configured for the service user to do specific tasks as described in the [Required permissions](#Required-permissions) section.
+    *   On the Integration Settings, setting the [Require User PAT option](/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) to `ON`, will require users to provide valid AWS Access Key ID and Secret Access Key for branch and pull requests creation/deletion _(via the_ [_developer panel_](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud) _on the Jira issue page)_. The required permission must be configured for the service user to do specific tasks as described in the [Required permissions](#Required-permissions) section.
 
     *   Set Project Permissions according to your organization's project association rules.
 
@@ -234,7 +234,7 @@ For single repository connections, configuring web linking is optional. For more
 4.  Click **View Full Commit** to view the code diff.
 
 
-For detailed information on this process, see [Linking git commits to Jira issues](/wiki/spaces/GITCLOUD/pages/1923025229/Linking+git+commits+to+Jira+issues).
+For detailed information on this process, see [Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/).
 
 ## Working with branches and pull requests
 
