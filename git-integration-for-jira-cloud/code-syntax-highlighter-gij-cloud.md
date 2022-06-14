@@ -28,7 +28,7 @@ There is no language auto-detection in the diff dialog. The detection is based 
 
 This feature will only display properly on browsers supported by Atlassian for specific versions of Jira:
 
-*   [**Jira 6.3 supported platforms**](https://confluence.atlassian.com/jira063/supported-platforms-683541780.html)
+<!--*   [**Jira 6.3 supported platforms**](https://confluence.atlassian.com/jira063/supported-platforms-683541780.html)-->
 
 *   [**Jira 7.x supported platforms**](https://confluence.atlassian.com/adminjiraserver0713/supported-platforms-964983071.html)
 
