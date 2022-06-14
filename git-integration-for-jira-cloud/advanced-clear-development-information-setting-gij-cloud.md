@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 
-These settings are part of the [General settings](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud under [Jira Development Information settings](/git-integration-for-jira-cloud/jira-development-information-settings-features/).
+These settings are part of the [General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud) configuration page for Git Integration for Jira Cloud under [Jira Development Information settings](/git-integration-for-jira-cloud/jira-development-information-settings-features-gij-cloud).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829225/gitcloud-gencfg-advanced-clear-dev-info.png?version=2&modificationDate=1645098515908&cacheVersion=1&api=v2&width=548&height=292)
 

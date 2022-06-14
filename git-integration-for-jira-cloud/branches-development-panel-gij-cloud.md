@@ -33,7 +33,7 @@ Click **Create branch** on the Jira Git integration development panel to creat
 
 2.  Set **Source branch**. _(Optional - click Make default to set this branch as default for Source branch when working with branch and PR/MR creation dialogs)._
 
-3.  The Git Integration for Jira app will populate the **Branch name** field according to the _Branch Name Template_ declared in the [**Git Integration Options**](https://bigbrassband.atlassian.net/wiki/spaces/~493751811/pages/1923025087/%28gitcloud%29+General+settings#Git-Integration-Options---introduced-version-2.13.1) [](https://bigbrassband.com/git-integration-for-jira/documentation/general-settings.html#git_int_options)via **General Settings**. Enter a descriptive name or leave it as is (recommended).
+3.  The Git Integration for Jira app will populate the **Branch name** field according to the _Branch Name Template_ declared in the [**Git Integration Options**](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud) via **General Settings**. Enter a descriptive name or leave it as is (recommended).
 
 
 OPTIONAL

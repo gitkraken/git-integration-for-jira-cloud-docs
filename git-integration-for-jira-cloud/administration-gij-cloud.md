@@ -16,8 +16,8 @@ Click on an article to learn more information for that specific topic.
 
 *   Page:
 
-    [General Settings](/git-integration-for-jira-cloud/General-Settings) (Git Integration for Jira Cloud)
+    [General Settings](/git-integration-for-jira-cloud/general-settings-gij-cloud) (Git Integration for Jira Cloud)
 
 *   Page:
 
-    [Trusted Users](/git-integration-for-jira-cloud/Trusted-Users) (Git Integration for Jira Cloud)
+    [Trusted Users](/git-integration-for-jira-cloud/trusted-users-gij-cloud) (Git Integration for Jira Cloud)

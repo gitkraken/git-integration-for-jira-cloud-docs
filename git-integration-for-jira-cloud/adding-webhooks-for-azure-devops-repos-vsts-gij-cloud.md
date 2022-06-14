@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Pull request webhooks are now supported.  [See details](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-repos-vsts/) on this page.
+Pull request webhooks are now supported.  [See details](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-repos-vsts-gij-cloud) on this page.
 
 Supported webhook events:
 
@@ -21,7 +21,7 @@ Supported webhook events:
 
 _Right click_ [_here_](https://bigbrassband.wistia.net/medias/61wl72vp91) _to open this video in a new tab/window for more viewing options._
 
-Before you can proceed with the steps outlined on this guide, indexing triggers must be enabled in the Git Integration for Jira app repository configuration for your Jira Cloud instance. For more details, see [**Indexing Triggers - Getting Started**](/git-integration-for-jira-cloud/Indexing-Triggers).
+Before you can proceed with the steps outlined on this guide, indexing triggers must be enabled in the Git Integration for Jira app repository configuration for your Jira Cloud instance. For more details, see [**Indexing Triggers - Getting Started**](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud).
 
 ## Setting up webhook for Azure Repos
 
@@ -31,10 +31,10 @@ Configure webhook by logging in to your VSTS/Azure DevOps account.
 
 2.  ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/172294150/webhooks-azure-devops-sel-proj(c).png?version=1&modificationDate=1617193372470&cacheVersion=1&api=v2&width=646&height=361)
 
-    Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Project Settings** then select **Service Hooks**. The following screen is displayed.
+    Click **Project Settings** then select **Service Hooks**. The following screen is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/172294150/webhooks-azure-devops-add-shooks(c).png?version=1&modificationDate=1617193372476&cacheVersion=1&api=v2&width=544&height=233)
-3.  Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) to add a new service hook subscription.
+3.  Click + icon to add a new service hook subscription.
 
 4.  Scroll to **Web Hooks** and click to select it.
 

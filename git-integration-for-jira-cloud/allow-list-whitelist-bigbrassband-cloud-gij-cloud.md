@@ -21,33 +21,30 @@ We support [Atlassian’s Data Residency](https://www.atlassian.com/software/dat
 
 How to find out which geographic region your Git Integration for Jira Cloud application is hosted at - see…
 
-#### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Global hosted customers
+#### Global hosted customers
 
 For customers that are hosted on the Global (hosted in the Northern Virginia, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
-|     |
-| --- |
 | **IP address** |
+| --- |
 | `52.73.151.196` |
 
-#### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) European Union hosted customers
+#### European Union hosted customers
 
 For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), set the allow list/whitelist for self-hosted git repositories:
 
-|     |
-| --- |
 | **IP address** |
+| --- |
 | `18.156.13.64` |
 
 [Dev Info for Jira Cloud](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?tab=overview&hosting=cloud) does not have EU hosting support.
 
-#### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) USA hosted customers
+#### USA hosted customers
 
 For customers that are hosted on the US stack (hosted in the Ohio, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
-|     |
-| --- |
 | **IP address** |
+| --- |
 | `18.218.206.0` |
 
 [Dev Info for Jira Cloud](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?tab=overview&hosting=cloud) does not have USA hosting support.
@@ -56,9 +53,8 @@ For customers that are hosted on the US stack (hosted in the Ohio, USA AWS regio
 
 To allow self-hosted git repositories to be indexed by BigBrassBand Cloud applications - the following port(s) may be necessary to be open:
 
-|     |     |     |
-| --- | --- | --- |
 | **Protocol** | **Port** | **Notes** |
+| --- | --- | --- |
 | HTTPS | 443 | Common case |
 | HTTP | 80  | Very uncommon |
 | SSH | 22  | Only if using SSH keys for authentication to repositories |
@@ -71,9 +67,8 @@ _**For example:** If your self-managed GitLab or GitHub Enterprise is using HTT
 
 GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features allowing for allow listing and require an additional set of IP addresses for allow listing:
 
-|     |
+| **Global Region Hosted IP addresses** |
 | --- |
-| ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Global Region Hosted IP addresses** |
 | 54.175.75.157 |
 | 54.198.195.73 |
 | 54.226.216.3 |
@@ -95,9 +90,8 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 | 54.157.14.229 |
 | 52.54.150.111 |
 
-|     |
+| **USA Region Hosted IP addresses** |
 | --- |
-| #### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **USA Region Hosted IP addresses** |
 | 3.130.34.25 |
 | 18.218.122.134 |
 | 3.131.213.149 |
@@ -110,9 +104,8 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 | 3.142.176.34 |
 | 3.130.151.4 |
 
-|     |
+| **EU Region Hosted IP addresses** |
 | --- |
-| #### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **EU Region Hosted IP addresses** |
 | 18.156.13.64 |
 | 3.123.136.62 |
 | 18.156.8.182 |
@@ -135,9 +128,8 @@ If your git server is simply behind a firewall, whitelist the IP address of the 
 
 If your git server is only reachable on a private intranet or through a virtual private network (VPN), the Git Integration for Jira indexing service will not be able to reach your git server, even if you whitelist our IP. See [Webhooks indexing integration](#Webhooks-indexing-integration-for-private-networks) section below.
 
-|     |
-| --- |
 | **Examples:** |
+| --- |
 | ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://git.corp.com/repository/widget-production.git](https://git.corp.com/repository/widget-production.git) - a hosted git repository added directly |
 | ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://git.corp.com](https://git.corp.com) - a git server running GitHub/Gitlab/etc |
 | ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://gitlab.corp.com:8088](https://gitlab.corp.com:8088) - a server running on a non-standard port |
@@ -151,15 +143,15 @@ Webhook indexing integration supports indexing of commits and pull requests usin
 
 For more information on this feature, see the following articles:
 
-*   [Classic webhook indexing explainer](/git-integration-for-jira-cloud/classic-indexing-explainer/)
+*   [Classic webhook indexing explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud)
 
-*   [Webhook indexing integration](/git-integration-for-jira-cloud/webhook-indexing-explainer/)
+*   [Webhook indexing integration](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud)
 
-    *   [GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration/)
+    *   [GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud)
 
-    *   [GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration/)
+    *   [GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud)
 
-    *   [Microsoft](/git-integration-for-jira-cloud/github-webhook-indexing-integration/)
+    *   [Microsoft](/git-integration-for-jira-cloud/microsoft-webhook-indexing-integration-gij-cloud)
 
 
 ## BigBrassBand Cloud apps
