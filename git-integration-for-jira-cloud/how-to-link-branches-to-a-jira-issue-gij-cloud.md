@@ -18,3 +18,4 @@ Create a branch and associate it to a Jira issue:
 2.  Enter a new branch name on the search box. Mention a Jira issue key in the name to associate it to the said Jira issue.
 
 3.  Click the result to create the new branch.
+

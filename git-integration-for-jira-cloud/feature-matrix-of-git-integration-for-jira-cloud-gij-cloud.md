@@ -10,9 +10,8 @@ See also [Feature Comparison](https://bigbrassband.atlassian.net/wiki/spaces/GIT
 
 The [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app offers a variety of integration options and features. The below matrix explains which features are offered when using a specific type of integration. For any questions, contact [BigBrassBand Support](https://bigbrassband.atlassian.net/servicedesk/customer/portals/).
 
-|     |     |     |     |
-| --- | --- | --- | --- |
 |     | **Git service integrations**<br><br>\[Classic full feature integrations\] | **Single git repository integrations**<br><br>\[Limited feature connect\] | **Webhook indexing integrations**<br><br>\[Limited feature connect\] |
+| --- | --- | --- | --- |
 | **Works with git servers behind firewall** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | **View commits, branches, pull/merge requests in Jira** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Commits and branches<br><br>![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Pull/merge requests | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | **Pull / Merge Request Reviewers and Approvals Shown in Jira** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Pull/merge requests | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) GitHub<br><br>![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Azure DevOps, VSTS, TFS<br><br>![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) GitLab |
@@ -36,10 +35,10 @@ The [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984
 
 For more information about the different types of integrations:
 
-[Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer/)
+[Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud)
 
-[Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer/)
+[Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud)
 
-[Setting up integrations](/git-integration-for-jira-cloud/setting-up-integrations/)
+[Setting up integrations](/git-integration-for-jira-cloud/setting-up-integrations-gij-cloud)
 
 If you have questions or need additional support - contact [BigBrassBand Support](https://bigbrassband.atlassian.net/servicedesk/customer/portals/).

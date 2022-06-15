@@ -24,18 +24,18 @@ On this page, you will find the list of available hooks and webhooks supported b
 
 
 
-[Client-side Hook](/git-integration-for-jira-cloud/commit-msg-hook/)
+[Client-side Hook](/git-integration-for-jira-cloud/commit-msg-hook-gij-cloud)
 
 The **_commit-msg_** hook is a python script file that must be located in the developer's local repository.
 
 
 
-[Server-side Hook](/git-integration-for-jira-cloud/server-side-hook/)
+[Server-side Hook](/git-integration-for-jira-cloud/server-side-hook-gij-cloud)
 
 Use server-side hooks to apply policies for your project.  The server runs these scripts before and after the push.  The server-side hook, like commit-msg hook, requires Python to be installed.
 
 
 
-[Indexing Triggers](/git-integration-for-jira-cloud/Indexing-Triggers)
+[Indexing Triggers](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud)
 
 Trigger immediate reindex of your repositories from remote systems via webhooks.

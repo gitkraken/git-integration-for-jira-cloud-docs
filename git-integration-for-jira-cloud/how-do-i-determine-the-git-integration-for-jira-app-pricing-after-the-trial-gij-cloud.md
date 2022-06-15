@@ -34,4 +34,3 @@ There are four ways to determine the pricing:
 
 
 All four should provide the same answer.
-

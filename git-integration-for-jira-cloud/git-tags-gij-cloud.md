@@ -69,4 +69,4 @@ Move the mouse pointer over the tag to display the following tooltip information
 
 Tags are only associated with the Jira issue by Jira keys that are specified in commits that belong to the tag. Specifying a Jira key in the name of a tag does not associate this tag with the mentioned ticket.
 
-If some commits relate only to tags, these commits will not be displayed. For more information, see the [related known issue](/git-integration-for-jira-cloud/known-issues/).
+If some commits relate only to tags, these commits will not be displayed. For more information, see the [related known issue](/git-integration-for-jira-cloud/known-issues-gij-cloud).

@@ -10,9 +10,8 @@ If your Git servers are running through a firewall, configure the firewall to al
 
 Below are the default ports for common git URL protocols:
 
-|     |     |
-| --- | --- |
 | **Protocol** | **Default Port** |
+| --- | --- |
 | ssh:// | port 22 |
 | git:// | port 9418 |
 | http:// | port 80 |
@@ -30,4 +29,4 @@ Test git connection and repository URL by doing the following:
 The Git Integration for Jira app will run successfully if the above connection test ran without errors.
 
 
-For detailed information on whitelisting your Git server, see [Allow list (whitelist) BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud/).
+For detailed information on whitelisting your Git server, see [Allow list (whitelist) BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud).

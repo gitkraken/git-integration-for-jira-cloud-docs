@@ -66,4 +66,4 @@ We test this on huge Git repositories in large Jira instances.  Over 5000 organ
 
 For a more comprehensive view, see **[Git Integration for Jira app Version History »](https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions "Git add-on Version History")**.
 
-In the Version History page, you can try or buy the Git Integration for Jira Cloud app or download it for use with **[manual installation »](https://bigbrassband.com/git-integration-for-jira/documentation/installation.html#gitctrlvwr_inst_manual "Git add-on Manual Installation")**.
+In the Version History page, you can try or buy the Git Integration for Jira Cloud app or download it for use with **[manual installation »](/git-integration-for-jira-cloud/installation-and-setup-gij-cloud "Git add-on Manual Installation")**.
