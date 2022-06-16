@@ -23,6 +23,7 @@ History of commits can also be viewed within the whole project scope. To do this
 *   Click **Open in GitKraken** button to open this commit in GitKraken git client app (if installed).
 
 
-[« Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud/)
+[Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud/)
 
-[Reindexing »](/git-integration-for-jira-cloud/reindexing-gij-cloud/)
+[Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud/)
+

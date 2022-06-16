@@ -11,4 +11,4 @@ The Git Integration for Jira Cloud app automatically configures web links for mo
 
 For single git repository integration, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information, see [Documentation: Web Linking](/git-integration-for-jira-cloud/Web-linking).
+For more information, see [Documentation: Web Linking](/git-integration-for-jira-cloud/web-linking-gij-cloud).

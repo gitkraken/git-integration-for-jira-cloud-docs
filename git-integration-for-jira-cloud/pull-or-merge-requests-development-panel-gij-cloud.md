@@ -17,7 +17,7 @@ The displayed information depends on which supported git hosts are connected to 
 *   Both GitLab and GitHub integrations  –  separate sections for merge requests and pull requests
 
 
-For necessary permissions that GitLab users must have for creating pull/merge requests, see [**GitLab Documentation: Permissions »**](https://docs.gitlab.com/ee/user/permissions.html).
+For necessary permissions that GitLab users must have for creating pull/merge requests, see [**GitLab Documentation: Permissions**](https://docs.gitlab.com/ee/user/permissions.html).
 
 This function does not work for single git repository connections. Use the Full feature integration instead.
 
@@ -87,7 +87,7 @@ Hover the mouse pointer on the pull/merge request label to see information of th
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/1jwzeex5qa) _to open this video in a new tab/window for more viewing options._
 
-[« Branches (Developer panel)](/wiki/spaces/GITCLOUD/pages/1923025879)
+[Branches (Developer panel)](/git-integration-for-jira-cloud/branches-development-panel-gij-cloud)
 
-[Git tags »](/git-integration-for-jira-cloud/git-tags-gij-cloud/)
+[Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud/)
 

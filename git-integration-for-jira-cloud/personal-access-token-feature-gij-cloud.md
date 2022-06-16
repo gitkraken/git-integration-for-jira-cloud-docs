@@ -27,4 +27,3 @@ Click **Update** to save the changes and assign this PAT to the selected git int
 ## Generate new token
 
 Click the **New token** label to generate a new personal access token via the git service web portal for the selected git integration.
-

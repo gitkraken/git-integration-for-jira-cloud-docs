@@ -12,7 +12,7 @@ The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/4984
 
 ## What is Webhook Indexing?
 
-In the Classic Indexing options, all features are available (explained here: [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer/)) but require two-way communication originating from outside your network (see [Allow list (whitelist) BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud/)). Webhook Indexing only requires that your Git server be able to make outbound Internet requests.
+In the Classic Indexing options, all features are available (explained here: [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud) but require two-way communication originating from outside your network (see [Allow list (whitelist) BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud). Webhook Indexing only requires that your Git server be able to make outbound Internet requests.
 
 ## How does Webhook Indexing work?
 
@@ -26,11 +26,11 @@ Tip: Setup the webhook at the organization/group/project level in your git serve
 
 **Specific platform instructions**:
 
-[Webhook Indexing for GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration/) SUPPORTED
+[Webhook Indexing for GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud) SUPPORTED
 
-[Webhook Indexing for GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration/) SUPPORTED
+[Webhook Indexing for GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud) SUPPORTED
 
-[Webhook Indexing for Azure DevOps, VSTS and TFS](/git-integration-for-jira-cloud/microsoft-webhook-indexing-integration/) SUPPORTED
+[Webhook Indexing for Azure DevOps, VSTS and TFS](/git-integration-for-jira-cloud/microsoft-webhook-indexing-integration-gij-cloud) SUPPORTED
 
 Webhook indexing for Gerrit FEATURE COMING SOON
 
@@ -67,7 +67,7 @@ Webhook payloads by the leading git server vendors **do not include source code*
 
 ### 3\. How is Webhook indexing different from Indexing triggers?
 
-Previously in the application we called Indexing triggers “Webhooks”). Indexing triggers are used simply to trigger a reindex of a repository in a “Classic” integration to update Jira Cloud with commits, branches, pull requests and tags (see [Indexing Triggers](/git-integration-for-jira-cloud/Indexing-Triggers)).
+Previously in the application we called Indexing triggers “Webhooks”). Indexing triggers are used simply to trigger a reindex of a repository in a “Classic” integration to update Jira Cloud with commits, branches, pull requests and tags (see [Indexing Triggers](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud).
 
 ### 4\. If webhooks are sent only once by my git server - what if Git Integration for Jira Cloud is down?
 
@@ -101,7 +101,7 @@ See: [Security & Trust](https://bigbrassband.com/security-and-trust.html)
 
 *   Because no source code is included in the webhook payload, the code review capabilities available in Classic Indexing integrations are not available.
 
-*   For more - see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud/).
+*   For more - see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud).
 
 
 ### 11\. I have more questions about Webhook indexing

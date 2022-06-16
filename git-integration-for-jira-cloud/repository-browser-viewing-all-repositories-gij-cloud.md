@@ -51,22 +51,22 @@ While on the Repository browser page:
 
 *   Click on a repository to view Commits and Compare tabs.
 
-*   Click on **Go to User Settings: Git integration** to access the [User settings](/git-integration-for-jira-cloud/User-Settings) page for setting up connected apps, default repositories, default branches and personal access tokens configuration.
+*   Click on **Go to User Settings: Git integration** to access the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page for setting up connected apps, default repositories, default branches and personal access tokens configuration.
 
 *   Click on **Manage Git repositories** to go to the Git integration repositories configuration page.
 
 
 ## Personal access column
 
-Jira administrators can configure git integrations (example: GitHub, GitLab) to require that Jira users create and provide their own [Personal Access Token](/git-integration-for-jira-cloud/creating-personal-access-tokens/) to enable features like creating branches, pull request or merge request via Jira Git integration development panel inside Jira.
+Jira administrators can configure git integrations (example: GitHub, GitLab) to require that Jira users create and provide their own [Personal Access Token](/git-integration-for-jira-cloud/personal-access-token-feature-gij-cloud) to enable features like creating branches, pull request or merge request via Jira Git integration development panel inside Jira.
 
-The personal access column and configuration is relocated to [User settings](/git-integration-for-jira-cloud/User-Settings).
+The personal access column and configuration is relocated to [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud).
 
 ## How can a Jira administrator enable or disable the Repository browser?
 
 1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) or the [Dev Info for Jira](https://marketplace.atlassian.com/1219270) app.
 
-2.  Navigate to the [General settings](/git-integration-for-jira-cloud/General-Settings) page of the application.
+2.  Navigate to the [General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud) page of the application.
 
 3.  Enable or disable the setting – **Show Repository browser: View all repositories, Commits and Compare pages**.
 

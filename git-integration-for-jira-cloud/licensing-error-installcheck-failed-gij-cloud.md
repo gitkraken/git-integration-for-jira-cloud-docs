@@ -35,10 +35,8 @@ Most users can resolve this issue on their own by re-installing the app.
 5.  Install the **Git Integration for Jira** app
 
 
-|     |
-| --- |
-| **Stopping trial**<br><br>The evaluation/trial must be stopped before you can uninstall the app |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/420282445/manage-apps-git-cloud-admin.png?version=1&modificationDate=1586317006632&cacheVersion=1&api=v2) |
+**Stopping trial**<br><br>The evaluation/trial must be stopped before you can uninstall the app
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/420282445/manage-apps-git-cloud-admin.png?version=1&modificationDate=1586317006632&cacheVersion=1&api=v2)
 
 **Contact Us**
 

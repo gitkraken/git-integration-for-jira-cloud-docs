@@ -23,7 +23,4 @@ The **SSL Verify** option is set to `Enabled` by default. If set to `Disabl
 
 The **SSL Verify** setting is available in Jira Server, Data Center and Jira Cloud. This option is not available for non-fetched repositories.
 
-[« Edit repository](/git-integration-for-jira-cloud/Edit-repository)
-
-[Viewing indexing properties »](/wiki/spaces/GITCLOUD/pages/1923024741)
-
+[Edit repository](/git-integration-for-jira-cloud/edit-repository-gij-cloud)

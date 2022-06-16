@@ -22,14 +22,14 @@ The list of commits for the currently selected project is displayed in descendin
 
 5.  Displays the Jira issue key associated with this commit or pull/merge request (for example, `GIJDEMO-1`).
 
-6.  Click on the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Change icon** to edit/manage associated Jira issue keys to the selected commit.
+6.  Click on the **Change icon** to edit/manage associated Jira issue keys to the selected commit.
 
 7.  Click on the copy icon to put the commit ID to the system clipboard for later use.
 
 8.  Click on the GitKraken icon at the far right of the row to view this commit in GitKraken git client app.
 
 
-[« Repository browser](/git-integration-for-jira-cloud/Repository-browser)
+[Repository browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud)
 
-[Comparing branches/tags in Repository browser »](/git-integration-for-jira-cloud/comparing-branches-or-tags-in-repository-browser/)
+[Comparing branches/tags in Repository browser](/git-integration-for-jira-cloud/comparing-branches-or-tags-in-repository-browser-gij-cloud)
 
