@@ -30,28 +30,24 @@ Do note that invalid characters can be used in the transition name. Jira accepts
 
 Thus, the part of the transition name up to the invalid character can be used for transitions; where spaces become "-".
 
-|     |     |
-| --- | --- |
 | **Example 1:** |     |
+| --- | --- |
 | **Transition name** | **Smart Commit transition** |
 | `SEND_TO_QA` | **SEND** |
 | `SEND-TO_QA` | **SEND-TO** |
 | `SEND TO_QA` | **SEND-TO** |
 | There must be at least one unique way to call each transition name. If you have multiple transition names from a single status that use the same word, the smart commits will fail. |     |
 
-|     |
-| --- |
 | **Example 2:** |
+| --- |
 | Another example, where an issue status NEW has these two transition paths:<br><br>*   `SEND_TO_DEVELOPMENT`<br>    <br>*   `SEND_TO_BACKLOG`<br>    <br><br>The invalid characters are used before unique transition names are possible. Both will become "**#SEND**". Therefore, they are not unique and these transitions will fail. |
 
-|     |
-| --- |
 | **Example 3:** |
+| --- |
 | Finally, the transition names have spaces instead:<br><br>*   `SEND TO DEVELOPMENT`<br>    <br>*   `SEND TO BACKLOG`<br>    <br><br>Both of these transitions are smart commit-friendly and the possible transitions are:<br><br>*   **#SEND-TO-D...**<br>    <br>*   **#SEND-TO-B...**<br>    <br><br>The "..." indicates the truncation with the least character length to have the transition names be recognized as unique by Smart Commits. Any length shorter than this will fail the transition as explained in **Example 2** above. |
 
 If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user can't be identified.
 
-[« Workflow transitions](/git-integration-for-jira-cloud/Workflow-transitions)
+[Workflow transitions](/git-integration-for-jira-cloud/workflow-transitions-gij-cloud)
 
-[Smart commits general settings »](/git-integration-for-jira-cloud/smart-commits-general-settings/)
-
+[Smart commits general settings](/git-integration-for-jira-cloud/smart-commits-general-settings-gij-cloud)

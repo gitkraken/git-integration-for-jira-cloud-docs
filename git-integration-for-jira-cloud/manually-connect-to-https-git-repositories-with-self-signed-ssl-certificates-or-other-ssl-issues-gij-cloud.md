@@ -39,9 +39,9 @@ There are alternative solutions to make Java trust this certificate. Refer to t
 2.  [**Connecting to SSL services**](https://confluence.atlassian.com/jira/connecting-to-ssl-services-117455.html)
 
 
-For related topics on connecting repositories from other git hosts, see [Integration Guide](/git-integration-for-jira-cloud/Integration-Guide).
+For related topics on connecting repositories from other git hosts, see [Integration Guide](/git-integration-for-jira-cloud/integration-guide-gij-cloud).
 
-[« Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-cloud/automatically-connect-to-httos-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues/)
+[Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-cloud/automatically-connect-to-httos-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues-gij-cloud)
 
-[Managing repository or integration configuration »](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration/)
+[Managing repository or integration configuration](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration-gij-cloud)
 

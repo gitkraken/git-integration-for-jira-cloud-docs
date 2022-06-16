@@ -24,7 +24,7 @@ The **View developer tools** _permission_ is required to view the Git Source Cod
 
 The Issue Git Source Code Panel displays:
 
-*   Git Commits: # of commits and link to [Git Commits Issue Tab](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page/), link to [Git Roll Up Issue Tab](/git-integration-for-jira-cloud/git-roll-up-issue-tab/)
+*   Git Commits: # of commits and link to [Git Commits Issue Tab](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page-gij-cloud), link to [Git Roll Up Issue Tab](/git-integration-for-jira-cloud/git-roll-up-issue-tab-gij-cloud)
 *   Branches: Create branch function, list of branches associated to Jira issue (Jira issue key must be in branch title)
 *   Pull/Merge Requests:  Create pull/merge request function, list of pull/merge requests associated to Jira issue (Jira issue key must be in PR/MR title), status of pull/merge request
 *   Tags: git tags associated to Jira issue (via associated commit). Tags are sometimes referred to as Releases in some products.

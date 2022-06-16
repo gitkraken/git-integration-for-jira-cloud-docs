@@ -11,7 +11,7 @@ The **Repository Browser** allows users to view git repositories of configured
 ## Getting started
 
 **Jira Cloud**
-Git Integration for Jira Cloud only has **Repository Browser:** **Compare** feature. See [Compare view](/wiki/spaces/GITCLOUD/pages/1923025590/Comparing+branches+or+tags+in+Repository+browser).
+Git Integration for Jira Cloud only has **Repository Browser:** **Compare** feature. See [Compare view](/git-integration-for-jira-cloud/comparing-branches-or-tags-in-repository-browser-gij-cloud).
 
 **Permissions**
 Users must have the **View Development Tools** _project permission_ in order to gain access to the **Repository Browser**. For more information on assigning Jira permissions, see [**Managing Permissions in Jira**](https://confluence.atlassian.com/display/Jira/Managing+Global+Permissions).
@@ -63,7 +63,7 @@ If the selected path is a _**root**_ of the repository and no files are presen
 **Administration**
 Administrators can turn on/off the repository browser feature via General settings ➜ _Jira Issue View Options_ ➜ **Show Repository browser: View all repositories, Commits and Compare pages**.
 
-[« Smart commits](/git-integration-for-jira-cloud/smart-commits-gij-cloud/)
+[Smart commits](/git-integration-for-jira-cloud/smart-commits-gij-cloud)
 
-[Viewing list of commits in Repository browser »](/git-integration-for-jira-cloud/viewing-list-of-commits-in-repository-browser-gij-cloud)
+[Viewing list of commits in Repository browser](/git-integration-for-jira-cloud/viewing-list-of-commits-in-repository-browser-gij-cloud)
 

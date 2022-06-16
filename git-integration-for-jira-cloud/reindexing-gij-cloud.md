@@ -19,7 +19,7 @@ There are two ways to do this:
 
 *   To start update of all repositories, go to the **Git Integration for Jira** app git configuration page then click **Reindex All** button. Once synchronization is started, the progress will be displayed on this tab.
 
-*   If a specific repository or integration needs to be synchronized, click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** icon then **Reindex integration/repository**.
+*   If a specific repository or integration needs to be synchronized, click the **Actions** icon then **Reindex integration/repository**.
 
 
 **Initial Synchronization**
@@ -31,7 +31,7 @@ The Git Integration for Jira Cloud app automatically indexes commits, branches, 
 
 Starting on October 28, 2019, indexing is now calculated based on per repository activity. The overall goals are to reduce the strain on git services and make the indexing service more available for the webhook triggers.
 
-For detailed information on this Jira Cloud feature, see [Feature: Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer/).
+For detailed information on this Jira Cloud feature, see [Feature: Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud).
 
 ## Indexing errors
 
@@ -39,6 +39,6 @@ Indexer will show an error message on the Jira issue ➜ Git Commits tab if inde
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923026060/git-cloud-indexing-error-sample.png?version=1&modificationDate=1630063694862&cacheVersion=1&api=v2&width=544&height=172)
 
-[« Jira project page](/git-integration-for-jira-cloud/jira-project-page-gij-cloud/)
+[Jira project page](/git-integration-for-jira-cloud/jira-project-page-gij-cloud/)
 
-[Indexing triggers (formerly Webhooks) »](/git-integration-for-jira-cloud/indexing-triggers/)
+[Indexing triggers (formerly Webhooks)](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud)

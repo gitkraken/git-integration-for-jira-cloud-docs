@@ -150,9 +150,8 @@ The name of the status is the transition.  So, for the example above, the valid
 
 ![General Settings smart commits max age](https://bigbrassband.com/docimgs/gen-cfg-smart-commits-max-age.png)
 
-|     |
-| --- |
 | Max commit age |
+| --- |
 | JIRA CLOUD  DEV INFO<br><br>This setting is a hidden feature in Git Integration for Jira Cloud and Dev Info for Jira Cloud.  All commits which are older than this setting (in seconds) shall be ignored for smart commits processing.<br><br>The default value is **1209600** seconds (14 days). |
 
 
@@ -207,4 +206,4 @@ Smart Commit Status
 
 The commit status shown on the Issue page depends on the Smart Commits setting that was set at the time the commits were processed.
 
-Need to know more?  Read further at  [Documentation: Smart Commits](/git-integration-for-jira-cloud/Smart-commits).
+Need to know more?  Read further at  [Documentation: Smart Commits](/git-integration-for-jira-cloud/smart-commits-gij-cloud).

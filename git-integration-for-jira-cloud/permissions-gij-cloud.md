@@ -31,3 +31,4 @@ Consider the following criteria when setting permissions:
 *   Project permissions are configured on the project administration page. Different projects may have different permissions.
 
 *   Default permission scheme grants access to add-on to all members of _**administrators**_ and _**developers**_ groups. No additional configuration is required in this case.
+

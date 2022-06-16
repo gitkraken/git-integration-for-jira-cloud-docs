@@ -12,9 +12,9 @@ Smart commits allows your team to perform actions on Jira issues from a single c
 
 The smart commit processing is **active by default** and can be enabled/disabled via the repository settings:
 
-*   Manage integrations page **➜** _Git repo type_ **➜** ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions **➜** Edit integration **➜** **Feature settings**.
+*   Manage integrations page **➜** _Git repo type_ **➜**Actions **➜** Edit integration **➜** **Feature settings**.
 
-*   Manage repositories page **➜** ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions **➜** Edit repository **➜** **Feature settings**.
+*   Manage repositories page **➜**Actions **➜** Edit repository **➜** **Feature settings**.
 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025332/gitcloud-repo-cfg-smart-commits.png?version=1&modificationDate=1650252785364&cacheVersion=1&api=v2&width=312&height=108)
@@ -50,7 +50,6 @@ The basic syntax for a Smart commit message is:
 
 To know more about syntax, commands and examples on Smart Commits, see [**Processing Jira Software Issues with Smart Commit Messages**](https://support.atlassian.com/bitbucket-cloud/docs/use-smart-commits/) at the Atlassian website or proceed to the next page.
 
-[« Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/)
+[Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud)
 
-[Smart commit: Basic commands »](/git-integration-for-jira-cloud/Basic-commands)
-
+[Smart commit: Basic commands](/git-integration-for-jira-cloud/basic-commands-gij-cloud)

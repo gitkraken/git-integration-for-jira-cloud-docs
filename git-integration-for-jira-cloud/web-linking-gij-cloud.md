@@ -9,7 +9,7 @@ taxonomy:
 
 OPTIONAL
 
-The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab. Configure web linking options while editing **repository settings** (![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ _Edit integration_ | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _Edit repository_) so that commits can include links to the git host pages.
+The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab. Configure web linking options while editing **repository settings** (Actions ➜ _Edit integration_ | _Actions_ ➜ _Edit repository_) so that commits can include links to the git host pages.
 
 The Git Integration for Jira Cloud app automatically configures web links for most git hosts via Git service integration panel.
 
@@ -71,9 +71,8 @@ Only configure the variables enclosed in `<>` (tags) and leave variables enclos
 
 You can create several custom configuration to support other git hosting providers. The following five URLs should be configured for setup:
 
-|     |     |
-| --- | --- |
 | **Option** | **Description** |
+| --- | --- |
 | _**View Format**_ | _String._ Optional. <br><br>This URL is unused and not being configured for the newly added integration types. |
 | _**Changeset Format**_ | This is the URL used to display revision.  <br>Use the following variable: `${rev}`  – git revision |
 | _**File Added Format,**_  <br>_**File Modified Format,**_  <br>_**File Deleted Format**_ | This is the URL to display content of added, modified or deleted files. Use the following variables:<br><br>*   `${num}` –  number of change (0, 1, …)<br>    <br>*   `${rev}`  –  git revision<br>    <br>*   `${path}`  –  path of the file being changed<br>    <br>*   `${parent}`  –  parent git revision<br>    <br>*   `${blob}`  –  ID of blob object<br>    <br>*   `${parent_blob}`  –  ID of parent blob object<br>    <br>*   `$convert(${branch},"subStr","newSubStr")`  –  this inline function returns branch name with `subStr` replaced by a `newSubStr`. As of **v2.11.0+** of the Git Integration app, the `${branch}` code has been changed to cope up with the character requirements on some hosting services. |
@@ -82,7 +81,7 @@ You can create several custom configuration to support other git hosting provide
 
 The **Git Integration for Jira** app supports an unlimited number of repositories.
 
-Some git hosts require web linking to be configured via the Git Integration app ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository** screen (_mostly single git repository integrations_).
+Some git hosts require web linking to be configured via the Git Integration app ➜ Actions ➜ **Edit repository** screen (_mostly single git repository integrations_).
 
 The Bonobo git server requires a branch name to construct URL.  Use `$convert(${branch},"/","~2")` for web linking since bonobo requires substitution of "/" with "~2" in the branch name.
 
@@ -96,6 +95,6 @@ Once properly configured, the **Git Commits** tab on the Jira **Issues** pag
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025184/gitcloud-jira-issue-commits-tab-weblink-sample-sel.png?version=1&modificationDate=1634298669637&cacheVersion=1&api=v2&width=680&height=355)
 
-[« General settings](/git-integration-for-jira-cloud/general-settings-for-administrators/)
+[General settings](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud)
 
-[Linking git commits to Jira issues »](/git-integration-for-jira-cloud/smart-commits-gij-cloud/)
+[Linking git commits to Jira issues](/git-integration-for-jira-cloud/smart-commits-gij-cloud)

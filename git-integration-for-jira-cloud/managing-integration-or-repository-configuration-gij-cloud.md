@@ -18,16 +18,18 @@ The Manage integrations page allows administrators to integrate and manage suppo
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923024455/gitcloud-managed-ui-git-integration-list.png?version=1&modificationDate=1648189077493&cacheVersion=1&api=v2)
 
-|     |     |
-| --- | --- |
 | **Column** | **Description** |
+| --- | --- |
 | **Integration** | Displays the integration display name or integration URL.<br><br>Click the integration name on the list to open the integration connection settings for the selected integration. |
 | **Type** | Displays the type of integration for the connected git host service.<br><br>*   Git service – full feature integration<br>    <br>*   Webhook indexing – limited integration via webhooks |
-| **Status** | Shows the index status of the integration.<br><br>*   It shows INDEXED if _Repository Root_ is configured correctly and the Jira instance can access it.<br>    <br>*   It shows RUNNING during reindexing of the connected integration.<br>    <br>*   A similar ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon appears before the status indicator to indicate that it is being queued for indexing.<br>    <br>*   It shows ERROR if the connected integration has connection issues with the configured git host service. |
-| **Last indexed** | Shows the date and time the indexing service has checked if the integration repositories should be examined for changes.<br><br>For more information on Jira Cloud indexer, see [Jira Cloud: Classic indexing Explainer](#). |
+| **Status** | Shows the index status of the integration.<br><br>*   It shows INDEXED if _Repository Root_ is configured correctly and the Jira instance can access it.<br>    <br>*   It shows RUNNING during reindexing of the connected integration.<br>    <br>*   A similar icon appears before the status indicator to indicate that it is being queued for indexing.<br>    <br>*   It shows ERROR if the connected integration has connection issues with the configured git host service. |
+| **Last indexed** | Shows the date and time the indexing service has checked if the integration repositories should be examined for changes.<br><br>For more information on Jira Cloud indexer, see [Jira Cloud: Classic indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud). |
 | **Repositories** | Shows the counter for the number of repositories the connected integration has. |
-| **Features** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) – The integration has a project association (solid) or not (hollow).<br><br>![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) – The integration has smart commits enabled (solid) or disabled (hollow).<br><br>![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) – The integration has enabled indexing triggers (solid) or not (hollow). |
-| **Actions** | To the right of the **Features** column are actions that can be performed for the selected connected integration.<br><br>Clicking the Actions ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon will open a context menu with a set of functions for managing integrations. The Actions sub-menu functions will depend on the type of integration you were working on.<br><br>For more information, see [Managing integrations via Actions](#). |
+| **Features** | 
+-The integration has a project association (solid) or not (hollow).
+-The integration has smart commits enabled (solid) or disabled (hollow).
+-The integration has enabled indexing triggers (solid) or not (hollow). |
+| **Actions** | To the right of the **Features** column are actions that can be performed for the selected connected integration.<br><br>Clicking the Actions icon will open a context menu with a set of functions for managing integrations. The Actions sub-menu functions will depend on the type of integration you were working on.<br><br>For more information, see [Managing integrations via Actions](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud). |
 
 ## Manage repositories page
 
@@ -35,26 +37,25 @@ The Manage repositories page displays connected git repositories in Jira. All in
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923024455/gitcloud-managed-ui-git-repo-list.png?version=1&modificationDate=1648189296736&cacheVersion=1&api=v2)
 
-|     |     |
-| --- | --- |
 | **Column** | **Description** |
+| --- | --- |
 | **Repository** | Displays the repository display name or repository URL.<br><br>Click the repository name on the list to open the repository settings for the selected repository. |
 | **Integration** | This column displays the name of the git host service the repository belongs to. |
-| **Status** | Shows the index status of the integration.<br><br>*   It shows INDEXED if _Repository Root_ is configured correctly and the Jira instance can access it.<br>    <br>*   It shows RUNNING during reindexing of the connected integration.<br>    <br>*   A similar ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon appears before the status indicator to indicate that it is being queued for indexing.<br>    <br>*   It shows ERROR if the connected integration has connection issues with the configured git host service. |
-| **Last indexed** | Shows the date and time the indexing service has checked if the repository should be examined for changes.<br><br>For more information on Jira Cloud indexer, see [Jira Cloud: Classic indexing Explainer](#). |
+| **Status** | Shows the index status of the integration.<br><br>*   It shows INDEXED if _Repository Root_ is configured correctly and the Jira instance can access it.<br>    <br>*   It shows RUNNING during reindexing of the connected integration.<br>    <br>*   A similar icon appears before the status indicator to indicate that it is being queued for indexing.<br>    <br>*   It shows ERROR if the connected integration has connection issues with the configured git host service. |
+| **Last indexed** | Shows the date and time the indexing service has checked if the repository should be examined for changes.<br><br>For more information on Jira Cloud indexer, see [Jira Cloud: Classic indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud). |
 | **Branch,**  <br>**Commits,**  <br>**Pull/merge request** | The counters for the number of branches, commits and pull/merge requests are displayed for the connected repository, respectively. |
-| **Features** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) – The repository has a project association (solid) or not (hollow).<br><br>![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) – The repository has smart commits enabled (solid) or disabled (hollow).<br><br>![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) – The repository has enabled indexing triggers (solid) or not (hollow). |
-| **Actions** | To the right of the **Features** column are actions that can be performed for the selected connected repository.<br><br>Clicking the Actions ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon will open a context menu with a set of functions for managing repositories. The Actions sub-menu functions will depend on the connection type of the repository you were working on.<br><br>For more information, see [Managing integrations via Actions](#). |
+| **Features** | – The repository has a project association (solid) or not (hollow).<br><br>– The repository has smart commits enabled (solid) or disabled (hollow).<br><br>– The repository has enabled indexing triggers (solid) or not (hollow). |
+| **Actions** | To the right of the **Features** column are actions that can be performed for the selected connected repository.<br><br>Clicking the Actions icon will open a context menu with a set of functions for managing repositories. The Actions sub-menu functions will depend on the connection type of the repository you were working on.<br><br>For more information, see [Managing integrations via Actions](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud). |
 
 ## Introduction to Action commands
 
-Manage connected integration or repositories via the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** commands on the git configuration page. To learn more about these functions, proceed to the next page.
+Manage connected integration or repositories via the **Actions** commands on the git configuration page. To learn more about these functions, proceed to the next page.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923024455/gitcloud-managed-ui-manage-integrations-actions-sel.png?version=1&modificationDate=1648187125452&cacheVersion=1&api=v2)
 
 ##
 
-[« Self-signed HTTPS integration](/git-integration-for-jira-cloud/self-signed-https-integration/)
+[Self-signed HTTPS integration](/git-integration-for-jira-cloud/self-signed-https-integration-gij-cloud)
 
-[Managing integration via Actions »](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud/)
+[Managing integration via Actions](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud)
 
