@@ -1,19 +1,14 @@
 ---
 
 title: Introduction to Git integration
-description:
+description: Introduction to Git Integration for Jira
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-**Covers release** 25 Mar 2022
 
 
-Learn basic integration for most git hosts by connecting git repositories to Jira Cloud. This page contains simple
-
-## Introduction
-
-The Git Integration for Jira Cloud app offers three (3) types of integration, namely:
+The Git Integration for Jira Cloud app offers three (3) types of integrations:
 
 *   Git service integration (recommended)
 
@@ -44,41 +39,41 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 ### Git service integration
 
-*   [GitHub.com and GitHub Enterprise (Cloud)](/git-integration-for-jira-cloud/github-com/)
+*   [GitHub.com and GitHub Enterprise (Cloud)](/git-integration-for-jira-cloud/github-com-gij-cloud/)
 
-*   [GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server/)
+*   [GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud/)
 
-*   [GitLab.com](/git-integration-for-jira-cloud/gitlab-com/)
+*   [GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud/)
 
-*   [GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee/)
+*   [GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud/)
 
-*   [Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts/)
+*   [Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud/)
 
-*   [Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs/)
+*   [Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud/)
 
-*   [AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud/)
+*   [AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud-gij-cloud/)
 
-*   [Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud/)
+*   [Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud/)
 
-*   [Gerrit](/git-integration-for-jira-cloud/Gerrit)
+*   [Gerrit](/git-integration-for-jira-cloud/Gerrit-gij-cloud/)
 
 
 ### Webhook indexing integration
 
-*   [GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration/)
+*   [GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud/)
 
-*   [GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration/)
+*   [GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud/)
 
-*   [Microsoft](/git-integration-for-jira-cloud/github-webhook-indexing-integration/)
+*   [Microsoft](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud/)
 
-*   [Gerrit](/git-integration-for-jira-cloud/gerrit-webhook-indexing-integration/) (_guide coming soon_)
+*   [Gerrit](/git-integration-for-jira-cloud/gerrit-webhook-indexing-integration-gij-cloud/) (_guide coming soon_)
 
 
 ### Single repository integration
 
-*   [HTTP/HTTPS integration](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/)
+*   [HTTP/HTTPS integration](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud/)
 
-*   [SSH integration](/connecting-to-a-single-git-repository-ssh/)
+*   [SSH integration](/connecting-to-a-single-git-repository-ssh-gij-cloud/)
 
 
 ###
@@ -86,10 +81,10 @@ Setup next features to improve Git user experience
 
 *   [Setting up web links](/git-integration-for-jira-cloud/setting-up-web-links-gij-cloud/) (Git Integration for Jira Cloud)
 
-*   [Link git commits to Jira issue](/git-integration-for-jira-cloud/link-git-commits-to-jira-issue/) (Git Integration for Jira Cloud)
+*   [Link git commits to Jira issue](/git-integration-for-jira-cloud/link-git-commits-to-jira-issue-gij-cloud/) (Git Integration for Jira Cloud)
 
-*   [Using Smart Commits](/git-integration-for-jira-cloud/using-smart-commits/) (Git Integration for Jira Cloud)
+*   [Using Smart Commits](/git-integration-for-jira-cloud/using-smart-commits-gij-cloud/) (Git Integration for Jira Cloud)
 
-*   [Using the Repository Browser](/git-integration-for-jira-cloud/using-the-repository-browser/) (Git Integration for Jira Cloud)
+*   [Using the Repository Browser](/git-integration-for-jira-cloud/using-the-repository-browser-gij-cloud/) (Git Integration for Jira Cloud)
 
-*   [Creating branches and pull | merge requests](/git-integration-for-jira-cloud/creating-branches-and-pull-merge-requests/) (Git Integration for Jira Cloud)
+*   [Creating branches and pull | merge requests](/git-integration-for-jira-cloud/creating-branches-and-pull-merge-requests-gij-cloud/) (Git Integration for Jira Cloud)
