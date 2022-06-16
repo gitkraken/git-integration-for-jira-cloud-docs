@@ -44,6 +44,6 @@ Lucene is an index service within your Jira instance. It ships with Jira and Git
 
 This database stores information about all commits _(comment, author, etc)_ as well as the branch name which the commit belongs to.
 
-[« Localization support](/git-integration-for-jira-cloud/localization-support-gij-cloud/)
+[« Localization support](/git-integration-for-jira-cloud/localization-support-gij-cloud)
 
-[Licensing notice »](/git-integration-for-jira-cloud/Licensing-notice)
+[Licensing notice »](/git-integration-for-jira-cloud/licensing-notice-gij-cloud)

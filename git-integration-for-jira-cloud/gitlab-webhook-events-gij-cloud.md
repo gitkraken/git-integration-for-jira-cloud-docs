@@ -37,3 +37,4 @@ _Request URI_  <br>/api/1/webhook/reindex/install/**<secret\_key>**/web
 _Request headers_  <br>**Content-type:** `application/json`  <br>**X-GitHub-Event:** `system hook`
 _Request payload example_<br><br>```java<br>{<br>  "owner_email": "admin@example.com",<br>  "path": "jsmith_4",<br>  "owner_name": "Administrator",<br>  "project_id": 85,<br>  "path_with_namespace": "root/jsmith_4",<br>  "name": "JohnSmith_5",<br>  "project_visibility": "private",<br>  "event_name": "project_destroy",<br>}<br>```
 
+

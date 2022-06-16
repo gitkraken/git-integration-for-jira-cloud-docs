@@ -61,4 +61,4 @@ We currently support the 5 highlighted triggers depicted below, and we will supp
 
 ### Setup:
 
-[Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation/)
+[Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud)

@@ -30,3 +30,4 @@ The webhook is a POST request with the following JSON body:
 **Result:**
 
 The repository is placed in the indexing queue in the **Git** > **Manage git repositories** configuration page.
+

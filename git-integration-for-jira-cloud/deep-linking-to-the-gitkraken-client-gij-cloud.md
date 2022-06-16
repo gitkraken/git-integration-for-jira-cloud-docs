@@ -40,7 +40,7 @@ Individual Jira Cloud users can enable or disable the GitKraken integration with
 
 ## Administrator settings
 
-Jira Cloud administrators can disable or enable the GitKraken integration with Git Integration for Jira Cloud for all Jira users. All Jira Cloud users can enable the GitKraken integration separately (see [User settings](#User-settings) above).
+Jira Cloud administrators can disable or enable the GitKraken integration with Git Integration for Jira Cloud for all Jira users. All Jira Cloud users can enable the GitKraken integration separately (see [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) above).
 
 Go to the Git Integration for Jira – **General settings** tab (sidebar).
 

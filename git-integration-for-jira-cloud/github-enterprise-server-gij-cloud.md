@@ -10,7 +10,7 @@ These instructions apply to self-hosted GitHub Enterprise Server.
 
 For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans), please go to [this page](/wiki/spaces/GITCLOUD/pages/82477058/GitHub.com).
 
-Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/github-enterprise-server/).
+Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/github-enterprise-server-gij-self-managed).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85622870/github-ent-server-banner-logo.png?version=1&modificationDate=1646820087185&cacheVersion=1&api=v2&width=510&height=59)
 
@@ -29,7 +29,7 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/vfwwqnn3mm) _a
 
 If two-factor authentication is enabled for your GitHub Enterprise Server account, you will need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitHub Enterprise Server account for increased security.
 
-While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens/) for a quick step-by-step guide to get you started.
+While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for a quick step-by-step guide to get you started.
 
 ## Using Git service integration
 
@@ -64,11 +64,11 @@ We recommend using the **Git service integration** panel to connect multiple rep
     1.  **SSL Verify** – The **SSL Verify** option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira Cloud app will ignore verification of SSL certificates when connecting to a git server. _This option is not available for non-fetched repositories._
 
     2.  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories.
-        To learn more examples, see article [Jira Cloud: Working with Custom API Path](/git-integration-for-jira-cloud/working-with-custom-api-path/).
+        To learn more examples, see article [Jira Cloud: Working with Custom API Path](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
     3.  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
         Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
-        To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters/).
+        To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
     4.  While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
@@ -96,7 +96,7 @@ This process requires an existing GitHub Enterprise Server git repository. Look
 
 Use this information to connect the GitHub git repository to your Jira Cloud via Git Integration for Jira app:
 
-[Single git repository integration (HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/)
+[Single git repository integration (HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
 
 ## Setting up GitHub Enterprise Server permissions
 
@@ -108,7 +108,7 @@ Assign GitHub Enterprise Server permissions for team members or collaborators to
 
 1.  Login to your GitHub Enterprise Server account.
 
-2.  Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Profile** ➜ **Settings**.
+2.  Go to **Profile** ➜ **Settings**.
 
 3.  On your sidebar, click **Organizations**.
 
@@ -179,7 +179,7 @@ The Git Integration for Jira app automatically configures web linking for GitHub
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-cloud/web-linking/).
+For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-cloud/web-linking-gij-cloud).
 
 ## Viewing git commits in Jira Cloud
 
@@ -192,7 +192,7 @@ For more information on this feature, see [Documentation: Web linking](/git-inte
 4.  Click **View Full Commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/).
+For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud).
 
 ## Working with branches and pull requests with GitHub Enterprise Server
 
@@ -222,14 +222,14 @@ On your Jira Cloud, open a Jira issue. On the Jira Git integration development p
 
     3.  Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/User-Settings) page.
+    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
-2.  Choose a **Base branch**. OPTIONAL Designate the branch to be the default selected branch for the active repository. To configure default branches for more than one repository - use the [User settings](#) page.
+2.  Choose a **Base branch**. OPTIONAL Designate the branch to be the default selected branch for the active repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Enter a **Branch name** or leave it as is (recommended).
 
 
-For more detailed information on this feature, see [Create branch](/git-integration-for-jira-cloud/Create-branch).
+For more detailed information on this feature, see [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud).
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
@@ -249,9 +249,9 @@ The pull request feature works the same as merge request. On your Jira Cloud, op
 
     3.  Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](#) page.
+    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
-2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the active repository. To configure default branches for more than one repository - use the [User settings](#) page.
+2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the active repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Set _**master**_ as the **Target branch**.
 
@@ -262,7 +262,7 @@ Pull/merge requests are still indexed based on branch name even if the PR/MR tit
 
 **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
 
-For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request/).
+For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
 
 
 The pull request is listed on the developer panel of the Jira issue page.

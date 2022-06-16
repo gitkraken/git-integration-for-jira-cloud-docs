@@ -20,4 +20,3 @@ This column is displayed in the following order of precedence:
 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1940914287/image-20200724-103833.png?version=1&modificationDate=1631349148620&cacheVersion=1&api=v2)
-

@@ -17,4 +17,3 @@ In **Issue** and **Search** pages, the developer panel is visible on the rig
 On the Kanban board, click on an issue on the board grid. On a dialog that displays the selected Jira issue, click **Open Git integration** on the right sidebar. The Git integration panel is displayed.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025834/gitcloud-kanban-devpanel-location.png?version=1&modificationDate=1635753982993&cacheVersion=1&api=v2&width=680&height=422)
-

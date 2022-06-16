@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/gerrit/).
+Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/gerrit-gij-self-managed).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86474926/gerrit-banner-logo.png?version=1&modificationDate=1590827774620&cacheVersion=1&api=v2&width=272&height=112)
 
@@ -83,7 +83,7 @@ BigBrassBand recommends to use the Full feature integration for Gerrit.
 4.  Click **View full commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/).
+For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud).
 
 ## Default branch
 

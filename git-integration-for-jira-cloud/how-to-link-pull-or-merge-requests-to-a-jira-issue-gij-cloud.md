@@ -18,3 +18,4 @@ Create a pull/merge request and associate it to a Jira issue:
 2.  Enter a new pull request title on the provided box. Mention a Jira issue key in the title to associate it to the said Jira issue.
 
 3.  Also, mentioning a Jira issue key on the description will associate this pull request to the said Jira issue.
+

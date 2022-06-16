@@ -29,35 +29,25 @@ For some example insights:
 
 ## Examples of Smart Commits Messages that Fail
 
-|     |
-| --- |
-| #### **1\. Smart commits without any value after the command** |
-| For example, **JIRA-1** **#time**  or **TES-1** **#comment** |
-| ![smart commits error email notification example 1](https://bigbrassband.atlassian.net/wiki/download/attachments/805437441/sc-error01-example.png?version=1&modificationDate=1602060911583&cacheVersion=1&api=v2) |
-| ![smart commits error email notification example 2](https://bigbrassband.atlassian.net/wiki/download/attachments/805437441/sc-error01-example2.png?version=1&modificationDate=1602061171866&cacheVersion=1&api=v2) |
+#### **1\. Smart commits without any value after the command**
+For example, **JIRA-1** **#time**  or **TES-1** **#comment**
+![smart commits error email notification example 1](https://bigbrassband.atlassian.net/wiki/download/attachments/805437441/sc-error01-example.png?version=1&modificationDate=1602060911583&cacheVersion=1&api=v2)
+![smart commits error email notification example 2](https://bigbrassband.atlassian.net/wiki/download/attachments/805437441/sc-error01-example2.png?version=1&modificationDate=1602061171866&cacheVersion=1&api=v2)
 
-|     |
-| --- |
-| #### **2\. Smart commits with an invalid issue-key** |
-| For example, **JIRA-700000** **#time** **4h 30m** |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/805437441/sc-error02-example.png?version=1&modificationDate=1602061437954&cacheVersion=1&api=v2) |
+#### **2\. Smart commits with an invalid issue-key**
+For example, **JIRA-700000** **#time** **4h 30m**
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/805437441/sc-error02-example.png?version=1&modificationDate=1602061437954&cacheVersion=1&api=v2)
 
-|     |
-| --- |
-| #### **3\. Smart commits with a non-editable workflow state** |
-| Example: |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/805437441/bitbucket-non-editable-workflow-state.png?version=1&modificationDate=1602061633086&cacheVersion=1&api=v2) |
+#### **3\. Smart commits with a non-editable workflow state**
+Example:
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/805437441/bitbucket-non-editable-workflow-state.png?version=1&modificationDate=1602061633086&cacheVersion=1&api=v2)
 
 ## Examples of Smart Commits Messages that are Processed Correctly
 
-|     |
-| --- |
-| #### **1\. Smart commits with a command and a value for it** |
-| Example:  <br>**JIRA-1** **#time** **1w 2d 4h 30m** |
-| _The above example adds the time of 1 week, 2 days, 4 hours and 30 minutes (220.5 hours) to the Jira issue._ |
+#### **1\. Smart commits with a command and a value for it**
+Example:  <br>**JIRA-1** **#time** **1w 2d 4h 30m**
+_The above example adds the time of 1 week, 2 days, 4 hours and 30 minutes (220.5 hours) to the Jira issue._
 
-|     |
-| --- |
-| #### **2\. Smart commits with a correct transition name** |
-| Example:  <br>**JIRA-1** **#close** |
-| _The above example will move the stage of the Jira issue as_ CLOSED. |
+#### **2\. Smart commits with a correct transition name**
+Example:  <br>**JIRA-1** **#close**
+_The above example will move the stage of the Jira issue as_ CLOSED.
