@@ -31,7 +31,7 @@ Only letters and "-" (dash) are valid for workflow transition names for smart co
 **Jira Administrators**
 When adding transitions in the Workflow editor, make transition names simple and easy to remember. Only use letters and only one space between words.
 
-[« Advanced examples](/git-integration-for-jira-cloud/Advanced-examples)
+[« Advanced examples](/git-integration-for-jira-cloud/Advanced-examples-gij-cloud/)
 
-[Viewing workflows »](/git-integration-for-jira-cloud/Viewing-workflows)
+[Viewing workflows »](/git-integration-for-jira-cloud/Viewing-workflows-gij-cloud/)
 

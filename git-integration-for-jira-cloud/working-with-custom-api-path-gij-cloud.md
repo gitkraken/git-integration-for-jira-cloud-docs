@@ -35,28 +35,28 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 |     |
 | --- |
 | **1\. Lists all repositories (default)** |
-| ```java<br>/user/repos<br>``` |
+| ```/user/repos``` |
 | Gets a list of repositories. This is the same as when no API path is specified. |
 
 |     |
 | --- |
 | **2\. Display all repositories from <username>** |
-| ```java<br>/users/<username>/repos<br>``` |
+| ```/users/<username>/repos``` |
 | Gets a list of public repositories for the specified user, **<username>**.<br><br>For example: `/users/johnsmith/repos` |
 
 |     |
 | --- |
 | **3\. Displays starred repositories** |
-| ```java<br>/user/starred<br>``` |
+| ```/user/starred``` |
 | Gets the list of starred repositories for the authenticated user. |
-| ```java<br>/users/<username>/starred<br>``` |
+| ```/users/<username>/starred``` |
 | Gets the list of starred public/private repositories for the specified user, **<username>**.<br><br>For example: `/users/johnsmith/starred` |
 
 |     |
 | --- |
 | **4\. List all repositories for the specified organization** |
-| ```java<br>/orgs/<org>/repos<br>``` |
-| Gets a list of repositories for the specified org, **<org>**. _BigBrassBand_<br><br>_**For instance:**_<br><br>```java<br>/orgs/BigBrassBand/repos<br>```<br><br>This will filter for repositories only within the org: BigBrassBand. This works for GitHub.com integrations. |
+| ```/orgs/<org>/repos``` |
+| Gets a list of repositories for the specified org, **<org>**. _BigBrassBand_<br><br>_**For instance:**_<br>```/orgs/BigBrassBand/repos```<br><br>This will filter for repositories only within the org: BigBrassBand. This works for GitHub.com integrations. |
 
 * * *
 
@@ -67,28 +67,28 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 |     |
 | --- |
 | **1\. Lists all repositories (default)** |
-| ```java<br>/api/v3/user/repos<br>``` |
+| ```/api/v3/user/repos``` |
 | Gets the list of starred repositories for the authenticated user. |
 
 |     |
 | --- |
 | **2\. Display all repositories from <username>** |
-| ```java<br>/api/v3/users/<username>/repos<br>``` |
+| ```/api/v3/users/<username>/repos``` |
 | Gets a list of public repositories for the specified user, **<username>**.<br><br>For example: `/api/v3/users/johnsmith/repos` |
 
 |     |
 | --- |
 | **3\. Display starred repositories** |
-| ```java<br>/api/v3/user/starred<br>``` |
+| ```/api/v3/user/starred``` |
 | Gets the list of starred repositories for the authenticated user. |
-| ```java<br>/api/v3/users/<username>/starred<br>``` |
+| ```/api/v3/users/<username>/starred``` |
 | Gets the list of public/private starred repositories for the specified user, **<username>**.<br><br>For example: `/api/v3/users/johnsmith/starred` |
 
 |     |
 | --- |
 | **4\. List all repositories for the specified organization** |
-| ```java<br>/api/v3/orgs/<org>/repos<br>``` |
-| Gets a list of repositories for the specified org, **<org>**. _BigBrassBand_<br><br>_**For instance:**_<br><br>```java<br>/api/v3/orgs/BigBrassBand/repos<br>```<br><br>This will filter for repositories only within the org: BigBrassBand. This works for GitHub Enterprise integrations. |
+| ```/api/v3/orgs/<org>/repos``` |
+| Gets a list of repositories for the specified org, **<org>**. _BigBrassBand_<br><br>_**For instance:**_<br>```/api/v3/orgs/BigBrassBand/repos```<br><br>This will filter for repositories only within the org: BigBrassBand. This works for GitHub Enterprise integrations. |
 
 * * *
 
@@ -99,37 +99,37 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 |     |
 | --- |
 | **1\. Lists all projects (default)** |
-| ```java<br>/api/v4/projects?membership=true<br>``` |
+| ```/api/v4/projects?membership=true``` |
 | Gets a list of projects. This is the same as when no API path is specified. |
 
 |     |
 | --- |
 | **2\. Display all projects from <user\_id>** |
-| ```java<br>/api/v4/users/<user_id>/projects<br>``` |
+| ```/api/v4/users/<user_id>/projects``` |
 | Gets a list of projects for the specified user, **<user\_id>**.<br><br>For example: `/api/v4/users/johnsmith/projects` |
 
 |     |
 | --- |
 | **3\. Displays starred projects** |
-| ```java<br>/api/v4/projects?starred=true<br>``` |
+| ```/api/v4/projects?starred=true``` |
 | Returns GitLab projects that have been starred by the connecting GitLab user. |
 
 |     |
 | --- |
 | **4\. Limit to owned projects** |
-| ```java<br>/api/v4/projects?owned=true<br>``` |
+| ```/api/v4/projects?owned=true``` |
 | The current user will be limited to the projects it's explicitly owned. |
 
 |     |
 | --- |
 | **5\. List projects from within a Group** |
-| ```java<br>/api/v4/groups/5245789/projects<br>/api/v4/groups/BigBrassBand/projects<br>``` |
+| ```/api/v4/groups/5245789/projects<br>/api/v4/groups/BigBrassBand/projects``` |
 | Returns the list of repositories within a GitLab Group (or GitLab Subgroup).<br><br>In the above examples, you can use the **Group id** or your **Group** **name** as query parameter. |
 
 |     |
 | --- |
 | **6\. List projects from the specified sub-group** |
-| ```java<br>/api/v4/groups/5245789/projects?include_subgroups=true<br>/api/v4/groups/BigBrassBand/projects?include_subgroups=true<br>``` |
+| ```/api/v4/groups/5245789/projects?include_subgroups=true<br>/api/v4/groups/BigBrassBand/projects?include_subgroups=true``` |
 | In the above examples, the _**?include\_subgroups=true**_ API extension will return a recursive list of repositories within a nested GitLab Group (or GitLab Subgroup) where the #, **5245789**, is the **Group id**; and **BigBrassBand** is the **Group name**. |
 
 For more information on GitLab custom API paths, see [**GitLab API**](https://docs.gitlab.com/ee/api/projects.html).
@@ -150,14 +150,14 @@ The GitLab.com API can see all the public projects. For GitLab.com, we recommend
 |     |
 | --- |
 | **1\. Lists all repositories for the specific user (default)** |
-| ```java<br>/!api/2.0/repositories/<username><br>``` |
-| Displays a list of git repositories of the user with the specified username. This is the same as when no API path is specified.<br><br>**For example:**<br><br>```java<br>/!api/2.0/repositories/wcoyote<br>``` |
+| ```/!api/2.0/repositories/<username>``` |
+| Displays a list of git repositories of the user with the specified username. This is the same as when no API path is specified.<br><br>**For example:**<br>```/!api/2.0/repositories/wcoyote``` |
 
 |     |
 | --- |
 | **2\. Lists all repositories for the specified workspace ID** |
-| ```java<br>/!api/2.0/repositories/<workspaceID><br>``` |
-| Displays a list of git repositories for the specified workspace ID.<br><br>**For example:**<br><br>```java<br>/!api/2.0/repositories/acmegroup<br>``` |
+| ```/!api/2.0/repositories/<workspaceID>``` |
+| Displays a list of git repositories for the specified workspace ID.<br><br>**For example:**<br>```/!api/2.0/repositories/acmegroup``` |
 
 While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
