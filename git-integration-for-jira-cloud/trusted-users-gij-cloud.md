@@ -1,12 +1,16 @@
 ---
 
-title: Trusted Users
+title: Trusted Users - Administration
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 **What's on this page:**
+- [Introduction](#introduction)
+- [Inviting a User and Assigning a Role](#inviting-a-user-and-assigning-a-role)
+- [Changing the Role of a User](#changing-the-role-of-a-user)
 
 * * *
 
@@ -38,7 +42,7 @@ Click **Invite # user(s)** to complete this setup.
 
 ## Changing the Role of a User
 
-Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Administration** ➜ **User Management**.
+Go to **Jira Administration** ➜ **User Management**.
 
 Scroll to the bottom of the page to find the list of users.
 
@@ -49,3 +53,4 @@ Click **Show details** or click **…** then **Show details**. The next screen i
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/792002572/gitcloud-user-show-details-roles.png?version=1&modificationDate=1601551488708&cacheVersion=1&api=v2&width=476&height=518)
 
 Click the Role dropdown then select **Trusted**. The role is automatically applied once granted.
+

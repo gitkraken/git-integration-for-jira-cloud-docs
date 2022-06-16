@@ -1,6 +1,6 @@
 ---
 
-title: General Settings
+title: General Settings - Administration
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -40,6 +40,6 @@ Open the **General settings** page in the Jira Apps Management (**Applications
 
 *   [Enable beta features setting](/git-integration-for-jira-cloud/enable-beta-features-setting/) (Git Integration for Jira Cloud)
 
-
+<br>
 
 After making changes to the configuration settings, click **Update** to apply the changes.
