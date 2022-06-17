@@ -34,5 +34,5 @@ Join our GitKraken public slack community and interact with other Git Integratio
 [Join GitKraken Slack](https://slack.gitkraken.com/)
 
 Have an idea for how to improve Git Integration for Jira, found a bug, or need technical support? Then please contact our support team.
-[Support Portal](https://bigbrassband.atlassian.net/servicedesk/customer/portal/9) or [Email ✉](/git-integration-for-jira-self-managed/email-support/)
+[Support Portal](https://bigbrassband.atlassian.net/servicedesk/customer/portal/9) 
 
