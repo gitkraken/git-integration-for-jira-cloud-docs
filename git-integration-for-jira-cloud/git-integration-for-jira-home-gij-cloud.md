@@ -13,6 +13,16 @@ Check out the links below to get started with Git Integration for Jira. Use the 
 
 Looking for information on the server or data center version? [Click here](/git-integration-for-jira-data-center/git-integration-for-jira-home-self-manged/)
 
+## Getting started
+
+<div class='embed-container embed-container--16-9'>
+        <iframe width='709' height='443' src='https://fast.wistia.net/embed/iframe/8c0iq4hwdt?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div> 
+
+Direct links to the above [Getting started](https://bigbrassband.wistia.com/medias/8c0iq4hwdt) video as well as [Installation](https://bigbrassband.wistia.com/medias/m9u64t1a3h) video.
+
+***
+
 ## Knowledgebase  
 
 - [Integration Guides](git-integration-for-jira-cloud/integration-guide-gij-cloud/) - All about setting up and using Git Integration for Jira with your preffered git provider.
