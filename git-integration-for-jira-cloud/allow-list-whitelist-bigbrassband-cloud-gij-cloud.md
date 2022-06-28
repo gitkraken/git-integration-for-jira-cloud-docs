@@ -13,8 +13,8 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The information on this page is for BigBrassBand Atlassian Cloud products only. These currently include Git Integration for Jira Cloud and Dev Info for Jira Cloud.
-        <p><b>Jira Server and Jira Data Center products are not hosted by BigBrassBand.</b></p>
+        The information on this page is for BigBrassBand Atlassian Cloud products only. These currently include Git Integration for Jira Cloud and Dev Info for Jira Cloud.<br><br>
+        <b>Jira Server and Jira Data Center products are not hosted by BigBrassBand.</b>
     </div>
     </div>
 </div>
@@ -39,8 +39,8 @@ How to find out which geographic region your Git Integration for Jira Cloud appl
 For customers that are hosted on the Global (hosted in the Northern Virginia, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
 | **IP address** |
-| --- |
-| `52.73.151.196` |
+| :--- |
+| **52.73.151.196** |
 
 <br>
 
@@ -49,8 +49,8 @@ For customers that are hosted on the Global (hosted in the Northern Virginia, US
 For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), set the allow list/whitelist for self-hosted git repositories:
 
 | **IP address** |
-| --- |
-| `18.156.13.64` |
+| :--- |
+| **18.156.13.64** |
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -69,8 +69,8 @@ For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), se
 For customers that are hosted on the US stack (hosted in the Ohio, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
 | **IP address** |
-| --- |
-| `18.218.206.0` |
+| :--- |
+| **18.218.206.0** |
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -89,8 +89,8 @@ For customers that are hosted on the US stack (hosted in the Ohio, USA AWS regio
 For customers that are hosted on the Australia stack, set the allow list/whitelist for self-hosted git repositories:
 
 | **IP address** |
-| --- |
-| `52.65.83.20` |
+| :--- |
+| **52.65.83.20** |
 
 ## Ports
 
@@ -108,9 +108,8 @@ To allow self-hosted git repositories to be indexed by BigBrassBand Cloud applic
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Only open the ports required by your git server.
-        <div class='nextpara'>
-            <i><b>For example:</b> If your self-managed GitLab or GitHub Enterprise is using HTTPS, only open port 443.</i>
+        Only open the ports required by your git server.<br><br>
+        <i><b>For example:</b> If your self-managed GitLab or GitHub Enterprise is using HTTPS, only open port 443.</i>
         </div>
     </div>
     </div>
@@ -123,7 +122,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 
 ### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f30e.png' height=22 width=22 valign=middle />&nbsp; Global Region Hosted IP addresses
 
-```powershell
+```json
 54.175.75.157
 54.198.195.73
 54.226.216.3
@@ -148,7 +147,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 
 ### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1fa-1f1f8.png' height=22 width=22 valign=middle />&nbsp; USA Region Hosted IP addresses
 
-```powershell
+```json
 3.130.34.25
 18.218.122.134
 3.131.213.149
@@ -164,7 +163,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 
 ### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1ea-1f1fa.png' height=24 width=24 valign=middle />&nbsp; EU Region Hosted IP addresses
 
-```powershell
+```json
 18.156.13.64
 3.123.136.62
 18.156.8.182
@@ -180,7 +179,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 
 ### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1e6-1f1fa.png' height=24 width=24 valign=middle />&nbsp; Australia Region Hosted IP addresses
 
-```powershell
+```json
 13.238.136.180
 3.105.72.140
 54.206.176.144
