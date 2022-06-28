@@ -28,7 +28,7 @@ Configure webhook by logging in to your GitLab account:
 1.  Select a repository.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377217/web-hooks-gitlab-settings(c).png?version=1&modificationDate=1617193057400&cacheVersion=1&api=v2)
-2.  Go to the settings page by clicking ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Settings** on the sidebar.
+2.  Go to the settings page by clicking **Settings** on the sidebar.
 
 3.  Select **Webhooks**. The following page is displayed.
 
