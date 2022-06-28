@@ -42,10 +42,10 @@ All the repositories will be reindexed if the URL specified above is activated t
 There is no support for other HTTP methods such as  `DELETE`  or  `HEAD` .
 
 
-See [About indexing triggers in Jira Cloud](/git-integration-for-jira-cloud/Indexing-Triggers) for a more detailed information on this topic.
+See [About indexing triggers in Jira Cloud](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud) for a more detailed information on this topic.
 
-For more information about triggers and event types, see [Creating reindex triggers for a single repository](/git-integration-for-jira-cloud/creating-indexing-triggers-for-a-single-repository/).
+For more information about triggers and event types, see [Creating reindex triggers for a single repository](/git-integration-for-jira-cloud/creating-indexing-triggers-for-a-single-repository-gij-cloud).
 
-[« Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud/)
+[Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud/)
 
-[Localization support »](/git-integration-for-jira-cloud/localization-support-gij-cloud/)
+[Localization support](/git-integration-for-jira-cloud/localization-support-gij-cloud/)

@@ -21,4 +21,4 @@ Click **View profile** to view this user’s profile.
 
 The [**Git user identity**](/git-integration-for-jira-cloud/git-user-identity-gij-cloud) should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
 
-[Jira issue page »](/git-integration-for-jira-cloud/jira-user-information-card-gij-cloud)
+[Jira issue page](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud)

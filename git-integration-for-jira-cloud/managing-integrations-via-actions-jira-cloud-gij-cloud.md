@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-After integrating your repository or git host service, a set of Actions can be performed by clicking the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon under the **Actions** column on the integration/repository configuration list.
+After integrating your repository or git host service, a set of Actions can be performed by clicking the Gear icon under the **Actions** column on the integration/repository configuration list.
 
 ## Action commands (integration)
 
@@ -14,9 +14,8 @@ After integrating your repository or git host service, a set of Actions can be p
 
 Utilize the following actions to manage integrations in Jira Cloud:
 
-|     |     |
-| --- | --- |
 | **Action** | **Description** |
+| --- | --- |
 | _**Reindex integration**_ | Immediately starts the synchronization with the selected integration and its repositories. |
 | _**Edit integration**_ | Opens the page to manage connection and feature settings for the selected integration. |
 | _**Disable integration**_ | Disable specific integrations if you are not using them with Jira. Enable them again if you are going to use them later on. |
@@ -25,7 +24,7 @@ Utilize the following actions to manage integrations in Jira Cloud:
 
 The **Show integration repositories** command is deprecated and the displayed integration repositories are moved to the Manage repositories page.
 
-Jump to [Edit integration](/git-integration-for-jira-cloud/Edit-integration) settings page documentation.
+Jump to [Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud) settings page documentation.
 
 ## Action commands (repositories)
 
@@ -33,9 +32,8 @@ Jump to [Edit integration](/git-integration-for-jira-cloud/Edit-integration) set
 
 Utilize the following actions to manage repositories in Jira Cloud:
 
-|     |     |
-| --- | --- |
 | **Action** | **Description** |
+| --- | --- |
 | _**Reindex repository**_ | Immediately starts the synchronization with the selected repository. |
 | _**Edit repository**_ | Opens the page to manage connection and feature settings for the selected repository. |
 | _**View log**_ | Opens a dialog showing the indexing log of the selected integration. |
@@ -46,7 +44,7 @@ Disconnect or disable selected repositories if they are not used for faster inte
 
 To disconnect a repository integration (plain git), use the relative action command from the Manage integrations page instead to remove its settings and clone data from the Git Integration for Jira Cloud app integration configuration page.
 
-Jump to [Edit repository](/git-integration-for-jira-cloud/Edit-repository) settings page documentation.
+Jump to [Edit repository](/git-integration-for-jira-cloud/edit-integration-gij-cloud) settings page documentation.
 
 ## Action commands (Group selection)
 
@@ -54,7 +52,7 @@ Group action becomes available when selecting multiple integrations and reposito
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923024517/gitcloud-actions-group-selection-feature.png?version=1&modificationDate=1649145056712&cacheVersion=1&api=v2&width=680&height=349)
 
-[« Managing repository or integration configuration](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration/)
+[Managing repository or integration configuration](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration-gij-cloud)
 
-[Edit integration »](/git-integration-for-jira-cloud/edit-integration/)
+[Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud)
 

@@ -10,19 +10,26 @@ See also [Feature matrix of Git Integration for Jira Cloud](/git-integration-for
 
 We publish roadmaps for [**Jira Cloud**](https://trello.com/b/Af64QYkE/git-integration-jira-cloud-roadmap) and [**Jira Server + Data Center**](https://trello.com/b/WRrWMs87/git-integration-server-data-center-roadmap). If you have questions about specific differences between Jira Server + Data Center and Jira Cloud - [contact us through our support desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals).
 
-|     |     |     |
+## Features
+| **Features** | **Git Integration for Jira Server** and  <br>**Git Integration for Jira Data Center** | **Git Integration for Jira Cloud** |
 | --- | --- | --- |
-| ## **Features** | **Git Integration for Jira Server** and  <br>**Git Integration for Jira Data Center** | **Git Integration for Jira Cloud** |
 | **Reindexing** | Jira administrator controlled | Automatic |
 | **Automatic workflow triggers \*** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **\*** |
 | **Disable indexing** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | *   Individual repositories | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | *   Individual integrations | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
+
+### Reindexing
+
 | **Manual reindexing of all integrations/repositories** |     |     |
+| --- | --- | --- |
 | *   Individual repositories (if configured as plain git) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | *   Individual integrations | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | *   All repositories + integrations | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
+
+### Repository Browser
 | **Repository Browser** |     |     |
+| --- | --- | --- |
 | *   Browse | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | *   Commits | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | *   Compare | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
@@ -69,7 +76,10 @@ We publish roadmaps for [**Jira Cloud**](https://trello.com/b/Af64QYkE/git-integ
 | *   Audit log settings | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | **Activity Stream** 2 | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | **JQL** 3 | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **\*** |
+
+### Webhooks
 | **Webhooks** |     |     |
+| --- | --- | --- |
 | *   Reindex all repositories | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | *   Reindex integrations | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | *   Reindex repositories | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
@@ -102,13 +112,13 @@ We publish roadmaps for [**Jira Cloud**](https://trello.com/b/Af64QYkE/git-integ
 | **View Code Diffs in Jira** **6** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 | Code expanders to see context of changes in diff screen | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
 
-**\*** Requires [Jira Development Information](/wiki/spaces/GITCLOUD/pages/138772493/Jira+Development+Information) to be enabled in the [General settings](/git-integration-for-jira-cloud/General-Settings).
+**\*** Requires [Jira Development Information](/git-integration-for-jira-cloud/jira-development-information-gij-cloud) to be enabled in the [General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud).
 
 **1** See information for self-hosted git servers in Jira Cloud below:
 
 When connecting a self-hosted git server to [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview), the git server must have a publicly addressable + route-able address. For example, [GitHub.com](http://github.com/), [https://dev.azure.com](https://dev.azure.com/), [GitLab.com](http://gitlab.com/) and other services hosted on the “public cloud” work without any administrator interventions.
 
-For more information, see [Whitelist BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud/).
+For more information, see [Whitelist BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud).
 
 **2** No support on Jira Cloud for third-party publishing to Jira Activity Stream.
 
@@ -130,9 +140,9 @@ For more information, see [Whitelist BigBrassBand Cloud](/git-integration-for-ji
 *   `development[pullrequests].open > 0`
 
 
-**4** GIT INTEGRATION: JIRA CLOUD Smart commit email notifications will fail when using [Jira Development Information](/git-integration-for-jira-cloud/jira-development-information/).
+**4** GIT INTEGRATION: JIRA CLOUD Smart commit email notifications will fail when using [Jira Development Information](/git-integration-for-jira-cloud/jira-development-information-gij-cloud).
 
-**5** GIT INTEGRATION: JIRA CLOUD [Jira Development Information](/git-integration-for-jira-cloud/jira-development-information/) is not controlled by Project Permissions.
+**5** GIT INTEGRATION: JIRA CLOUD [Jira Development Information](/git-integration-for-jira-cloud/jira-development-information-gij-cloud) is not controlled by Project Permissions.
 
 **6** See notes below:
 

@@ -10,9 +10,8 @@ This page applies to Jira Server, Jira Data Center and Jira Cloud.
 
 ## Permissions
 
-|     |
-| --- |
 | **Jira Cloud - Development panel** |
+| --- |
 | The **View Development Tools** _permission_ only applies to Jira Classic Projects. Next-Gen Projects don't allow to modify the permission. |
 | **Create Branches and Branch Names** |
 | For connected GitHub git host, this feature requires enabled `public_repo` scope permissions. |
@@ -46,7 +45,7 @@ To the right are the deep link icons: (1) opens this branch in the git host serv
 
 This section displays the list of created pull or merge requests that are associated to this Jira issue. Click the PR/MR links to view the selected PR/MR in the git host service portal.
 
-[« Jira issue page](/git-integration-for-jira-cloud/jira-issue-page/)
+[Jira issue page](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud)
 
-[Development panel locations »](/git-integration-for-jira-cloud/development-panel-locations-gij-cloud/)
+[Development panel locations](/git-integration-for-jira-cloud/development-panel-locations-gij-cloud)
 

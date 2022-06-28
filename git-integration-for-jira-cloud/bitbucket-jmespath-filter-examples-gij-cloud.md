@@ -10,28 +10,24 @@ taxonomy:
 
 An optional JMESPath filter can be configured when adding Bitbucket integration or repositories.
 
-|     |
-| --- |
 | **1\. Contains (include)** |
+| --- |
 | ```java<br>{values: values[?contains(name, 'myrepo')]}<br>``` |
 | This is a filter based on the text in the repository name. It will list repositories with names that contain the word `'myrepo'`. Do note that the declared string format is case-sensitive. |
 
-|     |
-| --- |
 | **2\. Starts with or ends with** |
+| --- |
 | ```java<br>{values: values[?starts_with(name, 'test') \| ends_with(name, 'lab')]}<br>``` |
 | Lists repositories with names that starts with `'test'` or ends with `'lab'`. |
 
-|     |
-| --- |
 | **3\. Contains (exclude)** |
+| --- |
 | ```java<br>{values: values[?(!contains(name, 'firstword'))]}<br>{values: values[?(!contains(name, 'firstword')) \| (!contains(name, 'secondword'))]}<br>``` |
 | 1 – Lists repositories with names that either do not contain the word `'firstword'`.  <br>2 – Lists repositories with names that either do not contain the words `‘firstword’` OR `‘secondword’`. |
 | The `!condition` must be wrapped in a parenthesis so it won’t invert the whole expression. |
 
-|     |
-| --- |
 | **4\. Has repository name** |
+| --- |
 | ```java<br>{values: values[?(name == 'repo1name') \| (name == 'repo2name')]}<br>``` |
 | Lists repositories with names `'repo1name'` and `'repo2name'`. |
 

@@ -243,7 +243,7 @@ We’ve launched an all-new management user interface, supporting the goal of ma
 
 With the [acquisition](https://www.gitkraken.com/blog/gitkraken-acquires-git-integration-jira-bigbrassband) of BigBrassBand's Git Integration for Jira app (GIJ) by GitKraken, we have introduced deep linking between GIJ and GitKraken so users can now have a stronger integration between the two. You can now click to open commits, branches, tags and repositories directly in GitKraken from the Jira issue view giving you a seamless transition from your Jira issues to GitKraken.
 
-[Learn more](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client/)
+[Learn more](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client-gij-cloud)
 
 You will see the added ability to open the GitKraken client from our app in various locations. See an example of what this looks like below.
 
@@ -261,17 +261,16 @@ You may immediately set the selected branch as default for the current repositor
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/gitcloud-user-settings-create-def-branch-dlg.png?version=2&modificationDate=1632899635182&cacheVersion=1&api=v2&width=340&height=188)
 
-For more information on this feature, see article [Default branch feature](/git-integration-for-jira-cloud/default-branch-feature/).
+For more information on this feature, see article [Default branch feature](/git-integration-for-jira-cloud/default-branch-feature-gij-cloud).
 
 ## Webhook indexing integration
 
 13 May 2021 NEW FEATURE ADMINS
 
-Webhook indexing integration allows your connected git servers to work behind a firewall but will have limited features which are stated under the Connect the your Git server features comparison table. For detailed information on this new feature, see [Git Integration for Jira Cloud: Webhook indexing integration](/git-integration-for-jira-cloud/webhook-indexing-explainer/).
+Webhook indexing integration allows your connected git servers to work behind a firewall but will have limited features which are stated under the Connect the your Git server features comparison table. For detailed information on this new feature, see [Git Integration for Jira Cloud: Webhook indexing integration](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud).
 
-|     |     |
-| --- | --- |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/gitcloud-release-notes-whook-idx-01.png?version=1&modificationDate=1621314159632&cacheVersion=1&api=v2) | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/gitcloud-release-notes-whook-idx-02.png?version=1&modificationDate=1621314164638&cacheVersion=1&api=v2) |
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/gitcloud-release-notes-whook-idx-01.png?version=1&modificationDate=1621314159632&cacheVersion=1&api=v2)
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/gitcloud-release-notes-whook-idx-02.png?version=1&modificationDate=1621314164638&cacheVersion=1&api=v2)
 
 ## User PATs have been moved to a new page
 
@@ -325,7 +324,7 @@ This information is visible in the native Jira Cloud development information are
 
 **Mobile apps**
 
-|     |     |     |
+| Examples | Examples | Examples |
 | --- | --- | --- |
 | **Jira iOS/Android app: View development information**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/IMG_DCB9B343D5C3-1.jpeg?version=1&modificationDate=1605127361553&cacheVersion=1&api=v2&width=102&height=220) | **Jira iOS/Android app: Branches detail**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/IMG_017E0B3B5371-1.jpeg?version=2&modificationDate=1605127402971&cacheVersion=1&api=v2&width=102&height=220) | **Jira iOS/Android app: Commits detail**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/IMG_80F7BE242631-1.jpeg?version=1&modificationDate=1605127426174&cacheVersion=1&api=v2&width=102&height=220) |
 | **Jira iOS/Android app: Pull / merge requests detail**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/IMG_2BD0A76A4891-1.jpeg?version=1&modificationDate=1605127449033&cacheVersion=1&api=v2&width=102&height=220) | **Jira iOS/Android app: Git Integration “glance” view**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/IMG_655428BABEEB-1.jpeg?version=1&modificationDate=1605127539872&cacheVersion=1&api=v2&width=102&height=220) | **Jira iOS/Android app: Glance: Create branch**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/IMG_03572F208F3B-1.jpeg?version=1&modificationDate=1605127586708&cacheVersion=1&api=v2&width=102&height=220) |
@@ -333,7 +332,7 @@ This information is visible in the native Jira Cloud development information are
 
 **MacOS app**
 
-|     |     |     |
+| Examples | Examples | Examples |
 | --- | --- | --- |
 | **Jira MacOS app: Issue sidebar**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2015.33.16@2x-20201111-203318.png?version=1&modificationDate=1605126815417&cacheVersion=1&api=v2) | **Jira MacOS app: Branches detail**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/CleanShot%202020-11-11%20at%2015.34.00@2x-20201111-203401.png?version=1&modificationDate=1605126850897&cacheVersion=1&api=v2&width=204&height=162) | **Jira MacOS app: Commits detail**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2015.34.20@2x-20201111-203421.png?version=1&modificationDate=1605126872113&cacheVersion=1&api=v2) |
 | **Jira MacOS app: Pull / merge requests detail**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2015.34.56@2x-20201111-203457.png?version=1&modificationDate=1605126909706&cacheVersion=1&api=v2) | **Jira MacOS app: Git Integration: “glance” view**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2015.36.12@2x-20201111-203613.png?version=1&modificationDate=1605126983163&cacheVersion=1&api=v2) | **Jira MacOS app: Git Integration: Glance: Create branch**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2015.37.41@2x-20201111-203743.png?version=1&modificationDate=1605127079983&cacheVersion=1&api=v2) |
@@ -351,9 +350,9 @@ Developers will often work in a single repository in a given Jira project. Each 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/create-pull-request-annotated.png?version=1&modificationDate=1605045753159&cacheVersion=1&api=v2&width=510&height=190)
 
-Default repository selection for Jira projects is available in the [Create branch](/git-integration-for-jira-cloud/Create-branch) and [Create pull / merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request/) features of the app.
+Default repository selection for Jira projects is available in the [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud) and [Create pull / merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud) features of the app.
 
-All default selections can be reviewed and updated in [User Settings](/git-integration-for-jira-cloud/User-Settings):
+All default selections can be reviewed and updated in [User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud):
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/user-settings-default.png?version=1&modificationDate=1605564848523&cacheVersion=1&api=v2&width=510&height=246)
 
@@ -365,7 +364,7 @@ All default selections can be reviewed and updated in [User Settings](/git-integ
 
 All Jira users with the `View development tools` permission have access to the **Repository browser** screen (_formerly View all repositories_) in Jira Cloud. We have added pagination to this screen to better support large numbers of repositories and the ability to filter the list by search term.
 
-**Note:** Permissions to specific repositories can be limited using Project Permissions (see [Permissions](/git-integration-for-jira-cloud/permissions/) for more information).
+**Note:** Permissions to specific repositories can be limited using Project Permissions (see [Permissions](/git-integration-for-jira-cloud/permissions-gij-cloud) for more information).
 
 [view-all-repos-pagination-feature.mov](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/view-all-repos-pagination-feature.mov?version=1&modificationDate=1605048187186&cacheVersion=1&api=v2&width=612)
 
@@ -377,7 +376,7 @@ All Jira users with the `View development tools` permission have access to the *
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/CleanShot%202020-11-05%20at%2013.21.15@2x-20201105-182120.png?version=1&modificationDate=1604600486980&cacheVersion=1&api=v2&width=612&height=428)
 
-The [Webhooks](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/Webhooks) page now includes logs of inbound webhooks sent to the Git Integration for Jira Cloud app. Status, reindex status, type, and related repository are shown in the table to assist Jira administrators in troubleshooting and identifying which webhooks are triggered for reindexing.
+The **Webhooks** page now includes logs of inbound webhooks sent to the Git Integration for Jira Cloud app. Status, reindex status, type, and related repository are shown in the table to assist Jira administrators in troubleshooting and identifying which webhooks are triggered for reindexing.
 
 Webhook logs are retained for 7 days.
 
@@ -387,16 +386,14 @@ Webhook logs are retained for 7 days.
 
 28 Feb 2020 NEW FEATURE ALL USERS
 
-When a Jira user creates a pull request or merge request (GitLab) using the Git Integration for Jira app ([Create pull / merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request/)), a link to the Jira issue is included in the pull request / merge request description.
+When a Jira user creates a pull request or merge request (GitLab) using the Git Integration for Jira app ([Create pull / merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud), a link to the Jira issue is included in the pull request / merge request description.
 
-|     |     |     |
-| --- | --- | --- |
 | **GitLab** | **GitHub** | **Bitbucket** |
+| --- | --- | --- |
 | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.41.17@2x-20201111-194133.png?version=1&modificationDate=1605123706591&cacheVersion=1&api=v2) | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.48.52@2x-20201111-194908.png?version=1&modificationDate=1605124157746&cacheVersion=1&api=v2) | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.52.22@2x-20201111-195238.png?version=1&modificationDate=1605124390642&cacheVersion=1&api=v2) |
 
-|     |     |
-| --- | --- |
 | **Azure DevOps** | **AWS Code Commit** |
+| --- | --- |
 | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.41.56@2x-20201111-194208.png?version=1&modificationDate=1605123738388&cacheVersion=1&api=v2) | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.46.04@2x-20201111-194620.png?version=1&modificationDate=1605123984893&cacheVersion=1&api=v2) |
 
 * * *

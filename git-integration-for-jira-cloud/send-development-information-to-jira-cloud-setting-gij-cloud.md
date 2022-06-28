@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-These settings are part of the [**General Settings**](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud under [**Jira Development Information settings**](/git-integration-for-jira-cloud/jira-development-information-settings/).
+These settings are part of the [**General Settings**](/git-integration-for-jira-cloud/general-settings-gij-cloud) configuration page for Git Integration for Jira Cloud under [**Jira Development Information settings**](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829176/gitcloud-gencfg-jira-dev-info-send-to-cloud.png?version=1&modificationDate=1645097991562&cacheVersion=1&api=v2&width=548&height=253)
 
@@ -24,20 +24,20 @@ Only newly added commits, branches and pull requests will be uploaded to Jira Cl
 The **View Development Tools** _permission_ only applies to Jira _**Company-managed**_ projects. _**Team-managed**_ projects don't allow any modifications to the permission.
 
 
-For more details, see [**Features: Send Development Information (Jira Cloud)**](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting/).
+For more details, see [**Features: Send Development Information (Jira Cloud)**](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting-gij-cloud).
 
-Turning this setting to `ON` automatically disables the [**Enable Git Integration app Smart Commits** setting](/git-integration-for-jira-cloud/enable-git-integration-app-smart-commits-setting/).
+Turning this setting to `ON` automatically disables the [**Enable Git Integration app Smart Commits** setting](/git-integration-for-jira-cloud/enable-git-integration-app-smart-commits-setting-gij-cloud).
 
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
 
 ## More Jira development information settings
 
-*   [Send development information to Jira Cloud setting](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting/) (Git Integration for Jira Cloud)
+*   [Send development information to Jira Cloud setting](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting-gij-cloud) (Git Integration for Jira Cloud)
 
-*   [Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers setting](/git-integration-for-jira-cloud/enable-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers-setting/) (Git Integration for Jira Cloud)
+*   [Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers setting](/git-integration-for-jira-cloud/enable-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers-setting-gij-cloud) (Git Integration for Jira Cloud)
 
-*   [Enable Git Integration app smart commits setting](/git-integration-for-jira-cloud/enable-git-integration-app-smart-commits-setting/) (Git Integration for Jira Cloud)
+*   [Enable Git Integration app smart commits setting](/git-integration-for-jira-cloud/enable-git-integration-app-smart-commits-setting-gij-cloud) (Git Integration for Jira Cloud)
 
-*   [Advanced: Clear Development Information setting](/git-integration-for-jira-cloud/advanced-clear-development-information-setting/) (Git Integration for Jira Cloud)
+*   [Advanced: Clear Development Information setting](/git-integration-for-jira-cloud/advanced-clear-development-information-setting-gij-cloud) (Git Integration for Jira Cloud)
 

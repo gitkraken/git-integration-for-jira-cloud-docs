@@ -12,9 +12,8 @@ Some or all repositories in Azure DevOps (or Visual Studio Team Services - VSTS)
 
 ## Diagnoses
 
-|     |
-| --- |
 | **1\. Permissions** |
+| --- |
 | The connecting Azure DevOps user must have access to the repository to be added to the Git Integration for Jira app. |
 | **2\. Access Level** |
 | Jira admins will notice that some repositories expected in the Azure DevOps integration do not appear in the Git Integration for Jira app.  `Basic` or `Visual Studio Professional` access is the minimum access level necessary for the Git Integration for Jira app as **Code** access level is required.<br><br>![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/421462017/azure-devops-code-access-level.png?version=1&modificationDate=1586316011297&cacheVersion=1&api=v2&width=680&height=212)<br><br>For more information - see Microsoft's article on [Azure DevOps Access Levels.](https://docs.microsoft.com/en-us/azure/devops/organizations/security/access-levels?view=azure-devops) |
@@ -23,9 +22,8 @@ Some or all repositories in Azure DevOps (or Visual Studio Team Services - VSTS)
 
 ## Solutions
 
-|     |
-| --- |
 | **1\. Permissions** |
+| --- |
 | Assign the connecting Azure DevOps user appropriate access to the repository or repositories. |
 | **2\. Access level** |
 | Grant at least `Basic` or `Visual Studio Professional` access is the minimum access level necessary for the Git Integration for Jira app. |
@@ -36,11 +34,11 @@ Some or all repositories in Azure DevOps (or Visual Studio Team Services - VSTS)
 
 See the following of the articles:
 
-[OAuth connection error or error 401 page with Azure DevOps integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-integration/)
+[OAuth connection error or error 401 page with Azure DevOps integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-integration-gij-cloud)
 
-[OAuth connection error or error 401 page with Azure DevOps with Active Directory integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-with-active-directory-integration/)
+[OAuth connection error or error 401 page with Azure DevOps with Active Directory integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-with-active-directory-integration-gij-cloud)
 
-[I'm seeing a blank list of repositories after integration of Azure Repos](/git-integration-for-jira-cloud/empty-list-of-repositories-after-integration-of-azure-repos/)
+[I'm seeing a blank list of repositories after integration of Azure Repos](/git-integration-for-jira-cloud/empty-list-of-repositories-after-integration-of-azure-repos-gij-cloud)
 
 **Contact Us**
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).

@@ -8,7 +8,7 @@ taxonomy:
 ---
 The User Settings page allows users to set a default repository for the selected Jira project and configure a personal access token for a specific git integration.
 
-Go to Jira ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) User Profile ➜ **Git Integration: User Settings**.
+Go to Jira User Profile ➜ **Git Integration: User Settings**.
 
 Alternatively, the Git Integration: User Settings page is also accessible from the **Repository browser** page (_click the button on the purple note box_) and on the Git Integration sidebar ➜ **User settings**.
 
@@ -22,4 +22,3 @@ Managing user personal access tokens (for creating branches and pull/merge reque
 
 
 To learn more about these features such as default repository and setting up PAT for branch and PR/MR creation, see the next recommended feature topics.
-

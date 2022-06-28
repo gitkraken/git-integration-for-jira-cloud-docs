@@ -29,9 +29,8 @@ Jira admins will see a message similar to the one below when adding the SSH key:
 
 Full error (stack trace) available in the Manage Git Repositories wizard or in Jira logs `/application-logs/atlassian-jira.log`:
 
-|     |
-| --- |
 | **Error** |
+| --- |
 | ```java<br>com.bigbrassband.jira.git.exceptions.repository.InvalidPrivateKeyException: Private SSH key is invalid or empty<br>    at com.bigbrassband.jira.git.services.ssh.KeyManagerImpl.needPassphrase(KeyManagerImpl.java:103)<br>    at com.bigbrassband.jira.git.rest.wizard.WizardResource.validateRepoOrigin(WizardResource.java:104)<br>    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>    ...<br>    at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)<br>    at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)<br>    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)<br>    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)<br>    at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)<br>    at java.lang.Thread.run(Thread.java:748)<br>Caused by: com.jcraft.jsch.JSchException: invalid privatekey: [C@17h421rm<br>    at com.jcraft.jsch.KeyPair.load(KeyPair.java:664)<br>    at com.bigbrassband.jira.git.services.ssh.KeyManagerImpl.needPassphrase(KeyManagerImpl.java:99)<br>    ... 264 more<br>``` |
 
 ## Cause
@@ -42,9 +41,8 @@ Jira admin has provided an SSH public key or an SSH private key with an incorrec
 
 1\. Create a new SSH key:
 
-|     |
-| --- |
 | **On Linux and macOS:** |
+| --- |
 | Use the following command to create a certificate:<br><br>```java<br>ssh-keygen -t rsa -b 4096 -m pem -C your_email@example.com<br>```<br><br>MacOS often incorrectly creates an OpenSSH format certificate. For more details, see information on this [**common problem**](https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key). |
 | **On Windows:** |
 | Download [**PuTTY**](https://www.putty.org/) and use PuTTYgen to generate an SSH key pair:<br><br>1.  Set _**Type of key...**_ to **RSA**.<br>    <br>2.  Set _**Number of bits...**_ to **4096**.<br>    <br>3.  Click **Generate**. Move mouse pointer on the blank area as instructed.<br>    <br>4.  Follow screen instructions such as moving your mouse pointer on random locations on the blank area of the PuTTYgen dialog. Do this until the progress bar completely fills up and the SSH key pair is generated.<br>    <br>5.  Entering a **Passphrase** for the generated key is optional but will ensure a more secure connection.<br>    <br>6.  Save your generated public and private key to a file by clicking the respective options.<br>    <br>7.  Copy the generated key. This is the public key that you will be using on the SSH configuration page of your git host.<br>    <br>8.  For the private key, PuTTY creates a private key in its own ".ppk" format. Convert it to ".pem" via menu **Conversions** > **Export OpenSSH key** in PuTTYgen. Add/upload this file to Git Integration for Jira app > **SSH Keys** or when prompted on connecting SSH git repositories in Jira. |
@@ -60,4 +58,3 @@ Jira admin has provided an SSH public key or an SSH private key with an incorrec
 **Contact Us**
 
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
-

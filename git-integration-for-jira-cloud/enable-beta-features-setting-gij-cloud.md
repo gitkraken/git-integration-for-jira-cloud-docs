@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-This setting is part of the [**General settings**](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/781942911) configuration page for Git Integration for Jira Cloud.
+This setting is part of the [**General settings**](/git-integration-for-jira-cloud/general-settings-gij-cloud) configuration page for Git Integration for Jira Cloud.
 
 **Default settings**  
 This setting is disabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.  

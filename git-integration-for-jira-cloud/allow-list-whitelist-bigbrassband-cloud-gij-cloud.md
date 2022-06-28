@@ -134,8 +134,6 @@ To allow self-hosted git repositories to be indexed by BigBrassBand Cloud applic
 </div>
 <br>
 
-
-
 ## Allow list IP address for GitHub.com, Azure DevOps Repos, and GitLab.com:
 
 GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features allowing for allow listing and require an additional set of IP addresses for allow listing:
@@ -216,7 +214,6 @@ If your git server is simply behind a firewall, whitelist the IP address of the 
 
 If your git server is only reachable on a private intranet or through a virtual private network (VPN), the Git Integration for Jira indexing service will not be able to reach your git server, even if you whitelist our IP. See [Webhooks indexing integration](#webhooks-indexing-integration-for-private-networks) section below.
 
-
 **Examples:**
 
 ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://git.corp.com/repository/widget-production.git](https://git.corp.com/repository/widget-production.git) - a hosted git repository added directly
@@ -246,7 +243,6 @@ For more information on this feature, see the following articles:
     *   [GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud/)
 
     *   [Microsoft](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud/)
-
 
 ## BigBrassBand Cloud apps
 

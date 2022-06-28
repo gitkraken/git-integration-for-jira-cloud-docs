@@ -6,11 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-
-# Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1923024398/Automatically+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues>
-
 * * *
 
 GITHUB ENTERPRISE GITLAB CE/EE
@@ -38,7 +33,7 @@ For this guide, we will use GitLab as an example:
 8.  Import the detected repositories and then click **Finish** to complete the setup.
     
 
-[« Self-signed HTTPS connections](/git-integration-for-jira-cloud/self-signed-https-integration/)
+[Self-signed HTTPS connections](/git-integration-for-jira-cloud/self-signed-https-integration-gij-cloud)
 
-[Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues »](/wiki/spaces/GITCLOUD/pages/1923024437/Manually+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues)
+[Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-cloud/manually-connect-to-https-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues-gij-cloud)
 

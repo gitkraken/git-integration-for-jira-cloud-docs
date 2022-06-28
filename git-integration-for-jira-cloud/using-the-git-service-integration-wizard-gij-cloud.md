@@ -33,9 +33,9 @@ The integration is added to the Git integration configuration list.
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923024112/gitcloud-managed-ui-integration-list.png?version=1&modificationDate=1647939245350&cacheVersion=1&api=v2)
 
 
-For more detailed information on specific integration steps for supported git host services, see our [Integration Guides](/git-integration-for-jira-cloud/Integration-Guide).
+For more detailed information on specific integration steps for supported git host services, see our [Integration Guides](/git-integration-for-jira-cloud/integration-guide-gij-cloud).
 
-[« Git integration configuration page](/git-integration-for-jira-cloud/git-integration-configuration-page/)
+[Git integration configuration page](/git-integration-for-jira-cloud/git-integration-configuration-page-gij-cloud)
 
-[Using the Webhook indexing integration wizard »](/git-integration-for-jira-cloud/webhook-indexing-integration/)
+[Using the Webhook indexing integration wizard](/git-integration-for-jira-cloud/webhook-indexing-integration-gij-cloud)
 

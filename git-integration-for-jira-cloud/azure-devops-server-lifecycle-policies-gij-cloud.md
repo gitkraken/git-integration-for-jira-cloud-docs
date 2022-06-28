@@ -9,7 +9,10 @@ taxonomy:
 For information on product lifecycle and policies, see the topic links below:
 
 Search product lifecycle
-[https://support.microsoft.com/en-us/lifecycle/search/10453](https://support.microsoft.com/en-us/lifecycle/search/10453)
+[https://docs.microsoft.com/en-us/lifecycle/products/](https://docs.microsoft.com/en-us/lifecycle/products/)
 
-Microsoft Lifecycle policy
-[https://support.microsoft.com/en-us/lifecycle/search/10453](https://support.microsoft.com/en-us/lifecycle/search/10453)
+Microsoft Fixed Lifecycle policy
+[https://docs.microsoft.com/en-us/lifecycle/policies/fixed](https://docs.microsoft.com/en-us/lifecycle/policies/fixed)
+
+Microsoft Modern Lifecycle policy
+[https://docs.microsoft.com/en-us/lifecycle/policies/modern](https://docs.microsoft.com/en-us/lifecycle/policies/modern)

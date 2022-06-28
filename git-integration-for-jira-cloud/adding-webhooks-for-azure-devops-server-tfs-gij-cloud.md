@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Pull request webhooks are now supported. [See details](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-server-tfs/) on this page.
+Pull request webhooks are now supported. [See details](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-server-tfs-gij-cloud) on this page.
 
 Supported webhook events:
 
@@ -29,11 +29,11 @@ Configure webhook by logging in to your Azure DevOps Server/TFS account.
 
 1.  Open a project by clicking on it.
 
-2.  Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Project Settings** (sidebar) then select **Service Hooks**. The following screen is displayed.
+2.  Click **Project Settings** (sidebar) then select **Service Hooks**. The following screen is displayed.
 
 3.  ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/234782736/webhooks-azure-devops-add-shooks(c).png?version=1&modificationDate=1617193805282&cacheVersion=1&api=v2&width=544&height=233)
 
-    Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) to add a new service hook subscription.
+    Click the + Icon to add a new service hook subscription.
 
 4.  Scroll to **Web Hooks** and click to select it.
 

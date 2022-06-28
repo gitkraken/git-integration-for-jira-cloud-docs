@@ -35,7 +35,7 @@ Using Atlassian's marketplace system, a Jira administrator can install the Git I
 
 ## Viewing Reindex Logs
 
-Go to the Manage Git Repositories page, click the **Actions** ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon then **View Log** to view the indexing logs.
+Go to the Manage Git Repositories page, click the **Actions** icon then **View Log** to view the indexing logs.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/366084122/gitcloud-repomgr-view-log-action.png?version=1&modificationDate=1616931865688&cacheVersion=1&api=v2&width=612&height=206)
 
@@ -55,9 +55,8 @@ We are dropping support for **Java 7**, **Jira 7.0 and older** and Internet Expl
 
 The table below shows the Jira Version, when [Atlassian will stop supporting that Jira version](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html) and the corresponding version of Internet Explorer.
 
-|     |     |     |     |
-| --- | --- | --- | --- |
 | **Jira Version** | **Jira End of Life Date** | **Oldest IE Supported** | **Git Integration for Jira supported?** |
+| --- | --- | --- | --- |
 | 7.13 | November 28, 2020 | Edge | Yes\* |
 | 8.0 | February 11, 2021 | Edge | Yes\* |
 | 8.1 | April 4, 2021 | Edge | Yes\* |

@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Pull request webhooks are now supported.  [See details](/git-integration-for-jira-cloud/adding-webhooks-for-github-repository/) on this page.
+Pull request webhooks are now supported.  [See details](/git-integration-for-jira-cloud/adding-webhooks-for-github-repository-gij-cloud) on this page.
 
 Supported webhook events:
 
@@ -26,7 +26,7 @@ Configure webhooks by logging in to your GitHub account:
 1.  Select a repository.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377213/new-github-webhook-setting-page(c1).png?version=1&modificationDate=1617192156368&cacheVersion=1&api=v2)
-2.  Go to the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Settings** page.
+2.  Go to the **Settings** page.
 
 3.  Select **Webhooks**.
 

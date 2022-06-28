@@ -8,7 +8,7 @@ taxonomy:
 ---
 The **View Development Tools** _permission_ only applies to Jira _**Company-managed**_ projects. _**Team-managed**_ projects don't allow to modify the permission.
 
-Only newly added commits, branches and pull requests will be uploaded to Jira Cloud when enabling the [Send Development Information to Jira Cloud](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting/) setting. If you wish to upload the entire history of an integration or repository - remove the integration/repository and then add the integration/repository back.
+Only newly added commits, branches and pull requests will be uploaded to Jira Cloud when enabling the [Send Development Information to Jira Cloud](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting-gij-cloud) setting. If you wish to upload the entire history of an integration or repository - remove the integration/repository and then add the integration/repository back.
 
 ## What is Jira Development Information?
 
@@ -36,15 +36,15 @@ Note that the **Project Permissions** feature in the [**Git Integration for Ji
 
 ## What other features are enabled by Jira Development Information?
 
-*   [JQL searching for commits and pull requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests/)
+*   [JQL searching for commits and pull requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud)
 
-*   [Development status in Jira Issue Searching](/git-integration-for-jira-cloud/development-status-in-jira-issue-searching/)
+*   [Development status in Jira Issue Searching](/git-integration-for-jira-cloud/development-status-in-jira-issue-searching-gij-cloud)
 
-*   [Release Hub](/git-integration-for-jira-cloud/release-hub-warnings/)
+*   [Release Hub](/git-integration-for-jira-cloud/release-hub-warnings-gij-cloud)
 
-*   [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers/)
+*   [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud)
 
-*   [NextGen projects only: View commits, branches, and pull requests in Jira Boards](/git-integration-for-jira-cloud/next-gen-projects-only-view-commits-branches-and-pull-requests-in-jira-boards/)
+*   [NextGen projects only: View commits, branches, and pull requests in Jira Boards](/git-integration-for-jira-cloud/next-gen-projects-only-view-commits-branches-and-pull-requests-in-jira-boards-gij-cloud)
 
 
 

@@ -13,9 +13,8 @@ The Git Commits tab shows commit information such as commit authors, date of com
 
 Open an issue then go to the _**Git Commits**_ tab to view commit information:
 
-|     |     |     |
-| --- | --- | --- |
 | **Pointer** | **Information** | **Description** |
+| --- | --- | --- |
 | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | **Repository/Indexed** | Name of the repository _(as in app config)_ and date of last synchronization with remote repository. |
 | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | **Author/Committer** | User who performed the commit. Hover the mouse pointer on the name to view user card. |
 | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | **Issue key/Commit message** | This is the Jira issue with the corresponding commit message. |
