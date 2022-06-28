@@ -14,7 +14,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         The information on this page is for BigBrassBand Atlassian Cloud products only. These currently include Git Integration for Jira Cloud and Dev Info for Jira Cloud.
-        <div class='nextpara'><b>Jira Server and Jira Data Center products are not hosted by BigBrassBand.</b><div>
+        <p><b>Jira Server and Jira Data Center products are not hosted by BigBrassBand.</b></p>
     </div>
     </div>
 </div>
@@ -23,23 +23,6 @@ taxonomy:
 If using restrictive firewall or proxy server settings, you or your network admin will need to allow (allow list / whitelist) a specific IP  address to ensure BigBrassBand Cloud applications work as expected. Specifically – if your team hosts a private git server (GitHub Enterprise, GitLab CE/EE, Microsoft TFS or Azure DevOps Server, Gerrit, Bitbucket Server, or a plain git server).
 
 Alternatively, you can use our [Webhook indexing feature](#Webhooks-indexing-integration-for-private-networks) to avoid incoming API requests.
-
-**What's on this page:**
-- [Allow list IP address for self-hosted git repositories](#allow-list-ip-address-for-self-hosted-git-repositories)
-  - [<img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f30e.png' height=22 width=22 valign=middle />&nbsp; Global hosted customers](#-global-hosted-customers)
-  - [<img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1ea-1f1fa.png' height=24 width=24 valign=middle />&nbsp; European Union hosted customers](#-european-union-hosted-customers)
-  - [<img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1fa-1f1f8.png' height=24 width=24 valign=middle />&nbsp; USA hosted customers](#-usa-hosted-customers)
-  - [<img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1e6-1f1fa.png' height=24 width=24 valign=middle />&nbsp; Australia hosted customers](#-australia-hosted-customers)
-- [Ports](#ports)
-- [Allow list IP address for GitHub.com, Azure DevOps Repos, and GitLab.com:](#allow-list-ip-address-for-githubcom-azure-devops-repos-and-gitlabcom)
-  - [<img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f30e.png' height=22 width=22 valign=middle />&nbsp; Global Region Hosted IP addresses](#-global-region-hosted-ip-addresses)
-  - [<img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1fa-1f1f8.png' height=22 width=22 valign=middle />&nbsp; USA Region Hosted IP addresses](#-usa-region-hosted-ip-addresses)
-  - [<img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1ea-1f1fa.png' height=24 width=24 valign=middle />&nbsp; EU Region Hosted IP addresses](#-eu-region-hosted-ip-addresses)
-  - [<img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1e6-1f1fa.png' height=24 width=24 valign=middle />&nbsp; Australia Region Hosted IP addresses](#-australia-region-hosted-ip-addresses)
-- [Reachable network address](#reachable-network-address)
-- [Webhooks indexing integration for private networks](#webhooks-indexing-integration-for-private-networks)
-- [BigBrassBand Cloud apps](#bigbrassband-cloud-apps)
-- [Support](#support)
 
 * * *
 
