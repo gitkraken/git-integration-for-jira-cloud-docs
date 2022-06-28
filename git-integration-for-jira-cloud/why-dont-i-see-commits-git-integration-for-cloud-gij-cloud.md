@@ -12,7 +12,7 @@ taxonomy:
 
 JIRA ADMIN
 
- Check if Git Integration for Jira app is installed, licensed and active
+- Check if Git Integration for Jira app is installed, licensed and active
 
 Follow the [link](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) to install from the Atlassian Marketplace. You can verify that the Git Integration for Jira Cloud app is installed by visiting
 
@@ -26,19 +26,17 @@ Git Integration for Jira Cloud is installed, licensed and active
 
 JIRA ADMIN
 
- Check if user has “Development Tools” permission
+- Check if user has “Development Tools” permission
 
 Using the **Permission Helper** within Jira Cloud - verify that the user in question has the **Development Tools** permission.
 
 The Permission Helper is available to Jira admins: Jira settings → System → Permission Helper.
 
-
-
 Permissions are correct
 
 JIRA ADMIN
 
- Check if repository with commit is connected to Jira
+- Check if repository with commit is connected to Jira
 
 A couple ways to do this:
 
@@ -56,7 +54,7 @@ The repository with the missing commit is connected
 
 JIRA ADMIN
 
- Check if repository has been reindexed since commit
+- Check if repository has been reindexed since commit
 
 Reindexing integrations (or repositories) manually. Note: all repositories are updated regularly without any manual updating required.
 
@@ -72,7 +70,7 @@ The repository has indexed since the commit was pushed
 
 JIRA ADMIN
 
- Check if repository is associated with Jira project
+- Check if repository is associated with Jira project
 
 It allows an admin to associate an integration (and all the repositories) or just a single repository to a set of Jira projects (one, many, or all).
 
@@ -84,15 +82,15 @@ Check "Associate all projects" if you want the repository to be associated with 
 
 The Jira project is associated with the repository
 
- Check if commit has a valid Jira issue key
+- Check if commit has a valid Jira issue key
 
 The association between Jira issues and commits is created by adding the Jira issue key (ABC-123 or MAIN-345) in the commit message.
 
 Example commit messages:
 
-**ABC-123 added a bug fix**
+**```ABC-123 added a bug fix```**
 
-**MAIN-345 adding important new feature**.
+**```MAIN-345 adding important new feature.```**
 
 
 
@@ -108,7 +106,7 @@ Check the video for more instructions:
 
 Commit has a valid Jira issue key
 
- Try to find indexed commit in Jira Cloud
+ - Try to find indexed commit in Jira Cloud
 
 The commit may be indexed by Jira Cloud - but not associated with any Jira issues. You can verify this with the following steps:
 
@@ -122,7 +120,7 @@ If you find the commit - you can then fix commit association by clicking on **Ch
 
 Commit is indexed
 
- Check if commit is showing now
+ - Check if commit is showing now
 
 Where you can see commits:
 

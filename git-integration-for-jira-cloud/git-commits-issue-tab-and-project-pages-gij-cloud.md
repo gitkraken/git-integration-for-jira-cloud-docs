@@ -11,7 +11,7 @@ taxonomy:
 **Features**
 
 *   By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Git Commits Issue and Project Tabs enabled.  ([How to disable](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page/))
-*   By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Git Commits Issue and Project Tabs disabled.  ([How to enable](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page/))
+*   By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Git Commits Issue and Project Tabs disabled.  ([How to enable](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page-gij-cloud)
 
 
 

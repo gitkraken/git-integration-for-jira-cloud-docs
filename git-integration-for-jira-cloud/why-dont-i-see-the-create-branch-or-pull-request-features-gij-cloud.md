@@ -25,7 +25,7 @@ The **Create branch** and **Create pull/merge requests** features are enable
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/421593107/gitcloud-gitmgr-full-feature-sel.png?version=1&modificationDate=1638463123267&cacheVersion=1&api=v2)
 
-See our [integration guides](/git-integration-for-jira-cloud/Integration-Guide) for each Full feature integration option.
+See our [integration guides](/git-integration-for-jira-cloud/integration-guide-gij-cloud/) for each Full feature integration option.
 
 The regular Git integration and Limited connect feature Git option does not offer the Create branch and Create pull/merge request features.
 

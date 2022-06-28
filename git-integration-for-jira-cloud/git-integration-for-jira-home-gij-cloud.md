@@ -9,25 +9,29 @@ taxonomy:
 
 Everything you need to know about Git Integration for Jira Cloud.
 
-Check out the introduction video and links below to get started with GitKraken Client. Use the left navigation to explore further.
+Check out the links below to get started with Git Integration for Jira. Use the left navigation to explore further.
 
+Looking for information on the server or data center version? [Click here](/git-integration-for-jira-data-center/git-integration-for-jira-home-self-manged/)
 
-## Getting Started
+## Getting started
 
-- [Introduction](/git-integration-for-jira-self-managed/introduction/) - Learn about Git Integration for Jira Cloud.
-- [Installation](/git-integration-for-jira-self-managed/installation/) - How to install.
-- [Integration Guides](git-integration-for-jira-self-managed/integration-guides/) - All about setting up and using Git Integration for Jira with your preffered git provider.
-- [Features](git-integration-for-jira-self-managed/features/) - Learn more about all of the offered features.
+<div class='embed-container embed-container--16-9'>
+        <iframe width='709' height='443' src='https://fast.wistia.net/embed/iframe/8c0iq4hwdt?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div> 
+
+Direct links to the above [Getting started](https://bigbrassband.wistia.com/medias/8c0iq4hwdt) video as well as [Installation](https://bigbrassband.wistia.com/medias/m9u64t1a3h) video.
 
 ***
 
 ## Knowledgebase  
 
-- [Frequently Asked Questions](/git-integration-for-jira-self-managed/frequently-asked-questions/) - Find answers to frequently asked questions.
-- [How-to Articles](/git-integration-for-jira-self-managed/how-to-articles/) - Learn how to do common setups and workflows.
-- [Troubleshooting](/git-integration-for-jira-self-managed/troubleshooting-articles/) - In-depth articles to help you diagnose and solve problems. 
-- [Known Issues](/git-integration-for-jira-self-managed/known-issues/) - problems that occur with some configurations their accompanying workarounds.
-- [Hooks and Webhooks](git-integration-for-jira-self-managed/hooks-and-webhooks/) - all about hooks!
+- [Integration Guides](git-integration-for-jira-cloud/integration-guide-gij-cloud/) - All about setting up and using Git Integration for Jira with your preffered git provider.
+- [Features](git-integration-for-jira-self-managed/features-gij-cloud/) - Learn more about all of the offered features.
+- [Frequently Asked Questions](/git-integration-for-jira-self-managed/frequently-asked-questions-gij-cloud/) - Find answers to frequently asked questions.
+- [How-to Articles](/git-integration-for-jira-self-managed/how-to-articles-gij-cloud/) - Learn how to do common setups and workflows.
+- [Troubleshooting](/git-integration-for-jira-self-managed/troubleshooting-articles-gij-cloud/) - In-depth articles to help you diagnose and solve problems. 
+- [Known Issues](/git-integration-for-jira-self-managed/known-issues-gij-cloud/) - problems that occur with some configurations their accompanying workarounds.
+- [Hooks and Webhooks](git-integration-for-jira-self-managed/hooks-and-webhooks-gij-cloud/) - all about hooks!
 
 ***
 
@@ -40,5 +44,5 @@ Join our GitKraken public slack community and interact with other Git Integratio
 [Join GitKraken Slack](https://slack.gitkraken.com/)
 
 Have an idea for how to improve Git Integration for Jira, found a bug, or need technical support? Then please contact our support team.
-[Support Portal](https://bigbrassband.atlassian.net/servicedesk/customer/portal/9) or [Email ✉](/git-integration-for-jira-self-managed/email-support/)
+[Support Portal](https://bigbrassband.atlassian.net/servicedesk/customer/portal/9) 
 

@@ -25,5 +25,5 @@ taxonomy:
 5.  Start integrating your repositories with Git Integration for Jira Cloud app.
 
 
-[Installation via Atlassian Marketplace »](/git-integration-for-jira-cloud/installation-via-atlassian-marketplace/)
+[Installation via Atlassian Marketplace »](/git-integration-for-jira-cloud/installation-via-atlassian-marketplace-gij-cloud)
 

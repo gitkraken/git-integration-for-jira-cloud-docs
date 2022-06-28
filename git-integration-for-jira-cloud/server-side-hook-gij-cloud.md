@@ -156,5 +156,3 @@ for c, msg in commits.iteritems():
         print >> sys.stderr, 'Install pre-commit hook (https://bigbrassband.com/api-doc.html#cmhook) to run this check at the commit time'
         sys.exit(1)
 ```
-
-

@@ -24,3 +24,4 @@ These two policies are in place because:
 
 
 For more informaiton, see [GitLab releases](https://about.gitlab.com/releases/categories/releases/).
+

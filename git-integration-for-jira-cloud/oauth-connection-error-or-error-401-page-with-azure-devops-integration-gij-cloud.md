@@ -36,4 +36,3 @@ Git Integration for Jira Cloud requires Git admins to allow the third-party app 
 **Contact Us**
 
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
-

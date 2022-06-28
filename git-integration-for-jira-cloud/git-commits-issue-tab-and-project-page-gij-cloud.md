@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 
-This setting is part of the [**General settings**](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud.
+This setting is part of the [**General settings**](/git-integration-for-jira-cloud/general-settings-gij-cloud) configuration page for Git Integration for Jira Cloud.
 
 **Default settings**
 This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
@@ -20,7 +20,7 @@ This setting is turned off by default in [**Dev Info for Jira Cloud**](https://
 
 This setting will enable/disable the **Git Commits Issue tab** and the **Git Commits Project** page. These locations show the list of git commits associated to the Jira Issue and Jira Project, respectively. The list is grouped by repository and sorted by commit time.
 
-For more details, see [**Features: Git Commits Issue tab and Project Page (Jira Cloud)**](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page/).
+For more details, see [**Features: Git Commits Issue tab and Project Page (Jira Cloud)**](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page-gij-cloud).
 
 **Permissions**
 The **View developer tools** _permission_ is required to view the Git Commits Issue Tab and Projects Page. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.

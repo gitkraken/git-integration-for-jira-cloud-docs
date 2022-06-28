@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/gitlab-com-ce-ee/).
+Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/gitlab-ce-ee-gij-self-managed).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85524528/image-20200815-134810.png?version=1&modificationDate=1597500982662&cacheVersion=1&api=v2&width=374&height=84)
 
@@ -73,13 +73,13 @@ For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/e
 
 If two-factor authentication is enabled for your GitLab Server account, you will need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitLab Server account for increased security.
 
-While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens/) for a quick step-by-step guide to get you started.
+While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for a quick step-by-step guide to get you started.
 
 ## Using Git service integration
 
 Support for Gitlab API v3 is deprecated. We recommend to use **GitLab API v4** when adding new integrations for increased security.
 
-This process requires an existing GitLab Server EE or GitLab Server CE. If your GitLab Server version is 10.2 or newer, a [personal access token](/git-integration-for-jira-cloud/creating-personal-access-tokens/) must be configured.
+This process requires an existing GitLab Server EE or GitLab Server CE. If your GitLab Server version is 10.2 or newer, a [personal access token](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) must be configured.
 
 We recommend using the Full feature integrations panel to connect multiple repositories from your GitLab CE/EE account.
 
@@ -102,12 +102,12 @@ We recommend using the Full feature integrations panel to connect multiple repos
 
     2.  Enter the **Host URL** of the GitLab Server
 
-    3.  Enter the **Personal Access Token** for server authentication. 2FA must be enabled in your GitLab Server and [PAT has been configured](/git-integration-for-jira-cloud/creating-personal-access-tokens/).
+    3.  Enter the **Personal Access Token** for server authentication. 2FA must be enabled in your GitLab Server and [PAT has been configured](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
 
     4.  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed. These settings are used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page.
 
         ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85524528/gitcloud-integration-advanced-options-wo-sslverify(c).png?version=1&modificationDate=1649688737208&cacheVersion=1&api=v2&width=533&height=279)
-        1.  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories. For more information on GitLab custom API paths, see [GitLab API](https://docs.gitlab.com/ee/api/projects.html). For more examples, see article [Jira Cloud: Working with Custom API Path](/wiki/spaces/GITCLOUD/pages/133201972/Working+with+Custom+API+Path).
+        1.  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories. For more information on GitLab custom API paths, see [GitLab API](https://docs.gitlab.com/ee/api/projects.html). For more examples, see article [Jira Cloud: Working with Custom API Path](/git-integration-for-jira-cloud/working-with-custom-api-path-gij-cloud).
 
             ```java
             GitLab version API support:
@@ -117,7 +117,7 @@ We recommend using the Full feature integrations panel to connect multiple repos
 
         2.  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
             Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
-            To know more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters/).
+            To know more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
     5.  While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
@@ -141,7 +141,7 @@ The Git Integration for Jira app supports GitLab API v4 (in both Jira Cloud and 
 For newer GitLab authentication - in order to access a Git repository over HTTP, use the username as the username and the PAT for the password.
 
 **Administrators**
-If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration**.
+If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ Actions ➜ **Edit integration**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85524528/gitcloud-edit-integration-feature-cfg-req-user-PAT.png?version=1&modificationDate=1649690453368&cacheVersion=1&api=v2&width=680&height=75)
 
@@ -151,9 +151,9 @@ This process requires an existing GitLab CE/EE git repository. Look for the the
 
 Use this information to connect the GitLab CE/EE git repository to your Jira Cloud via Git Integration for Jira app:
 
-[Single git repository integration (HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/)
+[Single git repository integration (HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
 
-[Single git repository integration (SSH)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-ssh/)
+[Single git repository integration (SSH)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-ssh-gij-cloud)
 
 There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
@@ -165,7 +165,7 @@ The Git Integration for Jira app automatically configures web linking for GitLab
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-cloud/web-linking/).
+For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-cloud/web-linking-gij-cloud).
 
 ## Viewing git commits in Jira Cloud
 
@@ -178,7 +178,7 @@ For more information on this feature, see [Documentation: Web linking](/git-inte
 4.  Click **View Full Commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues/).
+For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud).
 
 ## Working with branches and merge requests with GitLab CE/EE
 
@@ -192,7 +192,7 @@ Main branch for repositories within an integration can only be changed on the gi
 
 ### Creating Branches
 
-On your Jira Cloud, open a Jira issue. On the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel/), click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
+On your Jira Cloud, open a Jira issue. On the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud), click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85524528/gitcloud-gitlab-ceee-create-branch-dlg.png?version=1&modificationDate=1649691446984&cacheVersion=1&api=v2&width=680&height=221)
 
@@ -206,16 +206,16 @@ On your Jira Cloud, open a Jira issue. On the [Jira Git integration development 
 
     3.  Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings/) page.
+    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
-2.  Choose a **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one connected repository - use the [User settings](/git-integration-for-jira-cloud/gitlab-com/) page.
+2.  Choose a **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one connected repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Enter a **Branch name** or leave it as is (recommended).
 
 4.  Click **Create branch** to complete this process.
 
 
-For more detailed information on this feature, see [Create Branch](/git-integration-for-jira-cloud/Create-branch).
+For more detailed information on this feature, see [Create Branch](/git-integration-for-jira-cloud/create-branch-gij-cloud).
 
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
@@ -236,9 +236,9 @@ The merge request feature works the same as merge request. On your Jira Cloud, o
 
     3.  Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/gitlab-com/) page.
+    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/gitlab-com-gij-cloud) page.
 
-2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one connected repository - use the [User settings](/git-integration-for-jira-cloud/gitlab-com/) page.
+2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one connected repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Set _**master**_ as the **Target branch**.
 
@@ -251,7 +251,7 @@ Merge requests are still indexed based on branch name even if the MR title does 
 
 **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
 
-For more detailed information on this feature, see [Creating merge requests](/git-integration-for-jira-cloud/create-pull-or-merge-request/).
+For more detailed information on this feature, see [Creating merge requests](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud)
 
 
 The merge request is listed on the developer panel of the Jira issue page.

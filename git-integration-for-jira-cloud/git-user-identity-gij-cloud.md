@@ -34,3 +34,5 @@ Hosting services _(like GitHub and BitBucket, for example)_ try to match these
     The Git Integration for Jira app will use the email from a commit and will search for a Jira user using this email. If the Jira user is found, the associated link to his Jira profile is displayed with the accompanying Jira avatar beside the name.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923023946/image-20210728-082525.png?version=1&modificationDate=1630063581337&cacheVersion=1&api=v2&width=421&height=69)
+
+

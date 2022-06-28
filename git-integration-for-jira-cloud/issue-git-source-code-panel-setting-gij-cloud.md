@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 
-This setting is part of the [**General settings**](/git-integration-for-jira-cloud/General-Settings) configuration page for Git Integration for Jira Cloud.
+This setting is part of the [**General settings**](/git-integration-for-jira-cloud/general-settings-gij-cloud) configuration page for Git Integration for Jira Cloud.
 
 **Default settings**
 This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
@@ -26,7 +26,7 @@ Enable/disable this setting to have Git Integration for Jira app show/hide the 
 The **View developer tools** _permission_ is required to view the Git Integration panel.  Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
 
 
-For more details, see [**General Settings: Issue Git Integration Panel (Jira Cloud)**](http://link.bigbrassband.com/jira-gitcloud-issue-git-source-code-panel) in our Confluence space.
+For more details, see [**General Settings: Issue Git Integration Panel (Jira Cloud)**](/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud) in our Confluence space.
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
 

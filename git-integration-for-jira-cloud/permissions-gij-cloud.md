@@ -6,7 +6,11 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/21vd3arsj6) _to open this video in a new browser tab for more viewing options._
+
+<p><a href="https://bigbrassband.wistia.com/medias/21vd3arsj6?wvideo=21vd3arsj6"><img src="https://embed-ssl.wistia.com/deliveries/e02752d1bb406d091a57caf57e0f2a9103bc20bd.jpg?image_play_button_size=2x&amp;image_crop_resized=960x600&amp;image_play_button=1&amp;image_play_button_color=54bbffe0" width="400" height="250" style="width: 400px; height: 250px;"></a></p><p><a href="https://bigbrassband.wistia.com/medias/21vd3arsj6?wvideo=21vd3arsj6">Git Integration for Jira Cloud - Permissions - BigBrassBand</a></p>
+
+
+_Click_ [_**here**_](https://bigbrassband.wistia.com/medias/21vd3arsj6) _ to view the video._
 
 ## Permissions requirement to display commit information
 
@@ -27,3 +31,4 @@ Consider the following criteria when setting permissions:
 *   Project permissions are configured on the project administration page. Different projects may have different permissions.
 
 *   Default permission scheme grants access to add-on to all members of _**administrators**_ and _**developers**_ groups. No additional configuration is required in this case.
+

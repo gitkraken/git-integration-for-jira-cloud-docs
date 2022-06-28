@@ -8,21 +8,21 @@ taxonomy:
 ---
 For more information on Webhook indexing:
 
-*   [Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-integration/)
+*   [Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-integration-gij-cloud)
 
-*   [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud/)
+*   [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/features-gij-cloud)
 
 
 With webhook indexing integration, there’s no need to enable indexing triggers in the git manager configuration page.
+
+
+## Video Guides
 
 For a step-by-step setup guide, watch the following demonstration videos:
 
 *   [Setup webhook indexing integration (Repository Level)](#Repository-Level)
 
 *   [Setup webhook indexing integration (Group Level)](#Group-Level)
-
-
-## Video Guides
 
 ### Repository Level
 
@@ -36,7 +36,7 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/uh616awfnj) _a
 
 The steps outlined below requires that [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app is already installed on your Jira Cloud instance. Otherwise, install the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app first from the Atlassian Marketplace.
 
-1.  ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Webhook indexing integration**
+1. **Webhook indexing integration**
 
     1.  On your Jira Cloud dashboard, go to **Apps** ➜ **Git Integration: Manage integrations**.
 
@@ -57,14 +57,14 @@ The steps outlined below requires that [Git Integration for Jira](https://market
         ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1503494176/gitcloud-managed-ui-webhook-idx-gitlab-setup(c).png?version=1&modificationDate=1648551862902&cacheVersion=1&api=v2)
         1.  Enter webhook indexing integration has been added to the manage integration list.
 
-        2.  ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Before clicking **Finish**, make sure to configure webhook for your git service. Use the **Webhook URL** and the **Secret key** then follow the steps below for repository level or organization level webhook setup.
+        2. Before clicking **Finish**, make sure to configure webhook for your git service. Use the **Webhook URL** and the **Secret key** then follow the steps below for repository level or organization level webhook setup.
 
-2.  ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) REPOSITORY LEVEL **GitLab Repository webhook setup** (see full video walkthrough on this page)
+2. REPOSITORY LEVEL **GitLab Repository webhook setup** (see full video walkthrough on this page)
     Open a new browser tab and login to your GitLab web portal to setup webhook triggers for the selected _**repository**_. Configure a webhook on your git service by performing the following steps:
 
     1.  On your GitLab web portal, open a repository to work on.
 
-    2.  Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Settings**.
+    2.  Go to **Settings**.
 
     3.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1503494176/gitlab-web-repo-portal-sample(c).png?version=1&modificationDate=1618662448010&cacheVersion=1&api=v2)
 
@@ -90,12 +90,12 @@ The steps outlined below requires that [Git Integration for Jira](https://market
 
     9.  The webhook configuration is added to the webhooks list.
 
-3.  ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) GROUP LEVEL **GitLab Group webhook setup** (see full video walkthrough on this page)
+3. GROUP LEVEL **GitLab Group webhook setup** (see full video walkthrough on this page)
     Open a new browser tab and login to your GitLab web portal to setup webhook triggers for the selected _**group**_. Configure a webhook on your git service by performing the following steps:
 
     1.  On your GitLab web portal, go to **Your groups** and open a group to work on.
 
-    2.  Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Settings**.
+    2.  Go to **Settings**.
 
     3.  ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1503494176/gitlab-group-setup-webhooks-01(c).png?version=1&modificationDate=1621094785971&cacheVersion=1&api=v2&width=612&height=419)
 
@@ -132,7 +132,7 @@ Edit integration settings via **Actions** on the Manage Git repository page. In 
 
 Make a commit if you don’t see commits in the Git Commits tab of an associated Jira issue.
 
-For information on this topic, see [Linking git commits, associating branches and pull requests to a Jira issue](/wiki/spaces/GITCLOUD/pages/1503526923).
+For information on this topic, see [Linking git commits, associating branches and pull requests to a Jira issue](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud).
 
 ## Git Roll Up tab
 
@@ -140,23 +140,23 @@ The Git Roll Up tab is now supported for GitLab webhook indexing integration.
 
 ## Limited features for GitLab webhook indexing integration
 
-The feature table displays the supported git features for the selected git server. For more information, see [Feature matrix for Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud/).
+The feature table displays the supported git features for the selected git server. For more information, see [Feature matrix for Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1503494176/gitcloud-webhook-indexing-compare-vs-full-gitlab.png?version=1&modificationDate=1648552846840&cacheVersion=1&api=v2&width=566&height=372)
 
 ### ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) Works with git servers behind firewall
 
-The webhooks indexing integration limits the features available. However, networks hosting git do not need to be updated to allow incoming requests as long as outbound requests can be made. See [Webhook Indexing explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer/) for more information.
+The webhooks indexing integration limits the features available. However, networks hosting git do not need to be updated to allow incoming requests as long as outbound requests can be made. See [Webhook Indexing explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud) for more information.
 
 ### ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) View commits, branches, pull requests in Jira
 
-Commits, branches, pull requests are visible in the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Development Information** panel as well as in the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Git Commits issue** tab and ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Git Integration** side panel of the Jira issue. Jira administrators can regulate access to these displays using the _View development tools_ permission.
+Commits, branches, pull requests are visible in the**Jira Development Information** panel as well as in the **Git Commits issue** tab and **Git Integration** side panel of the Jira issue. Jira administrators can regulate access to these displays using the _View development tools_ permission.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1503494176/gitcloud-jira-issue-webhook-idx-gitlab.png?version=2&modificationDate=1618832120050&cacheVersion=1&api=v2&width=680&height=369)
 
-### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) View tags in Jira
+### View tags in Jira
 
-COMMING SOON
+COMING SOON
 
 ### ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) Support for Automation for Jira + Smart Commits
 
@@ -173,7 +173,7 @@ COMMING SOON
 5.  `Pull request merged`
 
 
-**Smart Commits:** Atlassian’s Smart Commits are enabled by default. Additional Smart Commit commands are available. See [Smart Commits](https://bigbrassband.com/git-integration-for-jira/documentation/smart-commits.html) for more information.
+**Smart Commits:** Atlassian’s Smart Commits are enabled by default. Additional Smart Commit commands are available. See [Smart Commits](/git-integration-for-jira-cloud/smart-commits-gij-cloud) for more information.
 
 ### ![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) Repository Browser
 
@@ -186,15 +186,15 @@ The Repository Browser allows users to view commits in git repositories by branc
 
 ### ![(error)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/error.png) Create branches and pull requests in Jira
 
-This feature is not supported with webhook indexing integration. For more information, see [Feature matrix of Git Integration for Jira Cloud](/wiki/spaces/GITCLOUD/pages/1470398499/Feature+matrix+of+Git+Integration+for+Jira+Cloud)
+This feature is not supported with webhook indexing integration. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud)
 
-### ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Support for large number of commits in git pushes
+### Support for large number of commits in git pushes
 
-Git servers may truncate how much of the activity is captured in a webhook on large git push events resulting in some git activity. For more information, see [Feature matrix of Git Integration for Jira Cloud](/wiki/spaces/GITCLOUD/pages/1470398499/Feature+matrix+of+Git+Integration+for+Jira+Cloud).
+Git servers may truncate how much of the activity is captured in a webhook on large git push events resulting in some git activity. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud).
 
 ### ![(error)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/error.png) Indexing full repository history
 
-Webhook indexing integration will only show new commit/branch/pull request activity once webhooks are configured on the git server according to this wizard. For more information, see [Feature matrix of Git Integration for Jira Cloud](/wiki/spaces/GITCLOUD/pages/1470398499/Feature+matrix+of+Git+Integration+for+Jira+Cloud).
+Webhook indexing integration will only show new commit/branch/pull request activity once webhooks are configured on the git server according to this wizard. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud).
 
 ### ![(error)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/error.png) View source code in Jira
 

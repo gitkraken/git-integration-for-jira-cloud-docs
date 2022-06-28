@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-The Git Integration for Jira app adds two features on the Jira issue developer panel –  **Create branch**, and **Create pull/merge request**. For more information on where to access them, see the [Jira Git development panel documentation](https://bigbrassband.com/git-integration-for-jira/documentation/jira-developer-panel.html).
+The Git Integration for Jira app adds two features on the Jira issue developer panel –  **Create branch**, and **Create pull/merge request**. For more information on where to access them, see the [Jira Git development panel documentation](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud).
 
 Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
 
@@ -25,10 +25,10 @@ Main branch for repositories within an integration can only be changed on the gi
 
 Open a Jira issue then on the developer panel, click **Create Branch** label to create a branch for the selected repository.
 
-For detailed information on this feature, see [Creating branches from Jira](/git-integration-for-jira-cloud/Create-branch).
+For detailed information on this feature, see [Creating branches from Jira](/git-integration-for-jira-cloud/create-branch-gij-cloud).
 
 ## Creating pull/merge requests
 
 Open a Jira issue then on the developer panel, click **Create pull/merge request** label to create a pull/merge request for the selected repository.
 
-For detailed information on this feature, see [Creating pull/merge requests from Jira](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/733315235).
+For detailed information on this feature, see [Creating pull/merge requests from Jira](/git-integration-for-jira-cloud/creating-branches-and%20pull-merge-requests-gij-cloud)

@@ -18,9 +18,9 @@ Open a Jira issue then go to the Git Roll Up tab to view commit statistics, di
 
 Sort the code statistics by clicking the respective **Sort** button then selecting the required sorting option.
 
-|     |     |
-| --- | --- |
-| ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025721/gitcloud-git-rollup-sort01.png?version=1&modificationDate=1635417146113&cacheVersion=1&api=v2&width=168&height=228) | ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025721/gitcloud-git-rollup-sort02.png?version=1&modificationDate=1635417306092&cacheVersion=1&api=v2&width=168&height=288) |
+![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025721/gitcloud-git-rollup-sort01.png?version=1&modificationDate=1635417146113&cacheVersion=1&api=v2&width=168&height=228)
+
+![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025721/gitcloud-git-rollup-sort02.png?version=1&modificationDate=1635417306092&cacheVersion=1&api=v2&width=168&height=288)
 
 
 Select roll up options by clicking the respective **Rollup** button.

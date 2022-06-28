@@ -51,3 +51,4 @@ Additionally, we’re interested in talking with Solutions Partners who are inte
 [Read the GitKraken blog announcement here](https://www.gitkraken.com/blog/gitkraken-acquires-git-integration-jira-bigbrassband)
 
 Questions?  Contact us at [support@bigbrassband.com](mailto:support@bigbrassband.com)
+

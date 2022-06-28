@@ -20,4 +20,4 @@ The git commit will get associated with the Jira issue if the commit message inc
 
  Git administrator »
 
-If you want to enforce the commit with a hook, please install this Git commit hook script - [Commit-msg Hook](/git-integration-for-jira-cloud/commit-msg-hook/).
+If you want to enforce the commit with a hook, please install this Git commit hook script - [Commit-msg Hook](/git-integration-for-jira-cloud/commit-msg-hook-gij-cloud).

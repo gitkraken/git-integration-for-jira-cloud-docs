@@ -40,7 +40,7 @@ The `#time` command will record time tracking information against a Jira issue
 | The above examples will add the respective time and worklog comment text against the Jira issues. |
 | The Jira time tracking feature allows users to log the length of time spent working on issues. Jira administrators must have enabled this feature for this smart commit to work. |
 
-## #<transition-name>
+## #\<transition-name\>
 
 This command works both in Jira Server/Cloud.
 
@@ -48,7 +48,7 @@ The `#<transition-name>` command will move the Jira issue to a particular work
 
 The Jira user must have the appropriate project permissions to be able to transition issues.
 
-**Syntax:** **ISSUE\_KEY** **#<transition-name>** `[Your commit comment text]`
+**Syntax:** **ISSUE\_KEY** **#\<transition-name\>** `[Your commit comment text]`
 
 |     |
 | --- |
