@@ -14,7 +14,8 @@ taxonomy:
     </div>
     <div class="imsgbox">
         The information on this page is for BigBrassBand Atlassian Cloud products only. These currently include Git Integration for Jira Cloud and Dev Info for Jira Cloud.<br><br>
-        <b>Jira Server and Jira Data Center products are not hosted by BigBrassBand.</b></div>
+        <b>Jira Server and Jira Data Center products are not hosted by BigBrassBand.</b>
+    </div>
     </div>
 </div>
 <br>
@@ -109,7 +110,6 @@ To allow self-hosted git repositories to be indexed by BigBrassBand Cloud applic
     <div class="imsgbox">
         Only open the ports required by your git server.<br><br>
         <i><b>For example:</b> If your self-managed GitLab or GitHub Enterprise is using HTTPS, only open port 443.</i>
-        </div>
     </div>
     </div>
 </div>
@@ -227,4 +227,3 @@ For more information on this feature, see the following articles:
 
 If you need additional support connecting your self-hosted git servers or repositories - please contact [BigBrassBand Support](https://bigbrassband.atlassian.net/servicedesk/customer/portals).
 
-<br>
