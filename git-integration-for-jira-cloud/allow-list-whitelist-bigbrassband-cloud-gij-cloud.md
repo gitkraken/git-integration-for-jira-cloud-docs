@@ -20,7 +20,7 @@ taxonomy:
 </div>
 <br>
 
-If using restrictive firewall or proxy server settings, you or your network admin will need to allow (allow list / whitelist) a specific IP address to ensure BigBrassBand Cloud applications work as expected. Specifically – if your team hosts a private git server (GitHub Enterprise, GitLab CE/EE, Microsoft TFS or Azure DevOps Server, Gerrit, Bitbucket Server, or a plain git server).
+If using restrictive firewall or proxy server settings, you or your network admin will need to allow (allow list / whitelist) a specific IP  address to ensure BigBrassBand Cloud applications work as expected. Specifically – if your team hosts a private git server (GitHub Enterprise, GitLab CE/EE, Microsoft TFS or Azure DevOps Server, Gerrit, Bitbucket Server, or a plain git server).
 
 Alternatively, you can use our [Webhook indexing feature](#Webhooks-indexing-integration-for-private-networks) to avoid incoming API requests.
 
