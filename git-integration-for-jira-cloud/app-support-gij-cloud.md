@@ -6,11 +6,9 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-The Git Integration for Jira app currently supports **Jira** **7.13** to **8.22**!
+The Git Integration for Jira app currently supports **Jira** **8.0** to **9.0**!
 
 We are committed to provide you with an efficient and reliable support. Scroll down to see helpful tips to get started.
-
-**What’s on this page:**
 
 * * *
 
@@ -24,8 +22,13 @@ For more information, see [**Atlassian Jira Cloud Supported Browsers**](https://
 
 ## Quick Installation Video
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/m9u64t1a3h?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-**Installation video will be uploaded/updated very soon.**
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/m9u64t1a3h'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
 
 No changes necessary to your Git server. This Jira app acts as a regular Git client.
 
@@ -46,10 +49,6 @@ If there is an error encountered when connecting to a repository, a similar inde
 * * *
 
 ## Atlassian Support End of Life
-
-**Important changes to Atlassian server and Data Center products**
-
-Atlassian is making changes to the server and Data Center products, including the end of sale for new server licenses on February 2, 2021 and the end of support for server on February 2, 2024. [Learn what this means for you](https://www.atlassian.com/migration/journey-to-cloud)
 
 We are dropping support for **Java 7**, **Jira 7.0 and older** and Internet Explorer 11.
 
@@ -81,6 +80,7 @@ The table below shows the Jira Version, when [Atlassian will stop supporting th
 | 8.20 | October 19, 2023 | Edge | Yes\* |
 | 8.21 | December 9, 2023 | Edge | Yes\* |
 | 8.22 | February 16, 2024 | Edge | Yes\* |
+| 9.0 | June 21, 2024 | Edge | Yes\* |
 
 \* See information below about retiring IE11 support.
 
@@ -95,3 +95,4 @@ In view of this, BigBrassBand LLC will also follow this decision effectively:
 *   For all Atlassian Cloud products, support will end on **31 March 2020**.
 
 *   For Atlassian server and data center products, the last version to support IE11 will be released between **September 2019** and **March 2020**.
+

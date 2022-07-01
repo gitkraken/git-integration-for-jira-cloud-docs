@@ -18,16 +18,13 @@ Learn how to setup indexing triggers by following the steps in [**Indexing trigg
 
 Learn how to set and fire up [**Git integration + Automation for Jira**](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud).
 
+<br>
+
 ### More on administrator toolbox guides
 
-*   Page:
+[Initial setup guide](/git-integration-for-jira-cloud/initial-setup-guide-gij-cloud)
 
-    [Initial setup guide](/git-integration-for-jira-cloud/initial-setup-guide-gij-cloud) (Git Integration for Jira Cloud)
+[Permissions](/git-integration-for-jira-cloud/permissions-gij-cloud)
 
-*   Page:
+[Productivity guide](/git-integration-for-jira-cloud/productivity-guide-gij-cloud)
 
-    [Permissions](/git-integration-for-jira-cloud/permissions-gij-cloud) (Git Integration for Jira Cloud)
-
-*   Page:
-
-    [Productivity guide](/git-integration-for-jira-cloud/productivity-guide-gij-cloud) (Git Integration for Jira Cloud)

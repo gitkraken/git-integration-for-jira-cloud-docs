@@ -7,17 +7,28 @@ taxonomy:
 
 ---
 
-<p><a href="https://bigbrassband.wistia.com/medias/21vd3arsj6?wvideo=21vd3arsj6"><img src="https://embed-ssl.wistia.com/deliveries/e02752d1bb406d091a57caf57e0f2a9103bc20bd.jpg?image_play_button_size=2x&amp;image_crop_resized=960x600&amp;image_play_button=1&amp;image_play_button_color=54bbffe0" width="400" height="250" style="width: 400px; height: 250px;"></a></p><p><a href="https://bigbrassband.wistia.com/medias/21vd3arsj6?wvideo=21vd3arsj6">Git Integration for Jira Cloud - Permissions - BigBrassBand</a></p>
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/21vd3arsj6?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-
-_Click_ [_**here**_](https://bigbrassband.wistia.com/medias/21vd3arsj6) _ to view the video._
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/21vd3arsj6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
 ## Permissions requirement to display commit information
 
-Users must have ‘_**View Development Tools**_’ permission in order to view commit information on the issue page.
-
-Administrators must grant themselves the ‘_**View Development Tools**_’ permission in order to view commit information on the issue pages.
-
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Users must have '<b><i>View Development Tools</i></b>' permission in order to view commit information on the issue page.<p style='margin-bottom: 0px'>Administrators must grant themselves the '<b><i>View Development Tools</i></b>' permission in order to view commit information on the issue pages.</p>
+    </div>
+    </div>
+</div>
+<br>
 
 The user needs to be in the developers group to view code diffs when default permission scheme is used.
 

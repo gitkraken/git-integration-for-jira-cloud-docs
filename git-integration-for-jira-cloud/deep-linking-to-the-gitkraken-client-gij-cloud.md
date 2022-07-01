@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-NEW FEATURE
+<b style='color: magenta'>NEW FEATURE</b>
 
 ## Feature
 
@@ -14,7 +14,14 @@ We've added the ability to deep link from repositories, commits, branches, and t
 
 ## Video
 
-_Click_ [_**here**_](https://bigbrassband.wistia.com/medias/qhlf1natdt) _to see a larger version of this video. (In the new window that opens, use the "fullscreen" icon in the control panel to expand the size of the video)_
+<div class='embed-container' style='padding-bottom: 69.58%'>
+    <iframe width='709' height='493' src='https://fast.wistia.com/embed/iframe/qhlf1natdt?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/qhlf1natdt'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
 ## Deep link locations
 
@@ -35,15 +42,21 @@ Individual Jira Cloud users can enable or disable the GitKraken integration with
 
 3.  Enable/disable the setting under the **Connected apps** section.
 
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1952579617/CleanShot%202021-09-20%20at%2015.58.58@2x-20210920-225939.png?version=1&modificationDate=1632232525561&cacheVersion=1&api=v2&width=680&height=465)
+
+<br>
 
 ## Administrator settings
 
 Jira Cloud administrators can disable or enable the GitKraken integration with Git Integration for Jira Cloud for all Jira users. All Jira Cloud users can enable the GitKraken integration separately (see [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) above).
 
-Go to the Git Integration for Jira – **General settings** tab (sidebar).
+1.  Go to the Git Integration for Jira – **General settings** tab (sidebar).
 
-1 Enable/disable this setting under **Jira Issue View Options**
+2.  Enable/disable this setting under **Jira Issue View Options**
+
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1952579617/CleanShot%202021-09-20%20at%2016.34.08@2x-20210920-233432.png?version=1&modificationDate=1632232524502&cacheVersion=1&api=v2)
+

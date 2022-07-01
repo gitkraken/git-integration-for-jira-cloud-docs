@@ -7,12 +7,36 @@ taxonomy:
 
 ---
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This setting is part of the <a href="/git-integration-for-jira-cloud/general-settings-gij-cloud">General settings</a> configuration page for Git Integration for Jira Cloud.
+    </div>
+    </div>
+</div>
 
-This setting is part of the [**General settings**](/git-integration-for-jira-cloud/general-settings-gij-cloud) configuration page for Git Integration for Jira Cloud.
-
-**Default settings**
-This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
-This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Default settings</b><br>
+        <ul>
+            <li>
+                This setting is enabled in <a href="https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud" target="_blank"><b>Git Integration for Jira Cloud</b></a> app by default.
+            </li>
+            <li>
+                This setting is turned off by default in <a href="https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview" target="_blank"><b>Dev Info for Jira Cloud</b></a> app.
+            </li>
+        </ul>
+    </div>
+    </div>
+</div>
+<br>
 
 ## Enable GitKraken integration
 
@@ -20,9 +44,18 @@ This setting is turned off by default in [**Dev Info for Jira Cloud**](https://
 
 Enable this setting to turn on the deep linking feature which allows you to quickly move between Jira and your Git source code with the GitKraken git client app. GitKraken supports deep linking into Git Integration for Jira as well. To learn more about this feature, see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
 
-**Permissions**
-The **View developer tools** _permission_ is required to view the git commits. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
-
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Permissions</b><br>
+        The <b>View developer tools</b> <i>permission</i> is required to view the git commits. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
+    </div>
+    </div>
+</div>
+<br>
 
 For more details, see [Features: Deep Linking to the GitKraken Git client (Jira Cloud)](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client-gij-cloud).
 

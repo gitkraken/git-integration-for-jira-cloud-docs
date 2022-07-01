@@ -6,23 +6,43 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-**Note**
 
-*   By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Git Roll Up Issue Tab enabled. ([How to disable](#GitRollUpIssueTab-howToEnableDisable))
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Features</b>
+        <ul>
+            <li>
+                By default, <a href='https://marketplace.atlassian.com/4984'>Git Integration for Jira</a> has the Git Roll Up Issue Tab enabled. (<a href='#how-can-a-jira-administrator-enable-or-disable-the-git-roll-up-issue-tab'>How to disable</a>)
+            </li>
+            <li>
+                By default, <a href='https://marketplace.atlassian.com/1219270'>Dev Info for Jira</a> has the Git Roll Up Issue Tab disabled. (<a href='#how-can-a-jira-administrator-enable-or-disable-the-git-roll-up-issue-tab'>How to enable</a>)
+            </li>
+        </ul>
+    </div>
+    </div>
+</div>
 
-*   By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Git Roll Up Issue Tab disabled. ([How to enable](#GitRollUpIssueTab-howToEnableDisable))
-
-
-The **View developer tools** _permission_ is required to view the Git Roll Up Issue Tab. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
-
-
-**What's on this page:**
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <b>View developer tools</b> <i>permission</i> is required to view the Git Roll Up Issue Tab. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
+    </div>
+    </div>
+</div>
+<br>
 
 * * *
 
 ## Introduction
 
-The Git Roll Up Issue tab displays a summary of the files, lines and the developers who made the changes in the commits commits associated with the Jira issue. 
+The Git Roll Up Issue tab displays a summary of the files, lines and the developers who made the changes in the commits commits associated with the Jira issue.
 
 Some notable sections:
 
@@ -34,6 +54,8 @@ Some notable sections:
 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/138510337/gitcloud-jira-issue-rollup-tab-sel.png?version=1&modificationDate=1638616149130&cacheVersion=1&api=v2&width=680&height=554)
+
+<br>
 
 ## How can a Jira administrator enable or disable the Git Roll Up issue tab?
 
@@ -48,6 +70,17 @@ Some notable sections:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/138510337/gitcloud-gencfg-git-rollup-sel.png?version=1&modificationDate=1638616220087&cacheVersion=1&api=v2&width=680&height=250)
 
-**Contact Us**
-If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com)
+<br>
+
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact Us</b><br>
+        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a>() or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+    </div>
+    </div>
+</div>
 
