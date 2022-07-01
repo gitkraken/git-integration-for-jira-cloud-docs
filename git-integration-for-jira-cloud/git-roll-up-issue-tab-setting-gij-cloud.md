@@ -7,11 +7,30 @@ taxonomy:
 
 ---
 
-This setting is part of the [**General settings**](/git-integration-for-jira-cloud/general-settings-gij-cloud) configuration page for Git Integration for Jira Cloud.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This setting is part of the <a href='/git-integration-for-jira-cloud/general-settings-gij-cloud'>General settings</a> configuration page for Git Integration for Jira Cloud.
+    </div>
+    </div>
+</div>
 
-**Default settings**
-This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
-This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Default settings</b><br>
+        This setting is enabled in <a href="https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud"><b>Git Integration for Jira Cloud</b></a> app by default.<br>
+        This setting is turned off by default in <a href="https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview">Dev Info for Jira Cloud</a> app.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Show Git Roll Up Issue Tab
 
@@ -21,8 +40,18 @@ The Git Roll Up Issue tab displays a summary of the files, lines and the develop
 
 For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integration-for-jira-cloud/git-roll-up-tab-gij-cloud).
 
-**Permissions**
-The **View developer tools** _permission_ is required to view the Git Roll Up Issue Tab. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Permissions</b><br>
+        The <b>View developer tools</b> <i>permission</i> is required to view the Git Roll Up Issue Tab. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
+    </div>
+    </div>
+</div>
+<br>
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
 

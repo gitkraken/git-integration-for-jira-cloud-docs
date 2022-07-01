@@ -10,47 +10,58 @@ On this page, you will find videos showcasing important features of the app such
 
 Get started with connecting your favorite git host to Jira Cloud now!
 
+See sections:
+- [Installation](#installation)
+- [Administration](#administration)
+- [Integration](#integration)
+- [Customization](#customization)
+- [Support](#support)
 
+* * *
 
-**INSTALLATION**
-
-
+## Installation
 
 **[Installation with Jira 7 »](https://bigbrassband.wistia.com/medias/lr0jp6ntfd)**
 
 Learn quick installation steps of the Git Integration app for Jira Cloud.
 
+<br>
+
 **[The Git Commits Tab »](https://bigbrassband.wistia.com/medias/fp60i95l2w)**
 
 View information about commits, author, web links, code diff, etc. in the Git Commits tab.
+
+<br>
 
 **[Installation: Automatic and Manual Updating »](https://bigbrassband.wistia.com/medias/aoyowvw485)**
 
 Learn how automatic and manual updating of Git Integration for Jira Cloud app – the easy way.
 
+<br>
+
 **[Linking Git Commits to Jira »](https://bigbrassband.wistia.com/medias/cs229y2gzj)**
 
 Familiarize quick steps on how to associate git commits to Jira issues in Jira Cloud.
 
+<br>
 
-
-**ADMINISTRATION**
+## Administration
 
 **[Setting Permissions »](https://bigbrassband.wistia.com/medias/21vd3arsj6)**
 
 Learn how to set project permissions with View Development Tools. The "View Development Tools" project permission enables users/groups to view commits and related information in Jira Cloud.
 
+<br>
+
 **[Creating Branches and Merge/Pull Requests »](https://bigbrassband.wistia.com/medias/c5qh10mjgf)**
 
 Learn how to create branches, merge/pull requests by watching this video. These steps is also applicable to supported git hosts such as GitLab, GitHub, VSTS, TFS, etc.
 
+<br>
 
-
-**INTEGRATION**
+## Integration
 
 Quick and easy! Learn about the basics of integrating git repositories to Jira Cloud and associating git commits to a Jira issue. Click on a link to see specific steps for the selected git host.
-
-
 
 **[GitHub.com »](https://bigbrassband.wistia.com/medias/8jtnqzp79y)**
 
@@ -76,38 +87,49 @@ Quick and easy! Learn about the basics of integrating git repositories to Jira C
 
 **[HTTPS/HTTP/SSH »](https://bigbrassband.wistia.com/medias/bu0wamg1fx)**
 
+<br>
 
-
-**CUSTOMIZATION**
+## Customization
 
 **[Webhooks »](https://bigbrassband.wistia.com/medias/4o796wnrdx)**
 
 Learn how to configure webhooks for supported git hosts.
 
+<br>
+
 **[Web Linking »](https://bigbrassband.wistia.com/medias/zfxfemq7z8)**
 
 Learn how to setup web linking options for supported git hosts via git configuration page.
+
+<br>
 
 **[GitLab: Webhooks »](https://bigbrassband.wistia.com/medias/jp6bqtvkf4)**
 
 Learn how to configure webhooks for GitLab git hosts.
 
+<br>
+
 **[GitHub: Webhooks »](https://bigbrassband.wistia.com/medias/iqy5461ebq)**
 
 Learn how to configure webhooks for GitHub git hosts.
 
+<br>
 
-
-**SUPPORT**
+## Support
 
 **[GitLab.com Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
 
 Setup GitLab.com personal access tokens and scopes required for Git for Jira Cloud integration. This video is applicable to GitLab git hosts.
 
+<br>
+
 **[GitLab CE/EE Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
 
 Setup GitLab server personal access tokens and scopes required for Git for Jira Cloud integration. This video is applicable to GitLab git hosts.
 
+<br>
+
 **[Receive App Update Notifications »](https://bigbrassband.wistia.com/medias/u9rojnv0vv)**
 
 Configure Jira preferences to enable receiving of app update notifications.
+

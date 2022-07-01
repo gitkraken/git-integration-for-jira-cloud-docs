@@ -6,16 +6,37 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-**Default Settings**
 
-By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Repository Browser enabled. ([How to disable](https://bigbrassband.atlassian.net/wiki/content-only/viewpage.action?pageId=138706958&iframeId=fallback-mode&xdm_e=https://bigbrassband.atlassian.net/&xsm_c=fallback-mode-fake-key__15971815467303463&cp=/wiki&cv=0.0.0-fallback-mode&lic=none#RepositoryBrowser:Viewallrepositories-howToEnableDisable))
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Default Settings</b><br>
+        <ul>
+            <li>
+                By default, <a href="https://marketplace.atlassian.com/4984" target="_blank">Git Integration for Jira</a> ) has the Repository Browser enabled. (<a href="#">How to disable</a>)
+            </li>
+            <li>
+                By default, <a href="https://marketplace.atlassian.com/1219270" target="_blank">Dev Info for Jira</a> has the Repository Browser disabled. (<a href="#">How to enable</a>)
+            </li>
+        </ul>
+    </div>
+    </div>
+</div>
 
-By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Repository Browser disabled. ([How to enable](https://bigbrassband.atlassian.net/wiki/content-only/viewpage.action?pageId=138706958&iframeId=fallback-mode&xdm_e=https://bigbrassband.atlassian.net/&xsm_c=fallback-mode-fake-key__15971815467303463&cp=/wiki&cv=0.0.0-fallback-mode&lic=none#RepositoryBrowser:Viewallrepositories-howToEnableDisable))
-
-The **View developer tools** _permission_ is required to view the Git Roll Up Issue Tab. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
-
-
-**What’s on this page:**
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <b>View developer tools</b> <i>permission</i> is required to view the Git Roll Up Issue Tab (Jira developer panel). Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
+    </div>
+    </div>
+</div>
+<br>
 
 * * *
 
@@ -44,6 +65,7 @@ To access the Repository browser:
 
 2.  On your Jira Cloud dashboard, go to menu Apps ➜ Git Integration: Manage Git repositories ➜ **Repository browser** (sidebar).
 
+<br>
 
 While on the Repository browser page:
 
@@ -55,12 +77,15 @@ While on the Repository browser page:
 
 *   Click on **Manage Git repositories** to go to the Git integration repositories configuration page.
 
+<br>
 
 ## Personal access column
 
 Jira administrators can configure git integrations (example: GitHub, GitLab) to require that Jira users create and provide their own [Personal Access Token](/git-integration-for-jira-cloud/personal-access-token-feature-gij-cloud) to enable features like creating branches, pull request or merge request via Jira Git integration development panel inside Jira.
 
 The personal access column and configuration is relocated to [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud).
+
+<br>
 
 ## How can a Jira administrator enable or disable the Repository browser?
 
@@ -72,9 +97,22 @@ The personal access column and configuration is relocated to [User settings](/gi
 
 4.  Click **Update** button.
 
+    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/138706958/gitcloud-gencfg-repo-browser.png?version=1&modificationDate=1636096946037&cacheVersion=1&api=v2)
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/138706958/gitcloud-gencfg-repo-browser.png?version=1&modificationDate=1636096946037&cacheVersion=1&api=v2)
+<br>
 
 For detailed information about this feature, see [Documentation: Repository browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud/).
 
-If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact us</b><br>
+        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+    </div>
+    </div>
+</div>
+<br>
+
