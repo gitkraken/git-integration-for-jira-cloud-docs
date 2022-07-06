@@ -7,8 +7,17 @@ taxonomy:
 
 ---
 
-
-These settings are part of the [General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud) configuration page for Git Integration for Jira Cloud under [Jira Development Information settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        These settings are part of the <a href="/git-integration-for-jira-cloud/general-settings-gij-cloud">General settings</a> configuration page for Git Integration for Jira Cloud under <a href="/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud">Jira Development Information settings</a>.
+    </div>
+    </div>
+</div>
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207796196/gitcloud-gencfg-enable-smart-commits-automation.png?version=1&modificationDate=1645098206103&cacheVersion=1&api=v2&width=548&height=253)
 
@@ -19,3 +28,4 @@ The automatic workflow triggers allows you to use your development activity to m
 For more information on Automation for Jira, see article [Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud).
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
+
