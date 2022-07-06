@@ -158,7 +158,12 @@ In the above examples, you can use the **Group id** or your **Group name** a
 
 ### 6. List projects from the specified sub-group
 
-```/api/v4/groups/5245789/projects?include_subgroups=true<br>/api/v4/groups/BigBrassBand/projects?include_subgroups=true```<br>
+```java
+/api/v4/groups/5245789/projects?include_subgroups=true
+
+/api/v4/groups/BigBrassBand/projects?include_subgroups=true
+```
+
 In the above examples, the <b><i>?include_subgroups=true</i></b> API extension will return a recursive list of repositories within a nested GitLab Group (or GitLab Subgroup) where the #, **5245789**, is the **Group id**; and **BigBrassBand** is the **Group name**.
 
 For more information on GitLab custom API paths, see [**GitLab API**](https://docs.gitlab.com/ee/api/projects.html).
