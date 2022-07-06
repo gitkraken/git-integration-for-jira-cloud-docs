@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 This feature allows users to configure personal access tokens for the connected git integration.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1739948039/gitcloud-user-settings-pat-feature.png?version=1&modificationDate=1623726472615&cacheVersion=1&api=v2&width=557&height=220)
@@ -27,3 +28,4 @@ Click **Update** to save the changes and assign this PAT to the selected git int
 ## Generate new token
 
 Click the **New token** label to generate a new personal access token via the git service web portal for the selected git integration.
+
