@@ -6,7 +6,18 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Accessing the view workflow feature on the Jira issue page requires a user or user group to have the **View Read-Only Workflow** project permissions.
+
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Accessing the view workflow feature on the Jira issue page requires a user or user group to have the <b>View Read-Only Workflow</b> project permissions.
+    </div>
+    </div>
+</div>
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025415/gitcloud-jira-workflow-access-location.png?version=1&modificationDate=1634729301548&cacheVersion=1&api=v2)
 
@@ -22,32 +33,59 @@ You can see the available custom workflow transition commands for use with smart
 
 Below is an example using the above workflow where the issue is in IN PROGRESS status and want to send it to CODE REVIEW status:
 
-**<ISSUE\_KEY>** **#send-to-code-review** or,
-**<ISSUE\_KEY>** **#send-to-code** _and even_,
-**<ISSUE\_KEY>** **#send** _(yes, this works, as long as it does not conflict with another transition name)_
+**\<ISSUE\_KEY\>** **\#send-to-code-review** or,<br>
+**\<ISSUE\_KEY\>** **\#send-to-code** _and even_,<br>
+**\<ISSUE\_KEY\>** **\#send** _(yes, this works, as long as it does not conflict with another transition name)_
 
 Do note that invalid characters can be used in the transition name. Jira accepts most of them and they can be used. However, smart commits will only process letters and dash characters.
 
 Thus, the part of the transition name up to the invalid character can be used for transitions; where spaces become "-".
 
-| **Example 1:** |     |
-| --- | --- |
+### Example 1:
+
 | **Transition name** | **Smart Commit transition** |
+| :--- | :--- |
 | `SEND_TO_QA` | **SEND** |
 | `SEND-TO_QA` | **SEND-TO** |
 | `SEND TO_QA` | **SEND-TO** |
-| There must be at least one unique way to call each transition name. If you have multiple transition names from a single status that use the same word, the smart commits will fail. |     |
 
-| **Example 2:** |
-| --- |
-| Another example, where an issue status NEW has these two transition paths:<br><br>*   `SEND_TO_DEVELOPMENT`<br>    <br>*   `SEND_TO_BACKLOG`<br>    <br><br>The invalid characters are used before unique transition names are possible. Both will become "**#SEND**". Therefore, they are not unique and these transitions will fail. |
+There must be at least one unique way to call each transition name. If you have multiple transition names from a single status that use the same word, the smart commits will fail.
 
-| **Example 3:** |
-| --- |
-| Finally, the transition names have spaces instead:<br><br>*   `SEND TO DEVELOPMENT`<br>    <br>*   `SEND TO BACKLOG`<br>    <br><br>Both of these transitions are smart commit-friendly and the possible transitions are:<br><br>*   **#SEND-TO-D...**<br>    <br>*   **#SEND-TO-B...**<br>    <br><br>The "..." indicates the truncation with the least character length to have the transition names be recognized as unique by Smart Commits. Any length shorter than this will fail the transition as explained in **Example 2** above. |
+### Example 2:
 
-If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user can't be identified.
+Another example, where an issue status NEW has these two transition paths:
 
-[Workflow transitions](/git-integration-for-jira-cloud/workflow-transitions-gij-cloud)
+*   `SEND_TO_DEVELOPMENT`
 
-[Smart commits general settings](/git-integration-for-jira-cloud/smart-commits-general-settings-gij-cloud)
+*   `SEND_TO_BACKLOG`
+
+The invalid characters are used before unique transition names are possible. Both will become "**\#SEND**". Therefore, they are not unique and these transitions will fail.
+
+### Example 3:
+
+Finally, the transition names have spaces instead:
+
+*   `SEND TO DEVELOPMENT`
+
+*   `SEND TO BACKLOG`
+
+Both of these transitions are smart commit-friendly and the possible transitions are:
+
+*   **\#SEND-TO-D...**
+
+*   **\#SEND-TO-B...**
+
+The "..." indicates the truncation with the least character length to have the transition names be recognized as unique by Smart Commits. Any length shorter than this will fail the transition as explained in **Example 2** above.
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user can't be identified.
+    </div>
+    </div>
+</div>
+<br>
+

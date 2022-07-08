@@ -20,8 +20,8 @@ The connection settings page contains configuration options to manage integratio
 
 Utilize the following options to configure the selected integration:
 
-| **Option** | **Description** |
-| --- | --- |
+| Option | Description |
+| :--- | :--- |
 | _**Enable this integration**_ | Toggle to enable or disable this integration for use with Jira. |
 | _**Reconnect**_ | Click on this button to refresh the integration connection and indexing. |
 | _**Display Name**_ | This is the name that will appear on the Integration column in the Manage integrations page. |
@@ -34,11 +34,13 @@ Utilize the following options to configure the selected integration:
 
 The Feature settings page contains configuration options related to user and project access, and the indexing triggers URL.
 
-| **Option** | **Description** |
-| --- | --- |
+| Option | Description |
+| :--- | :--- |
 | _**Indexing triggers**_ | This is the automatically-generated webhook URL upon installation of Git Integration for Jira Cloud app.<br><br>Use the URL to setup webhook triggers to your git host service which allows immediate reindex of connected integrations. |
-| _**Require User PAT**_ | Enable this option to require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.<br><br>This option requires the [**Repository Browser**](/git-integration-for-jira-cloud/repository-browser-gij-cloud) feature enabled.<br><br>This setting is only available for integrations connected via [**Git service integration** panel](/git-integration-for-jira-cloud/introduction-to-git-integration-gij-cloud). |
+| _**Require User PAT**_ | Enable this option to require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.<br><br>This option requires the [Repository Browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud) feature enabled.<br><br>This setting is only available for integrations connected via [Git service integration panel](/git-integration-for-jira-cloud/introduction-to-git-integration-gij-cloud). |
 | _**Project permissions**_ | This feature allows administrators to configure project associations with repositories/integration to restrict which users can view development information. For more information, see [Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud). |
+
+<br>
 
 ## Choose repositories
 
@@ -57,5 +59,4 @@ On the Organizations section, select all or specific repositories to connect to 
 Click **Cancel** to return to the Manage integrations page and discard the changes made to the settings.
 
 Click **Save** to save the changes and apply the integration settings.
-
 

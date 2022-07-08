@@ -6,26 +6,43 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Pull request webhooks are now supported. <a href='#setup-webhook-for-aws-repository'>See details</a> on this page.<br>
+        <p>Supported webhook events:</p>
+        <ul>
+            <li><i>Repository</i> - Push</li>
+            <li><i>Pull request</i> - Created</li>
+            <li><i>Pull request</i> - Updated</li>
+        </ul>
+    </div>
+    </div>
+</div>
+<br>
+
+<div class="bbb-callout bbb--error">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Before you can proceed with the steps outlined in this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud/'><b>Indexing triggers - Getting started</b></a>.
+    </div>
+    </div>
+</div>
+<br>
+
 **What's on this page:**
 - [Getting started](#getting-started)
 - [Creating an SNS topic](#creating-an-sns-topic)
 - [Adding webhook URL via Subscriptions](#adding-webhook-url-via-subscriptions)
 - [Setup webhook for AWS repository](#setup-webhook-for-aws-repository)
 - [Verification and troubleshooting](#verification-and-troubleshooting)
-
-* * *
-
-Pull request webhooks are now supported. [See details](#Setup-webhook-for-AWS-repository) on this page.
-
-Supported webhook events:
-
-*   _Repository_ - Push
-
-*   _Pull request -_ Created
-
-*   _Pull request_ - Updated
-
-Before you can proceed with the steps outlined in this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [**Indexing triggers - Getting started**](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud/).
 
 ## Getting started
 
@@ -55,6 +72,8 @@ Start by logging in to your AWS CodeCommit _admin_ or _poweruser_ account that h
 
         ![](https://bigbrassband.atlassian.net/wiki/download/attachments/864288787/aws-cc-sns-setup-access-03(c).png?version=1&modificationDate=1642866025829&cacheVersion=1&api=v2)
 
+<br>
+
 ## Adding webhook URL via Subscriptions
 
 1.  Continuing from the steps above, go to the **Subscriptions** tab and create a new subscription. You’ll be seeing the following page.
@@ -73,8 +92,11 @@ Start by logging in to your AWS CodeCommit _admin_ or _poweruser_ account that h
 
 3.  Click **Create subscription** to complete this setup.
 
+<br>
 
 AWS CodeCommit sends a special type of confirmation request, “`SubscriptionConfirmation`", to the specified endpoint URL. The Git Integration for Jira app receives this request, processes it, and then sends back the confirmation automatically. If CodeCommit doesn't receive the handshake to the confirmation request, the subscription will hang in ‘Pending confirmation’ status for three days – see the related article [**here**](https://aws.amazon.com/premiumsupport/knowledge-center/sns-cannot-delete-topic-subscription/).
+
+<br>
 
 ## Setup webhook for AWS repository
 
@@ -106,6 +128,7 @@ The webhook setup can be simply performed by any user to the repository as long 
 
 6.  Click **Create trigger**. This configuration is added to the Triggers list.
 
+<br>
 
 ## Verification and troubleshooting
 
@@ -115,7 +138,26 @@ Test and create new commits and see if webhooks have arrived without errors in t
 
 If errors are received, verify AWS triggers settings and make the necessary changes. Perform a reindex on the integration/repository in the Git repository configuration list to pull supported events and commits from the AWS repository.
 
-Webhooks will be automatically registered for each AWS CodeCommit repository connected to Jira Cloud to instantly index your commits. For this to work, the connecting service user must have the [**basic + all features** required permissions](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud#Required-permissions) mentioned in the integration guide.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Webhooks will be automatically registered for each AWS CodeCommit repository connected to Jira Cloud to instantly index your commits. For this to work, the connecting service user must have the <a href='/git-integration-for-jira-cloud/aws-codecommit-gij-cloud#required-permissions'><b>basic + all features</b> required permissions</a> mentioned in the integration guide.
+    </div>
+    </div>
+</div>
 
-Webhooks will be deleted when AWS CodeCommit integration is disconnected from Git Integration for Jira Cloud.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Webhooks will be deleted when AWS CodeCommit integration is disconnected from Git Integration for Jira Cloud.
+    </div>
+    </div>
+</div>
+<br>
 
