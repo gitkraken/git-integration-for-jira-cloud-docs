@@ -16,20 +16,22 @@ Utilize the options below for configuring repository settings.
 
 ## Connection settings
 
-| **Option** | **Description** | **Repository type** |
-| --- | --- | --- |
-| _**Enable this integration**_ | Toggle to enable/disable this repository for use with Jira. | SINGLE  <br>INTEGRATION |
-| _**Display Name**_ | This is the alias that will appear in the Repository column. | SINGLE  <br>INTEGRATION |
+| Option | Description | Repository type |
+| :--- | :--- | :--- |
+| _**Enable this integration**_ | Toggle to enable/disable this repository for use with Jira. | SINGLE <br>INTEGRATION |
+| _**Display Name**_ | This is the alias that will appear in the Repository column. | SINGLE <br>INTEGRATION |
 | _**Repository Origin**_ | This is the URL path to a clone of the repository. | INTEGRATION |
 | _**Username, Password/Token**_ | Displays username used for this repository configuration. Enter a new password/token if the password/token has changed since the last configuration. | SINGLE |
 | _**Private SSH Key**_ | If the private SSH key was changed, enter the new private SSH key on the provided box or upload the new private SSH key. | SINGLE |
 | _**Optional SSH Key Passphrase**_ | If the configured private SSH key has a passphrase, enter it on the provided box. | SINGLE |
 | _**SSL Verify**_ | VSTS \| AZURE GITLAB GITHUB  <br>Set to enabled/disabled for the current git host integration.<br><br>The **SSL Verify** option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.<br><br>The **SSL Verify** setting is available in Jira Server, Data Center and Jira Cloud. This option is not available for non-fetched repositories. | SINGLE |
 
+<br>
+
 ## Feature settings
 
-| **Option** | **Description** | **Repository type** |
-| --- | --- | --- |
+| Option | Description | Repository type |
+| :--- | :--- | :--- |
 | _**Main Branch**_ | Set the main branch. The default setting is `master`. | SINGLE  <br>INTEGRATION |
 | _**Indexing triggers**_ | Displays the indexing triggers URL for this repository. Click the adjacent copy icon to send the indexing triggers URL to the system clipboard. Use this URL to setup webhook to your git host service. | SINGLE  <br>INTEGRATION |
 | _**Tags**_ | Set whether to show all tags or show on tags with matching regex pattern. For more information on git tags, see [Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud). | SINGLE  <br>INTEGRATION |
@@ -40,3 +42,4 @@ Utilize the options below for configuring repository settings.
 Click **Save** to save the changes and apply the settings.
 
 Click **Cancel** to return to the manage git configuration page and discard the changes.
+

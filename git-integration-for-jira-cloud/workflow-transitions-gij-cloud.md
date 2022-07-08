@@ -1,14 +1,15 @@
 ---
 
-title: Workflow transitions
+title: Smart commits - Workflow transitions
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 The simple Jira workflow does not contain explicit transition names. These kind of workflow with no explicit transition names are becoming more popular as Atlassian is suggesting them to administrators upon project creation.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025389/gitcloud-jira-workflow-chart.png?version=1&modificationDate=1634729137964&cacheVersion=1&api=v2&width=217&height=241)
+<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025389/gitcloud-jira-workflow-chart.png' width=217 height=241 class='center img-responsive img-bordered' />
 
 The name of the status is the transition. So, using the basic example above, the valid transitions from DONE are:
 
@@ -19,19 +20,52 @@ The name of the status is the transition. So, using the basic example above, th
 *   **#in-review**
 
 
-**Transition names**
-The workflow transition names must be unique.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Transition names</b><br>
+        The workflow transition names must be unique.
+    </div>
+    </div>
+</div>
 
-**Absence of transition names**
-When there are no transition names — just use the status names. If there is a space, replace it with "–" (hyphens). For example, `CODE REVIEW` becomes `#code-review`.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Absence of transition names</b><br>
+        When there are no transition names — just use the status names. If there is a space, replace it with "–" (hyphens). For example, `CODE REVIEW` becomes `#code-review`.
+    </div>
+    </div>
+</div>
 
-**Commit authors**
-Only letters and "-" (dash) are valid for workflow transition names for smart commits. Any other characters are treated as invalid. Smart commits will ONLY use the valid characters before the occurrence of an invalid character for processing.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Commit authors</b><br>
+        Only letters and "-" (dash) are valid for workflow transition names for smart commits. Any other characters are treated as invalid. Smart commits will ONLY use the valid characters before the occurrence of an invalid character for processing.
+    </div>
+    </div>
+</div>
 
-**Jira Administrators**
-When adding transitions in the Workflow editor, make transition names simple and easy to remember. Only use letters and only one space between words.
-
-[« Advanced examples](/git-integration-for-jira-cloud/Advanced-examples-gij-cloud/)
-
-[Viewing workflows »](/git-integration-for-jira-cloud/Viewing-workflows-gij-cloud/)
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Jira Administrators</b><br>
+        When adding transitions in the Workflow editor, make transition names simple and easy to remember. Only use letters and only one space between words.
+    </div>
+    </div>
+</div>
+<br>
 
