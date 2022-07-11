@@ -16,11 +16,20 @@ The Repository Browser page is displayed.
 
 *   Click a repository to take you to the commit list for the selected repository:
 
-    1.  Click the Change label to set/change Jira issue commit association.
+    *   Click the Change label to set/change Jira issue commit association.
 
-    2.  Use the **Compare** tab to view commit diff for compared branches.
+    *   Use the **Compare** tab to view commit diff for compared branches.
 
 *   Under the Actions column, click the GitKraken icon to open the selected repository in GitKraken git client app.
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The personal access tokens configuration is moved to the <a href='/git-integration-for-jira-cloud/user-settings-gij-cloud'>User settings</a> page.
+    </div>
+    </div>
+</div>
 
-The personal access tokens configuration is moved to the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
