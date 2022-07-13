@@ -10,10 +10,13 @@ Classic full feature integration gives you access to all features for the connec
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1508081882/gitcloud-managed-ui-webhook-idx-panel.png?version=1&modificationDate=1648375682256&cacheVersion=1&api=v2&width=680&height=128)
 
+<br>
 
 Webhook indexing integration allows your connected git servers to work behind a firewall. This is its main aspect. However, the downside is that your integration will have limited features which are stated under the Connect to your Git server features table. For now, the supported git servers are GitHub.com, GitLab and Microsoft. More will be coming in the future. For more information, see [Webhooks indexing explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1508081882/gitcloud-managed-ui-webhook-idx-panel2.png?version=1&modificationDate=1648375792211&cacheVersion=1&api=v2&width=680&height=130)
+
+<br>
 
 Follow the supported git servers below for webhook indexing integration.
 
@@ -27,3 +30,4 @@ Follow the supported git servers below for webhook indexing integration.
 
 
 _more coming soon…_
+
