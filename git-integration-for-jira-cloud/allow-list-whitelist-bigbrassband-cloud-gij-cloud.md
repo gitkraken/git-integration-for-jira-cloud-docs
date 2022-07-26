@@ -38,7 +38,7 @@ How to find out which geographic region your Git Integration for Jira Cloud appl
 
 For customers that are hosted on the Global (hosted in the Northern Virginia, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
-| **IP address** |
+| IP address |
 | :--- |
 | **52.73.151.196** |
 
@@ -48,7 +48,7 @@ For customers that are hosted on the Global (hosted in the Northern Virginia, US
 
 For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), set the allow list/whitelist for self-hosted git repositories:
 
-| **IP address** |
+| IP address |
 | :--- |
 | **18.156.13.64** |
 
@@ -68,7 +68,7 @@ For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), se
 
 For customers that are hosted on the US stack (hosted in the Ohio, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
-| **IP address** |
+| IP address |
 | :--- |
 | **18.218.206.0** |
 
@@ -88,7 +88,7 @@ For customers that are hosted on the US stack (hosted in the Ohio, USA AWS regio
 
 For customers that are hosted on the Australia stack, set the allow list/whitelist for self-hosted git repositories:
 
-| **IP address** |
+| IP address |
 | :--- |
 | **52.65.83.20** |
 
@@ -96,7 +96,7 @@ For customers that are hosted on the Australia stack, set the allow list/whiteli
 
 To allow self-hosted git repositories to be indexed by BigBrassBand Cloud applications - the following port(s) may be necessary to be open:
 
-| **Protocol** | **Port** | **Notes** |
+| Protocol | Port | Notes |
 | :--- | :--- | :--- |
 | HTTPS | 443 | Common case |
 | HTTP | 80  | Very uncommon |
@@ -121,25 +121,24 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 
 ### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f30e.png' height=22 width=22 valign=middle />&nbsp; Global Region Hosted IP addresses
 
-54.175.75.157  
-54.198.195.73  
-54.226.216.3  
-3.83.233.216  
-100.24.7.48  
-18.208.222.41  
-54.221.46.106  
-54.172.45.1  
-18.234.60.156  
-54.157.63.246  
-34.224.91.167  
-3.89.224.7  
-54.144.124.44  
-174.129.126.205  
-54.167.77.230  
-54.91.24.123  
-23.22.153.253  
-54.209.186.87  
-54.157.14.229  
+54.196.201.91  
+34.228.185.171  
+34.224.218.252  
+3.80.89.149  
+34.224.101.92  
+34.224.75.91  
+52.23.171.14  
+54.147.140.182  
+54.235.62.22  
+54.175.233.217  
+18.208.171.222  
+54.90.148.157  
+54.242.227.154  
+54.209.11.3  
+3.88.216.216  
+3.80.49.193  
+54.87.49.117  
+54.174.135.57  
 52.54.150.111  
 
 ### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1fa-1f1f8.png' height=22 width=22 valign=middle />&nbsp; USA Region Hosted IP addresses
@@ -148,7 +147,6 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 18.218.122.134  
 3.131.213.149  
 3.143.100.15  
-18.218.206.0  
 3.133.34.235  
 18.190.109.9  
 18.119.80.14  
@@ -158,7 +156,6 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 
 ### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1ea-1f1fa.png' height=24 width=24 valign=middle />&nbsp; EU Region Hosted IP addresses
 
-18.156.13.64  
 3.123.136.62  
 18.156.8.182  
 18.198.71.138  
@@ -172,10 +169,10 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 
 ### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1e6-1f1fa.png' height=24 width=24 valign=middle />&nbsp; Australia Region Hosted IP addresses
 
-13.238.136.180  
-3.105.72.140  
 54.206.176.144  
+3.105.72.140  
 52.64.118.63  
+13.238.136.180    
 
 If you use these IP addresses for allow listing - we ask that you contact us at [support@bigbrassband.com](mailto:support@bigbrassband.com) so we can notify you if these IP addresses are ever changed.
 
