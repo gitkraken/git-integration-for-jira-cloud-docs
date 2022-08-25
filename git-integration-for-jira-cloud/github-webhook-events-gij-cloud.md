@@ -45,7 +45,7 @@ _Request URI_<br>
 `/api/1/webhook/reindex/install/`**\<secret\_key\>**`/web`
 
 _Request headers_<br>
-**Content-type:** `application/x-www-form-urlencoded`  <br>
+**Content-type:** `application/x-www-form-urlencoded`<br>
 **X-GitHub-Event:** `pull_request`
 
 _Request payload_<br>
@@ -72,7 +72,7 @@ _Request URI_<br>
 `/api/1/webhook/reindex/install/`**\<secret\_key\>**`/web`
 
 _Request headers_<br>
-**Content-Type:** `application/x-www-form-urlencoded`  <br>
+**Content-Type:** `application/x-www-form-urlencoded`<br>
 **X-GitHub-Event:** `repository`
 
 _Request payload_<br>

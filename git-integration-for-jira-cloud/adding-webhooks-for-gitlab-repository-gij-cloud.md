@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Merge request webhooks are now supported. <a href='/git-integration-for-jira-cloud/adding-webhooks-for-gitlab-repository-gij-cloud'>See details</a> on this page.<br>
+        Merge request webhooks are now supported. <a href='/git-integration-for-jira-cloud/adding-webhooks-for-gitlab-repository-gij-cloud/'>See details</a> on this page.<br>
         <p>Supported webhook events:</p>
         <ul>
             <li>Push events</lI>
@@ -42,7 +42,7 @@ Git Integration for Jira Cloud app now supports **GitLab System Hooks** (menu 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira Cloud instance. For more details, see <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing Triggers - Getting Started</b></a>.
+        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira Cloud instance. For more details, see <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud/'><b>Indexing Triggers - Getting Started</b></a>.
     </div>
     </div>
 </div>

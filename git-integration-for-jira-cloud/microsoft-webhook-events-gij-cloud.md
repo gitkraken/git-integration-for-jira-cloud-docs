@@ -26,7 +26,7 @@ _Type_<br>
 `"^push"`
 
 _Request URI_<br>
-`/api/1/webhook/reindex/install/`**<secret\_key>**`/web`
+`/api/1/webhook/reindex/install/`**\<secret\_key\>**`/web`
 
 _Request headers_<br>
 **Content-type:** `application/json`
@@ -164,7 +164,7 @@ _**Request payload example:**_<br>
 
 [GitLab webhook events](/git-integration-for-jira-cloud/gitlab-webhook-events)
 
-[AWS CodeCommit webhook events](/git-integration-for-jira-cloud/aws-codecommit-webhook-events))
+[AWS CodeCommit webhook events](/git-integration-for-jira-cloud/aws-codecommit-webhook-events)
 
-[Bitbucket webhook events](/git-integration-for-jira-cloud/bitbucket-webhook-events))
+[Bitbucket webhook events](/git-integration-for-jira-cloud/bitbucket-webhook-events)
 

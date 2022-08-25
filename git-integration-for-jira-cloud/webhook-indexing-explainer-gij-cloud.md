@@ -24,21 +24,34 @@ With Webhook Indexing, the git metadata available in the git server webhook payl
 
 Configuring Webhook Indexing begins with the Jira administrator by installing the [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app. Click on the “Webhooks” limited feature connection option and select your git server type. In your git server, create a new webhook by copying the webhook URL and secret from the Webhook Indexing wizard. And you’re done! Now all future commit, branch, and pull/merge request activity will be indexed by the [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app.
 
-Tip: Setup the webhook at the organization/group/project level in your git server to configure webhooks for multiple git repositories at once.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Tip!</b><br>
+        Setup the webhook at the organization/group/project level in your git server to configure webhooks for multiple git repositories at once.
+    </div>
+    </div>
+</div>
+<br>
 
 **Specific platform instructions**:
 
-[Webhook Indexing for GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud) <sup><b>SUPPORTED</b></sup>
+[Webhook Indexing for GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud) &nbsp;<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>SUPPORTED</b>
 
-[Webhook Indexing for GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud) <sup><b>SUPPORTED</b></sup>
+[Webhook Indexing for GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud) &nbsp;<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>SUPPORTED</b>
 
-[Webhook Indexing for Azure DevOps, VSTS and TFS](/git-integration-for-jira-cloud/microsoft-webhook-indexing-integration-gij-cloud) <sup><b>SUPPORTED</b></sup>
+[Webhook Indexing for Azure DevOps, VSTS and TFS](/git-integration-for-jira-cloud/microsoft-webhook-indexing-integration-gij-cloud) &nbsp;<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>SUPPORTED</b>
 
-Webhook indexing for Gerrit <sup><b>FEATURE COMING SOON</b></sup>
+Webhook indexing for Gerrit &nbsp;<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>FEATURE COMING SOON</b>
 
 ## Frequently Asked Questions
 
-### What git servers are supported by the Webhook Indexing feature? (as of March 26, 2021)
+### What git servers are supported by the Webhook Indexing feature?
+
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>As of March 26, 2021</b>
 
 <img src='https://api.media.atlassian.com/file/c6cd71a4-070f-44a7-8d9d-5bab066e705d/binary?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI0YTVjYjQ0OC0zMzNlLTQ5ZTctOGJkZC1lZGY3NThjZGI3MjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpmaWxlOmM2Y2Q3MWE0LTA3MGYtNDRhNy04ZDlkLTViYWIwNjZlNzA1ZCI6WyJyZWFkIl19LCJleHAiOjE2NTc0NjQ3MjYsIm5iZiI6MTY1NzM4MTgwNn0.dLq7io10JsSRe6BOcUp03V9BlEqve3ZlutFp2MPaCIs&client=4a5cb448-333e-49e7-8bdd-edf758cdb726&name=CleanShot2021-03-26%20at%2021.32.32%402x-20210327-013237.png&max-age=2940' width=349 height=446 class='center img-responsive img-bordered' />
 

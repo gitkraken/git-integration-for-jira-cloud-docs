@@ -78,7 +78,7 @@ The labels **admin@example.com**, **user1@example.com**, **requested-feature** a
 
 ## Workflow Transitions
 
-![](https://bigbrassband.com/docimgs/jira-simple-workflow-144.png)
+<img src='https://bigbrassband.com/docimgs/jira-simple-workflow-144.png' style='margin:25px auto;max-width:100%;' alt='shows workflow transition names and arrow process' />
 
 The name of the status is the transition. So, for the example above, the valid transitions from **DONE** are:
 
@@ -88,23 +88,21 @@ The name of the status is the transition. So, for the example above, the valid 
 
 ## Viewing Workflows
 
-1. Open an issue and click **View Workflow** from the context of the issue (near the issue’s **Status**).
+1.  Open an issue and click **View Workflow** from the context of the issue (near the issue’s **Status**).
 
-2. Hover a status.
+2.  Hover a status.
 
-![](https://bigbrassband.com/docimgs/jira-workflow-hover.png)
+    ![shows workflow transition names process flow when mouse is hovered](https://bigbrassband.com/docimgs/jira-workflow-hover.png)
 
 <br>
 
-* * *
-
 ## Smart Commits General Setting
 
-![General Settings smart commits max age](https://bigbrassband.com/docimgs/gen-cfg-smart-commits-max-age.png)
+<img src='https://bigbrassband.com/docimgs/gen-cfg-smart-commits-max-age.png' style='max-width:100%;margin:25px auto;border:1px solid #ccc' alt='General Settings smart commits max age' />
 
 ### Max commit age
 
-**JIRA CLOUD/DEV INFO**
+<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA CLOUD</b> <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>DEV INFO</b>
 
 This setting is a hidden feature in Git Integration for Jira Cloud and Dev Info for Jira Cloud. All commits which are older than this setting (in seconds) shall be ignored for smart commits processing.<br><br>The default value is **1209600** seconds (14 days).
 

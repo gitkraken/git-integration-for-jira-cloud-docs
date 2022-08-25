@@ -22,7 +22,7 @@ taxonomy:
 
 ## What are indexing triggers and why use them?
 
-Indexing triggers (webhooks) can be an extremely powerful tool that can be configured to activate an immediate re-index of your repositories from remote systems. Your git server can send this near real-time data to Jira when your git data changes. This results in a much faster indexing time where you don’t have to wait for the regular polling interval (see [**General settings**](/git-integration-for-jira-cloud/general-settings-gij-cloud)).
+Indexing triggers (webhooks) can be an extremely powerful tool that can be configured to activate an immediate re-index of your repositories from remote systems. Your git server can send this near real-time data to Jira when your git data changes. This results in a much faster indexing time where you don’t have to wait for the regular polling interval (see [**General settings**](/git-integration-for-jira-cloud/general-settings-gij-cloud).
 
 Webhooks can be initiated whenever certain actions are performed. For example, you can configure a webhook to execute when:
 
@@ -93,7 +93,7 @@ The **Secret Key** is a secure random-generated alphanumeric string at the tim
 
 Use this key in the form of:
 
-https://gitforjiracloud.bigbrassband.com/api/1/webhook/reindex/install/**<INSTANCE\_ID>**/**<SECRET\_KEY>**
+https://gitforjiracloud.bigbrassband.com/api/1/webhook/reindex/install/**\<INSTANCE\_ID\>**/**\<SECRET\_KEY\>**
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -109,7 +109,7 @@ https://gitforjiracloud.bigbrassband.com/api/1/webhook/reindex/install/**<INSTAN
 
 **Example**
 Assign your Jira base URL and Secret Key to the example URL structure:
-https://gitforjiracloud.bigbrassband.com/api/1/webhook/reindex/install/**x5chdqpqln0j04xcgv02zy7h9**/**vfTmXtqIFyqeCYYS3WjLIn2RRz5rHSDO**
+`https://gitforjiracloud.bigbrassband.com/api/1/webhook/reindex/install/`**x5chdqpqln0j04xcgv02zy7h9**`/`**vfTmXtqIFyqeCYYS3WjLIn2RRz5rHSDO**
 
 <div class="bbb-callout bbb--info">
     <div class="irow">

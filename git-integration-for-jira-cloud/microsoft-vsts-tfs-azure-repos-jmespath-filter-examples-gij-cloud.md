@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1343979648/azure2.png?version=1&modificationDate=1615466245457&cacheVersion=1&api=v2&width=340&height=57)
+![](/wp-content/uploads/azure2-logo.png)
 
 An optional JMESPath filter can be configured when adding Azure Repos integration or repositories.
 

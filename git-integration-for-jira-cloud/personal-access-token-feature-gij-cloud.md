@@ -11,7 +11,7 @@ This feature allows users to configure personal access tokens for the connected 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1739948039/gitcloud-user-settings-pat-feature.png?version=1&modificationDate=1623726472615&cacheVersion=1&api=v2&width=557&height=220)
 
-## Search function
+## The Search function
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1739948039/gitcloud-user-settings-def-repo-search.png?version=1&modificationDate=1623726472634&cacheVersion=1&api=v2&width=340&height=48)
 

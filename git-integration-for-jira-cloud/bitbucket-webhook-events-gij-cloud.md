@@ -119,7 +119,7 @@ _Request payload example_<br>
 
 [GitLab webhook events](/git-integration-for-jira-cloud/gitlab-webhook-events)
 
-[AWS CodeCommit webhook events](/git-integration-for-jira-cloud/aws-codecommit-webhook-events))
+[AWS CodeCommit webhook events](/git-integration-for-jira-cloud/aws-codecommit-webhook-events)
 
-[Microsoft webhook events](/git-integration-for-jira-cloud/microsoft-webhook-events))
+[Microsoft webhook events](/git-integration-for-jira-cloud/microsoft-webhook-events)
 

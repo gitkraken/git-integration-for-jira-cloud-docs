@@ -30,7 +30,7 @@ taxonomy:
 </div>
 
 <div align='center'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/7tt09xc1my'><b>here</b></a> to open this video in a new browser tab for more viewing options. (While the above video showcases other integration, jump to 01:41 to see Webhook setup for Bitbucket Cloud.)</i>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/7tt09xc1my'><b>here</b></a> to open this video in a new browser tab for more viewing options. (While the above video showcases other integration, jump to <a href='https://bigbrassband.wistia.com/medias/7tt09xc1my?wtime=1m41s' target='_blank' title='Click to open in a new tab/window'><b>01:41</b></a> <br>to see Webhook setup for Bitbucket Cloud.)</i>
 </div>
 <br>
 
@@ -40,7 +40,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/Webhooks'><b>Indexing triggers - Getting Started</b></a>.
+        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing triggers - Getting Started</b></a>.
     </div>
     </div>
 </div>
