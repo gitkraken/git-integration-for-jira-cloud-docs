@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Pull request webhooks are now supported. <a href='/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-server-tfs-gij-cloud'>See details</a> on this page.<br>
+        Pull request webhooks are now supported. <a href='/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-server-tfs-gij-cloud/'>See details</a> on this page.<br>
         <p>Supported webhook events:</p>
         <ul>
             <li>Code pushed</li>
@@ -85,7 +85,7 @@ Configure webhook by logging in to your Azure DevOps Server/TFS account.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/234782736/webhooks-azure-devops-test-cfg(c).png?version=1&modificationDate=1617193805298&cacheVersion=1&api=v2&width=584&height=413)
 
-    Click **Finish** to complete this setup.
+8.  Click **Finish** to complete this setup.
 
 <br>
 

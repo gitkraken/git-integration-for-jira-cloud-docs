@@ -15,7 +15,7 @@ _Type_<br>
 **pushEvents:** `"^push$"`
 
 _Request URI_<br>
-/api/1/webhook/reindex/install/**<secret\_key>**/web
+/api/1/webhook/reindex/install/**\<secret\_key\>**/web
 
 _Request headers_<br>
 **Content-type:** `application/json`<br>

@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-![](/wp-content/uploads/github-mobile-dark.png)
+![](/wp-content/uploads/gij-github-mobile-logo-dark.png)
 
 An optional JMESPath filter can be configured when adding GitHub integration or repositories.
 

@@ -18,7 +18,7 @@ The smart commit processing is **active by default** and can be enabled/disabl
 
 <br>
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025332/gitcloud-repo-cfg-smart-commits.png' width=312 height=108 class='center img-responsive img-bordered' />
+<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025332/gitcloud-repo-cfg-smart-commits.png' width=312 height=108 style='margin:5px auto;max-width:100%;border:1px solid #ccc' />
 
 <div align=center>In Jira Cloud, Smart Commits is a toggle setting
 in the repository settings.</div>
@@ -52,7 +52,7 @@ Smart commits configuration checklist:
 
 *   **Advanced:** Verify that the workflow conditions and validators are able to process successfully.
 
-
+<br>
 
 The Git Integration app supports smart commit by adding a simple syntax to a commit message.
 
@@ -70,3 +70,4 @@ To know more about syntax, commands and examples on Smart Commits, see [**Proce
 [Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud)
 
 [Smart commit: Basic commands](/git-integration-for-jira-cloud/basic-commands-gij-cloud)
+

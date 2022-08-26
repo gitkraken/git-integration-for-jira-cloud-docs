@@ -23,11 +23,11 @@ _**Optional headers:**_
 
 **Usage examples:**
 
-```python
+```powershell
 curl -H 'x-bbb-webhook-type: push' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url
 ```
 
-```python
+```powershell
 curl -H 'x-bbb-webhook-type: push' -H 'x-bbb-webhook-id: id-string' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url
 ```
 
