@@ -147,7 +147,7 @@ Returns GitLab projects that have been starred by the connecting GitLab user.
 ### 4. Limit to owned projects
 
 ```/api/v4/projects?owned=true```<br>
-The current user will be limited to the projects it's explicitly owned. |
+The current user will be limited to the projects it's explicitly owned.
 
 ### 5. List projects from within a Group
 

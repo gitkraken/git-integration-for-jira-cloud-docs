@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This setting is part of the <b><a href="/git-integration-for-jira-cloud/general-settings-gij-cloud/">General settings</a></b> configuration page for Git Integration for Jira Cloud.
+        This setting is part of the <b><a href="/git-integration-for-jira-cloud/general-settings-gij-cloud">General settings</a></b> configuration page for Git Integration for Jira Cloud.
     </div>
     </div>
 </div>

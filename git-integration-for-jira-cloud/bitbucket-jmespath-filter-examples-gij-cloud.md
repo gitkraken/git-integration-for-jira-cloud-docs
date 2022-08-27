@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1349615828/bitbucket-mobile2.png?version=1&modificationDate=1615466288281&cacheVersion=1&api=v2&width=272&height=57)
+![](/wp-content/uploads/bitbucket-mobile2.png)
 
 An optional JMESPath filter can be configured when adding Bitbucket integration or repositories.
 

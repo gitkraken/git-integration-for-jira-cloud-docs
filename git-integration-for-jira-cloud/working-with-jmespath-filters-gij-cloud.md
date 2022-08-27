@@ -25,7 +25,7 @@ Read about JMESPath expressions on their [**website**](http://jmespath.org/).
     
     This feature is accessible with supported git services on the Full feature integrations panel.
 
-2. Manage Git repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' valign=middle /> Actions ➜ **Edit integration settings** ➜ Integration settings. ➜ **JMESPath Filter**.
+2. Manage Git repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration settings** ➜ Integration settings. ➜ **JMESPath Filter**.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/133234759/gitcloud-jmespath-actions-settings.png?version=1&modificationDate=1615466138063&cacheVersion=1&api=v2&width=680&height=249)
 

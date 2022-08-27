@@ -19,7 +19,7 @@ taxonomy:
                 Jira users can now provide their own personal access tokens (PAT) even if they are not required/mandated by the Jira admin. See <a href="/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud">Require Personal Access Tokens for user actions (create branch/pull request)</a> for instructions on how to configure this feature.
             </li>
             <li>
-                The <b>View developer tools</b> <i>permission</i> is required to view the Source Code panel (see more in <a href='/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud/'>Issue Git Source Code Panel. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
+                The <b>View developer tools</b> <i>permission</i> is required to view the Source Code panel (see more in <a href='/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud'>Issue Git Source Code Panel. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
             </li>
             <li>
                 Creating branch feature can be disabled for all Jira users (regardless of permissions) in <a href="/git-integration-for-jira-cloud/git-integration-options-gij-cloud#enable-create--delete-branch">General settings</a>.
@@ -47,11 +47,11 @@ When creating a branch from within Jira:
 
 *   Automatically populates branch name with issue key (necessary for branch ↔ issue association) and issue summary.
 
-*   Further - default branch naming conventions can be customized to match your development workflow. For example: `${issuetype:New Issue,new,Bug Fix,bug}/${issuekey}-${summary}` generates "`bug/PRJ-123-add-more-logging`" (See [General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud/) for more information).
+*   Further - default branch naming conventions can be customized to match your development workflow. For example: `${issuetype:New Issue,new,Bug Fix,bug}/${issuekey}-${summary}` generates "`bug/PRJ-123-add-more-logging`" (See [General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud) for more information).
 
 *   Require each Jira user to provide their Personal Access Token for creating branches. This option adds some friction to creating branches/pull requests but enabling this setting will enforce the git server user permissions as well as give better attribution for the actions. See [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud) for more information.
 
-*   Each Jira user can set a **Default repository** for the current Jira project. (See [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud/) for more information).
+*   Each Jira user can set a **Default repository** for the current Jira project. (See [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) for more information).
 
 ## Supported
 

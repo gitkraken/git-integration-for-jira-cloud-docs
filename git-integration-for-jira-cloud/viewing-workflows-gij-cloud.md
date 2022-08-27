@@ -43,7 +43,7 @@ Thus, the part of the transition name up to the invalid character can be used fo
 
 ### Example 1:
 
-| **Transition name** | **Smart Commit transition** |
+| Transition name | Smart Commit transition |
 | :--- | :--- |
 | `SEND_TO_QA` | **SEND** |
 | `SEND-TO_QA` | **SEND-TO** |

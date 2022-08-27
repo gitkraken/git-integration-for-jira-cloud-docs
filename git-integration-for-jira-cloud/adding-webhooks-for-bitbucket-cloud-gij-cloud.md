@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Pull request webhooks are now supported. <a href='/git-integration-for-jira-cloud/adding-webhooks-for-bitbucket-cloud-gij-cloud/'>See details</a> on this page.<br>
+        Pull request webhooks are now supported. <a href='/git-integration-for-jira-cloud/adding-webhooks-for-bitbucket-cloud-gij-cloud'>See details</a> on this page.<br>
         <p>Supported webhook events:</p>
         <ul>
             <li><i>Repository</i> - Push</li>

@@ -204,15 +204,15 @@ Webhook indexing integration supports indexing of commits and pull requests usin
 
 For more information on this feature, see the following articles:
 
-*   [Classic webhook indexing explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/)
+*   [Classic webhook indexing explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud)
 
-*   [Webhook indexing integration](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud/)
+*   [Webhook indexing integration](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud)
 
-    *   [GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud/)
+    *   [GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud)
 
-    *   [GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud/)
+    *   [GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud)
 
-    *   [Microsoft](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud/)
+    *   [Microsoft](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud)
 
 ## BigBrassBand Cloud apps
 

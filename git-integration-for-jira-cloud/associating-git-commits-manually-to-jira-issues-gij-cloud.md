@@ -25,14 +25,21 @@ Jira dashboard menu Apps ➜ **Git Integration: Repository browser** ➜ clic
 
 The following dialog is displayed. Add, edit or delete linked Jira issue keys in the _**Associated issues to commit**_ field.
 
-|     |     |
-| --- | --- |
-| *   Click the dropdown arrow and select a Jira issue from the list.<br>    <br>*   The selected Jira issue is associated to the currently configured commit.<br>    <br>*   Repeat the same process to associate one or more Jira issues.<br>    <br>*   Click **X** to remove selected commit association(s). |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025256/gitcloud-assoc-commits-dlg-dropdown.png?version=1&modificationDate=1645085650577&cacheVersion=1&api=v2) |
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025256/gitcloud-assoc-commits-dlg-dropdown.png?version=1&modificationDate=1645085650577&cacheVersion=1&api=v2)
 
-| *   Type a Jira issue key or a word from a Jira issue summary and the list will try to display them.<br>    <br>*   Click a Jira issue from the list to associate it to the currently configure commit.<br>    <br>*   Repeat the same process to associate one or more Jira issues.<br>    <br>*   Click **X** to remove selected commit association(s). |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025256/gitcloud-assoc-commits-dlg-typetext.png?version=1&modificationDate=1645085657664&cacheVersion=1&api=v2) |
+*   Click the dropdown arrow and select a Jira issue from the list.
+*   The selected Jira issue is associated to the currently configured commit.
+*   Repeat the same process to associate one or more Jira issues.
+*   Click **X** to remove selected commit association(s).
 
+* * *
+
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025256/gitcloud-assoc-commits-dlg-typetext.png?version=1&modificationDate=1645085657664&cacheVersion=1&api=v2)
+
+*   Type a Jira issue key or a word from a Jira issue summary and the list will try to display them.
+*   Click a Jira issue from the list to associate it to the currently configure commit.
+*   Repeat the same process to associate one or more Jira issues.
+*   Click **X** to remove selected commit association(s).
 
 Click **Save** to save the changes.
 

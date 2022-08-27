@@ -33,7 +33,7 @@ This setting shows or hides the function for creating/deleting of branches. The
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829137/gitcloud-dev-panel-create-branch-sel.png?version=1&modificationDate=1643340514593&cacheVersion=1&api=v2&width=296&height=208)
 
-For detailed information on this feature, see [Creating branches](/git-integration-for-jira-cloud/create-branch-gij-cloud/).
+For detailed information on this feature, see [Creating branches](/git-integration-for-jira-cloud/create-branch-gij-cloud).
 
 ### Enable create pull \/ merge request
 
@@ -41,7 +41,7 @@ This setting shows or hides the function for creating pull/merge requests from t
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829137/gitcloud-dev-panel-create-PRMR-sel.png?version=1&modificationDate=1643340576227&cacheVersion=1&api=v2&width=296&height=208)
 
-For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud/).
+For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
 
 ## Branch name template
 
