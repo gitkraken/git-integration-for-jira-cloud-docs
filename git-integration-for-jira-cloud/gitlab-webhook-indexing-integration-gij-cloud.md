@@ -46,18 +46,16 @@ taxonomy:
         For a step-by-step setup guide, watch the following demonstration videos:<br>
         <ul>
             <li>
-                <a href='#Repository-Level'>Setup webhook indexing integration (Repository Level)</a>
+                <a href='#repository-level'>Setup webhook indexing integration (Repository Level)</a>
             </li>
             <li>
-                <a href='#Group-Level'>Setup webhook indexing integration (Group Level)</a>
+                <a href='#group-level'>Setup webhook indexing integration (Group Level)</a>
             </li>
         </ul>
     </div>
     </div>
 </div>
-
-
-
+<br>
 
 ## Video Guides
 

@@ -38,7 +38,7 @@ How to find out which geographic region your Git Integration for Jira Cloud appl
 
 For customers that are hosted on the Global (hosted in the Northern Virginia, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
-| **IP address** |
+| IP address |
 | :--- |
 | **52.73.151.196** |
 
@@ -48,7 +48,7 @@ For customers that are hosted on the Global (hosted in the Northern Virginia, US
 
 For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), set the allow list/whitelist for self-hosted git repositories:
 
-| **IP address** |
+| IP address |
 | :--- |
 | **18.156.13.64** |
 
@@ -68,7 +68,7 @@ For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), se
 
 For customers that are hosted on the US stack (hosted in the Ohio, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
-| **IP address** |
+| IP address |
 | :--- |
 | **18.218.206.0** |
 
@@ -88,7 +88,7 @@ For customers that are hosted on the US stack (hosted in the Ohio, USA AWS regio
 
 For customers that are hosted on the Australia stack, set the allow list/whitelist for self-hosted git repositories:
 
-| **IP address** |
+| IP address |
 | :--- |
 | **52.65.83.20** |
 
@@ -96,7 +96,7 @@ For customers that are hosted on the Australia stack, set the allow list/whiteli
 
 To allow self-hosted git repositories to be indexed by BigBrassBand Cloud applications - the following port(s) may be necessary to be open:
 
-| **Protocol** | **Port** | **Notes** |
+| Protocol | Port | Notes |
 | :--- | :--- | :--- |
 | HTTPS | 443 | Common case |
 | HTTP | 80  | Very uncommon |
@@ -207,15 +207,15 @@ Webhook indexing integration supports indexing of commits and pull requests usin
 
 For more information on this feature, see the following articles:
 
-*   [Classic webhook indexing explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/)
+*   [Classic webhook indexing explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud)
 
-*   [Webhook indexing integration](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud/)
+*   [Webhook indexing integration](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud)
 
-    *   [GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud/)
+    *   [GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud)
 
-    *   [GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud/)
+    *   [GitLab](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud)
 
-    *   [Microsoft](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud/)
+    *   [Microsoft](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud)
 
 ## BigBrassBand Cloud apps
 

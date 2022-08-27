@@ -52,6 +52,7 @@ Some notable sections:
 
 *   **Files** section can be _**rolled up by**_: None, File Extension, Change, Extension and Change, Change and Extension, and Repository.
 
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/138510337/gitcloud-jira-issue-rollup-tab-sel.png?version=1&modificationDate=1638616149130&cacheVersion=1&api=v2&width=680&height=554)
 

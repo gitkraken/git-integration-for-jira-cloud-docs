@@ -8,7 +8,7 @@ taxonomy:
 ---
 The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/4984) app now offers a new type of integration: **Webhook Indexing**.
 
-<img src='/wp-content/uploads/gij-webhook-indexing-explainer.png' width=244 height=196 style='margin: 25px auto; max-width: 100%' alt='Highlights the webhook indexing integration feature (boxed)' />
+<img src='/wp-content/uploads/gij-webhook-indexing-explainer.png' width=244 height=196 style='margin: 25px auto; max-width: 100%; display: block;' alt='Highlights the webhook indexing integration feature (boxed)' />
 
 <br>
 

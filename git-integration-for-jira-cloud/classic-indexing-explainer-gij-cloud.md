@@ -49,7 +49,7 @@ Git Integration for Jira Cloud indexes a variety of Git and Git related data onc
 
 See our [Privacy Policy](https://www.gitkraken.com/privacy-gij) and [Data Deletion Policy](https://bigbrassband.com/security-and-trust.html).
 
-| **Data Type** | **Method** |
+| Data Type | Method |
 | :--- | :--- |
 | Commits | Git clone |
 | Branches | Git clone |
@@ -90,7 +90,7 @@ For more information on configuring webhooks, see: [Indexing triggers](/git-int
 
 The table below describes the automatic indexing period limits:
 
-| **Action** | **Conditions** | **Min. period** | **Max. period** |
+| Action | Conditions | Min. period | Max. period |
 | :--- | :--- | :--- | :--- |
 | Check a repository | No webhook (PR or push) arrives for the repository | 450 secs | 24 hr |
 | Check a repository | Webhooks (PR or push) arrives for the repository | 1 hr | 24 hr |
@@ -131,7 +131,7 @@ All repositories and integrations can be updated manually via the Manage Git rep
 
 ### Repositories
 
-Repositories can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' valign=middle> Actions menu and selecting **Reindex repository**:
+Repositories can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex repository**:
 
 ![Git Cloud manage git repositories page highlighting Reindex repository action](https://bigbrassband.atlassian.net/wiki/download/attachments/183369754/gitcloud-reindex-repo-iex.png?version=1&modificationDate=1598591995919&cacheVersion=1&api=v2)
 
@@ -139,7 +139,7 @@ Repositories can be updated manually via the Manage git repositories screen by o
 
 ### Integrations
 
-Integrations can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' valign=middle> Actions menu and selecting **Reindex integration**:
+Integrations can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex integration**:
 
 ![Git Cloud manage git repositories page highlighting Reindex integration action](https://bigbrassband.atlassian.net/wiki/download/attachments/183369754/gitcloud-reindex-integration-iex.png?version=1&modificationDate=1598591996399&cacheVersion=1&api=v2)
 
@@ -147,7 +147,7 @@ Integrations can be updated manually via the Manage git repositories screen by o
 
 ### Indexing statuses
 
-| **Status** | **Description** |
+| Status | Description |
 | :--- | :--- |
 | INDEXED | Integration or repository has been indexed and no errors were detected. |
 | QUEUED | Integration or repository is actively queued for indexing. |
@@ -165,7 +165,7 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) app n
 
 ### Definitions
 
-| **Information Label** | **Description** |
+| Information Label | Description |
 | :--- | :--- |
 | _Last indexer check_ | Date and time the indexing service has checked if the repository should be examined for changes. |
 | _Next indexer check_ | Date and time the indexing service will next check if the repository should be examined for changes (commits, tags, branches) |

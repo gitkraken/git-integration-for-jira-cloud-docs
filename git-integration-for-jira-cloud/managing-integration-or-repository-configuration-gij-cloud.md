@@ -20,7 +20,7 @@ The Manage integrations page allows administrators to integrate and manage suppo
 
 <br>
 
-| **Column** | **Description** |
+| Column | Description |
 | :--- | :--- |
 | **Integration** | Displays the integration display name or integration URL.<br><br>Click the integration name on the list to open the integration connection settings for the selected integration. |
 | **Type** | Displays the type of integration for the connected git host service.<br><ul><li><b>Git service</b> – full feature integration</li><li><b>Webhook indexing</b> – limited integration via webhooks</li></ul> |
@@ -28,7 +28,7 @@ The Manage integrations page allows administrators to integrate and manage suppo
 | **Last indexed** | Shows the date and time the indexing service has checked if the integration repositories should be examined for changes.<br><br>For more information on Jira Cloud indexer, see [Jira Cloud: Classic indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud). |
 | **Repositories** | Shows the counter for the number of repositories the connected integration has. |
 | **Features** | <img src='/wp-content/uploads/features-indicator-proj-permissions.png' height=12 width=16 /> - The integration has a project association (solid) or not (hollow).<br><img src='/wp-content/uploads/features-indicator-smart-commits.png' height=16 width=16 /> - The integration has smart commits enabled (solid) or disabled (hollow).<br><img src='/wp-content/uploads/features-indicator-indexing.png' height=16 width=10 /> - The integration has enabled indexing triggers (solid) or not (hollow). |
-| **Actions** | To the right of the **Features** column are actions that can be performed for the selected connected integration.<br><br>Clicking the &nbsp;<img src='/wp-content/uploads/actions-icon.png' height=20 width=20 valign=middle /> Actions icon will open a context menu with a set of functions for managing integrations. The Actions sub-menu functions will depend on the type of integration you were working on.<br><br>For more information, see [Managing integrations via Actions](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud). |
+| **Actions** | To the right of the **Features** column are actions that can be performed for the selected connected integration.<br><br>Clicking the &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions icon will open a context menu with a set of functions for managing integrations. The Actions sub-menu functions will depend on the type of integration you were working on.<br><br>For more information, see [Managing integrations via Actions](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud). |
 
 ## Manage repositories page
 
@@ -38,7 +38,7 @@ The Manage repositories page displays connected git repositories in Jira. All in
 
 <br>
 
-| **Column** | **Description** |
+| Column | Description |
 | :--- | :--- |
 | **Repository** | Displays the repository display name or repository URL.<br><br>Click the repository name on the list to open the repository settings for the selected repository. |
 | **Integration** | This column displays the name of the git host service the repository belongs to. |
@@ -46,11 +46,11 @@ The Manage repositories page displays connected git repositories in Jira. All in
 | **Last indexed** | Shows the date and time the indexing service has checked if the repository should be examined for changes.<br><br>For more information on Jira Cloud indexer, see [Jira Cloud: Classic indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud). |
 | **Branch,**  <br>**Commits,**  <br>**Pull/merge request** | The counters for the number of branches, commits and pull/merge requests are displayed for the connected repository, respectively. |
 | **Features** | <img src='/wp-content/uploads/features-indicator-proj-permissions.png' height=12 width=16 /> – The repository has a project association (solid) or not (hollow).<br><img src='/wp-content/uploads/features-indicator-smart-commits.png' height=16 width=16 /> – The repository has smart commits enabled (solid) or disabled (hollow).<br><img src='/wp-content/uploads/features-indicator-indexing.png' height=16 width=10 /> – The repository has enabled indexing triggers (solid) or not (hollow). |
-| **Actions** | To the right of the **Features** column are actions that can be performed for the selected connected repository.<br><br>Clicking the &nbsp;<img src='/wp-content/uploads/actions-icon.png' height=20 width=20 valign=middle /> Actions icon will open a context menu with a set of functions for managing repositories. The Actions sub-menu functions will depend on the connection type of the repository you were working on.<br><br>For more information, see [Managing integrations via Actions](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud). |
+| **Actions** | To the right of the **Features** column are actions that can be performed for the selected connected repository.<br><br>Clicking the &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions icon will open a context menu with a set of functions for managing repositories. The Actions sub-menu functions will depend on the connection type of the repository you were working on.<br><br>For more information, see [Managing integrations via Actions](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud). |
 
 ## Introduction to Action commands
 
-Manage connected integration or repositories via the &nbsp;<img src='/wp-content/uploads/actions-icon.png' height=20 width=20 valign=middle /> **Actions** commands on the git configuration page. To learn more about these functions, proceed to the next page.
+Manage connected integration or repositories via the &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> **Actions** commands on the git configuration page. To learn more about these functions, proceed to the next page.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923024455/gitcloud-managed-ui-manage-integrations-actions-sel.png?version=1&modificationDate=1648187125452&cacheVersion=1&api=v2)
 
