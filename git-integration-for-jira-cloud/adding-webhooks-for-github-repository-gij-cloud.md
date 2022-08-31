@@ -39,7 +39,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Before you can proceed with the steps outlined on this guide, indexing triggers must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud/'><b>Indexing Triggers - Getting Started</b></a>.
+        Before you can proceed with the steps outlined on this guide, indexing triggers must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing Triggers - Getting Started</b></a>.
     </div>
     </div>
 </div>
@@ -51,7 +51,7 @@ Configure webhooks by logging in to your GitHub account:
 
 1.  Select a repository.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377213/new-github-webhook-setting-page(c1).png?version=1&modificationDate=1617192156368&cacheVersion=1&api=v2)
+    <img src='/wp-content/uploads/gij-new-github-webhook-setting-page-c1.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 2.  Go to the **Settings** page.
 
@@ -59,11 +59,11 @@ Configure webhooks by logging in to your GitHub account:
 
 4.  Click **Add webhook**. The following page is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171377213/web-hooks-github-settings-add(c).png?version=1&modificationDate=1617192156377&cacheVersion=1&api=v2&width=646&height=708)
+    <img src='/wp-content/uploads/gij-web-hooks-github-settings-add-c.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 5.  Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app  ➜ **Indexing triggers** page into the _**Payload URL**_ field.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171377213/jira-cloud-webhook-url-loc(c1).png?version=1&modificationDate=1617192156381&cacheVersion=1&api=v2&width=646&height=430)
+    <img src='/wp-content/uploads/gij-jira-cloud-webhook-url-loc-c1.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
     Set the _**Content type**_ to **application/json**.
 
@@ -79,7 +79,7 @@ The Git Integration for Jira app supports GitHub pull request webhooks now.
 
 You will need to enable two (2) event triggers in your GitHub webhooks configuration _(Repo > Settings > Webhooks)_ for it to work properly.  Under event triggers section, choose _**Let me select individual events**_ and then select both "**Pushes**" and "**Pull request**" triggers instead as outlined above in step **7**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171377213/github-pull-request-event-trigger-webhook.png?version=2&modificationDate=1617192156387&cacheVersion=1&api=v2&width=612&height=302)
+<img src='/wp-content/uploads/gij-github-pull-request-event-trigger-webhook.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 For the figure above:
 

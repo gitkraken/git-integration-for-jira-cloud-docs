@@ -31,7 +31,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Before you can proceed with the steps outlined in this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud/'><b>Indexing triggers - Getting started</b></a>.
+        Before you can proceed with the steps outlined in this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing triggers - Getting started</b></a>.
     </div>
     </div>
 </div>
@@ -52,17 +52,17 @@ Start by logging in to your AWS CodeCommit _admin_ or _poweruser_ account that h
 
 ## Creating an SNS topic
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/864288787/aws-cc-sns-setup-access.png?version=1&modificationDate=1642863615193&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-aws-cc-sns-setup-access.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 1.  From your Console Home, go to Amazon **Simple Notification Service** to start creating a topic. _You may use the Services search bar to access the SNS configuration page._
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/864288787/aws-cc-sns-setup-access-01(c).png?version=1&modificationDate=1642864904960&cacheVersion=1&api=v2&width=544&height=424)
+    <img src='/wp-content/uploads/gij-aws-cc-sns-setup-access-01c.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
     On the **Create topic** section, type a **Topic name** on the provided box.
 
 2.  Click **Next step**. The following page is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/864288787/aws-cc-sns-setup-access-02(c).png?version=1&modificationDate=1642864934857&cacheVersion=1&api=v2&width=646&height=485)
+    <img src='/wp-content/uploads/gij-aws-cc-sns-setup-access-02c.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
     *   For the Details section, set _**Type**_ to **Standard**.
 
@@ -70,7 +70,7 @@ Start by logging in to your AWS CodeCommit _admin_ or _poweruser_ account that h
 
     *   Scroll down to the bottom of the page and click **Create topic**. This creates a new SNS topic with the specified name.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/attachments/864288787/aws-cc-sns-setup-access-03(c).png?version=1&modificationDate=1642866025829&cacheVersion=1&api=v2)
+        <img src='/wp-content/uploads/gij-aws-cc-sns-setup-access-03c.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 <br>
 
@@ -78,7 +78,7 @@ Start by logging in to your AWS CodeCommit _admin_ or _poweruser_ account that h
 
 1.  Continuing from the steps above, go to the **Subscriptions** tab and create a new subscription. You’ll be seeing the following page.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/864288787/aws-cc-sns-setup-access-04(c1).png?version=1&modificationDate=1642867585326&cacheVersion=1&api=v2&width=646&height=396)
+    <img src='/wp-content/uploads/gij-aws-cc-sns-setup-access-04c.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
     *   For the _**Topic ARN**_, select an SNS topic. For this case, set it to the SNS topic created previously from the above steps.
 
@@ -86,7 +86,7 @@ Start by logging in to your AWS CodeCommit _admin_ or _poweruser_ account that h
 
 2.  On your Jira Cloud instance, go to Git Integration for Jira ➜ **Indexing triggers** and copy the **Webhook URL**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/864288787/gitcloud-indexing-triggers-access(c1).png?version=2&modificationDate=1643020547524&cacheVersion=1&api=v2)
+    <img src='/wp-content/uploads/gij-gitcloud-indexing-triggers-access-c1.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
     Switch back to your AWS web portal (_where you’re on the Create subscription page_) and paste this URL into the **Endpoint** field.
 
@@ -102,7 +102,7 @@ AWS CodeCommit sends a special type of confirmation request, “`SubscriptionCon
 
 The webhook setup can be simply performed by any user to the repository as long as an existing SNS topic has been configured.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/864288787/aws-cc-create-triggers-access(c).png?version=1&modificationDate=1643016800874&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-aws-cc-create-triggers-access-c.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 1.  On the AWS web portal, open the CodeCommit git repository to work on.
 
@@ -112,7 +112,7 @@ The webhook setup can be simply performed by any user to the repository as long 
 
 4.  Click **Create trigger**. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/864288787/aws-cc-create-triggers-filled-up(c).png?version=1&modificationDate=1643018128769&cacheVersion=1&api=v2&width=646&height=662)
+    <img src='/wp-content/uploads/gij-aws-cc-create-triggers-filled-up-c.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
     *   Enter a meaningful **Trigger name**.
 
@@ -134,7 +134,7 @@ The webhook setup can be simply performed by any user to the repository as long 
 
 Test and create new commits and see if webhooks have arrived without errors in the Indexing triggers log on your Jira Cloud instance.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/864288787/gitcloud-indexing-triggers-webhook-log-sample.png?version=1&modificationDate=1643020506610&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-gitcloud-indexing-triggers-webhook-log-sample.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 If errors are received, verify AWS triggers settings and make the necessary changes. Perform a reindex on the integration/repository in the Git repository configuration list to pull supported events and commits from the AWS repository.
 

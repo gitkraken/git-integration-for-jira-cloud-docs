@@ -17,6 +17,7 @@ For this guide, we will use GitLab as an example:
 1.  On your Jira dashboard, go to menu Apps ➜ **Git Integration: Manage Git repositories**. The following page is displayed.
     
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923024398/gitcloud-gitmgr-gitlab-sel-sslverify(c).png?version=1&modificationDate=1631095982506&cacheVersion=1&api=v2)
+
 2.  On the Full feature integrations panel, click **GitLab**.
     
 3.  For External service, select **GitLab Server (CE/EE) v4**.
@@ -28,6 +29,7 @@ For this guide, we will use GitLab as an example:
 6.  Click **Next** to continue. If there is an indication of an SSL error, the following screen is displayed.
     
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923024398/gitserver-gitlab-server-bad-ssl-example(c).png?version=1&modificationDate=1630063605235&cacheVersion=1&api=v2&width=646&height=428)
+    
 7.  Click **Ignore certificate errors and continue connection**. This will ignore SSL verification if it's self-signed or expired.
     
 8.  Import the detected repositories and then click **Finish** to complete the setup.
