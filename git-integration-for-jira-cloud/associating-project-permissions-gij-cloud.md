@@ -16,7 +16,7 @@ This feature is displayed on the following locations:
 
 <br>
 
-<img src='/wp-content/uploads/gij-gitcloud-project-permissions-setting.png.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
+<img src='/wp-content/uploads/gij-gitcloud-project-permissions-setting.png.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 **Restrict to projects**  –  One or more projects can be mapped to this repository or integration to make Git Commits tabs available in the Issue pages of the associated projects. Disable _**Associate with all projects**_ option to gain access to this field.
 
@@ -102,7 +102,7 @@ You can configure the project permissions for repositories within integration:
 
     *   For easy access, use the integration dropdown selector.
 
-        <img src='/wp-content/uploads/gij-gitcloud-manage-integrations-actions-selector-c.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
+        <img src='/wp-content/uploads/gij-gitcloud-manage-integrations-actions-selector-c.png' style='display:block;margin:25px auto;height:auto;max-width:100%;' />
 
 2.  Click a repository name (under the Repository column) to directly open its repository settings.
 
