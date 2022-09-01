@@ -8,32 +8,32 @@ taxonomy:
 ---
 * * *
 
-GITHUB ENTERPRISE GITLAB CE/EE
+<b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>GITHUB ENTERPRISE</b> <b style='background-color:#FFE3B2; padding:1px 5px; color:#A35F00; border-radius:3px; margin: 0 5px; font-size: small;'>GITLAB CE/EE</b>
 
 Perform full feature integration with HTTPS git repositories that have self-signed SSL certificates or other SSL issues.
 
 For this guide, we will use GitLab as an example:
 
 1.  On your Jira dashboard, go to menu Apps ➜ **Git Integration: Manage Git repositories**. The following page is displayed.
-    
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923024398/gitcloud-gitmgr-gitlab-sel-sslverify(c).png?version=1&modificationDate=1631095982506&cacheVersion=1&api=v2)
+
+    <img src='/wp-content/uploads/gij-gitcloud-gitmgr-gitlab-sel-sslverify-c.png' style='height:auto;max-width:100%;margin-top:20px;margin-bottom:20px;' />
 
 2.  On the Full feature integrations panel, click **GitLab**.
-    
+
 3.  For External service, select **GitLab Server (CE/EE) v4**.
-    
+
 4.  Enter the remote URL of the private git server.
-    
+
 5.  Enter Personal access token for this server (APIv4). Support for APIv3 is deprecated.
-    
+
 6.  Click **Next** to continue. If there is an indication of an SSL error, the following screen is displayed.
-    
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923024398/gitserver-gitlab-server-bad-ssl-example(c).png?version=1&modificationDate=1630063605235&cacheVersion=1&api=v2&width=646&height=428)
-    
+
+    <img src='/wp-content/uploads/gij-gitserver-gitlab-server-bad-ssl-example-c.png' style='height:auto;max-width:100%;margin-top:20px;margin-bottom:20px;' />    
+
 7.  Click **Ignore certificate errors and continue connection**. This will ignore SSL verification if it's self-signed or expired.
-    
+
 8.  Import the detected repositories and then click **Finish** to complete the setup.
-    
+
 
 [Self-signed HTTPS connections](/git-integration-for-jira-cloud/self-signed-https-integration-gij-cloud)
 

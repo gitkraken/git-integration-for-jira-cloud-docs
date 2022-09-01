@@ -34,7 +34,7 @@ How to find out which geographic region your Git Integration for Jira Cloud appl
 
 <br>
 
-### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f30e.png' height=22 width=22 valign=middle />&nbsp; Global hosted customers
+### <img src='/wp-content/uploads/gij-global-icon.png' height=22 width=22 valign=middle />&nbsp; Global hosted customers
 
 For customers that are hosted on the Global (hosted in the Northern Virginia, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
@@ -44,7 +44,7 @@ For customers that are hosted on the Global (hosted in the Northern Virginia, US
 
 <br>
 
-### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1ea-1f1fa.png' height=24 width=24 valign=middle />&nbsp; European Union hosted customers
+### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; European Union hosted customers
 
 For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), set the allow list/whitelist for self-hosted git repositories:
 
@@ -64,7 +64,7 @@ For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), se
 </div>
 <br>
 
-### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1fa-1f1f8.png' height=24 width=24 valign=middle />&nbsp; USA hosted customers
+### <img src='/wp-content/uploads/gij-us-icon.png' height=24 width=24 valign=middle />&nbsp; USA hosted customers
 
 For customers that are hosted on the US stack (hosted in the Ohio, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
@@ -84,7 +84,7 @@ For customers that are hosted on the US stack (hosted in the Ohio, USA AWS regio
 </div>
 <br>
 
-### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1e6-1f1fa.png' height=24 width=24 valign=middle />&nbsp; Australia hosted customers
+### <img src='/wp-content/uploads/gij-au-icon.png' height=24 width=24 valign=middle />&nbsp; Australia hosted customers
 
 For customers that are hosted on the Australia stack, set the allow list/whitelist for self-hosted git repositories:
 
@@ -119,7 +119,7 @@ To allow self-hosted git repositories to be indexed by BigBrassBand Cloud applic
 
 GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features allowing for allow listing and require an additional set of IP addresses for allow listing:
 
-### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f30e.png' height=22 width=22 valign=middle />&nbsp; Global Region Hosted IP addresses
+### <img src='/wp-content/uploads/gij-global-icon.png' height=22 width=22 valign=middle />&nbsp; Global Region Hosted IP addresses
 
 54.175.75.157  
 54.198.195.73  
@@ -142,7 +142,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 54.157.14.229  
 52.54.150.111  
 
-### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1fa-1f1f8.png' height=22 width=22 valign=middle />&nbsp; USA Region Hosted IP addresses
+### <img src='/wp-content/uploads/gij-us-icon.png' height=22 width=22 valign=middle />&nbsp; USA Region Hosted IP addresses
 
 3.130.34.25  
 18.218.122.134  
@@ -156,7 +156,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 3.142.176.34  
 3.130.151.4  
 
-### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1ea-1f1fa.png' height=24 width=24 valign=middle />&nbsp; EU Region Hosted IP addresses
+### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; EU Region Hosted IP addresses
 
 18.156.13.64  
 3.123.136.62  
@@ -170,7 +170,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 3.67.63.5  
 52.58.106.61  
 
-### <img src='https://bigbrassband.atlassian.net/wiki/s/-1385669512/6452/79ea784589356386e2ff787614d18662b42105a6/_/images/icons/emoticons/72/1f1e6-1f1fa.png' height=24 width=24 valign=middle />&nbsp; Australia Region Hosted IP addresses
+### <img src='/wp-content/uploads/gij-au-icon.png' height=24 width=24 valign=middle />&nbsp; Australia Region Hosted IP addresses
 
 13.238.136.180  
 3.105.72.140  
@@ -189,17 +189,17 @@ If your git server is only reachable on a private intranet or through a virtual 
 
 **Examples:**
 
-![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://git.corp.com/repository/widget-production.git](https://git.corp.com/repository/widget-production.git) - a hosted git repository added directly
+![(tick)](/wp-content/uploads/gij-check.png) [https://git.corp.com/repository/widget-production.git](https://git.corp.com/repository/widget-production.git) - a hosted git repository added directly
 
-![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://git.corp.com](https://git.corp.com) - a git server running GitHub/Gitlab/etc
+![(tick)](/wp-content/uploads/gij-check.png) [https://git.corp.com](https://git.corp.com) - a git server running GitHub/Gitlab/etc
 
-![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [https://gitlab.corp.com:8088](https://gitlab.corp.com:8088) - a server running on a non-standard port
+![(tick)](/wp-content/uploads/gij-check.png) [https://gitlab.corp.com:8088](https://gitlab.corp.com:8088) - a server running on a non-standard port
 
-![(tick)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/check.png) [http://52.123.19.12](http://52.123.19.12) - server without DNS, just an IP
+![(tick)](/wp-content/uploads/gij-check.png) [http://52.123.19.12](http://52.123.19.12) - server without DNS, just an IP
 
-![(error)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/error.png) 192.168.1.92
+![(error)](/wp-content/uploads/gij-error.png) 192.168.1.92
 
-![(error)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/error.png) git.corp (private network)
+![(error)](/wp-content/uploads/gij-error.png) git.corp (private network)
 
 ## Webhooks indexing integration for private networks
 

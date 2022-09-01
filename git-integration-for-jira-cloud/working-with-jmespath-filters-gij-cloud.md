@@ -33,11 +33,11 @@ Read about JMESPath expressions on their [**website**](http://jmespath.org/).
 
 ## Git services that support JMESPath filters
 
-*   [GitHub.com | GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-cloud/github-com-github-enterprise-jmespath-filter-examples-gij-cloud/)
+*   [GitHub.com | GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-cloud/github-com-github-enterprise-jmespath-filter-examples-gij-cloud)
 
-*   [GitLab.com | GitLab CE/EE JMESPath filter examples](/git-integration-for-jira-cloud/gitlab-com-gitlab-ce-ee-jmespath-filter-examples-gij-cloud/)
+*   [GitLab.com | GitLab CE/EE JMESPath filter examples](/git-integration-for-jira-cloud/gitlab-com-gitlab-ce-ee-jmespath-filter-examples-gij-cloud)
 
-*   [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/git-integration-for-jira-cloud/microsoft-vsts-tfs-azure-repos-jmespath-filter-examples-gij-cloud/)
+*   [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/git-integration-for-jira-cloud/microsoft-vsts-tfs-azure-repos-jmespath-filter-examples-gij-cloud)
 
-*   [Bitbucket JMESPath filter examples](/git-integration-for-jira-cloud/bitbucket-jmespath-filter-examples-gij-cloud/)
+*   [Bitbucket JMESPath filter examples](/git-integration-for-jira-cloud/bitbucket-jmespath-filter-examples-gij-cloud)
 

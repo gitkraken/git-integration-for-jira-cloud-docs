@@ -51,7 +51,7 @@ Configure webhooks by logging in to your GitHub account:
 
 1.  Select a repository.
 
-    <img src='/wp-content/uploads/gij-new-github-webhook-setting-page-c1.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
+    <img src='/wp-content/uploads/gij-new-github-webhook-setting-page-c1.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 2.  Go to the **Settings** page.
 
@@ -59,11 +59,11 @@ Configure webhooks by logging in to your GitHub account:
 
 4.  Click **Add webhook**. The following page is displayed.
 
-    <img src='/wp-content/uploads/gij-web-hooks-github-settings-add-c.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
+    <img src='/wp-content/uploads/gij-web-hooks-github-settings-add-c.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 5.  Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app  ➜ **Indexing triggers** page into the _**Payload URL**_ field.
 
-    <img src='/wp-content/uploads/gij-jira-cloud-webhook-url-loc-c1.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
+    <img src='/wp-content/uploads/gij-jira-cloud-webhook-url-loc-c1.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
     Set the _**Content type**_ to **application/json**.
 
@@ -79,7 +79,7 @@ The Git Integration for Jira app supports GitHub pull request webhooks now.
 
 You will need to enable two (2) event triggers in your GitHub webhooks configuration _(Repo > Settings > Webhooks)_ for it to work properly.  Under event triggers section, choose _**Let me select individual events**_ and then select both "**Pushes**" and "**Pull request**" triggers instead as outlined above in step **7**.
 
-<img src='/wp-content/uploads/gij-github-pull-request-event-trigger-webhook.png' style='border:1px solid #ccc;display:block;margin:25px auto;height:auto;max-width: 100%;' />
+<img src='/wp-content/uploads/gij-github-pull-request-event-trigger-webhook.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 For the figure above:
 
