@@ -30,8 +30,8 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/61wl72vp91?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/v2c5qrgps8'><b>here</b></a> to open this video in a new browser tab for more viewing options. (While the above video showcases VSTS/Azure DevOps, the entire process is entirely the same for Azure Repos webhooks setup.)</i>
+<div align='center' style='margin-top:10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/61wl72vp91'><b>here</b></a> to open this video in a new browser tab for more viewing options. (While the above video showcases VSTS/Azure DevOps, the entire process is entirely the same for Azure Repos webhooks setup.)</i>
 </div>
 <br>
 
@@ -55,15 +55,15 @@ Configure webhook by logging in to your Azure DevOps Server/TFS account.
 
 2.  Click **Project Settings** (sidebar) then select **Service Hooks**. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/234782736/webhooks-azure-devops-add-shooks(c).png?version=1&modificationDate=1617193805282&cacheVersion=1&api=v2&width=544&height=233)
+    <img src='/wp-content/uploads/gij-webhooks-azure-devops-add-shooks-c.png' width=544 height=233 style='margin:25px 0' />
 
-    Click the + Icon to add a new service hook subscription.
+    Click the <b style='font-size:24px;color:green;vertical-align:baseline;margin:0 3px'>+</b> icon to add a new service hook subscription.
 
 3.  Scroll to **Web Hooks** and click to select it.
 
 4.  Click **Next**. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/234782736/webhooks-azure-devops-triggers-cfg(c).png?version=1&modificationDate=1617193805288&cacheVersion=1&api=v2&width=476&height=499)
+    <img src='/wp-content/uploads/gij-webhooks-azure-devops-triggers-cfg-c.png' width=476 height=499 style='margin:25px 0;' />
 
     *   Set **"code pushed"** for the _**Trigger on this type of event**_ selector.
 
@@ -71,11 +71,11 @@ Configure webhook by logging in to your Azure DevOps Server/TFS account.
 
     *   Click **Next** to proceed to the following screen.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/234782736/webhooks-azure-devops-action-cfg(c).png?version=1&modificationDate=1617193805292&cacheVersion=1&api=v2&width=516&height=541)
+        <img src='/wp-content/uploads/gij-webhooks-azure-devops-action-cfg-c.png' width=516 height=541 style='margin:25px 0' />
 
 5.  Switch to your Jira instance then navigate to **Manage Git repositories** page and then click **Indexing triggers** (_or alternatively go to Jira Settings ➜ Apps. On the sidebar, click Indexing triggers_).
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/234782736/jira-cloud-webhook-url-loc(c1).png?version=1&modificationDate=1617193805295&cacheVersion=1&api=v2&width=646&height=430)
+    <img src='/wp-content/uploads/gij-jira-cloud-webhook-url-loc-c1.png' width=646 height=430 styele='margin:25px 0;' />
 
     Copy the complete secret key URL using the copy icon on the right.
 
@@ -83,7 +83,7 @@ Configure webhook by logging in to your Azure DevOps Server/TFS account.
 
 7.  Click **Test** to verify if webhook integration is successful or not.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/234782736/webhooks-azure-devops-test-cfg(c).png?version=1&modificationDate=1617193805298&cacheVersion=1&api=v2&width=584&height=413)
+    <img src='/wp-content/uploads/gij-webhooks-azure-devops-test-cfg-c.png' width=584 height=413 style='margin:25px 0;' />
 
 8.  Click **Finish** to complete this setup.
 
@@ -95,5 +95,5 @@ The Git Integration for Jira app supports pull request webhooks now.
 
 You will need to have three (3) separate service hooks configuration for it to work properly. Aside from setting up the "**Code pushed**" service hook outlined above in step **6.a**, perform the same process with _**Pull request created**_ and _**Pull request updated**_ for the triggers.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/234782736/azure-devops-server-2019-req-service-hooks.png?version=2&modificationDate=1617193805302&cacheVersion=1&api=v2&width=680&height=239)
+<img src='/wp-content/uploads/gij-azure-devops-server-2019-req-service-hooks.png' width=680 height=239 style='margin:25px 0' />
 

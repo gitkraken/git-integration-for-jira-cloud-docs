@@ -30,7 +30,7 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/61wl72vp91?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/61wl72vp91'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -53,11 +53,11 @@ Configure webhook by logging in to your VSTS/Azure DevOps account.
 
 1.  Open a project by clicking on it.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/172294150/webhooks-azure-devops-sel-proj(c).png?version=1&modificationDate=1617193372470&cacheVersion=1&api=v2&width=646&height=361)
+    <img src='/wp-content/uploads/gij-webhooks-azure-devops-sel-proj-c.png' width=646 height=361 style='margin:25px 0' />
 
 2.  Click **Project Settings** then select **Service Hooks**. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/172294150/webhooks-azure-devops-add-shooks(c).png?version=1&modificationDate=1617193372476&cacheVersion=1&api=v2&width=544&height=233)
+    <img src='/wp-content/uploads/gij-webhooks-azure-devops-add-shooks-c.png' width=544 height=233 style='margin:25px 0' />
 
 3.  Click + icon to add a new service hook subscription.
 
@@ -65,7 +65,7 @@ Configure webhook by logging in to your VSTS/Azure DevOps account.
 
 5.  Click **Next**. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/172294150/webhooks-azure-devops-triggers-cfg(c).png?version=1&modificationDate=1617193372478&cacheVersion=1&api=v2&width=476&height=499)
+    <img src='/wp-content/uploads/gij-webhooks-azure-devops-triggers-cfg-c.png' width=476 height=499 style='margin:25px 0' />
 
     *   *Set **"code pushed"** for the _**Trigger on this type of event**_ selector.
 
@@ -73,11 +73,11 @@ Configure webhook by logging in to your VSTS/Azure DevOps account.
 
     *   Click **Next** to proceed to the following screen.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/172294150/webhooks-azure-devops-action-cfg(c).png?version=1&modificationDate=1617193372481&cacheVersion=1&api=v2&width=510&height=535)
+        <img src='/wp-content/uploads/gij-webhooks-azure-devops-action-cfg-c.png' width=510&height=535 style='margin:25px 0' />
 
 6.  Switch to your Jira instance then navigate to **Manage Git repositories** page and then click **Indexing triggers** (_or alternatively go to Jira Settings ➜ Apps. On the sidebar, click Indexing triggers_).
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/172294150/jira-cloud-webhook-url-loc(c1).png?version=1&modificationDate=1617193372483&cacheVersion=1&api=v2&width=646&height=430)
+    <img src='/wp-content/uploads/gij-jira-cloud-webhook-url-loc-c1.png' width=646 height=430 style='margin:25px 0' />
 
 7.  Copy the complete secret key URL by clicking the copy icon on the right.
 
@@ -85,7 +85,7 @@ Configure webhook by logging in to your VSTS/Azure DevOps account.
 
 9.  Click **Test** to verify if webhook integration is successful or not.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/172294150/webhooks-azure-devops-test-cfg(c).png?version=1&modificationDate=1617193372485&cacheVersion=1&api=v2&width=578&height=408)
+    <img src='/wp-content/uploads/gij-webhooks-azure-devops-test-cfg-c.png' width=578 height=408 style='margin:25px 0' />
 
 10.  Click **Finish** to complete this setup.
 
@@ -99,5 +99,5 @@ The Git Integration for Jira app supports pull request webhooks now.
 
 You will need to have three (3) separate service hooks configuration for it to work properly. Aside from setting up the "**Code pushed**" service hook outlined above in step **6.a**, perform the same process with _**Pull request created**_ and _**Pull request updated**_ for the triggers.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/172294150/azure-devops-server-2019-req-service-hooks.png?version=2&modificationDate=1617193372488&cacheVersion=1&api=v2&width=680&height=239)
+<img src='/wp-content/uploads/gij-azure-devops-server-2019-req-service-hooks.png' width=680 height=239 style='margin:25px 0;max-width: 100%;' />
 
