@@ -26,9 +26,10 @@ For more information, see [**Atlassian Jira Cloud Supported Browsers**](https://
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/m9u64t1a3h?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/m9u64t1a3h'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+<br>
 
 No changes necessary to your Git server. This Jira app acts as a regular Git client.
 
@@ -40,11 +41,11 @@ Using Atlassian's marketplace system, a Jira administrator can install the Git I
 
 Go to the Manage Git Repositories page, click the **Actions** icon then **View Log** to view the indexing logs.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/366084122/gitcloud-repomgr-view-log-action.png?version=1&modificationDate=1616931865688&cacheVersion=1&api=v2&width=612&height=206)
+<img src='/wp-content/uploads/gij-gitcloud-repomgr-view-log-action.png' width=612 height=206 style='margin:25px auto;max-width:100%;display:block;' />
 
 If there is an error encountered when connecting to a repository, a similar indexing error log will be displayed:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/366084122/manage-git-repo-indexing-logs-dlg.png?version=1&modificationDate=1585632822693&cacheVersion=1&api=v2&width=680&height=425)
+<img src='/wp-content/uploads/gij-manage-git-repo-indexing-logs-dlg.png' width=680 height=425 style='margin:25px auto;max-width:100%;display:block;' />)
 
 * * *
 
@@ -54,7 +55,7 @@ We are dropping support for **Java 7**, **Jira 7.0 and older** and Internet Expl
 
 The table below shows the Jira Version, when [Atlassian will stop supporting that Jira version](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html) and the corresponding version of Internet Explorer.
 
-| **Jira Version** | **Jira End of Life Date** | **Oldest IE Supported** | **Git Integration for Jira supported?** |
+| Jira Version | Jira End of Life Date | Oldest IE Supported | Git Integration for Jira supported? |
 | --- | --- | --- | --- |
 | 7.13 | November 28, 2020 | Edge | Yes\* |
 | 8.0 | February 11, 2021 | Edge | Yes\* |

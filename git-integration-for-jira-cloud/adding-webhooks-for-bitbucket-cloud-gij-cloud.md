@@ -52,13 +52,13 @@ Configure webhook by logging in to your Bitbucket.
 
 1.  Open a project by clicking on it.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/467271681/webhooks-bitbucket-add-shooks(c).png?version=1&modificationDate=1588130532215&cacheVersion=1&api=v2&width=408&height=329)
+    <img src='/wp-content/uploads/gij-webhooks-bitbucket-add-shooks-c.png' width=408 height=329 style='margin:25px 0' />
 
     Click **Repository Settings** then under **WORKFLOW**, select **Webhooks**.
 
 2.  Click **Add webhook** to create a webhook for the repository. The _**Add new webhook**_ screen appears.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/467271681/webhooks-add-new-whook-bitbucket-dlg(w).png?version=1&modificationDate=1588130531394&cacheVersion=1&api=v2&width=578&height=759)
+    <img src='/wp-content/uploads/gij-webhooks-add-new-whook-bitbucket-dlg-w.png' width=578 height=759 style='margin:25px 0' />
 
     *   **Title** - This is the title name for this webhook.
 
@@ -78,7 +78,7 @@ Configure webhook by logging in to your Bitbucket.
 
 3.  Switch to your Jira instance then navigate to **Manage Git repositories** page and then click **Indexing triggers** (_or alternatively go to Jira Settings ➜ Apps. On the sidebar, click Indexing triggers_).
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/467271681/jira-cloud-webhook-url-loc(c1).png?version=1&modificationDate=1617191745969&cacheVersion=1&api=v2&width=646&height=430)
+    <img src='/wp-content/uploads/gij-jira-cloud-webhook-url-loc-c1.png' width=646 height=430 style='margin:25px 0' />
 
     Copy the complete secret key URL mentioned from the paragraph description below the **Secret key** box.
 
@@ -98,5 +98,5 @@ The Git Integration for Jira app supports pull request webhooks now.
 
 For pull request triggers, you will need to have three (3) separate service hooks configuration for it to work properly. See **step 9**, **second option** for the webhook triggers.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/467271681/webhooks-bitbucket-sample.png?version=1&modificationDate=1588130531945&cacheVersion=1&api=v2&width=680&height=195)
+<img src='/wp-content/uploads/gij-webhooks-bitbucket-sample.png' width=680 height=195 style='margin:25px 0' />
 

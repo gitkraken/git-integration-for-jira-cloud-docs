@@ -8,27 +8,61 @@ taxonomy:
 ---
 Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/aws-codecommit-gij-self-managed).
 
-![AWS codecommit banner logo](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86180077/image-20200909-134637.png?version=1&modificationDate=1599745472495&cacheVersion=1&api=v2&width=442&height=92)
+<img src='/wp-content/uploads/gij-aws-cc-logo-banner.png' width=442 height=92 style='margin:25px 0 30px 0' />
 
 # Integrate AWS CodeCommit with Jira Cloud
 
 AWS CodeCommit is a git host service by Amazon Web Services to store and manage source code, related files and private Git repositories in the cloud.
 
-You can use the AWS CLI or the AWS CodeCommit console to track and manage your repositories.
-
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        You can use the AWS CLI or the AWS CodeCommit console to track and manage your repositories.
+    </div>
+    </div>
+</div>
+<br>
 
 Quickly learn how to connect AWS CodeCommit git repositories via Git Integration for Jira Cloud.
 
 **What's on this page:**
+- [Integrate AWS CodeCommit with Jira Cloud](#integrate-aws-codecommit-with-jira-cloud)
+  - [Required permissions](#required-permissions)
+  - [Webhooks \| Triggers](#webhooks--triggers)
+  - [Using Git service integration](#using-git-service-integration)
+  - [Single repository (Manually connect via HTTP/HTTPS)](#single-repository-manually-connect-via-httphttps)
+  - [Single repository (Manually connect via SSH)](#single-repository-manually-connect-via-ssh)
+  - [Troubleshooting integration](#troubleshooting-integration)
+  - [Setting up AWS CodeCommit web links](#setting-up-aws-codecommit-web-links)
+  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
+  - [Working with branches and pull requests](#working-with-branches-and-pull-requests)
+    - [Default branch](#default-branch)
+    - [Creating branches](#creating-branches)
+    - [Creating pull requests](#creating-pull-requests)
+  - [More Integration Guides](#more-integration-guides)
+
+<br>
 
 * * *
 
 ## Required permissions
 
-IMPORTANT
+<b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b>
 
-Before performing an AWS CodeCommit integration, make sure to configure the recommended permissions.
-
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Before performing an AWS CodeCommit integration, make sure to configure the recommended permissions.
+    </div>
+    </div>
+</div>
+<br>
 
 The permissions detailed in the connect/Full feature integrations wizard are necessary for specific features to work.
 
@@ -36,44 +70,123 @@ We recommend that the following AWS IAM policies are configured beforehand based
 
 Configure [**AWSCodeCommitReadOnly »**](http://docs.aws.amazon.com/codecommit/latest/userguide/access-permissions.html) IAM policy for basic features:
 
-| **Feature** | **Required Permission** |
-| --- | --- |
-| show commits, process smart commits, show branches | `codecommit:ListRepositories`  <br>`codecommit:GitPull`  <br>`codecommit:BatchGetRepositories` |
-| show pull requests | `codecommit:ListPullRequests`  <br>`codecommit:GetPullRequest` |
+<table>
+    <thead>
+    <tr>
+        <th>Feature</th>
+        <th>Required Permission</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td width=340>show commits, process smart commits, show branches</td>
+            <td><code>codecommit:ListRepositories</code><br>
+            <code>codecommit:GitPull</code><br>
+            <code>codecommit:BatchGetRepositories</code></td>
+        </tr>
+        <tr>
+            <td>show pull requests</td>
+            <td><code>codecommit:ListPullRequests</code><br>
+            <code>codecommit:GetPullRequest</code></td>
+        </tr>
+    </tbody>
+</table>
+<br>
 
-#### all features
+<div id='all-features' style='display:hidden;margin:15px 0'></div>
 
 Configure [**AWSCodeCommitPowerUser »**](https://docs.aws.amazon.com/codecommit/latest/userguide/auth-and-access-control-permissions-reference.html) IAM policy for all features:
 
-| **Feature** | **Required Permission** |
-| --- | --- |
-| create pull request | `codecommit:CreatePullRequest` |
-| create branch | `codecommit:CreateBranch` |
-| delete branch | `codecommit:DeleteBranch` |
-| configure webhooks automatically | `codecommit:GetRepositoryTriggers`  <br>`codecommit:PutRepositoryTriggers`  <br>`sns:CreateTopic`  <br>`sns:DeleteTopic`  <br>`sns:Subscribe` |
+<table>
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Required Permission</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td width=340>create pull request</td>
+            <td><code>codecommit:CreatePullRequest</code></td>
+        </tr>
+        <tr>
+            <td>create branch</td>
+            <td><code>codecommit:CreateBranch</code></td>
+        </tr>
+        <tr>
+            <td>delete branch</td>
+            <td><code>codecommit:DeleteBranch</code></td>
+        </tr>
+        <tr>
+            <td>configure webhooks automatically</td>
+            <td><code>codecommit:GetRepositoryTriggers</code><br>
+            <code>codecommit:PutRepositoryTriggers</code><br>
+            <code>sns:CreateTopic</code><br>
+            <code>sns:DeleteTopic</code><br>
+            <code>sns:Subscribe</code></td>
+        </tr>
+    </tbody>
+</table>
 
 See [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens/) for related information.
 
-## Webhooks | Triggers
+## Webhooks \| Triggers
 
-RECOMMENDED
+<b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
 
-CodeCommit doesn't have webhooks but it has SNS triggers requiring a [**subscription confirmation »**](https://docs.aws.amazon.com/sns/latest/dg/SendMessageToHttp.html).
+CodeCommit doesn't have webhooks but it has SNS triggers requiring a <a href='https://docs.aws.amazon.com/sns/latest/dg/SendMessageToHttp.html' target='_blank'><b>subscription confirmation »</b></a>.
 
-For webhooks to work automatically, the IAM user used to setup the connection must have the _**configure webhooks automatically**_ permissions (_see Required permissions above – under IAM policy for_ all features). If permissions has not been set, the repositories are connected but no webhooks are created.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For webhooks to work automatically, the IAM user used to setup the connection must have the <b><i>configure webhooks automatically</i></b> permissions (<i>see Required permissions above – under IAM policy for</i> all features). If permissions has not been set, the repositories are connected but no webhooks are created.
+    </div>
+    </div>
+</div>
 
-While the new UI is not fully functional in AWS CodeCommits, users are required to create triggers via the old UI or with the API.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        While the new UI is not fully functional in AWS CodeCommits, users are required to create triggers via the old UI or with the API.
+    </div>
+    </div>
+</div>
 
-**Shorthand:**
-With an existing AWS CC repository, enable triggers then create an SNS topic and subscribe to that topic.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Shorthand:</b><br>
+        With an existing AWS CC repository, enable triggers then create an SNS topic and subscribe to that topic.
+    </div>
+    </div>
+</div>
+<br>
 
-For more information on Amazon SNS, see [**Amazon SNS: Getting Started »**](https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html).
+For more information on Amazon SNS, see <a href='https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html' target='_blank'><b>Amazon SNS: Getting Started »</b></a>.
 
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/5w5p0lbz77?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
+<div align='center' style='margin-top:10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/5w5p0lbz77'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/5w5p0lbz77) _to open this video in a new browser tab for more viewing options._
+<div align='center'>
+    <i>Updated video coming soon.</i>
+</div>
+<br>
 
-## Using Full feature integration
+## Using Git service integration
 
 This process requires an AWS account with existing CodeCommit repositories.
 
@@ -81,143 +194,148 @@ We recommend using the Full feature integrations panel (formerly Auto-connect in
 
 To connect your repository to Jira thru the Git Integration for Jira app, open the **Connect to Git Repository** wizard:
 
-1.  On the Jira Cloud dashboard menu, go to **Apps** ➜ **Git Integration: Manage Git repositories**. The git configuration page for connecting repositories is displayed.
+1.  On the Jira Cloud dashboard menu, go to **Apps** ➜ **Git Integration: Manage integrations**.
 
-2.  On the Full feature integrations panel, click **AWS CodeCommit**. The Full feature integration wizard is displayed.
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86180077/gitcloud-aws-cc-auto-connect-dlg(c).png?version=1&modificationDate=1599745472981&cacheVersion=1&api=v2)
-    1.  Select the **Region** where the CodeCommit repositories reside then enter credentials for the **Access key ID** and **Secret access key**.
+2.  On the Manage integrations page, click **Add integration**.
 
-    2.  See below on the supported regions:
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+
+3.  On the following screen, click on the **Git service integration** panel for your integration type.
+
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
+
+4.  The following screen is displayed.
+
+    ![](/wp-content/uploads/gij-gitcloud-integration-aws-sel-c.png)
+
+    *   For Git hosting service, select **AWS CodeCommit**.
+
+    *   Enter the **Access Key ID** and the **Secret access key** in their respective fields.
+
+    *   Select the **Region** where the CodeCommit repositories reside. See below on the supported regions:
 
         *   AWS GovCloud (US)
-
         *   AWS GovCloud (US-East)
-
         *   US East (N. Virginia)
-
         *   US East (Ohio)
-
         *   US West (N. California)
-
         *   US West (Oregon)
-
         *   Canada (Central)
-
         *   EU (Ireland)
-
         *   EU (Frankfurt)
-
         *   EU (London)
-
         *   EU (Paris)
-
         *   EU (Stockholm)
-
         *   EU (Milan)
-
         *   Asia Pacific (Mumbai)
-
         *   Asia Pacific (Singapore)
-
         *   Asia Pacific (Sydney)
-
         *   Asia Pacific (Seoul)
-
         *   Asia Pacific (Tokyo)
-
         *   Asia Pacific (Hong Kong)
-
         *   Middle East (Bahrain)
-
         *   South America (Sao Paulo)
-
         *   China (Beijing)
-
         *   China (Ningxia)
-
         *   Africa (Capetown)
 
-3.  Click **Connect** to continue. On the following screen, Git Integration for Jira app will read all available repositories from your AWS CodeCommit account. Click **Import repositories**.
-    Repositories of the logged-in AWS CodeCommit user can be automatically connected to Jira Cloud. Repositories that are added or removed from AWS CodeCommit will be likewise connected or disconnected from Jira Cloud.
+<br>
 
-4.  After the import process, the **Settings** dialog is displayed.
+5.  Click **Connect and select repositories** to continue. On the following screen, the Git Integration for Jira Cloud app will read all available repositories from your AWS CodeCommit account.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86180077/gitcloud-autoconnect-projacl-pat-wizard(c).png?version=1&modificationDate=1599745473683&cacheVersion=1&api=v2)
-    *   On the Integration Settings, setting the [Require User PAT option](/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud) to `ON`, will require users to provide valid AWS Access Key ID and Secret Access Key for branch and pull requests creation/deletion _(via the_ [_developer panel_](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud) _on the Jira issue page)_. The required permission must be configured for the service user to do specific tasks as described in the [Required permissions](#Required-permissions) section.
+    ![](/wp-content/uploads/gij-gitcloud-integration-aws-repo-sel-c.png)
 
-    *   Set Project Permissions according to your organization's project association rules.
+    *   Select one or more repositories to connect to your Jira Cloud instance.
+    *   Repositories of the logged-in AWS CodeCommit user can be automatically connected to Jira Cloud. Repositories that are added or removed from AWS CodeCommit will be likewise connected or disconnected from Jira Cloud.
 
-5.  Click **Finish** to complete this setup.
-
+6.  Click **Connect repositories** to complete this setup.
 
 The AWS CodeCommit repositories are now connected to Jira Cloud.
 
-The Git Integration for Jira app supports tracked folders for AWS CodeCommit git repositories. The connected git host is scanned for existing repository folders. The found repositories can then be added to the Git Repositories configuration.
-
-There are two ways to configure the git repository connection using tracked repositories with Git Integration for Jira Cloud:
-
-*   connect via Full feature integrations panel ➜ **AWS CodeCommit**, or
-
-*   connect via Connect to Git Repository dropdown ➜ **AWS CodeCommit**.
-
-
-If the connected git host has newly added repositories, the Git Integration for Jira app will automatically add them to the git repositories configuration on the next reindex. For the deleted git repositories, these will be removed from the Git repositories configuration on the next reindex.
+If the connected git host has newly added repositories, the Git Integration for Jira app will automatically add them to the git repositories configuration on the next reindex.
 
 ## Single repository (Manually connect via HTTP/HTTPS)
 
 Connect a single AWS CodeCommit repository manually to Jira via HTTP/HTTPS connection.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/86180077/aws-cc-repo-home-portal-git-clone-url.png?version=1&modificationDate=1599745474156&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-aws-cc-repo-home-portal-git-clone-url.png' style='max-width:100%;margin:25px auto;display:block;' />
 
-Use the host HTTP/HTTPS git clone URL from your AWS CodeCommit repository home portal. Click on the HTTPS (Clone URL column - column 1) and paste it on the Connect to Git Repository screen.
+Use the HTTP/HTTPS git clone URL from your AWS CodeCommit repository project page. Click on the HTTPS (Clone URL column - column 1) and use this for single git repository integrations with Git Integration for Jira cloud app.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/86180077/gitcloud-app-gitmgr-connect2git-highlight.png?version=1&modificationDate=1599745474623&cacheVersion=1&api=v2)
-
-1.  On your Jira Cloud dashboard menu, go to **Apps** ➜ **Git Integration: Manage Git repositories**,
-
-2.  On the following screen, click **Connect to Git Repository**. The next screen is displayed.
-
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86180077/gitcloud-connect-wizard-dlg(c).png?version=1&modificationDate=1599745475120&cacheVersion=1&api=v2)
-3.  Click **Next** to proceed.
-
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86180077/gitcloud-aws-cc-auto-connect-permisions(c).png?version=1&modificationDate=1599745475599&cacheVersion=1&api=v2)
-4.  On the **Permissions** screen, set **Project Association** permissions, if required. Otherwise, leave it as is. Click **Connect** to continue to the next step.
-
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86180077/gitcloud-aws-cc-auto-connect-credentials(c).png?version=1&modificationDate=1599745476275&cacheVersion=1&api=v2)
-    *   On the Authentication screen, enter _**Access key ID**_ and _**Secret access key**_.
-
-5.  Click **Connect** to complete this setup.
-
+[Single git repository integration (HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
 
 The repository is now connected to Jira Cloud.
 
 ## Single repository (Manually connect via SSH)
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/xq1xzic0tm) _to open this video in a new browser tab for more viewing options._
-
-
 Connect a single AWS CodeCommit repository manually to Jira via SSH connection.
 
-SSH connections are handled automatically if the PUBLIC KEY was added in the AWS IAM console and the associated PRIVATE KEY was added/uploaded on the Jira side (_Manage Git repositories page_ ➜_Actions_➜ _**Edit repository settings** with an SSH repository on the list_).
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/xq1xzic0tm?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-If authentication issues are encountered during connecting an AWS repository to Jira, modify the original URL by inserting the **SSH Key ID** as the username. The **SSH Key ID** is an alphanumeric sequence provided by AWS IAM when importing a PUBLIC KEY for a particular user account in IAM.
+<div align='center' style='margin-top:10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/xq1xzic0tm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
+
+<img src='/wp-content/uploads/gij-gitcloud-integration-aws-repo-sel-c.png' style='margin:25px auto;display:block;' />
+
+Use the SSH git clone URL from your AWS CodeCommit repository project page. Click on the SSH (Clone URL column - column 2) and use this for single git repository integrations with Git Integration for Jira cloud app.
+
+[Single git repository integration (SSH)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-ssh-gij-cloud)
+
+The repository is now connected to Jira Cloud.
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>SSH setup</b><br>
+        SSH connections are handled automatically if the PUBLIC KEY was added in the AWS IAM console and the associated PRIVATE KEY was added/uploaded on the Jira side (<i>Manage repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' style='margin:0 3px' /> Actions ➜ <b>Edit repository</b> with an SSH repository on the list</i>).
+    </div>
+    </div>
+</div>
+
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>SSH authentication issues</b><br>
+        If authentication issues are encountered during connecting an AWS repository to Jira, modify the original URL by inserting the <b>SSH Key ID</b> as the username. The SSH Key ID is an alphanumeric sequence provided by AWS IAM when importing a PUBLIC KEY for a particular user account in IAM.
+    </div>
+    </div>
+</div>
 
 For example, the original URL is:
 
-```java
+```powershell
 ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/test-repo
 ```
 
-If the SSH Key ID **1a2b3c4d5e** is applied to the original SSH URL, the resulting URL would be:
+If the SSH Key ID **1a2b3c4d5e** is applied to the original SSH URL, the resulting URL would be:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86180077/aws-cc-ssh-codeline-example.png?version=1&modificationDate=1599745476751&cacheVersion=1&api=v2&width=633&height=52)
+<img src='/wp-content/uploads/gij-aws-cc-ssh-codeline-example.png' width=633 height=52 style='max-width:100%;display:block;margin:25px auto' />
 
-The modified URL can now be used as a valid repository URL via **Manage Git repositories** page ➜ **Connect to Git Repository**.
+The modified URL can now be used as a valid repository URL via Manage repositories page ➜ Add integration ➜ **Single git repository integration** panel.
+
+## Troubleshooting integration
+
+Some repositories are not showing for the integration user. If this is the case, make adjustments to the configuration on the following settings:
+
+*   **Permissions**  –  verify correct permissions have been granted to the integration user.
+
+For detailed information, see [Required permissions](#required-permissions).
 
 ## Setting up AWS CodeCommit web links
 
-The Git Integration for Jira app automatically configures web linking for AWS CodeCommit repositories connected via Full feature integration in Jira Cloud.
+The Git Integration for Jira app automatically configures web linking for AWS CodeCommit repositories connected via Git service integration in Jira Cloud.
 
 For single repository connections, configuring web linking is optional. For more information, see [Web linking documentation](/git-integration-for-jira-cloud/web-linking-gij-cloud).
 
@@ -236,7 +354,28 @@ For detailed information on this process, see [Linking git commits to Jira issue
 
 ## Working with branches and pull requests
 
-This section requires the necessary permissions for [all features](#all-features).
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This section requires the necessary permissions for <a href='#all-features'>all features</a>.
+    </div>
+    </div>
+</div>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The user must have the required permissions in IAM to proceed creating the branch or pull request. Otherwise, no branch or pull request is created. For more information, see <a href='#required-permissions'>Required permissions</a> at the start of this guide.
+    </div>
+    </div>
+</div>
+<br>
 
 The Git Integration for Jira app supports creation of branches and pull requests from Jira via the developer panel.
 
@@ -244,72 +383,155 @@ The Git Integration for Jira app supports creation of branches and pull requests
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level. 
 
-Main branch for repositories within an integration can only be changed on the git server.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Main branch for repositories within an integration can only be changed on the git server.
+    </div>
+    </div>
+</div>
+<br>
 
 ### Creating branches
 
 On your Jira Cloud, open a Jira issue. On the Jira Git development panel, click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/86180077/gitcloud-aws-cc-create-branch-dlg.png?version=1&modificationDate=1599745477235&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-gitcloud-aws-cc-create-branch-dlg.png' style='margin:25px auto;display:block;max-width:100%')
 
 **Pointers:**
 
 1.  Select a **Repository** from the list.
 
-    1.  The selected repository will display the git service logo to identify which git host it is located from.
+    *   The selected repository will display the git service logo to identify which git host it is located from.
 
-    2.  If there are several repositories with the same name, the listed CodeCommit repositories will have their names attached with a region name. For example, `us-west-2/test-repo`.
+    *   If there are several repositories with the same name, the listed CodeCommit repositories will have their names attached with a region name. For example, `us-west-2/test-repo`.
 
-    3.  Use the search box to look for the specific repository that will be used.
+    *   Use the search box to look for the specific repository that will be used.
 
-    4.  Optional – designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the <a href='/git-integration-for-jira-cloud/user-settings-gij-cloud'>User settings</a> page.
 
-2.  Choose the newly-created branch as the **Source branch**.
+2.  Choose a **Source branch**. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the <a href='/git-integration-for-jira-cloud/user-settings-gij-cloud'>User settings</a> page.
 
-3.  Set _**master**_ as the **Target branch**.
+3.  Enter a **Branch name** or leave it as is (recommended).
 
-4.  Enter a descriptive **Title** or leave it as is _(recommended)_.
+4.  Click **Create branch** to complete this process.
 
-5.  Click **Create Branch**.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-branch-gij-cloud'>Create branch</a>.
+    </div>
+    </div>
+</div>
 
+The newly-created branch is now listed in the [Jira git development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud) under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
-The branch is created and can be viewed under the **Branches** tab in your AWS CodeCommit web portal.
+The branch is also created and can be viewed under the **Branches** tab in your AWS CodeCommit web portal.
 
 ### Creating pull requests
+
+<div class="bbb-callout bbb--error">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Before you can create a pull request, you need to create a branch first.
+    </div>
+    </div>
+</div>
+<br>
 
 The pull request feature works the same as merge request.
 
 On your Jira Cloud, open the Jira issue where your previously created a branch. On the developer panel under **Git integration**, click **Create Pull Request**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/86180077/gitcloud-aws-cc-create-pullreq-dlg.png?version=1&modificationDate=1599745477698&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-gitcloud-aws-cc-create-pullreq-dlg.png' style='max-width:100%;display:block;margin:25px auto;')
 
 **Pointers:**
 
-1.  Select your working **Repository**.
+1.  Select a **Repository** from the list.
 
-    1.  The selected repository will display the git service logo to identify which git host it is located from.
+    *   The selected repository will display the git service logo to identify which git host it is located from.
 
-    2.  If there are several repositories with the same name, the listed CodeCommit repositories will have their names attached with a region name. For example, `us-west-2/test-repo`.
+    *   If there are several repositories with the same name, the listed CodeCommit repositories will have their names attached with a region name. For example, `us-west-2/test-repo`.
 
-    3.  Use the search box to look for the specific repository that will be used.
+    *   Use the search box to look for the specific repository that will be used.
 
-    4.  Optional – designate the repository to be the default selected repository for current Jira project.  To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the <a href='/git-integration-for-jira-cloud/user-settings-gij-cloud'>User settings</a> page.
 
-2.  Set the **Source branch** to the newly-created branch.
+2.  Choose the newly-created branch as the **Source branch**. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the <a href='/git-integration-for-jira-cloud/user-settings-gij-cloud'>User settings</a> page.
 
-3.  Set the **Target branch** to _**master**_.
+3.  Set _**master**_ as the **Target branch**.
 
-4.  Give the pull request **Title** a descriptive name or leave it as is.
+4.  Enter a descriptive **Title** or leave it as is (recommended).
 
-5.  Click **Create pull request** to create the pull request.
+5.  Click **Create pull request** to complete this setup.
 
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
+    </div>
+    </div>
+</div>
 
-Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (usually master).
+    </div>
+    </div>
+</div>
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud'>Create pull/merge request</a>.
+    </div>
+    </div>
+</div>
 
 The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your AWS CodeCommit web portal.
 
 The branch and the pull request status are also displayed on the developer panel.
+
+## More Integration Guides
+
+[GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud)
+
+[GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud)
+
+[GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud)
+
+[GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud)
+
+[Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud)
+
+[Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud)
+
+[AWS CodeCommit](/git-integration-for-jira-cloud)
+
+[Gerrit](/git-integration-for-jira-cloud/gerrit-gij-cloud)
+
+[Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud)
+
+[Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
 
