@@ -10,7 +10,7 @@ taxonomy:
 
 Users cannot see the **Create branch** or **Create pull/merge request** actions on the [Jira issue developer panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud).
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/421593107/createbranch-pullrequest.png?version=1&modificationDate=1586317455810&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-troubleshoot-createbranch-pullrequest.png' style='max-width:100%;margin:25px auto;display:block' />)
 
 ## Solution
 
@@ -23,15 +23,25 @@ The **Create branch** and **Create pull/merge requests** features are enable
 3.  Complete the integration connection wizard steps.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/421593107/gitcloud-gitmgr-full-feature-sel.png?version=1&modificationDate=1638463123267&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-troubleshoot-gitcloud-gitmgr-full-feature-sel.png' style='max-width:100%;margin:25px auto;display:block' />
 
-See our [integration guides](/git-integration-for-jira-cloud/integration-guide-gij-cloud/) for each Full feature integration option.
+See our [Integration Guides](/git-integration-for-jira-cloud/integration-guide-gij-cloud) for each Full feature integration option.
 
 The regular Git integration and Limited connect feature Git option does not offer the Create branch and Create pull/merge request features.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/421593107/gitcloud-gitmgr-limited-connect-sel.png?version=1&modificationDate=1638463377572&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-troubleshoot-gitcloud-gitmgr-limited-connect-sel.png' style='max-width:100%;margin:25px auto;display:block' />
 
-**Contact Us**
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        
+    </div>
+    </div>
+</div>
 
-If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
+<b>Contact Us</b><br>
+If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
 

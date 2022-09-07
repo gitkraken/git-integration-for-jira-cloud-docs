@@ -9,9 +9,9 @@ taxonomy:
 
 The simple Jira workflow does not contain explicit transition names. These kind of workflow with no explicit transition names are becoming more popular as Atlassian is suggesting them to administrators upon project creation.
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025389/gitcloud-jira-workflow-chart.png' width=217 height=241 style='margin: 25px auto; border: 1px solid #ccc' />
+<img src='/wp-content/uploads/gij-gitcloud-jira-workflow-chart.png' width=217 height=241 style='margin:25px auto;display:block;' />
 
-The name of the status is the transition. So, using the basic example above, the valid transitions from DONE are:
+The name of the status is the transition. So, using the basic example above, the valid transitions from <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>DONE</b> are:
 
 *   **#to-do**
 
@@ -39,7 +39,7 @@ The name of the status is the transition. So, using the basic example above, th
     </div>
     <div class="imsgbox">
         <b>Absence of transition names</b><br>
-        When there are no transition names — just use the status names. If there is a space, replace it with "–" (hyphens). For example, <b>CODE REVIEW</b> becomes <code>#code-review</code>.
+        When there are no transition names — just use the status names. If there is a space, replace it with "–" (hyphens). For example, <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>CODE REVIEW</b> becomes <code>#code-review</code>.
     </div>
     </div>
 </div>
