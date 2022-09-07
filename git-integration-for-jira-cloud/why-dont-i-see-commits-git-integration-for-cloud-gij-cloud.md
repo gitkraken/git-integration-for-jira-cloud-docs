@@ -6,83 +6,101 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/110755841/Asset%202@5x_1.png?version=4&modificationDate=1554913758813&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-troubleshoot-how-do-i-see-commits-top.png)
 
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
 
+<p align=center><b>Check if Git Integration for Jira app is installed, licensed and active</b> <b style='background-color:#EAE5FE;padding:1px 5px;color:#412C92; border-radius:3px;margin:0 5px;font-size:small;'>JIRA ADMIN</b></p>
 
-JIRA ADMIN
+1.  Follow the [link](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) to install from the Atlassian Marketplace. You can verify that the Git Integration for Jira Cloud app is installed by visiting
 
-- Check if Git Integration for Jira app is installed, licensed and active
+    Jira Settings ➜ Apps ➜ **Manage apps**.
 
-Follow the [link](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) to install from the Atlassian Marketplace. You can verify that the Git Integration for Jira Cloud app is installed by visiting
+2.  Verify that the license is valid and that the application is active (installed, subscription is active).
 
-Jira Settings → Apps → Manage apps.
+<img src='/wp-content/uploads/gij-troubleshoot-manage-apps.png' style='max-width:100%;margin:25px auto;display:block' />
 
-Verify that the license is valid and that the application is active (installed, subscription is active).   
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/manage-apps.png?version=1&modificationDate=1553619498618&cacheVersion=1&api=v2&width=800&height=388) 
+<p align=center>Git Integration for Jira Cloud is installed, licensed and active</p>
 
-Git Integration for Jira Cloud is installed, licensed and active
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
 
-JIRA ADMIN
-
-- Check if user has “Development Tools” permission
+<p align=center><b>Check if user has "Development Tools" permission</b> <b style='background-color:#EAE5FE;padding:1px 5px;color:#412C92; border-radius:3px;margin:0 5px;font-size:small;'>JIRA ADMIN</b></p>
 
 Using the **Permission Helper** within Jira Cloud - verify that the user in question has the **Development Tools** permission.
 
-The Permission Helper is available to Jira admins: Jira settings → System → Permission Helper.
+The Permission Helper is available to Jira admins: Jira settings ➜ System ➜ Permission Helper.
 
-Permissions are correct
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/21vd3arsj6?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-JIRA ADMIN
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/21vd3arsj6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
 
-- Check if repository with commit is connected to Jira
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
+
+<p align=center>Permissions are correct</p>
+
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
+
+<p align=center><b>Check if repository with commit is connected to Jira</b> <b style='background-color:#EAE5FE;padding:1px 5px;color:#412C92; border-radius:3px;margin:0 5px;font-size:small;'>JIRA ADMIN</b></p>
 
 A couple ways to do this:
 
 *   Via integration in Manage Git Repositories
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/via-repo-1.png?version=3&modificationDate=1554317873812&cacheVersion=1&api=v2&width=800&height=388)
+    ![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-via-repo-1.png)
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/via-repo-2.png?version=4&modificationDate=1554318008865&cacheVersion=1&api=v2&width=800&height=388)
+    ![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-via-repo-2.png)
 
 *   Via Repository Browser (shows the list of all the repositories that are connected in one list
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/reindex-since-commit.png?version=3&modificationDate=1554317871781&cacheVersion=1&api=v2&width=800&height=388)
+    ![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-reindex-since-commit.png)
 
-The repository with the missing commit is connected
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
 
-JIRA ADMIN
+<p align=center>The repository with the missing commit is connected</p>
 
-- Check if repository has been reindexed since commit
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
+
+<p align=center><b>Check if repository has been reindexed since commit</b> <b style='background-color:#EAE5FE;padding:1px 5px;color:#412C92; border-radius:3px;margin:0 5px;font-size:small;'>JIRA ADMIN</b></p>
 
 Reindexing integrations (or repositories) manually. Note: all repositories are updated regularly without any manual updating required.
 
 Approximately every 8-15 minutes.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/reindex-manually.png?version=3&modificationDate=1554317862621&cacheVersion=1&api=v2&width=800&height=388)
+![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-reindex-manually.png)
 
 Admins can setup webhooks to index commits immediately
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/webhooks.png?version=3&modificationDate=1554317885518&cacheVersion=1&api=v2&width=800&height=388)
+![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-webhooks.png)
 
-The repository has indexed since the commit was pushed
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
 
-JIRA ADMIN
+<p align=center>The repository has indexed since the commit was pushed</p>
 
-- Check if repository is associated with Jira project
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
+
+<p align=center><b>Check if repository is associated with Jira project</b> <b style='background-color:#EAE5FE;padding:1px 5px;color:#412C92; border-radius:3px;margin:0 5px;font-size:small;'>JIRA ADMIN</b></p>
 
 It allows an admin to associate an integration (and all the repositories) or just a single repository to a set of Jira projects (one, many, or all).
 
-Go to Manage Git Repositories → Project Permissions. 
+Go to Manage Git Repositories ➜ Project Permissions.
 
 Check "Associate all projects" if you want the repository to be associated with all Jira projects.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/associate-projects.png?version=2&modificationDate=1554319092373&cacheVersion=1&api=v2&width=800&height=388)
+![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-associate-projects.png)
 
-The Jira project is associated with the repository
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
 
-- Check if commit has a valid Jira issue key
+<p align=center>The Jira project is associated with the repository</p>
+
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
+
+<p align=center><b>Check if commit has a valid Jira issue key</b></p>
 
 The association between Jira issues and commits is created by adding the Jira issue key (ABC-123 or MAIN-345) in the commit message.
 
@@ -92,46 +110,67 @@ Example commit messages:
 
 **```MAIN-345 adding important new feature.```**
 
-
-
 Valid Jira issue key examples are shown in the following screenshot:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/valid-key.png?version=1&modificationDate=1554322237274&cacheVersion=1&api=v2&width=800&height=388)
+![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-valid-key.png)
 
 GitLab showing an actual commit and the commit message:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/gitlab.png?version=1&modificationDate=1554322268762&cacheVersion=1&api=v2&width=800&height=388)
+![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-gitlab.png)
 
 Check the video for more instructions:
 
-Commit has a valid Jira issue key
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/cs229y2gzj?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
- - Try to find indexed commit in Jira Cloud
+<div align='center' style='margin:10px 0 30px 0'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/cs229y2gzj'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
+
+<p align=center>Commit has a valid Jira issue key</p>
+
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
+
+<p align=center><b>Try to find indexed commit in Jira Cloud</b></p>
 
 The commit may be indexed by Jira Cloud - but not associated with any Jira issues. You can verify this with the following steps:
 
-1. Navigate to **View All Repositories** 
+1.  Navigate to **View All Repositories** 
 
-2\. Find the repository and then the indexed commit (may need to select the branch)
+2. Find the repository and then the indexed commit (may need to select the branch)
 
 If you find the commit - you can then fix commit association by clicking on **Change**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/5.gif?version=1&modificationDate=1553533096032&cacheVersion=1&api=v2&width=800&height=429)
+![](/wp-content/uploads/gij-troubleshoot-try-to-find-indexed-commits-in-jira.gif)
 
-Commit is indexed
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
 
- - Check if commit is showing now
+<p align=center>Commit is indexed</p>
+
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
+
+<p align=center><b>Try to find indexed commit in Jira Cloud</b></p>
+
+Check if commit is showing now
 
 Where you can see commits:
 
 *   New Jira issue view
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/new-jira.png?version=1&modificationDate=1554323932219&cacheVersion=1&api=v2&width=800&height=388)
+    ![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-new-jira.png)
 
 *   Old Jira issue view
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/110755841/old-jira.png?version=1&modificationDate=1554323933624&cacheVersion=1&api=v2&width=800&height=388)
+    ![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-old-jira.png)
 
-I still do not see my commits
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
 
-Contact [support@bigbrassband.com](mailto:support@bigbrassband.com) by email or via the [BigBrassBand Support Portal](https://bigbrassband.atlassian.net/servicedesk/customer/portals)
+<p align=center>I still do not see my commits</p>
+
+<p style='font-size:26px;text-align:center;'>&#8681;</p>
+
+<p align=center>Contact <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a> by email or via the <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>BigBrassBand Support Portal</a>.
+

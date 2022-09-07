@@ -14,69 +14,68 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 **What’s on this page:**
 - [Accessible Locations](#accessible-locations)
 - [GitHub.com examples](#githubcom-examples)
-  - [1. Lists all repositories (default)](#1-lists-all-repositories-default)
-  - [2. Display all repositories from \<username\>](#2-display-all-repositories-from-username)
-  - [3. Displays starred repositories](#3-displays-starredrepositories)
-  - [4. List all repositories for the specified organization](#4-list-all-repositories-for-the-specified-organization)
 - [GitHub Enterprise examples](#github-enterprise-examples)
-  - [1. Lists all repositories (default)](#1-lists-all-repositories-default-1)
-  - [2. Display all repositories from \<username\>](#2-display-allrepositories-from-username)
-  - [3. Display starred repositories](#3-display-starredrepositories)
-  - [4. List all repositories for the specified organization](#4-list-allrepositories-for-the-specified-organization)
 - [GitLab.com | GitLab CE/EE examples](#gitlabcom--gitlab-ceee-examples)
-  - [1. Lists all projects (default)](#1-lists-all-projects-default)
-  - [2. Display all projects from \<user\_id\>](#2-display-all-projects-from-user_id)
-  - [3. Displays starred projects](#3-displays-starredprojects)
-  - [4. Limit to owned projects](#4-limit-to-owned-projects)
-  - [5. List projects from within a Group](#5-list-projects-from-within-a-group)
-  - [6. List projects from the specified sub-group](#6-list-projects-from-the-specified-sub-group)
 - [Bitbucket Cloud examples](#bitbucket-cloud-examples)
-  - [1. Lists all repositories for the specific user (default)](#1-lists-all-repositories-for-the-specific-user-default)
-  - [2. Lists all repositories for the specified workspace ID](#2-lists-all-repositories-for-the-specified-workspace-id)
 
-* * *
+<hr>
 
 ## Accessible Locations
 
 *   Go to Manage Git repositories page ➜ Full feature integration wizard ➜ **Connect** screen ➜ _Advanced_ ➜ **Custom API Path**. In this case, we use GitHub as an example:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/133201972/gitcloud-autoconnect-github-custom-api-path.png?version=1&modificationDate=1638348182666&cacheVersion=1&api=v2&width=566&height=510)
+    <img src='/wp-content/uploads/gij-gitcloud-autoconnect-github-custom-api-path.png' width=566 height=510 style='max-width:100%;margin:25px 0' />
 
-*   Go to Manage Git repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' valign=middle /> Actions ➜ Edit integration settings (for integration) or Edit repository settings (for repositories) ➜ Integration settings section ➜ **Custom API Path**.
+*   Go to Manage Git repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit integration settings (for integration) or Edit repository settings (for repositories) ➜ Integration settings section ➜ **Custom API Path**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/133201972/gitcloud-actions-edit-integration-settings-cAPI-path.png?version=1&modificationDate=1638348403238&cacheVersion=1&api=v2&width=566&height=211)
+    <img src='/wp-content/uploads/gij-gitcloud-actions-edit-integration-settings-cAPI-path.png' width=566 height=211 style='max-width:100%;margin:25px 0' />
 
-* * *
+<hr>
 
-![](/wp-content/uploads/github-mobile-dark.png)
+<img src='/wp-content/uploads/github-mobile-dark.png' width=48 height=48 style='margin-top:30px;' />
 
 ## GitHub.com examples
 
-### 1. Lists all repositories (default)
+**1. Lists all repositories (default)**
 
-```/user/repos```<br>
+```java
+/user/repos
+```
+
 Gets a list of repositories. This is the same as when no API path is specified.
 
-### 2. Display all repositories from \<username\>
+**2. Display all repositories from \<username\>**
 
-```/users/<username>/repos```<br>
+```java
+/users/<username>/repos
+```
+
 Gets a list of public repositories for the specified user, **\<username\>**.
 
 For example: `/users/johnsmith/repos`
 
-### 3. Displays starred repositories
+**3. Displays starred repositories**
 
-```/user/starred```<br>
+```java
+/user/starred
+```
+
 Gets the list of starred repositories for the authenticated user.
 
-```/users/<username>/starred```<br>
+```java
+/users/<username>/starred
+```
+
 Gets the list of starred public/private repositories for the specified user, **\<username\>**.
 
 For example: `/users/johnsmith/starred`
 
-### 4. List all repositories for the specified organization
+**4. List all repositories for the specified organization**
 
-```/orgs/<org>/repos```<br>
+```java
+/orgs/<org>/repos
+```
+
 Gets a list of repositories for the specified org, **\<org\>**. _BigBrassBand_
 
 **For instance:**<br>
@@ -85,78 +84,107 @@ This will filter for repositories only within the org: BigBrassBand. This works 
 
 * * *
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/133201972/github-ent-64.png?version=1&modificationDate=1638349289767&cacheVersion=1&api=v2&width=56&height=54)
+<img src='/wp-content/uploads/gij-github-ent-64.png' width=48 height=46 style='margin-top:30px;' />
 
 ## GitHub Enterprise examples
 
-### 1. Lists all repositories (default)
+**1. Lists all repositories (default)**
 
-```/api/v3/user/repos```<br>
+```java
+/api/v3/user/repos
+```
+
 Gets the list of starred repositories for the authenticated user.
 
-### 2. Display all repositories from \<username\>
+**2. Display all repositories from \<username\>**
 
-```/api/v3/users/<username>/repos```<br>
+```java
+/api/v3/users/<username>/repos
+```
 
 Gets a list of public repositories for the specified user, **\<username\>**.
 
 For example: `/api/v3/users/johnsmith/repos`
 
-### 3. Display starred repositories
+**3. Display starred repositories**
 
-```/api/v3/user/starred```<br>
+```java
+/api/v3/user/starred
+```
+
 Gets the list of starred repositories for the authenticated user.
 
-```/api/v3/users/<username>/starred```<br>
+```java
+/api/v3/users/<username>/starred
+```
+
 Gets the list of public/private starred repositories for the specified user, **\<username\>**.
 
 For example: `/api/v3/users/johnsmith/starred`
 
-### 4. List all repositories for the specified organization
+**4. List all repositories for the specified organization**
 
-```/api/v3/orgs/<org>/repos```<br>
+```java
+/api/v3/orgs/<org>/repos
+```
+
 Gets a list of repositories for the specified org, **\<org\>**. _BigBrassBand_
 
-**For instance:**<br.>
+**For instance:**<br>
 ```/api/v3/orgs/BigBrassBand/repos```<br>
 This will filter for repositories only within the org: _BigBrassBand_. This works for GitHub Enterprise integrations.
 
 * * *
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/133201972/gitlab-mobile.png?version=1&modificationDate=1638351658250&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-gitlab-mobile.png' width=48 height=48 style='margin-top:30px;' />
 
 ## GitLab.com | GitLab CE/EE examples
 
-### 1. Lists all projects (default)
+**1. Lists all projects (default)**
 
-```/api/v4/projects?membership=true```<br>
+```java
+/api/v4/projects?membership=true
+```
+
 Gets a list of projects. This is the same as when no API path is specified.
 
-### 2. Display all projects from \<user\_id\>
+**2. Display all projects from \<user\_id\>**
 
-```/api/v4/users/<user_id>/projects```<br>
+```java
+/api/v4/users/<user_id>/projects
+```
+
 Gets a list of projects for the specified user, **\<user\_id\>**.
 
 For example: `/api/v4/users/johnsmith/projects`
 
-### 3. Displays starred projects
+**3. Displays starred projects**
 
-```/api/v4/projects?starred=true```<br>
+```java
+/api/v4/projects?starred=true
+```
+
 Returns GitLab projects that have been starred by the connecting GitLab user.
 
-### 4. Limit to owned projects
+**4. Limit to owned projects**
 
-```/api/v4/projects?owned=true```<br>
+```java
+/api/v4/projects?owned=true
+```
+
 The current user will be limited to the projects it's explicitly owned.
 
-### 5. List projects from within a Group
+**5. List projects from within a Group**
 
-```/api/v4/groups/5245789/projects<br>/api/v4/groups/BigBrassBand/projects```<br>
+```java
+/api/v4/groups/5245789/projects<br>/api/v4/groups/BigBrassBand/projects
+```
+
 Returns the list of repositories within a GitLab Group (or GitLab Subgroup).
 
 In the above examples, you can use the **Group id** or your **Group name** as query parameter.
 
-### 6. List projects from the specified sub-group
+**6. List projects from the specified sub-group**
 
 ```java
 /api/v4/groups/5245789/projects?include_subgroups=true
@@ -188,7 +216,7 @@ For more information on GitLab custom API paths, see [**GitLab API**](https://d
     </div>
     <div class="imsgbox">
         <b>Remember:</b><br>
-        The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible. For more information, see <a href='/git-integration-for-jira-cloud/working-with-jmespath-filters/'>Working with JMESPath filters</a>.
+        The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible. For more information, see <a href='/git-integration-for-jira-cloud/working-with-jmespath-filters'>Working with JMESPath filters</a>.
     </div>
     </div>
 </div>
@@ -196,21 +224,27 @@ For more information on GitLab custom API paths, see [**GitLab API**](https://d
 
 * * *
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/133201972/bitbucket-mobile.png?version=1&modificationDate=1638352041213&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-bitbucket-mobile.png' width=48 height=48 style='margin-top:30px;' />
 
 ## Bitbucket Cloud examples
 
-### 1. Lists all repositories for the specific user (default)
+**1. Lists all repositories for the specific user (default)**
 
-```/!api/2.0/repositories/<username>```<br>
+```java
+/!api/2.0/repositories/<username>
+```
+
 Displays a list of git repositories of the user with the specified username. This is the same as when no API path is specified.
 
 **For example:**<br>
 ```/!api/2.0/repositories/wcoyote```
 
-### 2. Lists all repositories for the specified workspace ID
+**2. Lists all repositories for the specified workspace ID**
 
-```/!api/2.0/repositories/<workspaceID>```<br>
+```java
+/!api/2.0/repositories/<workspaceID>
+```
+
 Displays a list of git repositories for the specified workspace ID.
 
 **For example:**<br>
@@ -218,9 +252,11 @@ Displays a list of git repositories for the specified workspace ID.
 
 While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
-<br><br>
-
-* * *
-
-_1 Logo owned by_ [_GitLab Inc_](https://gitlab.com/) _used under_ [_license_](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+<br>
+<br>
+<div style='border-top: 1px solid #456; width: 40%; padding-bottom: 12px'></div>
+<div style='font-size: 12px;'>
+    <sup>1</sup> <i>Logo owned by <a href='https://gitlab.com/'>GitLab Inc</a> used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>license</a>.
+    <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.<p><i>
+</div>
 
