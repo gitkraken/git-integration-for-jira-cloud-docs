@@ -7,15 +7,15 @@ taxonomy:
 
 ---
 
-CI/CD for Jira is a free extension to Git Integration for Jira, connecting your CI/CD DevOps pipelines with Jira Cloud’s builds and deployments features. Similar to how Git Integration for Jira exposes commits, branches, and pull requests, CI/CD for Jira adds in build and deployment information associated with Jira issues.
+[CI/CD for Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview) is a free extension to Git Integration for Jira, connecting your CI/CD DevOps pipelines with Jira Cloud’s builds and deployments features. Similar to how Git Integration for Jira exposes commits, branches, and pull requests, CI/CD for Jira adds in build and deployment information associated with Jira issues.
 
 ## Supported services
 
-CI/CD for Jira currently supports the following tools for Build and Deployment information:
+[CI/CD for Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview) currently supports the following tools for Build and Deployment information:
 
 *   GitHub Actions (Cloud or Self Hosted)
 *   GitLab CI/CD (Cloud or Self Hosted)
-*   Azure DevOps Pipelines (Cloud or Self Hosted)
+*   Azure DevOps Pipelines (Cloud or Self Hosted) <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b>
 *   Bitbucket Pipelines (Cloud)
 
 ## Setup
