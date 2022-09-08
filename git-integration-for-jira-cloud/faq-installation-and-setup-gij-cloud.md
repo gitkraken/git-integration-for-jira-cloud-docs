@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains solutions related to Git Integration for Jira Cloud app installation.
 
-Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Installation%20issue%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions.  Feel free to contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 - [Does it take long to install?](#does-it-take-long-to-install)
 - [I don't know Git — what will I need to install the app?](#i-dont-know-gitwhat-will-i-need-to-install-the-app)
@@ -33,11 +33,11 @@ A new tab is added in each issue. A new tab is added in each project.
 
 Atlassian has posted the following relevant information regarding Atlassian Marketplace addons and development licenses of Jira:
 
-[https://www.atlassian.com/licensing/marketplace#licensingandpricing-4](https://www.atlassian.com/licensing/marketplace#licensingandpricing-4 "Licensing and Pricing")
+[Licensing and Pricing](https://www.atlassian.com/licensing/marketplace#licensingandpricing-4)
 
 Which points to:
 
-[Licensing and Paid via Atlassian Listings](https://developer.atlassian.com/market/add-on-licensing-for-developers/licensing-and-paid-via-atlassian-listings "Licensing and Paid via Atlassian Listings")
+[Licensing and Paid via Atlassian Listings](https://developer.atlassian.com/market/add-on-licensing-for-developers/licensing-and-paid-via-atlassian-listings)
 
 Go to the section titled, **"Can customers use developer licenses for my add-on?"**, which has instructions on how to get a developer license for add-ons.
 
@@ -52,4 +52,4 @@ Go to the section titled, **"Can customers use developer licenses for my add-on
     </div>
     </div>
 </div>
-
+<br>

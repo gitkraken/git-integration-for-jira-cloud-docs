@@ -8,21 +8,20 @@ taxonomy:
 ---
 This page contains solutions targeted for developers.
 
-Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Developer%20questions%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions.  Feel free to contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/)  if you don't see what you're looking for.
 
-[How do Git commits get associated with a Jira issue?](#Developer-assocgitcommits)
+[How do Git commits get associated with a Jira issue?](#how-do-git-commits-get-associated-with-a-jira-issue)
 
-[How do I ensure people are following our organization's process for source code?](#Developer-followprocs)
+[How do I ensure people are following our organization's process for source code?](#how-do-i-ensure-people-are-following-our-organizations-process-for-source-code)
 
-[What will happen to Jira issue associations with commits if the Jira issue is moved to a new project?](#Developer-issuemovenewproj)
+[What will happen to Jira issue associations with commits if the Jira issue is moved to a new project?](#what-will-happen-to-jira-issue-associations-with-commits-if-the-jira-issue-is-moved-to-a-new-project)
 
-[Can the plugin be configured to handle or scan multiple keys for one project?  How is this supposed to work?](#Developer-handlemultikeys)
-
+[Can the plugin be configured to handle or scan multiple keys for one project?  How is this supposed to work?](#can-the-plugin-be-configured-to-handle-or-scan-multiple-keys-for-one-project-how-is-this-supposed-to-work)
 
 
 * * *
 
-## **How do Git commits get associated with a Jira issue?**
+## How do Git commits get associated with a Jira issue?
 
 On every Git commit, make sure the message includes the exact issue ID at the beginning of the text. The Git Integration for Jira Cloud app will automatically index new commits and associate the referenced issue.
 
@@ -34,7 +33,7 @@ Example git commit message:
 
 
 
-## **How do I ensure people are following our organization's process for source code?**
+## How do I ensure people are following our organization's process for source code?
 
 Open the project summary in your browser and click on the **Git Commits** tab.
 
@@ -42,7 +41,7 @@ All changes that developers have submitted will be listed in reverse chronologic
 
 
 
-## **What will happen to Jira issue associations with commits if the Jira issue is moved to a new project?**
+## What will happen to Jira issue associations with commits if the Jira issue is moved to a new project?
 
 The commit retains the association even in the new project.  The Git Integration for Jira Cloud app supports history tracking.  Thus, when moving a ticket to a new project whose issue key has changed, the association will still work.
 
@@ -56,8 +55,9 @@ The steps below provides an outline that you can follow to verify that the issue
 
 The Git Integration for Jira Cloud app also supports multiple issue keys in a commit message.
 
-## **Can the plugin be configured to handle or scan multiple keys for one project?  How is this supposed to work?**
+## Can the plugin be configured to handle or scan multiple keys for one project?  How is this supposed to work?
 
 Yes – the Git Integration for Jira Cloud app supports multiple Jira issue keys in a multiple-line commit message.
 
-For more information, see **[Smart Commits »](/git-integration-for-jira-cloud/smart-commits-gij-cloud/)**.
+For more information, see **[Smart Commits »](/git-integration-for-jira-cloud/smart-commits-gij-cloud)**.
+

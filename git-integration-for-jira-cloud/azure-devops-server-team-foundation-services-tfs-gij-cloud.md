@@ -6,9 +6,22 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/azure-devops-server-team-foundation-services-tfs-gij-self-managed).
 
-![Azure DevOps Server banner logo](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86409345/image-20200817-113521.png?version=1&modificationDate=1598528954986&cacheVersion=1&api=v2&width=481&height=77)![Team Foundation Server banner logo](https://bigbrassband.com/confluence/images/tfs-logo.png)
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Using <b>Jira Server or Data Center</b>? <a href='/git-integration-for-jira-self-managed/azure-devops-server-team-foundation-services-tfs-gij-self-managed'>See the corresponding article</a>.
+    </div>
+    </div>
+</div>
+<br>
+
+<img src='/wp-content/uploads/gij-azure-devops-banner.png' width=481 height=77 style='margin:25px 0;max-width:100%;margin-bottom:0' />
+
+<img src='/wp-content/uploads/gij-tfs-logo.png' width=359 height=138 style='margin:25px 0;max-width:100%;margin-bottom:40px' />
 
 # Integrate Azure DevOps Server/TFS with Jira Cloud
 
@@ -17,14 +30,39 @@ Quickly learn how to connect Azure DevOps Server/TFS git repositories via Git In
 The Git Integration for Jira app supports Azure Repos.
 
 **What’s on this page:**
+- [Integrate Azure DevOps Server/TFS with Jira Cloud](#integrate-azure-devops-servertfswith-jira-cloud)
+  - [Creating personal access tokens](#creating-personal-access-tokens)
+  - [Permissions](#permissions)
+  - [Using Git service integration and OAuth](#using-git-service-integration-and-oauth)
+  - [Single git repository integration](#single-git-repository-integration)
+  - [Troubleshooting integration](#troubleshooting-integration)
+  - [Webhooks and web linking](#webhooks-and-web-linking)
+  - [Linking Azure DevOps Server/TFS git commits to Jira Cloud](#linking-azure-devops-servertfs-git-commits-to-jira-cloud)
+  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
+  - [Working with branches and pull requests with Azure DevOps Server/TFS](#working-with-branches-and-pull-requests-with-azure-devops-servertfs)
+    - [Default branch](#default-branch)
+    - [Creating branches](#creating-branches)
+    - [Creating pull requests](#creating-pull-requests)
+    - [Merging _branch_ to _master_](#merging-branch-to-master)
+  - [More Integration Guides](#more-integration-guides)
 
-* * *
+<hr>
 
 ## Creating personal access tokens
 
 If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) – use the table of content anchor link to go to the Azure DevOps Server/TFS section.
 
-This step is **highly required** for Azure DevOps Server/TFS integrations connected via the Full feature integrations panel.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This step is <b>highly required</b> for Azure DevOps Server/TFS integrations connected via the Full feature integrations panel.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Permissions
 
@@ -38,24 +76,25 @@ We recommend using the Git service integrations panel to connect multiple reposi
 
 1.  On the Jira Cloud dashboard menu, go to **Apps ➜ Git Integration: Manage integrations**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/gitcloud-jira-apps-manage-integrations-sel(c).png?version=1&modificationDate=1649856891937&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
 2.  On the Manage integrations page, click **Add integration.**
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/gitcloud-managed-ui-webhook-idx-setup(c).png?version=1&modificationDate=1649856891946&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
 3.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/gitcloud-managed-ui-git-service-sel(c).png?version=1&modificationDate=1649856891950&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
 
 4.  The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/gitcloud-integration-azure-server-2019-connect(c).png?version=1&modificationDate=1650535366559&cacheVersion=1&api=v2)
-    1.  For Git hosting service, choose **Azure DevOps Server**. If you are using **Team Foundation Server (TFS)**, choose that instead.
+    ![](/wp-content/uploads/gij-gitcloud-integration-azure-server-2019-connect-c.png)
 
-    2.  Enter the **Host URL** for your Azure/TFS git server.
+    *   For Git hosting service, choose **Azure DevOps Server**. If you are using **Team Foundation Server (TFS)**, choose that instead.
 
-    3.  IMPORTANT For TFS 2017 and newer, use **PAT** for authentication. Otherwise, use **Username/Password** for authentication (for example: TFS 2013/2015). PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs.
+    *   Enter the **Host URL** for your Azure/TFS git server.
+
+    *   <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> For TFS 2017 and newer, use **PAT** for authentication. Otherwise, use **Username/Password** for authentication (for example: TFS 2013/2015). PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs.
 
         ```java
         IMPORTANT!
@@ -68,33 +107,33 @@ We recommend using the Git service integrations panel to connect multiple reposi
 
 5.  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed by configuring the following options:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86409345/gitcloud-integration-azure-tfs-advanced(c).png?version=1&modificationDate=1650537080862&cacheVersion=1&api=v2&width=530&height=315)
+    <img src='/wp-content/uploads/gij-gitcloud-integration-azure-tfs-advanced-c.png' width=530 height=315 style='margin:25px 0;max-width:100%' />
 
     These settings are used with integration to control which tracked repositories are displayed and listed. Set a filter that will only load some cloned repositories which can be viewed via the **Manage repositories** page.
 
-    1.  **Suffix**  –  This is a relative path that defaults to `"/tfs"`.
+    *   **Suffix**  –  This is a relative path that defaults to `"/tfs"`.
 
         *   For TFS integrations, the suffix will have a **/tfs** as default path. Thus, there is no need to add the `/tfs` to the **Host URL** path. If this field is blank, the Git Integration for Jira app automatically appends the default `"/tfs"` suffix and scans for all the collections inside it.
 
         *   If this field is not empty, the app assumes it as a single collection path and will try to use it.
 
-        *   AZURE DEVOPS SERVER For Azure DevOps Server integrations, leave this field empty.
+        *   <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>AZURE DEVOPS SERVER</b> For Azure DevOps Server integrations, leave this field empty.
 
-    2.  **Collection**  –  Enter a specific collection to use. If you know your specific collection, type it in the provided box. The Git Integration app defaults to read and import all collection in the connected Azure DevOps Server/TFS server.
+    *   **Collection**  –  Enter a specific collection to use. If you know your specific collection, type it in the provided box. The Git Integration app defaults to read and import all collection in the connected Azure DevOps Server/TFS server.
 
-    3.  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
+    *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
         *   If the field is empty, the Git Integration for Jira app will get all available accounts and then scans all available git repositories.
 
         *   If the field is not blank, the app will assume it as a single account path and will try to use it. To connect to all available accounts, manually create integrations for each one of them.
 
-
-        Read about JMESPath expressions on their website. For help with writing expressions, please contact support.
-        To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters/).
+        Read about JMESPath expressions on their website. For help with writing expressions, please [contact support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
+        To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters).
 
 6.  After filling up required fields, click **Connect and select repositories** to continue. The Git Integration for Jira app will read all available repositories from Azure DevOps Server/TFS.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/gitcloud-integration-azure-server-repo-sel(c).png?version=1&modificationDate=1650537944560&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-integration-azure-server-repo-sel-c.png)
+
     *   Currently, all available accounts are scanned and corresponding URLs are created internally. Repositories of the logged-in Microsoft user can be automatically connected to Jira Cloud. Repositories that are added or removed from Azure DevOps Server/TFS will be likewise connected or disconnected from Jira Cloud.
 
 7.  Click **Connect repositories** to complete this setup.
@@ -106,7 +145,7 @@ Azure DevOps Server/TFS git repositories are now connected to Jira Cloud.
 
 ## Single git repository integration
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86409345/gitcloud-azure-tfs-git-clone-url.png?version=1&modificationDate=1650538648025&cacheVersion=1&api=v2&width=680&height=248)
+<img src='/wp-content/uploads/gij-gitcloud-azure-tfs-git-clone-url.png' width=680 height=248 style='margin:25px auto;display:block;max-width:100%' />
 
 This process requires an existing Azure DevOps Server/TFS git repository. Look for the repository git clone URL on the repository project page. Choose between SSH or HTTPS.
 
@@ -135,8 +174,18 @@ For detailed information, see [Troubleshooting: Repositories missing from Azure
 
 The Git Integration for Jira app automatically configures web linking for Azure DevOps Server/TFS git repositories.
 
-**Webhooks are supported on Azure DevOps Server and TFS.**
-First - configure webhooks in the Git Integration app in Jira via the **Apps** menu ➜ **Git Integration: Manage integrations** then click **Indexing triggers** (sidebar). Enable the feature and save the settings. Then [follow these instructions](https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts) to setup the webhook trigger. Azure DevOps Server/TFS webhooks will trigger an immediate index of all repositories within the integration.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Webhooks are supported on Azure DevOps Server and TFS.</b><br>
+        First - configure webhooks in the Git Integration app in Jira via the <b>Apps</b> menu ➜ <b>Git Integration: Manage integrations</b> then click <b>Indexing triggers</b> (sidebar). Enable the feature and save the settings. Then <a href='https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts' target='_blank'>follow these instructions</a> to setup the webhook trigger. Azure DevOps Server/TFS webhooks will trigger an immediate index of all repositories within the integration.
+    </div>
+    </div>
+</div>
+<br>
 
 For detailed step-by-step guide showcasing webhooks setup, [see this article](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-server-tfs-gij-cloud).
 
@@ -148,16 +197,17 @@ For the following steps, a Azure DevOps Server/TFS and a Visual Studio environme
 
 2.  Connect to your Azure DevOps Server/Team Foundation Server.
 
-    ![Dialog showing VS IDE - TFS integration.](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/vs2013-connect-tfs-server-dlg(c).png?version=1&modificationDate=1598528959927&cacheVersion=1&api=v2)
-    1.  Select a server in the dropdown list to connect to.
+    ![Dialog showing VS IDE - TFS integration.](/wp-content/uploads/gij-vs2013-connect-tfs-server-dlg-c.png)
 
-    2.  If this is a new connection, add a new server by clicking **Servers...** :
+    *   Select a server in the dropdown list to connect to.
 
-        1.  Type your Azure DevOps Server/TFS server **Host URL**
+    *   If this is a new connection, add a new server by clicking **Servers...** :
 
-        2.  Enter **Username** and **Password**, if prompted.
+        *   Type your Azure DevOps Server/TFS server **Host URL**
 
-    3.  Click **OK** to continue.
+        *   Enter **Username** and **Password**, if prompted.
+
+    *   Click **OK** to continue.
 
 3.  Select a **Team Project** to work on then click **Connect**.
 
@@ -173,7 +223,7 @@ For the following steps, a Azure DevOps Server/TFS and a Visual Studio environme
 
 8.  Type a message for this commit.
 
-    ```java
+    ```powershell
     To associate this commit to the Jira issue page, mention the Jira issue key
     along with the commit message.
 
@@ -182,13 +232,16 @@ For the following steps, a Azure DevOps Server/TFS and a Visual Studio environme
     Where PRJ-123 is the Jira issue key and Fix null code is the commit comment.
     ```
 
-    ![VS IDE team explorer dialog showing Changes tab and commit push options](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/vs-ide-team-explorer-make-commit(c).png?version=1&modificationDate=1598528960399&cacheVersion=1&api=v2)
+    <img src='/wp-content/uploads/gij-vs-ide-team-explorer-make-commit-c.png' width=348 height=275 style='margin:25px 0' />
+
 9.  Click **Commit and Push**.
 
 
 The commit is published to the Azure DevOps Server/TFS.  To view the commit in Jira, go to the Jira issue mentioned in the commit message. Click the **Git Commits** tab in the _**Activity**_ row.
 
-![TFS commit example in Jira Cloud](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/jira-cloud-tfs-commit-example.png?version=1&modificationDate=1598528961042&cacheVersion=1&api=v2)
+![TFS commit example in Jira Cloud](/wp-content/uploads/gij-jira-cloud-tfs-commit-example.png)
+
+<br>
 
 ## Viewing git commits in Jira Cloud
 
@@ -211,31 +264,41 @@ This feature allows users to create branches and pull requests while inside Jira
 
 ### Default branch
 
-Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level. 
+Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-Main branch for repositories within an integration can only be changed on the git server.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Main branch for repositories within an integration can only be changed on the git server.
+    </div>
+    </div>
+</div>
+<br>
 
 ### Creating branches
 
 On your Jira Cloud, open a Jira issue. On the Jira Git integration development panel, click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86409345/gitcloud-jira-issue-create-branch-azure-tfs.png?version=1&modificationDate=1650539580030&cacheVersion=1&api=v2&width=680&height=242)
+![](/wp-content/uploads/gij-gitcloud-jira-issue-create-branch-azure-tfs.png)
 
 **Pointers:**
 
 1.  Select a **Repository** from the list.
 
-    1.  The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
+    *   The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
 
-    2.  If there are several repositories with the same name, the listed Azure DevOps Server/TFS repositories will have their names attached with a Azure DevOps Server/TFS organization name. For example, `johnsmith/second-webhook-test-repo`.
+    *   If there are several repositories with the same name, the listed Azure DevOps Server/TFS repositories will have their names attached with a Azure DevOps Server/TFS organization name. For example, `johnsmith/second-webhook-test-repo`.
 
-    3.  Use the search box in the dropdown list to filter displayed repositories.
+    *   Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/82477058/GitHub.com#) page.
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
-    5.  For integration that uses PAT, the user is required to provide a personal access token for the repository to proceed creating the branch. Otherwise, no branch is created.
+    *   For integration that uses PAT, the user is required to provide a personal access token for the repository to proceed creating the branch. Otherwise, no branch is created.
 
-2.  Choose a **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+2.  Choose a **Source branch**. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Enter a **Branch name** or leave it as is (recommended).
 
@@ -244,9 +307,19 @@ On your Jira Cloud, open a Jira issue. On the Jira Git integration development p
 
 The branch is created and can be viewed under the **Branches** tab in your Azure DevOps Server/TFS.
 
-PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs – for this case, if the repository setting _Require User PAT_ property is set to `ON`, the users will not be able to create/delete branches and pull requests.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs – for this case, if the repository setting <i>Require User PAT</i> property is set to <code>ON</code>, the users will not be able to create/delete branches and pull requests.
+    </div>
+    </div>
+</div>
+<br>
 
-![TFS portal showing newly created branch](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/tfs-server-2017-new-branch-example(c).png?version=1&modificationDate=1598528965435&cacheVersion=1&api=v2)
+<img src='/tfs-server-2017-new-branch-example-c.png' width=723 height=451 style='margin:25px auto;display:block;max-width:100%;' />
 
 To update the branch list to your Visual Studio's Team Explorer:
 
@@ -260,7 +333,8 @@ To update the branch list to your Visual Studio's Team Explorer:
 
 5.  Make changes to a file or project then perform a commit to the selected branch.
 
-    ![VS IDE Team explorer docker showing Changes tab and committing to the new branch.](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/vs-ide-team-explorer-branch-commit(c).png?version=1&modificationDate=1598528966801&cacheVersion=1&api=v2)
+    <img src='/wp-content/uploads/gij-vs-ide-team-explorer-branch-commit(c).png' width=349 height=427 style='margin:25px 0;' />
+
     1.  On the Team Explorer, click Changes.
 
     2.  Make sure that **Branch:** displays the name of the newly-created branch. If not, select it again from the list.
@@ -274,69 +348,110 @@ The commit is pushed to the new branch and is now ready for merge.
 
 ### Creating pull requests
 
-Before you can create a pull request, you need to create a branch first.
+<div class="bbb-callout bbb--error">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Before you can create a pull request, you need to create a branch first.
+    </div>
+    </div>
+</div>
+<br>
 
 The pull request feature works the same as merge request.
 
 On your Jira Cloud, open the Jira issue where your previously created a branch. On the developer panel under **Git integration**, click **Create pull request**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86409345/gitcloud-create-pull-req-dlg-azure-tfs.png?version=1&modificationDate=1650540197278&cacheVersion=1&api=v2&width=680&height=240)
+![](/wp-content/uploads/gij-gitcloud-create-pull-req-dlg-azure-tfs.png)
 
 **Pointers:**
 
 1.  Select a **Repository** from the list.
 
-    1.  The selected repository will display the git service logo to identify which git host it is located from.
+    *   The selected repository will display the git service logo to identify which git host it is located from.
 
-    2.  If there are several repositories with the same name, the listed Azure DevOps Server/TFSrepositories will have their names attached with a owner/team name. For example, `johnsmith/second-webhook-test-repo`.
+    *   If there are several repositories with the same name, the listed Azure DevOps Server/TFSrepositories will have their names attached with a owner/team name. For example, `johnsmith/second-webhook-test-repo`.
 
-    3.  Use the search box to look for the specific repository that will be used.
+    *   Use the search box to look for the specific repository that will be used.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
-    5.  For integration that uses PAT, the user is required to provide a personal access token for the repository to proceed creating the branch. Otherwise, no branch is created.
+    *   For integration that uses PAT, the user is required to provide a personal access token for the repository to proceed creating the branch. Otherwise, no branch is created.
 
-2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+2.  Choose the newly-created branch as the **Source branch**. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Set _**master**_ as the **Target branch**.
 
 4.  Enter a descriptive **Title** or leave it as is _(recommended)_.
 
-
-Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
-
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
+    </div>
+    </div>
+</div>
+<br>
 
 The branch and the pull request status are displayed on the developer panel.
 
-![Git development panel showing created branch and pull request](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/jira-cloud-tfs-branch-and-pull-request-dev-panel.png?version=1&modificationDate=1598528968392&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-jira-cloud-tfs-branch-and-pull-request-dev-panel.png' width=298 height=288 style='margin:25px auto;display:block;' />
 
 The pull request is also listed in the Azure DevOps Server/TFS.
 
-![TFS portal showing pull requests items](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86409345/jira-cloud-tfs-pull-request-merge-details.png?version=1&modificationDate=1598528969572&cacheVersion=1&api=v2&width=680&height=292)
+![TFS portal showing pull requests items](/wp-content/uploads/gij-jira-cloud-tfs-pull-request-merge-details.png)
 
 ### Merging _branch_ to _master_
 
 Continuing from the above steps, the current branch is ready for merge.
 
-![TFS portal showing pull request ready for merge](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/jira-cloud-tfs-pull-request-ready-to-merge.png?version=1&modificationDate=1598528970432&cacheVersion=1&api=v2)
+![TFS portal showing pull request ready for merge](/wp-content/uploads/gij-jira-cloud-tfs-pull-request-ready-to-merge.png)
 
 1.  On your VS IDE Team Explorer, go to **Branches**.
 
 2.  Click the **Merge** tab.
 
-    ![VS IDE Team explorer docker showing merge options](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/vs-ide-team-explorer-branch-merge-to-master(c).png?version=1&modificationDate=1598528971100&cacheVersion=1&api=v2)
-    1.  Set the source to the branch you pushed the commits to.
+    <img src='/wp-content/uploads/gij-vs-ide-team-explorer-branch-merge-to-master-c.png' width=348 height=287 style='margin:25px 0;' />
 
-    2.  Set the target branch to _**master**_.
+    *   Set the source to the branch you pushed the commits to.
+
+    *   Set the target branch to _**master**_.
 
 3.  Click the **Merge** button to continue.
 
 
 The reviewer's approval is required to completely merge the pull request. This usually takes place in the Azure DevOps Server/TFS web UI where your updated code is being reviewed.
 
-![TFS portal showing pull request approved and ready for merge](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/tfs-web-ui-pull-request-approved-merge.png?version=1&modificationDate=1598528971826&cacheVersion=1&api=v2)
+![TFS portal showing pull request approved and ready for merge](/wp-content/uploads/gij-tfs-web-ui-pull-request-approved-merge.png)
 
 Once approved, the team leader or reviewer can then complete the merge. The commit can be viewed in the associated Jira issue page.
 
-![Jira Cloud Issue page showing Git Commits tab with merged commit information](https://bigbrassband.atlassian.net/wiki/download/attachments/86409345/gitcloud-azure-tfs-merge-req-commit-example.png?version=1&modificationDate=1598528972663&cacheVersion=1&api=v2)
+![Jira Cloud Issue page showing Git Commits tab with merged commit information](/wp-content/uploads/gij-gitcloud-azure-tfs-merge-req-commit-example.png)
+
+## More Integration Guides
+
+[GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud)
+
+[GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud)
+
+[GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud)
+
+[GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud)
+
+[Azure DevOps \| Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud)
+
+Azure DevOps Server \| Team Foundation Services (this page)
+
+[AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud)
+
+[Gerrit](/git-integration-for-jira-cloud/gerrit-gij-cloud)
+
+[Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud)
+
+[Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
 

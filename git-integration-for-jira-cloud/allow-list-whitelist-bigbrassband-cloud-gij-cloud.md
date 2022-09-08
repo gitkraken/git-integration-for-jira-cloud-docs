@@ -222,5 +222,5 @@ For more information on this feature, see the following articles:
 
 ## Support
 
-If you need additional support connecting your self-hosted git servers or repositories - please contact [BigBrassBand Support](https://bigbrassband.atlassian.net/servicedesk/customer/portals).
+If you need additional support connecting your self-hosted git servers or repositories - please contact [BigBrassBand Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 

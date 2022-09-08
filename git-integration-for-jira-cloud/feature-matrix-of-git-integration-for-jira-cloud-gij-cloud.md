@@ -6,39 +6,60 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-See also [Feature Comparison](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/656244758/Git+Integration+Server+Data+Center+vs+Jira+Cloud+-+Feature+Comparison) for information on features and differences between Git Integration for Server/Data Center versus Git Integration for Jira Cloud.
+See also [Feature Comparison](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud) for information on features and differences between Git Integration for Server/Data Center versus Git Integration for Jira Cloud.
 
-The [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app offers a variety of integration options and features. The below matrix explains which features are offered when using a specific type of integration. For any questions, contact [BigBrassBand Support](https://bigbrassband.atlassian.net/servicedesk/customer/portals/).
+The [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app offers a variety of integration options and features. The below matrix explains which features are offered when using a specific type of integration. For any questions, contact [BigBrassBand Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
-|     | **Git service integrations**<br><br>\[Classic full feature integrations\] | **Single git repository integrations**<br><br>\[Limited feature connect\] | **Webhook indexing integrations**<br><br>\[Limited feature connect\] |
-| --- | --- | --- | --- |
-| **Works with git servers behind firewall** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
-| **View commits, branches, pull/merge requests in Jira** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Commits and branches<br><br>![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Pull/merge requests | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
-| **Pull / Merge Request Reviewers and Approvals Shown in Jira** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Pull/merge requests | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) GitHub<br><br>![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Azure DevOps, VSTS, TFS<br><br>![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) GitLab |
-| **View git tags in Jira** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | COMING SOON |
-| **Support for Automation for Jira + Smart Commits** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
-| **Repository Browser** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
-| **Create branches and pull requests in Jira** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
-| **Support for large # of commits in git pushes** |     |     |     |
-| **GitHub** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
-| **GitLab** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Max of 20 commits per push |
-| **Azure DevOps, VSTS, TFS** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Max of 25 commits per push |
-| **AWS CodeCommit** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | COMING SOON |
-| **BitBucket** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | COMING SOON |
-| **Gerrit** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | COMING SOON |
-| **Indexing full repository history** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
-| **View source code in Jira** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) |
-| **Easily connect many repositories** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Each repository must be configured by a Jira administrator | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Webhook indexing can be configured at organization / server / group level. |
+|     | Git service integrations<br><br>\[Classic full feature integrations\] | Single git repository integrations<br><br>\[Limited feature connect\] | Webhook indexing integrations<br><br>\[Limited feature connect\] |
+| :--- | :--- | :--- | :--- |
+| **Works with git servers behind firewall** | ![](gij-matrix-open-warn-blue.png) | ![](gij-matrix-open-warn-blue.png) | ![](gij-matrix-open-check-green.png) |
+| **View commits, branches, pull/merge requests in Jira** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) Commits and branches<br><br>![](gij-matrix-open-not-red.png) Pull/merge requests | ![](gij-matrix-open-check-green.png) |
+| **Pull / Merge Request Reviewers and Approvals Shown in Jira** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-not-red.png) Pull/merge requests | ![](gij-matrix-open-check-green.png) GitHub<br><br>![](gij-matrix-open-check-green.png) Azure DevOps, VSTS, TFS<br><br>![](gij-matrix-open-not-red.png) GitLab |
+| **View git tags in Jira** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b> |
+| **Support for Automation for Jira + Smart Commits** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) |
+| **Repository Browser** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) |
+| **Create branches and pull requests in Jira** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-not-red.png) | ![](gij-matrix-open-not-red.png) |
+| **Support for large # of commits in git pushes** |  ▼  |  ▼   |  ▼  |
+| **GitHub** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) |
+| **GitLab** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-warn-blue.png) Max of 20 commits per push |
+| **Azure DevOps, VSTS, TFS** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-warn-blue.png) Max of 25 commits per push |
+| **AWS CodeCommit** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b> |
+| **BitBucket** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b> |
+| **Gerrit** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b> |
+| **Indexing full repository history** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-not-red.png) |
+| **View source code in Jira** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-not-red.png) |
+| **Easily connect many repositories** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-not-red.png) Each repository must be configured by a Jira administrator | ![](gij-matrix-open-check-green.png) Webhook indexing can be configured at organization / server / group level. |
 | **Authentication** | HTTPS, HTTP, OAuth (GitHub.com, Azure DevOps and VSTS) | HTTPS, HTTP, SSH | Secret protected URL |
-| **Connect any git repository** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Classic integrations currently include: GitHub, GitLab, Bitbucket, AWS CodeCommit, Azure DevOps, VSTS, TFS and Gerrit. | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Webhook indexing currently supports: GitHub, GitLab, Azure DevOps, VSTS, and TFS. |
-| **Indexing triggers** | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) | ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Indexing triggers are not necessary. |
+| **Connect any git repository** | ![](gij-matrix-open-warn-blue.png) Classic integrations currently include: GitHub, GitLab, Bitbucket, AWS CodeCommit, Azure DevOps, VSTS, TFS and Gerrit. | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-warn-blue.png) Webhook indexing currently supports: GitHub, GitLab, Azure DevOps, VSTS, and TFS. |
+| **Indexing triggers** | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) | ![](gij-matrix-open-check-green.png) Indexing triggers are not necessary. |
 
-For more information about the different types of integrations:
 
-[Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud)
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For more information about the different types of integrations:
+        <ul>
+            <li><a href='/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud'>Classic Indexing Explainer</a></li>
+            <li><a href='/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud'>Webhook Indexing Explainer</a></li>
+            <li><a href='/git-integration-for-jira-cloud/setting-up-integrations-gij-cloud'>Setting up integrations</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
 
-[Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud)
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        
+    </div>
+    </div>
+</div>
 
-[Setting up integrations](/git-integration-for-jira-cloud/setting-up-integrations-gij-cloud)
+If you have questions or need additional support - contact [BigBrassBand Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
-If you have questions or need additional support - contact [BigBrassBand Support](https://bigbrassband.atlassian.net/servicedesk/customer/portals/).

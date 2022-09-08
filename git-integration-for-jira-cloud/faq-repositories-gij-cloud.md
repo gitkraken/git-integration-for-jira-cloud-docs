@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains solutions to common issues encountered while connecting and configuring git repositories.
 
-Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Repository%20connection%20issues%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions.  Feel free to contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 * * *
 

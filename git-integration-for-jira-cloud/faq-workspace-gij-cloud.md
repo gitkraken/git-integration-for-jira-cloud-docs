@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains related questions on Git Integration for Jira add-on user experience in Jira.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Commits%20display%20issues%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 - [How do I see if work has really started on an issue?](#how-do-i-see-if-work-has-really-started-on-an-issue)
 - [How do I see who has worked on an issue?](#how-do-i-see-who-has-worked-on-an-issue)
@@ -23,11 +23,11 @@ Open an issue in your browser and click on the **Git Commits** tab.
 
 If the tab says that no Git log entries have been found, then work has not yet started on the ticket.
 
-![View Jira issue git commits](https://bigbrassband.com/images/bbb/jira-issue-git-commits.png)
+<img src='https://bigbrassband.com/images/bbb/jira-issue-git-commits.png' style=''
 
-<div>
+<p align=center>
     <i>See all Git commits associated with an issue in Jira</i>
-</div>
+</p>
 
 ## How do I see who has worked on an issue?
 
