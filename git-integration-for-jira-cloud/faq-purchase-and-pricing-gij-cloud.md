@@ -9,7 +9,7 @@ taxonomy:
 
 This page contains related questions about trial or purchase of Git Integration for Jira app and accepted payment methods.
 
-Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=About%20purchasing%20Git%20Plugin)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions.  Feel free to contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 - [How do I buy this add-on?](#how-do-i-buy-this-add-on)
 - [What payment methods are accepted?](#what-payment-methods-are-accepted)
@@ -39,7 +39,7 @@ There are four ways to determine the pricing:
 
 1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=pricing) app then go to:
 
-    ```java
+    ```powershell
     https://[replacewithyourJiraname].atlassian.net/admin/billing/estimate
     ```
 

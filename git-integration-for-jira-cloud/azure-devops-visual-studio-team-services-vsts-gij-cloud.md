@@ -6,9 +6,22 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Using **Jira Server or Data Center**?  [See the corresponding article](/git-integration-for-jira-self-managed/azure-devops-visual-studio-team-services-vsts-gij-self-managed).
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86278279/image-20200907-092906.png?version=1&modificationDate=1599482305596&cacheVersion=1&api=v2&width=340&height=74)![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86278279/image-20200907-092920.png?version=1&modificationDate=1599482306094&cacheVersion=1&api=v2&width=340&height=112)
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Using <b>Jira Server or Data Center</b>?  <a href='/git-integration-for-jira-self-managed/azure-devops-visual-studio-team-services-vsts-gij-self-managed'>See the corresponding article</a>.
+    </div>
+    </div>
+</div>
+<br>
+
+<img src='/wp-content/uploads/gij-azure-devops2-banner.png' width=340 height=74 style='margin:25px 0' />
+
+<img src='/wp-content/uploads/gij-vsts-logo.png' width=340 height=112 style='margin-bottom: 40px' />
 
 # Integrate VSTS/Azure DevOps with Jira Cloud
 
@@ -17,16 +30,49 @@ Quickly learn how to connect Azure DevOps/VSTS git repositories via Git Integrat
 The Git Integration for Jira app supports Azure Repos.
 
 **What's on this page:**
+- [Integrate VSTS/Azure DevOps with Jira Cloud](#integratevstsazure-devops-with-jira-cloud)
+  - [Creating personal access tokens](#creating-personal-access-tokens)
+  - [Permissions](#permissions)
+  - [Using Git service integration](#using-git-service-integration)
+    - [Authenticate with OAuth (recommended)](#authenticate-with-oauth-recommended)
+    - [Authenticate with personal access token](#authenticate-with-personal-access-token)
+  - [Single git repository integration](#single-git-repository-integration)
+  - [Troubleshooting integration](#troubleshooting-integration)
+  - [Webhooks and web linking](#webhooks-and-web-linking)
+  - [Linking Azure DevOps/VSTS git commits to Jira Cloud](#linking-azure-devopsvsts-git-commits-to-jira-cloud)
+  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
+  - [Working with branches and pull requests with Azure DevOps/VSTS](#working-with-branches-and-pull-requests-with-azure-devopsvsts)
+    - [Default branch](#default-branch)
+    - [Creating branches](#creating-branches)
+    - [Creating pull requests](#creating-pull-requests)
+    - [Merging _branch_ to _master_](#merging-branch-tomaster)
 
-* * *
+<hr>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/n840jfrer4) _and open this video in a new window/tab for more viewing options._
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/n840jfrer4?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/n840jfrer4'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
 ## Creating personal access tokens
 
 If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) – use the table of content anchor link to go to the Azure DevOps / VSTS section.
 
-This step is **highly required** for Azure DevOps/ VSTS integrations connected via the Full feature integrations panel.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This step is <b>highly required</b> for Azure DevOps/ VSTS integrations connected via the Full feature integrations panel.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Permissions
 
@@ -42,12 +88,11 @@ Git Integration for Jira Cloud requires Git admins to allow the third-party app 
 
 4.  Ensure that the **Third-party application access via OAuth** option is set to ON.
 
-
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86278279/vsts-azure-devops-org-cfg-policy-oauth.png%3Fversion=1&modificationDate=1575389745086&cacheVersion=1&api=v2?version=1&modificationDate=1599482306573&cacheVersion=1&api=v2&width=680&height=177)
+![](/wp-content/uploads/gij-vsts-azure-devops-org-cfg-policy-oauth.png)
 
 For projects connected with Azure Active Directory, set the conditional access policy validation to OFF:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86278279/enable-conditional-access-policy-AD.png%3Fversion=1&modificationDate=1575427942111&cacheVersion=1&api=v2?version=1&modificationDate=1599482307061&cacheVersion=1&api=v2&width=442&height=126)
+<img src='/wp-content/uploads/gij-enable-conditional-access-policy-AD.png' width=442 height=126 style='margin:25px auto;display:block;max-width:100%' />
 
 ## Using Git service integration
 
@@ -67,50 +112,53 @@ We recommend using the Git service integration panel to connect multiple reposit
 
 1.  On the Jira Cloud dashboard menu, go to **Apps ➜ Git Integration: Manage integrations**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/gitcloud-jira-apps-manage-integrations-sel(c).png?version=1&modificationDate=1649811215699&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
 2.  On the Manage integrations page, click **Add integration.**
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/gitcloud-managed-ui-webhook-idx-setup(c).png?version=1&modificationDate=1649811242005&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png version=1&modificationDate=1649811242005&cacheVersion=1&api=v2)
 
 3.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/gitcloud-managed-ui-git-service-sel(c).png?version=1&modificationDate=1649811242012&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
 
 4.  The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/gitcloud-integration-azure-vsts-oauth-connect(c).png?version=1&modificationDate=1650530291987&cacheVersion=1&api=v2)
-    1.  For Git hosting service, scroll to _Microsoft using OAuth_, select **Visual Studio Team Services (VSTS)**. If you are using **Azure DevOps Repos**, choose that instead.
+    ![](/wp-content/uploads/gij-gitcloud-integration-azure-vsts-oauth-connect(c).png)
 
-    2.  Configuring the **Advanced** settings is optional. This setting is used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page. However, admins/power users may set how the project listing is displayed on the following:
+    *   For Git hosting service, scroll to _Microsoft using OAuth_, select **Visual Studio Team Services (VSTS)**. If you are using **Azure DevOps Repos**, choose that instead.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86278279/gitcloud-integration-advanced-vsts-azure-options(c).png?version=2&modificationDate=1649815607044&cacheVersion=1&api=v2&width=510&height=163)
-    3.  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is **2000** characters or less.
+    *   Configuring the **Advanced** settings is optional. This setting is used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page. However, admins/power users may set how the project listing is displayed on the following:
 
-        1.  If the field is empty, the Git Integration for Jira app will get all available accounts and then scans all available git repositories.
+        <img src='/wp-content/uploads/gij-gitcloud-integration-advanced-vsts-azure-options-c.png' width=510 height=163 style='margin:25px 0;max-width:100%' />
 
-        2.  If the field is not blank, the app will assume it as a single account path and will try to use it. To connect to all available accounts, manually create integrations for each one of them.
+    *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is **2000** characters or less.
 
-        3.  Read about JMESPath expressions on their [website](http://jmespath.org/).
+        *   If the field is empty, the Git Integration for Jira app will get all available accounts and then scans all available git repositories.
 
-        4.  For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
+        *   If the field is not blank, the app will assume it as a single account path and will try to use it. To connect to all available accounts, manually create integrations for each one of them.
 
-        5.  To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
+        *   Read about JMESPath expressions on their [website](http://jmespath.org/).
+
+        *   For help with writing expressions, please contact [support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
+
+        *   To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
 5.  Click **Connect Azure Repos/VSTS** to continue.
 
 6.  Login to your Microsoft account, if prompted. We recommend creating a new Microsoft user and setting specific permissions for use with Jira Cloud. The following authentication screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86278279/gitcloud-ms-azure-vsts-grant-permissions(c).png?version=3&modificationDate=1649821597479&cacheVersion=1&api=v2&width=646&height=401)
+    ![](/wp-content/uploads/gij-gitcloud-ms-azure-vsts-grant-permissions-c.png)
 
 7.  The Git Integration for Jira Cloud app will read all available repositories from your Azure DevOps/VSTS git service account. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/gitcloud-integration-azure-vsts-repo-sel(c).png?version=1&modificationDate=1649819236305&cacheVersion=1&api=v2)
-    1.  Currently, all available accounts are scanned and corresponding URLs are created internally. Repositories of the logged-in Microsoft user can be automatically connected to Jira Cloud. Repositories that are added or removed from Azure DevOps/VSTS will be likewise connected or disconnected from Jira Cloud.
+    ![](/wp-content/uploads/gij-gitcloud-integration-azure-vsts-repo-sel-c.png)
 
-    2.  Use the search options to filter displayed repositories for the current screen.
+    *   Currently, all available accounts are scanned and corresponding URLs are created internally. Repositories of the logged-in Microsoft user can be automatically connected to Jira Cloud. Repositories that are added or removed from Azure DevOps/VSTS will be likewise connected or disconnected from Jira Cloud.
 
-    3.  Connect all repositories and organizations or select specific repositories to connect for this integration.
+    *   Use the search options to filter displayed repositories for the current screen.
+
+    *   Connect all repositories and organizations or select specific repositories to connect for this integration.
 
 8.  Click **Connect repositories**. For now, only git projects are supported from Azure DevOps or VSTS.
 
@@ -125,52 +173,55 @@ We recommend using the Full feature integrations panel to connect multiple repos
 
 1.  On the Jira Cloud dashboard menu, go to **Apps ➜ Git Integration: Manage integrations**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/gitcloud-jira-apps-manage-integrations-sel(c).png?version=1&modificationDate=1649811215699&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
 2.  On the Manage integrations page, click **Add integration.**
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/gitcloud-managed-ui-webhook-idx-setup(c).png?version=1&modificationDate=1649811242005&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
 3.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/gitcloud-managed-ui-git-service-sel(c).png?version=1&modificationDate=1649811242012&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
 
 4.  The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/gitcloud-integration-azure-vsts-pat-connect-sel(c).png?version=1&modificationDate=1649825538741&cacheVersion=1&api=v2)
-    1.  For Git hosting service, scroll to _Microsoft using PAT_, select **Visual Studio Team Services (VSTS)**. If you are using **Azure DevOps Repos**, choose that instead.
+    ![](/wp-content/uploads/gij-gitcloud-integration-azure-vsts-pat-connect-sel-c.png)
 
-    2.  Enter the personal access token on the provided box.
+    *   For Git hosting service, scroll to _Microsoft using PAT_, select **Visual Studio Team Services (VSTS)**. If you are using **Azure DevOps Repos**, choose that instead.
 
-    3.  Configuring the **Advanced** settings is optional. This setting is used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page. However, admins/power users may set how the project listing is displayed on the following:
+    *   Enter the personal access token on the provided box.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86278279/gitcloud-integration-advanced-vsts-azure-options(c).png?version=2&modificationDate=1649815607044&cacheVersion=1&api=v2&width=510&height=163)
-    4.  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is **2000** characters or less.
+    *   Configuring the **Advanced** settings is optional. This setting is used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page. However, admins/power users may set how the project listing is displayed on the following:
 
-        1.  If the field is empty, the Git Integration for Jira app will get all available accounts and then scans all available git repositories.
+        <img src='/wp-content/uploads/gij-gitcloud-integration-advanced-vsts-azure-options-c.png' width=510 height=163 style='margin:25px 0;max-width:100%' />
 
-        2.  If the field is not blank, the app will assume it as a single account path and will try to use it. To connect to all available accounts, manually create integrations for each one of them.
+    *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is **2000** characters or less.
 
-        3.  Read about JMESPath expressions on their [website](http://jmespath.org/).
+        *   If the field is empty, the Git Integration for Jira app will get all available accounts and then scans all available git repositories.
 
-        4.  For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
+        *   If the field is not blank, the app will assume it as a single account path and will try to use it. To connect to all available accounts, manually create integrations for each one of them.
 
-        5.  To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
+        *   Read about JMESPath expressions on their [website](http://jmespath.org/).
+
+        *   For help with writing expressions, please contact [support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
+
+        *   To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
 5.  Click **Connect and select repositories** to continue.
 
 6.  Login to your Microsoft account, if prompted. We recommend creating a new Microsoft user and setting specific permissions for use with Jira Cloud. The following authentication screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86278279/gitcloud-ms-azure-vsts-grant-permissions(c).png?version=3&modificationDate=1649821597479&cacheVersion=1&api=v2&width=646&height=401)
+    ![](/wp-content/uploads/gij-gitcloud-ms-azure-vsts-grant-permissions-c.png)
 
 7.  The Git Integration for Jira Cloud app will read all available repositories from your Azure DevOps/VSTS git service account. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/gitcloud-integration-azure-vsts-repo-sel(c).png?version=1&modificationDate=1649819236305&cacheVersion=1&api=v2)
-    1.  Currently, all available accounts are scanned and corresponding URLs are created internally. Repositories of the logged-in Microsoft user can be automatically connected to Jira Cloud. Repositories that are added or removed from Azure DevOps/VSTS will be likewise connected or disconnected from Jira Cloud.
+    ![](/wp-content/uploads/gij-gitcloud-integration-azure-vsts-repo-sel-c.png)
 
-    2.  Use the search options to filter displayed repositories for the current screen.
+    *   Currently, all available accounts are scanned and corresponding URLs are created internally. Repositories of the logged-in Microsoft user can be automatically connected to Jira Cloud. Repositories that are added or removed from Azure DevOps/VSTS will be likewise connected or disconnected from Jira Cloud.
 
-    3.  Connect all repositories and organizations or select specific repositories to connect for this integration.
+    *   Use the search options to filter displayed repositories for the current screen.
+
+    *   Connect all repositories and organizations or select specific repositories to connect for this integration.
 
 8.  Click **Connect repositories**. For now, only git projects are supported from Azure DevOps or VSTS.
 
@@ -189,8 +240,18 @@ Use this information to connect the Azure/VSTS git repository to your Jira Cloud
 
 The repository is now connected to Jira Cloud.
 
-**Webhooks fail with DefaultCollection in URL Path**
-To fix webhooks for old VSTS/Azure repository connections with `DefaultCollection` in the URL path, update the _**Repository origin**_ field in the Manage git repositories page ➜Actions ➜ **Edit repository settings** with the repository URL currently being returned by Azure.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Webhooks fail with DefaultCollection in URL Path</b><br>
+        To fix webhooks for old VSTS/Azure repository connections with <code>DefaultCollection</code> in the URL path, update the <b><i>Repository origin</i></b> field in the Manage git repositories page ➜ Actions ➜ <b>Edit repository settings</b> with the repository URL currently being returned by Azure.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Troubleshooting integration
 
@@ -209,8 +270,18 @@ For detailed information, see [Troubleshooting: Repositories missing from Azure
 
 The Git Integration for Jira app automatically configures web linking for Azure DevOps/VSTS git repositories.
 
-**Webhooks are supported on Azure DevOps and VSTS.**
-First - configure webhooks in the Git Integration app in Jira via the **Apps** menu ➜ **Git Integration:** **Manage Git Repositories** then click **Indexing triggers** (sidebar). Enable the feature and save the settings. Then [follow these instructions](https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts) to setup the webhook trigger. Azure DevOps/VSTS webhooks will trigger an immediate index of all repositories within the integration.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Webhooks are supported on Azure DevOps and VSTS.</b><br>
+        First - configure webhooks in the Git Integration app in Jira via the <b>Apps</b> menu ➜ <b>Git Integration: Manage Git Repositories</b> then click <b>Indexing triggers</b> (sidebar). Enable the feature and save the settings. Then <a href='https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts'>follow these instructions</a> to setup the webhook trigger. Azure DevOps/VSTS webhooks will trigger an immediate index of all repositories within the integration.
+    </div>
+    </div>
+</div>
+<br>
 
 For detailed step-by-step guide showcasing webhooks setup, [see this article](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-repos-vsts-gij-cloud).
 
@@ -222,16 +293,17 @@ This process requires a VSTS/Azure DevOps git repository.
 
 2.  Clone this repository into your Visual Studio IDE.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/vsts-webui-get-clone-url(c).png?version=1&modificationDate=1599482313298&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-vsts-webui-get-clone-url-c.png)
 
     ... or update your local repository files by performing a **Pull** action via VS IDE ➜ **Team Explorer**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/vside-teamexp-sync-changes-pull(c).png?version=1&modificationDate=1599482313986&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-vside-teamexp-sync-changes-pull-c.png)
 3.  Create or modify a file from your local repository.
 
 4.  Perform a commit of the changes via **Team Explorer** ➜ **Changes**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/vs-ide-team-explorer-changes-commit-push(c).png?version=1&modificationDate=1599482314671&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-vs-ide-team-explorer-changes-commit-push-c.png)
+
     *   Enter the commit message by mentioning the Jira issue key to associate this commit to. _(Underlined in red)_.
 
     *   Click the dropdown on the Commit All button then select **Commit All and Push**.
@@ -239,7 +311,9 @@ This process requires a VSTS/Azure DevOps git repository.
 5.  The commit is now displayed in the specified Jira issue.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/jira-server-vsts-repo-view-commit.png?version=1&modificationDate=1599482315314&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-jira-server-vsts-repo-view-commit.png' width=613 height=202 style='margin:25px auto;display:block;max-width:!00%' />
+
+<br>
 
 ## Viewing git commits in Jira Cloud
 
@@ -262,84 +336,146 @@ This feature allows users to create branches and pull requests while inside Jira
 
 ### Default branch
 
-Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level. 
+Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-Main branch for repositories within an integration can only be changed on the git server.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Main branch for repositories within an integration can only be changed on the git server.
+    </div>
+    </div>
+</div>
+<br>
 
 ### Creating branches
 
 On your Jira Cloud, open a Jira issue. On the Jira Git integration development panel, click **Open** **Git Integration** then click **Create branch**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86278279/gitcloud-azure-vsts-creat-branch-dlg.png?version=2&modificationDate=1649833750537&cacheVersion=1&api=v2&width=680&height=221)
+![](/wp-content/uploads/gij-gitcloud-azure-vsts-creat-branch-dlg.png)
 
 **Pointers:**
 
 1.  Select a **Repository** from the list.
 
-    1.  The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
+    *   The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
 
-    2.  If there are several repositories with the same name, the listed Azure DevOps/VSTS repositories will have their names attached with a Azure DevOps/VSTS organization name. For example, `johnsmith/second-webhook-test-repo`.
+    *   If there are several repositories with the same name, the listed Azure DevOps/VSTS repositories will have their names attached with a Azure DevOps/VSTS organization name. For example, `johnsmith/second-webhook-test-repo`.
 
-    3.  Use the search box in the dropdown list to filter displayed repositories.
+    *   Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
-    5.  For integration that uses PAT, the user is required to provide a personal access token for the repository to proceed creating the branch. Otherwise, no branch is created.
+    *   For integration that uses PAT, the user is required to provide a personal access token for the repository to proceed creating the branch. Otherwise, no branch is created.
 
-2.  Choose a **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+2.  Choose a **Source branch**.
+
+    <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Enter a **Branch name** or leave it as is (recommended).
 
 4.  Click **Create branch** to complete this process.
 
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-branch-gij-cloud'>Create branch</a>.
+    </div>
+    </div>
+</div>
 
-For more detailed information on this feature, see [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud).
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
 ### Creating pull requests
 
-Before you can create a pull request, you need to create a branch first.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Before you can create a pull request, you need to create a branch first.
+    </div>
+    </div>
+</div>
+<br>
 
 The pull request feature works the same as merge request.
 
 On your Jira Cloud, open the Jira issue where your previously created a branch. On the developer panel under **Git Integration,** click **Create pull request**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86278279/gitcloud-dev-panel-create-pull-req-vsts-azure.png?version=1&modificationDate=1649856590192&cacheVersion=1&api=v2&width=680&height=240)
+![](/wp-content/uploads/gij-gitcloud-dev-panel-create-pull-req-vsts-azure.png)
 
 **Pointers:**
 
 1.  Select a **Repository** from the list.
 
-    1.  The selected repository will display the git service logo to identify which git host it is located from.
+    *   The selected repository will display the git service logo to identify which git host it is located from.
 
-    2.  If there are several repositories with the same name, the listed Azure DevOps/VSTS repositories will have their names attached with a owner/team name. For example, `johnsmith/second-webhook-test-repo`.
+    *   If there are several repositories with the same name, the listed Azure DevOps/VSTS repositories will have their names attached with a owner/team name. For example, `johnsmith/second-webhook-test-repo`.
 
-    3.  Use the search box to look for the specific repository that will be used.
+    *   Use the search box to look for the specific repository that will be used.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/User-Settings) page.
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/User-Settings) page.
 
-    5.  For integration that uses PAT, the user is required to provide a personal access token for the repository to proceed creating the branch. Otherwise, no branch is created.
+    *   For integration that uses PAT, the user is required to provide a personal access token for the repository to proceed creating the branch. Otherwise, no branch is created.
 
-2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+2.  Choose the newly-created branch as the **Source branch**.
+
+    <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Set _**master**_ as the **Target branch**.
 
 4.  Enter a descriptive **Title** or leave it as is _(recommended)_.
 
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Pull requests are still indexed based on branch name even if the PR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
+    </div>
+    </div>
+</div>
 
-Pull requests are still indexed based on branch name even if the PR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).
+    </div>
+    </div>
+</div>
 
-**Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
-
-For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud'>Create pull/merge request</a>.
+    </div>
+    </div>
+</div>
+<br>
 
 
 The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your Azure DevOps/VSTS web portal.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/vsts-webui-branch-ready-for-merge.png?version=1&modificationDate=1599482317585&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-vsts-webui-branch-ready-for-merge.png)
+
+<br>
 
 ### Merging _branch_ to _master_
 
@@ -349,13 +485,14 @@ Continuing from the above steps, the current branch is ready for merge.
 
 2.  Go to **Pull Requests**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/vs-ide-teamexp-pull-request-approved(c).png?version=1&modificationDate=1599482318258&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-vs-ide-teamexp-pull-request-approved-c.png)
 
     The pending pull request items are displayed here. Pull requests requires the approval of the reviewers before it can be merged from the VS IDE.
 
 3.  Go to **Branches**. Click **Merge**. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/vs-ide-team-explorer-branch-merge-2017(c).png?version=1&modificationDate=1599482318742&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-vs-ide-team-explorer-branch-merge-2017-c.png)
+
     *   Set the source to the branch to which you pushed the commits.
 
     *   Set the target branch to _**master**_.
@@ -365,8 +502,9 @@ Continuing from the above steps, the current branch is ready for merge.
 
 The reviewer's approval is required to completely merge the pull request. This usually takes place in the Azure DevOps/VSTS portal where your updated code is being reviewed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/vsts-webui-pull-request-review-approve.png?version=1&modificationDate=1599482319180&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-vsts-webui-pull-request-review-approve.png)
 
 Once approved, the team leader or reviewer can then complete the merge. The commit can be viewed in the associated Jira issue page.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/86278279/gitcloud-merge-pull-request-example.png?version=2&modificationDate=1599482320395&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-merge-pull-request-example.png)
+

@@ -9,13 +9,13 @@ taxonomy:
 
 This page contains related questions on Git Integration for Jira Cloud app SSH connections in Jira.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Help%20on%20SSH%20issues%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 - [Does this app support authenticating to git repositories via SSH?](#does-this-app-support-authenticating-to-git-repositories-via-ssh)
 - [Why do I need to provide a PRIVATE KEY to the Git Integration for Jira Cloud app instead of a PUBLIC KEY?](#why-do-i-need-to-provide-a-private-key-to-the-git-integration-for-jira-cloud-app-instead-of-a-public-key)
 - [How do I configure/connect an SSH remote git repository to Jira?](#how-do-i-configureconnect-an-ssh-remote-git-repository-to-jira)
 
-* * *
+<hr>
 
 ## Does this app support authenticating to git repositories via SSH?
 
@@ -45,7 +45,7 @@ Here's a video to guide you step-by-step as stated above:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/qmumdo048n?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align="center">
-    <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/qmumdo048n" target="_blank"><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+<div align="center" style='margin-top:10px'>
+    <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/qmumdo048n" target="_blank"><b>here</b></a> to open this video in a new browser tab<br> for more viewing options.</i>
 </div>
 

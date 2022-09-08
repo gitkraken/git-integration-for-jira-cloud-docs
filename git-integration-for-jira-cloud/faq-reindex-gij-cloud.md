@@ -9,7 +9,7 @@ taxonomy:
 
 This page contains related questions about git notes, reindex tracking and control.
 
-Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Reindex%20issues%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions.  Feel free to contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 - [What does re-index do?](#what-does-re-index-do)
 - [Is there any way to control the reindex?](#is-there-any-way-to-control-the-reindex)
@@ -29,7 +29,7 @@ Re-index does 2 operations:
 
 In terms of kicking off the indexing based on an event:
 
-*   Webhook: **[Configure Webhooks](/git-integration-for-jira-cloud/indexing-triggers-formerly-webhooks-gij-cloud/)**
+*   Webhook: [Configure Webhooks](/git-integration-for-jira-cloud/indexing-triggers-formerly-webhooks-gij-cloud)
 
 What other users have done is set a high interval and then configure one of those options.
 

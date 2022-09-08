@@ -19,7 +19,7 @@ We publish new features, bug fixes, security updates/patches, and Jira compatibi
 *   [BigBrassBand Cloud Security](https://bigbrassband.com/security.html)
 
 
-If you have any questions, please contact us through our [Support Portal](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or by emailing [support@bigbrassband.com](mailto:support@bigbrassband.com)
+If you have any questions, please contact us through our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
 * * *
 

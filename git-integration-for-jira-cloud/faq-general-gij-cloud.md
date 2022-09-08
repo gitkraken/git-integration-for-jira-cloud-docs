@@ -9,7 +9,7 @@ taxonomy:
 
 This page contains frequently asked questions by users in general.
 
-Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=General%20question%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions.  Feel free to contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 - [What is Git?](#what-is-git)
 - [What is this app?](#what-is-this-app)
