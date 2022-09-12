@@ -6,28 +6,92 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-These instructions apply to instances on Free, Team, Cloud Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub.com.
 
-For instructions on self-hosted GitHub Enterprise Server, please see [this page](#).
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        These instructions apply to instances on Free, Team, Cloud Enterprise (including <a href='https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users'><b>EMU</b></a>) plans hosted on GitHub.com.
+    </div>
+    </div>
+</div>
 
-Using **Jira Server or Data Center**?  [See the corresponding article](/git-integration-for-jira-self-managed/github-gij-self-managed).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For instructions on self-hosted GitHub Enterprise Server, please see <a href='/git-integration-for-jira-data-center/github-enterprise-server-gij-self-managed'>this page</a>.
+    </div>
+    </div>
+</div>
 
-![GitHub Banner logo](https://bigbrassband.com/confluence/images/github-logo.svg)
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Using Jira Server or Data Center? See the <a href='/git-integration-for-jira-data-center/github-gij-self-managed'>corresponding article</a>.
+    </div>
+    </div>
+</div>
+<br>
+
+<img src='/wp-content/uploads/gij-github-mobile-logo-dark.png' height=100 width=355 style='max-width:100%' />
+
+<br>
 
 # Integrate GitHub.com with Jira Cloud
 
 Quickly learn how to connect GitHub.com git repositories via Git Integration for Jira Cloud app.
 
 **What's on this page:**
+- [Integrate GitHub.com with Jira Cloud](#integrate-githubcom-with-jira-cloud)
+  - [Creating a personal access token](#creating-a-personal-access-token)
+  - [Using Git service integration](#using-git-service-integration)
+  - [Single git repository integration](#single-git-repository-integration)
+  - [Setting up GitHub permissions](#setting-up-github-permissions)
+    - [Default repository permission](#default-repository-permission)
+    - [Teams and collaborators](#teams-and-collaborators)
+  - [Setting up GitHub web links](#setting-up-github-web-links)
+  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
+  - [Working with branches and pull requests with GitHub](#working-with-branches-and-pull-requests-with-github)
+    - [Creating branches](#creating-branches)
+    - [Creating pull requests](#creating-pull-requests)
 
-* * *
+<br>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/8jtnqzp79y) _and open this video in a new window/tab for more viewing options._
-_(Updated video coming soon)_
+<hr>
+
+<br>
+
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/8jtnqzp79y?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center' style='margin-top:10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/8jtnqzp79y'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
+    <i>Updated video coming soon</i>
+</div>
+<br>
 
 ## Creating a personal access token
 
-If two-factor authentication is enabled for your GitHub account, you will need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitHub.com account for increased security.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If two-factor authentication is enabled for your GitHub account, you will need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitHub.com account for increased security.
+    </div>
+    </div>
+</div>
+<br>
 
 While instructions from GitHub works just fine, please [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for a quick step-by-step guide to get you started.
 
