@@ -41,6 +41,8 @@ taxonomy:
 </div>
 <br>
 
+&nbsp;
+
 <img src='/wp-content/uploads/gij-github-mobile-logo-dark.png' height=100 width=355 style='max-width:100%' />
 
 <br>
@@ -60,8 +62,10 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
   - [Setting up GitHub web links](#setting-up-github-web-links)
   - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
   - [Working with branches and pull requests with GitHub](#working-with-branches-and-pull-requests-with-github)
+    - [Default Branch](#default-branch)
     - [Creating branches](#creating-branches)
     - [Creating pull requests](#creating-pull-requests)
+  - [More Integration Guides](#more-integration-guides)
 
 <br>
 
@@ -101,41 +105,58 @@ This process requires an existing GitHub git repository. A GitHub account with e
 
 We recommend using the **Git service integration** panel to connect multiple repositories from your GitHub.com account.
 
-On November 13, 2020, GitHub.com is going to stop allowing API authentication via username/password. For more information, see [**GitHub.com - Deprecating Password Authentication**](https://developer.github.com/changes/2020-02-14-deprecating-password-auth/).
-
-We strongly recommend to use personal access tokens for GitHub.com account integration.
+<div class="bbb-callout bbb--error">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        On November 13, 2020, GitHub.com is going to stop allowing API authentication via username/password. For more information, see <a href='https://developer.github.com/changes/2020-02-14-deprecating-password-auth/'><b>GitHub.com - Deprecating Password Authentication</b></a>.<br>
+        <p style='margin-bottom:0 !important'>We strongly recommend to use personal access tokens for GitHub.com account integration.</p>
+    </div>
+    </div>
+</div>
+<br>
 
 1.  On your Jira dashboard menu, go to **Apps** ➜ **Git Integration: Manage integrations**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/82477058/gitcloud-jira-apps-manage-integrations-sel(c).png?version=2&modificationDate=1648642830446&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
-2.  On the Manage integrations page, click **Add integration.**
+2.  On the Manage integrations page, click **Add integration**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/82477058/gitcloud-managed-ui-webhook-idx-setup(c).png?version=2&modificationDate=1648642957396&cacheVersion=1&api=v2&width=646&height=378)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
 3.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/82477058/gitcloud-managed-ui-git-service-sel(c).png?version=1&modificationDate=1649313462074&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
 
-4.  Select **GitHub.com** from the list then click **Connect …** 
+4.  Select **GitHub.com** from the list then click **Connect GitHub.com**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/82477058/gitcloud-github-integration-sel-service(c).png?version=1&modificationDate=1649150967182&cacheVersion=1&api=v2)
-    1.  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
+    ![](/wp-content/uploads/gij-gitcloud-github-integration-sel-service-c.png)
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/82477058/gitcloud-integration-advanced-options-wo-sslverify(c).png?version=1&modificationDate=1649313273881&cacheVersion=1&api=v2&width=510&height=266)
-        *   **Custom API Path**  –  his is a relative path that starts with "/". The integration will use the relative REST API path to retrieve the list of tracked repositories. The maximum allowed length is 2000 characters or less.
+    *   Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
+
+        ![](/wp-content/uploads/gij-gitcloud-integration-advanced-options-wo-sslverify-c.png)
+
+        *   **Custom API Path**  –  this is a relative path that starts with "/". The integration will use the relative REST API path to retrieve the list of tracked repositories. The maximum allowed length is **2000** characters or less.
+
             To learn more examples, see article [Jira Cloud: Working with Custom API Path](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
-        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
-            Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
+        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is **2000** characters or less.
+            
+            Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
+
             To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
-    2.  While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
+    *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
 5.  **Login to your GitHub account when prompted.** When connecting to GitHub.com using OAuth for the first time, the user will be presented with a grant authorization screen.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/82477058/github-autoconnect-grant-auth-screen(c).png?version=1&modificationDate=1600060492750&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-github-autoconnect-grant-auth-screen-c.png)
+
     *   Grant organization access to an org to also have its repositories listed in the Manage repositories page.
+
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> If access is not granted, the repositories within those organizations (and even the orgs themselves) will not show up in the Git Integration for Jira app repositories list. The only way to see these repos/orgs is to return to the GitHub web portal using admin interface and specifically grant such permissions (Profile settings ➜ Developer settings ➜ **OAuth Apps**).
 
     *   Below are the differences between the three authentication options for GitHub:
 
@@ -150,17 +171,18 @@ We strongly recommend to use personal access tokens for GitHub.com account integ
         Username/Password           Org repositories are connected immediately.
         ```
 
-    *   Click **Authorize** **BigBrassBand** to continue.
+    <br>
+    *   Click **Authorize BigBrassBand** to continue.
 
 6.  The following page is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/82477058/gitcloud-github-integration-oauth-sel-repos(c).png?version=1&modificationDate=1649152763376&cacheVersion=1&api=v2&width=612&height=358)
-    1.  The Git Integration for Jira app will read all available repositories from your GitHub account.
-        Repositories of the logged-in GitHub user can be automatically connected to Jira Cloud. Repositories that are added or removed from GitHub will be likewise connected or disconnected from Jira Cloud.
+    ![](/wp-content/uploads/gij-gitcloud-github-integration-oauth-sel-repos-c.png)
 
-    2.  Use the search options to filter displayed repositories for the current screen.
+    *   The Git Integration for Jira app will read all available repositories from your GitHub account. Repositories of the logged-in GitHub user can be automatically connected to Jira Cloud. Repositories that are added or removed from GitHub will be likewise connected or disconnected from Jira Cloud.
 
-    3.  Connect all repositories and organizations or select specific repositories to connect for this integration.
+    *   Use the search options to filter displayed repositories for the current screen.
+
+    *   Connect all repositories and organizations or select specific repositories to connect for this integration.
 
 7.  Click **Connect repositories** to complete this setup.
 
@@ -169,7 +191,17 @@ The GitHub.com repositories are now connected to Jira Cloud. There will be a sli
 
 ## Single git repository integration
 
-This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
+    </div>
+    </div>
+</div>
+<br>
 
 This process requires an existing GitHub git repository. Look for the the GitHub repository URL on the repository project page. Choose between SSH or HTTPS.
 
@@ -189,7 +221,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 1.  Login to your GitHub.com account.
 
-2.  Go to **Profile** ➜ **Settings**.
+2.  Go to <img src='/wp-content/uploads/gij-profile-icon.png' /> **Profile** ➜ **Settings**.
 
 3.  On your sidebar, click **Organizations**.
 
@@ -197,7 +229,8 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 5.  On your sidebar, click **Member Privileges**. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/82477058/github-org-repo-base-permissions(c).png?version=1&modificationDate=1597238662574&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-github-org-repo-base-permissions-c.png)
+
 6.  Under the **Base permissions**, click on the dropdown button.
 
     *   Choose the base permission level for organization members. The base repository permission only applies to organization members and not to outside collaborators. If the base permission is set to _**None**_, organization members will need to be given access to repositories using the _**Teams or Collaborators**_ methods (see below).
@@ -217,7 +250,8 @@ To give a member additional access, they must be added to a team or make them co
 
 2.  Click the **Repositories** tab.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/82477058/github-org-repo-team-repo-permissions(c).png?version=1&modificationDate=1597238663935&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-github-org-repo-team-repo-permissions-c.png)
+
 3.  Set **Read**, **Write** or **Admin** repository access as desired.
 
 
@@ -228,7 +262,7 @@ To give a member additional access, they must be added to a team or make them co
 
 2.  Invite a member to add it into the team. An email invitation is sent to that GitHub service user.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/82477058/github-add-members-to-team(c).png?version=1&modificationDate=1597238664762&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-github-add-members-to-team-c.png)
 
     The service user is then added to the team if the invitation has been accepted.
 
@@ -244,13 +278,32 @@ To give a member additional access, they must be added to a team or make them co
 
 4.  Click **Manage access** to manage repository access for this member.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/82477058/github-manage-team-repo-permission(c).png?version=1&modificationDate=1597238665239&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-github-manage-team-repo-permission-c.png)
 
-**Organization Permissions**
-While users have configured PAT for repository access, users in a GitHub Organization must at least have **Read** permissions. This allows them to view commits and smart commits (if enabled) of connected GitHub Organization repositories inside Jira.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Organization Permissions</b><br>
+        While users have configured PAT for repository access, users in a GitHub Organization must at least have **Read** permissions. This allows them to view commits and smart commits (if enabled) of connected GitHub Organization repositories inside Jira.
+    </div>
+    </div>
+</div>
 
-**GitHub Organization**
-For collaborators and commit authors, set these users to have **Write** permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>GitHub Organization</b><br>
+        For collaborators and commit authors, set these users to have **Write** permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
+    </div>
+    </div>
+</div>
+<br>
 
 For more information on organization teams, see [**GitHub: Organizing Members into Teams »**](https://help.github.com/articles/organizing-members-into-teams/).
 
@@ -279,37 +332,53 @@ For more information about this feature, see [Documentation: Linking git commits
 
 ## Working with branches and pull requests with GitHub
 
+The Git Integration for Jira Cloud app adds two features on the Jira issue developer panel – Create Branch, and Create Pull/Merge Request. For more information about the developer panel, see the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud) documentation.
+
 This process requires a GitHub git repository and a PAT with `repo` scopes.
 
 For GitHub Organization, the user must have the **Write** permissions and the `repo` PAT scopes.
 
+### Default Branch
+
+Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Git service integrations support this function where the default branch is acquired from almost all integrations and apply this setting at repository level. 
+
 ### Creating branches
 
-On your Jira Cloud, open a Jira issue. On the Jira Git integration development panel, click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
+On your Jira Cloud, open a Jira issue. On the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud), click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/82477058/gitcloud-issue-dev-panel-create-branch-dlg.png?version=2&modificationDate=1649154037835&cacheVersion=1&api=v2&width=680&height=243)
+![](/wp-content/uploads/gij-gitcloud-issue-dev-panel-create-branch-dlg.png)
 
 **Pointers:**
 
 1.  Select a **Repository** from the list.
 
-    1.  The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
+    *   The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
 
-    2.  If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
+    *   If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
 
-    3.  Use the search box in the dropdown list to filter displayed repositories.
+    *   Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the User settings page.
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b>&nbsp; Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the User settings page.
 
-2.  Choose a **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](#) page.
+2.  Choose a **Source branch**.
+
+    <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b>&nbsp; Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Enter a **Branch name** or leave it as is (recommended).
 
 4.  Click **Create branch** to complete this process.
 
-
-For more detailed information on this feature, see [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud).
-
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-branch-gij-cloud'>Create branch</a>.
+    </div>
+    </div>
+</div>
+<br>
 
 The newly-created branch is now listed in the Jira developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
@@ -317,21 +386,23 @@ The newly-created branch is now listed in the Jira developer panel under **Bran
 
 The pull request feature works the same as merge request. On your Jira Cloud, open the Jira issue where your previously created a branch. On the developer panel under **Open** **Git Integration**, click **Create pull request**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/82477058/gitcloud-issue-dev-panel-create-pull-req-dlg.png?version=1&modificationDate=1649154519995&cacheVersion=1&api=v2&width=680&height=262)
+![](/wp-content/uploads/gij-gitcloud-issue-dev-panel-create-pull-req-dlg.png)
 
 **Pointers:**
 
 1.  Select a **Repository** from the list.
 
-    1.  The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
+    *   The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
 
-    2.  If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
+    *   If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
 
-    3.  Use the search box in the dropdown list to filter displayed repositories.
+    *   Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](#) page.
+    4.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b>&nbsp; Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
-2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+2.  Choose the newly-created branch as the **Source branch**.
+   
+   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b>&nbsp; Designate the branch to be the default selected branch for the currently selected repository. To configure default pull requests for more than one repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Set _**master**_ as the **Target branch**.
 
@@ -339,15 +410,64 @@ The pull request feature works the same as merge request. On your Jira Cloud, op
 
 5.  Click **Create pull request** to complete this process. Follow the link to the PR to setup for review and approval.
 
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
+    </div>
+    </div>
+</div>
 
-Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).
+    </div>
+    </div>
+</div>
 
-**Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
-
-For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        
+    </div>
+    </div>
+</div>
+For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud'>Create pull/merge request</a>.
 
 
 The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your GitHub web portal.
+
+## More Integration Guides
+
+GitHub.com (this page)
+
+[GitLab CE/EE (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud)
+
+[GitHub Enterprise Server (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud)
+
+[GitLab.com (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/gitlab-com-gij-cloud)
+
+[Azure DevOps | Visual Studio Team Services (VSTS) (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud)
+
+[Azure DevOps Server | Team Foundation Services (TFS) (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud)
+
+[AWS CodeCommit (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/aws-codecommmit-gij-cloud)
+
+[Gerrit (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/gerrit-gij-cloud)
+
+[Bitbucket Cloud (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/bitbucket-gij-cloud)
+
+[Introduction to Git integration (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
 
