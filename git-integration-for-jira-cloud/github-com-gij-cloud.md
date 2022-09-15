@@ -438,12 +438,11 @@ The pull request feature works the same as merge request. On your Jira Cloud, op
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        
+        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud'>Create pull/merge request</a>.
     </div>
     </div>
 </div>
-For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud'>Create pull/merge request</a>.
-
+<br>
 
 The pull request is listed on the developer panel of the Jira issue page.
 

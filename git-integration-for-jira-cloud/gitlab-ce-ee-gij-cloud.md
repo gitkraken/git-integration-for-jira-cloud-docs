@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Using <b>Jira Server</b> or <b>Data Center</b>? <a href='/git-integration-for-jira-self-managed/gitlab-ce-ee-gij-self-managed'>See the corresponding article</a>.
+        Using <b>Jira Server or Data Center</b>? <a href='/git-integration-for-jira-self-managed/gitlab-ce-ee-gij-self-managed'>See the corresponding article</a>.
     </div>
     </div>
 </div>
@@ -66,6 +66,7 @@ Quickly learn how to connect GitLab CE/EE git repositories via Git Integration f
     - [Default branch](#default-branch)
     - [Creating Branches](#creating-branches)
     - [Creating merge requests](#creating-merge-requests)
+  - [More Integration Guides](#more-integration-guides)
 
 <br>
 <hr>
@@ -141,7 +142,7 @@ While instructions from GitHub works just fine, [follow this article](/git-inte
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Support for Gitlab API v3 is deprecated. We recommend to use **GitLab API v4** when adding new integrations for increased security.
+        Support for Gitlab API v3 is deprecated. We recommend to use <b>GitLab API v4</b> when adding new integrations for increased security.
     </div>
     </div>
 </div>
@@ -234,7 +235,7 @@ Repositories added or removed from GitLab server will be likewise added or remov
 <table>
     <tr>
         <td>
-            <div class="bbb-callout bbb--alert">
+            <div class="bbb-callout bbb--alert" style='margin-top:0px !important'>
                 <div class="irow">
                 <div class="ilogobox">
                     <span class="logoimg"></span>
@@ -245,7 +246,7 @@ Repositories added or removed from GitLab server will be likewise added or remov
                 </div>
                 </div>
             </div>
-            <img src='/wp-content/uploads/gij-gitcloud-edit-integration-feature-cfg-req-user-PAT.png' width=702 height=78 style='margin:20px auto 10px auto !important;max-width:100%;display:block;' />
+            <p style='margin-bottom:0px !important'><img src='/wp-content/uploads/gij-gitcloud-edit-integration-feature-cfg-req-user-PAT.png' width=702 height=78 style='margin:20px auto 0px auto !important;max-width:100%;display:block;' /></p>
         </td>
     </tr>
 </table>
@@ -420,6 +421,29 @@ The merge request feature works the same as merge request. On your Jira Cloud, o
 The merge request is listed on the developer panel of the Jira issue page.
 
 The merge request is also ready for approval by the reviewers in your GitLab web portal.
+
+## More Integration Guides
+
+[GitHub.com (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/github-com-gij-cloud)
+
+GitLab CE/EE (this page)
+
+[GitHub Enterprise Server (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud)
+
+[GitLab.com (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/gitlab-com-gij-cloud)
+
+[Azure DevOps | Visual Studio Team Services (VSTS) (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud)
+
+[Azure DevOps Server | Team Foundation Services (TFS) (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud)
+
+[AWS CodeCommit (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/aws-codecommmit-gij-cloud)
+
+[Gerrit (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/gerrit-gij-cloud)
+
+[Bitbucket Cloud (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/bitbucket-gij-cloud)
+
+[Introduction to Git integration (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
+
 
 <br>
 <br>

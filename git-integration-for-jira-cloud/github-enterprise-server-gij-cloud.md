@@ -108,7 +108,7 @@ We recommend using the **Git service integration** panel to connect multiple rep
 
 2.  On the Manage integrations page, click **Add integration.**
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c).png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
 3.  On the following screen, click on the **Git service integration** panel for your integration type.
 
@@ -137,6 +137,7 @@ We recommend using the **Git service integration** panel to connect multiple rep
     *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
         Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
+
         To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
     *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
@@ -415,7 +416,6 @@ The pull request feature works the same as merge request. On your Jira Cloud, op
     </div>
 </div>
 <br>
-
 
 The pull request is listed on the developer panel of the Jira issue page.
 
