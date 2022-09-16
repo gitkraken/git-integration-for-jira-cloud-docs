@@ -6,25 +6,66 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/gitlab-gij-self-managed).
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85622895/gitlab_wm_no_bg.png?version=1&modificationDate=1597499071261&cacheVersion=1&api=v2&width=224&height=84)
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Using <b>Jira Server or Data Center</b>? <a href='/git-integration-for-jira-self-managed/gitlab-gij-self-managed'>See the corresponding article</a>.
+    </div>
+    </div>
+</div>
+<br>
+
+<img src='/wp-content/uploads/gitlab-mobile-custom1.png' style='margin:20px 0 30px 0;max-width:100%' />
 
 # Integrate GitLab.com with Jira Cloud
 
 GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories.  Service users are strongly advised to switch from using username/password to using Personal Access Tokens (PAT) for GitLab.com.
 
-Support for Gitlab API v3 is deprecated. We recommend to use **GitLab API v4** when adding new integrations for increased security.
-
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Support for Gitlab API v3 is deprecated. We recommend to use <b>GitLab API v4</b> when adding new integrations for increased security.
+    </div>
+    </div>
+</div>
+<br>
 
 Quickly learn how to connect GitLab.com git repositories via Git Integration for Jira Cloud app.
 
 **What's on this page:**
+- [Integrate GitLab.com with Jira Cloud](#integrate-gitlabcom-with-jira-cloud)
+  - [Permissions](#permissions)
+  - [Creating a personal access token](#creating-a-personal-access-token)
+  - [Using Git service integration](#using-git-service-integration)
+  - [Single git repository integration](#single-git-repository-integration)
+  - [Setting up GitLab web links](#setting-up-gitlab-web-links)
+  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
+  - [Working with branches and merge requests with GitLab](#working-with-branches-and-merge-requests-with-gitlab)
+    - [Default branch](#default-branch)
+    - [Creating branches](#creating-branches)
+    - [Creating merge requests](#creating-merge-requests)
+  - [More Integration Guides](#more-integration-guides)
 
-* * *
+<br>
+<hr>
+<br>
 
-_Right click_ [_**here**_](https://bigbrassband.wisita.com/medias/hi45vum4yp) _and open this video in a new tab/window for more viewing options._
-_(Updated video coming soon)_
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/hi45vum4yp?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center' style='margin-top:10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/hi45vum4yp'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
+    <i>(Updated video coming soon)</i>
+</div>
+<br>
 
 ## Permissions
 
@@ -41,7 +82,7 @@ Take the following cases for example:
 
 We recommend creating a specific GitLab user for the integration. This way, the GitLab user can have specific permissions to do the given tasks.
 
-![gitlab user permissions or repository permissions](https://bigbrassband.atlassian.net/wiki/download/attachments/85622895/image-20200815-075633.png?version=1&modificationDate=1597499071968&cacheVersion=1&api=v2)
+![gitlab user permissions or repository permissions](/wp-content/uploads/gij-gitlab-user-permissions-or-repository-permissions.png)
 
 **For minimum access (read-only) permissions:**
 
@@ -51,6 +92,8 @@ We recommend creating a specific GitLab user for the integration. This way, the
 
 
 This level of access allows the user to view commits for the specific repository.
+
+<br>
 
 **For users who will be tasked with creating branches and merge requests:**
 
@@ -65,7 +108,17 @@ For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/e
 
 ## Creating a personal access token
 
-If two-factor authentication is enabled for your GitLab account, you will need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitLab.com account for increased security.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If two-factor authentication is enabled for your GitLab account, you will need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitLab.com account for increased security.
+    </div>
+    </div>
+</div>
+<br>
 
 While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for a quick step-by-step guide to get you started.
 
@@ -79,44 +132,48 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
 
 1.  On your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/85622895/gitcloud-jira-apps-manage-integrations-sel(c).png?version=1&modificationDate=1649322898452&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
 2.  On the Manage integrations page, click **Add integration.**
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/85622895/gitcloud-managed-ui-webhook-idx-setup(c).png?version=1&modificationDate=1649322743497&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
 3.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85622895/gitcloud-managed-ui-git-service-sel(c).png?version=2&modificationDate=1649322811881&cacheVersion=1&api=v2&width=652&height=382)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
 
 4.  The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/85622895/gitcloud-integration-gitlab-service-sel(c).png?version=1&modificationDate=1649326068539&cacheVersion=1&api=v2)
-    1.  Select **GitLab.com** from the Git hosting service dropdown list.
+    ![](/wp-content/uploads/gij-gitcloud-integration-gitlab-service-sel-c.png)
 
-    2.  Enter the PAT on the provided field.
+    *   Select **GitLab.com** from the Git hosting service dropdown list.
 
-    3.  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed. These settings are used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page.
+    *   Enter the PAT on the provided field.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85622895/gitcloud-integration-advanced-options-wo-sslverify(c).png?version=1&modificationDate=1649327432387&cacheVersion=1&api=v2&width=533&height=279)
+    *   Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed. These settings are used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page.
+
+        ![](/wp-content/uploads/gij-gitcloud-integration-advanced-options-wo-sslverify-c.png)
+
         *   **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories.
+
             For more information on GitLab custom API paths, see [GitLab API](https://docs.gitlab.com/ee/api/projects.html).
+
             For more examples, see article [Jira Cloud: Working with Custom API Path](/git-integration-for-jira-cloud/working-with-custom-api-path-gij-cloud).
 
             ```java
             GitLab version API support:
-
-            Gitlab v8.16 and earlier -- API v3.
-            Gitlab v8.17 to v8.xx -- API v3. 
-            Gitlab v9.0 to v9.4.x -- API v3 and API v4.
+            -------------------------------------------
             Gitlab v9.5 and above -- only API v4.
+            Gitlab v9.0 to v9.4.x -- API v3 and API v4.            
             ```
 
-            *   ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Remember:**
+            *   ![(blue star)](/wp-content/uploads/bbb-note-20.png)&nbsp; **Remember:**<br>
                 The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
 
         *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
+
             Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
+
             To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
     4.  While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
@@ -125,12 +182,13 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
 
 6.  On the following screen, the Git Integration for Jira app will read all available repositories from your GitLab account.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/85622895/gitcloud-integration-gitlab-repo-sel(c).png?version=1&modificationDate=1649327825946&cacheVersion=1&api=v2)
-    1.  Repositories of the logged-in GitLab user can be automatically connected to Jira Cloud. Repositories that are added or removed from GitLab will be likewise connected or disconnected from Jira Cloud.
+    ![](/wp-content/uploads/gij-gitcloud-integration-gitlab-repo-sel-c.png)
 
-    2.  Use the search options to filter displayed repositories for the current screen.
+    *   Repositories of the logged-in GitLab user can be automatically connected to Jira Cloud. Repositories that are added or removed from GitLab will be likewise connected or disconnected from Jira Cloud.
 
-    3.  Connect all repositories and organizations or select specific repositories to connect for this integration.
+    *   Use the search options to filter displayed repositories for the current screen.
+
+    *   Connect all repositories and organizations or select specific repositories to connect for this integration.
 
 7.  Click **Connect repositories** to complete this setup.
 
@@ -139,10 +197,24 @@ The GitLab.com git repositories are now connected to Jira Cloud.
 
 There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
-**Administrators**
-If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ Actions ➜ **Edit integration** ➜ Feature settings.
-
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85622895/gitcloud-edit-integration-feature-cfg-req-user-PAT.png?version=1&modificationDate=1649328090252&cacheVersion=1&api=v2&width=680&height=75)
+<table style='margin-bottom:40px'>
+    <tr>
+        <td>
+            <div class="bbb-callout bbb--alert">
+                <div class="irow">
+                <div class="ilogobox">
+                    <span class="logoimg"></span>
+                </div>
+                <div class="imsgbox">
+                    <b>Administrators</b><br>
+                    If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ Actions ➜ Edit integration** ➜ <b>Feature settings</b>.
+                </div>
+                </div>
+            </div>
+            <p style='margin:0 auto;margin-bottom:0px !important'><img src='/wp-content/uploads/gij-gitcloud-edit-integration-feature-cfg-req-user-PAT.png' /></p>
+        </td>
+    </tr>
+</table>
 
 ## Single git repository integration
 
@@ -156,7 +228,16 @@ Use this information to connect the GitLab git repository to your Jira Cloud via
 
 There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
-In order to access a Git repository over HTTP, use the username as the username and the PAT for the password.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        In order to access a Git repository over HTTP, use the username as the username and the PAT for the password.
+    </div>
+    </div>
+</div>
 
 ## Setting up GitLab web links
 
@@ -187,37 +268,55 @@ For GitLab Group, the user must have the **Write** permissions and the `api`�
 
 ### Default branch
 
-Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
+Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-Main branch for repositories within an integration can only be changed on the git server.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Main branch for repositories within an integration can only be changed on the git server.
+    </div>
+    </div>
+</div>
+<br>
 
 ### Creating branches
 
 On your Jira Cloud instance, open a Jira issue. On the Jira Git integration development panel, click **Open Git integration** then click **Create branch**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85622895/gitcloud-gitlab-com-dev-panel-create-branch-dlg.png?version=1&modificationDate=1649691715930&cacheVersion=1&api=v2&width=680&height=221)
+![](/wp-content/uploads/gij-gitcloud-gitlab-com-dev-panel-create-branch-dlg.png)
 
 **Pointers:**
 
 1.  Select a **Repository** from the list.
 
-    1.  The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
+    *   The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
 
-    2.  If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
+    *   If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
 
-    3.  Use the search box in the dropdown list to filter displayed repositories.
+    *   Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b>&nbsp; Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the <a href='/git-integration-for-jira-cloud/user-settings-gij-cloud'>User settings</a> page.
 
-2.  Choose a **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one connected repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+2.  Choose a **Source branch**. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b>&nbsp; Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one connected repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Enter a **Branch name** or leave it as is (recommended).
 
 4.  Click **Create branch** to complete this process.
 
-
-For more detailed information on this feature, see [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud).
-
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-branch-gij-cloud'>Create branch</a>.
+    </div>
+    </div>
+</div>
+<br>
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
@@ -225,21 +324,23 @@ The newly-created branch is now listed in the developer panel under **Branches*
 
 The merge request feature works the same as merge request. On your Jira Cloud, open the Jira issue where your previously created a branch. On the Jira Git integration development panel, click **Open Git integration** then click **Create merge request**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/85622895/gitcloud-gitlab-com-dev-panel-create-mergereq-dlg.png?version=1&modificationDate=1649691857389&cacheVersion=1&api=v2&width=680&height=240)
+![](/wp-content/uploads/gij-gitcloud-gitlab-com-dev-panel-create-mergereq-dlg.png)
 
 **Pointers:**
 
 1.  Select a **Repository** from the list.
 
-    1.  The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
+    *   The git host service logo is displayed for all the repositories in the dropdown list to easily identify which git service they belong.
 
-    2.  If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab group name. For example, `BigBrassBand/second-webhook-test-repo`.
+    *   If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab group name. For example, `BigBrassBand/second-webhook-test-repo`.
 
-    3.  Use the search box in the dropdown list to filter displayed repositories.
+    *   Use the search box in the dropdown list to filter displayed repositories.
 
-    4.  OPTIONAL Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](#) page.
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b>&nbsp; Designate the repository to be the default selected repository for current Jira project. To configure default repositories for more than one Jira project - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
-2.  Choose the newly-created branch as the **Source branch**. OPTIONAL Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one connected repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
+2.  Choose the newly-created branch as the **Source branch**.
+    
+    <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b>&nbsp; Designate the branch to be the default selected branch for the currently selected repository. To configure default branches for more than one connected repository - use the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page.
 
 3.  Set _**master**_ as the **Target branch**.
 
@@ -247,18 +348,74 @@ The merge request feature works the same as merge request. On your Jira Cloud, o
 
 5.  Click **Create pull request** to complete this process. Follow the link to the PR to setup for review and approval.
 
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Merge requests are still indexed based on branch name even if the MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
+    </div>
+    </div>
+</div>
 
-Merge requests are still indexed based on branch name even if the MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).
+    </div>
+    </div>
+</div>
 
-**Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
-
-For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud'>Create pull/merge request</a>.
+    </div>
+    </div>
+</div>
+<br>
 
 
 The merge request is listed on the developer panel of the Jira issue page.
 
 The merge request is also ready for approval by the reviewers in your GitLab web portal.
 
+## More Integration Guides
 
+[GitHub.com (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/github-com-gij-cloud)
 
-_1 Logo owned by_ [_GitLab Inc_](https://gitlab.com/) _used under_ [_license_](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[GitHub Enterprise Server (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud)
+
+GitLab.com (this page)
+
+[GitLab CE/EE (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/github-ce-ee-com-gij-cloud)
+
+[Azure DevOps | Visual Studio Team Services (VSTS) (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud)
+
+[Azure DevOps Server | Team Foundation Services (TFS) (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud)
+
+[AWS CodeCommit (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/aws-codecommmit-gij-cloud)
+
+[Gerrit (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/gerrit-gij-cloud)
+
+[Bitbucket Cloud (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/bitbucket-gij-cloud)
+
+[Introduction to Git integration (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
+
+<br>
+
+<br>
+<br>
+<div style='border-top: 1px solid #456; width: 40%; padding-bottom: 12px'></div>
+<div style='font-size: 12px;'>
+    <sup>1</sup> <i>Logo owned by <a href='https://gitlab.com/'>GitLab Inc</a> used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>license</a>.
+    <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.<p><i>
+</div>
+
