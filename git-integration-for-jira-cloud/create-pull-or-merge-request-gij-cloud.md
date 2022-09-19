@@ -46,7 +46,7 @@ taxonomy:
 
 The **Create pull request** feature offers Jira users the ability to create a git pull request directly from the Jira issue.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/733315235/create-pull-request.png?version=2&modificationDate=1599320965937&cacheVersion=1&api=v2&width=933&height=349)
+![](/wp-content/uploads/gij-create-pull-request.png)
 
 For information about creating a branch from a Jira issue - see [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud).
 
@@ -108,25 +108,37 @@ When creating a pull request from within Jira:
 
 ## Video: Creating pull request from Git Development panel
 
-<div class='embed-container embed-container--16-10'>
+<div class='embed-container' style='padding-bottom:77.71%'>
     <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/rsccl5wxps?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/rsccl5wxps'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+<br>
 <br>
 
 ## Video: Creating pull request from Git Source Code panel
 
-<div class='embed-container embed-container--16-10'>
+<div class='embed-container' style='padding-bottom:77.71%'>
     <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/zbjshija1o?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/zbjshija1o'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
+<br>
 
-If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+    </div>
+    </div>
+</div>
+<br>
 

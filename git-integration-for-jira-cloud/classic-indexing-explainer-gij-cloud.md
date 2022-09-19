@@ -24,9 +24,11 @@ taxonomy:
   - [Indexing errors](#indexing-errors)
 - [Branch and pull/merge request name index triggers](#branch-and-pullmerge-request-name-index-triggers)
 
-* * *
+<br>
+<hr>
+<br>
 
-The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/4984) app automatically indexes commits, branches, tags, and pull/merge requests. Previously, all repositories and integrations were updated on a strict schedule – which is approximately every 8 minutes after the last indexing process has finished for an account. This worked for small accounts and provided consistency but was inefficient with large accounts (many with repositories that rarely change).
+The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app automatically indexes commits, branches, tags, and pull/merge requests. Previously, all repositories and integrations were updated on a strict schedule – which is approximately every 8 minutes after the last indexing process has finished for an account. This worked for small accounts and provided consistency but was inefficient with large accounts (many with repositories that rarely change).
 
 Starting on October 28, 2019, indexing is now calculated based on per repository activity. The overall goals are to reduce the strain on git services and make the indexing service more available for the webhook triggers.
 
@@ -212,7 +214,7 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/g
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you still have a question – reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'><b>Support Desk</b> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
+        If you still have a question – reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'><b>Support Desk</b> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
     </div>
     </div>
 </div>

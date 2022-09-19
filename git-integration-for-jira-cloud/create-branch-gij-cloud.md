@@ -28,15 +28,16 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-* * *
+<br>
+<hr>
+<br>
 
 ## Introduction
 
 The Create branch feature offers Jira users the ability to create a git branch directly from the Jira issue.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/733282366/gitcloud-create-branch-dlg.png?version=1&modificationDate=1635931446719&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-create-branch-dlg.png)
 
 
 For information about creating pull/merge requests from a Jira issue - see [Create pull or merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
@@ -103,9 +104,10 @@ When creating a branch from within Jira:
     <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/8cy7v6ykug?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/8cy7v6ykug'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+<br>
 <br>
 
 ## Video: Creating branch from Git Source Code panel
@@ -114,10 +116,21 @@ When creating a branch from within Jira:
     <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/2re05azbwl?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/2re05azbwl'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
 
-If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
+    </div>
+    </div>
+</div>
+<br>
 
