@@ -84,7 +84,7 @@ Automatic indexing is designed to record changes in a timely manner for all type
 
 When webhooks are received by the indexing service, the indexing service will reduce the automatic indexing to once - hourly.
 
-For more information on configuring webhooks, see: [Indexing triggers](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud/).
+For more information on configuring webhooks, see: [Indexing triggers](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud).
 
 ### Automatic indexing period limits
 
@@ -125,7 +125,7 @@ The table below describes the automatic indexing period limits:
 
 All repositories and integrations can be updated manually via the Manage Git repositories screen by selecting the **Reindex All** button:
 
-![Git Cloud manage git repositories page highlighting Reindex All](https://bigbrassband.atlassian.net/wiki/download/attachments/183369754/gitcloud-reindex-all-iex.png?version=1&modificationDate=1598591995427&cacheVersion=1&api=v2)
+![Git Cloud manage git repositories page highlighting Reindex All](/wp-content/uploads/gij-gitcloud-reindex-all-iex.png)
 
 <br>
 
@@ -133,7 +133,7 @@ All repositories and integrations can be updated manually via the Manage Git rep
 
 Repositories can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex repository**:
 
-![Git Cloud manage git repositories page highlighting Reindex repository action](https://bigbrassband.atlassian.net/wiki/download/attachments/183369754/gitcloud-reindex-repo-iex.png?version=1&modificationDate=1598591995919&cacheVersion=1&api=v2)
+![Git Cloud manage git repositories page highlighting Reindex repository action](/wp-content/uploads/gij-gitcloud-reindex-repo-iex.png)
 
 <br>
 
@@ -141,7 +141,7 @@ Repositories can be updated manually via the Manage git repositories screen by o
 
 Integrations can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex integration**:
 
-![Git Cloud manage git repositories page highlighting Reindex integration action](https://bigbrassband.atlassian.net/wiki/download/attachments/183369754/gitcloud-reindex-integration-iex.png?version=1&modificationDate=1598591996399&cacheVersion=1&api=v2)
+![Git Cloud manage git repositories page highlighting Reindex integration action](/wp-content/uploads/gij-gitcloud-reindex-integration-iex.png)
 
 <br>
 
@@ -157,9 +157,9 @@ Integrations can be updated manually via the Manage git repositories screen by o
 
 ## Indexing definitions
 
-The [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) app now has new indexing date/times to indicate the variety of repository checks:
+The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app now has new indexing date/times to indicate the variety of repository checks:
 
-![Show tracked repos action dialog showcasing indexing definitions](https://bigbrassband.atlassian.net/wiki/download/attachments/183369754/gitcloud-indexing-defs.png?version=1&modificationDate=1598591997067&cacheVersion=1&api=v2)
+![Show tracked repos action dialog showcasing indexing definitions](/wp-content/uploads/gij-gitcloud-indexing-defs.png)
 
 <br>
 
@@ -192,7 +192,7 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) app n
 
 ### Indexing errors
 
-![Git commits tab in Jira issue showing indexing error messages](https://bigbrassband.atlassian.net/wiki/download/attachments/183369754/image-20200828-050318.png?version=1&modificationDate=1598591997511&cacheVersion=1&api=v2)
+![Git commits tab in Jira issue showing indexing error messages](/wp-content/uploads/gij-gitcloud-git-commits-tab-indexing-error-msgs.png)
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -212,7 +212,7 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) app n
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you still have a question – reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'><b>Support Desk</b> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+        If you still have a question – reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'><b>Support Desk</b> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
     </div>
     </div>
 </div>
