@@ -7,20 +7,27 @@ taxonomy:
 
 ---
 
-
 **What’s on this page:**
+- [! Let us assist you with your migration to Jira Cloud!](#-let-us-assist-you-with-your-migration-to-jira-cloud)
+- [! Important Notes](#-important-notes)
+- [! Links](#-links)
+- [! Steps to migrate](#-steps-to-migrate)
 
-## Let us assist you with your migration to Jira Cloud!
+<br>
+<hr>
+<br>
 
-Use this page as a resource to get all the information you need to start your migration. If you need additional support or one-on-one assistance, we'll be glad to help. Contact us at [BigBrassBand Support](https://bigbrassband.atlassian.net/servicedesk/customer/portals/).
+## ![](/wp-content/uploads/gij-handshake-icon.png) Let us assist you with your migration to Jira Cloud!
 
-## Important Notes
+Use this page as a resource to get all the information you need to start your migration. If you need additional support or one-on-one assistance, we'll be glad to help. Contact us at [BigBrassBand Support](https://link.bigbrassband.com/gij-gitkraken-gitcloud-support).
+
+## ![](/wp-content/uploads/gij-notes-two.png) Important Notes
 
 **Licensing:** We’re happy to assist our customers migrate to Jira Cloud from Jira Server or Jira Data Center. To alleviate any concerns about paying for "double licensing" during your transition we will provide discount codes so you will only have to pay for one platform (either Cloud or Server/Data Center). We’ll do this by verifying your active license on one platform and we’ll provide a promotion code for the license on the other.
 
 **Associations from Git data:** Indexing Jira issues via commit messages is the same in Jira Server + Data Center as Jira Cloud. All the associations will be preserved.
 
-**Manual commit associations:** At this time, manual commit <--> Jira issue associations cannot be migrated automatically but request [**BigBrassBand Support**](https://bigbrassband.atlassian.net/servicedesk/customer/portals) for instructions on how to check.
+**Manual commit associations:** At this time, manual commit <--> Jira issue associations cannot be migrated automatically but request [**BigBrassBand Support**](https://link.bigbrassband.com/gij-gitkraken-gitcloud-support) for instructions on how to check.
 
 **Self-hosted Git servers:** When connecting a self-hosted git server to [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) the git server must have a publicly addressable + route-able address. [GitHub.com](http://GitHub.com), [Azure DevOps](https://dev.azure.com), [GitLab.com](http://GitLab.com) and other services hosted on the “public cloud” work without any administrator interventions.
 
@@ -28,7 +35,7 @@ For more information, see: [**Allowlist (whitelist) BigBrassBand Cloud**](/git-i
 
 **Known Atlassian issue:** We highly recommend testing your Jira migration to the Cloud on a test Jira Cloud site. [AC-1528](https://ecosystem.atlassian.net/browse/AC-1528) is a bug in Atlassian Jira Cloud that breaks all Jira Cloud Atlassian Marketplace apps when a new project import is made. When migrating your users to Jira Cloud – we recommend installing and configuring the Git Integration for Jira Cloud app **after** all of your Jira users/projects/issues data is imported and verified.
 
-## Links
+## ![](/wp-content/uploads/gij-links-icon.png) Links
 
 *   [Git Integration Server/Data Center vs Jira Cloud](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud) - Evaluating a move to Jira Cloud? Learn more about the similarities and differences.
 
@@ -39,25 +46,51 @@ For more information, see: [**Allowlist (whitelist) BigBrassBand Cloud**](/git-i
 *   [Enterprise migration guide](https://www.atlassian.com/migration/cloud/enterprise) - For teams migrating 1,000 users or more, Atlassian offers additional resources and support.
 
 
-## Steps to migrate
+## ![](/wp-content/uploads/gij-pencil-icon.png) Steps to migrate
 
 Currently there are not automatic steps to migrate from Jira Server + Data Center to Jira Cloud.
 
-*   Create a **test** Jira Cloud instance. See below note.
-*   Install [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) on a test Jira Cloud instance
-*   Verify self-hosted git servers have a a publicly addressable + rout-able address. For more information, see [Whitelist BigBrassBand Cloud](https://bigbrassband.atlassian.net/git-integration-for-jira-cloud/).
-*   Configure your git repositories via Full feature integrations or single, plain git repositories. For guides on connecting git servers + repositories to Jira Cloud, see [Integration Guide](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
+<div>
+  <ul style='line-height:180%;list-style-type:none;text-indent:-24px'>
+    <li style='margin-bottom:10px'>
+      <input type="checkbox" id="option"><label for="option"> Create a <b>test</b> Jira Cloud instance. See below note.</label>
+    </li>
+    <li style='margin-bottom:10px'>
+      <input type="checkbox" id="option"><label for="option"> Install <a href='https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview'>Git Integration for Jira Cloud</a> on a test Jira Cloud instance.</label>
+    </li>
+    <li style='margin-bottom:10px'>
+      <input type="checkbox" id="option"><label for="option"> Verify self-hosted git servers have a a publicly addressable + rout-able address. For more information, see <a href='/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud'>Whitelist BigBrassBand Cloud</a>.</label>
+    </li>
+    <li style='margin-bottom:10px'>
+      <input type="checkbox" id="option"><label for="option"> Configure your git repositories via Git service integration or single, plain git repositories. For guides on connecting git servers + repositories to Jira Cloud, see <a href='/git-integration-for-jira-cloud/integration-guide-gij-cloud'>Integration Guide</a>.</label>
+      <ul style='line-height: 200%;list-style-type:none;'>
+        <li style='margin-bottom:10px'><label><input type="checkbox" class="subOption"> Connect GitHub.com to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/github-com-gij-cloud'>GitHub.com</a></label></li>
+        <li style='margin-bottom:10px'><label><input type="checkbox" class="subOption"> Connect GitHub Enterprise to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud'>GitHub Enterprise</a></label></li>
+        <li style='margin-bottom:10px'><label><input type="checkbox" class="subOption"> Connect GitLab.com to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/gitlab-com-gij-cloud'>GitLab.com</a></label></li>
+        <li style='margin-bottom:10px'><label><input type="checkbox" class="subOption"> Connect GitLab CE/EE to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud'>GitLab CE/EE</a></label></li>
+        <li style='margin-bottom:10px'><label><input type="checkbox" class="subOption"> Connect AWS CodeCommit to Jira Cloud - see guide: [AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud)</label></li>
+        <li style='margin-bottom:10px'><label><input type="checkbox" class="subOption"> Connect Bitbucket Cloud to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud/'>Bitbucket Cloud</a></label></li>
+        <li style='margin-bottom:10px'><label><input type="checkbox" class="subOption"> Connect Microsoft Azure DevOps (Cloud) to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud'>Azure DevOps | Visual Studio Team Services (VSTS)</a></label></li>
+        <li style='margin-bottom:10px'><label><input type="checkbox" class="subOption"> Connect Microsoft Azure DevOps Server to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud'>Azure DevOps Server | Team Foundation Services (TFS)</a></label></li>
+        <li style='margin-bottom:10px'><label><input type="checkbox" class="subOption"> Connect Gerrit to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/gerrit-gij-cloud'>Gerrit</a></label></li>
+      </ul>
+    </li>
+    <li>
+      <input type="checkbox" id="option"><label for="option"> Once indexing is completed, verify Jira issues are showing commits, branches, and pull requests as expected.</label>
+    </li>
+  </ul>
+</div>
+<br>
 
-*   Connect GitHub.com to Jira Cloud - see guide: [GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud)
-*   Connect GitHub Enterprise to Jira Cloud - see guide: [GitHub Enterprise](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud)
-*   Connect GitLab.com to Jira Cloud - see guide: [GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud)
-*   Connect GitLab CE/EE to Jira Cloud - see guide: [GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud)
-*   Connect AWS CodeCommit to Jira Cloud - see guide: [AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud)
-*   Connect Bitbucket Cloud to Jira Cloud - see guide: [Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud/)
-*   Connect Microsoft Azure DevOps (Cloud) to Jira Cloud - see guide: [Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud)
-*   Connect Microsoft Azure DevOps Server to Jira Cloud - see guide: [Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud)
-*   Connect Gerrit to Jira Cloud - see guide: [Gerrit](/git-integration-for-jira-cloud/gerrit-gij-cloud)
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If you need additional support - contact <a href='https://link.bigbrassband.com/gij-gitkraken-gitcloud-support'>GIJ Cloud Support</a>.
+    </div>
+    </div>
+</div>
+<br>
 
-*   Once indexing is completed, verify Jira issues are showing commits, branches, and pull requests as expected.
-
-If you need additional support - contact [BigBrassBand Support](https://bigbrassband.atlassian.net/servicedesk/customer/portals/).

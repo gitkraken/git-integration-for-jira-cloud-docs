@@ -9,7 +9,7 @@ taxonomy:
 
 JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
-For help with writing expressions, please contact [**support**](mailto:support@bigbrassband.com).
+For help with writing expressions, please contact [**support**](support@gitkraken.com).
 
 Read about JMESPath expressions on their [**website**](http://jmespath.org/).
 
@@ -17,19 +17,25 @@ Read about JMESPath expressions on their [**website**](http://jmespath.org/).
 
 ## Accessible Locations
 
-1. Full feature integration Wizard ➜ **Connection** screen ➜ _Advanced_ ➜ **JMESPath filter**.
+There are two ways to access the JMESPath settings in Git Integration for Jira Cloud:
+
+1.  From the Add integration ➜ Git service integration wizard of the supported git host ➜ **Connection** screen ➜ _Advanced_ ➜ **JMESPath filter**.
 
     For example:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/133234759/image-20210310-142619.png?version=1&modificationDate=1615466075878&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-cloud-connect-github-example-advanced-jmespath.png)
     
     This feature is accessible with supported git services on the Full feature integrations panel.
 
+<br>
+
 2. Manage Git repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration settings** ➜ Integration settings. ➜ **JMESPath Filter**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/133234759/gitcloud-jmespath-actions-settings.png?version=1&modificationDate=1615466138063&cacheVersion=1&api=v2&width=680&height=249)
+    ![](/wp-content/uploads/gij-gitcloud-jmespath-actions-settings.png)
 
     This feature is accessible with supported git services on repository or integration connections.
+
+<br>
 
 ## Git services that support JMESPath filters
 

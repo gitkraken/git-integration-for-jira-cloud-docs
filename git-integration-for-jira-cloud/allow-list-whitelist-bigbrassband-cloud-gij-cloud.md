@@ -172,9 +172,9 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 54.206.176.144  
 3.105.72.140  
 52.64.118.63  
-13.238.136.180    
+13.238.136.180
 
-If you use these IP addresses for allow listing - we ask that you contact us at [support@bigbrassband.com](mailto:support@bigbrassband.com) so we can notify you if these IP addresses are ever changed.
+If you use these IP addresses for allow listing - we ask that you contact us at [support@gitkraken.com](mailto:support@gitkraken.com) so we can notify you if these IP addresses are ever changed.
 
 ## Reachable network address
 
