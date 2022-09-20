@@ -56,7 +56,7 @@ The Issue Git Source Code Panel displays:
 
 ## Git Source Code Panel (old issue view)
 
-**![](https://bigbrassband.atlassian.net/wiki/download/attachments/138346503/git-cloud-oldview-source-code-panel.png?version=1&modificationDate=1561742276535&cacheVersion=1&api=v2)**
+![](/wp-content/uploads/gij-git-cloud-oldview-source-code-panel.png)
 
 <br>
 
@@ -64,7 +64,7 @@ The Issue Git Source Code Panel displays:
 
 The Git Commits Issue tab lists the git commits associated to the Jira issue grouped by repository and sorted by commit time. 
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/138346503/git-cloud-newview-source-code-panel.png?version=1&modificationDate=1561741816923&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-git-cloud-newview-source-code-panel.png)
 
 <br>
 
@@ -78,7 +78,7 @@ The Git Commits Issue tab lists the git commits associated to the Jira issue gr
 
 4.  Click **Update** button.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/138346503/gitcloud-general-settings-git-source-code-panel.png?version=1&modificationDate=1561742705018&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-general-settings-git-source-code-panel.png)
 
 <br>
 
@@ -91,8 +91,9 @@ For detailed information about this feature, see [Documentation: Jira Git integr
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href="https://bigbrassband.atlassian.net/servicedesk/customer/portals" target="_blank">Support Desk</a>  or email us at <a href="mailto:support@bigbrassband.com">support@bigbrassband.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a>  or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
     </div>
     </div>
 </div>
+<br>
 

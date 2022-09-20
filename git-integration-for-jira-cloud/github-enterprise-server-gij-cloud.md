@@ -35,7 +35,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Using <b>Jira Server</b> or <b>Data Center</b>? <a href='/git-integration-for-jira-data-center/github-enterprise-server-gij-self-managed'>See the corresponding article</a>.
+        Using <b>Jira Server or Data Center</b>? <a href='/git-integration-for-jira-data-center/github-enterprise-server-gij-self-managed'>See the corresponding article</a>.
     </div>
     </div>
 </div>
@@ -136,7 +136,7 @@ We recommend using the **Git service integration** panel to connect multiple rep
 
     *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
-        Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
+        Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [GIJ Cloud Support](mailto:support@gitkraken.com).
 
         To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
