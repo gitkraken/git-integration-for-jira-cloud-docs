@@ -83,7 +83,19 @@ While on the Repository browser page:
 
 Jira administrators can configure git integrations (example: GitHub, GitLab) to require that Jira users create and provide their own [Personal Access Token](/git-integration-for-jira-cloud/personal-access-token-feature-gij-cloud) to enable features like creating branches, pull request or merge request via Jira Git integration development panel inside Jira.
 
-The personal access column and configuration is relocated to [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The personal access column and configuration is relocated to <a href='/git-integration-for-jira-cloud/user-settings-gij-cloud'>User settings</a>.
+    </div>
+    </div>
+</div>
+<br>
+
+
 
 <br>
 
@@ -97,11 +109,11 @@ The personal access column and configuration is relocated to [User settings](/gi
 
 4.  Click **Update** button.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/138706958/gitcloud-gencfg-repo-browser.png?version=1&modificationDate=1636096946037&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-gencfg-repo-browser.png)
 
 <br>
 
-For detailed information about this feature, see [Documentation: Repository browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud/).
+For detailed information about this feature, see [Documentation: Repository browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud).
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -110,7 +122,7 @@ For detailed information about this feature, see [Documentation: Repository brow
     </div>
     <div class="imsgbox">
         <b>Contact us</b><br>
-        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
     </div>
     </div>
 </div>

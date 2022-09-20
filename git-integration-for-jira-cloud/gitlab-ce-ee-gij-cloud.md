@@ -21,6 +21,8 @@ taxonomy:
 
 <img src='/wp-content/uploads/gitlab-ceee-integration-banner-logo.png' style='max-width:100%;margin-bottom:40px' width=408 height=93 />
 
+<br>
+
 # Integrate GitLab CE/EE with Jira Cloud
 
 This feature tracks added or deleted repositories from a remote GitLab server (EE/CE) and automatically imports those Git repository references into Jira.
@@ -189,7 +191,7 @@ We recommend using the Full feature integrations panel to connect multiple repos
 
         *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
-            Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
+            Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [GIJ Cloud Support](mailto:support@gitkraken.com).
 
             To know more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 

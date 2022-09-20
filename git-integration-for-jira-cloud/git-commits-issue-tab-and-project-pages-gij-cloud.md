@@ -51,7 +51,7 @@ taxonomy:
 
 The Git Commits Issue tab lists the git commits associated to the Jira issue grouped by repository and sorted by commit time.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/138346498/gitcloud-git-commits-issue-tab.png?version=1&modificationDate=1561740799237&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-git-commits-issue-tab.png)
 
 <br>
 
@@ -59,7 +59,7 @@ The Git Commits Issue tab lists the git commits associated to the Jira issue gr
 
 The Git Commits Project Page lists the git commits associated to the Jira Project grouped by repository and sorted by commit time.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/138346498/gitcloud-git-commits-project-page.png?version=1&modificationDate=1561740800078&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-git-commits-project-page.png)
 
 <br>
 
@@ -67,7 +67,7 @@ The Git Commits Project Page lists the git commits associated to the Jira Projec
 
 The View Full Commit button launches a screen detailing the source code change in the commit.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/138346498/gitcloud-gitcommits-diff-change.png?version=1&modificationDate=1561740800612&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-gitcommits-diff-change.png)
 
 <br>
 
@@ -75,7 +75,7 @@ The View Full Commit button launches a screen detailing the source code change i
 
 The Change association feature allows for updating the Jira issues associated with a commit.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/138346498/git-cloud-change-association.png?version=2&modificationDate=1561741338981&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-git-cloud-change-association.png)
 
 <br>
 
@@ -89,7 +89,7 @@ The Change association feature allows for updating the Jira issues associated wi
 
 4.  Click **Update** button.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/138346498/gitcloud-general-settings-git-commits-issue-project.png?version=1&modificationDate=1561740800896&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-general-settings-git-commits-issue-project.png)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -97,8 +97,9 @@ The Change association feature allows for updating the Jira issues associated wi
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you still have a question - reach out to our <a href="https://bigbrassband.atlassian.net/servicedesk/customer/portals" target="_blank">Support Desk</a> or email us at <a href="mailto:support@bigbrassband.com">support@bigbrassband.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href="mailto:support@gitkraken.com">support@gitkraken.com</a>.
     </div>
     </div>
 </div>
+<br>
 

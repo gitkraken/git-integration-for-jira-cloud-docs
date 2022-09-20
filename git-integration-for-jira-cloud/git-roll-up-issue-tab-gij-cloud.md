@@ -1,6 +1,6 @@
 ---
 
-title: Git Roll Up Issue Tab
+title: Git Roll Up Issue Tab features
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Features</b>
+        <b>Note</b>
         <ul>
             <li>
                 By default, <a href='https://marketplace.atlassian.com/4984'>Git Integration for Jira</a> has the Git Roll Up Issue Tab enabled. (<a href='#how-can-a-jira-administrator-enable-or-disable-the-git-roll-up-issue-tab'>How to disable</a>)
@@ -38,7 +38,9 @@ taxonomy:
 </div>
 <br>
 
-* * *
+<br>
+<hr>
+<br>
 
 ## Introduction
 
@@ -54,7 +56,7 @@ Some notable sections:
 
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/138510337/gitcloud-jira-issue-rollup-tab-sel.png?version=1&modificationDate=1638616149130&cacheVersion=1&api=v2&width=680&height=554)
+![](/wp-content/uploads/gij-gitcloud-jira-issue-rollup-tab-sel.png)
 
 <br>
 
@@ -69,19 +71,20 @@ Some notable sections:
 4.  Click **Update** button.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/138510337/gitcloud-gencfg-git-rollup-sel.png?version=1&modificationDate=1638616220087&cacheVersion=1&api=v2&width=680&height=250)
+![](/wp-content/uploads/gij-gitcloud-gencfg-git-rollup-sel.png)
 
 <br>
 
-<div class="bbb-callout bbb--alert">
+<div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a>() or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a>() or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
     </div>
     </div>
 </div>
+<br>
 

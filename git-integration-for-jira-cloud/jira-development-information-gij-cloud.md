@@ -79,18 +79,6 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) and
 </div>
 <br>
 
-## What other features are enabled by Jira Development Information?
-
-*   [JQL searching for commits and pull requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud)
-
-*   [Development status in Jira Issue Searching](/git-integration-for-jira-cloud/development-status-in-jira-issue-searching-gij-cloud)
-
-*   [Release Hub](/git-integration-for-jira-cloud/release-hub-warnings-gij-cloud)
-
-*   [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud)
-
-*   [NextGen projects only: View commits, branches, and pull requests in Jira Boards](/git-integration-for-jira-cloud/next-gen-projects-only-view-commits-branches-and-pull-requests-in-jira-boards-gij-cloud)
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -102,4 +90,16 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) and
     </div>
     </div>
 </div>
+
+## What other features are enabled by Jira Development Information?
+
+*   [JQL searching for commits and pull requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud)
+
+*   [Development status in Jira Issue Searching](/git-integration-for-jira-cloud/development-status-in-jira-issue-searching-gij-cloud)
+
+*   [Release Hub](/git-integration-for-jira-cloud/release-hub-warnings-gij-cloud)
+
+*   [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud)
+
+*   [NextGen projects only: View commits, branches, and pull requests in Jira Boards](/git-integration-for-jira-cloud/next-gen-projects-only-view-commits-branches-and-pull-requests-in-jira-boards-gij-cloud)
 
