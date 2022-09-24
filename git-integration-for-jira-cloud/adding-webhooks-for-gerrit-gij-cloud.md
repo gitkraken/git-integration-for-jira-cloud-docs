@@ -33,7 +33,7 @@ curl http(s)://your.org.com:8080/config/server/webhooks~projects/MyTestRepo/remo
 curl --user username:password -H 'Content-Type: application/json' -X PUT -d @webhook.json http(s)://your.org.com:8080/a/config/server/webhooks~projects/MyTestRepo/remotes/bbb-webhook
 ```
 
-Where `webhook.json`:
+Where `webhook.json`:<br>
 ```json
 {
    "url" : "https://example.com/webhook/url",
@@ -54,6 +54,7 @@ _**Required headers:**_
 
 *   'Content-Type': `application/json`
 
+<br>
 
 _**Optional headers:**_
 

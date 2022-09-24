@@ -123,5 +123,5 @@ See: [Security & Trust](https://bigbrassband.com/security-and-trust.html)
 
 ### I have more questions about Webhook indexing
 
-Please reach out to us at [support@bigbrassband.com](mailto:support@bigbrassband.com) or via our [Support Portal](https://bigbrassband.atlassian.net/servicedesk/customer/portals).
+Please reach out to us at [support@gitkraken.com](mailto:support@gitkraken.com) or via our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
