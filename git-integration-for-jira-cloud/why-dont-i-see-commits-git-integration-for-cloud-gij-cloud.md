@@ -172,5 +172,5 @@ Where you can see commits:
 
 <p style='font-size:26px;text-align:center;'>&#8681;</p>
 
-<p align=center>Contact <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a> by email or via the <a href='https://link.bigbrassband.com/gij-gitkraken-gitcloud-support'>GIJ Cloud Support Portal</a>.
+<p align=center>Contact <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a> by email or via the <a href='https://link.bigbrassband.com/gij-gitkraken-gitcloud-support'>GIJ Cloud Support Portal</a>.
 
