@@ -24,7 +24,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        We publish roadmaps for <a href='https://trello.com/b/Af64QYkE/git-integration-jira-cloud-roadmap'><b>Jira Cloud</b></a> and <a href='https://trello.com/b/WRrWMs87/git-integration-server-data-center-roadmap'><b>Jira Server + Data Center</b></a>. If you have questions about specific differences between Jira Server + Data Center and Jira Cloud - <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>contact us through our support desk</a>.
+        We publish roadmaps for <a href='https://trello.com/b/Af64QYkE/git-integration-jira-cloud-roadmap'><b>Jira Cloud</b></a> and <a href='https://trello.com/b/WRrWMs87/git-integration-server-data-center-roadmap'><b>Jira Server + Data Center</b></a>. If you have questions about specific differences between Jira Server + Data Center and Jira Cloud &ndash; <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>contact us through our support desk</a>.
     </div>
     </div>
 </div>
@@ -418,7 +418,7 @@ Git Integration for Jira Data Center</th>
       <td><img src="/wp-content/uploads/gij-matrix-open-check-green.png" width="20" height="20"></td>
     </tr>
     <tr>
-      <td>▶&nbsp; Tags  (Display associated tags via commit)</td>
+      <td>▶&nbsp; Tags (Display associated tags via commit)</td>
       <td><img src="/wp-content/uploads/gij-matrix-open-check-green.png" width="20" height="20"></td>
       <td><img src="/wp-content/uploads/gij-matrix-open-check-green.png" width="20" height="20"></td>
     </tr>
@@ -482,7 +482,7 @@ Git Integration for Jira Data Center</th>
       <td><img src="/wp-content/uploads/gij-matrix-open-check-green.png" width="20" height="20"></td>
       <td><img src="/wp-content/uploads/gij-matrix-open-check-green.png" width="20" height="20"></td>
     </tr>
-    <tr>View Code Diffs in Jira 6
+    <tr>
       <td>▶&nbsp; Code expanders to see context of changes in diff screen</td>
       <td><img src="/wp-content/uploads/gij-matrix-open-check-green.png" width="20" height="20"></td>
       <td><img src="/wp-content/uploads/gij-matrix-open-check-green.png" width="20" height="20"></td>
