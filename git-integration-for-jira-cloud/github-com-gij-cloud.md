@@ -68,9 +68,9 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
   - [More Integration Guides](#more-integration-guides)
 
 <br>
-
+<br>
 <hr>
-
+<br>
 <br>
 
 <div class='embed-container embed-container--16-10'>
@@ -81,6 +81,7 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/8jtnqzp79y'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
     <i>Updated video coming soon</i>
 </div>
+<br>
 <br>
 
 ## Creating a personal access token
@@ -111,14 +112,14 @@ We recommend using the **Git service integration** panel to connect multiple rep
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        On November 13, 2020, GitHub.com is going to stop allowing API authentication via username/password. For more information, see <a href='https://developer.github.com/changes/2020-02-14-deprecating-password-auth/'><b>GitHub.com - Deprecating Password Authentication</b></a>.<br>
-        <p style='margin-bottom:0 !important'>We strongly recommend to use personal access tokens for GitHub.com account integration.</p>
+        On November 13, 2020, GitHub.com is going to stop allowing API authentication via username/password. For more information, see <a href='https://developer.github.com/changes/2020-02-14-deprecating-password-auth/' target='_blank'><b>GitHub.com - Deprecating Password Authentication</b></a>.<br>
+        <p style='margin-bottom:-10px !important'>We strongly recommend to use personal access tokens for GitHub.com account integration.</p>
     </div>
     </div>
 </div>
 <br>
 
-1.  On your Jira dashboard menu, go to **Apps** ➜ **Git Integration: Manage integrations**.
+1.  On your Jira dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
 
     ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
@@ -126,13 +127,21 @@ We recommend using the **Git service integration** panel to connect multiple rep
 
     ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
-3.  On the following screen, click on the **Git service integration** panel for your integration type.
+3.  For the following screen, click **GitHub.com** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-github.png)
 
-4.  Select **GitHub.com** from the list then click **Connect GitHub.com**.
+4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-github-integration-sel-service-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-github-integration-oauth-01.png)
+
+5.  For this guide, click on the **OAuth integration** to select it.
+
+    *   We recommend the OAuth integration which is outlined like a setup wizard -- making it more easier for users to connect GitHub integrations.
+
+    *   For PAT integration, however, uses personal access tokens to setup GitHub integrations. Users will have to configure their own PAT from GitHub to use for this setup.
+
+    *   For GitHub webhook indexing integration, see [this article](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud) instead.
 
     *   Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
 
@@ -150,7 +159,9 @@ We recommend using the **Git service integration** panel to connect multiple rep
 
     *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
-5.  **Login to your GitHub account when prompted.** When connecting to GitHub.com using OAuth for the first time, the user will be presented with a grant authorization screen.
+6.  Click **Connect to GitHub.com** to proceed to the next step.
+
+7.  **Login to your GitHub account when prompted.** When connecting to GitHub.com using OAuth for the first time, the user will be presented with a grant authorization screen.
 
     ![](/wp-content/uploads/gij-github-autoconnect-grant-auth-screen-c.png)
 
@@ -165,16 +176,16 @@ We recommend using the **Git service integration** panel to connect multiple rep
         ----------------------------------------------------------------------------
         OAuth                       User should notice and press the "Grant" button
                                     near the org repositories to connect them.
-
+        ----------------------------------------------------------------------------
         PAT                         Org repositories are connected immediately.
-
+        ----------------------------------------------------------------------------
         Username/Password           Org repositories are connected immediately.
         ```
 
     <br>
     *   Click **Authorize BigBrassBand** to continue.
 
-6.  The following page is displayed.
+8.  The following page is displayed.
 
     ![](/wp-content/uploads/gij-gitcloud-github-integration-oauth-sel-repos-c.png)
 
@@ -184,7 +195,7 @@ We recommend using the **Git service integration** panel to connect multiple rep
 
     *   Connect all repositories and organizations or select specific repositories to connect for this integration.
 
-7.  Click **Connect repositories** to complete this setup.
+9.  Click **Connect repositories** to complete this setup.
 
 
 The GitHub.com repositories are now connected to Jira Cloud. There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
@@ -221,7 +232,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 1.  Login to your GitHub.com account.
 
-2.  Go to <img src='/wp-content/uploads/gij-profile-icon.png' /> **Profile** ➜ **Settings**.
+2.  Go to <img src='/wp-content/uploads/gij-profile-icon.png' /> Profile ➜ **Settings**.
 
 3.  On your sidebar, click **Organizations**.
 
@@ -237,8 +248,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 7.  **Save** the changes.
 
-
-For more information, see [**Access Permissions on GitHub »**](https://help.github.com/articles/access-permissions-on-github/).
+<div style='margin:25px 0 20px 0'>For more information, see [**Access Permissions on GitHub »**](https://help.github.com/articles/access-permissions-on-github/).</div>
 
 ### Teams and collaborators
 
@@ -384,7 +394,7 @@ The newly-created branch is now listed in the Jira developer panel under **Bran
 
 ### Creating pull requests
 
-The pull request feature works the same as merge request. On your Jira Cloud, open the Jira issue where your previously created a branch. On the developer panel under **Open** **Git Integration**, click **Create pull request**. The following dialog is displayed.
+The pull request feature works the same as merge request. On your Jira Cloud, open the Jira issue where your previously created a branch. On the developer panel under **Open Git Integration**, click **Create pull request**. The following dialog is displayed.
 
 ![](/wp-content/uploads/gij-gitcloud-issue-dev-panel-create-pull-req-dlg.png)
 
