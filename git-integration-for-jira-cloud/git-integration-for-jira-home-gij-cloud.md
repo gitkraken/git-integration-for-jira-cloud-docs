@@ -11,7 +11,18 @@ Everything you need to know about Git Integration for Jira Cloud.
 
 Check out the links below to get started with Git Integration for Jira. Use the left navigation to explore further.
 
-Looking for information on the server or data center version? [Click here](/git-integration-for-jira-data-center/git-integration-for-jira-home-self-manged)
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Looking for information on the server or data center version? <a href='/git-integration-for-jira-data-center/git-integration-for-jira-home-self-manged'>Click here</a>
+    </div>
+    </div>
+</div>
+<br>
+<br>
 
 ## Getting started
 
