@@ -182,7 +182,6 @@ We recommend using the **Git service integration** panel to connect multiple rep
         Username/Password           Org repositories are connected immediately.
         ```
 
-    <br>
     *   Click **Authorize BigBrassBand** to continue.
 
 8.  The following page is displayed.
@@ -248,7 +247,9 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 7.  **Save** the changes.
 
-<div style='margin:25px 0 20px 0'>For more information, see [**Access Permissions on GitHub »**](https://help.github.com/articles/access-permissions-on-github/).</div>
+<div style='margin:25px 0 20px 0'>
+    For more information, see <a href='https://help.github.com/articles/access-permissions-on-github/'><b>Access Permissions on GitHub »</b></a>.
+</div>
 
 ### Teams and collaborators
 
@@ -263,7 +264,6 @@ To give a member additional access, they must be added to a team or make them co
     ![](/wp-content/uploads/gij-github-org-repo-team-repo-permissions-c.png)
 
 3.  Set **Read**, **Write** or **Admin** repository access as desired.
-
 
 
 **Assign members to a team on your GitHub repository:**
