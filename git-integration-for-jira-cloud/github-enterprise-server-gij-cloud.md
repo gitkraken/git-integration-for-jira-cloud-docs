@@ -43,8 +43,9 @@ taxonomy:
 
 &nbsp;
 
-<img src='/wp-content/uploads/gij-github-ent-server-banner-logo.png' style='max-width:100%' width-615 height=71 />
+<img src='/wp-content/uploads/gij-github-ent-server-banner-logo.png' style='max-width:100%' width=615 height=71 />
 
+<br>
 <br>
 
 # Integrate GitHub Enterprise Server with Jira Cloud
@@ -68,7 +69,9 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
   - [More Integration Guides](#more-integration-guides)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 <div class='embed-container embed-container--16-10'>
@@ -102,47 +105,49 @@ This process requires an existing GitHub Enterprise Server account. 
 
 We recommend using the **Git service integration** panel to connect multiple repositories from your GitHub Enterprise Server account.
 
-1.  On your Jira Cloud dashboard menu, go to **Apps ➜ Git Integration: Manage integrations**.
+1.  On your Jira dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
 
     ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
-2.  On the Manage integrations page, click **Add integration.**
+2.  On the Manage integrations page, click **Add integration**.
 
     ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
-3.  On the following screen, click on the **Git service integration** panel for your integration type.
+3.  For the following screen, click **GitHub Enterprise Server** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-ghe-sel.png)
 
-4.  The following screen is displayed.
+4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-integration-ghe-server-connect-service-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-ghe-pat.png)
 
-    *   Select **GitHub Enterprise Server (self-managed)** from the Git hosting service drop down list.
+5.  For this guide, click on the **PAT GitHub Server** to select it.
+
+    *   We recommend the PAT integration for this git service. This uses personal access tokens to setup GHE integrations. Users will have to configure their own PAT from GHE to use for this setup.
 
     *   For the **Host URL**, enter the address of the GitHub Enterprise Server.
 
-    *   For admins/owners, repository managers, collaborators or users that have enabled 2FA, enter username to the **Login** field and enter the PAT on the **Token** field.
+    *   For admins/owners, repository managers, collaborators or users that have enabled 2FA, enter the PAT on the **Token** field.
 
-5.  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
+    *   For GHE webhook indexing integration, see [this article](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud) instead.
 
-    ![](/wp-content/uploads/gij-gitcloud-integration-advanced-options-std-c.png)
+    *   Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
 
-    *   **SSL Verify** – The **SSL Verify** option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira Cloud app will ignore verification of SSL certificates when connecting to a git server. _This option is not available for non-fetched repositories._
+        ![](/wp-content/uploads/gij-gitcloud-integration-advanced-options-wo-sslverify-c.png)
 
-    *   **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories.
+        *   **Custom API Path**  –  this is a relative path that starts with "/". The integration will use the relative REST API path to retrieve the list of tracked repositories. The maximum allowed length is **2000** characters or less.
 
-        To learn more examples, see article [Jira Cloud: Working with Custom API Path](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
+            To learn more examples, see article [Jira Cloud: Working with Custom API Path](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
-    *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
+        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is **2000** characters or less.
+            
+            Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
-        Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [GIJ Cloud Support](mailto:support@gitkraken.com).
-
-        To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
+            To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
     *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
-6.  Click **Connect and select repositories**. The Git Integration for Jira app will read all available repositories from your GitHub Enterprise Server account.
+6.  Click **Connect and select repositories** to proceed to the next step. The Git Integration for Jira app will read all available repositories from your GitHub Enterprise Server account.
 
 7.  The following screen is displayed.
 
@@ -156,7 +161,7 @@ We recommend using the **Git service integration** panel to connect multiple rep
 
 8.  Click **Connect repositories** to complete the setup.
 
-
+<br>
 GitHub Enterprise Server repositories are now connected to Jira Cloud.
 
 ## Single git repository integration
@@ -189,7 +194,7 @@ Assign GitHub Enterprise Server permissions for team members or collaborators to
 
 1.  Login to your GitHub Enterprise Server account.
 
-2.  Go to ![profile icon](/wp-content/uploads/gij-profile-icon.png) **Profile** ➜ **Settings**.
+2.  Go to ![profile icon](/wp-content/uploads/gij-profile-icon.png) Profile ➜ **Settings**.
 
 3.  On your sidebar, click **Organizations**.
 
@@ -253,8 +258,8 @@ To give a member additional access, they must be added to a team or make them co
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Organization Permissions</b?<br>
-While users have configured PAT for repository access, users in a GitHub Organization must at least have **Read** permissions. This allows them to view commits and smart commits (if enabled) of connected GitHub Organization repositories inside Jira.
+        <b>Organization Permissions</b><br>
+        While users have configured PAT for repository access, users in a GitHub Organization must at least have **Read** permissions. This allows them to view commits and smart commits (if enabled) of connected GitHub Organization repositories inside Jira.
     </div>
     </div>
 </div>
@@ -266,7 +271,7 @@ While users have configured PAT for repository access, users in a GitHub Organiz
     </div>
     <div class="imsgbox">
         <b>GitHub Organization</b><br>
-For collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
+        For collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
     </div>
     </div>
 </div>
@@ -423,23 +428,23 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 ## More Integration Guides
 
-[GitHub.com (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/github-com-gij-cloud)
-
-[GitLab CE/EE (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud)
+[GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud) (Git Integration for Jira Cloud)
 
 [GitHub Enterprise Server (this page)
 
-[GitLab.com (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/gitlab-com-gij-cloud)
+[GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud) (Git Integration for Jira Cloud)
 
-[Azure DevOps | Visual Studio Team Services (VSTS) (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud)
+[GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud) (Git Integration for Jira Cloud)
 
-[Azure DevOps Server | Team Foundation Services (TFS) (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud)
+[Azure DevOps \| Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud) (Git Integration for Jira Cloud)
 
-[AWS CodeCommit (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/aws-codecommmit-gij-cloud)
+[Azure DevOps Server \| Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud) (Git Integration for Jira Cloud)
 
-[Gerrit (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/gerrit-gij-cloud)
+[AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommmit-gij-cloud) (Git Integration for Jira Cloud)
 
-[Bitbucket Cloud (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/bitbucket-gij-cloud)
+[Gerrit](/git-integration-for-jira-cloud/gerrit-gij-cloud) (Git Integration for Jira Cloud)
 
-[Introduction to Git integration (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
+[Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-gij-cloud) (Git Integration for Jira Cloud)
+
+[Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 
