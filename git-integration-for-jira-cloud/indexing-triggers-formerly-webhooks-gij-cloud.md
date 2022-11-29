@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 Indexing triggers allows immediate reindex of your repositories from remote systems, where near real-time data is sent to Jira whenever your git data changes. This provides Jira with more often up-to-date information. Setting up indexing triggers will result in a much faster indexing time where you don’t have to wait for the regular polling interval (_every 5 minutes_).
 
 Most git providers will also allow you to create webhooks at an account-level or org-level. For more information about this topic, see [**About GitLab Webhooks**](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/web_hooks/web_hooks.md).
@@ -14,7 +15,7 @@ Most git providers will also allow you to create webhooks at an account-level or
 
 Setup webhooks for your configured integration/repositories from remote systems by enabling the feature first.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923026143/gitcloud-indexing-triggers-loc.png?version=2&modificationDate=1638619780807&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-gitcloud-indexing-triggers-loc.png' style='display:block;margin:25px auto;max-width:100%' />
 
 1.  From your Jira dashboard, go to the **Apps** menu.
 
@@ -25,7 +26,7 @@ Setup webhooks for your configured integration/repositories from remote systems 
 4.  Turn on the webhook feature by switching the **Indexing triggers enabled** setting to `ON`.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923026143/gitcloud-indexing-triggers-enable.png?version=1&modificationDate=1636274280844&cacheVersion=1&api=v2&width=544&height=300)
+<img src='/wp-content/uploads/gij-gitcloud-indexing-triggers-enable.png' style='display:block;margin:25px auto;max-width:100%' />
 
 Use the **Webhook URL** to setup webhook for your remote git host.
 
@@ -46,6 +47,12 @@ See [About indexing triggers in Jira Cloud](/git-integration-for-jira-cloud/inde
 
 For more information about triggers and event types, see [Creating reindex triggers for a single repository](/git-integration-for-jira-cloud/creating-indexing-triggers-for-a-single-repository-gij-cloud).
 
-[Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud/)
+<br>
+<br>
+<hr>
+<br>
+<br>
 
-[Localization support](/git-integration-for-jira-cloud/localization-support-gij-cloud/)
+[**Prev:** Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud/)
+
+[**Next:** Localization support](/git-integration-for-jira-cloud/localization-support-gij-cloud/)

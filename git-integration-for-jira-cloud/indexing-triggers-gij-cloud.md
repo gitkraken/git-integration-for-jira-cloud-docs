@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 **What’s on this page:**
 
 - [What are indexing triggers and why use them?](#what-are-indexing-triggers-and-why-use-them)
@@ -18,7 +19,12 @@ taxonomy:
   - [Webhook URL: Integration level](#webhook-url-integration-level)
   - [Webhook URL: Repository level](#webhook-url-repository-level)
 
-* * *
+<br>
+<br>
+<hr>
+<br>
+<br>
+
 
 ## What are indexing triggers and why use them?
 
@@ -63,7 +69,7 @@ Configure indexing triggers to activate immediate reindex of your repositories f
 
 2.  On the sidebar, click **Indexing triggers**. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171475219/gitcloud-new-webhooks-settings-page(c).png?version=1&modificationDate=1617197700707&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-new-webhooks-settings-page-c.png)
 
 3.  Enable/disable the indexing trigger feature by clicking on the **Indexing triggers enabled** toggle switch.
 
@@ -73,21 +79,21 @@ The webhooks URL can be accessed on the following locations:
 
 1.  From your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Repository browser**. On the sidebar, click **Indexing triggers**. (_Alternatively, go to Jira Settings_ ➜ _Apps. On the sidebar, click Indexing triggers_).
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/gitcloud-indexing-triggers-loc-01(c).png?version=1&modificationDate=1617197700714&cacheVersion=1&api=v2&width=646&height=301)
+    ![](/wp-content/uploads/gij-gitcloud-indexing-triggers-loc-01-c.png)
 
 2.  On the Manage Git repositories configuration page, click the Indexing triggers button at the top right of the page.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/gitcloud-indexing-triggers-loc-02(c).png?version=1&modificationDate=1617197700717&cacheVersion=1&api=v2&width=646&height=414)
+    ![](/wp-content/uploads/gij-gitcloud-indexing-triggers-loc-02-c.png)
 
 3.  In the **Manage repository** page of a tracked repository — click on a repository/integration from the git configuration list. Look for the Webhook URL field.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/git-cloud-webhook-url-repo-list-loc(c).png?version=1&modificationDate=1617197700720&cacheVersion=1&api=v2&width=646&height=206)
+    ![](/wp-content/uploads/gij-git-cloud-webhook-url-repo-list-loc-c.png)
 
-4.  In the Repository Settings page of a repository in a tracked repository or a single connected repository — on the git configuration page, go to Actions ➜ **Show integration repositories**.
+4.  In the Repository Settings page of a repository in a tracked repository or a single connected repository — on the git configuration page, go to <img src='/wp-content/uploads/actions-icon.png' Actions ➜ **Show integration repositories**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/git-cloud-webhook-url-repo-cfg-tracked-repos(c).png?version=1&modificationDate=1617197700722&cacheVersion=1&api=v2&width=625&height=196)
+<img src='/wp-content/uploads/gij-git-cloud-webhook-url-repo-cfg-tracked-repos-c.png' style='display:block;margin:25px auto;max-width:100%' />
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/jira-cloud-repo-cfg-view-tracked-repo-dlg(c).png?version=1&modificationDate=1617197700725&cacheVersion=1&api=v2&width=625&height=338)
+<img src='/wp-content/uploads/gij-jira-cloud-repo-cfg-view-tracked-repo-dlg-c.png' style='display:block;margin:0 auto 25px auto;max-width:100%' />
 
 The **Secret Key** is a secure random-generated alphanumeric string at the time of the Git Integration for Jira app installation. The user can change this to a different value by generating another secret token according to your Git host.
 
@@ -129,11 +135,11 @@ Assign your Jira base URL and Secret Key to the example URL structure:
 
 Watch the video guide below to get familiarize with indexing triggers setup in Jira Cloud:
 
-<div class='embed-container embed-container--16-10'>
+<div class='embed-container embed-container--16-9'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/4o796wnrdx?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/4o796wnrdx'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -163,7 +169,7 @@ We recommend to use this webhook URL because it's generally easy to configure an
 
 *   Click **Indexing triggers** button at top right of Manage Git repositories page
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/gitcloud-indexing-trigger-webhook-url-level-1.png?version=1&modificationDate=1617197829120&cacheVersion=1&api=v2&width=584&height=303)
+<img src='/wp-content/uploads/gij-gitcloud-indexing-trigger-webhook-url-level-1.png' style='display:block;margin:25px auto;max-width:100%' />
 
     <br>
 
@@ -173,9 +179,9 @@ This webhook URL triggers events only for the repositories within that integrat
 
 **Webhook access location:**
 
-*   Manage Git repositories page ➜ Actions ➜ **Edit integration settings**
+*   Manage Git repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration settings**
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/webhook-level-integration.png?version=2&modificationDate=1617197854067&cacheVersion=1&api=v2&width=646&height=301)
+<img src='/wp-content/uploads/gij-webhook-level-integration.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -185,22 +191,24 @@ This webhook URL triggers events only for the configured repository.
 
 **Webhook access location:**
 
-*   Manage Git repositories page ➜ Actions ➜ **Show integration repositories** ➜ click a repository; or
+*   Manage Git repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Show integration repositories** ➜ click a repository; or
 
-*   Manage Git repositories page ➜ Actions ➜ **Edit repository settings**
+*   Manage Git repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository settings**
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171475219/webhook-level-repository.png?version=2&modificationDate=1617197898666&cacheVersion=1&api=v2&width=646&height=599)
+<img src='/wp-content/uploads/gij-webhook-level-repository.png' style='display:block;margin:25px auto;max-width:100%' />
 
-    <br>
+<br>
 
-<div class="bbb-callout bbb--tip">
+<div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For indexing to trigger, the repository URL that arrives in the webhook payload must match a repository that is in the Git Integration configuration account. However, it must also match within the webhook level.
+        <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW UPDATE!</b><br>
+        Repository IDs are now extracted from any webhooks (even from the install level ones) -- if possible, and the specified repositories will be reindexed only if when found. This implementation greatly reduces the number of indexing repositories.
     </div>
     </div>
 </div>
+<br>
 
