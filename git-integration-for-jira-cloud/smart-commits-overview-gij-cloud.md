@@ -8,10 +8,11 @@ taxonomy:
 ---
 
 
-Git Integration for Jira. See Git commits in Jira.
+<img src='/wp-content/uploads/gij-docs-git-for-jira-landing-pages-title-banner.png' style='display:block;margin:40px auto 50px auto;max-width:100%' />
 
 **What's on this page:**
 - [Introduction](#introduction)
+- [Access locations](#access-locations)
 - [Getting started](#getting-started)
 - [Workflow Transitions](#workflow-transitions)
 - [Viewing Workflows](#viewing-workflows)
@@ -19,15 +20,26 @@ Git Integration for Jira. See Git commits in Jira.
   - [Max commit age](#max-commit-age)
 - [Did You Know?](#did-you-know)
 
-* * *
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 ## Introduction
 
 Smart commits allows your team to perform actions on Jira issues from a single commit.  Users can enter the issue key and the desired action such as time tracking or closing an issue.
 
-The smart commit processing is **active by default** and can be enabled/disabled via the **Repository settings** _(Apps ➜ Git Integration: Manage integrations ➜ Actions ➜ Edit integration ➜ click a repository ➜ **Feature settings**)_:
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/109314182/gitcloud-edit-repo-feature-cfg-sel.png?version=1&modificationDate=1650363840596&cacheVersion=1&api=v2)
+## Access locations
+
+The smart commit processing is **active by default** and can be enabled/disabled via the **Repository settings** using the following access locations:
+
+*   Apps ➜ Git Integration: Manage integrations ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit integration ➜ **Feature Settings** (sidebar)
+
+<br>
+
+<img src='/wp-content/uploads/gij-gitcloud-repo-settings-smart-commits-cfg.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -45,22 +57,17 @@ Smart commits configuration checklist:
 
 The basic syntax for a smart commit message is:
 
-\<ISSUE\_KEY\> _\<ignored text\>_ \#\<command\> _\<optional command\_params\>_
+<img src='/wp-content/uploads/gij-gitcloud-sc-overview-code-01.png' style='display:block;margin:25px auto 35px auto;max-width:100%' />
 
 Using the format above, the smart commit structure will actually look like this:
 
-**TST-123** **\#comment** fixed bug **\#time** `1h 30m` Bug fixes 
+<img src='/wp-content/uploads/gij-gitcloud-sc-overview-code-02.png' style='display:block;margin:25px auto;max-width:100%' />
 
 In the above example, the commit is associated to **TST-123**, adds the comment "fixed bug" to the **Issue** ➜ **Comment** tab, logs the time of 1 hour and 30 minutes with worklog comment "Bug fixes" to the Jira issue.
 
 For multi-line commit messages, the following examples show correct usage of the smart commit message:
 
-**TST-1** implemented feature 1<br>
-**\#comment** `some comment`<br>
-`in Jira`<br>
-`on several lines`<br>
-**\#resolve**
-**TST-2** **\#time** `1h 30m`
+<img src='/wp-content/uploads/gij-gitcloud-sc-overview-code-03.png' style='display:block;margin:25px auto;max-width:100%' />
 
 The above example is a valid multi-line commit message.
 
@@ -68,7 +75,7 @@ The **`#label`** command will add a new label to a Jira issue. If more than o
 
 **Usage:**
 
-**GITCL-443 GITCL-247 GITCL-214 \#label** `admin@example.com user1@example.com requested-feature new-feature` **\#comment** `Return email when implemented`
+<img src='/wp-content/uploads/gij-gitcloud-sc-overview-code-04.png' style='display:block;margin:25px auto;max-width:100%' />
 
 **In the above example:**
 
@@ -106,8 +113,11 @@ The name of the status is the transition. So, for the example above, the valid 
 
 This setting is a hidden feature in Git Integration for Jira Cloud and Dev Info for Jira Cloud. All commits which are older than this setting (in seconds) shall be ignored for smart commits processing.<br><br>The default value is **1209600** seconds (14 days).
 
-
-* * *
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 ## Did You Know?
 
@@ -132,6 +142,9 @@ The Git Integration for Jira app, support for multi-line commit messages for Sma
 **Smart Commit Status**<br>
 The commit status shown on the Issue page depends on the Smart Commits setting that was set at the time the commits were processed.
 
+<br>
+<br>
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -142,4 +155,4 @@ The commit status shown on the Issue page depends on the Smart Commits setting t
     </div>
     </div>
 </div>
-
+<br>

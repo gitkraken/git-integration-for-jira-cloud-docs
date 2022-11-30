@@ -165,13 +165,15 @@ We recommend to use this webhook URL because it's generally easy to configure an
 
 **Webhook access location:**
 
+![](/wp-content/uploads/gij-gitcloud-indexing-triggers-access-locations.png)
+
 *   Manage Git repositories sidebar, **Indexing triggers**
 
-*   Click **Indexing triggers** button at top right of Manage Git repositories page
+*   On the **Productivity** panel on the Administrator Toolbox, click **Configure indexing triggers**
 
 <img src='/wp-content/uploads/gij-gitcloud-indexing-trigger-webhook-url-level-1.png' style='display:block;margin:25px auto;max-width:100%' />
 
-    <br>
+<br>
 
 ### Webhook URL: Integration level
 
@@ -179,9 +181,15 @@ This webhook URL triggers events only for the repositories within that integrat
 
 **Webhook access location:**
 
-*   Manage Git repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration settings**
+*   Manage integrations page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ Edit integration ➜ **Feature Settings** (sidebar)
 
-<img src='/wp-content/uploads/gij-webhook-level-integration.png' style='display:block;margin:25px auto;max-width:100%' />
+    ![](/wp-content/uploads/gij-gitcloud-indexing-triggers-integration-level-01,png)    
+
+*   Manage integrations page ➜ click an integration ➜ **Feature Settings** (sidebar)
+
+    ![](/wp-content/uploads/gij-gitcloud-indexing-triggers-integration-level-03,png)
+
+![](/wp-content/uploads/gij-gitcloud-indexing-triggers-integration-level-02.png)
 
 <br>
 
@@ -191,11 +199,13 @@ This webhook URL triggers events only for the configured repository.
 
 **Webhook access location:**
 
-*   Manage Git repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Show integration repositories** ➜ click a repository; or
+*   Manage repositories page ➜ click a repository; or
+
+    ![](/wp-content/uploads/gij-gitcloud-indexing-triggers-repo-level-01.png)
 
 *   Manage Git repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository settings**
 
-<img src='/wp-content/uploads/gij-webhook-level-repository.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitcloud-indexing-triggers-repo-level-02.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -206,7 +216,7 @@ This webhook URL triggers events only for the configured repository.
     </div>
     <div class="imsgbox">
         <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW UPDATE!</b><br>
-        Repository IDs are now extracted from any webhooks (even from the install level ones) -- if possible, and the specified repositories will be reindexed only if when found. This implementation greatly reduces the number of indexing repositories.
+        Repository IDs are extracted from all webhook types (even from the install level ones) and only the repositories specified in the webhook will be indexed. This implementation prevents indexing all repositories in integrations that especially important for large integrations.
     </div>
     </div>
 </div>
