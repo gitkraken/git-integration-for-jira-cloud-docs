@@ -39,7 +39,7 @@ The smart commit processing is **active by default** and can be enabled/disabl
 
 <br>
 
-<img src='/wp-content/uploads/gij-gitcloud-repo-settings-smart-commits-cfg.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitcloud-repo-settings-smart-commits-cfg.png' style='display:block;margin:25px auto 35px auto;max-width:100%' />
 
 <br>
 
@@ -85,7 +85,7 @@ The labels **admin@example.com**, **user1@example.com**, **requested-feature** a
 
 ## Workflow Transitions
 
-<img src='https://bigbrassband.com/docimgs/jira-simple-workflow-144.png' style='margin:25px auto;max-width:100%;' alt='shows workflow transition names and arrow process' />
+<img src='/wp-content/uploads/gij-jira-simple-workflow.png' style='margin:25px auto;max-width:100%;' alt='shows workflow transition names and arrow process' />
 
 The name of the status is the transition. So, for the example above, the valid transitions from **DONE** are:
 
@@ -105,7 +105,7 @@ The name of the status is the transition. So, for the example above, the valid 
 
 ## Smart Commits General Setting
 
-<img src='https://bigbrassband.com/docimgs/gen-cfg-smart-commits-max-age.png' style='max-width:100%;margin:25px auto;border:1px solid #ccc' alt='General Settings smart commits max age' />
+<img src='/wp-content/uploads/gij-gitcloud-smart-commits-general-setting.png' style='display:block;max-width:100%;margin:25px auto 35px auto;' alt='General Settings smart commits max age' />
 
 ### Max commit age
 
@@ -121,25 +121,25 @@ This setting is a hidden feature in Git Integration for Jira Cloud and Dev Info 
 
 ## Did You Know?
 
-**Jira User**<br>
+<img src='/wp-content/uploads/gij-profile.png' style='display:inline-block;width:32px;height:32px;margin:25px 5px 15px 0' /> <b>Jira User</b><br>
 The committers’ email address in the git configuration must match with the email address of the corresponding Jira user (or vice versa) for the smart commit to work.
 
-**Project Permissions**<br>
+<img src='/wp-content/uploads/gij-stack.png' style='display:inline-block;width:32px;height:32px;margin:25px 5px 15px 0' /> <b>Project Permissions</b><br>
 The Jira user must have the appropriate project permissions to transition issues.
 
-**Workflow Transition**<br>
+<img src='/wp-content/uploads/gij-trends.png' style='display:inline-block;width:32px;height:32px;margin:25px 5px 15px 0' /> <b>Workflow Transition</b><br>
 When you hover a status on the Issue Workflow - it will highlight available transitions. This is the transition name that is used in Smart Commits.
 
-**Email Notifications**<br>
+<img src='/wp-content/uploads/gij-email.png' style='display:inline-block;width:32px;height:32px;margin:25px 5px 15px 0' /> <b>Email Notifications</b><br>
 If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user cannot be identified.
 
-**Transition Names**<br>
+<img src='/wp-content/uploads/gij-compose.png' style='display:inline-block;width:32px;height:32px;margin:25px 5px 15px 0' /> <b>Transition Names</b><br>
 To avoid conflict when transitioning issues, give a unique name to a workflow transition.
 
-**Multi-line Commits**<br>
+<img src='/wp-content/uploads/gij-document.png' style='display:inline-block;width:32px;height:32px;margin:25px 5px 15px 0' /> <b>Multi-line Commits</b><br>
 The Git Integration for Jira app, support for multi-line commit messages for Smart Commits has been implemented.
 
-**Smart Commit Status**<br>
+<img src='/wp-content/uploads/gij-barchart.png' style='display:inline-block;width:32px;height:32px;margin:25px 5px 15px 0' /> <b>Smart Commit Status</b><br>
 The commit status shown on the Issue page depends on the Smart Commits setting that was set at the time the commits were processed.
 
 <br>

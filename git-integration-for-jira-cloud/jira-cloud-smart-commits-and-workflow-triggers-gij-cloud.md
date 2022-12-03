@@ -6,9 +6,10 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 Smart commits allows your team to perform actions on Jira issues from a single commit. Users can enter the issue key and the desired action such as time tracking or closing an issue.
 
-The smart commit processing is **active by default** and can be enabled/disabled via **General settings** _(Jira dashboard menu Apps ➜ Git Integration: Manage Git repositories ➜ (sidebar) General Settings)._
+The smart commit processing is **active by default** and can be enabled/disabled via **General settings** _(Jira dashboard menu Apps ➜ Git Integration: Manage integrations ➜ (sidebar) General Settings)._
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -17,7 +18,7 @@ The smart commit processing is **active by default** and can be enabled/disabl
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'><b>Support Desk</b></a> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'><b>Support Desk</b></a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>

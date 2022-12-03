@@ -7,8 +7,6 @@ taxonomy:
 
 ---
 
-Navigate to Git integration for Jira (sidebar) ➜ **General settings** to access this setting.
-
 <img src='/wp-content/uploads/gij-gitcloud-smart-commits-general-setting.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
