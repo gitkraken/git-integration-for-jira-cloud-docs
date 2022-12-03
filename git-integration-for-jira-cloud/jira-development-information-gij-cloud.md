@@ -28,7 +28,8 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 **What's on this page:**
 - [What is Jira Development Information?](#what-is-jira-development-information)
@@ -36,7 +37,11 @@ taxonomy:
 - [Who can see Jira Development Information?](#who-can-see-jira-development-information)
 - [What other features are enabled by Jira Development Information?](#what-other-features-are-enabled-by-jira-development-information)
 
-* * *
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 ## What is Jira Development Information?
 

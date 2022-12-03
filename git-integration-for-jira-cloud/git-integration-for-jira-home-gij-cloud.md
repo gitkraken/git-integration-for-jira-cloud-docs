@@ -37,12 +37,13 @@ Check out the links below to get started with Git Integration for Jira. Use the 
 ## Knowledgebase  
 
 - [Integration Guides](git-integration-for-jira-cloud/integration-guide-gij-cloud) - All about setting up and using Git Integration for Jira with your preffered git provider.
-- [Features](git-integration-for-jira-self-managed/features-gij-cloud) - Learn more about all of the offered features.
-- [Frequently Asked Questions](/git-integration-for-jira-self-managed/frequently-asked-questions-gij-cloud) - Find answers to frequently asked questions.
-- [How-to Articles](/git-integration-for-jira-self-managed/how-to-articles-gij-cloud) - Learn how to do common setups and workflows.
-- [Troubleshooting](/git-integration-for-jira-self-managed/troubleshooting-articles-gij-cloud) - In-depth articles to help you diagnose and solve problems. 
-- [Known Issues](/git-integration-for-jira-self-managed/known-issues-gij-cloud) - problems that occur with some configurations their accompanying workarounds.
-- [Hooks and Webhooks](git-integration-for-jira-self-managed/hooks-and-webhooks-gij-cloud) - all about hooks!
+- [Features](git-integration-for-jira-cloud/features-gij-cloud) - Learn more about all of the offered features.
+- [Frequently Asked Questions](/git-integration-for-jira-cloud/frequently-asked-questions-gij-cloud) - Find answers to frequently asked questions.
+- [How-to Articles](/git-integration-for-jira-cloud/how-to-articles-gij-cloud) - Learn how to do common setups and workflows.
+- [Troubleshooting](/git-integration-for-jira-cloud/troubleshooting-articles-gij-cloud) - In-depth articles to help you diagnose and solve problems. 
+- [Known Issues](/git-integration-for-jira-cloud/known-issues-gij-cloud) - problems that occur with some configurations their accompanying workarounds.
+- [Hooks and Webhooks](git-integration-for-jira-cloud/hooks-and-webhooks-gij-cloud) - all about hooks!
+- [Product Documentation](/git-integration-for-jira-cloud/documentation-gij-cloud) - Learn more about Git Integration for Jira Cloud app and how to easily install it.
 
 ***
 
