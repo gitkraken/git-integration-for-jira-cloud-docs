@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- GENERAL SETTING -->
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
