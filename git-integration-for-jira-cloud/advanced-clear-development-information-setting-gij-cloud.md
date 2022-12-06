@@ -17,11 +17,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-<img src='/wp-content/uploads/gij-gitcloud-gencfg-advanced-clear-dev-info.png' width=548 height=292 style='margin:25px auto;' />
+&nbsp;
 
-<br>
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-advanced-clear-dev-info.png' tyle='display:block;margin:25px auto;max-width:100%' />
 
 Behind the **Advanced** twisty is a button that gives Jira administrators the ability to clear out all Development Information associated with the Git Integration for Jira app.
 
@@ -41,11 +40,11 @@ After all the settings have been configured according to your requirements, clic
 
 ### More Jira Development Information settings
 
-*   [Send development information to Jira Cloud setting](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting-gij-cloud)
+[Send development information to Jira Cloud setting](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting-gij-cloud)
 
-*   [Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers setting](/git-integration-for-jira-cloud/enable-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers-setting-gij-cloud)
+[Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers setting](/git-integration-for-jira-cloud/enable-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers-setting-gij-cloud)
 
-*   [Enable Git Integration app smart commits setting](/git-integration-for-jira-cloud/enable-git-integration-app-smart-commits-setting-gij-cloud)
+[Enable Git Integration app smart commits setting](/git-integration-for-jira-cloud/enable-git-integration-app-smart-commits-setting-gij-cloud)
 
-*   Advanced: Clear Development Information setting (this page)
+**Advanced: Clear Development Information setting** (this page)
 

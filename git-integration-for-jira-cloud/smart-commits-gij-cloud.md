@@ -6,19 +6,20 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 Smart commits allows your team to perform actions on Jira issues from a single commit. Users can enter the issue key and the desired action such as time tracking or closing an issue.
 
 ## Getting started
 
-The smart commit processing is **active by default** and can be enabled/disabled via the repository settings:
+The smart commit processing is **active by default** and can be enabled/disabled one of the following access locations:
 
-*   Manage integrations page **➜** _Git repo type_ **➜**Actions **➜** Edit integration **➜** **Feature settings**.
+*   Manage repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ Edit repository ➜ **Feature settings**.
 
-*   Manage repositories page **➜**Actions **➜** Edit repository **➜** **Feature settings**.
+*   Manage repositories page ➜ click a repository -- to open its **Feature Settings** page.
 
-<br>
+&nbsp;
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025332/gitcloud-repo-cfg-smart-commits.png' width=312 height=108 style='margin:5px auto;max-width:100%;border:1px solid #ccc' />
+<img src='/wp-content/uploads/gij-gitcloud-repo-cfg-smart-commits.png' style='margin:5px auto 10px auto;max-width:100%;display:block' />
 
 <div align=center>In Jira Cloud, Smart Commits is a toggle setting
 in the repository settings.</div>
@@ -58,16 +59,16 @@ The Git Integration app supports smart commit by adding a simple syntax to a com
 
 The basic syntax for a Smart commit message is:
 
-```powershell
-<ISSUE_KEY> <ignored text> #<command> <optional command_params>
-```
+![](/wp-content/uploads/gij-smart-commit-message-basic-syntax.png)
 
 
 To know more about syntax, commands and examples on Smart Commits, see [**Processing Jira Software Issues with Smart Commit Messages**](https://support.atlassian.com/bitbucket-cloud/docs/use-smart-commits/) at the Atlassian website or proceed to the next page.
 
+&nbsp;
+
 ## See next topics below
 
-[Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud)
+[**Prev:** Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud)
 
-[Smart commit: Basic commands](/git-integration-for-jira-cloud/basic-commands-gij-cloud)
+[**Next:** Smart commit - Basic commands](/git-integration-for-jira-cloud/basic-commands-gij-cloud)
 

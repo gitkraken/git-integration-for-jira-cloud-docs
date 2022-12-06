@@ -17,9 +17,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829176/gitcloud-gencfg-jira-dev-info-send-to-cloud.png?version=1&modificationDate=1645097991562&cacheVersion=1&api=v2&width=548&height=253)
+&nbsp;
+
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-jira-dev-info-send-to-cloud.png' style='display:block;margin:25px auto;max-width:100%' />
 
 Enable/disable this setting to send new commit/branch/pull request data to Jira Cloud where it is processed and made available in a variety of views and features.
 
@@ -70,11 +71,11 @@ After all the settings have been configured according to your requirements, clic
 
 ## More Jira development information settings
 
-*   [Send development information to Jira Cloud setting](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting-gij-cloud)
+**Send development information to Jira Cloud setting** (this page)
 
-*   [Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers setting](/git-integration-for-jira-cloud/enable-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers-setting-gij-cloud)
+[Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers setting](/git-integration-for-jira-cloud/enable-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers-setting-gij-cloud)
 
-*   [Enable Git Integration app smart commits setting](/git-integration-for-jira-cloud/enable-git-integration-app-smart-commits-setting-gij-cloud)
+[Enable Git Integration app smart commits setting](/git-integration-for-jira-cloud/enable-git-integration-app-smart-commits-setting-gij-cloud)
 
-*   [Advanced: Clear Development Information setting](/git-integration-for-jira-cloud/advanced-clear-development-information-setting-gij-cloud)
+[Advanced: Clear Development Information setting](/git-integration-for-jira-cloud/advanced-clear-development-information-setting-gij-cloud)
 

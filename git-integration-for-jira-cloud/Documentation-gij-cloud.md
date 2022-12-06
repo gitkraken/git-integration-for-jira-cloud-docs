@@ -22,17 +22,6 @@ taxonomy:
     </div>
 </div>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Starting Git Integration for Jira <b>v4.0</b>, support for Jira 7.x.x is dropped.
-    </div>
-    </div>
-</div>
-
 &nbsp;
 
 * * *
