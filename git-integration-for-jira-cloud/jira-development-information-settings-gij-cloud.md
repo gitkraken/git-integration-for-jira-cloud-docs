@@ -36,6 +36,20 @@ After all the settings have been configured according to your requirements, clic
 
 &nbsp;
 
+## General settings effect on Smart Commits commands
+
+Please take note that the following settings will affect availability of specific smart commit commands as outlined below:
+
+<img src='/wp-content/uploads/gij-gitcloud-jira-dev-info-smart-commits-req-sel.png' style='display:block;margin:25px auto;max-width:100%' />
+
+| When this General setting is enabled | \#time | \#label |
+|:---|:---|:---|
+| Jira Cloud Smart Commits | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-not-red.png) |
+| Git Integration app Smart Commits | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
+|Both Jira Cloud Smart and GIJ app Smart commits | ![](/wp-content/uploads/gij-matrix-open-check-green.png)<br>(doubled time and comments) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
+
+&nbsp;
+
 ## More Jira development information settings
 
 [Send development information to Jira Cloud setting](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting-gij-cloud)
