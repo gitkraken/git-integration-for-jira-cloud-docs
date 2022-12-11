@@ -17,6 +17,20 @@ For detailed information on this setting, see [General settings: Enable Jira Clo
 
 &nbsp;
 
+## More related topics about Jira Cloud smart commits and workflow triggers
+
+**Enable Jira Cloud Smart Commits, Automation for Jira and workflow triggers** (this page)
+
+[How can a Jira administrator enable or disable the Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers?](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/#how-can-a-jira-administrator-enable-or-disable-the-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers)
+
+[Automatic workflow triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud/)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
 ## More related topics on Jira Development Information
 
 [Development Information Views](/git-integration-for-jira-cloud/development-information-views-gij-cloud)
