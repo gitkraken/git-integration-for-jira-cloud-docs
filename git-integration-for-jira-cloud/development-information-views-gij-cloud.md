@@ -60,15 +60,19 @@ Atlassian Jira Cloud currently displays Jira Development Information in the Deve
 
 [Next-gen projects only: View commits, branches, and pull requests in Jira Boards](/git-integration-for-jira-cloud/next-gen-projects-only-view-commits-branches-and-pull-requests-in-jira-boards-gij-cloud)
 
+<br>
+<br>
+<hr>
+<br>
+<br>
+
 ## More related topics about Jira development information
 
-[How can a Jira administrator enable or disable Jira Development Information?](/git-integration-for-jira-cloud/how-can-a-jira-administrator-enable-or-disable-jira-development-information-gij-cloud)
-
-[Jira Development Information settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
-
-[Development Information Views](/git-integration-for-jira-cloud/development-information-views-gij-cloud)
+**Development Information Views** (this page)
 
 [JQL Searching for Commits and Pull Requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud)
 
 [Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers)
+
+[Jira Development Information settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
 

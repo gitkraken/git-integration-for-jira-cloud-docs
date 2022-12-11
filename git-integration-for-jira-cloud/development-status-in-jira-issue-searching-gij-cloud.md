@@ -6,6 +6,9 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
+<!-- FEATURES -->
+
 In the Jira search interface you will have a new column to add: **Development**.
 
 This column is displayed in the following order of precedence:
@@ -19,4 +22,17 @@ This column is displayed in the following order of precedence:
 4.  **Under Review** (at least one associated pull request is open)
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1940914287/image-20200724-103833.png?version=1&modificationDate=1631349148620&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-dev-info-dev-status-in-jira-issue-search.png)
+
+&nbsp;
+
+## More on Jira Development Information Views
+
+*   [Development Information Views](/git-integration-for-jira-cloud/development-information-views-gij-cloud)
+
+    *   **Development status in Jira Issue Searching** (this page)
+
+    *   [Release Hub](/git-integration-for-jira-cloud/release-hub-warnings-gij-cloud)
+
+    *   [NextGen projects only: View commits, branches, and pull requests in Jira Boards](/git-integration-for-jira-cloud/next-gen-projects-only-view-commits-branches-and-pull-requests-in-jira-boards-gij-cloud)
+

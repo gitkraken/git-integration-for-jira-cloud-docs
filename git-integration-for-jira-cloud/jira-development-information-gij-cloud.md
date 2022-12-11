@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- FEATURES -->
+
 <div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
@@ -35,6 +37,7 @@ taxonomy:
 - [What is Jira Development Information?](#what-is-jira-development-information)
 - [How does Jira Development Information work?](#how-does-jira-development-information-work)
 - [Who can see Jira Development Information?](#who-can-see-jira-development-information)
+- [How can a Jira administrator enable or disable Jira Development Information?](#how-can-a-jira-administrator-enable-or-disable-jira-development-information)
 - [What other features are enabled by Jira Development Information?](#what-other-features-are-enabled-by-jira-development-information)
 
 <br>
@@ -91,20 +94,60 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) and
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'><b>Support Desk</b></a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'><b>Support Desk</b></a> or email us at <a href='mailto:gijsupport@bigbrassband.com'>gijsupport@bigbrassband.com</a>.
     </div>
     </div>
 </div>
 
+&nbsp;
+
+## How can a Jira administrator enable or disable Jira Development Information?
+
+Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) or the [Dev Info for Jira](https://marketplace.atlassian.com/1219270) app.
+
+1.  Navigate to the General settings page of the application (Jira Settings ➜ Apps ➜ (sidebar) **General settings**).
+
+2.  Enable or disable the setting: `Send Development Information to Jira Cloud`.
+
+3.  Click **Update** button.
+
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-send-devinfo-to-jira-cloud.png' style='display:block;margin:25px auto 35px auto;max-width:100%' />
+
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        See <a href='/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud'>Jira Development Information general settings</a> to learn more about smart commits and other settings.
+    </div>
+    </div>
+</div>
+<br>
+<br>
+
 ## What other features are enabled by Jira Development Information?
+
+Follow the links below to learn related topics about Jira Development Information
+
+*   [Development Information Views](/git-integration-for-jira-cloud/development-information-views-gij-cloud)
+
+    *   [Development status in Jira Issue Searching](/git-integration-for-jira-cloud/development-status-in-jira-issue-searching-gij-cloud)
+
+    *   [Release Hub](/git-integration-for-jira-cloud/release-hub-warnings-gij-cloud)
+
+    *   [NextGen projects only: View commits, branches, and pull requests in Jira Boards](/git-integration-for-jira-cloud/next-gen-projects-only-view-commits-branches-and-pull-requests-in-jira-boards-gij-cloud)
 
 *   [JQL searching for commits and pull requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud)
 
-*   [Development status in Jira Issue Searching](/git-integration-for-jira-cloud/development-status-in-jira-issue-searching-gij-cloud)
+*   [Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/)
 
-*   [Release Hub](/git-integration-for-jira-cloud/release-hub-warnings-gij-cloud)
+    *   [How can a Jira administrator enable or disable the Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers?](/git-integration-for-jira-cloud/how-can-a-jira-administrator-enable-or-disable-the-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers-gij-cloud/)
 
-*   [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud)
+    *   [Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers](/git-integration-for-jira-cloud/enable-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers-gij-cloud/)
 
-*   [NextGen projects only: View commits, branches, and pull requests in Jira Boards](/git-integration-for-jira-cloud/next-gen-projects-only-view-commits-branches-and-pull-requests-in-jira-boards-gij-cloud)
+    *   [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud)
+
+*   [Jira Development Information general settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
+
 

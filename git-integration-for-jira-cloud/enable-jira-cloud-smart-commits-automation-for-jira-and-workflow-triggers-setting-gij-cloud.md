@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- SETTINGS -->
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -41,4 +43,21 @@ After all the settings have been configured according to your requirements, clic
 [Enable Git Integration app smart commits setting](/git-integration-for-jira-cloud/enable-git-integration-app-smart-commits-setting-gij-cloud)
 
 [Advanced: Clear Development Information setting](/git-integration-for-jira-cloud/advanced-clear-development-information-setting-gij-cloud)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+## More related topics on Jira Development Information
+
+[Development Information Views](/git-integration-for-jira-cloud/development-information-views-gij-cloud)
+
+[JQL searching for commits and pull requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud)
+
+[Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/)
+
+[Jira Development Information general settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
+
 
