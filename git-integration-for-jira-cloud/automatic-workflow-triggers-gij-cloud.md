@@ -87,7 +87,7 @@ The automatic workflow trigger is now configured. You can also view this entire 
 
 [Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers](/git-integration-for-jira-cloud/enable-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers-gij-cloud)
 
-[How can a Jira administrator enable or disable the Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers?](/git-integration-for-jira-cloud/how-can-a-jira-administrator-enable-or-disable-the-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers-gij-cloud)
+[How can a Jira administrator enable or disable the Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers?](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/#how-can-a-jira-administrator-enable-or-disable-the-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers)
 
 **Automatic Workflow Triggers** (this page)
 
@@ -100,6 +100,7 @@ The automatic workflow trigger is now configured. You can also view this entire 
 ## More related topics on Jira Development Information
 
 [Development Information Views](/git-integration-for-jira-cloud/development-information-views-gij-cloud)
+
 [JQL searching for commits and pull requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud)
 
 [Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/)
