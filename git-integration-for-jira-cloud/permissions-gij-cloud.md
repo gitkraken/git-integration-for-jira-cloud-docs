@@ -11,10 +11,12 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/21vd3arsj6?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:15px;'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/21vd3arsj6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
+
+&nbsp;
 
 ## Permissions requirement to display commit information
 
@@ -24,7 +26,8 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Users must have '<b><i>View Development Tools</i></b>' permission in order to view commit information on the issue page.<p style='margin-bottom: 0px'>Administrators must grant themselves the '<b><i>View Development Tools</i></b>' permission in order to view commit information on the issue pages.</p>
+        Users must have '<b><i>View Development Tools</i></b>' permission in order to view commit information on the issue page.
+        <p style='margin-bottom: 0px !important'>Administrators must grant themselves the '<b><i>View Development Tools</i></b>' permission in order to view commit information on the issue pages.</p>
     </div>
     </div>
 </div>
@@ -32,7 +35,7 @@ taxonomy:
 
 The user needs to be in the developers group to view code diffs when default permission scheme is used.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/405962836/view-dev-tools-project-acl(c).png?version=1&modificationDate=1585811271845&cacheVersion=1&api=v2&width=680&height=361)
+![](/wp-content/uploads/gij-gitcloud-jira-view-dev-tools-project-acl.png)
 
 
 Consider the following criteria when setting permissions:
