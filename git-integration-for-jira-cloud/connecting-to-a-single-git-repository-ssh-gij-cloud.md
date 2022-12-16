@@ -9,32 +9,48 @@ taxonomy:
 
 This process requires an existing git host repository. Obtain the **SSH** git clone URL from the repository home of your git host service. The figure below is an example from GitHub:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/923238489/gitcloud-github-clone-repo-url-ssh.png?version=1&modificationDate=1648633431257&cacheVersion=1&api=v2&width=680&height=382)
+![](/wp-content/uploads/gij-gitcloud-github-clone-repo-url-ssh.png)
 
 
 To connect a git repository to Jira via the Git Integration for Jira app:
 
 1.  On your Jira dashboard menu, go to **Apps** ➜ **Git Integration: Manage integrations.**
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/923238489/gitcloud-jira-apps-manage-integrations-sel(c).png?version=1&modificationDate=1648633621940&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel.png)
 
 2.  On the Manage integrations page, click **Add integration.**
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/923238489/gitcloud-managed-ui-webhook-idx-setup(c).png?version=2&modificationDate=1648634005172&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup.png)
 
-3.  On the following screen, click on the **Single git repository integration** panel for your integration type.
+3.  On the following screen, at the Quick start integration section of the page:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/923238489/gitcloud-managed-ui-single-repo-sel(c).png?version=1&modificationDate=1648634134113&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-sel-ssh.png)
 
-4.  The following screen is displayed.
+    *   Click on the **SSH** tab.
+    *   Enter the git clone URL on the provided box.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/923238489/gitcloud-managed-ui-single-repo-add-new-ssh-2(c).png?version=1&modificationDate=1648634474929&cacheVersion=1&api=v2)
-    *   For the **Host URL**, enter the SSH repository git clone URL. Initially, this URL can be obtained from the repository's project page. Configuration options for SSH settings are displayed.
+4.  Click **Connect** to complete this process.
 
-    *   For SSH credentials, upload or paste the private SSH key in the respective box. _If your SSH key has a passphrase, enter it on the provided box._
+    *   If prompted, enter login credentials for this repository integration. If 2FA is enabled for this account, enter the personal access token (PAT) for the password instead.
 
-5.  Click **Add integration** to complete this setup.
-
+    *   Enable/disable [SSL Verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud-gij-cloud) for this repository integration.
 
 The repository is now connected for use with Jira.
+
+You may also configure repository settings for this integration via:
+
+*   Manage integration page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ Edit integration ➜ Feature settings.
+
+*   Manage repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ Edit repository ➜ Feature settings.
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+[**« Prev:** Connecting to a Single Git Repository (HTTP/HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
+
+[**» Next:** Setting up weblinks](/git-integration-for-jira-cloud/setting-up-weblinks-gij-cloud)
+
 

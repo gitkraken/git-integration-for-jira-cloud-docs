@@ -28,7 +28,7 @@ taxonomy:
 
 &nbsp;
 
-The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=datacenter&tab=overview) app is intended for displaying list of commits linked with a particular Jira issue. It is often useful to figure out real issue progress as well as contributors involved in the real work of an issue.
+The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app is intended for displaying list of commits linked with a particular Jira issue. It is often useful to figure out real issue progress as well as contributors involved in the real work of an issue.
 
 The Git Integration app pulls data from a Git source code control repository. Your Jira users will be able to see code in Git in context with Jira projects and issues. Even non-technical users without Git access will be able to work with Git in the familiar Jira interface.
 
@@ -46,13 +46,14 @@ For permissions requirement, see [App platform and system permissions requiremen
 
 <br>
 
-| Get new product notifications and feature updates from BigBrassBand LLC. |
+| Get new product notifications and feature updates for Git Integration for Jira app |
 |:---:|
 | [Click here to subscribe to our mailing list](http://eepurl.com/hhfbwz) |
 
 <br>
+<br>
 
-Click the link below to proceed to installation:
+Follow the link below for the quick installation guide:
 
 [**Next:** Installation via Atlassian Marketplace](/git-integration-for-jira-cloud/installation-via-atlassian-marketplace-gij-cloud)
 
@@ -64,7 +65,7 @@ Click the link below to proceed to installation:
 
 ## Welcome to the Git Integration for Jira app documentation.
 
-Jump to the topic you are interested in by clicking on the links below. Learn more about the Git Integration for Jira app's administrative requirements, installation and integration setup or you can search for a topic that you wish to view.
+Jump to the topic you are interested in by clicking on the links below. Learn more about the Git Integration for Jira app's administrative requirements, installation and integration setup or you can scroll to a topic that you wish to view.
 
 ### [Permissions](/git-integration-for-jira-cloud/permissions-gij-cloud)
 
@@ -72,7 +73,7 @@ Learn the necessary requirements to install the app.
 
 ### [Installation](/git-integration-for-jira-cloud/installation-via-atlassian-marketplace-gij-cloud)
 
-Learn how to install the Git Integration for Jira app. The app supports UPM for automatic installation, manual installation or install via upload.
+Learn how to install the Git Integration for Jira app. The app supports UPM for automatic installation.
 
 ### [Working with SSH keys](/git-integration-for-jira-cloud/working-with-ssh-keys-gij-cloud)
 
@@ -84,15 +85,15 @@ Learn how to configure the firewall to allow access using the URL schemes for gi
 
 ### [Setting up integrations](/git-integration-for-jira-cloud/setting-up-integrations-gij-cloud)
 
-Connect and integrate git hosts automatically or create custom connections using Advanced setup via the Connect Wizard.
+Connect and integrate git hosts automatically, webhook indexing integration or connect single repositories (manual).
 
 ### [General settings for administrators](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud)
 
-The General Settings page contains configuration options such as tweaking performance, toggle view options, and etc.
+The General Settings page contains configuration options such as tweaking performance, toggle view options, or enabling/disabling features.
 
 ### [Web linking](/git-integration-for-jira-cloud/web-linking-gij-cloud)
 
-Configuring this feature is optional. However, setting up web linking will give the commits added links to your git host pages in the Issue ➜ Git Commits tab.
+Configuring this feature is optional. However, setting up web linking will give the commits added links to your git host pages in the Jira Issue ➜ Git Commits tab.
 
 ### [Linking Git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud)
 
