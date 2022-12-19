@@ -25,7 +25,7 @@ taxonomy:
 
 GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories.  Service users are strongly advised to switch from using username/password to using Personal Access Tokens (PAT) for GitLab.com.
 
-<div class="bbb-callout bbb--info">
+<div class="bbb-callout bbb--error">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
@@ -61,9 +61,8 @@ Quickly learn how to connect GitLab.com git repositories via Git Integration for
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/hi45vum4yp?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/hi45vum4yp'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
-    <i>(Updated video coming soon)</i>
+<div align='center' style='margin-top:15px;margin-bottom:40px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/hi45vum4yp'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br> <i>(Updated video coming soon)</i>
 </div>
 <br>
 
@@ -138,17 +137,23 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
 
     ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
-3.  On the following screen, click on the **Git service integration** panel for your integration type.
+3.  For the following screen, click **GitLab.com** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-gitlab-com.png)
 
-4.  The following screen is displayed.
+4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-integration-gitlab-service-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-gitlab-integration-oauth-01.png)
+
+5.  For this guide, click on the GitLab **Personal Access Token** to select it.
 
     *   Select **GitLab.com** from the Git hosting service dropdown list.
 
-    *   Enter the PAT on the provided field.
+    *   We recommend the PAT integration for this git service. This uses personal access tokens to setup GitLab.com integrations. Users will have to configure their own PAT from GitLab.com to use for this setup.
+
+    *   For admins/owners, repository managers, collaborators or users that have enabled 2FA, enter the PAT on the **Personal Access Token** field.
+
+    *   For GitLab webhook indexing integration, see [this article](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud) instead.
 
     *   Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed. These settings are used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page.
 
@@ -163,11 +168,10 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
             ```java
             GitLab version API support:
             -------------------------------------------
-            Gitlab v9.5 and above -- only API v4.
-            Gitlab v9.0 to v9.4.x -- API v3 and API v4.            
+            Gitlab v9.5 and above -- only API v4.            
             ```
 
-            *   ![(blue star)](/wp-content/uploads/bbb-note-20.png)&nbsp; **Remember:**<br>
+            *   ![](/wp-content/uploads/bbb-note-20.png)&nbsp; **Remember:**<br>
                 The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
 
         *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
@@ -176,11 +180,11 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
 
             To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
-    4.  While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
+    *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
-5.  Click **Connect and select repositories** to proceed.
+6.  Click **Connect and select repositories** to proceed to the next step.
 
-6.  On the following screen, the Git Integration for Jira app will read all available repositories from your GitLab account.
+7.  On the following screen, the Git Integration for Jira app will read all available repositories from your GitLab account.
 
     ![](/wp-content/uploads/gij-gitcloud-integration-gitlab-repo-sel-c.png)
 
@@ -409,10 +413,12 @@ GitLab.com (this page)
 
 [Introduction to Git integration (Git Integration for Jira Cloud)](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
 
-<br>
+&nbsp;
 
 <br>
-<br>
+
+&nbsp;
+
 <div style='border-top: 1px solid #456; width: 40%; padding-bottom: 12px'></div>
 <div style='font-size: 12px;'>
     <sup>1</sup> <i>Logo owned by <a href='https://gitlab.com/'>GitLab Inc</a> used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>license</a>.
