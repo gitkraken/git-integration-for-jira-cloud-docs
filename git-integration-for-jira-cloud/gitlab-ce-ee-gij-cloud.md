@@ -162,15 +162,19 @@ We recommend using the Full feature integrations panel to connect multiple repos
 
     ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
-3.  On the following screen, click on the **Git service integration** panel for your integration type.
+3.  For the following screen, click **GitLab Server** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-gitlab-server.png)
 
-4.  The following screen is displayed.
+4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-gitlab-ceee-git-service-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-add-integration-type-gitlab-server-sel.png)
 
-    *   Choose <b>GitLab</b><a href='#gitlab-logo-license'><sup>1</sup></a> **Server CE/EE (APIv4)** from the Git hosting service list.
+5.  For this guide, click on the **PAT GitHub Server (CE/EE) APIv4** panel to select it.
+
+    *   While Git Integration for Jira Cloud app supports legacy APIv3 and APIv4, we recommend the **PAT APIv4** integration type for this git service connection. The PAT integration type uses personal access tokens to setup GitLab CE/EE integrations. Users will have to configure their own PAT from GitLab CE/EE to use for this setup.
+
+    *   For the **Host URL**, enter the address of the GitLab Server.
 
     *   Enter the **Host URL** of the GitLab Server
 
@@ -197,15 +201,15 @@ We recommend using the Full feature integrations panel to connect multiple repos
 
     *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
-5.  Click **Connect and select repositories**. The Git Integration for Jira app will import detected GitLab CE/EE repositories.
+6.  Click **Connect and select repositories**. The Git Integration for Jira app will import detected GitLab CE/EE repositories.
 
     *   Currently, the Git Integration for Jira app scans only the repositories visible to the user which is used for scanning. The repositories which are publicly visible _(shared for all members or visible to the member with the admin rights)_ will not be scanned. This will be supported in a future release.
 
-6.  On the following screen, the Git Integration for Jira app will read all available repositories from your GitLab account.
+7.  On the following screen, the Git Integration for Jira app will read all available repositories from your GitLab account.
 
     ![](/wp-content/uploads/gij-gitcloud-gitlab-ceee-repo-sel-c.png)
 
-7.  Click **Connect** **repositories** to complete this setup.
+8.  Click **Connect** **repositories** to complete this setup.
 
 
 GitLab CE/EE repositories are now connected to Jira Cloud. The GitLab server is added to the repositories list as a connected server and is automatically reindexed.
