@@ -47,13 +47,17 @@ The Git Integration for Jira app supports Azure Repos.
     - [Creating pull requests](#creating-pull-requests)
     - [Merging _branch_ to _master_](#merging-branch-tomaster)
 
+<br>
+<br>
 <hr>
+<br>
+<br>
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/n840jfrer4?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:15px; margin-bottom:30px;'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/n840jfrer4'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -102,7 +106,18 @@ Connecting Azure DevOps / VSTS accounts with Full feature integration enables us
 
 If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) – use the table of content anchor link to go to the Azure DevOps / VSTS section.
 
-This step is **highly required** for Azure DevOps/ VSTS integrations connected via the Full feature integrations panel.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        
+    </div>
+    </div>
+</div>
+
+This step is <b>highly required</b> for Azure DevOps/ VSTS integrations connected via the Git service integrations panel.
 
 ### Authenticate with OAuth (recommended)
 
@@ -116,19 +131,21 @@ We recommend using the Git service integration panel to connect multiple reposit
 
 2.  On the Manage integrations page, click **Add integration.**
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png version=1&modificationDate=1649811242005&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
-3.  On the following screen, click on the **Git service integration** panel for your integration type.
+3.  For the following screen, click **Visual Studio Team Services (VSTS)** to start integration with this git service. If you're using Azure Repos, choose that instead.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-vsts.png)
 
 4.  The following screen is displayed.
 
-    ![](/wp-content/uploads/gij-gitcloud-integration-azure-vsts-oauth-connect(c).png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-gitlab-integration-oauth-vsts-sel.png)
 
-    *   For Git hosting service, scroll to _Microsoft using OAuth_, select **Visual Studio Team Services (VSTS)**. If you are using **Azure DevOps Repos**, choose that instead.
+    *   We recommend the PAT integration for this git service. This uses personal access tokens to setup Azure/VSTS integrations. Users will have to configure their own PAT from Azure/VSTS to use for this setup.
 
-    *   Configuring the **Advanced** settings is optional. This setting is used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page. However, admins/power users may set how the project listing is displayed on the following:
+    *   For Microsoft webhook indexing integration, see [this article](/git-integration-for-jira-cloud/microsoft-webhook-indexing-integration-gij-cloud) instead.
+
+    *   Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed. These settings are used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page.
 
         <img src='/wp-content/uploads/gij-gitcloud-integration-advanced-vsts-azure-options-c.png' width=510 height=163 style='margin:25px 0;max-width:100%' />
 
@@ -144,7 +161,7 @@ We recommend using the Git service integration panel to connect multiple reposit
 
         *   To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
-5.  Click **Connect Azure Repos/VSTS** to continue.
+5.  Click **Connect VSTS** to continue. (For Azure Repos integration, click **Connect Azure Repos**.)
 
 6.  Login to your Microsoft account, if prompted. We recommend creating a new Microsoft user and setting specific permissions for use with Jira Cloud. The following authentication screen is displayed.
 
@@ -171,7 +188,7 @@ This process requires an existing Microsoft account with Azure DevOps/VSTS **gi
 
 We recommend using the Full feature integrations panel to connect multiple repositories from your Azure DevOps/VSTS account.
 
-1.  On the Jira Cloud dashboard menu, go to **Apps ➜ Git Integration: Manage integrations**.
+1.  On the Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
 
     ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
@@ -179,15 +196,13 @@ We recommend using the Full feature integrations panel to connect multiple repos
 
     ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
-3.  On the following screen, click on the **Git service integration** panel for your integration type.
+3.  For the following screen, click **Visual Studio Team Services (VSTS)** to start integration with this git service. If you're using Azure Repos, choose that instead.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-vsts.png)
 
-4.  The following screen is displayed.
+4.  For the following screen, click on the **PAT** integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-integration-azure-vsts-pat-connect-sel-c.png)
-
-    *   For Git hosting service, scroll to _Microsoft using PAT_, select **Visual Studio Team Services (VSTS)**. If you are using **Azure DevOps Repos**, choose that instead.
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-gitlab-integration-pat-vsts-sel.png)
 
     *   Enter the personal access token on the provided box.
 
@@ -215,7 +230,7 @@ We recommend using the Full feature integrations panel to connect multiple repos
 
 7.  The Git Integration for Jira Cloud app will read all available repositories from your Azure DevOps/VSTS git service account. The following screen is displayed.
 
-    ![](/wp-content/uploads/gij-gitcloud-integration-azure-vsts-repo-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-integration-azure-vsts-repo-pat-sel.png)
 
     *   Currently, all available accounts are scanned and corresponding URLs are created internally. Repositories of the logged-in Microsoft user can be automatically connected to Jira Cloud. Repositories that are added or removed from Azure DevOps/VSTS will be likewise connected or disconnected from Jira Cloud.
 
