@@ -147,8 +147,6 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
 
 5.  For this guide, click on the GitLab **Personal Access Token** to select it.
 
-    *   Select **GitLab.com** from the Git hosting service dropdown list.
-
     *   We recommend the PAT integration for this git service. This uses personal access tokens to setup GitLab.com integrations. Users will have to configure their own PAT from GitLab.com to use for this setup.
 
     *   For admins/owners, repository managers, collaborators or users that have enabled 2FA, enter the PAT on the **Personal Access Token** field.
