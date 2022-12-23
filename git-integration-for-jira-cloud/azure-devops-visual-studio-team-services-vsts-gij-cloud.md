@@ -72,7 +72,7 @@ If you have not yet generated a personal access token (PAT), you can create one 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This step is <b>highly required</b> for Azure DevOps/ VSTS integrations connected via the Full feature integrations panel.
+        This step is <b>highly required</b> for Azure DevOps/VSTS integrations connected via the Git service integrations setup.
     </div>
     </div>
 </div>
@@ -96,15 +96,11 @@ Git Integration for Jira Cloud requires Git admins to allow the third-party app 
 
 For projects connected with Azure Active Directory, set the conditional access policy validation to OFF:
 
-<img src='/wp-content/uploads/gij-enable-conditional-access-policy-AD.png' width=442 height=126 style='margin:25px auto;display:block;max-width:100%' />
+<img src='/wp-content/uploads/gij-enable-conditional-access-policy-AD.png' width=442 height=126 style='margin:25px auto 35px auto;display:block;max-width:100%' />
 
 ## Using Git service integration
 
-Connecting Azure DevOps / VSTS accounts with Full feature integration enables usability features that are not available in single repository connections.
-
-**Creating personal access token**
-
-If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) – use the table of content anchor link to go to the Azure DevOps / VSTS section.
+Connecting Azure DevOps / VSTS accounts via Git service integration enables usability features that are not available in single repository connections or webhook indexing integrations.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -117,7 +113,7 @@ If you have not yet generated a personal access token (PAT), you can create one 
     </div>
 </div>
 
-This step is <b>highly required</b> for Azure DevOps/ VSTS integrations connected via the Git service integrations panel.
+This step is <b>highly required</b> for Azure DevOps/ VSTS integrations connected via the Git service integrations setup.
 
 ### Authenticate with OAuth (recommended)
 
@@ -143,11 +139,9 @@ We recommend using the Git service integration panel to connect multiple reposit
 
     *   We recommend the PAT integration for this git service. This uses personal access tokens to setup Azure/VSTS integrations. Users will have to configure their own PAT from Azure/VSTS to use for this setup.
 
-    *   For Microsoft webhook indexing integration, see [this article](/git-integration-for-jira-cloud/microsoft-webhook-indexing-integration-gij-cloud) instead.
-
     *   Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed. These settings are used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page.
 
-        <img src='/wp-content/uploads/gij-gitcloud-integration-advanced-vsts-azure-options-c.png' width=510 height=163 style='margin:25px 0;max-width:100%' />
+        <img src='/wp-content/uploads/gij-gitcloud-integration-advanced-vsts-azure-options-c.png' width=510 height=163 style='max-width:100%' />
 
     *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is **2000** characters or less.
 
@@ -169,7 +163,7 @@ We recommend using the Git service integration panel to connect multiple reposit
 
 7.  The Git Integration for Jira Cloud app will read all available repositories from your Azure DevOps/VSTS git service account. The following screen is displayed.
 
-    ![](/wp-content/uploads/gij-gitcloud-integration-azure-vsts-repo-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-integration-repo-sel-vsts.png)
 
     *   Currently, all available accounts are scanned and corresponding URLs are created internally. Repositories of the logged-in Microsoft user can be automatically connected to Jira Cloud. Repositories that are added or removed from Azure DevOps/VSTS will be likewise connected or disconnected from Jira Cloud.
 
