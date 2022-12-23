@@ -46,7 +46,11 @@ The Git Integration for Jira app supports Azure Repos.
     - [Merging _branch_ to _master_](#merging-branch-to-master)
   - [More Integration Guides](#more-integration-guides)
 
+<br>
+<br>
 <hr>
+<br>
+<br>
 
 ## Creating personal access tokens
 
@@ -58,7 +62,7 @@ If you have not yet generated a personal access token (PAT), you can create one 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This step is <b>highly required</b> for Azure DevOps Server/TFS integrations connected via the Full feature integrations panel.
+        This step is <b>highly required</b> for Azure DevOps Server/TFS integrations connected via the Git service integrations setup.
     </div>
     </div>
 </div>
@@ -74,7 +78,7 @@ This process requires an existing Microsoft account with Azure DevOps Server/TFS
 
 We recommend using the Git service integrations panel to connect multiple repositories from your Azure DevOps Server/TFS account.
 
-1.  On the Jira Cloud dashboard menu, go to **Apps ➜ Git Integration: Manage integrations**.
+1.  On the Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
 
     ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
@@ -82,36 +86,19 @@ We recommend using the Git service integrations panel to connect multiple reposi
 
     ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
-3.  On the following screen, click on the **Git service integration** panel for your integration type.
+3.  For the following screen, click **Team Foundation Server (TFS)** to start integration with this git service. If you're using Azure DevOps Server, choose that instead.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-service-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-server-tfs.png)
 
 4.  The following screen is displayed.
 
-    ![](/wp-content/uploads/gij-gitcloud-integration-azure-server-2019-connect-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-tfs-setup.png)
 
-    *   For Git hosting service, choose **Azure DevOps Server**. If you are using **Team Foundation Server (TFS)**, choose that instead.
+    a.  Choose **Team Foundation Server** for the integration type (recommended). If you are using **Azure DevOps Server**, choose that instead.
 
-    *   Enter the **Host URL** for your Azure/TFS git server.
+    b.   Enter the **Host URL** for your Azure DevOps/TFS git server.
 
-    *   <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> For TFS 2017 and newer, use **PAT** for authentication. Otherwise, use **Username/Password** for authentication (for example: TFS 2013/2015). PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs.
-
-        ```java
-        IMPORTANT!
-        ==========
-        Do NOT include the <DOMAIN> in the Username field when Azure DevOps
-        Server/TFS is connected to Active Directory.
-
-        Example: "BigBrassBand\johnsmith" ==> "johnsmith"
-        ```
-
-5.  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed by configuring the following options:
-
-    <img src='/wp-content/uploads/gij-gitcloud-integration-azure-tfs-advanced-c.png' width=530 height=315 style='margin:25px 0;max-width:100%' />
-
-    These settings are used with integration to control which tracked repositories are displayed and listed. Set a filter that will only load some cloned repositories which can be viewed via the **Manage repositories** page.
-
-    *   **Suffix**  –  This is a relative path that defaults to `"/tfs"`.
+    c.   **Suffix**  –  This is a relative path that defaults to `"/tfs"`.
 
         *   For TFS integrations, the suffix will have a **/tfs** as default path. Thus, there is no need to add the `/tfs` to the **Host URL** path. If this field is blank, the Git Integration for Jira app automatically appends the default `"/tfs"` suffix and scans for all the collections inside it.
 
@@ -119,7 +106,28 @@ We recommend using the Git service integrations panel to connect multiple reposi
 
         *   <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>AZURE DEVOPS SERVER</b> For Azure DevOps Server integrations, leave this field empty.
 
-    *   **Collection**  –  Enter a specific collection to use. If you know your specific collection, type it in the provided box. The Git Integration app defaults to read and import all collection in the connected Azure DevOps Server/TFS server.
+    d.  **Collection**  –  Enter a specific collection to use. If you know your specific collection, type its name in the provided box. The Git Integration app defaults to read and import all collection from the connected Azure DevOps Server/TFS server.
+
+    e.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> For TFS 2017 and newer, use <b>PAT</b> for authentication. Otherwise, use <b>Username/Password</b> for authentication (for example: TFS 2013/2015). PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs.
+
+        ```java
+        IMPORTANT!
+        ==========
+        Do NOT include the <DOMAIN> in the Username field when Azure DevOps
+        Server/TFS is connected to Active Directory.
+
+        Example: "BigBrassBand\\johnsmith" ==> "johnsmith"
+        ```
+
+    *   Make sure to configure your PAT according to these articles: [Team Foundation Server](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud#team-foundation-server-tfs-2017--tfs-2018) or [Azure DevOps Server](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud#azure-devops-server) -- especially the setting for **Organization** which must be set to **All accessible organizations**.
+
+    ![](/wp-content/uploads/git-gitcloud-tfs-azure-server-pat-org-setting-sel.png)
+
+5.  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed by configuring the following options:
+
+    <img src='/wp-content/uploads/gij-gitcloud-integration-advanced-vsts-azure-options-c.png' width=510 height=163 style='max-width:100%' />
+
+    These settings are used with integration to control which tracked repositories are displayed and listed. Set a filter that will only load some cloned repositories which can be viewed via the **Manage repositories** page.
 
     *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
@@ -132,7 +140,7 @@ We recommend using the Git service integrations panel to connect multiple reposi
 
 6.  After filling up required fields, click **Connect and select repositories** to continue. The Git Integration for Jira app will read all available repositories from Azure DevOps Server/TFS.
 
-    ![](/wp-content/uploads/gij-gitcloud-integration-azure-server-repo-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-integration-repo-sel-tfs.png)
 
     *   Currently, all available accounts are scanned and corresponding URLs are created internally. Repositories of the logged-in Microsoft user can be automatically connected to Jira Cloud. Repositories that are added or removed from Azure DevOps Server/TFS will be likewise connected or disconnected from Jira Cloud.
 
