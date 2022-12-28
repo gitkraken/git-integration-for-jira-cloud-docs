@@ -6,71 +6,134 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/gerrit-gij-self-managed).
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86474926/gerrit-banner-logo.png?version=1&modificationDate=1590827774620&cacheVersion=1&api=v2&width=272&height=112)
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Using <b>Jira Server</b> or <b>Data Center</b>? <a href='/git-integration-for-jira-self-managed/gerrit-gij-self-managed'>See the corresponding article</a>.
+    </div>
+    </div>
+</div>
+
+&nbsp;
+
+![](/wp-content/uploads/gerrit-banner-logo.png)
+
+&nbsp;
 
 # Integrate Gerrit with Jira Cloud
 
 Quickly learn how to connect Gerrit git repositories via Git Integration for Jira Cloud.
 
 **What's on this page:**
+- [Integrate Gerrit with Jira Cloud](#integrate-gerrit-with-jira-cloud)
+  - [Git service integration](#git-service-integration)
+  - [Single repository (Manually connect via SSH/HTTP/HTTPS)](#single-repository-manually-connect-via-sshhttphttps)
+  - [Setting up Gerrit web links](#setting-up-gerrit-web-links)
+  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
+  - [Default branch](#default-branch)
+  - [More Integration Guides](#more-integration-guides)
 
-* * *
+<br>
+<br>
+<hr>
+<br>
+<br>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/eolraizc6s) _to open this video in a new browser tab for more viewing options._
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/eolraizc6s?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-## Full feature integration
+<div align='center' style='margin-top:15px;margin-bottom:40px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/eolraizc6s'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
-1.  On your Jira Cloud dashboard, go to menu **Apps** ➜ **Git Integration: Manage Git repositories**.
+## Git service integration
 
-2.  Click **Gerrit** on the Full feature integrations panel. The Full feature integration wizard appears.
+1.  On your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86474926/gerrit-git-cloud-auto-connect-wiz-01(c).png?version=1&modificationDate=1590827775149&cacheVersion=1&api=v2&width=646&height=437)
-    *   Enter your git server’s **Host URL**.
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
-    *   Enter login credentials for username and password.
+2.  On the Manage integrations page, click **Add integration.**
 
-3.  Click **Next**. The Full feature integration wizard automatically reads git repositories for import into the git configuration.
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
-4.  Click **Next**. The Project permissions screen is displayed.
+3.  For the following screen, click **Gerrit (self-managed)** to start integration with this git service.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86474926/gerrit-git-cloud-auto-connect-wiz-fin(c).png?version=2&modificationDate=1590827776120&cacheVersion=1&api=v2&width=646&height=438)
-    *   Set **Project Permissions** by restricting it to specific projects or leave it as is (_associate with all projects_).
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-gerrit.png.png)
 
-5.  Click **Connect** to complete this setup.
+4.  On the following screen, click on the **Git service integration** panel for your integration type.
+
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-integration-type-gerrit-full-feature.png)
+
+5.  For this guide, continue with the default selected type for Gerrit integration.
+
+    *   We recommend the default full feature integration for this git service.
+
+    *   <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>UNDER CONSTRUCTION</b> For Gerrit webhook indexing integration, see <a href='/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud'>this article</a> instead.
+
+    *   Enter the **Host URL** of your Gerrit server.
+
+    *   Provide the **User name** and **Password/Token** for this Gerrit server.
+
+6.  Click **Connect and select repositories** to proceed to the next step.
+
+7.  On the following screen, the Git Integration for Jira app will read all available repositories from your Gerrit account.
+
+    ![](/wp-content/uploads/gij-gitcloud-integration-gerrit-repo-sel.png)
+
+    *   Repositories of the logged-in Gerrit user can be automatically connected to Jira Cloud. Repositories that are added or removed from GitLab will be likewise connected or disconnected from Jira Cloud. (_Connect all future repositories_)
+
+    *   Use the search options to filter displayed repositories for the current screen.
+
+    *   Connect all repositories and organizations or select specific repositories to connect for this integration.
+
+8.  Click **Connect repositories** to complete this setup.
+
+The Gerrit git repositories are now connected to Jira Cloud.
 
 
 ## Single repository (Manually connect via SSH/HTTP/HTTPS)
 
-BigBrassBand recommends to use the Full feature integration for Gerrit.
+BigBrassBand recommends to use the Git service integration for Gerrit.
 
-Login to your Gerrit account. Obtain the repository URL from the Gerrit repository project page. Use SSH or HTTP/HTTPS.
+Use this section for setting up single repository connections or connecting single repositories via SSH.
 
-1.  On your Jira Cloud dashboard menu, go to **Apps ➜ Git Integration: Manage Git repositories**.
+Login to your Gerrit account. Obtain the repository URL from the Gerrit repository project page. Use either SSH or Anonymous HTTPS.
 
-2.  Click **Connect to Git Repository** to open the Connect Wizard.
+1.  On your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
 
-3.  Paste the URL from Gerrit web portal in the provided box.
+2.  On the following screen, click **Add integration**.
+
+    ![](/wp-content/uploads/gij-gitcloud-single-repo-http-ssh-gerrit-integration.png)
+
+4.  Paste the git clone URL from Gerrit web portal in the provided box.
     (For e_xample:_ `http(s)://<your.org.com>/<repo_name>`)
 
-4.  Click **Next**. The Project permissions page is displayed.
+5.  Click **Connect** to proceed. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/86474926/gerrit-git-cloud-auto-connect-wiz-fin(c).png?version=2&modificationDate=1590827776120&cacheVersion=1&api=v2&width=646&height=438)
-    *   Set **Project Permissions** by restricting it to specific projects or leave it as is (_associate with all projects_).
+    ![](/wp-content/uploads/gij-gitcloud-single-repo-http-ssh-gerrit-configure.png)
 
-5.  Click **Finish** to complete this process. 
+    a.  Enter **Host URL** for this integration.
+
+    b.  Enter **Username** on the provided box.
+
+    c.  Enter **Password/Token** on the provided box.
+
+6.  Click **Add integration** to complete this process.
 
 
 The repository is now connected to Jira Cloud.
 
 ## Setting up Gerrit web links
 
-Web links are automatically configured for Gerrit repositories with Full feature integration.
+Web links are automatically configured for Gerrit repositories connected via Git service integration. We recommend to use the Git service integration for Gerrit account connections. Note that if the repository is part of a Gerrit integration, web linking settings are not available.
 
-For single repository connections, web link setup is optional.
-
-BigBrassBand recommends to use the Full feature integration for Gerrit.
+For single repository connections, the web linking setup is optional (!Actions ➜ Edit integration ➜ **Feature settings**).
 
 ## Viewing git commits in Jira Cloud
 
@@ -91,4 +154,39 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 For the case with Gerrit, the default main branch is always “master”.
 
-Main branch for repositories within an integration can only be changed on the git server.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Main branch for repositories within an integration can only be changed on the git server.
+    </div>
+    </div>
+</div>
+<br>
+
+&nbsp;
+
+## More Integration Guides
+
+[GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud)
+
+[GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud)
+
+[GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud)
+
+[GitLab CE/EE](/git-integration-for-jira-cloud/github-ce-ee-com-gij-cloud)
+
+[Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud)
+
+[Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud)
+
+[AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommmit-gij-cloud)
+
+**Gerrit** (this page)
+
+[Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-gij-cloud)
+
+[Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
+

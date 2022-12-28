@@ -430,7 +430,7 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 [GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud) (Git Integration for Jira Cloud)
 
-[GitHub Enterprise Server (this page)
+**GitHub Enterprise Server** (this page)
 
 [GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud) (Git Integration for Jira Cloud)
 
