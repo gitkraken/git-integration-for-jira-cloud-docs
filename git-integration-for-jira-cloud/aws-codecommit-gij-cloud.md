@@ -298,7 +298,7 @@ Connect a single AWS CodeCommit repository manually to Jira via SSH connection.
 </div>
 <br>
 
-<img src='/wp-content/uploads/gij-gitcloud-integration-aws-repo-sel-c.png' style='margin:25px auto;display:block;' />
+<img src='/wp-content/uploads/gij-aws-cc-repo-home-portal-git-clone-url.png' style='max-width:100%;margin:25px auto;display:block;' />
 
 Use the SSH git clone URL from your AWS CodeCommit repository project page. Click on the SSH (Clone URL column - column 2) and use this for single git repository integrations with Git Integration for Jira cloud app.
 
@@ -416,7 +416,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 On your Jira Cloud, open a Jira issue. On the Jira Git development panel, click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
 
-<img src='/wp-content/uploads/gij-gitcloud-aws-cc-create-branch-dlg.png' style='margin:25px auto;display:block;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitcloud-create-branch-dlg-aws.png' style='margin:25px auto;display:block;max-width:100%' />
 
 **Pointers:**
 
@@ -469,7 +469,7 @@ The pull request feature works the same as merge request.
 
 On your Jira Cloud, open the Jira issue where your previously created a branch. On the developer panel under **Git integration**, click **Create Pull Request**. The following dialog is displayed.
 
-<img src='/wp-content/uploads/gij-gitcloud-aws-cc-create-pullreq-dlg.png' style='max-width:100%;display:block;margin:25px auto;' />
+<img src='/wp-content/uploads/gij-gitcloud-create-pull-req-dlg-aws.png' style='max-width:100%;display:block;margin:25px auto;' />
 
 **Pointers:**
 
@@ -532,23 +532,23 @@ The branch and the pull request status are also displayed on the developer panel
 
 ## More Integration Guides
 
-[GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud)
+[GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud) (Git Integration for Jira Cloud)
 
-[GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud)
+[GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud) (Git Integration for Jira Cloud)
 
-[GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud)
+[GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud) (Git Integration for Jira Cloud)
 
-[GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud)
+[GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud) (Git Integration for Jira Cloud)
 
-[Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud)
+[Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud) (Git Integration for Jira Cloud)
 
-[Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud)
+[Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud) (Git Integration for Jira Cloud)
 
-[AWS CodeCommit](/git-integration-for-jira-cloud)
+[AWS CodeCommit](/git-integration-for-jira-cloud) (Git Integration for Jira Cloud)
 
-[Gerrit](/git-integration-for-jira-cloud/gerrit-gij-cloud)
+[Gerrit](/git-integration-for-jira-cloud/gerrit-gij-cloud) (Git Integration for Jira Cloud)
 
-[Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud)
+[Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud) (Git Integration for Jira Cloud)
 
-[Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
+[Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 

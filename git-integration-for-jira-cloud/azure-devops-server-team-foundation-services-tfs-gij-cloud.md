@@ -441,25 +441,27 @@ Once approved, the team leader or reviewer can then complete the merge. The com
 
 ![Jira Cloud Issue page showing Git Commits tab with merged commit information](/wp-content/uploads/gij-gitcloud-azure-tfs-merge-req-commit-example.png)
 
+&nbsp;
+
 ## More Integration Guides
 
-[GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud)
+[GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud) (Git Integration for Jira Cloud)
 
-[GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud)
+[GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud) (Git Integration for Jira Cloud)
 
-[GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud)
+[GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud) (Git Integration for Jira Cloud)
 
-[GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud)
+[GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud) (Git Integration for Jira Cloud)
 
-[Azure DevOps \| Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud)
+[Azure DevOps \| Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud) (Git Integration for Jira Cloud)
 
-Azure DevOps Server \| Team Foundation Services (this page)
+**Azure DevOps Server \| Team Foundation Services** (this page)
 
-[AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud)
+[AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud) (Git Integration for Jira Cloud)
 
-[Gerrit](/git-integration-for-jira-cloud/gerrit-gij-cloud)
+[Gerrit](/git-integration-for-jira-cloud/gerrit-gij-cloud) (Git Integration for Jira Cloud)
 
-[Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud)
+[Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud) (Git Integration for Jira Cloud)
 
-[Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
+[Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 

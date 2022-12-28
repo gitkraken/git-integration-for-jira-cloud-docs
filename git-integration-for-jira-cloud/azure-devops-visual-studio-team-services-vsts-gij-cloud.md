@@ -46,6 +46,7 @@ The Git Integration for Jira app supports Azure Repos.
     - [Creating branches](#creating-branches)
     - [Creating pull requests](#creating-pull-requests)
     - [Merging _branch_ to _master_](#merging-branch-tomaster)
+  - [More Integration Guides](#more-integration-guides)
 
 <br>
 <br>
@@ -516,4 +517,28 @@ The reviewer's approval is required to completely merge the pull request. This 
 Once approved, the team leader or reviewer can then complete the merge. The commit can be viewed in the associated Jira issue page.
 
 ![](/wp-content/uploads/gij-gitcloud-merge-pull-request-example.png)
+
+&nbsp;
+
+## More Integration Guides
+
+[GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud) (Git Integration for Jira Cloud)
+
+[GitHub Enterprise Server](/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud) (Git Integration for Jira Cloud)
+
+[GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud) (Git Integration for Jira Cloud)
+
+[GitLab CE/EE](/git-integration-for-jira-cloud/github-ce-ee-com-gij-cloud) (Git Integration for Jira Cloud)
+
+**Azure DevOps \| Visual Studio Team Services (VSTS)** (this page)
+
+[Azure DevOps Server \| Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud) (Git Integration for Jira Cloud)
+
+[AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommmit-gij-cloud) (Git Integration for Jira Cloud)
+
+[Gerrit](/git-integration-for-jira-cloud/gerrit-gij-cloud) (Git Integration for Jira Cloud)
+
+[Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-gij-cloud) (Git Integration for Jira Cloud)
+
+[Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 
