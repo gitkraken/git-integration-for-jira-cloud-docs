@@ -15,7 +15,7 @@ taxonomy:
 
 *   GitHub Actions (Cloud or Self Hosted)
 *   GitLab CI/CD (Cloud or Self Hosted)
-*   Azure DevOps Pipelines (Cloud or Self Hosted) <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b>
+*   Azure DevOps Pipelines (Cloud or Self Hosted)
 *   Bitbucket Pipelines (Cloud)
 
 ## Setup
