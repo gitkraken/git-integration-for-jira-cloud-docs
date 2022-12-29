@@ -7,64 +7,114 @@ taxonomy:
 
 ---
 
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Using <b>Jira Server</b> or <b>Data Center</b>? <a href=''>See the corresponding article</a>.
+    </div>
+    </div>
+</div>
 
-![](https://bigbrassband.com/confluence/images/bitbucket-banner-logo.png)
+&nbsp;
 
-**Integrate Bitbucket Cloud with Jira Cloud**
+![](https://bigbrassband.com/confluence/images/bitbucket-mobile2.png)
 
+&nbsp;
 
+# Integrate Bitbucket Cloud with Jira Cloud
 
 Quickly learn how to connect Bitbucket Cloud git repositories via Git Integration for Jira Cloud app.
 
 **What's on this page:**
+- [Integrate Bitbucket Cloud with Jira Cloud](#integratebitbucket-cloud-with-jira-cloud)
+  - [Permissions](#permissions)
+  - [Using Git service integration](#using-git-service-integration)
+  - [Single repository connection](#single-repository-connection)
+  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
+  - [**Creating branches and pull/merge requests**](#creating-branches-and-pullmerge-requests)
+    - [**Default Branch**](#default-branch)
+    - [**Creating branches**](#creating-branches)
+    - [**Creating pull/merge requests**](#creating-pullmerge-requests)
 
+<br>
+<br>
+<hr>
+<br>
+<br>
 
+## Permissions
 
-* * *
+Set Bitbucket Cloud permissions according to your organization's rules. Viewing commits from Jira requires at least **Read** or **View** repository permissions. For branch/merge request creation, set specific service users with **Write** permissions.
 
+## Using Git service integration
 
+We recommend using the Git service integration setup to connect multiple repositories from your Bitbucket Cloud account.
 
+1.  On your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
 
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
+2.  On the Manage integrations page, click **Add integration.**
 
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
-## **Using Full feature integration**
+3.  For the following screen, click **Bitbucket.org** to start integration with this git service.
 
-We recommend using the Full feature integrations panel to connect multiple repositories from your Bitbucket Cloud account.
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-bitbucket.png)
 
-1.  On your Jira dashboard menu, go to **Apps** ➜ **Git Integration: Manage Git repositories**.
-2.  Click **Bitbucket** on the **_Full feature integrations_** panel..
-3.  Login to your Bitbucket Cloud account if prompted.
-4.  Grant **OAuth access** for Git Integration for Jira Cloud app when prompted.
-5.  On the following screen, click **Next** to import repositories.
-6.  On the following screen, set **Project permissions** according to your organization's rules.
-7.  Click **Connect** to complete this setup.
+4.  The following screen is displayed.
+
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-bitbucket-connect.png)    
+
+    *   Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
+
+        ![](/wp-content/uploads/gij-gitcloud-integration-advanced-options-wo-sslverify-c.png)
+
+        *   **Custom API Path**  –  this is a relative path that starts with "/". The integration will use the relative REST API path to retrieve the list of tracked repositories. The maximum allowed length is **2000** characters or less.
+
+            To learn more examples, see article [Jira Cloud: Working with Custom API Path](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
+
+        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is **2000** characters or less.
+            
+            Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
+
+            To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
+
+    *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
+
+5.  Click **Connect** to proceed.
+
+6.  Login to your Bitbucket Cloud account if prompted. If 2FA is enabled for your account, enter the code and continue.
+
+    ![](/wp-content/uploads/gij-gitcloud-bitbucket-grant-oauth-access.png)
+
+7.  Grant OAuth access for Git Integration for Jira Cloud app when prompted.
+
+8.  On the repository selection screen, feel free to choose repositories to use for this integration. You may use the **Select All** option to mark all repositories in the list.
+
+9.  Click **Connect and select repositories** to complete this setup.
+
 
 Bitbucket Cloud repositories are now connected to Jira Cloud.
 
 
-
-## **Single repository connection**
+## Single repository connection
 
 Obtain the repository URL from the Bitbucket Cloud repository project page. Choose between SSH or HTTPS.
 
-1.  On your Jira dashboard menu, go to **Apps** ➜ **Git Integration: Manage Git repositories**.
-2.  Click **Connect to Git Repository** to open the Connect Wizard.
-3.  Paste the URL from Bitbucket Cloud in the provided box.
-4.  Continue to the next step by following the screen instructions.
-5.  Click **Finish** to complete this process. 
+1.  On your Jira dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
+2.  Click **Add integration**.
+3.  At the bottom on the following screen, enter the git clone URL in the provided box.
+4.  Click **Connect** to proceed.
+5.  Continue to the next step by following the screen instructions. Login to your Bitbucket Cloud account, if prompted.
+6.  Click **Add integration** to complete this process.
 
 The repository is now connected to Jira Cloud.
 
-
-
-## **Permissions**
-
-Set Bitbucket Cloud permissions according to your organization's rules. Viewing commits from Jira requires at least **Read** or **View** repository permissions. For branch/merge request creation, set specific service users with **Write** permissions.
-
-
-
-## **Viewing git commits in Jira Cloud**
+## Viewing git commits in Jira Cloud
 
 1.  Perform a git commit by adding the Jira issue key in the commit message.  This will associate the commit to the mentioned Jira issue.
 2.  Open the Jira issue.
@@ -72,7 +122,6 @@ Set Bitbucket Cloud permissions according to your organization's rules. Viewing
 4.  Click **View Full Commit** to view the code diff.
 
 For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud).
-
 
 
 ## **Creating branches and pull/merge requests**
