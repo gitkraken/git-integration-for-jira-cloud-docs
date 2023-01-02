@@ -56,3 +56,4 @@ For more information about triggers and event types, see [Creating reindex trigg
 [**Prev:** Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud/)
 
 [**Next:** Localization support](/git-integration-for-jira-cloud/localization-support-gij-cloud/)
+
