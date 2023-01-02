@@ -69,9 +69,7 @@ Integrate Bitbucket Server git repositories via Git Integration for Jira app us
 
 Connect Bonobo git repositories via Git Integration for Jira app in Jira Data Center.
 
-* * *
-
-<p>&nbsp;</p>
+&nbsp;
 
 <br>
 <br>

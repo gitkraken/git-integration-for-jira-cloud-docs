@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 Classic full feature integration gives you access to all features for the connected git servers. But it requires two-way communication originating from outside of your network. Thus, you will need to allow incoming requests by updating your network/firewall settings. For more information, see [Allow list (whitelist) BigBrassBand Cloud.](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud)
 
 <img src='/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-panel.png' style='height:auto; max-width:100%; display:block; margin:25px auto;' />

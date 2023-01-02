@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/4984) app now offers a new type of integration: **Webhook Indexing**.
 
 <img src='/wp-content/uploads/gij-webhook-indexing-explainer.png' width=244 height=196 style='margin: 25px auto; max-width: 100%; display: block;' alt='Highlights the webhook indexing integration feature (boxed)' />
@@ -46,6 +47,8 @@ Configuring Webhook Indexing begins with the Jira administrator by installing th
 [Webhook Indexing for Azure DevOps, VSTS and TFS](/git-integration-for-jira-cloud/microsoft-webhook-indexing-integration-gij-cloud) &nbsp;<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>SUPPORTED</b>
 
 Webhook indexing for Gerrit &nbsp;<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>FEATURE COMING SOON</b>
+
+&nbsp;
 
 ## Frequently Asked Questions
 
@@ -123,5 +126,5 @@ See: [Security & Trust](https://bigbrassband.com/security-and-trust.html)
 
 ### I have more questions about Webhook indexing
 
-Please reach out to us at [support@gitkraken.com](mailto:support@gitkraken.com) or via our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
+Please reach out to us at [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) or via our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
