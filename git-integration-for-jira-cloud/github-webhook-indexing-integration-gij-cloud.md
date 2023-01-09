@@ -58,6 +58,8 @@ taxonomy:
 
 ## Video Guides
 
+Watch video guides below showcasing Repository and Group level webhook indexing integration.
+
 ### Setup webhook indexing integration (Repository Level)
 
 <div class='embed-container embed-container--16-9'>
@@ -102,13 +104,13 @@ The steps outlined below requires that [Git Integration for Jira](https://market
 
 5.  For this guide, click on the **Webhook indexing** panel to select it.
 
-    While webhook indexing integration has limited features (such as no branch/pull/merge request creation etc.), this Git service integration does not require specific configuration behind a firewall.
+    While webhook indexing integration has limited features (such as no branch/pull/merge request creation etc.), this type Git service integration does not require specific configuration behind a firewall.
 
 6.  Click **Add integration**. This adds the current webhook indexing integration to the manage integration list.
 
     ![](/wp-content/uploads/gij-gitcloud-webhook-indexing-github-settings.png)
 
-7.  <img src='/wp-content/uploads/gij-matrix-open-warn-blue.png' height=20px width=20px /> Before clicking <b>Finish</b>, make sure to configure webhook for your git service. Use the <b>Webhook URL</b> and the <b>Secret key</b> then follow the steps below for repository level or organization level webhook setup.
+7.  <img src='/wp-content/uploads/bbb-alert-20.png' height=20px width=20px style='margin-right:3px'/> Before clicking <b>Finish</b>, make sure to configure webhook for your git service. Use the <b>Webhook URL</b> and the <b>Secret key</b> then follow the steps below for repository level or organization level webhook setup.
 
 &nbsp;
 
@@ -130,13 +132,13 @@ Open a new browser tab and login to your GitHub web portal to setup webhook trig
 
     ![](/wp-content/uploads/gij-webhook-indexing-github-paste-sel-url-type-key.png)
 
-5.  On the **Payload URL** box, paste the **Webhook URL** that you got from the previous section.
+5.  On the **Payload URL** box, paste the **Webhook URL** that you got from the webhook indexing integration (_settings screen with the Finish button_).
 
 6.  Select `application/json` as the **Content type**. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b>
 
 7.  On the **Secret** box, paste the **Secret key** that you got from the webhook indexing integration (_settings screen with the Finish button_).
 
-8.  Set or select which events to trigger for this webhook:
+8.  Next, set or select which events to trigger for this webhook:
 
     *   <b>Just the push event</b> – This will send trigger events for commits and branches only.
 
@@ -146,7 +148,7 @@ Open a new browser tab and login to your GitHub web portal to setup webhook trig
 
 9.  Review your settings then click **Add webhook** to save the webhook configuration.
 
-10. The webhook configuration is added to the webhooks list.
+The webhook configuration is added to the webhooks list. You may click **Finish** in the previous session to wrap up the repository level setup.
 
 &nbsp;
 
@@ -188,7 +190,7 @@ Open a new browser tab and login to your GitHub web portal to configure webhook 
 
 9.  After you’re done setting up the webhook with your git service (GitHub), switch to the Jira Cloud browser tab. Click **Finish** to complete this setup.
 
-The webhook configuration is added to the webhooks list.
+The webhook configuration is added to the webhooks list. You may click **Finish** in the previous session to wrap up the organization level setup.
 
 ## Post-setup tips
 
@@ -216,11 +218,11 @@ The feature table displays the supported git features for the selected git serve
 
 ![](/wp-content/uploads/gij-gitcloud-webhook-indexing-compare-vs-full.png)
 
-### ![(tick)](/wp-content/uploads/gij-check.png) Works with git servers behind firewall
+### ![](/wp-content/uploads/gij-check.png) Works with git servers behind firewall
 
 The webhooks indexing integration limits the features available. However, networks hosting git do not need to be updated to allow incoming requests as long as outbound requests can be made. See [Webhook Indexing explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud) for more information.
 
-### ![(tick)](/wp-content/uploads/gij-check.png) View commits, branches, pull requests in Jira
+### ![](/wp-content/uploads/gij-check.png) View commits, branches, pull requests in Jira
 
 Commits, branches, pull requests are visible in the **Jira Development Information** panel as well as in the **Git Commits issue** tab and **Git Integration** side panel of the Jira issue. Jira administrators can regulate access to these displays using the _View development tools_ permission.
 
@@ -247,28 +249,35 @@ Commits, branches, pull requests are visible in the **Jira Development Informati
 
 **Smart Commits:** Atlassian’s Smart Commits are enabled by default. Additional Smart Commit commands are available. See [Smart Commits](/git-integration-for-jira-cloud/smart-commits-gij-cloud) for more information.
 
-### ![(tick)](/wp-content/uploads/gij-check.png) Repository Browser
+### ![](/wp-content/uploads/gij-check.png) Repository Browser
 
 The Repository Browser allows users to view commits in git repositories by branch1. Users can manually link and unlink commits to Jira issues2.
 
 *   Click a git repository on the **View all repositories** page to start from here.
 
-
 ![](/wp-content/uploads/gij-gitcloud-wh-idx-repo-browser-sel.png)
 
-### ![(none)](/wp-content/uploads/gij-error.png) Create branches and pull requests in Jira
+### ![](/wp-content/uploads/gij-error.png) Create branches and pull requests in Jira
 
 This feature is not supported with webhook indexing integration. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud)
 
-### ![(tick)](/wp-content/uploads/gij-check.png) Support for large number of commits in git pushes
+### ![](/wp-content/uploads/gij-check.png) Support for large number of commits in git pushes
 
 Git servers may truncate how much of the activity is captured in a webhook on large git push events resulting in some git activity. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud).
 
-### ![(none)](/wp-content/uploads/gij-error.png) Indexing full repository history
+### ![](/wp-content/uploads/gij-error.png) Indexing full repository history
 
 Webhook indexing integration will only show new commit/branch/pull request activity once webhooks are configured on the git server according to this wizard. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud).
 
-### ![(none)](/wp-content/uploads/gij-error.png) View source code in Jira
+### ![](/wp-content/uploads/gij-error.png) View source code in Jira
 
 Webhook indexing integration does not have this option as webhooks do not contain source code.
+
+## Other supported webhook indexing integration articles
+
+**GitHub webhook indexing integration** (this page)
+
+[GitLab webhook indexing integration](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud)
+
+[Microsoft webhook indexing integration](/git-integration-for-jira-cloud/microsoft-webhook-indexing-integration-gij-cloud)
 
