@@ -99,7 +99,7 @@ The steps outlined below requires that [Git Integration for Jira](https://market
 
 3.  For the following screen, click **GitLab.com** to start integration with this git service. If you're using GitLab CE/EE, choose **GitLab Server** instead.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-gitlab.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-gitlab-com.png)
 
 4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
@@ -109,11 +109,11 @@ The steps outlined below requires that [Git Integration for Jira](https://market
 
     While webhook indexing integration has limited features (such as no branch/pull/merge request creation etc.), this type Git service integration does not require specific configuration behind a firewall.
 
-6.  Click **Add integration**. This adds the current webhook indexing integration to the manage integration list.
+6.  Click **Add integration** to proceed. The screen below shows the webhook indexing settings for use with the GitLab git service webhook setup. This also adds the current webhook indexing integration to the manage integration list.
 
     ![](/wp-content/uploads/gij-gitcloud-webhook-indexing-github-settings.png)
 
-7.  <img src='/wp-content/uploads/bbb-alert-20.png' style='margin-right:3px' /> Before clicking <b>Finish</b>, make sure to configure webhook for your git service. Use the <b>Webhook URL</b> and the <b>Secret key</b> then follow the steps below for repository level or organization level webhook setup.
+7.  <img src='/wp-content/uploads/bbb-alert-20.png' style='margin-right:3px' /> Before clicking <b>Finish</b>, make sure to configure webhook for your git service. Use the <b>Webhook URL</b> and the <b>Secret key</b> then follow the steps below for repository level or group level webhook setup.
 
 #### GitLab Repository level
 
@@ -123,7 +123,7 @@ Open a new browser tab and login to your GitLab web portal to setup webhook trig
 
 1.  On your GitLab web portal, open a repository to work on.
 
-    ![](/wp-content/uploads/gij-gitlab-web-repo-portal-sample.png)
+    ![](/wp-content/uploads/gij-gitlab-web-repo-webhook-cfg-portal-sample.png)
 
 2.  On the sidebar, go to **Settings** then click **Webhooks**.
 
@@ -145,7 +145,7 @@ Open a new browser tab and login to your GitLab web portal to setup webhook trig
 
 7.  Review your settings then click **Add webhook** to save the webhook configuration.
 
-The webhook configuration is added to the webhooks list. You may click **Finish** in the previous session to wrap the repository level setup.
+The webhook configuration is added to the webhooks list. You may click **Finish** on the webhook indexing integration screen (Jira Cloud) to wrap the repository level setup.
 
 #### GitLab Group level
 
@@ -155,7 +155,7 @@ Open a new browser tab and login to your GitLab web portal to setup webhook trig
 
 1.  On your GitLab web portal, open a repository to work on.
 
-    ![](/wp-content/uploads/gij-gitlab-web-group-portal-sample.png)
+    ![](/wp-content/uploads/gij-gitlab-web-group-webhook-cfg-portal-sample-.png)
 
 2.  On the sidebar, go to **Settings** then click **Webhooks**.
 
@@ -169,11 +169,11 @@ Open a new browser tab and login to your GitLab web portal to setup webhook trig
 
 6.  Set or select which events to trigger for this webhook:
 
-    *   **Push events** – This will send trigger events for commits and branches only. <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
+    *   <b>Push events</b> – This will send trigger events for commits and branches only. <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
 
-    *   **Tags push events** – <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b> <i>This will be supported in the future.</i>
+    *   <b>Tags push events</b> – <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b> <i>This will be supported in the future.</i>
 
-    *   **Merge request events** – This will send trigger events for merge requests event triggers. <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
+    *   <b>Merge request events</b> – This will send trigger events for merge requests event triggers. <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
 
 7.  Review your settings then click **Add webhook** to save the webhook configuration.
 
@@ -273,6 +273,8 @@ Webhook indexing integration will only show new commit/branch/pull request activ
 ### ![](/wp-content/uploads/gij-error.png) View source code in Jira
 
 Webhook indexing integration does not have this option as webhooks do not contain source code.
+
+&nbsp;
 
 ## Other supported webhook indexing integration articles
 
