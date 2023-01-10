@@ -14,7 +14,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         For more information on Webhook indexing:
-        <ul>
+        <ul style='margin-bottom:0x !important'>
             <li>
                 <a href='/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud'>Webhook Indexing Explainer</a>
             </li>
@@ -44,7 +44,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         For a step-by-step setup guide, watch the following demonstration videos:
-        <ul>
+        <ul style='margin-bottom:0x !important'>
             <li><a href='#setup-webhook-indexing-integration-repository-level'>Setup webhook indexing integration (Repository Level)</a>
             </li>
             <li><a href='#setup-webhook-indexing-integration-organization-level'>Setup webhook indexing integration (Organization Level)</a>
@@ -106,7 +106,7 @@ The steps outlined below requires that [Git Integration for Jira](https://market
 
     While webhook indexing integration has limited features (such as no branch/pull/merge request creation etc.), this type Git service integration does not require specific configuration behind a firewall.
 
-6.  Click **Add integration**. This adds the current webhook indexing integration to the manage integration list.
+6.  Click **Add integration** to proceed. The screen below shows the webhook indexing settings for use with the GitHub git service webhook setup. This also adds the current webhook indexing integration to the manage integration list.
 
     ![](/wp-content/uploads/gij-gitcloud-webhook-indexing-github-settings.png)
 
@@ -172,25 +172,23 @@ Open a new browser tab and login to your GitHub web portal to configure webhook 
 
     ![](/wp-content/uploads/gij-webhook-indexing-github-paste-sel-url-type-key.png)
 
-    On the **Payload URL** box, paste the **Webhook URL** that you got from the webhook indexing integration (_settings screen with the Finish button_).
+5.  On the **Payload URL** box, paste the **Webhook URL** that you got from the webhook indexing integration (_settings screen with the Finish button_).
 
-5.  Select `application/json` as the **Content type**.
+6.  Select `application/json` as the **Content type**. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b>
 
-6.  On the **Secret** box, paste the **Secret key** that you got from **step 4** above.
+7.  On the **Secret** box, paste the **Secret key** that you you got from the webhook indexing integration (_settings screen with the Finish button_).
 
-7.  Set or select which events to trigger for this webhook:
+8.  Set or select which events to trigger for this webhook:
 
-    *   **Just the push event** – This will send trigger events for commits and branches only.
+    *   <b>Just the push event</b> – This will send trigger events for commits and branches only.
 
-    *   **Send me everything** – This will send triggers for every event the git service supports. However, this may impact Jira performance. (Not recommended)
+    *   <b>Send me everything</b> – This will send triggers for every event the git service supports. However, this may impact Jira performance. <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>NOT RECOMMENDED</b>
 
-    *   **Let me select individual events** – This will send trigger events based on the specified selected events to track. We highly suggest to only select **Pushes** and **Pull requests** event triggers. (Recommended)
+    *   <b>Let me select individual events</b> – This will send trigger events based on the specified selected events to track. We highly suggest to only select <b>Pushes</b> and <b>Pull requests</b> event triggers. <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
 
 8.  Review your settings then click **Add webhook** to save the webhook configuration.
 
 9.  After you’re done setting up the webhook with your git service (GitHub), switch to the Jira Cloud browser tab. Click **Finish** to complete this setup.
-
-The webhook configuration is added to the webhooks list. You may click **Finish** in the previous session to wrap up the organization level setup.
 
 ## Post-setup tips
 
@@ -272,6 +270,8 @@ Webhook indexing integration will only show new commit/branch/pull request activ
 ### ![](/wp-content/uploads/gij-error.png) View source code in Jira
 
 Webhook indexing integration does not have this option as webhooks do not contain source code.
+
+&nbsp;
 
 ## Other supported webhook indexing integration articles
 
