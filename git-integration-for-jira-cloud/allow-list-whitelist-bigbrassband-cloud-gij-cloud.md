@@ -50,7 +50,7 @@ For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), se
 
 | IP address |
 | :--- |
-| **18.156.13.64** |
+| **18.202.139.125** |
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
