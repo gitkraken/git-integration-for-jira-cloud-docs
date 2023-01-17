@@ -14,7 +14,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         For more information on Webhook indexing:
-        <ul style='margin-bottom:0px !important'>
+        <ul style='margin-bottom:0 !important'>
             <li>
                 <a href='/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud'>Webhook Indexing Explainer</a>
             </li>
@@ -44,7 +44,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         For a step-by-step setup guide, watch the following demonstration videos:
-        <ul style='margin-bottom:0px !important'>
+        <ul style='margin-bottom:0 !important'>
             <li><a href='#setup-webhook-indexing-integration-repository-level'>Setup webhook indexing integration (Repository Level)</a>
             </li>
             <li><a href='#setup-webhook-indexing-integration-organization-level'>Setup webhook indexing integration (Organization Level)</a>
