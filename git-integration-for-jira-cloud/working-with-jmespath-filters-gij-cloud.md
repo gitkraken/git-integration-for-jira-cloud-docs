@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
+JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.
 
 For help with writing expressions, please contact [**support**](support@gitkraken.com).
 
@@ -29,7 +29,7 @@ There are two ways to access the JMESPath settings in Git Integration for Jira C
 
 <br>
 
-2. Manage Git repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration settings** ➜ Integration settings. ➜ **JMESPath Filter**.
+2. Manage Git repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit integration settings</b> ➜ Integration settings. ➜ <b>JMESPath Filter</b>.
 
     ![](/wp-content/uploads/gij-gitcloud-jmespath-actions-settings.png)
 
