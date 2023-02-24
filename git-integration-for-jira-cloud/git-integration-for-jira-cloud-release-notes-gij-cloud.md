@@ -14,9 +14,9 @@ We publish new features, bug fixes, security updates/patches, and Jira compatibi
 
 *   [Atlassian Marketplace listing](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview)
 
-*   [BigBrassBand Cloud Status](https://status.bigbrassband.com)
+*   [Git Integration for Jira Cloud Status](https://status.bigbrassband.com)
 
-*   [BigBrassBand Cloud Security](https://bigbrassband.com/security.html)
+*   [Git Integration for Jira Cloud Security](https://www.gitkraken.com/git-integration-for-jira/security-and-trust)
 
 
 If you have any questions, please contact us through our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
