@@ -14,7 +14,7 @@ Deep linking allows you to quickly move between Jira and your Git source code.
 
 We've added the ability to deep link from repositories, commits, branches, and tags throughout the Git Integration for Jira app into the [GitKraken Git client](https://www.gitkraken.com) and [GitLens VS Code extension](https://www.gitkraken.com/gitlens).
 
-![](/wp-content/uploads/gij-deeplinking-feature-example.png)
+![](/wp-content/uploads/gij-gitcloud-deeplinking-feature-example.png)
 
 GitKraken supports deep linking into Git Integration for Jira as well. To learn more about this feature, see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
 
@@ -24,5 +24,5 @@ GitLens 13.3 introduced deep linking support and Git Integration for Jira allows
 
 [Deep Linking into GitKraken Git client](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client-gij-cloud/)
 
-[Deep Linking into GitLens VS Code extension](/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud/)
+[Deep Linking into GitLens VS Code extension](/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud/) <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b>
 
