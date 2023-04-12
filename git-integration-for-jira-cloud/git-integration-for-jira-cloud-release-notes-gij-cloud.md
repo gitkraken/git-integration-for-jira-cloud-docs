@@ -23,6 +23,15 @@ If you have any questions, please contact us through our [Support Portal](https:
 
 * * *
 
+## GitLens for Visual Studio Code Integration
+'29 Mar 2023' <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
+
+This workflow improvement is a great addition for developers that are using Visual Studio Code to edit source code. [GitLens](https://www.gitkraken.com/gitlens) is a Visual Studio Code extension that helps users visualize code, explore Git repositories, use powerful compare commands and so much more. From within Jira, clicking on the GitLens icon next to repositories, commits, tags, and branches will open them in VS Code.
+
+![](https://help.gitkraken.com/wp-content/uploads/gij-gitcloud-deeplink-gitlens-issue-git-commits.png)
+
+This enables team members to quickly transition between Jira and their code editor without losing context. GitLens deep links are located within Jira issues and the Repository Browser. [View the help article](https://help.gitkraken.com/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud/) for more information.
+
 ## GitHub OAuth: Deep link admins into their GitHub account to the correct app settings
 
 25 Mar 2022 NEW FEATURE ADMINS
