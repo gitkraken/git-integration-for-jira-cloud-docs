@@ -15,7 +15,7 @@ taxonomy:
     <div class="imsgbox">
         Merge request webhooks are now supported. <a href='/git-integration-for-jira-cloud/adding-webhooks-for-gitlab-repository-gij-cloud'>See details</a> on this page.<br>
         <p>Supported webhook events:</p>
-        <ul>
+        <ul style='margin-bottom:0px !important'>
             <li>Push events</lI>
             <li>Merge request events</li>
         </ul>

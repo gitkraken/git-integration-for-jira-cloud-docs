@@ -1,6 +1,6 @@
 ---
 
-title: Webhook indexing integration
+title: Using the Webhook indexing integration wizard
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
