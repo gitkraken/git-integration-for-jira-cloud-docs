@@ -7,11 +7,15 @@ taxonomy:
 
 ---
 
-Add how-to article
+Read through our collection of how-to guides which will show you the recommended process of working with the Git Integration for Jira app.
 
-* * *
+### See our in-depth how-to articles
 
-[Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud)
+[Allow list (whitelist) BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud)
+
+[How to get a quote?](/git-integration-for-jira-cloud/how-to-get-a-quote-gij-cloud)
+
+[How to Calculate Pricing](/git-integration-for-jira-cloud/how-to-calculate-pricing-gij-cloud)
 
 [Connecting SSH Git Repositories to Jira Cloud](/git-integration-for-jira-cloud/connecting-ssh-git-repositories-to-jira-cloud-gij-cloud)
 
@@ -21,13 +25,11 @@ Add how-to article
 
 [How to link commits, branches and pull requests to a Jira issue?](/git-integration-for-jira-cloud/how-to-link-commits-branches-and-pull-requests-to-a-jira-issue-gij-cloud)
 
-[Allow list (whitelist) BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud)
-
 [Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud)
 
 [Working with Custom API Path](/git-integration-for-jira-cloud/working-with-custom-api-path-gij-cloud)
 
-[How to get a quote?](/git-integration-for-jira-cloud/how-to-get-a-quote-gij-cloud)
+[Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud)
 
 [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud)
 
@@ -35,4 +37,3 @@ Add how-to article
 
 [How to Create Reindex Triggers for a Single Repository](/git-integration-for-jira-cloud/how-to-create-reindex-%20triggers-for-a-single-repository-gij-cloud)
 
-[How to Calculate Pricing](/git-integration-for-jira-cloud/how-to-calculate-pricing-gij-cloud)
