@@ -7,8 +7,16 @@ taxonomy:
 
 ---
 **What’s on this page:**
+- [Introduction](#introduction)
+- [Instructions for integrations (GitLab, GitHub, etc)](#instructions-for-integrations-gitlab-github-etc)
+  - [Video Example 1: Setting project permissions for an existing GitLab integration](#video-example-1-setting-project-permissions-for-an-existing-gitlab-integration)
+  - [Video Example 2: Setting project permissions at the repository level for an existing GitLab integration](#video-example-2-setting-project-permissions-at-the-repository-level-for-an-existing-gitlab-integration)
+- [Instructions for individual repositories](#instructions-for-individual-repositories)
+  - [Video Example: Setting project permissions for a repository](#video-example-setting-project-permissions-for-a-repository)
 
+<p>&nbsp;</p>
 * * *
+<p>&nbsp;</p>
 
 ## Introduction
 
@@ -21,7 +29,7 @@ Associating a Jira project with an integration or repository will limit reposito
 
 *   **Git Roll Up** issue tab
 
-*   **Git Source Code** issue side panel 
+*   **Git Source Code** issue side panel
 
 *   **View all repositories** page
 
@@ -42,44 +50,63 @@ Jira users must have the **View Development Tools** permission in the context 
 
 To limit which Jira projects are associated with an integration's repositories:
 
-1.  Navigate to menu **Git** > **Manage Git repositories.**
+1.  Navigate to menu Git ➜ **Manage Git repositories**.
 
 2.  Add a new integration or edit existing integration's settings.
 
 3.  Locate the **Project Permissions** setting.
 
-4.  Uncheck **Associate with all projects.**
+4.  Uncheck **Associate with all projects**.
 
 5.  Select one or more Jira projects (at least one must be selected).
 
-6.  Click **Update.**
+6.  Click **Update**.
 
 
-### **Video Example 1:** Setting project permissions for an existing GitLab integration
+### Video Example 1: Setting project permissions for an existing GitLab integration
 
-_Right click_ [_here_](https://bigbrassband.wistia.com/medias/rnm5t639cz) _to open this video in a new browser tab for more viewing options._
+<div class='embed-container' style='padding-bottom:75.21%;'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/rnm5t639cz?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-### **Video Example 2:** Setting project permissions at the repository level for an existing GitLab integration
+<div align='center' style='margin-top:10px;margin-bottom:30px;'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
 
-_Right click_ [_here_](https://bigbrassband.wistia.com/medias/fder2qnpgw) _to open this video in a new browser tab for more viewing options._
+### Video Example 2: Setting project permissions at the repository level for an existing GitLab integration
+
+<div class='embed-container' style='padding-bottom:75.0%;'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/fder2qnpgw?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center' style='margin-top:10px;margin-bottom:30px;'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
 
 ## Instructions for individual repositories
 
 To limit which Jira projects are associated for individual repositories:
 
-1.  Navigate to menu **Git** > **Manage Git repositories.**
+1.  Navigate to menu Git ➜ **Manage Git repositories**.
 
 2.  Add a new repository or edit existing repository's settings.
 
 3.  Locate the **Project Permissions** setting.
 
-4.  Uncheck **Associate with all projects.**
+4.  Uncheck **Associate with all projects**.
 
 5.  Select one or more Jira projects (at least one must be selected).
 
-6.  Click **Update.**
+6.  Click **Update**.
 
 
-### **Video Example:** Setting project permissions for a repository 
+### Video Example: Setting project permissions for a repository
 
-_Right click_ [_here_](https://bigbrassband.wistia.com/medias/xvzj32nxou) _to open this video in a new browser tab for more viewing options._
+<div class='embed-container' style='padding-bottom:75.21%;'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/xvzj32nxou?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center' style='margin-top:10px;margin-bottom:30px;'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+

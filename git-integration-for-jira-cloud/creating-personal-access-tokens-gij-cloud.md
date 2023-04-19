@@ -17,7 +17,6 @@ This page contains steps for creating personal access tokens (PATs) for specific
 - [Azure DevOps Server](#azure-devops-server)
 - [AWS CodeCommit](#aws-codecommit)
 
-
 <br>
 <br>
 <hr>
@@ -65,7 +64,7 @@ If two-factor authentication is enabled for your GitLab account, you will need t
 
 While instructions from GitLab works just fine, here are some specific instructions to get you up and running:
 
-1.  Login to your GitLab account then go to your profile settings (menu ➜ ![](/wp-content/uploads/gij-profile-icon.png) Profile ➜ **Preferences**).
+1.  Login to your GitLab account then go to your profile settings (Jira dashboard menu ➜ ![](/wp-content/uploads/gij-profile-icon.png) Profile ➜ **Preferences**).
 
     ![](/wp-content/uploads/gij-gitlab-user-profile-settings.png)
 
@@ -138,7 +137,7 @@ When you're done, make sure to copy and save the token. This token can be used 
     </div>
     <div class="imsgbox">
         For personal access tokens where <b><i>Organization</i></b> is not set to <b>All accessible organizations</b>:
-        <ul>
+        <ul style='margin-bottom:0px !important'>
             <li>Set the <b><i>Scopes</i></b> section to <b>Full Access</b>; or</li>
             <li>Set the <b><i>Scopes</i></b> section to <b>Custom defined</b> and then set the <b><i>Code</i></b> section to <b>Read</b>, <b>Status</b>.</li>
         </ul>
@@ -153,7 +152,7 @@ When you're done, make sure to copy and save the token. This token can be used 
     </div>
     <div class="imsgbox">
         As for <b><i>Scopes</i></b>:
-        <ul>
+        <ul style='margin-bottom:0px !important'>
             <li><code>Code (read)</code>  –  This scope allows only to view commits and smart commits, and browse repositories (if enabled) of connected VSTS/Azure repositories inside Jira.</li>
             <li><code>Code (read and write)</code>  –  This scope has the <code>Code (read)</code> functions plus the ability to create branches and pull requests to specified VSTS/Azure repositories via developer panel of a Jira issue.</li>
         </ul>

@@ -24,11 +24,11 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 *   Go to Manage Git repositories page ➜ Full feature integration wizard ➜ **Connect** screen ➜ _Advanced_ ➜ **Custom API Path**. In this case, we use GitHub as an example:
 
-    <img src='/wp-content/uploads/gij-gitcloud-autoconnect-github-custom-api-path.png' width=566 height=510 style='max-width:100%;margin:25px 0' />
+    ![](/wp-content/uploads/gij-gitcloud-autoconnect-github-custom-api-path.png)
 
 *   Go to Manage Git repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit integration settings (for integration) or Edit repository settings (for repositories) ➜ Integration settings section ➜ **Custom API Path**.
 
-    <img src='/wp-content/uploads/gij-gitcloud-actions-edit-integration-settings-cAPI-path.png' width=566 height=211 style='max-width:100%;margin:25px 0' />
+    ![](/wp-content/uploads/gij-gitcloud-actions-edit-integration-settings-cAPI-path.png)
 
 <hr>
 
@@ -76,7 +76,7 @@ For example: `/users/johnsmith/starred`
 /orgs/<org>/repos
 ```
 
-Gets a list of repositories for the specified org, **\<org\>**. _BigBrassBand_
+Gets a list of repositories for the specified org, **\<org\>**. _GitKraken_
 
 **For instance:**<br>
 ```/orgs/BigBrassBand/repos```<br>
@@ -128,11 +128,12 @@ For example: `/api/v3/users/johnsmith/starred`
 /api/v3/orgs/<org>/repos
 ```
 
-Gets a list of repositories for the specified org, **\<org\>**. _BigBrassBand_
+Gets a list of repositories for the specified org, **\<org\>**. _GitKraken_
 
 **For instance:**<br>
-```/api/v3/orgs/BigBrassBand/repos```<br>
-This will filter for repositories only within the org: _BigBrassBand_. This works for GitHub Enterprise integrations.
+`/api/v3/orgs/BigBrassBand/repos`
+
+This will filter for repositories only within the org: _GitKraken_. This works for GitHub Enterprise integrations.
 
 * * *
 
@@ -188,7 +189,9 @@ In the above examples, you can use the **Group id** or your **Group name** a
 
 ```java
 /api/v4/groups/5245789/projects?include_subgroups=true
+```
 
+```java
 /api/v4/groups/BigBrassBand/projects?include_subgroups=true
 ```
 
@@ -237,7 +240,7 @@ For more information on GitLab custom API paths, see [**GitLab API**](https://d
 Displays a list of git repositories of the user with the specified username. This is the same as when no API path is specified.
 
 **For example:**<br>
-```/!api/2.0/repositories/wcoyote```
+`/!api/2.0/repositories/wcoyote`
 
 **2. Lists all repositories for the specified workspace ID**
 
@@ -248,7 +251,7 @@ Displays a list of git repositories of the user with the specified username. Thi
 Displays a list of git repositories for the specified workspace ID.
 
 **For example:**<br>
-```/!api/2.0/repositories/acmegroup```
+`/!api/2.0/repositories/acmegroup`
 
 While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 

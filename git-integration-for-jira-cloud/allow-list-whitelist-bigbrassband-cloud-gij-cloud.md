@@ -13,8 +13,8 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The information on this page is for BigBrassBand Atlassian Cloud products only. These currently include Git Integration for Jira Cloud and Dev Info for Jira Cloud.<br><br>
-        <b>Jira Server and Jira Data Center products are not hosted by BigBrassBand.</b>
+        The information on this page is for BigBrassBand Atlassian Cloud products only. These currently include Git Integration for Jira Cloud and Dev Info for Jira Cloud.
+        <p style='margin-bottom:0px !important'>Jira Server and Jira Data Center products are not hosted by BigBrassBand.</p>
     </div>
     </div>
 </div>
