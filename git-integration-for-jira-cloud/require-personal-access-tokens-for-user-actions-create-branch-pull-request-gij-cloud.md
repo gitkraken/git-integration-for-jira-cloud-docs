@@ -55,11 +55,11 @@ To enable/disable the _**Require User PAT**_ setting for all repositories with
 
 2.  Add a new integration or edit existing integration's feature settings.
 
-    ![](/wp-content/uploads/gij-req-pat-gitmgr-actions-edit-git-settings.png.png)
+    ![](/wp-content/uploads/gij-req-pat-gitmgr-actions-edit-git-settings.png)
 
 3.  Locate the **Require User PAT** setting.
 
-    ![](gij-gitserver-edit-features-cfg-reqUserPAT-sel-c.png)
+    ![](/wp-content/uploads/gij-req-pat-gitmgr-page-actions-control-cfg.png)
 
 4.  Tick the box to enable the requiring of user PAT.
 

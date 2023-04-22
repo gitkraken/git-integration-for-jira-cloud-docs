@@ -1,23 +1,34 @@
 ---
 
-title: Updating private SSH key via Edit repository settings
+title: Updating a private SSH key via Edit integration settings
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 If a new SSH key pair is generated for the configured repository, do the following steps:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923023876/gitcloud-gitmgr-actions-edit-repo-cfg-sel.png?version=1&modificationDate=1631014289233&cacheVersion=1&api=v2&width=680&height=454)
+1.  On the Manage integrations page list, click on ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration** for the SSH-connected git repository.
 
-1.  Go to Manage git repositories page ➜ **Edit repository settings**.
+    ![](/wp-content/uploads/gij-gitmgr-actions-edit-integration-ssh-repo.png)
 
-2.  Change the SSH key fields (highlighted below) with the updated values.
+2.  Change the Private SSH key field (highlighted below) by pasting with the updated value or uploading the Private SSH key file.
+
+    ![](/wp-content/uploads/gij-gitmgr-actions-edit-integration-ssh-credentials-sel.png)
+
+    If a passphrase is present, enter it on the provided box.
+
+3.  Click **Save** to save the settings.
+
+&nbsp;
+
+* * *
+
+&nbsp;
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923023876/gitcloud-gitmgr-edit-repo-cfg-sshkey.png?version=1&modificationDate=1631014289241&cacheVersion=1&api=v2&width=680&height=288)
+[**Prev:** Adding public SSH keys in Git server](/git-integration-for-jira-cloud/adding-public-ssh-keys-in-git-server-gij-cloud)
 
-3\. Click **Update** at the bottom of the page to save the settings.
+[**Next:** Git URL ports](/git-integration-for-jira-cloud/git-url-ports-gij-cloud)
 
-
-[Git URL ports](/git-integration-for-jira-cloud/git-url-ports-gij-cloud)
