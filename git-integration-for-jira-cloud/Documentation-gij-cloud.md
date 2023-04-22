@@ -44,16 +44,23 @@ Click on a topic on the sidebar or continue immediately to the next article by c
 
 For permissions requirement, see [App platform and system permissions requirement](/git-integration-for-jira-cloud/permissions-gij-cloud).
 
-<br>
+&nbsp;
 
-| Get new product notifications and feature updates for Git Integration for Jira app |
-|:---:|
-| [Click here to subscribe to our mailing list](http://eepurl.com/hhfbwz) |
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <p style='font-size:18px;font-weight:bold'>Get new product notifications and feature updates for Git Integration for Jira app.</p>
+        <p style='margin-bottom:0px !important'><a href='http://eepurl.com/hhfbwz'>Click here to subscribe to our mailing list</a></p>
+    </div>
+    </div>
+</div>
 
-<br>
-<br>
+&nbsp;
 
-Follow the link below for the quick installation guide:
+Follow the next link below for the quick installation guide or choose topics that you want to see from the documentation:
 
 [**Next:** Installation via Atlassian Marketplace](/git-integration-for-jira-cloud/installation-via-atlassian-marketplace-gij-cloud)
 

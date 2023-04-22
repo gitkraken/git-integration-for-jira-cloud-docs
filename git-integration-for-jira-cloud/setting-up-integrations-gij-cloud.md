@@ -6,33 +6,46 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 Setup repositories and manage them in the Git Integration app configuration in Jira.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923023982/gitcloud-managed-ui-integrations-page.png?version=1&modificationDate=1647843315863&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page.png)
 
 ## Introduction
 
-Integrate your git repositories via the Git Integration for Jira app in Jira Cloud. The Git Integration app provides special integrations with GitHub, GitLab, Azure Repos and more. Start integrating your git repositories by click **Add integration**.
+Integrate your git repositories via the Git Integration for Jira app in Jira Cloud. The Git Integration app provides special integrations with GitHub, GitLab, Azure Repos and more. Start integrating your git repositories by clicking **Add integration**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923023982/gitcloud-managed-ui-add-integration-page.png?version=1&modificationDate=1647937317336&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-sel-git-host-service-page.png)
 
-**Git service integration** allows git host service integration with Jira. This feature connects multiple repositories and has an array of features not found in other types of integration. This is the recommended way.
+**Cloud-hosted** Git host services can be integrated into Jira automatically. Supported git hosts listed under this group are hosted remotely in the Cloud.
 
-**Webhook indexing integration** allows Jira integration for connected repositories behind a firewall.
+**Self-hosted** (also known as self-managed) Git host serices can also be integrated into Jira automatically (except Plain git repository). Supported git hosts listed under this group are hosted by organization themselves which can also be accessed remotely by their members.
 
-**Single git repository integration** allows SSH repository connections or to connect specific single repositories with Jira.
+Cloud-hosted and self-hosted git host services support this feature to automatically connect multiple repositories and has an array of features not found in other types of integration. _**This is the recommended way**_.
+
+**Webhook indexing integration** allows Jira integration for connected git repositories behind a firewall. This feature is accessible in some of the supported cloud-hosted or self-hosted git services on the list.
+
+**Single git repository integration** (Plain Git repository) allows connections to SSH or HTTP(S) repository or specific single repositories with Jira.
 
 ## Menu access locations
 
 After the installation, the Git Integration for Jira app repository configuration page can be accessed via:
 
-|     |
-| --- |
-| *   Jira dashboard menu Apps ➜ **Git Integration: Manage integrations** |
-| ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923023982/gitcloud-managed-ui-menu-access.png?version=1&modificationDate=1647843557648&cacheVersion=1&api=v2&width=340&height=448) |
-| *   Jira dashboard menu Jira Settings ➜ Apps ➜ **Manage integrations** (sidebar) |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923023982/gitcloud-managed-ui-system-apps-access.png?version=1&modificationDate=1647844058298&cacheVersion=1&api=v2) |
+*   Jira dashboard menu Apps ➜ **Git Integration: Manage integrations**
 
-[Git URL ports](/git-integration-for-jira-cloud/git-url-ports-gij-cloud)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel.png)
 
-[Git integration configuration page](/git-integration-for-jira-cloud/git-integration-configuration-page-gij-cloud)
+*   Jira dashboard menu Jira Settings ➜ Apps ➜ **Manage integrations** (sidebar)
+
+    ![](/wp-content/uploadsgij-gitcloud-managed-ui-system-apps-access.png)
+
+&nbsp;
+
+* * *
+
+&nbsp;
+
+[**Prev:** Git URL ports](/git-integration-for-jira-cloud/git-url-ports-gij-cloud)
+
+[**Next:** Git integration configuration page](/git-integration-for-jira-cloud/git-integration-configuration-page-gij-cloud)
+

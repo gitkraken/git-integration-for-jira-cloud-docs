@@ -50,7 +50,7 @@ In this case, the SSH server is the Git server and the SSH client is the Jira se
             <li>must use the supported storage format: OpenSSL PEM.</li>
         </ul>
         <hr>
-        <p style='margin-bottom:0px'>For more information, see known issue <a href='/git-integration-for-jira-cloud/ssh-key-file-format-is-invalid-gij-cloud'>SSH key format is invalid</a>.</p>
+        <p style='margin-bottom:0px !important'>For more information, see known issue <a href='/git-integration-for-jira-cloud/ssh-key-file-format-is-invalid-gij-cloud'>SSH key format is invalid</a>.</p>
     </div>
     </div>
 </div>
@@ -60,7 +60,7 @@ In this case, the SSH server is the Git server and the SSH client is the Jira se
 
 For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use PuTTYgen to generate public and private SSH keys.
 
-![](/wp-content/uploads/gij-workting-with-puttygen-key-dlg.png)
+<img src='/wp-content/uploads/gij-workting-with-puttygen-key-dlg.png' style='margin:25px auto;display:block;' />
 
 1.  Launch **PuTTYgen** and refer to the above image for the rest of the steps on this section.
 
@@ -91,7 +91,7 @@ For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use P
     </div>
 </div>
 
-<div class="bbb-callout bbb--tip">
+<div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
@@ -112,5 +112,13 @@ On Linux and MacOS, this generates an SSH key in RSA format:<br>
 
 MacOS often incorrectly creates an OpenSSH format certificate. For more details, see information on this [**common problem**](https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key).
 
-See next topic -- [Generating SSH keys »](/git-integration-for-jira-cloud/generating-ssh-keys-gij-cloud).
+&nbsp;
+
+* * *
+
+&nbsp;
+
+[**Prev:** Installation via Atlassian Marketplace](/git-integration-for-jira-cloud/installation-via-atlassian-marketplace-gij-cloud)
+
+[**Next:** Generating SSH keys](/git-integration-for-jira-cloud/generating-ssh-keys-gij-cloud)
 
