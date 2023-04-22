@@ -60,7 +60,7 @@ In this case, the SSH server is the Git server and the SSH client is the Jira se
 
 For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use PuTTYgen to generate public and private SSH keys.
 
-<img src='/wp-content/uploads/gij-workting-with-puttygen-key-dlg.png' style='margin:25px auto;display:block;' />
+<img src='/wp-content/uploads/gij-workting-with-puttygen-key-dlg.png' style='margin:25px auto;display:block;max-width:100%' width=479px height=471px />
 
 1.  Launch **PuTTYgen** and refer to the above image for the rest of the steps on this section.
 
