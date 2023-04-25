@@ -10,9 +10,9 @@ taxonomy:
 This page contains steps for creating personal access tokens (PATs) for specific git hosts. Use the table of contents to navigate to the selected git host.
 
 **What's on this page:**
-- [GitHub | GitHub Enterprise](#github--github-enterprise)
-- [GitLab | GitLab CE/EE](#gitlab--gitlab-ceee)
-- [Azure DevOps | Visual Studio Team Services (VSTS)](#azure-devops-visual-studio-team-services-vsts)
+- [GitHub and GitHub Enterprise](#github-and-github-enterprise)
+- [GitLab and GitLab CE/EE](#gitlab-and-gitlab-ceee)
+- [Azure DevOps and Visual Studio Team Services (VSTS)](#azure-devops-andvisual-studio-team-services-vsts)
 - [Team Foundation Server (TFS) 2017 | (TFS) 2018](#team-foundation-server-tfs-2017--tfs-2018)
 - [Azure DevOps Server](#azure-devops-server)
 - [AWS CodeCommit](#aws-codecommit)
@@ -23,7 +23,7 @@ This page contains steps for creating personal access tokens (PATs) for specific
 <br>
 <br>
 
-## GitHub | GitHub Enterprise
+## GitHub and GitHub Enterprise
 
 If two-factor authentication is enabled for your GitHub account, you will need to create a Personal Access Token (PAT) to access your git repositories. Enable two-factor authentication in your GitHub account for increased security.
 
@@ -56,7 +56,7 @@ While instructions from GitHub works just fine, here are some specific instructi
 7.  Copy the token (write it down or save it somewhere safe – this is the ONLY time you'll see the token).
 
 
-## GitLab | GitLab CE/EE
+## GitLab and GitLab CE/EE
 
 GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories.  Service users are strongly advised to switch from using username/password to using Personal Access Tokens (PAT) for GitLab.
 
@@ -99,7 +99,7 @@ While instructions from GitLab works just fine, here are some specific instructi
 
 <br><br>
 
-## Azure DevOps | Visual Studio Team Services (VSTS)
+## Azure DevOps and Visual Studio Team Services (VSTS)
 
 Creating a personal access token will allow control on how a service user accesses specific resources from your git repositories. PATs can give you access to Azure Repos without using your username or password directly.
 
@@ -130,20 +130,6 @@ If you have not yet generated a personal access token (PAT):
 
 When you're done, make sure to copy and save the token. This token can be used as your password.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For personal access tokens where <b><i>Organization</i></b> is not set to <b>All accessible organizations</b>:
-        <ul style='margin-bottom:0px !important'>
-            <li>Set the <b><i>Scopes</i></b> section to <b>Full Access</b>; or</li>
-            <li>Set the <b><i>Scopes</i></b> section to <b>Custom defined</b> and then set the <b><i>Code</i></b> section to <b>Read</b>, <b>Status</b>.</li>
-        </ul>
-    </div>
-    </div>
-</div>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
