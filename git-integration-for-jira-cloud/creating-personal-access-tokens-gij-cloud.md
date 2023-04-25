@@ -11,9 +11,9 @@ This page contains steps for creating personal access tokens (PATs) for specific
 
 **What's on this page:**
 - [GitHub and GitHub Enterprise](#github-and-github-enterprise)
-- [GitLab and GitLab CE/EE](#gitlab-and-gitlab-ceee)
+- [GitLab, GitLab CE and GitLab EE](#gitlab-gitlab-ce-and-gitlab-ee)
 - [Azure DevOps and Visual Studio Team Services (VSTS)](#azure-devops-andvisual-studio-team-services-vsts)
-- [Team Foundation Server (TFS) 2017 | (TFS) 2018](#team-foundation-server-tfs-2017--tfs-2018)
+- [Team Foundation Server (TFS) 2017 and newer](#team-foundation-server-tfs-2017-and-newer)
 - [Azure DevOps Server](#azure-devops-server)
 - [AWS CodeCommit](#aws-codecommit)
 
@@ -56,7 +56,7 @@ While instructions from GitHub works just fine, here are some specific instructi
 7.  Copy the token (write it down or save it somewhere safe – this is the ONLY time you'll see the token).
 
 
-## GitLab and GitLab CE/EE
+## GitLab, GitLab CE and GitLab EE
 
 GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories.  Service users are strongly advised to switch from using username/password to using Personal Access Tokens (PAT) for GitLab.
 
@@ -148,7 +148,7 @@ When you're done, make sure to copy and save the token. This token can be used 
 
 <br><br>
 
-## Team Foundation Server (TFS) 2017 | (TFS) 2018
+## Team Foundation Server (TFS) 2017 and newer
 
 TFS 2017 and newer can use personal access token for on-premises TFS installations. This will allow control on how a service user accesses specific resources from your git repositories. PATs can give you access to Azure Repos without using your username or password directly.
 
