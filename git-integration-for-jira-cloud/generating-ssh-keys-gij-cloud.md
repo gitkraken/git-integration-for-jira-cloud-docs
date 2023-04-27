@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 Configure and generate SSH keys for the following git hosting systems by following the reference links on each sub-section:
 
 ## Beanstalk
@@ -45,7 +46,7 @@ Follow the above GitLab references for GitLab CE/EE. Then verify that your GitLa
 
 Other SSH key formats may be supported by Git Integration for Jira app, but prefer to use RSA format for your SSH git connections.
 
-## VSTS/TFS/Azure DevOps/Azure Repos
+## VSTS, TFS, Azure DevOps and Azure Repos
 
 The SSH support starts with TFS 2013 and later versions.
 
