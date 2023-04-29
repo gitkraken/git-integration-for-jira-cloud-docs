@@ -7,17 +7,21 @@ taxonomy:
 
 ---
 
-On this page, you will be able to setup your git repositories and connect them to Jira. Click **Add integration** to get started.
+On this page, you will be able to setup your git repositories and connect them to Jira.
 
 <img src='/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
-The **Add new integration** page is displayed:
+On the **Add new integration** page, the list of supported Git host services is displayed.
 
 <img src='/wp-content/uploads/gij-gitcloud-managed-ui-sel-git-host-service-page.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 Click on the git host service that you will be working on and connect it into Jira.
 
 Git Integration for Jira app supports one or more integration types for specific Git host service:
+
+*   **Git service integration** – supports automatic connecction and iconfiguration of integration repositories using your Git service account or PAT.
+
+*   **Plain Git integration** – manually connect single HTTP/HTTPS or SSH git repositories into Jira. See supported Remote Git URL examples on the connection wizard.
 
 ## Git service integration
 
