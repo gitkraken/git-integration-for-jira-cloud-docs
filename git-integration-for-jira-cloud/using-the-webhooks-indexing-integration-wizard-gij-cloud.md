@@ -36,7 +36,7 @@ Click on the **Webhook indexing** integration type then click **Add integration*
 
 ## Step 3
 
-<div class="bbb-callout bbb--info">
+<div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
@@ -50,9 +50,9 @@ Click on the **Webhook indexing** integration type then click **Add integration*
 
 <img src='/wp-content/uploads/gij-gitcloud-webhook-indexing-data-sample-info.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
-Refer to the links under the **Instructions** section to provide you guidance while using generated information from the Webhook indexing integration screen (**Webhook URL** and **Secret key**). This is because indexing triggers and webhook indexing integration have different pipelines. However, the webhook events triggered by this integration also appears in the indexing triggers log (Git integration sidebar ➜ Indexing triggers ➜ **Indexing triggers log**).
+Refer to the links under the **Instructions** section to provide you guidance while using generated information from the Webhook indexing integration screen (**Webhook URL** and **Secret key**). This is because [indexing triggers](/git-integration-for-jira-cloud/indexing-triggers-formerly-webhooks-gij-cloud/) and webhook indexing integration have different pipelines. However, the webhook events triggered by this integration also appears in the indexing triggers log (Git integration sidebar ➜ Indexing triggers ➜ **Indexing triggers log**).
 
-For detailed information on this integration type, see Webhook indexing integration guide.
+For detailed information on this integration type, see [Webhook indexing integration guide](/git-integration-for-jira-cloud/webhook-indexing-integration-gij-cloud/).
 
 &nbsp;
 * * *
