@@ -176,8 +176,6 @@ We recommend using the Full feature integrations panel to connect multiple repos
 
     *   For the **Host URL**, enter the address of the GitLab Server.
 
-    *   Enter the **Host URL** of the GitLab Server
-
     *   Enter the **Personal Access Token** for server authentication. 2FA must be enabled in your GitLab Server and [PAT has been configured](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
 
     *   Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed. These settings are used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page.

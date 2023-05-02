@@ -14,7 +14,11 @@ This feature is available in **Connect to Git Repository** wizard and the **Full
 
 Continue to the next topic for further information on setup and integration.
 
-[Using the Connect repository wizard](/git-integration-for-jira-cloud/using-the-single-git-integration-wizard-gij-cloud)
+&nbsp;
+* * *
+&nbsp;
 
-[Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-cloud/automatically-connect-to-https-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues-gij-cloud)
+[**Prev:** Using the Connect repository wizard](/git-integration-for-jira-cloud/using-the-single-git-integration-wizard-gij-cloud)
+
+[**Next:** Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-cloud/automatically-connect-to-https-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues-gij-cloud)
 
