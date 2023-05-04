@@ -6,29 +6,60 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 To create a link between your Git commit and a Jira issue, developers must include the issue key into the commit comment.
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/qmumdo048n) _to open this video in a new browser tab for more viewing options._
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/cs229y2gzj?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
+<div align='center' style='margin-too:10px;margin-bottom:35px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/cs229y2gzj'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
 
 Commits are selected by issue key. Developers should add them to comments every time the commits are made.
 
-_For example, the “**PRJ-50 fixed issue**” comment – this assumes that you have configured a Jira project with the key ‘**PRJ**’ and someone has created the issue **#50** within this project._
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For example, the <b>"PRJ-50 fixed issue"</b> comment – this assumes that you have configured a Jira project with the key <b>'PRJ'</b> and someone has created the issue <b>#50</b> within this project.
+    </div>
+    </div>
+</div>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025229/gitcloud-git-commits-commits-info.png?version=2&modificationDate=1634642210752&cacheVersion=1&api=v2&width=680&height=309)
+<img src='/wp-content/uploads/gij-gitcloud-git-commits-commits-info.png' style='margin-top:25px' />
 
-_Example Git commit message: “**TEST-1 Update…**”._
-_In this case, “**TEST-1**” is the issue key linking the commit message to the Jira issue._
+<div style='margin-top:10px'><i>Example Git commit message: <b>"TEST-1 Update..."</b><br>
+In this case, <b>"TEST-1"</b> is the issue key linking the commit message to the Jira issue.</i></div>
 
-Commits that are part of non-master branches will be included only if the master branch doesn't have them.
-
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Commits that are part of non-master branches will be included only if the master branch doesn't have them.
+    </div>
+    </div>
+</div>
 
 As a best practice to work with sub-task — put the parent and sub-task Jira issue keys in the commit message so that the commit shows in both places. This way, the commit for the sub-task does not get lost in the many commits of the parent issue.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025229/gitcloud-git-commit-commit-sel-subtask.png?version=1&modificationDate=1634643954720&cacheVersion=1&api=v2&width=680&height=164)
+<img src='/wp-content/uploads/gij-gitcloud-git-commit-commit-sel-subtask.png' style='margin:25px auto' />
 
-The maximum commit message length limit is **8,000 characters**.
-
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The maximum commit message length limit is <b>8,000 characters</b>.
+    </div>
+    </div>
+</div>
 
 The Git Integration for Jira app supports commits that used the old Jira key in the commit message after a project rename to a new key name (Example: `TEST-16` to `PROJ-16`).
 
@@ -38,11 +69,22 @@ There are two scenarios related to the rename/move:
 
 *   The Jira issue was moved from one project to another project and the message contains the old key prior to the installation of the Git Integration for Jira app.
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Jira Activity Stream</b><br>
+        Only the commits that are linked to Jira issues will show on the Jira Activity Stream (not all commits in repositories).
+    </div>
+    </div>
+</div>
 
-**Jira Activity Stream**
-Only the commits that are linked to Jira issues will show on the Jira Activity Stream (not all commits in repositories).
+&nbsp;
+* * *
 
-[Web linking](/git-integration-for-jira-cloud/web-linking-gij-cloud)
+[**Prev:** Web linking](/git-integration-for-jira-cloud/web-linking-gij-cloud)
 
-[Associating git commits manually to Jira issues](/git-integration-for-jira-cloud/associating-git-commits-manually-to-jira-issues-gij-cloud)
+[**Next:** Associating git commits manually to Jira issues](/git-integration-for-jira-cloud/associating-git-commits-manually-to-jira-issues-gij-cloud)
 

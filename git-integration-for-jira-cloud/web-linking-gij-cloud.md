@@ -16,11 +16,11 @@ The Git Integration for Jira Cloud app automatically configures web links for mo
 For single git repository integration, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
 <div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/qmumdo048n?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/zfxfemq7z8?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
 <div align='center' style='margin-top:10px;margin-bottom:35px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/qmumdo048n'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/zfxfemq7z8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 The following providers are supported:
@@ -85,10 +85,10 @@ You can create several custom configuration to support other git hosting provide
 | Option | Description |
 | :--- | :--- |
 | _**View Format**_ | _String._ Optional. <br><br>This URL is unused and not being configured for the newly added integration types. |
-| _**Changeset Format**_ | This is the URL used to display revision.  <br>Use the following variable: `${rev}`  – git revision |
-| _**File Added Format,**_  <br>_**File Modified Format,**_  <br>_**File Deleted Format**_ | This is the URL to display content of added, modified or deleted files. Use the following variables:<br><br>*   `${num}` –  number of change (0, 1, …)<br>    <br>*   `${rev}`  –  git revision<br>    <br>*   `${path}`  –  path of the file being changed<br>    <br>*   `${parent}`  –  parent git revision<br>    <br>*   `${blob}`  –  ID of blob object<br>    <br>*   `${parent_blob}`  –  ID of parent blob object<br>    <br>*   `$convert(${branch},"subStr","newSubStr")`  –  this inline function returns branch name with `subStr` replaced by a `newSubStr`. As of **v2.11.0+** of the Git Integration app, the `${branch}` code has been changed to cope up with the character requirements on some hosting services. |
+| _**Changeset Format**_ | This is the URL used to display revision.<br>Use the following variable: `${rev}`  – git revision |
+| _**File Added Format,**_ <br>_**File Modified Format,**_<br>_**File Deleted Format**_ | This is the URL to display content of added, modified or deleted files. Use the following variables:<br><ul><li><code>${num}</code> –  number of change (0, 1, …)</li><li><code>${rev}</code>  –  git revision</li><li><code>${path}</code>  –  path of the file being changed </li><li><code>${parent}</code>  –  parent git revision</li><li><code>${blob}</code>  –  ID of blob object</li><li><code>${parent_blob}</code>  –  ID of parent blob object</li><li><code>$convert(${branch},"subStr","newSubStr")</code>  –  this inline function returns branch name with <code>subStr</code> replaced by a <code>newSubStr</code>. As of <b>v2.11.0+</b> of the Git Integration app, the <code>${branch}</code> code has been changed to cope up with the character requirements on some hosting services.</li></ul> |
 | _**Branch Format**_ | This is the URL to display content of branches. |
-| _**Tag Format**_ | This is the URL to display content for tag information_._ |
+| _**Tag Format**_ | This is the URL to display content for tag information. |
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -131,9 +131,9 @@ Any Git host that is accessible via SSH, HTTP, HTTPS and git protocol is support
 
 Once properly configured, the **Git Commits** tab on the Jira **Issues** page will display as follows:
 
-![](/wp-content/uploads/gij-gitcloud-jira-issue-commits-tab-weblink-sample-sel.png)
+<img src='/wp-content/uploads/gij-gitcloud-jira-issue-commits-tab-weblink-sample-sel.png' style='display:block;max-width:100%;margin:25px auto 10px auto' />
 
-<p align=center style='margin-top:10px;'><i>The Git integration app supports custom web linking. The commit information is displayed <br>
+<p align=center><i>The Git integration app supports custom web linking. The commit information is displayed <br>
 in the Git Commits issue tab if the git host server URL is provided on the <br>
 Web Linking section when editing repository settings.</i></p>
 
