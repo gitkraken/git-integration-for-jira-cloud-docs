@@ -19,8 +19,7 @@ The above dialog displays partial log information. Download the full log to save
 If you encounter issues, you can send this log to [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) for further analysis.
 
 &nbsp;
-
-### See next articles
+* * *
 
 [**Prev:** SSL verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud)
 

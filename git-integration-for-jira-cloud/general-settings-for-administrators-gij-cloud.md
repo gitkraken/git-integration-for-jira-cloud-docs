@@ -27,13 +27,14 @@ The Git Integration for Jira app introduces the General settings page which cont
 Open the **General settings** page in the Jira Apps Management (**Applications** _page in Jira 8 and up_) to enable/disable features of the Git Integration for Jira Server/Data Center app.
 
 The **General settings** configuration page can be accessed thru the following locations:
-* Jira dashboard ➜ Apps menu ➜ **Git Integration: Manage integrations** ➜ Git Integration for Jira (sidebar) ➜ **General settings**.
 
-![](/wp-content/uploads/gij-gitcloud-gitmenu-apps-gencfg-sel.png)
+*   Jira dashboard ➜ Apps menu ➜ **Git Integration: Manage integrations** ➜ Git Integration for Jira (sidebar) ➜ **General settings**.
 
-* Jira dashboard ➜Jira settings ➜ Apps ➜ **General settings** (sidebar).
+    ![](/wp-content/uploads/gij-gitcloud-gitmenu-apps-gencfg-sel.png)
 
-![](/wp-content/uploads/gij-gitcloud-gencfg-admin-apps-menu.png)
+*   Jira dashboard ➜Jira settings ➜ Apps ➜ **General settings** (sidebar).
+
+    ![](/wp-content/uploads/gij-gitcloud-gencfg-admin-apps-menu.png)
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">

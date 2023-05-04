@@ -15,9 +15,9 @@ This feature is displayed on the following locations:
 
 *   <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>INTEGRATION</b> Manage integration page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit integration ➜ **Feature settings**.
 
-&nbsp;
+<p>&nbsp;</p>
 
-<img src='/wp-content/uploads/gij-gitcloud-project-permissions-setting.png.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
+<img src='/wp-content/uploads/gij-gitcloud-project-permissions-setting.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
 **Restrict to projects**  –  One or more projects can be mapped to this repository or integration to make Git Commits tabs available in the Issue pages of the associated projects. Disable _**Associate with all projects**_ option to gain access to this field.
 
@@ -26,6 +26,12 @@ This feature is displayed on the following locations:
 ## Project permissions level
 
 There are several types of project permission levels, namely:
+- [Project permissions level](#project-permissions-level)
+  - [Repository level](#repository-level)
+  - [Integration level](#integration-level)
+  - [Repository level within integration](#repository-level-within-integration)
+- [Setting project permissions in Jira Cloud](#setting-project-permissions-in-jira-cloud)
+
 
 ### Repository level
 
@@ -33,13 +39,13 @@ There are several types of project permission levels, namely:
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/xvzj32nxou?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-tpp:10px;'>
+<div align='center' style='margin-top:15px;'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-<div align='center'>(<i>Updated video coming soon</i>)</div>
+<div align='center' style='margin-bottom:30px;'>(<i>Updated video coming soon</i>)</div>
 
-&nbsp;
+<p>&nbsp;</p>
 
 You can configure the project permissions for single connection repositories:
 
@@ -62,13 +68,11 @@ The same process can also be applied for other single repository connections in 
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/rnm5t639cz?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:15px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-<div align='center'>(<i>Updated video coming soon</i>)</div>
-
-&nbsp;
+<div align='center' style='margin-bottom:30px'>(<i>Updated video coming soon</i>)</div>
 
 You can configure the project permissions for integration (multiple repository connection):
 
@@ -82,7 +86,7 @@ You can configure the project permissions for integration (multiple repository c
 
 5.  Click **Update** to save the settings.
 
-&nbsp;
+<p>&nbsp;</p>
 
 ### Repository level within integration
 
@@ -90,13 +94,12 @@ You can configure the project permissions for integration (multiple repository c
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/fder2qnpgw?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:15px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-<div align='center'>(<i>Updated video coming soon</i>)</div>
+<div align='center' style='margin-bottom:30px'>(<i>Updated video coming soon</i>)
 
-&nbsp;
 
 You can configure the project permissions for repositories within integration:
 
@@ -104,17 +107,17 @@ You can configure the project permissions for repositories within integration:
 
     For easy access, use the integration dropdown selector.
 
-    ![](/wp-content/uploads/gij-gitcloud-manage-integrations-actions-selector-c.png)
+    <img src='/wp-content/uploads/gij-gitcloud-manage-integrations-actions-selector-c.png' style='margin-top:-20px' />
 
-1.  Click a repository name (under the Repository column) to directly open its repository settings.
+2.  Click a repository name (under the Repository column) to directly open its repository settings.
 
-2.  On the page that appears, scroll down to **Project Permissions**.
+3.  On the page that appears, scroll down to **Project Permissions**.
 
-3.  Uncheck (turn off) the **Associate with all projects** setting.
+4.  Uncheck (turn off) the **Associate with all projects** setting.
 
-4.  Click on the **Restrict to projects** field then select one or more projects from the list.
+5.  Click on the **Restrict to projects** field then select one or more projects from the list.
 
-5.  Click **Update** to save the settings.
+6.  Click **Update** to save the settings.
 
 &nbsp;
 
@@ -122,12 +125,20 @@ You can configure the project permissions for repositories within integration:
 
 Project permissions are now available in Git Integration for Jira Cloud. The default setting for new repository/integration connections is **Associated with all Jira projects**.
 
-Whenever the **integration** settings for project permissions are updated, the repository settings will be overwritten.
-
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Whenever the <b>integration</b> settings for project permissions are updated, the repository settings will be overwritten.
+    </div>
+    </div>
+</div>
 
 Watch the video below to learn different settings for each project permissions level.
 
-<div class='embed-container' style='padding-bottom: 75.21%'>
+<div class='embed-container' style='padding-bottom: 67.29%'>
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/nnao2x4ses?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
@@ -135,7 +146,7 @@ Watch the video below to learn different settings for each project permissions l
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/nnao2x4ses'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-<div align='center' style='margin-top:10px'>(<i>Updated video coming soon</i>)</div>
+<div align='center'>(<i>Updated video coming soon</i>)</div>
 
 &nbsp;
 * * *
