@@ -26,7 +26,7 @@ On the Manage integrations page. click on <img src='/wp-content/uploads/actions-
 
 ## Connection settings
 
-![](/wp-content/uploads/gitcloud-edit-integration-connection-cfg.png)
+![](/wp-content/uploads/gij-gitcloud-edit-integration-connection-cfg.png)
 
 The connection settings page contains configuration options to manage integration connection and displayed repositories.
 
@@ -51,7 +51,7 @@ The Feature settings page contains configuration options related to user and pro
 | Option | Description |
 | :--- | :--- |
 | _**Indexing triggers**_ | This is the automatically-generated webhook URL upon installation of Git Integration for Jira Cloud app.<br><br>Use the URL to setup webhook triggers to your git host service which allows immediate reindex of connected integrations. |
-| _**Require User PAT**_ | Enable this option to require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.<br><div class="bbb-callout bbb--tip"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">This option requires the <a href='/git-integration-for-jira-cloud/repository-browser-gij-cloud'>Repository Browser</a>() feature enabled.</div></div></div><br><div class="bbb-callout bbb--info"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">This setting is only available for integrations connected via <a href='/git-integration-for-jira-cloud/introduction-to-git-integration-gij-cloud/'>Git service integration panel.</div></div></div> |
+| _**Require User PAT**_ | Enable this option to require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.<br><div class="bbb-callout bbb--tip"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">This option requires the <a href='/git-integration-for-jira-cloud/repository-browser-gij-cloud'>Repository Browser</a>() feature enabled.</div></div></div><br><div class="bbb-callout bbb--info" style='margin-bottom:0px'><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">This setting is only available for integrations connected via <a href='/git-integration-for-jira-cloud/introduction-to-git-integration-gij-cloud/'>Git service integration panel.</div></div></div> |
 | _**Project permissions**_ | This feature allows administrators to configure project associations with repositories/integration to restrict which users can view development information. For more information, see [Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/). |
 
 &nbsp;
@@ -76,11 +76,10 @@ Click **Save** to save the changes and apply the integration settings.
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Managing integrations via Actions (Jira Cloud)](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud/)
 
-[**Next:** https://help.gitkraken.com/git-integration-for-jira-cloud/edit-repository-gij-cloud/](/git-integration-for-jira-cloud/edit-repository-gij-cloud/)
+[**Next:** Edit repository](/git-integration-for-jira-cloud/edit-repository-gij-cloud/)
 
 ### More related topics about managing repository/integration configuration
 
