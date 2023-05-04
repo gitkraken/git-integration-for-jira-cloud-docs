@@ -1,6 +1,6 @@
 ---
 
-title: Removing integration or repository configuration
+title: Disconnect integration or repository configuration
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
