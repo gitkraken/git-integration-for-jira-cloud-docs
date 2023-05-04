@@ -27,7 +27,7 @@ Utilize the options below for configuring repository settings.
 | _**Username, Password/Token**_ | Displays username used for this repository configuration. Enter a new password/token if the password/token has changed since the last configuration. | SINGLE |
 | _**Private SSH Key**_ | If the private SSH key was changed, enter the new private SSH key on the provided box or upload the new private SSH key. | SINGLE |
 | _**Optional SSH Key Passphrase**_ | If the configured private SSH key has a passphrase, enter it on the provided box. | SINGLE |
-| _**SSL Verify**_ | <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VSTS/AZURE</b> <b style='background-color:#FFEED1; padding:1px 5px; color:#CC5900; border-radius:3px; margin: 0 5px; font-size: small;'>GITLAB</b> <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>GITHUB</b>  <br>Set to enabled/disabled for the current git host integration.<br><br>The **SSL Verify** option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.<br><div class="bbb-callout bbb--info"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">The <b>SSL Verify</b> setting is available in Jira Server, Data Center and Jira Cloud. This option is not available for non-fetched repositories.</div></div></div> | SINGLE |
+| _**SSL Verify**_ | <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VSTS/AZURE</b> <b style='background-color:#FFEED1; padding:1px 5px; color:#CC5900; border-radius:3px; margin: 0 5px; font-size: small;'>GITLAB</b> <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>GITHUB</b><br>Set to enabled/disabled for the current git host integration.<br><br>The **SSL Verify** option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.<br><div class="bbb-callout bbb--info" style='margin-bottom:0px'><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">The <b>SSL Verify</b> setting is available in Jira Server, Data Center and Jira Cloud. This option is not available for non-fetched repositories.</div></div></div> | SINGLE |
 
 &nbsp;
 
@@ -44,7 +44,6 @@ Utilize the options below for configuring repository settings.
 
 &nbsp;
 * * *
-&nbsp;
 
 Click **Save** to save the changes and apply the settings.
 
@@ -52,11 +51,12 @@ Click **Cancel** to return to the manage git configuration page and discard the 
 
 &nbsp;
 * * *
+
+[**Prev:** Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud/)
+
+[**Next:** SSL verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud/)
+
 &nbsp;
-
-[Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud/)
-
-[SSL verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud/)
 
 ### More related topics about managing repository/integration configuration
 
