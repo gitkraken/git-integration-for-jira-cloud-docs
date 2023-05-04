@@ -26,5 +26,5 @@ Click **Cancel** to abort this process.
 
 [**Prev:** View repository indexing logs](/git-integration-for-jira-cloud/view-repository-indexing-logs-gij-cloud)
 
-[**Next:** General settings](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud)
+[**Next:** Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/)
 

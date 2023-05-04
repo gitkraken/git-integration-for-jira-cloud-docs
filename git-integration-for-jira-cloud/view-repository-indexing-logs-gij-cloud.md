@@ -24,5 +24,5 @@ If you encounter issues, you can send this log to [gijsupport@gitkraken.com](mai
 
 [**Prev:** SSL verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud)
 
-[**Next:** Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud)
+[**Next:** Disconnect integratinos or repositories](/git-integration-for-jira-cloud/removing-integration-or-repository-configuration-gij-cloud/)
 
