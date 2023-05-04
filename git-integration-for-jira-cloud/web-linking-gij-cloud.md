@@ -131,7 +131,7 @@ Any Git host that is accessible via SSH, HTTP, HTTPS and git protocol is support
 
 Once properly configured, the **Git Commits** tab on the Jira **Issues** page will display as follows:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025184/gitcloud-jira-issue-commits-tab-weblink-sample-sel.png?version=1&modificationDate=1634298669637&cacheVersion=1&api=v2&width=680&height=355)
+![](/wp-content/uploads/gij-gitcloud-jira-issue-commits-tab-weblink-sample-sel.png)
 
 <p align=center style='margin-top:10px;'><i>The Git integration app supports custom web linking. The commit information is displayed <br>
 in the Git Commits issue tab if the git host server URL is provided on the <br>
