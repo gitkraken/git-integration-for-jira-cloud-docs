@@ -11,7 +11,7 @@ Disconnect a repository or integration if it isn't needed or is broken in the Gi
 
 On the Manage integrations page, click on **Actions** for the selected integration or repository then **Disconnect integration**.
 
-![](/wp-content/uploads/gij-gitcloud-actions-disconnect-integration.png)
+<img src='/wp-content/uploads/gij-gitcloud-actions-disconnect-integration.png' style='margin: 25px 0 35px 0' />
 
 The Disconnect integration confirmation dialog is displayed.
 

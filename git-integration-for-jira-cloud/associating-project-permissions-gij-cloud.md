@@ -64,7 +64,7 @@ The same process can also be applied for other single repository connections in 
 
 ### Integration level
 
-<div class='embed-container' style='padding-bottom:75.21$'>
+<div class='embed-container' style='padding-bottom:75.21%'>
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/rnm5t639cz?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
@@ -98,7 +98,7 @@ You can configure the project permissions for integration (multiple repository c
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-<div align='center' style='margin-bottom:30px'>(<i>Updated video coming soon</i>)
+<div align='center' style='margin-bottom:30px'>(<i>Updated video coming soon</i>)</div>
 
 
 You can configure the project permissions for repositories within integration:
@@ -119,7 +119,7 @@ You can configure the project permissions for repositories within integration:
 
 6.  Click **Update** to save the settings.
 
-&nbsp;
+<p>&nbsp;</p>
 
 ## Setting project permissions in Jira Cloud
 
