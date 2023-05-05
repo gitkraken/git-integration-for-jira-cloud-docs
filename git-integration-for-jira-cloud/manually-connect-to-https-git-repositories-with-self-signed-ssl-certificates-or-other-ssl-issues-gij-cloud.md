@@ -49,7 +49,6 @@ For related topics on connecting repositories from other git hosts, see [Integr
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-cloud/automatically-connect-to-httos-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues-gij-cloud)
 

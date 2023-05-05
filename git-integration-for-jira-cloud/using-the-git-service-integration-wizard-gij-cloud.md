@@ -29,7 +29,7 @@ On the Manage integrations page, click on **Add integration** to start connectin
 
 ## Step 2
 
-Click on the Git service from the list then setup **OAuth** or **PAT** integration type. Click **Connect...** to proceed.
+Click on the git service from the list then setup **OAuth** or **PAT** integration type. Click **Connect...** to proceed.
 
 <img src='/wp-content/uploads/gij-gitcloud-managed-ui-sel-git-host-service-page.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
@@ -41,17 +41,16 @@ After the scan, select one or more repositories to connect it to Jira then click
 
 ## Completed integration
 
-The integration is added to the Git integration configuration list.
+The integration is added to the git integration configuration list.
 
 <img src='/wp-content/uploads/gij-gitcloud-gitmgr-add-new-integration-complete.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 ## Other integration setup
 
-For more detailed information on specific integration steps for supported Git host services, see our [Integration Guides](/git-integration-for-jira-cloud/integration-guide-gij-cloud).
+For more detailed information on specific integration steps for supported git host services, see our [Integration Guides](/git-integration-for-jira-cloud/integration-guide-gij-cloud).
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Git integration configuration page](/git-integration-for-jira-cloud/git-integration-configuration-page-gij-cloud)
 

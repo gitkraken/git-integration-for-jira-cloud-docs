@@ -9,7 +9,7 @@ taxonomy:
 
 On the Manage integrations page. click on <img src='/wp-content/uploads/actions-icon.png' style='margin: 0 3px' /> Actions ➜ **Edit integration** for the selected integration to open its configuration page.
 
-![](/wp-content/uploads/gitcloud-manage-integration-actions-edit-cfg.png)
+![](/wp-content/uploads/gij-gitcloud-manage-integration-actions-edit-cfg.png)
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -62,9 +62,9 @@ The Feature settings page contains configuration options related to user and pro
 
 The Choose repositories settings page contains configuration options to manage which repositories to connect to Jira.
 
-Adjacent to the **Search** function are the search filters for which repositories are to be displayed.
+Adjacent to the **Search** box are the search filters to control which repositories are to be displayed.
 
-On the panel highlighted in blue are selection options for which repositories to connect. Repositories inside an organization can also be included (provided that the current service user has access permissions for these).
+On the panel, highlighted in blue, are selection options for which repositories to connect. Repositories inside an organization can also be included (provided that the current service user has access permissions for these).
 
 On the **Organizations** section, select all or specific repositories to connect to Jira.
 
@@ -80,6 +80,8 @@ Click **Save** to save the changes and apply the integration settings.
 [**Prev:** Managing integrations via Actions (Jira Cloud)](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud/)
 
 [**Next:** Edit repository](/git-integration-for-jira-cloud/edit-repository-gij-cloud/)
+
+&nbsp;
 
 ### More related topics about managing repository/integration configuration
 

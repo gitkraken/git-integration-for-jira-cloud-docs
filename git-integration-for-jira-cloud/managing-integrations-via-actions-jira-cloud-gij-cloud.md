@@ -9,14 +9,16 @@ taxonomy:
 
 After integrating your repository or git host service, a set of Actions can be performed by clicking the Gear icon under the **Actions** column on the integration/repository configuration list.
 
+&nbsp;
+
 ## Action commands (integration)
 
 ![](/wp-content/uploads/gij-gitcloud-manage-integration-actions-menu.png)
 
 Utilize the following actions to manage integrations in Jira Cloud:
 
-| **Action** | **Description** |
-| --- | --- |
+| Action | Description |
+| :--- | :--- |
 | _**Reindex integration**_ | Immediately starts the synchronization with the selected integration and its repositories. |
 | _**Edit integration**_ | Opens the page to manage connection and feature settings for the selected integration. |
 | _**Disable integration**_ | Disable specific integrations if you are not using them with Jira. Enable them again if you are going to use them later on. |
@@ -37,13 +39,15 @@ Utilize the following actions to manage integrations in Jira Cloud:
 
 Jump to [Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud) settings page documentation.
 
+&nbsp;
+
 ## Action commands (repositories)
 
 ![](/wp-content/uploads/gij-gitcloud-manage-repositories-actions-menu.png)
 
 Utilize the following actions to manage repositories in Jira Cloud:
 
-| **Action** | **Description** |
+| Action | Description |
 | :--- | :--- |
 | _**Reindex repository**_ | Immediately starts the synchronization with the selected repository. |
 | _**Edit repository**_ | Opens the page to manage connection and feature settings for the selected repository. |
@@ -66,6 +70,8 @@ Utilize the following actions to manage repositories in Jira Cloud:
 
 Jump to [Edit repository](/git-integration-for-jira-cloud/edit-integration-gij-cloud) settings page documentation.
 
+&nbsp;
+
 ## Action commands (Group selection)
 
 Group action becomes available when selecting multiple integrations and repositories. Thus, providing ease of use and streamlined processing of the selected items.
@@ -74,11 +80,12 @@ Group action becomes available when selecting multiple integrations and reposito
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Managing repository or integration configuration](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration-gij-cloud)
 
 [**Next:** Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud)
+
+&nbsp;
 
 ### More related topics about managing repository/integration configuration
 
@@ -88,7 +95,7 @@ Group action becomes available when selecting multiple integrations and reposito
 
 [Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud/) (Git Integration for Jira Cloud)
 
-[Edit repository](/git-integration-for-jira-cloud/edit-repository-gij-cloud/)
+[Edit repository](/git-integration-for-jira-cloud/edit-repository-gij-cloud/) (Git Integration for Jira Cloud)
 
 [SSL Verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud/) (Git Integration for Jira Cloud)
 

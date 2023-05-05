@@ -11,17 +11,18 @@ Integrations and/or repositories can be associated with one or more Jira project
 
 This feature is displayed on the following locations:
 
-*   <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>REPOSITORY</b> Manage repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit repository ➜ **Feature settings**.
+<ul>
+    <li><b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>REPOSITORY</b> Manage repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit repository ➜ <b>Feature settings</b>.</li>
+    <li><b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>INTEGRATION</b> Manage integration page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit integration ➜ <b>Feature settings</b>.</li>
+</ul>
 
-*   <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>INTEGRATION</b> Manage integration page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit integration ➜ **Feature settings**.
-
-<p>&nbsp;</p>
-
-<img src='/wp-content/uploads/gij-gitcloud-project-permissions-setting.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
+<img src='/wp-content/uploads/gij-gitcloud-project-permissions-setting.png' style='display:block;margin:25px auto;height:auto;max-width:100%;' />
 
 **Restrict to projects**  –  One or more projects can be mapped to this repository or integration to make Git Commits tabs available in the Issue pages of the associated projects. Disable _**Associate with all projects**_ option to gain access to this field.
 
 **Associate with all projects**  –  Enable this option to associate this repository or integration to all projects. Disable this option if you want to use the existing mapped projects from the **Restrict to projects** field. The default setting is enabled _(checked)_.
+
+&nbsp;
 
 ## Project permissions level
 
@@ -31,7 +32,6 @@ There are several types of project permission levels, namely:
   - [Integration level](#integration-level)
   - [Repository level within integration](#repository-level-within-integration)
 - [Setting project permissions in Jira Cloud](#setting-project-permissions-in-jira-cloud)
-
 
 ### Repository level
 
@@ -45,11 +45,9 @@ There are several types of project permission levels, namely:
 
 <div align='center' style='margin-bottom:30px;'>(<i>Updated video coming soon</i>)</div>
 
-<p>&nbsp;</p>
-
 You can configure the project permissions for single connection repositories:
 
-1.  On the Manage repositories page, click ![](/wp-content/uploads/actions-icon.png) /> Actions ➜ **Edit repository**.
+1.  On the Manage repositories page, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository**.
 
 2.  On the page that appears, scroll down to **Project Permissions**.
 
@@ -59,8 +57,9 @@ You can configure the project permissions for single connection repositories:
 
 5.  Click **Update** to save the settings.
 
-
 The same process can also be applied for other single repository connections in Jira Cloud.
+
+&nbsp;
 
 ### Integration level
 
