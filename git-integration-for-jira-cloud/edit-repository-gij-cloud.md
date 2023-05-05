@@ -43,7 +43,6 @@ Utilize the options below for configuring repository settings.
 | _**Web Linking**_ | _Optional._<br><br>The web linking feature adds links to your git hosting provider directly into the Git Commits tab. For special integrations (Auto-Connect), this feature is configured automatically. For more information on about this topic, see [Web linking](/git-integration-for-jira-cloud/web-linking-gij-cloud). | SINGLE |
 
 &nbsp;
-* * *
 
 Click **Save** to save the changes and apply the settings.
 

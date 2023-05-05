@@ -57,7 +57,6 @@ Manage connected integration or repositories via the &nbsp;<img src='/wp-conten
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Self-signed HTTPS integration](/git-integration-for-jira-cloud/self-signed-https-integration-gij-cloud/)
 

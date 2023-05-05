@@ -38,7 +38,6 @@ This integration is displayed on the Manage integrations list. Go to ![](/wp-con
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Self-signed HTTPS connections (index)](/git-integration-for-jira-cloud/self-signed-https-integration-gij-cloud)
 

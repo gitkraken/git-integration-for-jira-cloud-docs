@@ -11,7 +11,16 @@ taxonomy:
 
 The web linking feature adds links to your git hosting provider directly into the **Git Commits** tab. Configure web linking options while editing **repository settings** (![](/wp-content/uploads/actions-icon.png) _Actions ➜ _Edit integration_ \| ![](/wp-content/uploads/actions-icon.png) _Actions_ ➜ _Edit repository_) so that commits can include links to the git host pages.
 
-The Git Integration for Jira Cloud app automatically configures web links for most git hosts via Git service integration panel.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Git Integration for Jira Cloud app automatically configures web links for most git hosts via Git service integration panel.
+    </div>
+    </div>
+</div>
 
 For single git repository integration, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
@@ -75,7 +84,7 @@ Select a git host from the **Web Link** list. The web linking format fields a
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Only configure the variables enclosed in <code><></code> (tags) and leave variables enclosed in <code>{}</code> (brackets) as is.
+        Only configure the variables enclosed in <code>&lt;&gt;</code> (tags) and leave variables enclosed in <code>{}</code> (brackets) as is.
     </div>
     </div>
 </div>
@@ -118,7 +127,7 @@ You can create several custom configuration to support other git hosting provide
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The Bonobo git server requires a branch name to construct URL.  Use <code>$convert(${branch},"/","~2")</code> for web linking since bonobo requires substitution of "/" with "~2" in the branch name.
+        The Bonobo git server requires a branch name to construct URL.  Use <code>$convert(${branch},"/","~2")</code> for web linking since bonobo requires substitution of <code>/</code> with <code>~2</code> in the branch name.
         <p style='margin-bottom:-10px'>
             <b>For example:</b><br>
             <code>http://<host>/Bonobo.Git.Server/Repository/<project>/$convert(${branch},"/","~2")/Commit/${rev}</code>
@@ -127,15 +136,15 @@ You can create several custom configuration to support other git hosting provide
     </div>
 </div>
 
-Any Git host that is accessible via SSH, HTTP, HTTPS and git protocol is supported.
+Any git host that is accessible via SSH, HTTP, HTTPS and git protocol is supported.
 
 Once properly configured, the **Git Commits** tab on the Jira **Issues** page will display as follows:
 
 <img src='/wp-content/uploads/gij-gitcloud-jira-issue-commits-tab-weblink-sample-sel.png' style='display:block;max-width:100%;margin:25px auto 10px auto' />
 
-<p align=center><i>The Git integration app supports custom web linking. The commit information is displayed <br>
+<div align=center style='margin-top:12px'><i>The Git integration app supports custom web linking. The commit information is displayed <br>
 in the Git Commits issue tab if the git host server URL is provided on the <br>
-Web Linking section when editing repository settings.</i></p>
+Web Linking section when editing repository settings.</i></div>
 
 &nbsp;
 * * *

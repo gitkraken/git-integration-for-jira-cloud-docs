@@ -149,7 +149,6 @@ The rest of the features can also be accessed on the left sidebar of the Manage 
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Setting up integrations (index)](/git-integration-for-jira-cloud/setting-up-integrations-gij-cloud/)
 
