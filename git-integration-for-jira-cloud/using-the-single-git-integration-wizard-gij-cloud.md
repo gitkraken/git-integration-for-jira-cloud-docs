@@ -61,7 +61,7 @@ Provide login credentials as required then click **Add integration** to complete
 
 ### 3b\. SSH authentication
 
-![](/git-integration-for-jira-cloud/gij-gitcloud-quick-start-plain-git-integration-ssh.png)
+![](/wp-content/uploads/gij-gitcloud-quick-start-plain-git-integration-ssh.png)
 
 Provide SSH credentials as required then click **Add integration** to complete this setup.
 
@@ -96,7 +96,6 @@ Finally, after completing the setup, the wizard will index the git repository to
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Using the Git service integration wizard](/git-integration-for-jira-cloud/using-the-git-service-integration-wizard-gij-cloud)
 

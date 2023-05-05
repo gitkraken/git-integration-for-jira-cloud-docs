@@ -56,7 +56,6 @@ For detailed information on this integration type, see [Webhook indexing integra
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Using the Git service integration wizard](/git-integration-for-jira-cloud/using-the-git-service-integration-wizard-gij-cloud/)
 
