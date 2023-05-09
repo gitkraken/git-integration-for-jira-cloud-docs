@@ -45,7 +45,7 @@ Smart commits configuration checklist:
 *   **The Jira DVCS Connector Plugin is not required.**<br>
     The Git Integration for Jira app has the functions of the connector plugin plus more integration support and features.
 
-*   **Your Jira e-mail address and Git commit e-mail address matches.** `IMPORTANT`<br>
+*   **Your Jira e-mail address and Git commit e-mail address matches.** <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b><br>
     The commit author's email should match exactly with a user's email in Jira. If they do not match, the application will add the commit as the app.
 
 *   **E-mail address is not shared by other Jira users.**<br>
@@ -53,7 +53,7 @@ Smart commits configuration checklist:
 
 *   **Advanced:** Verify that the workflow conditions and validators are able to process successfully.
 
-<br>
+&nbsp;
 
 The Git Integration app supports smart commit by adding a simple syntax to a commit message.
 
@@ -61,12 +61,12 @@ The basic syntax for a Smart commit message is:
 
 ![](/wp-content/uploads/gij-smart-commit-message-basic-syntax.png)
 
+&nbsp;
 
 To know more about syntax, commands and examples on Smart Commits, see [**Processing Jira Software Issues with Smart Commit Messages**](https://support.atlassian.com/bitbucket-cloud/docs/use-smart-commits/) at the Atlassian website or proceed to the next page.
 
 &nbsp;
-
-## See next topics below
+* * *
 
 [**Prev:** Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud)
 

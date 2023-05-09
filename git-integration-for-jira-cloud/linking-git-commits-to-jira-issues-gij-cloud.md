@@ -13,7 +13,7 @@ To create a link between your Git commit and a Jira issue, developers must inclu
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/cs229y2gzj?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-too:10px;margin-bottom:35px'>
+<div align='center' style='margin-too:15px;margin-bottom:35px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/cs229y2gzj'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
