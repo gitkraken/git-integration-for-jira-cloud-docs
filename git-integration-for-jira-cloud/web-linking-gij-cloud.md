@@ -74,7 +74,7 @@ The following providers are supported:
 
 *   **Gitolite**
 
-<img src='/wp-content/uploads/gij-gitcloud-edit-repo-cfg-web-linking-sel.png' style='display:block;max-width:100%;margin:35px auto 25px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-edit-repo-cfg-web-linking-sel.png' style='max-width:100%;margin:35px auto 25px auto;display:block;' />
 
 Select a git host from the **Web Link** list. The web linking format fields are automatically filled out with corresponding variables for the selected git host service. Change the variables according to the actual URL settings of the git host.
 
@@ -140,7 +140,7 @@ Any git host that is accessible via SSH, HTTP, HTTPS and git protocol is support
 
 Once properly configured, the **Git Commits** tab on the Jira **Issues** page will display as follows:
 
-<img src='/wp-content/uploads/gij-gitcloud-jira-issue-commits-tab-weblink-sample-sel.png' style='display:block;max-width:100%;margin:25px auto 10px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-jira-issue-commits-tab-weblink-sample-sel.png' style='max-width:100%;margin:25px auto 10px auto;display:block;' />
 
 <div align=center style='margin-top:12px'><i>The Git integration app supports custom web linking. The commit information is displayed <br>
 in the Git Commits issue tab if the git host server URL is provided on the <br>

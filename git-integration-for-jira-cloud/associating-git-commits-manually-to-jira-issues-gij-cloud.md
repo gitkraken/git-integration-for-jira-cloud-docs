@@ -11,10 +11,9 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/cq3r68b9ou?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top: 5px;'>
+<div align='center' style='margin-top:10px;margin-bottom:35px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/cq3r68b9ou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -30,23 +29,25 @@ taxonomy:
 
 To manually link a git commit to a Jira issue, access the **Change commit issues** feature from the following locations:
 
-*   Projects (sidebar) ➜ **Git Commits** ➜ click _View Full Commit_. Click the Pencil(edit) icon to modify commit associations.
+*   Projects (sidebar) ➜ **Git Commits** ➜ click _View Full Commit_. Click the ![edit](/wp-content/uploads/gij-edit-icon-dark.png) icon to modify commit associations.
 
     ![](/wp-content/uploads/gij-gitcloud-view-full-commit-dlg-sel.png)
 
-*   Issue page ➜ **Git Commits** tab ➜ click _View Full Commit_. Click the Pencil(edit) icon to modify commit associations. |
+*   Issue page ➜ **Git Commits** tab ➜ click _View Full Commit_. Click the ![edit](/wp-content/uploads/gij-edit-icon-dark.png) icon to modify commit associations.
 
     ![](/wp-content/uploads/gij-gitcloud-view-full-commit-issue-page-sel.png)
 
-*   Jira dashboard menu Apps ➜ **Git Integration: Repository browser** ➜ click a repository _with git commits_. Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' /> icon on the commit in the repository view.
+*   Jira dashboard menu Apps ➜ **Git Integration: Repository browser** ➜ click a repository _with git commits_. Click the ![edit](/wp-content/uploads/gij-edit-icon-dark.png) icon on the commit in the repository view.
 
     ![](/wp-content/uploads/gij-gitcloud-repo-browser-assoc-sel-with-browse.png)
 
-<br>
+&nbsp;
 
 The following dialog is displayed.
 
-![](/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-dropdown.png)
+### Method 1
+
+<img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-dropdown.png' style='margin:25px auto 35px auto;display:block;' />
 
 Add, edit or delete linked Jira issue keys in the _**Associated issues to commit**_ field:
 
@@ -55,7 +56,9 @@ Add, edit or delete linked Jira issue keys in the _**Associated issues to commi
 *   Repeat the same process to associate one or more Jira issues.
 *   Click **X** to remove selected commit association(s).
 
-![](/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-typetext.png)
+### Method 2
+
+<img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-typetext.png' style='margin:25px auto 35px auto;display:block;' />
 
 *   Type a Jira issue key or a word from a Jira issue summary and the list will try to display them.
 *   Click a Jira issue from the list to associate it to the currently configure commit.
@@ -64,18 +67,44 @@ Add, edit or delete linked Jira issue keys in the _**Associated issues to commi
 
 Click **Save** to save the changes.
 
-![(info)](/wp-content/uploads/bbb-info-20.png) JIRA administrators can add/remove any association(s).
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        JIRA administrators can add/remove any association(s).
+    </div>
+    </div>
+</div>
 
-![(info)](/wp-content/uploads/bbb-info-20.png) Project administrators can add/remove any association(s) in that project.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Project administrators can add/remove any association(s) in that project.
+    </div>
+    </div>
+</div>
 
-![note](/wp-content/uploads/bbb-alert-20.png)The authors of the commit can add/remove the association, if they have the View Development Tools access.
-
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The authors of the commit can add/remove the association, if they have the View Development Tools access.
+    </div>
+    </div>
+</div>
 
 If the commit is associated with multiple Jira issues, you will see the following:
 
-![](/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-multiple.png)
+<img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-multiple.png' style='margin:25px auto 35px auto;display:block;' />
 
-In the above example, the selected commit is associated with Jira issues `TEST-1` and `TEST-4` .
+In the above example, the selected commit is associated with Jira issues `TEST-1` and `TEST-4`.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -87,5 +116,11 @@ In the above example, the selected commit is associated with Jira issues `TEST-1
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
+* * *
+
+[**Prev:** Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/)
+
+[**Next:** Smart commits](/git-integration-for-jira-cloud/smart-commits-gij-cloud/)
 
