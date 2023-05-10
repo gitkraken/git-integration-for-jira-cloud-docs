@@ -6,15 +6,36 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 The **Repository Browser** allows users to view git repositories of configured projects via the **Git** menu on the Jira dashboard.
 
 ## Getting started
 
-**Jira Cloud**
-Git Integration for Jira Cloud only has **Repository Browser:** **Compare** feature. See [Compare view](/git-integration-for-jira-cloud/comparing-branches-or-tags-in-repository-browser-gij-cloud).
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Jira Cloud</b><br>
+        Git Integration for Jira Cloud only has <b>Repository Browser: Compare</b> feature. See <a href='/git-integration-for-jira-cloud/comparing-branches-or-tags-in-repository-browser-gij-cloud'>Compare view</a>.
+    </div>
+    </div>
+</div>
 
-**Permissions**
-Users must have the **View Development Tools** _project permission_ in order to gain access to the **Repository Browser**. For more information on assigning Jira permissions, see [**Managing Permissions in Jira**](https://confluence.atlassian.com/display/Jira/Managing+Global+Permissions).
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Permissions</b><br>
+        Users must have the <b>View Development Tools</b> <i>project permission</i> in order to gain access to the <b>Repository Browser</b>. For more information on assigning Jira permissions, see <a href='https://confluence.atlassian.com/display/Jira/Managing+Global+Permissions'><b>Managing Permissions in Jira</b></a>.
+    </div>
+    </div>
+</div>
+
+&nbsp;
 
 ## Apps git integration menu
 
@@ -29,13 +50,15 @@ The menu commands are hidden for all users if there are no repositories with Rep
 
 The menu commands are visible to other users who have repositories with Repository browser enabled and have no history of using the Repository browser _(for example - no previously viewed or repositories set as favorite)._
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025500/gitcloud-repo-browser-page-access.png?version=2&modificationDate=1650260719272&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-repo-browser-page-access-new.png)
 
 Available git repositories of configured projects are displayed.
 
+&nbsp;
+
 ## Repositories list
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025500/gitcloud-repo-browser-page-list.png?version=1&modificationDate=1650260840880&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-repo-browser-page-list.png)
 
 *   On the list table, you will see git repositories, recent issues updated by users, and the last commits made.
 
@@ -49,21 +72,52 @@ Available git repositories of configured projects are displayed.
 
 *   Use the page navigation at the bottom right of the list to display the next list.
 
+&nbsp;
 
 ## Repository view
 
 Click on a git repository to browse commits made on this repository.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025500/gitcloud-repo-browser-page-repoview-list.png?version=2&modificationDate=1650263383860&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-repo-browser-page-repoview-list.png)
 
-The Repository browser in Git Integration for Jira Cloud only supports displaying of commits from a repository and comparing of branches.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Repository browser in Git Integration for Jira Cloud only supports displaying of commits from a repository and comparing of branches.
+    </div>
+    </div>
+</div>
 
-If the selected path is a _**root**_ of the repository and no files are present, a message will be displayed instead of an empty file list.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If the selected path is a <i><b>root</b></i> of the repository and no files are present, a message will be displayed instead of an empty file list.
+    </div>
+    </div>
+</div>
 
-**Administration**
-Administrators can turn on/off the repository browser feature via General settings ➜ _Jira Issue View Options_ ➜ **Show Repository browser: View all repositories, Commits and Compare pages**.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Administration</b><br>
+        Administrators can turn on/off the repository browser feature via General settings ➜ <i>Jira Issue View Options</i> ➜ <b>Show Repository browser: View all repositories, Commits and Compare pages</b>.
+    </div>
+    </div>
+</div>
 
-[Smart commits](/git-integration-for-jira-cloud/smart-commits-gij-cloud)
+&nbsp;
+* * *
 
-[Viewing list of commits in Repository browser](/git-integration-for-jira-cloud/viewing-list-of-commits-in-repository-browser-gij-cloud)
+[**Prev:** Smart commits](/git-integration-for-jira-cloud/smart-commits-gij-cloud)
+
+[**Next:** Viewing list of commits in Repository browser](/git-integration-for-jira-cloud/viewing-list-of-commits-in-repository-browser-gij-cloud)
 
