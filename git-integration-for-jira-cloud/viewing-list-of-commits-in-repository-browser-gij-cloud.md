@@ -6,11 +6,12 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 On the Repository browser page, click a repository to open it in **Commits** view and browse commits made for this repository.
 
 The list of commits for the currently selected project is displayed in descending order:
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025571/gitcloud-repo-browser-page-repoview-list(c).png?version=1&modificationDate=1650263342257&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-repo-browser-page-repoview-list-new.png)
 
 1.  Click on the repository selector dropdown list to select the repository to view.
 
@@ -22,14 +23,18 @@ The list of commits for the currently selected project is displayed in descendin
 
 5.  Displays the Jira issue key associated with this commit or pull/merge request (for example, `GIJDEMO-1`).
 
-6.  Click on the **Change icon** to edit/manage associated Jira issue keys to the selected commit.
+6.  Click on the **Change icon** ![](/wp-content/uploads/gij-edit-icon-dark.png) to edit/manage associated Jira issue keys to the selected commit.
 
 7.  Click on the copy icon to put the commit ID to the system clipboard for later use.
 
-8.  Click on the GitKraken icon at the far right of the row to view this commit in GitKraken git client app.
+8.  Click on the GitKraken icon at the far right of the row to view this commit in [GitKraken git client](https://www.gitkraken.com/git-client/features) app.
 
+9.  Click on the GitLens icon at the far right of the row to view this commit in [GitLens for VSCode extension](https://www.gitkraken.com/gitlens).
 
-[Repository browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud)
+&nbsp;
+* * *
 
-[Comparing branches/tags in Repository browser](/git-integration-for-jira-cloud/comparing-branches-or-tags-in-repository-browser-gij-cloud)
+[**Prev:** Repository browser (index)](/git-integration-for-jira-cloud/repository-browser-gij-cloud)
+
+[**Next:** Comparing branches/tags in Repository browser](/git-integration-for-jira-cloud/comparing-branches-or-tags-in-repository-browser-gij-cloud)
 

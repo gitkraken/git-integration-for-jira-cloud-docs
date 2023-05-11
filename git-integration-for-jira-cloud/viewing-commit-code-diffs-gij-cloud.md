@@ -24,10 +24,14 @@ Access the commit code diff dialog via the following locations:
 *   Open an issue. Click on the **Git Commits** tab then click a file name or click **View full commit**.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025639/gitcloud-jira-issue-view-commit.png?version=1&modificationDate=1635243434996&cacheVersion=1&api=v2&width=564&height=335)
+<img src='/wp-content/uploads/gij-gitcloud-jira-issue-view-commit.png' style='margin:25px auto;max-width:100%;dispay:block;' />
 
 Each click on the  **\# lines hidden** label expands up to 20 lines of code on that section.
 
-[Repository browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud)
+&nbsp;
+* * *
 
-[Git user identity](/git-integration-for-jira-cloud/git-user-identity-gij-cloud)
+[**Prev:** Repository browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud)
+
+[**Next:** Git user identity](/git-integration-for-jira-cloud/git-user-identity-gij-cloud)
+

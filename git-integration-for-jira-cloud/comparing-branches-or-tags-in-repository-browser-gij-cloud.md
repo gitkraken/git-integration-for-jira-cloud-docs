@@ -6,13 +6,14 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 On the Repository browser (_Jira dashboard ➜ Apps menu ➜ **Git Integration: Repository browser**_), click the **Compare** page tab.
 
 On this page, two branches from the current repository can be compared.
 
 A diff between the _**base**_ branch and the _**compare**_ branch is displayed:
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025590/gitcloud-repo-browser-page-compare-view.png?version=1&modificationDate=1650263701274&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-repo-browser-page-compare-view.png)
 
 To view desired results, use the following selection scenarios:
 
@@ -22,6 +23,7 @@ To view desired results, use the following selection scenarios:
 
 *   select different branches as base and compare. (Example: `TYT-212` against `TYT-316`)
 
+![](/wp-content/uploads/gij-gitcloud-repo-browser-compare-view-swap.png)
 
 Click **…** to swap the base and the compare selection.
 
@@ -31,9 +33,16 @@ Click **Commits** on the sidebar to view the list of commits resulting from th
 
 Click **Diff** on the sidebar to view code diffs of the selected range of commits with the path and name of the affected files.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025590/gitcloud-repo-browser-page-compare-isues-view.png?version=1&modificationDate=1650263827433&cacheVersion=1&api=v2&width=680&height=249)
+![](/wp-content/uploads/gij-gitcloud-repo-browser-page-compare-isues-view.png)
 
 Click **Issues** on the sidebar to view list of unique Jira issues related to commits.
 
 On the **Issues** page, clicking the **View in issue navigator** label will open the search page with passed query of a list of Jira issues found based from the compare criteria.
+
+&nbsp;
+* * *
+
+[**Prev:** Viewing list of commits in Repository browser](/git-integration-for-jira-cloud/viewing-list-of-commits-in-repository-browser-gij-cloud/)
+
+[**Next:** Repository browser general settings](/git-integration-for-jira-cloud/repository-browser-general-settings-gij-cloud/)
 

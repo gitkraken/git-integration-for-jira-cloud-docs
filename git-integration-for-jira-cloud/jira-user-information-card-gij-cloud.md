@@ -11,7 +11,7 @@ The Jira user card is available on the following screens:
 *   Jira issue → Developer panel (_Assignee / Reporter_)
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025668/git-user-profile.png?version=2&modificationDate=1635332991431&cacheVersion=1&api=v2&width=340&height=270)
+<img src='/wp-content/uploads/gij-gitcloud-git-user-profile.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 Hover the mouse pointer on the name of the user.  A small information box containing information such as email, zone & time and avatar for that user will appear.
 
@@ -19,6 +19,20 @@ Click **Reported issues** to view the latest reported issues performed by that
 
 Click **View profile** to view this user’s profile.
 
-The [**Git user identity**](/git-integration-for-jira-cloud/git-user-identity-gij-cloud) should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <a href='/git-integration-for-jira-cloud/git-user-identity-gij-cloud'><b>Git user identity</b></a> should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
+    </div>
+    </div>
+</div>
 
-[Jira issue page](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud)
+&nbsp;
+* * *
+
+[**Prev:** Git user identity](/git-integration-for-jira-cloud/git-user-identity-gij-cloud)
+
+[**Prev:** Jira issue page](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud)
