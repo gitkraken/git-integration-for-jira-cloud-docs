@@ -17,9 +17,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923025415/gitcloud-jira-workflow-access-location.png?version=1&modificationDate=1634729301548&cacheVersion=1&api=v2)
+&nbsp;
+
+![](/wp-content/uploads/gij-gitcloud-jira-workflow-access-location.png)
 
 You can see the available custom workflow transition commands for use with smart commits by doing the following:
 
@@ -29,19 +30,21 @@ You can see the available custom workflow transition commands for use with smart
 
     When you hover a status – it will highlight available transitions. This is the transition name that is used in smart commits and not the status name.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025415/gitcloud-jira-workflow-issue-hover(c).png?version=1&modificationDate=1634729619035&cacheVersion=1&api=v2&width=476&height=340)
+    ![](/wp-content/uploads/gij-gitcloud-jira-workflow-issue-hover.png)
 
 Below is an example using the above workflow where the issue is in IN PROGRESS status and want to send it to CODE REVIEW status:
 
-**\<ISSUE\_KEY\>** **\#send-to-code-review** or,<br>
-**\<ISSUE\_KEY\>** **\#send-to-code** _and even_,<br>
-**\<ISSUE\_KEY\>** **\#send** _(yes, this works, as long as it does not conflict with another transition name)_
+```bash
+\<ISSUE\_KEY\> \#send-to-code-review _or_,
+\<ISSUE\_KEY\> \#send-to-code _and even_,
+\<ISSUE\_KEY\> \#send _(yes, this works, as long as it does not conflict with another transition name)_
+```
 
 Do note that invalid characters can be used in the transition name. Jira accepts most of them and they can be used. However, smart commits will only process letters and dash characters.
 
 Thus, the part of the transition name up to the invalid character can be used for transitions; where spaces become "-".
 
-### Example 1:
+### Example 1
 
 | Transition name | Smart Commit transition |
 | :--- | :--- |
@@ -87,5 +90,11 @@ The "..." indicates the truncation with the least character length to have the t
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
+* * *
+
+[**Prev:** Smart commits -- Workflow transitions](/git-integration-for-jira-cloud/workflow-transitions-gij-cloud/)
+
+[**Next:** Smart commits -- General settings](/git-integration-for-jira-cloud/smart-commits-general-settings-gij-cloud/)
 

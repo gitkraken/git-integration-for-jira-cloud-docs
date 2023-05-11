@@ -9,7 +9,7 @@ taxonomy:
 
 <img src='/wp-content/uploads/gij-gitcloud-smart-commits-general-setting.png' style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
+&nbsp;
 
 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA CLOUD</b> <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>DEV INFO</b>
 
@@ -25,5 +25,11 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
+* * *
+
+[**Prev:** Viewing workflows](/git-integration-for-jira-cloud/viewing-workflows-gij-cloud/)
+
+[**Next:** Repository Browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud/)
 

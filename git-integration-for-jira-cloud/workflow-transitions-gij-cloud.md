@@ -13,11 +13,11 @@ The simple Jira workflow does not contain explicit transition names. These kind
 
 The name of the status is the transition. So, using the basic example above, the valid transitions from <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>DONE</b> are:
 
-*   **#to-do**
+*   **\#to-do**
 
-*   **#in-progress**
+*   **\#in-progress**
 
-*   **#in-review**
+*   **\#in-review**
 
 
 <div class="bbb-callout bbb--alert">
@@ -68,4 +68,11 @@ The name of the status is the transition. So, using the basic example above, th
     </div>
 </div>
 <br>
+
+&nbsp;
+* * *
+
+[**Prev:** Smart commits -- Advanced  examples](/git-integration-for-jira-cloud/advanced-examples-gij-cloud/)
+
+[**Next:** Viewing workflows](/git-integration-for-jira-cloud/viewing-workflows-gij-cloud/)
 
