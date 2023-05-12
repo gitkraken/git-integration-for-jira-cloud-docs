@@ -27,7 +27,7 @@ Sort the code statistics by clicking the respective **Sort** button then selec
 
 Select roll up options by clicking the respective **Rollup** button.
 
-<img src='/wp-content/uploads/gitcloud-git-rollup-sort03.png' style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-git-rollup-sort03.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 &nbsp;
 * * *
