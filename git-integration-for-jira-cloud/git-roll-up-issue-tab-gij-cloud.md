@@ -14,7 +14,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         <b>Note</b>
-        <ul>
+        <ul style='margin-bottom:0px'>
             <li>
                 By default, <a href='https://marketplace.atlassian.com/4984'>Git Integration for Jira</a> has the Git Roll Up Issue Tab enabled. (<a href='#how-can-a-jira-administrator-enable-or-disable-the-git-roll-up-issue-tab'>How to disable</a>)
             </li>
@@ -54,11 +54,10 @@ Some notable sections:
 
 *   **Files** section can be _**rolled up by**_: None, File Extension, Change, Extension and Change, Change and Extension, and Repository.
 
-<br>
 
-![](/wp-content/uploads/gij-gitcloud-jira-issue-rollup-tab-sel.png)
+![](/wp-content/uploads/gij-gitcloud-jira-issue-rollup-tab-sel-new.png)
 
-<br>
+&nbsp;
 
 ## How can a Jira administrator enable or disable the Git Roll Up issue tab?
 
@@ -71,7 +70,7 @@ Some notable sections:
 4.  Click **Update** button.
 
 
-![](/wp-content/uploads/gij-gitcloud-gencfg-git-rollup-sel.png)
+![](/wp-content/uploads/gij-gitcloud-gencfg-git-rollup-sel-new.png)
 
 <br>
 
@@ -82,9 +81,52 @@ Some notable sections:
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a>() or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a>() or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
+
+### More related articles on Features
+
+[Deep Linking to the GitKraken Git Client](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client-gij-cloud) (Git Integration for Jira Cloud)
+
+[Deep Linking into GitLens](/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud) (Git Integration for Jira Cloud)
+
+[CI\/CD for Jira Cloud](/git-integration-for-jira-cloud/cicd-getting-started-with-ci-cd-for-jira-gij-cloud/) (Git Integration for Jira Cloud)
+
+[Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud/)
+
+[Jira Development Information](/git-integration-for-jira-cloud/jira-development-information-gij-cloud) (Git Integration for Jira Cloud)
+
+[JQL Searching for Commits and Pull/Merge Requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud/)
+
+[Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/)
+
+**Git Roll Up Issue Tab** (this page)
+
+[Git Commits Issue Tab and Project Pages](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-pages-gij-cloud) (Git Integration for Jira Cloud)
+
+[Issue Git Source Code Panel](/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud) (Git Integration for Jira Cloud)
+
+[Repository Browser: Viewing all repositories](/git-integration-for-jira-cloud/repository-browser-viewing-all-repositories-gij-cloud) (Git Integration for Jira Cloud)
+
+[Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud) (Git Integration for Jira Cloud)
+
+[Create pull or merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud) (Git Integration for Jira Cloud)
+
+[Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud) (Git Integration for Jira Cloud)
+
+[Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud) (Git Integration for Jira Cloud)
+
+[Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud) (Git Integration for Jira Cloud)
+
+[Git Integration Server/Data Center vs Jira Cloud - Feature Comparison](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud) (Git Integration for Jira Cloud)
+
+[Migrating from Jira Server + Data Center to Jira Cloud](/git-integration-for-jira-cloud/migrating-from-jira-server-data-center-to-jira-cloud-gij-cloud) (Git Integration for Jira Cloud)
+
+[User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) (Git Integration for Jira Cloud)
+
+[General Settings](/git-integration-for-jira-cloud/general-settings-gij-cloud) (Git Integration for Jira Cloud)
 
