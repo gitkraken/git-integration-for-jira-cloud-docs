@@ -22,7 +22,7 @@ Open an issue then go to the _**Git Commits**_ tab to view commit information:
 | **4** | **Repository name/Branch** | This is the name of the repository and the branch where the commit has been made. |
 | **5** | **Commit UID** | UID of the commit and git host link. Click the UID to view the code diffs for this commit. Click the git host link to view this commit via the git host server. |
 | **6** | **Commit counter indicators** | ![Git commit traffic light example](/wp-content/uploads/gij-traffic-light-example.png)<br><br>The traffic light indicator shows the added/modified/deleted lines from the file code diffs. |
-| **7** | **Click the commit ID to view the commit code diff. Click the copy icon to copy the commit code diff to the system clipboard. |
+| **7** | **Commit ID** | Click the commit ID to view the commit code diff. Click the copy icon to copy the commit code diff to the system clipboard. |
 | **8** | **Open in GitKraken** | Opens this commit in the GitKraken git client app. |
 | **9** | **Open in GitLens** | Opens this commit in the GitLens extension via VSCode app. |
 | **10** | **Files changed** | List of files affected by the commit. Click the file or git host link to view code diff of this commit. |
