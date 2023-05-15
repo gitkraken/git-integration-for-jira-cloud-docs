@@ -37,7 +37,7 @@ After the installation, the Git Integration for Jira app repository configuratio
 
 *   Jira dashboard menu Jira Settings ➜ Apps ➜ **Manage integrations** (sidebar)
 
-    ![](/wp-content/uploadsgij-gitcloud-managed-ui-system-apps-access.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-system-apps-access.png)
 
 &nbsp;
 
