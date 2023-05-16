@@ -138,4 +138,17 @@ The numbers **ahead** and **behind** represent the number of commits that ar
 
 [**Next:** Pull or merge requests (Development panel)](/git-integration-for-jira-cloud/pull-or-merge-requests-development-panel-gij-cloud)
 
+&nbsp;
+
+### More related topics about Jira Git integration development panel
+
+[Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud) (Git Integration for Jira Cloud)
+
+[Development panel locations](/git-integration-for-jira-cloud/development-panel-locations-gij-cloud) (Git Integration for Jira Cloud)
+
+**Branches (Development panel)** (this page)
+
+[Pull or merge requests (Development panel)](/git-integration-for-jira-cloud/pull-or-merge-requests-development-panel-gij-cloud) (Git Integration for Jira Cloud)
+
+[Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud) (Git Integration for Jira Cloud)
 

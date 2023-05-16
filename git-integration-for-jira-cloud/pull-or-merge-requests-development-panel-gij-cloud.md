@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 The **Pull Requests** (GitHub or other connected git hosts) or **Merge Requests** (if GitLab is connected) section lists the merge/pull requests and their status. All merge/pull requests from all types of sources are shown here (for now, GitLab/GitHub/Azure/TFS/VSTS).
 
 The displayed information depends on which supported git hosts are connected to Jira. For example:
@@ -16,23 +17,43 @@ The displayed information depends on which supported git hosts are connected to 
 
 *   Both GitLab and GitHub integrations  –  separate sections for merge requests and pull requests
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For necessary permissions that GitLab users must have for creating pull/merge requests, see <a href='https://docs.gitlab.com/ee/user/permissions.html'><b>GitLab Documentation: Permissions</b></a>.
+    </div>
+    </div>
+</div>
 
-For necessary permissions that GitLab users must have for creating pull/merge requests, see [**GitLab Documentation: Permissions**](https://docs.gitlab.com/ee/user/permissions.html).
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This function does not work for single git repository connections. Use the Full feature integration instead.
+    </div>
+    </div>
+</div>
 
-This function does not work for single git repository connections. Use the Full feature integration instead.
+&nbsp;
 
-##
-Getting started
+## Getting started
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025925/gitcloud-devpanel-create-pullreq-sel.png?version=1&modificationDate=1637293973700&cacheVersion=1&api=v2&width=340&height=465)
+<img src='/wp-content/uploads/gij-gitcloud-devpanel-create-pullreq-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 If a git host is connected to Jira, create a pull/merge request by clicking **Create pull request** or **Create merge request** label link on the Jira Git integration development panel. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025925/gitcloud-create-pr-dlg.png?version=1&modificationDate=1635941712612&cacheVersion=1&api=v2&width=680&height=327)
+![](/wp-content/uploads/gij-gitcloud-create-pull-req-dlg)
 
 *   Select **Repository** from the list.
-    GITHUB If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
-    GITLAB If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
+    
+    <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>GITHUB</b> If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name.<br>For example, `BigBrassBand/second-webhook-test-repo`.
+
+    <b style='background-color:#FFEED1; padding:1px 5px; color:#CC5900; border-radius:3px; margin: 0 5px; font-size: small;'>GITLAB</b> If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab owner name.<br>For example, `johnsmith/second-webhook-test-repo`.
 
 *   Choose a branch as the **Source branch**. This branch will be merged to the target branch.
 
@@ -40,11 +61,19 @@ If a git host is connected to Jira, create a pull/merge request by clicking **C
 
 *   Enter a descriptive **Title** or leave it as is (recommended).
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>OPTIONAL</b><br>
+        Jira users can provide their own PATS even if they are not required/mandated by the Jira admin. Click on the <b>Provide a personal access token</b> label. A dialog for setting up personal access tokens is displayed (see below).
+    </div>
+    </div>
+</div>
 
-OPTIONAL
-Jira users can provide their own PATS even if they are not required/mandated by the Jira admin. Click on the **Provide a personal access token** label. A dialog for setting up personal access tokens is displayed (see below).
-
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025925/gitcloud-setup-pat-dlg.png?version=1&modificationDate=1635942313659&cacheVersion=1&api=v2&width=442&height=292)
+<img src='/wp-content/uploads/gij-gitcloud-setup-pat-dlg.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 *   Paste a valid PAT of the current user to proceed. Invalid PATs will fail the branch creation process.
 
@@ -57,8 +86,9 @@ Click **Create pull request** on the Create pull request dialog. The newly-cre
 
 This feature is available on connected GitLab, GitHub, Microsoft TFS/VSTS and AWS CodeCommit git hosts for Jira Cloud.
 
-##
-GitLab merge request
+&nbsp;
+
+## GitLab merge request
 
 If you want to create a merge request for GitLab, click **Create merge request**. It has the same process described in the pull request creation steps above.
 
@@ -66,28 +96,61 @@ The merge request is displayed on the developer panel and will also be associate
 
 *   Merge request **Title** contains the issue key. For example, `TEST-1-Fix-binaries`.
 
-
 This will also allow a service user to associate a Merge/Pull Request with multiple Jira issues regardless of commit associations.
 
-BigBrassBand recommends service users to enable pull/merge requests webhook trigger events. This way, any changes to pull/merge requests gets reindexed quickly.
-
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        BigBrassBand recommends service users to enable pull/merge requests webhook trigger events. This way, any changes to pull/merge requests gets reindexed quickly.
+    </div>
+    </div>
+</div>
 
 The Pull/merge request list provides status information about the pull/merge request if it is opened or merged. For example:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025925/gitcloud-devpanel-merge-req.png?version=1&modificationDate=1635943761256&cacheVersion=1&api=v2&width=340&height=154)
+<img src='/wp-content/uploads/gij-gitcloud-devpanel-merge-req.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 
 Hover the mouse pointer on the pull/merge request label to see information of the repository and branch where it belongs.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025925/gitcloud-devpanel-merge-req-hover.png?version=1&modificationDate=1635943769049&cacheVersion=1&api=v2&width=442&height=206)
+<img src='/wp-content/uploads/gij-gitcloud-devpanel-merge-req-hover.png' style='margin:25px auto;max-width:100%;display:block;' />
 
+&nbsp;
 * * *
 
-### Video Guide (UPDATED VIDEO COMING SOON)
+### Video Guide
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/1jwzeex5qa) _to open this video in a new tab/window for more viewing options._
+<b style='background-color:#FFEED1; padding:1px 5px; color:#CC5900; border-radius:3px; margin: 0 5px; font-size: small;'>UPDATED VIDEO COMING SOON</b>
 
-[Branches (Developer panel)](/git-integration-for-jira-cloud/branches-development-panel-gij-cloud)
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/1jwzeex5qa?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-[Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud/)
+<div align='center' style='margin:12px 0 25px 0'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/1jwzeex5qa'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+
+&nbsp;
+* * *
+
+[**Prev:** Branches (Developer panel)](/git-integration-for-jira-cloud/branches-development-panel-gij-cloud)
+
+[**Next:** Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud)
+
+&nbsp;
+
+### More related topics about Jira Git integration development panel
+
+[Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud/) (Git Integration for Jira Cloud)
+
+[Development panel locations](/git-integration-for-jira-cloud/development-panel-locations-gij-cloud/) (Git Integration for Jira Cloud)
+
+[Branches (Development panel)](/git-integration-for-jira-cloud/branches-development-panel-gij-cloud/) (Git Integration for Jira Cloud)
+
+**Pull or merge requests (Development panel)** (this page)
+
+[Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud) (Git Integration for Jira Cloud)
 

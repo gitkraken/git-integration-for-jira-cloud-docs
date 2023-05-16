@@ -6,11 +6,12 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 The Project page allows you to manage project related options.
 
 History of commits can also be viewed within the whole project scope. To do this, select a project then click the Git Commits tab. The format of commits is similar to that on the issue page.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1923026027/gitcloud-project-page.png?version=1&modificationDate=1636095881288&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-project-page.png)
 
 *   To view commit code diff information, click the **View full commit** button to the right of the commit message.
 
@@ -22,8 +23,10 @@ History of commits can also be viewed within the whole project scope. To do this
 
 *   Click **Open in GitKraken** button to open this commit in GitKraken git client app (if installed).
 
+&nbsp;
+* * *
 
-[Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud/)
+[**Prev:** Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud)
 
-[Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud/)
+[**Next:** Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud)
 

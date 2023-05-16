@@ -12,7 +12,7 @@ This page contains steps for creating personal access tokens (PATs) for specific
 **What's on this page:**
 - [GitHub and GitHub Enterprise](#github-and-github-enterprise)
 - [GitLab, GitLab CE and GitLab EE](#gitlab-gitlab-ce-and-gitlab-ee)
-- [Azure DevOps and Visual Studio Team Services (VSTS)](#azure-devops-andvisual-studio-team-services-vsts)
+- [Azure DevOps and Visual Studio Team Services (VSTS)](#azure-devops-and-visual-studio-team-services-vsts)
 - [Team Foundation Server (TFS) 2017 and newer](#team-foundation-server-tfs-2017-and-newer)
 - [Azure DevOps Server](#azure-devops-server)
 - [AWS CodeCommit](#aws-codecommit)
