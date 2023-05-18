@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- INTRODUCTION TO GIT INTEGRATION -->
+
 The Repository Browser permits users to explore the repository similar to browsing a folder in Finder or Windows Explorer. Enable/disable this feature via the [General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud) page.
 
 Go to the **Apps** menu on Jira dashboard then select **Git Integration: Repository browser** (_or specific repository if it appears under the **Apps** menu._)
@@ -17,7 +19,7 @@ The Repository Browser page is displayed.
 
 *   Click a repository to take you to the commit list for the selected repository:
 
-    *   Click the Edit ![](/wp-content/uploads/gij-edit-icon-dark.png) icon to set/change Jira issue commit association.
+    *   Click the ![](/wp-content/uploads/gij-edit-icon-dark.png) Edit icon to set/change Jira issue commit association.
 
     *   Use the **Compare** tab to view commit diff for compared branches.
 
@@ -33,4 +35,11 @@ The Repository Browser page is displayed.
     </div>
     </div>
 </div>
+
+&nbsp;
+* * *
+
+[**Prev:** Using Smart Commits](https://help.gitkraken.com/git-integration-for-jira-cloud/using-smart-commits-gij-cloud)
+
+[**Next:** Creating branches and pull/merge requests](/git-integration-for-jira-cloud/creating-branches-and-pull-merge-requests-gij-cloud)
 

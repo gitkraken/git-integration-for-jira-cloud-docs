@@ -7,22 +7,27 @@ taxonomy:
 
 ---
 
+**Covers release:** May 10th 2023
+
+Learn basic integration for most git hosts by connecting git repositories to Jira Cloud. This page contains simple
+
 <img src='/wp-content/uploads/gij-instant-integration-process.png' style='display:block;margin:25px auto;max-width:100%' width=500px /> 
 
 The Git Integration for Jira Cloud app offers three (3) types of integrations:
 
-*   Git service integration (recommended)
-
-*   Webhook indexing integration (special cases)
-
-*   Single repository integration (plain git)
-
+**Git service integration (recommended)**
 
 The **Git service integration** (formerly auto-connect/full feature integration) allows administrators to setup multiple repositories for integration with Jira. This is the recommended way and offers features not found in other integration types. _If you are behind a firewall, you need to_ [_whitelist the app_](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud/) _to get it to work._
 
+**Webhook indexing integration (special cases)**
+
 The **Webhook indexing integration** allows administrators to integrate multiple repositories behind a firewall. However, this type of integration does not support creating branches or pull/merge request inside Jira.
 
+**Single repository integration (plain git)**
+
 The **Single repository integration** setup is ideal for users who are using SSH connections or only connect a single specific repository.
+
+&nbsp;
 
 ## Getting started
 
