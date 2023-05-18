@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-<img src='/wp-content/uploads/gij-instant-integration-process.png' style='display:block;margin:25px auto;max-width:100%'> 
+<img src='/wp-content/uploads/gij-instant-integration-process.png' style='display:block;margin:25px auto;max-width:100%' width=500px /> 
 
 The Git Integration for Jira Cloud app offers three (3) types of integrations:
 
@@ -90,11 +90,11 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 *   [Creating branches and pull | merge requests](/git-integration-for-jira-cloud/creating-branches-and-pull-merge-requests-gij-cloud)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-[**» Next:** Connecting to a Single Git Repository (HTTP/HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
+[**Back to:** Integration guides index](/git-integration-for-jira-cloud/integration-guide-gij-cloud/)
+
+[**Next:** Connecting to a Single Git Repository (HTTP/HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
 

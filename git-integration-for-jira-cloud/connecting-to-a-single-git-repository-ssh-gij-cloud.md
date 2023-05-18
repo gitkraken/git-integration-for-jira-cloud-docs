@@ -43,14 +43,12 @@ You may also configure repository settings for this integration via:
 
 *   Manage repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ Edit repository ➜ Feature settings.
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-[**« Prev:** Connecting to a Single Git Repository (HTTP/HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
+[**Prev:** Connecting to a Single Git Repository (HTTP/HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
 
-[**» Next:** Setting up weblinks](/git-integration-for-jira-cloud/setting-up-weblinks-gij-cloud)
+[**Next:** Setting up weblinks](/git-integration-for-jira-cloud/setting-up-web-links-gij-cloud)
 
 

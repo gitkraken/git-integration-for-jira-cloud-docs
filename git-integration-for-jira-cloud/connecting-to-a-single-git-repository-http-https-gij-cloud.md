@@ -43,13 +43,11 @@ You may also configure repository settings for this integration via:
 
 *   Manage repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ Edit repository ➜ Feature settings.
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-[**« Prev:** Introduction to Git integration](/git-integration-for-jira-cloud/introduction-to-git-integration-gij-cloud)
+[**Prev:** Introduction to Git integration](/git-integration-for-jira-cloud/introduction-to-git-integration-gij-cloud)
 
-[**» Next:** Connecting to a Single Git Repository (SSH)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-ssh-gij-cloud)
+[**Next:** Connecting to a Single Git Repository (SSH)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-ssh-gij-cloud)
 

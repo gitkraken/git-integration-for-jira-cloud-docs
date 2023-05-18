@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 ### Git
 
 Git is a term used for version control system to easily track changes in one or more of files. Git is a source code repository where developers keep track of their source code using Git.
@@ -44,6 +45,10 @@ Lucene is an index service within your Jira instance. It ships with Jira and Git
 
 This database stores information about all commits _(comment, author, etc)_ as well as the branch name which the commit belongs to.
 
-[« Localization support](/git-integration-for-jira-cloud/localization-support-gij-cloud)
+&nbsp;
+* * *
 
-[Licensing notice »](/git-integration-for-jira-cloud/licensing-notice-gij-cloud)
+[**Prev:** Localization support](/git-integration-for-jira-cloud/localization-support-gij-cloud)
+
+[**Next:** Licensing notice](/git-integration-for-jira-cloud/licensing-notice-gij-cloud)
+

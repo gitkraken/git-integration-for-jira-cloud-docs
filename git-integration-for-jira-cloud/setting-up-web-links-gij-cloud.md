@@ -25,3 +25,10 @@ For single git repository integration, web link setup is optional. However, git 
 
 For more information, see [Documentation: Web Linking](/git-integration-for-jira-cloud/web-linking-gij-cloud).
 
+&nbsp;
+* * *
+
+[**Prev:** Connecting to a Single Git Repository (SSH)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-ssh-gij-cloud)
+
+[**Next:** Link git commits to Jira issue](/git-integration-for-jira-cloud/link-git-commits-to-jira-issue-gij-cloud)
+
