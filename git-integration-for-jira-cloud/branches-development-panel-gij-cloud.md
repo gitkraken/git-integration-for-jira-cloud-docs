@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 The **Branches** section lists the branches names, linking the selected branch to view via the Repository browser.
 
 The branch is displayed on the developer panel and is also associated to the mentioned Jira issue by fulfilling one of the following conditions:
@@ -17,15 +18,26 @@ The branch is displayed on the developer panel and is also associated to the men
 
 The branch panel will show a summary of all the unmerged branches (regardless of the number of commits and the number of repositories) -- that either contain the name of the issue or have unmerged commits that reference the issue. This also gives users a view into the behind/ ahead status and provide links to the Repository browser for those branch names.
 
-For example, `TST-1-new-branch` branch will be visible on the developer panel of the **TST-1** issue page even if the `TST-1-new-branch` branch has just been forked from master and does not have any new commit.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For example, <code>TST-1-new-branch</code> branch will be visible on the developer panel of the **TST-1** issue page even if the <code>TST-1-new-branch</code> branch has just been forked from master and does not have any new commit.
+    </div>
+    </div>
+</div>
+
+&nbsp;
 
 ## Create branch
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025879/gitcloud-devpanel-create-branch-sel.png?version=1&modificationDate=1637285634240&cacheVersion=1&api=v2&width=340&height=461)
+<img src='/wp-content/uploads/gij-gitcloud-devpanel-create-branch-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 Click **Create branch** on the Jira Git integration development panel to create a branch for the selected repository. The following dialog is displayed:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025879/gitcloud-create-branch-dlg.png?version=1&modificationDate=1635754515240&cacheVersion=1&api=v2&width=680&height=331)
+![](/wp-content/uploads/gij-gitcloud-issue-dev-panel-create-branch-dlg)
 
 1.  Select a **Repository**. _(Optional - click Make default to set this repository as default for branch and PR/MR creation dialogs)._
     GITHUB If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `bbb-devs/test-repo`.
@@ -35,11 +47,20 @@ Click **Create branch** on the Jira Git integration development panel to creat
 
 3.  The Git Integration for Jira app will populate the **Branch name** field according to the _Branch Name Template_ declared in the [**Git Integration Options**](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud) via **General Settings**. Enter a descriptive name or leave it as is (recommended).
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>OPTIONAL</b><br>
+        Jira users can provide their own PATS even if they are not required/mandated by the Jira admin.
+    </div>
+    </div>
+</div>
 
-OPTIONAL
-Jira users can provide their own PATS even if they are not required/mandated by the Jira admin.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025879/gitcloud-setup-pat-dlg.png?version=1&modificationDate=1635934059039&cacheVersion=1&api=v2&width=442&height=292)
+<img src='/wp-content/uploads/gij-gitcloud-setup-pat-dlg.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 *   Click on the **Provide a personal access token** label. The above dialog appears.
 
@@ -52,11 +73,22 @@ Jira users can provide their own PATS even if they are not required/mandated by 
 *   Click **Create branch**. The newly-created branch is now listed in the developer panel under **Branches**.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1923025879/gitcloud-devpanel-branches-list.png?version=2&modificationDate=1635943185503&cacheVersion=1&api=v2&width=340&height=156)
+<img src='/wp-content/uploads/gij-gitcloud-devpanel-branches-list.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 Clicking the icons adjacent to the right of the branch name will open this branch in your remote git host portal or open this branch in GitKraken git client app. 
 
-This feature is available on connected GitLab, GitHub, Microsoft TFS/VSTS and AWS CodeCommit git hosts for Jira Cloud.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This feature is available on connected GitLab, GitHub, Microsoft TFS/VSTS and AWS CodeCommit git hosts for Jira Cloud.
+    </div>
+    </div>
+</div>
+
+&nbsp;
 
 ## Commits ahead and behind
 
@@ -66,9 +98,57 @@ The numbers **ahead** and **behind** represent the number of commits that ar
 
 *   **Behind**  –  number of commits in the main branch which are not merged to the branch.
 
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">        
+        The <b>*Branches</b> section is only visible if commits from this branch are not merged to the <i><b>main branch</b></i>. It's also not displayed if the repository is not associated with a project.
+    </div>
+    </div>
+</div>
 
-The **Branches** section is only visible if commits from this branch are not merged to the _**main branch**_.  It's also not displayed if the repository is not associated with a project.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If the user does not have the <b>View Development Tools</b> <i>project permission</i> for the project, the developer panel will be unavailable for that user.
+    </div>
+    </div>
+</div>
 
-If the user does not have the **View Development Tools** _project permission_ for the project, the developer panel will be unavailable for that user.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For detailed information about creating branches, see article <i><b>Creating branches</b></i>.
+    </div>
+    </div>
+</div>
 
-For detailed information about creating branches, see article _**Creating branches**_.
+&nbsp;
+* * *
+
+[**Prev:** Development panel locations](/git-integration-for-jira-cloud/development-panel-locations-gij-cloud)
+
+[**Next:** Pull or merge requests (Development panel)](/git-integration-for-jira-cloud/pull-or-merge-requests-development-panel-gij-cloud)
+
+&nbsp;
+
+### More related topics about Jira Git integration development panel
+
+[Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud) (Git Integration for Jira Cloud)
+
+[Development panel locations](/git-integration-for-jira-cloud/development-panel-locations-gij-cloud) (Git Integration for Jira Cloud)
+
+**Branches (Development panel)** (this page)
+
+[Pull or merge requests (Development panel)](/git-integration-for-jira-cloud/pull-or-merge-requests-development-panel-gij-cloud) (Git Integration for Jira Cloud)
+
+[Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud) (Git Integration for Jira Cloud)
+

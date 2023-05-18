@@ -19,14 +19,20 @@ taxonomy:
 
 Open a Jira issue then go to the Git Commits tab.  In this tab, you will see commits, files changed, links to external repository, commit author and more.
 
-<img srr='/wp-content/uploads/gij-gitcloud-git-commits-example.png' style='display:block;margin:25px auto 15px auto;max-width:100%'/>
+<img srr='/wp-content/uploads/gij-gitcloud-git-commits-example-new.png' style='display:block;margin:25px auto 15px auto;max-width:100%'/>
 
-<div align=center style='margin-bottom:30px'><i>In the above example, the issue key **TEST-1** text is inserted into a git commit message <br>to link the commit to this Jira issue.</i></div>
+<div align=center style='margin-bottom:30px'><i>In the above example, the issue key <b>TEST-1</b> text is inserted into a git commit message <br>to link the commit to this Jira issue.</i></div>
 
 The git commit will get associated with the Jira issue if the commit message includes the exact issue ID. The Git Integration for Jira app will automatically index new commits and associate the referenced issue. For better readability, place the issue key text at the start of the commit message.
 
-### Git administrator »
+#### Git administrator »
 
 If you want to enforce the commit with a hook, please install this Git commit hook script - [Commit-msg Hook](/git-integration-for-jira-cloud/commit-msg-hook-gij-cloud).
 
+&nbsp;
+* * *
+
+[**Prev:** Setting up web links](/git-integration-for-jira-cloud/setting-up-web-links-gij-cloud/)
+
+[**Next:** Using Smart commits](/git-integration-for-jira-cloud/using-smart-commits-gij-cloud/)
 

@@ -36,7 +36,10 @@ To switch to another language:
 
 4.  Go back to your Jira Cloud instance to see the changes.
 
+&nbsp;
+* * *
 
-[Indexing triggers (formerly Webhooks)](/git-integration-for-jira-cloud/indexing-triggers-formerly-webhooks-gij-cloud)
+[**Prev:** Indexing triggers (formerly Webhooks)](/git-integration-for-jira-cloud/indexing-triggers-formerly-webhooks-gij-cloud)
 
-[Glossary of terms](/git-integration-for-jira-cloud/glossary-of-terms-gij-cloud)
+[**Next:** Glossary of terms](/git-integration-for-jira-cloud/glossary-of-terms-gij-cloud)
+

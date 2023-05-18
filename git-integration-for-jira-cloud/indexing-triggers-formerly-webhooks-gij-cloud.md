@@ -15,7 +15,7 @@ Most git providers will also allow you to create webhooks at an account-level or
 
 Setup webhooks for your configured integration/repositories from remote systems by enabling the feature first.
 
-<img src='/wp-content/uploads/gij-gitcloud-indexing-triggers-loc.png' style='display:block;margin:25px auto;max-width:100%' />
+![](/wp-content/uploads/gij-gitcloud-indexing-triggers-loc-new.png)
 
 1.  From your Jira dashboard, go to the **Apps** menu.
 
@@ -38,20 +38,25 @@ Use this key in the form of:
 <JIRA_BASE_URL>/git/webhook/reindex/<SECRET_KEY>
 ```
 
-All the repositories will be reindexed if the URL specified above is activated through `GET`, `POST`, or `PUT` and the webhooks are enabled.
-
-There is no support for other HTTP methods such as  `DELETE`  or  `HEAD` .
-
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        All the repositories will be reindexed if the URL specified above is activated through <code>GET</code>, <code>POST</code>, or <code>PUT</code> and the webhooks are enabled.
+        <p style='margin-bottom:-10px'>There is no support for other HTTP methods such as  <code>DELETE</code>  or  <code>HEAD</code>.</p>
+    </div>
+    </div>
+</div>
 
 See [About indexing triggers in Jira Cloud](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud) for a more detailed information on this topic.
 
 For more information about triggers and event types, see [Creating reindex triggers for a single repository](/git-integration-for-jira-cloud/creating-indexing-triggers-for-a-single-repository-gij-cloud).
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 [**Prev:** Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud/)
 
