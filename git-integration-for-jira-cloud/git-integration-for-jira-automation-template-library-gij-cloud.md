@@ -6,16 +6,18 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 Let automation do the work while your developers focus on what’s important.  Automation Templates for Git Integration for Jira can be implemented so you never need to start from scratch. We’ve provided some templates we think are useful so you don't need to create your own automation rules from scratch.
 
 \*All of the templates from [Atlassian’s template library](https://www.atlassian.com/software/jira/automation-template-library/bitbucket-github-gitlab) will work with Git Integration for Jira
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1595736065/index.png?version=2&modificationDate=1620328012045&cacheVersion=1&api=v2&width=340&height=280)
+<img src='/wp-content/uploads/gij-automation-library-template.png' style='margin:25px auto;max-width:100%;display:block;height:auto;width:470px;' />
 
 **With Git Integration for Jira you can integrate any Git repository with Jira.  And better yet, you can make use of any of our handy automation templates, or use Atlassian’s!**
 
 You can write your own templates using [Atlassian's no-code Jira automation engine](https://www.atlassian.com/software/jira/features/automation).
 
+&nbsp;
 ### Available templates from Atlassian for Git Integration for Jira users:
 
 Here are some templates from Atlassian you can use as a guide for some of the most common uses:
@@ -26,6 +28,7 @@ Here are some templates from Atlassian you can use as a guide for some of the mo
 
 *   [When a commit is created then send Slack message based on assignee](https://www.atlassian.com/software/jira/automation-template-library/rules#/rule/1357149).
 
+&nbsp;
 
 ### And here’s some handy use cases for automation for Git Integration for Jira users:
 
@@ -33,6 +36,7 @@ Here are some templates from Atlassian you can use as a guide for some of the mo
 
 *   Transition issue state when pull/merge request is merged. For example: from IN PROGRESS to DONE.
 
+&nbsp;
 
 ### For more powerful conditions:
 
@@ -52,13 +56,15 @@ Here are some templates from Atlassian you can use as a guide for some of the mo
 
     *   See the full list of [available smart values](https://support.atlassian.com/jira-software-cloud/docs/smart-values-development/)
 
+&nbsp;
 
 ### Supported triggers:
 
 We currently support the 5 highlighted triggers depicted below, and we will support all of these triggers in coming releases.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1595736065/image.jpg?version=1&modificationDate=1625146998595&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-jira-cloud-automation-supported-triggers.png' style='margin:25px auto;width:566px;height:auto;display:block;max-width:100%;' />
 
 ### Setup:
 
 [Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud)
+
