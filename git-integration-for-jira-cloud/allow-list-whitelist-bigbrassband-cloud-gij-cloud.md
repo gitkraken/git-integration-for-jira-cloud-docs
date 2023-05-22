@@ -1,6 +1,6 @@
 ---
 
-title: Allow list (whitelist) BigBrassBand Cloud
+title: Allow list (whitelist) GIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -13,14 +13,14 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The information on this page is for BigBrassBand Atlassian Cloud products only. These currently include Git Integration for Jira Cloud and Dev Info for Jira Cloud.
-        <p style='margin-bottom:0px !important'>Jira Server and Jira Data Center products are not hosted by BigBrassBand.</p>
+        The information on this page is for GIJ Atlassian Cloud products only. These currently include Git Integration for Jira Cloud and Dev Info for Jira Cloud.
+        <p style='margin-bottom:0px !important'>Jira Server and Jira Data Center products are not hosted by GIJ or GitKraken.</p>
     </div>
     </div>
 </div>
 <br>
 
-If using restrictive firewall or proxy server settings, you or your network admin will need to allow (allow list / whitelist) a specific IP  address to ensure BigBrassBand Cloud applications work as expected. Specifically – if your team hosts a private git server (GitHub Enterprise, GitLab CE/EE, Microsoft TFS or Azure DevOps Server, Gerrit, Bitbucket Server, or a plain git server).
+If using restrictive firewall or proxy server settings, you or your network admin will need to allow (allow list / whitelist) a specific IP  address to ensure GIJ Cloud applications work as expected. Specifically – if your team hosts a private git server (GitHub Enterprise, GitLab CE/EE, Microsoft TFS or Azure DevOps Server, Gerrit, Bitbucket Server, or a plain git server).
 
 Alternatively, you can use our [Webhook indexing feature](#Webhooks-indexing-integration-for-private-networks) to avoid incoming API requests.
 
@@ -28,7 +28,7 @@ Alternatively, you can use our [Webhook indexing feature](#Webhooks-indexing-int
 
 ## Allow list IP address for self-hosted git repositories
 
-We support [Atlassian’s Data Residency](https://www.atlassian.com/software/data-residency) hosting model where customer’s Jira Cloud instances can be assigned to a specific geographic region. We currently support hosting specifically in the USA and EU. Customers not pinned to a specific geographic region are assigned to the Global region (which we host in the USA). All applications and data are hosted in Amazon Web Services (AWS). For more information - see our [Trust & Security](https://bigbrassband.com/security-and-trust.html) page.
+We support [Atlassian’s Data Residency](https://www.atlassian.com/software/data-residency) hosting model where customer’s Jira Cloud instances can be assigned to a specific geographic region. We currently support hosting specifically in the USA and EU. Customers not pinned to a specific geographic region are assigned to the Global region (which we host in the USA). All applications and data are hosted in Amazon Web Services (AWS). For more information - see our [Trust & Security](https://www.gitkraken.com/git-integration-for-jira/security-and-trust) page.
 
 How to find out which geographic region your Git Integration for Jira Cloud application is hosted at - see…
 
@@ -94,7 +94,7 @@ For customers that are hosted on the Australia stack, set the allow list/whiteli
 
 ## Ports
 
-To allow self-hosted git repositories to be indexed by BigBrassBand Cloud applications - the following port(s) may be necessary to be open:
+To allow self-hosted git repositories to be indexed by GIJ Cloud applications - the following port(s) may be necessary to be open:
 
 | Protocol | Port | Notes |
 | :--- | :--- | :--- |
@@ -174,7 +174,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 52.64.118.63  
 13.238.136.180
 
-If you use these IP addresses for allow listing - we ask that you contact us at [support@gitkraken.com](mailto:support@gitkraken.com) so we can notify you if these IP addresses are ever changed.
+If you use these IP addresses for allow listing - we ask that you contact us at [GIJ Cloud Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) so we can notify you if these IP addresses are ever changed.
 
 ## Reachable network address
 
@@ -214,13 +214,13 @@ For more information on this feature, see the following articles:
 
     *   [Microsoft](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud)
 
-## BigBrassBand Cloud apps
+## GIJ Cloud apps
 
 [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview)
 
 [Dev Info for Jira Cloud](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview)
 
-## Support
+## GIJ Cloud Support
 
-If you need additional support connecting your self-hosted git servers or repositories - please contact [BigBrassBand Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
+If you need additional support connecting your self-hosted git servers or repositories - please contact [GIJ Cloud Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
