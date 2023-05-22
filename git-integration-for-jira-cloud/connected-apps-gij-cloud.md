@@ -25,7 +25,7 @@ When enabled, this feature adds the deep linking feature to open commits, branch
 
 &nbsp;
 
-[**Prev:** User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud)
+[**Prev:** User Settings (index)](/git-integration-for-jira-cloud/user-settings-gij-cloud)
 
 [**Next:** Default branch feature](/git-integration-for-jira-cloud/default-branch-feature-gij-cloud)
 
