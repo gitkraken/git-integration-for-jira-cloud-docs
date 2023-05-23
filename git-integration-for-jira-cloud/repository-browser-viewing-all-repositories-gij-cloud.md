@@ -14,7 +14,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         <b>Default Settings</b><br>
-        <ul>
+        <ul style='margin-bottom:0px'>
             <li>
                 By default, <a href="https://marketplace.atlassian.com/4984" target="_blank">Git Integration for Jira</a> ) has the Repository Browser enabled. (<a href="#">How to disable</a>)
             </li>
@@ -36,9 +36,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
+&nbsp;
 * * *
+&nbsp;
 
 ## Introduction
 
@@ -54,10 +55,11 @@ The Repository Browser is a feature that offers a view into your connected repos
 
 *   [Personal Access Token management](#Personal-access-column)
 
+&nbsp;
 
 ## Repository browser
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/138706958/gitcloud-repo-browser-page-access.png?version=1&modificationDate=1638605147556&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-repo-browser-page-access-feature.png)
 
 To access the Repository browser:
 
@@ -83,7 +85,7 @@ While on the Repository browser page:
 
 Jira administrators can configure git integrations (example: GitHub, GitLab) to require that Jira users create and provide their own [Personal Access Token](/git-integration-for-jira-cloud/personal-access-token-feature-gij-cloud) to enable features like creating branches, pull request or merge request via Jira Git integration development panel inside Jira.
 
-<div class="bbb-callout bbb--info">
+<div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
@@ -109,7 +111,7 @@ Jira administrators can configure git integrations (example: GitHub, GitLab) to 
 
 4.  Click **Update** button.
 
-    ![](/wp-content/uploads/gij-gitcloud-gencfg-repo-browser.png)
+    ![](/wp-content/uploads/gij-gitcloud-gencfg-repo-browser-new.png)
 
 <br>
 

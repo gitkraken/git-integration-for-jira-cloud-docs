@@ -62,7 +62,7 @@ Here are some templates from Atlassian you can use as a guide for some of the mo
 
 We currently support the 5 highlighted triggers depicted below, and we will support all of these triggers in coming releases.
 
-<img src='/wp-content/uploads/gij-jira-cloud-automation-supported-triggers.png' style='margin:25px auto;width:566px;height:auto;display:block;max-width:100%;' />
+<img src='/wp-content/uploads/gij-gij-jira-cloud-automation-supported-triggers.png' style='margin:25px auto;width:566px;height:auto;display:block;max-width:100%;' />
 
 ### Setup:
 
