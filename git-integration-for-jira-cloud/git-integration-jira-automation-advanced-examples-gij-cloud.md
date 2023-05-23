@@ -11,22 +11,14 @@ taxonomy:
 
 &nbsp;
 
-<div style='margin-bottom:25px;display:block;'>
-    <img src='/wp-content/uploads/gij-automation-branch-01.png' width=321 height=413 style='margin-right:15px;' />
-    <img src='/wp-content/uploads/gij-automation-commit-01.png' width=313 height=411 style='float:right;margin-left:15px;' />
-</div>
+| Examples | Examples |
+| :---: | :---: |
+| <img src='/wp-content/uploads/gij-automation-branch-01.png' width=321 height=413 style='vertical-align:top;' /> | <img src='/wp-content/uploads/gij-automation-commit-01.png' width=313 height=411 style='vertical-align:top;' /> |
+| <img src='/wp-content/uploads/gij-automation-pullreq-01.png' width=324 height=447 style='vertical-align:top;' /> | <img src='/wp-content/uploads/gij-automation-pullreq-02.png' width=340 height=462 style='vertical-align:top;' /> |
+| <img src='/wp-content/uploads/gij-automation-branch-conditional-01.png' width=330 height=636 style='vertical-align:top;' /> | <img src='/wp-content/uploads/gij-automation-issue-condition-01.png' width=322 height=563 style='vertical-align:top;' /> |
 
-<div style='margin-bottom:40px;display:block;'>
-    <img src='/wp-content/uploads/gij-automation-pullreq-01.png' width=324 height=447 style='margin-right:15px;' />
-    <img src='/wp-content/uploads/gij-automation-pullreq-02.png' width=340 height=462 style='float:right;margin-left:15px' />
-</div>
+<p>&nbsp;</p>
 
-<div style='margin-bottom:25px;display:block;'>
-    <img src='/wp-content/uploads/gij-automation-branch-conditional-01.png' width=330 height=636 style='margin-right:15px' />
-    <img src='/wp-content/uploads/gij-automation-issue-condition-01.png' width=322 height=563 style='float:right;margin-left:15px;' />
-</div>
-
-&nbsp;
 ### More Jira automation information
 
 [Automation basics](https://www.atlassian.com/software/jira/guides/expand-jira/automation)

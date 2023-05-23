@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- FEATURES -->
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -14,7 +16,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         <b>Jira administrator notes</b><br>
-        <ul>
+        <ul style='margin-bottom:0px'>
             <li>
                 Jira users can now provide their own personal access tokens (PAT) even if they are not required/mandated by the Jira admin. See <a href="/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud">Require Personal Access Tokens for user actions (create branch/pull request)</a> for instructions on how to configure this feature.
             </li>
@@ -40,7 +42,8 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## Introduction
 
@@ -49,6 +52,8 @@ The **Create pull request** feature offers Jira users the ability to create a gi
 ![](/wp-content/uploads/gij-create-pull-request.png)
 
 For information about creating a branch from a Jira issue - see [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud).
+
+&nbsp;
 
 ## Advantages
 
@@ -59,6 +64,8 @@ When creating a pull request from within Jira:
 *   Require each Jira user to provide their Personal Access Token for creating pull requests. This option adds some friction to creating pull requests/branches but enabling this setting will enforce the git server user permissions as well as give better attribution for the actions. See [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud) for more information.
 
 *   Each Jira user can set a **Default repository** for the current Jira project. (See User settings for more information).
+
+&nbsp;
 
 ## Supported
 
@@ -77,6 +84,8 @@ When creating a pull request from within Jira:
 *   Company-managed and Team-managed Jira projects supported.
 
 *   New and old Jira Issue View supported.
+
+&nbsp;
 
 ## Steps to creating a git pull request in Jira
 
@@ -106,6 +115,8 @@ When creating a pull request from within Jira:
 
 9.  Click **Create pull request**.
 
+&nbsp;
+
 ## Video: Creating pull request from Git Development panel
 
 <div class='embed-container' style='padding-bottom:77.71%'>
@@ -115,8 +126,8 @@ When creating a pull request from within Jira:
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/rsccl5wxps'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
+
+&nbsp;
 
 ## Video: Creating pull request from Git Source Code panel
 

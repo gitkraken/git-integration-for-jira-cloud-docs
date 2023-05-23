@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- FEATURES -->
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -14,7 +16,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         <b>Jira administrator notes</b><br>
-        <ul>
+        <ul style='margin-bottom:0px'>
             <li>
                 Jira users can now provide their own personal access tokens (PAT) even if they are not required/mandated by the Jira admin. See <a href="/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud">Require Personal Access Tokens for user actions (create branch/pull request)</a> for instructions on how to configure this feature.
             </li>
@@ -29,9 +31,9 @@ taxonomy:
     </div>
 </div>
 
-<br>
-<hr>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 ## Introduction
 
@@ -41,6 +43,8 @@ The Create branch feature offers Jira users the ability to create a git branch d
 
 
 For information about creating pull/merge requests from a Jira issue - see [Create pull or merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
+
+&nbsp;
 
 ## Advantages
 
@@ -53,6 +57,8 @@ When creating a branch from within Jira:
 *   Require each Jira user to provide their Personal Access Token for creating branches. This option adds some friction to creating branches/pull requests but enabling this setting will enforce the git server user permissions as well as give better attribution for the actions. See [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud) for more information.
 
 *   Each Jira user can set a **Default repository** for the current Jira project. (See [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) for more information).
+
+&nbsp;
 
 ## Supported
 
@@ -71,6 +77,8 @@ When creating a branch from within Jira:
 *   Company-managed and Team-managed Jira projects supported.
 
 *   New and old Jira Issue View supported.
+
+&nbsp;
 
 ## Steps to creating a git branch in Jira
 
@@ -98,6 +106,8 @@ When creating a branch from within Jira:
 
 8.  Click **Create branch**.
 
+&nbsp;
+
 ## Video: Creating branch via Git Development panel
 
 <div class='embed-container' style='padding-bottom: 82.08%'>
@@ -107,8 +117,8 @@ When creating a branch from within Jira:
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/8cy7v6ykug'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
+
+&nbsp;
 
 ## Video: Creating branch from Git Source Code panel
 

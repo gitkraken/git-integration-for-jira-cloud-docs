@@ -14,13 +14,13 @@ taxonomy:
     </div>
     <div class="imsgbox">
         <b>Features</b><br>
-        <ul>
+        <ul style='margin-bottom:0px'>
             <li>
                 By default, <a href="https://marketplace.atlassian.com/4984" target="_blank">Git Integration for Jira</a> has the Git Source Code Panel enabled. (<a href="#how-can-a-jira-administrator-enable-or-disable-the-issue-git-source-code-panel">How to disable</a>)
             </li>
             <li>
                 By default, <a href="https://marketplace.atlassian.com/1219270" target="_blank">Dev Info for Jira</a> has the Git Source Code Panel disabled. (<a href="#how-can-a-jira-administrator-enable-or-disable-the-issue-git-source-code-panel">How to enable</a>)
-            <li>
+            </li>
         </ul>
     </div>
     </div>
@@ -38,7 +38,9 @@ taxonomy:
 </div>
 <br>
 
+&nbsp;
 * * *
+&nbsp;
 
 ## Introduction
 
@@ -52,13 +54,13 @@ The Issue Git Source Code Panel displays:
 
 *   Tags: git tags associated to Jira issue (via associated commit). Tags are sometimes referred to as Releases in some products.
 
-<br>
+&nbsp;
 
 ## Git Source Code Panel (old issue view)
 
 ![](/wp-content/uploads/gij-git-cloud-oldview-source-code-panel.png)
 
-<br>
+&nbsp;
 
 ## Git Source Code Panel (New issue view & next-gen projects)
 
@@ -66,7 +68,7 @@ The Git Commits Issue tab lists the git commits associated to the Jira issue gr
 
 ![](/wp-content/uploads/gij-git-cloud-newview-source-code-panel.png)
 
-<br>
+&nbsp;
 
 ## How can a Jira administrator enable or disable the Issue Git Source Code Panel?
 
@@ -80,7 +82,7 @@ The Git Commits Issue tab lists the git commits associated to the Jira issue gr
 
 ![](/wp-content/uploads/gij-gitcloud-general-settings-git-source-code-panel.png)
 
-<br>
+&nbsp;
 
 For detailed information about this feature, see [Documentation: Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud).
 

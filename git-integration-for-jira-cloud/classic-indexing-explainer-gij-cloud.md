@@ -24,9 +24,9 @@ taxonomy:
   - [Indexing errors](#indexing-errors)
 - [Branch and pull/merge request name index triggers](#branch-and-pullmerge-request-name-index-triggers)
 
-<br>
-<hr>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app automatically indexes commits, branches, tags, and pull/merge requests. Previously, all repositories and integrations were updated on a strict schedule – which is approximately every 8 minutes after the last indexing process has finished for an account. This worked for small accounts and provided consistency but was inefficient with large accounts (many with repositories that rarely change).
 
@@ -43,7 +43,8 @@ Starting on October 28, 2019, indexing is now calculated based on per repository
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## How is git data indexed?
 
@@ -60,7 +61,20 @@ See our [Privacy Policy](https://www.gitkraken.com/privacy-gij) and [Data Deleti
 | Merge requests | API |
 | List of repositories | API |
 
+&nbsp;
+
 ## Automatic indexing
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Indexing is not run on disabled integrations/repositories.
+    </div>
+    </div>
+</div>
 
 ### Indexing repositories
 
@@ -123,11 +137,22 @@ The table below describes the automatic indexing period limits:
 
 ## Manual indexing
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Indexing is not run on disabled integrations/repositories.
+    </div>
+    </div>
+</div>
+
 ### Reindex all
 
 All repositories and integrations can be updated manually via the Manage Git repositories screen by selecting the **Reindex All** button:
 
-![Git Cloud manage git repositories page highlighting Reindex All](/wp-content/uploads/gij-gitcloud-reindex-all-iex.png)
+![Git Cloud manage git repositories page highlighting Reindex All](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-02.png)
 
 <br>
 
@@ -135,7 +160,7 @@ All repositories and integrations can be updated manually via the Manage Git rep
 
 Repositories can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex repository**:
 
-![Git Cloud manage git repositories page highlighting Reindex repository action](/wp-content/uploads/gij-gitcloud-reindex-repo-iex.png)
+![Git Cloud manage git repositories page highlighting Reindex repository action](/wp-content/uploads/gij-gitcloud-gitmgr-actions-reindex-repo.png)
 
 <br>
 
@@ -143,7 +168,7 @@ Repositories can be updated manually via the Manage git repositories screen by o
 
 Integrations can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex integration**:
 
-![Git Cloud manage git repositories page highlighting Reindex integration action](/wp-content/uploads/gij-gitcloud-reindex-integration-iex.png)
+![Git Cloud manage git repositories page highlighting Reindex integration action](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-01.png)
 
 <br>
 
@@ -151,11 +176,11 @@ Integrations can be updated manually via the Manage git repositories screen by o
 
 | Status | Description |
 | :--- | :--- |
-| INDEXED | Integration or repository has been indexed and no errors were detected. |
-| QUEUED | Integration or repository is actively queued for indexing. |
-| INDEXING | Indexer is actively checking integration or repository for changes. |
-| ERROR | Integration has at least one repository in an error state (and not updating) and at least one repository was successfully updated. |
-| ERROR | Integration or all repositories are in an error state and are not updating. |
+| <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXED</b> | Integration or repository has been indexed and no errors were detected. |
+| <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>QUEUED</b> | Integration or repository is actively queued for indexing. |
+| <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXING</b> | Indexer is actively checking integration or repository for changes. |
+| <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> | Integration has at least one repository in an error state (and not updating) and at least one repository was successfully updated. |
+| <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> | Integration or all repositories are in an error state and are not updating. |
 
 ## Indexing definitions
 
