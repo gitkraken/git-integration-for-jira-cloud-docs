@@ -195,7 +195,7 @@ Git Integration for Jira Data Center</th>
     <tr>
       <td>▶&nbsp; Git Commits Issue and Project Tabs (project selector)</td>
       <td><img src="/wp-content/uploads/gij-matrix-open-check-green.png" width="20" height="20"></td>
-      <td><img src="/wp-content/uploads/gij-matrix-open-check-green.png" width="20" height="20"> (no project selector)</td>
+      <td><img src="/wp-content/uploads/gij-matrix-open-check-green.png" width="20" height="20"> &nbsp;(no project selector)</td>
     </tr>
     <tr>
       <td>▶&nbsp; Allow new commits to change Last Updated field</td>
@@ -360,7 +360,7 @@ Git Integration for Jira Data Center</th>
     <tr style='background-color:rgba(222, 222, 222, 0.2);color:#dedede'>
       <td><b>REST API</b>  (Reindex, Bulk Change, Repositories, Commits, Branches, Tags etc.)</td>
       <td><img src="/wp-content/uploads/gij-matrix-open-check-green.png" width="20" height="20"></td>
-      <td><img src="/wp-content/uploads/gij-matrix-open-not-red.png" width="20" height="20"> <a href='https://trello.com/c/uJOnC3nF'>(in backlog)</a></td>
+      <td><img src="/wp-content/uploads/gij-matrix-open-not-red.png" width="20" height="20"> &nbsp;<a href='https://trello.com/c/uJOnC3nF'>(in backlog)</a></td>
     </tr>
     <tr style='background-color:rgba(222, 222, 222, 0.2);color:#dedede'>
       <td><b>Git Commit issue tab</b>  (show commits, code diff, and weblinks to git service)</td>
@@ -502,7 +502,7 @@ Git Integration for Jira Data Center</th>
     </div>
     <div class="imsgbox">
         When connecting a self-hosted git server to <a href='https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview'><b>Git Integration for Jira Cloud</b></a>, the git server must have a publicly addressable + route-able address. For example, <a href='http://github.com/'>GitHub.com</a>, <a href='https://dev.azure.com/'>MS Azure</a>, <a href='http://gitlab.com/'>GitLab.com</a> and other services hosted on the "public cloud" work without any administrator interventions.
-        <p style='margin-bottom: 0 !important'>For more information, see <a href='/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud'>Whitelist BigBrassBand Cloud</a>.</p>
+        <p style='margin-bottom:-10px'>For more information, see <a href='/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud'>Whitelist BigBrassBand Cloud</a>.</p>
     </div>
     </div>
 </div>
@@ -524,7 +524,7 @@ Git Integration for Jira Data Center</th>
             <li><code>gitBranch in (Version-5.2, Version-5.3)</code></li>
         </ul>
         <p><b>Git Integration for Jira Cloud</b></p>
-        <ul>
+        <ul style=''>
             <li><code>development[commits].all > 15</code></li>
             <li><code>development[pullrequests].open > 0</code></li>
         </li>

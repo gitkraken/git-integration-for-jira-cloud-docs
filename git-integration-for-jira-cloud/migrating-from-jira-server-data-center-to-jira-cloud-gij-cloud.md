@@ -37,7 +37,8 @@ When connecting a self-hosted git server to [**Git Integration for Jira Cloud**]
 
 For more information, see: [**Allowlist (whitelist) GIJ Cloud**](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud)
 
-**Known Atlassian issue:** We highly recommend testing your Jira migration to the Cloud on a test Jira Cloud site. [AC-1528](https://ecosystem.atlassian.net/browse/AC-1528) is a bug in Atlassian Jira Cloud that breaks all Jira Cloud Atlassian Marketplace apps when a new project import is made. When migrating your users to Jira Cloud – we recommend installing and configuring the Git Integration for Jira Cloud app **after** all of your Jira users/projects/issues data is imported and verified.
+**Known Atlassian issue:**<br>
+We highly recommend testing your Jira migration to the Cloud on a test Jira Cloud site. [AC-1528](https://ecosystem.atlassian.net/browse/AC-1528) is a bug in Atlassian Jira Cloud that breaks all Jira Cloud Atlassian Marketplace apps when a new project import is made. When migrating your users to Jira Cloud – we recommend installing and configuring the Git Integration for Jira Cloud app **after** all of your Jira users/projects/issues data is imported and verified.
 
 ## ![](/wp-content/uploads/gij-links-icon.png) Links
 

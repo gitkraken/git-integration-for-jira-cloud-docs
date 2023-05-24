@@ -182,6 +182,7 @@ Integrations can be updated manually via the Manage git repositories screen by o
 | <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> | Integration has at least one repository in an error state (and not updating) and at least one repository was successfully updated. |
 | <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> | Integration or all repositories are in an error state and are not updating. |
 
+<!--
 ## Indexing definitions
 
 The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app now has new indexing date/times to indicate the variety of repository checks:
@@ -204,6 +205,8 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/g
 | _Last pull request change_ | Date and time the indexing service last detected a change (new pull/merge requests or status changes) in the repository. This time is accurate only as of the release of the new indexing service on October 27, 2019. |
 | _Next pull request check_ | Date and time the indexing service will check repository for new pull/merge requests or status changes. |
 | _Pull request webhooks detected_ | Indexing service has received a pull/merge request webhook trigger for this repository. Thus, automatic indexing for this repository is reduced to once hourly. |
+
+-->
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
