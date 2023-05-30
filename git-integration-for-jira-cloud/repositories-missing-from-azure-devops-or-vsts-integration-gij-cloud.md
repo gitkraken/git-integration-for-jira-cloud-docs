@@ -6,17 +6,20 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 ## Problem
 
 Some or all repositories in Azure DevOps (or Visual Studio Team Services - VSTS) integrations are not showing or seen by the integration user.
 
+&nbsp;
+
 ## Diagnoses
 
-### 1\. Permissions
+**1\. Permissions**
 
 The connecting Azure DevOps user must have access to the repository to be added to the Git Integration for Jira app.
 
-### 2\. Access Level
+**2\. Access Level**
 
 Jira admins will notice that some repositories expected in the Azure DevOps integration do not appear in the Git Integration for Jira app.  `Basic` or `Visual Studio Professional` access is the minimum access level necessary for the Git Integration for Jira app as **Code** access level is required.
 
@@ -24,30 +27,35 @@ Jira admins will notice that some repositories expected in the Azure DevOps inte
 
 For more information - see Microsoft's article on [Azure DevOps Access Levels.](https://docs.microsoft.com/en-us/azure/devops/organizations/security/access-levels?view=azure-devops)
 
-### 3\. Repository format
-Only git format repositories are supported by the Git Integration for Jira app.  Team Foundation Version Control (TFVC) formatted repositories are not supported.
+**3\. Repository format**
+
+Only git format repositories are supported by the Git Integration for Jira app. Team Foundation Version Control (TFVC) formatted repositories are not supported.
+
+&nbsp;
 
 ## Solutions
 
-### 1\. Permissions
+**1\. Permissions**
 
 Assign the connecting Azure DevOps user appropriate access to the repository or repositories.
 
-### 2\. Access level
+**2\. Access level**
 
  Grant at least `Basic` or `Visual Studio Professional` access is the minimum access level necessary for the Git Integration for Jira app.
 
-### 3\. Repository format
+**3\. Repository format**
 
 Convert the Team Foundation Version Control (TFVC) formatted repositories to git format repositories
 
 *   Microsoft article: [**Migrate from TFVC to Git**](https://docs.microsoft.com/en-us/devops/develop/git/migrate-from-tfvc-to-git)
 
-*   Microsoft article: [**Import repositories from TFVC to Git**](https://docs.microsoft.com/en-us/azure/devops/repos/git/import-from-tfvc?view=azure-devops) |
+*   Microsoft article: [**Import repositories from TFVC to Git**](https://docs.microsoft.com/en-us/azure/devops/repos/git/import-from-tfvc?view=azure-devops)
+
+&nbsp;
 
 ## Workarounds
 
-See the following of the articles:
+See the following articles:
 
 [OAuth connection error or error 401 page with Azure DevOps integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-integration-gij-cloud)
 
@@ -62,11 +70,12 @@ See the following of the articles:
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## Related articles
 

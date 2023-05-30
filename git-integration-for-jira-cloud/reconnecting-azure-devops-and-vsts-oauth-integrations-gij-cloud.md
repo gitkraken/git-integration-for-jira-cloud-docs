@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 On March 2, 2022, all OAuth integrations between Git Integration for Jira and Azure DevOps and VSTS were interrupted. Our investigation found that Microsoft OAuth apps' client secrets expire after 5 years. This limitation has a single workaround and that is for all customers to reconnect. We apologize for this inconvenience and interruption in service. Below are steps to reconnect.
 
 ## Workaround: Reconnecting Azure DevOps and VSTS OAuth
@@ -33,4 +34,43 @@ Videos:
 [CleanShot2022-03-03 at 01.24.59.mp4](https://bigbrassband.atlassian.net/wiki/download/attachments/2079686657/CleanShot2022-03-03%20at%2001.24.59.mp4?version=1&modificationDate=1646288892990&cacheVersion=1&api=v2&width=210)
 
 [CleanShot2022-03-03 at 01.26.20.mp4](https://bigbrassband.atlassian.net/wiki/download/attachments/2079686657/CleanShot2022-03-03%20at%2001.26.20.mp4?version=1&modificationDate=1646288879632&cacheVersion=1&api=v2&width=210)
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact Us</b><br>
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
+    </div>
+    </div>
+</div>
+<br>
+
+&nbsp;
+
+## Related articles
+
+[Why don't I see commits? (Git Integration for Cloud)](/git-integration-for-jira-cloud/why-dont-i-see-commits-git-integration-for-cloud-gij-cloud) (Git Integration for Jira Cloud)
+
+[Repositories missing from Azure DevOps (or VSTS) integration](/git-integration-for-jira-cloud/repositories-missing-from-azure-devops-or-vsts-integration-gij-cloud) (Git Integration for Jira Cloud)
+
+[Licensing error - installCheck failed](/git-integration-for-jira-cloud/licensing-error-installcheck-failed-gij-cloud) (Git Integration for Jira Cloud)
+
+[Why don't I see the Create branch or pull request features?](/git-integration-for-jira-cloud/why-dont-i-see-the-create-branch-or-pull-request-features-gij-cloud) (Git Integration for Jira Cloud)
+
+[Connection error for self-hosted git servers](/git-integration-for-jira-cloud/connection-error-for-self-hosted-git-servers-gij-cloud) (Git Integration for Jira Cloud)
+
+[SSH key file format is invalid](/git-integration-for-jira-cloud/ssh-key-file-format-is-invalid-gij-cloud) (Git Integration for Jira Cloud)
+
+[Error while reindexing - Java heap space / Object too large, rejecting the pack](/git-integration-for-jira-cloud/error-while-reindexing-java-heap-space-object-too-large-rejecting-the-pack-gij-cloud) (Git Integration for Jira Cloud)
+
+[OAuth connection error or error 401 page with Azure DevOps integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-integration-gij-cloud) (Git Integration for Jira Cloud)
+
+[OAuth connection error or error 401 page with Azure DevOps with Active Directory integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-with-active-directory-integration-gij-cloud/)
+
+[Empty list of repositories after integration of Azure Repos](/git-integration-for-jira-cloud/empty-list-of-repositories-after-integration-of-azure-repos-gij-cloud) (Git Integration for Jira Cloud)
+
+**Reconnecting Azure DevOps and VSTS OAuth integrations** (this page)
 
