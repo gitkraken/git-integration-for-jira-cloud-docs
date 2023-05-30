@@ -6,9 +6,12 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 ## Problem
 
 You are getting the OAuth connection error or a 401 web page error is displayed when integrating with Azure DevOps connected to Active Directory.
+
+&nbsp;
 
 ## Diagnosis
 
@@ -16,9 +19,13 @@ These issues are related to the security settings in your Azure DevOps portal wh
 
 Moreover, for Azure Active Directory connections, the conditional access policy setting (when enabled) will force all untrusted location to require MFA in order to connect with Azure DevOps.
 
+&nbsp;
+
 ## Cause
 
 For Azure DevOps with Active Directory connections, this is due to the conditional access security setting being enabled.
+
+&nbsp;
 
 ## Solution
 
@@ -46,11 +53,13 @@ For projects connected with Azure Active Directory, the above requirement must a
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>
 <br>
+
+&nbsp;
 
 ## Related articles
 

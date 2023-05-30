@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 ![](/wp-content/uploads/gij-troubleshoot-how-do-i-see-commits-top.png)
 
 <p style='font-size:26px;text-align:center;'>&#8681;</p>
@@ -36,7 +37,7 @@ The Permission Helper is available to Jira admins: Jira settings ➜ System �
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/21vd3arsj6?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style-'margin-top:10px;margin-bottom:15px'>
+<div align='center' style='margin-top:10px;margin-bottom:15px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/21vd3arsj6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
@@ -172,5 +173,5 @@ Where you can see commits:
 
 <p style='font-size:26px;text-align:center;'>&#8681;</p>
 
-<p align=center>Contact <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a> by email or via the <a href='https://link.bigbrassband.com/gij-gitkraken-gitcloud-support'>GIJ Cloud Support Portal</a>.
+<p align=center>Contact <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a> by email or via the <a href='https://link.bigbrassband.com/gij-gitkraken-gitcloud-support'>GIJ Cloud Support Portal</a>.
 

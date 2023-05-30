@@ -6,15 +6,20 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 ## Problem
 
 After integrating Azure DevOps to Jira, the Tracked Folder/Repositories dialog displays an empty list of repositories.
 
+&nbsp;
+
 ## Diagnosis
 
-The integration status is UPDATED but users will see a blank list when performing **Actions** > **Show integration repositories** in the Git Integration app manage repository configuration list.
+The integration status is <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>UPDATED</b> but users will see a blank list when performing ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Show integration repositories** in the Git Integration app manage repository configuration list.
 
 ![](/wp-cotnent/uploads/gij-azure-no-repo-view-repos-cloud.png)
+
+&nbsp;
 
 ## Solution
 
@@ -37,11 +42,12 @@ If the problem still persists:
     </div>
     <div class="imsgbox">
         <b>Contact us</b><br>
-        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## Related articles
 
@@ -66,3 +72,4 @@ If the problem still persists:
 **Empty list of repositories after integration of Azure Repos** (this page)
 
 [Reconnecting Azure DevOps and VSTS OAuth integrations](/git-integration-for-jira-cloud/reconnecting-azure-devops-and-vsts-oauth-integrations-gij-cloud)
+

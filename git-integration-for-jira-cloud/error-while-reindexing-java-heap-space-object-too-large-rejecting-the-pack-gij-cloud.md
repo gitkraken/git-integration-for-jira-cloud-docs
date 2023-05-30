@@ -6,17 +6,43 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 ## Problem
 
 The Git Integration for Jira application uses the [JGit](https://www.eclipse.org/jgit/) library which does not support objects over 2GB in size stored in git repositories.
+
+&nbsp;
 
 ## Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log:`
 
-| Error |
-| :--- |
-| ```java<br>Сan't auto-deploy a new repository https://server/project/repository.git<br>com.bigbrassband.jira.git.exceptions.InvalidRemoteOperationException: Specified origin https://server/project/repository.git is incorrect or not supported<br>        at com.bigbrassband.jira.git.services.gitmanager.MultipleGitRepositoryManagerImpl.setupRepository(MultipleGitRepositoryManagerImpl.java:800)<br>        at com.bigbrassband.jira.git.services.gitmanager.MultipleGitRepositoryManagerImpl.deployRepository(MultipleGitRepositoryManagerImpl.java:868)<br>        at com.bigbrassband.jira.git.services.async.DoSynchronizationOfAggregatedRepoTask.createNewRepository(DoSynchronizationOfAggregatedRepoTask.java:156)<br>        at com.bigbrassband.jira.git.services.async.DoSynchronizationOfAggregatedRepoTask.run(DoSynchronizationOfAggregatedRepoTask.java:117)<br>        at com.bigbrassband.jira.git.services.async.BigReindexTask.synchronize(BigReindexTask.java:185)<br>        at com.bigbrassband.jira.git.services.async.BigReindexTask.run(BigReindexTask.java:95)<br>        at com.bigbrassband.jira.git.services.async.AsyncProcessorImpl$AsyncTaskWrapper.run(AsyncProcessorImpl.java:110)<br>        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)<br>        at java.util.concurrent.FutureTask.run(FutureTask.java:266)<br>        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)<br>        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)<br>        at java.lang.Thread.run(Thread.java:748)<br>Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,271,263,009 bytes), rejecting the pack. Max object size limit is 2,147,483,639 bytes.<br>        at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:254)<br>        at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:306)<br>        at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:200)<br>        at com.bigbrassband.jira.git.services.gitmanager.MultipleGitRepositoryManagerImpl.runCloneCommand(MultipleGitRepositoryManagerImpl.java:693)<br>        at com.bigbrassband.jira.git.services.gitmanager.MultipleGitRepositoryManagerImpl.setupRepository(MultipleGitRepositoryManagerImpl.java:789)<br>        ... 11 more<br>``` |
+**Example Error:**
+
+```java
+Cannot auto-deploy a new repository https://server/project/repository.git
+com.bigbrassband.jira.git.exceptions.InvalidRemoteOperationException: Specified origin https://server/project/repository.git is incorrect or not supported
+at com.bigbrassband.jira.git.services.gitmanager.MultipleGitRepositoryManagerImpl.setupRepository(MultipleGitRepositoryManagerImpl.java:800)
+at com.bigbrassband.jira.git.services.gitmanager.MultipleGitRepositoryManagerImpl.deployRepository(MultipleGitRepositoryManagerImpl.java:868)
+at com.bigbrassband.jira.git.services.async.DoSynchronizationOfAggregatedRepoTask.createNewRepository(DoSynchronizationOfAggregatedRepoTask.java:156)
+at com.bigbrassband.jira.git.services.async.DoSynchronizationOfAggregatedRepoTask.run(DoSynchronizationOfAggregatedRepoTask.java:117)
+at com.bigbrassband.jira.git.services.async.BigReindexTask.synchronize(BigReindexTask.java:185)
+at com.bigbrassband.jira.git.services.async.BigReindexTask.run(BigReindexTask.java:95)
+at com.bigbrassband.jira.git.services.async.AsyncProcessorImpl$AsyncTaskWrapper.run(AsyncProcessorImpl.java:110)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)<br>Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,271,263,009 bytes), rejecting the pack. Max object size limit is 2,147,483,639 bytes.
+at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:254)
+at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:306)
+at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:200)
+at com.bigbrassband.jira.git.services.gitmanager.MultipleGitRepositoryManagerImpl.runCloneCommand(MultipleGitRepositoryManagerImpl.java:693)
+at com.bigbrassband.jira.git.services.gitmanager.MultipleGitRepositoryManagerImpl.setupRepository(MultipleGitRepositoryManagerImpl.java:789)
+... 11 more
+```
+
+&nbsp;
 
 ## Solutions
 
@@ -54,11 +80,13 @@ Jira admins will see a message similar to the one below in the Jira `/applicati
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at [support@gitkraken.com](mailto:support@gitkraken.com).
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com).
     </div>
     </div>
 </div>
 <br>
+
+&nbsp;
 
 ## Related articles
 
