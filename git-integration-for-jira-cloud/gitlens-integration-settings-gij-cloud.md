@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken integration settings
+title: GitLens integration settings
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -38,11 +38,11 @@ taxonomy:
 </div>
 <br>
 
-## Enable GitKraken integration
+## Enable GitLens integration
 
-<img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-gitkraken-integration-417.png' style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-gitlens-integration-417.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Enable this setting to turn on the deep linking feature which allows you to quickly move between Jira and your Git source code with the GitKraken git client app. GitKraken supports deep linking into Git Integration for Jira as well. To learn more about this feature, see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
+Enable this setting to turn on the deep linking feature which allows you to quickly move between Jira and your Git source code with the GitLens VSCode extension. GitLens supports deep linking into Git Integration for Jira as well. To learn more about this feature, see [GitLens Integrations: Git Integration for Jira](https://www.gitkraken.com/gitlens).
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -57,7 +57,7 @@ Enable this setting to turn on the deep linking feature which allows you to quic
 </div>
 <br>
 
-For more details, see [Features: Deep Linking to the GitKraken Git client (Jira Cloud)](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client-gij-cloud).
+For more details, see [Features: Deep Linking to the GitLens (Jira Cloud)](/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud).
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
 
