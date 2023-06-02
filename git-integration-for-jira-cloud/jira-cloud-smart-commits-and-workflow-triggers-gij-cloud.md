@@ -18,11 +18,9 @@ The smart commit processing is **active by default** and can be enabled/disabl
 - [More related topics on Jira Development Information](#more-related-topics-on-jira-development-information)
 
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -47,8 +45,8 @@ The smart commit processing is **active by default** and can be enabled/disabl
     </div>
     </div>
 </div>
-<br>
-<br>
+
+&nbsp;
 
 ## General settings effect on Smart Commits commands
 
@@ -76,8 +74,7 @@ Please take note that the following settings will affect availability of specifi
 
 5.  Click **Update** to save the settings.
 
-
-![](/git-integration-for-jira-cloud/git-gitcloud-gencfg-jira-devinfo-options-02.png)
+![](/wp-content/uploads/gij-gitcloud-gencfg-jira-devinfo-options-02.png)
 
 &nbsp;
 
@@ -92,8 +89,8 @@ Please take note that the following settings will affect availability of specifi
     </div>
     </div>
 </div>
-<br>
-<br>
+
+&nbsp;
 
 ## More related topics about Jira Cloud smart commits and workflow triggers
 

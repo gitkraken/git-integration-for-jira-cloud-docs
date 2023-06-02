@@ -40,7 +40,7 @@ taxonomy:
 
 ## Show Repository browser: View all repositories, Commits and Compare pages
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829111/gitcloud-gencfg-show-repo-browser.png?version=1&modificationDate=1645096875820&cacheVersion=1&api=v2&width=680&height=215)
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-show-repo-browser.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 The Repository Browser is a feature that offers a view into your connected repositories with Jira Cloud. From the **Repository browser** page you can see summaries such as repository, most recent issue associated by a commit, last updated by commit author, last commit date/time and etc.
 
@@ -62,4 +62,28 @@ Disabling this feature, hides the **Git Integration: Repository browser** – da
 For more details, see [Features: Repository Browser (Jira Cloud)](/git-integration-for-jira-cloud/repository-browser-viewing-all-repositories-gij-cloud).
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
+
+&nbsp;
+
+## More General settings options
+
+[Enable beta features setting](/git-integration-for-jira-cloud/enable-beta-features-setting-gij-cloud)
+
+[Git roll up issue tab setting](/git-integration-for-jira-cloud/git-roll-up-issue-tab-setting-gij-cloud)
+
+[Git commits issue tab and project page](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page-gij-cloud)
+
+[Issue git source code panel setting](/git-integration-for-jira-cloud/issue-git-source-code-panel-setting-gij-cloud)
+
+**Repository browser settings** (this page)
+
+[GitKraken integration settings](/git-integration-for-jira-cloud/gitkraken-integration-settings-gij-cloud)
+
+[GitLens integration settings](/git-integration-for-jira-cloud/gitlens-integration-settings-gij-cloud)
+
+[Git integration options](/git-integration-for-jira-cloud/git-integration-options-gij-cloud)
+
+[Jira development information settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
+
+[General settings for administrators](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud)
 

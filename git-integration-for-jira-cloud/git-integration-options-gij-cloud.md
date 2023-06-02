@@ -12,7 +12,7 @@ This setting is part of the [**General Settings**](/git-integration-for-jira-clo
 
 These settings will take effect at integration level for projects with connected GitLab/GitHub git hosts. The default state for each setting is _enabled_.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829137/gitcloud-gencfg-git-integration-options.png?version=1&modificationDate=1645097188275&cacheVersion=1&api=v2&width=566&height=368)
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-git-integration-options.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 
 **What’s on this page:**
@@ -24,28 +24,32 @@ These settings will take effect at integration level for projects with connected
 - [Max branch name length](#max-branch-name-length)
 - [Some examples](#some-examples)
 
+&nbsp;
 * * *
-
-## Git integration settings
+&nbsp;
 
 ### Enable create \/ delete branch
 This setting shows or hides the function for creating/deleting of branches. The ability to create/delete selected branches from the Jira developer panel is dependent on this setting.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829137/gitcloud-dev-panel-create-branch-sel.png?version=1&modificationDate=1643340514593&cacheVersion=1&api=v2&width=296&height=208)
+<img src='/wp-content/uploads/gij-gitcloud-dev-panel-create-branch-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 For detailed information on this feature, see [Creating branches](/git-integration-for-jira-cloud/create-branch-gij-cloud).
+
+&nbsp;
 
 ### Enable create pull \/ merge request
 
 This setting shows or hides the function for creating pull/merge requests from the Jira developer panel.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829137/gitcloud-dev-panel-create-PRMR-sel.png?version=1&modificationDate=1643340576227&cacheVersion=1&api=v2&width=296&height=208)
+<img src='/wp-content/uploads/gij-gitcloud-dev-panel-create-PRMR-sel.png'  style='margin:25px auto;max-width:100%;display:block;' />
 
 For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
 
+&nbsp;
+
 ## Branch name template
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829137/gitcloud-gencfg-branch-name-template.png?version=1&modificationDate=1645097379618&cacheVersion=1&api=v2&width=566&height=119)
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-branch-name-template.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 Set the **Branch Name Template** using the supported variables. Use the template to generate a default name for newly-created branches with the Create Branch dialog via the development panel of the Jira issue. Click/expand **Examples** to view template structure examples.
 
@@ -65,11 +69,18 @@ Use the following template variables:
 
 `${summary}` – Issue Summary. The Summary is used from the current Jira issue your are on and will be in lowercase; spaces are substituted by "-" (dash).
 
-<br>
-
-**The Git Integration for Jira app default is:**
-
-`${issuekey}-${summary}`<br>This generates the string format like "**PRJ-123-add-more-logging**" as a default value for the Create Branch and Pull/Merge Request dialogs. Where `PRJ-123` is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form).
+ <div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>The Git Integration for Jira app default is:</b><br>
+        <code>${issuekey}-${summary}</code><br>
+        <div style='margin-bottom:0px'>This generates the string format like "<b>PRJ-123-add-more-logging</b>" as a default value for the Create Branch and Pull/Merge Request dialogs. Where <code>PRJ-123</code> is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form).</div>
+    </div>
+    </div>
+</div>
 
 `${sourcebranch}` – Source branch. The source branch from the Create Branch dialog is used and will be in lowercase; spaces are substituted by “-” (dash).
 
@@ -77,20 +88,25 @@ Use the following template variables:
 
 `${displayname}` -- This is the displayed name of the current user.
 
+&nbsp;
 
 ## Branch name templates inner separator
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829137/gitcloud-gencfg-branch-name-temp-inner-sep.png?version=1&modificationDate=1645097573430&cacheVersion=1&api=v2&width=512&height=97)
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-branch-name-temp-inner-sep.png'style='margin:25px auto;max-width:100%;display:block;' />'
 
 This setting applies which inner word separator to use for the branch name template. The default setting is `"-" (dash)`.
 
+&nbsp;
+
 ## Max branch name length
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829137/gitcloud-gencfg-branch-name-length.png?version=1&modificationDate=1645097669336&cacheVersion=1&api=v2&width=511&height=73)
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-branch-name-length.png?version=1&modificationDate=1645097669336&cacheVersion=1&api=v2&width=511&height=73)
 
 This setting allows administrators to specify the maximum character length for branch names. The default value is **250** chars.
 
+&nbsp;
 * * *
+&nbsp;
 
 ## Some examples
 
@@ -106,5 +122,32 @@ This generates the string format like "**feature/PRJ-123-add-more-logging**" as 
 `${issuetype:Old Issue,old,Bug Fix,bug,branch}/${issuekey}-${summary}`<br>
 This generates the string format like "**branch/PRJ-123-add-more-logging**" as a default value for the branch names. This example uses a Jira issue which has the _**New Feature**_ issue type -- where `branch` is substituted to _issuetype_ since _type0..typeN_ does not match the active Jira issue type; `PRJ-123` is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form).
 
+&nbsp;
+* * *
+
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
+
+&nbsp;
+
+## More General settings options
+
+[Enable beta features setting](/git-integration-for-jira-cloud/enable-beta-features-setting-gij-cloud)
+
+[Git roll up issue tab setting](/git-integration-for-jira-cloud/git-roll-up-issue-tab-setting-gij-cloud)
+
+[Git commits issue tab and project page](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page-gij-cloud)
+
+[Issue git source code panel setting](/git-integration-for-jira-cloud/issue-git-source-code-panel-setting-gij-cloud)
+
+[Repository browser settings](/git-integration-for-jira-cloud/repository-browser-settings-gij-cloud)
+
+[GitKraken integration settings](/git-integration-for-jira-cloud/gitkraken-integration-settings-gij-cloud)
+
+[GitLens integration settings](/git-integration-for-jira-cloud/gitlens-integration-settings-gij-cloud)
+
+**Git integration options** (this page)
+
+[Jira development information settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
+
+[General settings for administrators](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud)
 

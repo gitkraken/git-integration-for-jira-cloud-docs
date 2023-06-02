@@ -36,7 +36,7 @@ taxonomy:
 
 ## Show Git Commits Issue Tab and Project Page
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829071/gitcloud-gencfg-show-git-commits-issue-proj-tab.png?version=1&modificationDate=1645096681756&cacheVersion=1&api=v2&width=680&height=215)
+![](/wp-content/uploads/gij-gitcloud-gencfg-show-git-commits-issue-proj-tab.png)
 
 This setting will enable/disable the **Git Commits Issue tab** and the **Git Commits Project** page. These locations show the list of git commits associated to the Jira Issue and Jira Project, respectively. The list is grouped by repository and sorted by commit time.
 
@@ -56,4 +56,28 @@ For more details, see [**Features: Git Commits Issue tab and Project Page (Jira
 <br>
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
+
+&nbsp;
+
+## More General settings options
+
+[Enable beta features setting](/git-integration-for-jira-cloud/enable-beta-features-setting-gij-cloud)
+
+[Git roll up issue tab setting](/git-integration-for-jira-cloud/git-roll-up-issue-tab-setting-gij-cloud)
+
+**Git commits issue tab and project page** (this page)
+
+[Issue git source code panel setting](/git-integration-for-jira-cloud/issue-git-source-code-panel-setting-gij-cloud)
+
+[Repository browser settings](/git-integration-for-jira-cloud/repository-browser-settings-gij-cloud)
+
+[GitKraken integration settings](/git-integration-for-jira-cloud/gitkraken-integration-settings-gij-cloud)
+
+[GitLens integration settings](/git-integration-for-jira-cloud/gitlens-integration-settings-gij-cloud)
+
+[Git integration options](/git-integration-for-jira-cloud/git-integration-options-gij-cloud)
+
+[Jira development information settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
+
+[General settings for administrators](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud)
 

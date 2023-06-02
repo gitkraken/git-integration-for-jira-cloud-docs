@@ -30,12 +30,12 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
-<br>
 
-![](/wp-content/uploads/gij-gitcloud-gencfg-enable-beta-features.png)
+&nbsp;
 
 ## Enable beta features
+
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-beta-features.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 This section introduces a setting to experience the next planned features granted as early access. Enabling this setting allows the use of the new beta features. This seamlessly opens the new features included in the current beta. Disable this setting to hide the new beta features.
 
@@ -45,7 +45,7 @@ This section introduces a setting to experience the next planned features grante
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Share some feedback and ideas to us to improve the current beta feature. We greatly appreciate your suggestions. If you encounter bugs or performance issues, we would love to hear from you (<a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>).
+        Share some feedback and ideas to us to improve the current beta feature. We greatly appreciate your suggestions. If you encounter bugs or performance issues, we would love to hear from you. Reach us thru <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>GIJ Cloud Support</a>.
     </div>
     </div>
 </div>
@@ -53,7 +53,11 @@ This section introduces a setting to experience the next planned features grante
   
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
 
+&nbsp;
+
 ## More General settings options
+
+**Enable beta features setting** (this page)
 
 [Git roll up issue tab setting](/git-integration-for-jira-cloud/git-roll-up-issue-tab-setting-gij-cloud)
 
@@ -63,13 +67,13 @@ After all the settings have been configured according to your requirements, clic
 
 [Repository browser settings](/git-integration-for-jira-cloud/repository-browser-settings-gij-cloud)
 
+[GitKraken integration settings](/git-integration-for-jira-cloud/gitkraken-integration-settings-gij-cloud)
+
+[GitLens integration settings](/git-integration-for-jira-cloud/gitlens-integration-settings-gij-cloud)
+
 [Git integration options](/git-integration-for-jira-cloud/git-integration-options-gij-cloud)
 
 [Jira development information settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
 
 [General settings for administrators](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud)
-
-[GitKraken integration settings](/git-integration-for-jira-cloud/gitkraken-integration-settings-gij-cloud)
-
-Enable beta features setting (this page)
 
