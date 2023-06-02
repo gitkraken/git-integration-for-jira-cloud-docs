@@ -7,33 +7,55 @@ taxonomy:
 
 ---
 
-On March 2, 2022, all OAuth integrations between Git Integration for Jira and Azure DevOps and VSTS were interrupted. Our investigation found that Microsoft OAuth apps' client secrets expire after 5 years. This limitation has a single workaround and that is for all customers to reconnect. We apologize for this inconvenience and interruption in service. Below are steps to reconnect.
+<b style='background-color:#FFEED1; padding:1px 5px; color:#CC5900; border-radius:3px; margin: 0 5px; font-size: small;'>WORKAROUND</b>
 
-## Workaround: Reconnecting Azure DevOps and VSTS OAuth
+On March 2, 2022, all OAuth integrations between Git Integration for Jira and Azure DevOps and VSTS were interrupted. Our investigation found that Microsoft OAuth apps' client secrets expire after 5 years. This limitation has a single workaround and that is -- for all customers to reconnect. We apologize for this inconvenience and interruption in service. Below are steps to reconnect.
 
-Requirements:
+&nbsp;
+
+## Requirements:
 
 1.  Jira administrator permissions
 
 2.  Azure DevOps / VSTS account or service account.
 
+&nbsp;
 
-Steps:
+## Steps:
 
 1.  Visit the **Manage Git repositories** screen in the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app
 
-2.  Click on the integration name
+2.  Click on the integration name.
 
-3.  Click on Reconnect
+3.  Click on **Reconnect**.
 
 4.  Login to Azure DevOps / VSTS with the account you wish to associate with Git Integration for Jira.
 
+&nbsp;
 
-Videos:
+## Videos:
 
-[CleanShot2022-03-03 at 01.24.59.mp4](https://bigbrassband.atlassian.net/wiki/download/attachments/2079686657/CleanShot2022-03-03%20at%2001.24.59.mp4?version=1&modificationDate=1646288892990&cacheVersion=1&api=v2&width=210)
+**GIJ Server/DC**
 
-[CleanShot2022-03-03 at 01.26.20.mp4](https://bigbrassband.atlassian.net/wiki/download/attachments/2079686657/CleanShot2022-03-03%20at%2001.26.20.mp4?version=1&modificationDate=1646288879632&cacheVersion=1&api=v2&width=210)
+<div class='embed-container' style='padding-bottom:50.33%'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/63ndpswgmc?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/63ndpswgmc'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+
+**GIJ Cloud**
+
+<div class='embed-container' style='padding-bottom:47.29%'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/6jon0nfpu4?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/6jon0nfpu4'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+
+&nbsp;
 
 <div class="bbb-callout bbb--info">
     <div class="irow">

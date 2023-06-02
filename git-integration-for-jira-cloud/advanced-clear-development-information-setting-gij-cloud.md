@@ -20,7 +20,7 @@ taxonomy:
 
 &nbsp;
 
-<img src='/wp-content/uploads/gij-gitcloud-gencfg-advanced-clear-dev-info.png' tyle='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-advanced-clear-dev-info.png' tyle='margin:25px auto;max-width:100%;display:block;' />
 
 Behind the **Advanced** twisty is a button that gives Jira administrators the ability to clear out all Development Information associated with the Git Integration for Jira app.
 

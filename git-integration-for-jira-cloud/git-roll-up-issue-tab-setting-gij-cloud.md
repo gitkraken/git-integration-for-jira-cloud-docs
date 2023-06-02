@@ -34,7 +34,7 @@ taxonomy:
 
 ## Show Git Roll Up Issue Tab
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207796128/gitcloud-gencfg-show-git-rollup-issue-tab.png?version=1&modificationDate=1645096579415&cacheVersion=1&api=v2&width=680&height=215)
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-show-git-rollup-issue-tab.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 The Git Roll Up Issue tab displays a summary of the files, lines and the developers who made the changes in the commits commits associated with the Jira issue. Enable/disable this setting to allow the **Git Roll Up** tab on the Issue page for all Jira projects.
 
@@ -54,4 +54,28 @@ For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integra
 <br>
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
+
+&nbsp;
+
+## More General settings options
+
+[Enable beta features setting](/git-integration-for-jira-cloud/enable-beta-features-setting-gij-cloud)
+
+**Git roll up issue tab setting** (this page)
+
+[Git commits issue tab and project page](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page-gij-cloud)
+
+[Issue git source code panel setting](/git-integration-for-jira-cloud/issue-git-source-code-panel-setting-gij-cloud)
+
+[Repository browser settings](/git-integration-for-jira-cloud/repository-browser-settings-gij-cloud)
+
+[GitKraken integration settings](/git-integration-for-jira-cloud/gitkraken-integration-settings-gij-cloud)
+
+[GitLens integration settings](/git-integration-for-jira-cloud/gitlens-integration-settings-gij-cloud)
+
+[Git integration options](/git-integration-for-jira-cloud/git-integration-options-gij-cloud)
+
+[Jira development information settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
+
+[General settings for administrators](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud)
 

@@ -30,17 +30,18 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## Show Issue Git Source Code Panel
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207829089/gitcloud-gencfg-show-issue-dev-panel.png?version=1&modificationDate=1645096774484&cacheVersion=1&api=v2&width=680&height=215)
+![](/wp-content/uploads/gij-gitcloud-gencfg-show-issue-dev-panel.png)
 
 Enable/disable this setting to have Git Integration for Jira app show/hide the _Git Integration_ section on the Jira issue developer panel.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1207829089/image-20201209-092001.png?version=1&modificationDate=1613298480863&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-jira-dev-integration-panel-sel.png)
 
-<br>
+&nbsp;
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -53,11 +54,34 @@ Enable/disable this setting to have Git Integration for Jira app show/hide the 
     </div>
     </div>
 </div>
-<br>
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
 
 Disabling this setting will improve Jira performance.
 
 For introductory information on this feature, see [Jira git issue development panel](/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud).
+
+&nbsp;
+
+## More General settings options
+
+[Enable beta features setting](/git-integration-for-jira-cloud/enable-beta-features-setting-gij-cloud)
+
+[Git roll up issue tab setting](/git-integration-for-jira-cloud/git-roll-up-issue-tab-setting-gij-cloud)
+
+[Git commits issue tab and project page](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-page-gij-cloud)
+
+**Issue git source code panel setting** (this page)
+
+[Repository browser settings](/git-integration-for-jira-cloud/repository-browser-settings-gij-cloud)
+
+[GitKraken integration settings](/git-integration-for-jira-cloud/gitkraken-integration-settings-gij-cloud)
+
+[GitLens integration settings](/git-integration-for-jira-cloud/gitlens-integration-settings-gij-cloud)
+
+[Git integration options](/git-integration-for-jira-cloud/git-integration-options-gij-cloud)
+
+[Jira development information settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
+
+[General settings for administrators](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud)
 
