@@ -80,17 +80,6 @@ For customers that are hosted on the US stack (hosted in the Ohio, USA AWS regio
 | :--- |
 | **18.218.206.0** |
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <a href='https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?tab=overview&hosting=cloud'>Dev Info for Jira Cloud</a> does not have EU hosting support.
-    </div>
-    </div>
-</div>
-<br>
 
 ### <img src='/wp-content/uploads/gij-au-icon.png' height=24 width=24 valign=middle />&nbsp; Australia hosted customers (AP-Southeast-2)
 
