@@ -30,7 +30,7 @@ Alternatively, you can use our [Webhook indexing feature](#Webhooks-indexing-int
 
 We support [Atlassian’s Data Residency](https://www.atlassian.com/software/data-residency) hosting model where customer’s Jira Cloud instances can be assigned to a specific geographic region. We currently support hosting specifically in the USA and EU. Customers not pinned to a specific geographic region are assigned to the Global region (which we host in the USA). All applications and data are hosted in Amazon Web Services (AWS). For more information - see our [Trust & Security](https://www.gitkraken.com/git-integration-for-jira/security-and-trust) page.
 
-How to find out which geographic region your Git Integration for Jira Cloud application is hosted at - see…
+How to find out which geographic region your Git Integration for Jira Cloud application is hosted at - see [How do I find my app data](https://help.gitkraken.com/git-integration-for-jira-cloud/faq-support-gij-cloud/#where-can-i-find-my-app-information)
 
 <br>
 
