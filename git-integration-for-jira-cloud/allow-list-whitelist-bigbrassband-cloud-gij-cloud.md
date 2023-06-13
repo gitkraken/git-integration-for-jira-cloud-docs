@@ -30,13 +30,13 @@ Alternatively, you can use our [Webhook indexing feature](#Webhooks-indexing-int
 
 We support [Atlassian’s Data Residency](https://www.atlassian.com/software/data-residency) hosting model where customer’s Jira Cloud instances can be assigned to a specific geographic region. We currently support hosting specifically in the USA and EU. Customers not pinned to a specific geographic region are assigned to the Global region (which we host in the USA). All applications and data are hosted in Amazon Web Services (AWS). For more information - see our [Trust & Security](https://www.gitkraken.com/git-integration-for-jira/security-and-trust) page.
 
-How to find out which geographic region your Git Integration for Jira Cloud application is hosted at - see…
+How to find out which geographic region your Git Integration for Jira Cloud application is hosted at - see [How do I find my app data](https://help.gitkraken.com/git-integration-for-jira-cloud/faq-support-gij-cloud/#where-can-i-find-my-app-information)
 
 <br>
 
-### <img src='/wp-content/uploads/gij-global-icon.png' height=22 width=22 valign=middle />&nbsp; Global hosted customers
+### <img src='/wp-content/uploads/gij-global-icon.png' height=22 width=22 valign=middle />&nbsp; Global hosted customers (US-East-1)
 
-For customers that are hosted on the Global (hosted in the Northern Virginia, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
+For customers that are hosted on the Global (hosted in the Northern Virginia, USA AWS region US-East-1), set the allow list/whitelist for self-hosted git repositories:
 
 | IP address |
 | :--- |
@@ -44,13 +44,21 @@ For customers that are hosted on the Global (hosted in the Northern Virginia, US
 
 <br>
 
-### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; European Union hosted customers
+### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; European Union hosted customers (EU-West-1)
 
-For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), set the allow list/whitelist for self-hosted git repositories:
+For customers that are hosted on the EU stack (hosted in Ireland, EU-West-1), set the allow list/whitelist for self-hosted git repositories:
 
 | IP address |
 | :--- |
 | **18.202.139.125** |
+
+### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; European Union hosted customers (EU-Central-1)
+
+For customers that are hosted on the EU stack (hosted in Frankfurt, Germany, EU-Central-1), set the allow list/whitelist for self-hosted git repositories:
+
+| IP address |
+| :--- |
+| **18.156.13.64*** |
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -64,7 +72,7 @@ For customers that are hosted on the EU stack (hosted in Frankfurt, Germany), se
 </div>
 <br>
 
-### <img src='/wp-content/uploads/gij-us-icon.png' height=24 width=24 valign=middle />&nbsp; USA hosted customers
+### <img src='/wp-content/uploads/gij-us-icon.png' height=24 width=24 valign=middle />&nbsp; USA hosted customers (US-East-2)
 
 For customers that are hosted on the US stack (hosted in the Ohio, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
@@ -72,19 +80,8 @@ For customers that are hosted on the US stack (hosted in the Ohio, USA AWS regio
 | :--- |
 | **18.218.206.0** |
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <a href='https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?tab=overview&hosting=cloud'>Dev Info for Jira Cloud</a> does not have EU hosting support.
-    </div>
-    </div>
-</div>
-<br>
 
-### <img src='/wp-content/uploads/gij-au-icon.png' height=24 width=24 valign=middle />&nbsp; Australia hosted customers
+### <img src='/wp-content/uploads/gij-au-icon.png' height=24 width=24 valign=middle />&nbsp; Australia hosted customers (AP-Southeast-2)
 
 For customers that are hosted on the Australia stack, set the allow list/whitelist for self-hosted git repositories:
 
