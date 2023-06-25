@@ -14,11 +14,10 @@ taxonomy:
 <div align='center' style='margin-top:15px;'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/21vd3arsj6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
 &nbsp;
 
-## Permissions requirement to display commit information
+### Permissions requirement to display commit information
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -27,11 +26,10 @@ taxonomy:
     </div>
     <div class="imsgbox">
         Users must have '<b><i>View Development Tools</i></b>' permission in order to view commit information on the issue page.
-        <p style='margin-bottom: 0px !important'>Administrators must grant themselves the '<b><i>View Development Tools</i></b>' permission in order to view commit information on the issue pages.</p>
+        <p style='margin-bottom:-10px'>Administrators must grant themselves the '<b><i>View Development Tools</i></b>' permission in order to view commit information on the issue pages.</p>
     </div>
     </div>
 </div>
-<br>
 
 The user needs to be in the developers group to view code diffs when default permission scheme is used.
 
