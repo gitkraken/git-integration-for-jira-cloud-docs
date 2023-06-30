@@ -127,11 +127,11 @@ Example commit messages:
 
 Valid Jira issue key examples are shown in the following screenshot:
 
-![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-valid-key.png)
+![](/wp-content/uploads/gij-gitcloud-idontsee-commits-valid-key.png)
 
-GitLab showing an actual commit and the commit message:
+GitHub showing an actual commit and the commit message:
 
-![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-gitlab.png)
+![](/wp-content/uploads/gij-gitcloud-idontsee-commits-gitlab.png)
 
 Check the video for more instructions:
 
@@ -153,13 +153,13 @@ Check the video for more instructions:
 
 The commit may be indexed by Jira Cloud - but not associated with any Jira issues. You can verify this with the following steps:
 
-1.  Navigate to **View All Repositories** 
+1.  Navigate to **Repository browser**.
 
-2. Find the repository and then the indexed commit (may need to select the branch)
+2.  Find the repository and then the indexed commit (may need to select the branch).
 
-If you find the commit - you can then fix commit association by clicking on **Change**.
+3.  If you find the commit - you can then fix commit association by clicking on **Change**.
 
-![](/wp-content/uploads/gij-troubleshoot-try-to-find-indexed-commits-in-jira.gif)
+![](/wp-content/uploads/gij-gitcloud-finding-indexed-commits-in-jira-cloud.gif)
 
 <p style='font-size:20px;text-align:center;'>&#8681;</p>
 
@@ -175,11 +175,7 @@ Where you can see commits:
 
 *   New Jira issue view
 
-    ![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-new-jira.png)
-
-*   Old Jira issue view
-
-    ![](/wp-content/uploads/gij-troubleshoot-idontsee-commits-old-jira.png)
+    ![](/wp-content/uploads/gij-gitcloud-idontsee-commits-new-jira.png)
 
 <p style='font-size:20px;text-align:center;'>&#8681;</p>
 
