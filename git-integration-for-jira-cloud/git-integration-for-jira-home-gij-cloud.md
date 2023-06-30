@@ -21,8 +21,8 @@ Check out the links below to get started with Git Integration for Jira. Use the 
     </div>
     </div>
 </div>
-<br>
-<br>
+
+&nbsp;
 
 ## Getting started
 
@@ -41,9 +41,9 @@ Check out the links below to get started with Git Integration for Jira. Use the 
 - [Frequently Asked Questions](/git-integration-for-jira-cloud/frequently-asked-questions-gij-cloud) - Find answers to frequently asked questions.
 - [How-to Articles](/git-integration-for-jira-cloud/how-to-articles-gij-cloud) - Learn how to do common setups and workflows.
 - [Troubleshooting](/git-integration-for-jira-cloud/troubleshooting-articles-gij-cloud) - In-depth articles to help you diagnose and solve problems. 
-- [Known Issues](/git-integration-for-jira-cloud/known-issues-gij-cloud) - problems that occur with some configurations their accompanying workarounds.
-- [Hooks and Webhooks](git-integration-for-jira-cloud/hooks-and-webhooks-gij-cloud) - all about hooks!
-- [Product Documentation](/git-integration-for-jira-cloud/documentation-gij-cloud) - Learn more about Git Integration for Jira Cloud app and how to easily install it.
+- [Known Issues](/git-integration-for-jira-cloud/known-issues-gij-cloud) - Problems that occur with some configurations and their accompanying workarounds.
+- [Hooks and Webhooks](git-integration-for-jira-cloud/hooks-and-webhooks-gij-cloud) - All about hooks!
+- [Product Documentation](/git-integration-for-jira-cloud/documentation-gij-cloud) - Learn more about Git Integration for Jira Cloud app and how to easily install it. Learn how to utilize the features of the app.
 
 ***
 

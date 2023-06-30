@@ -7,13 +7,13 @@ taxonomy:
 
 ---
 
-## Introduction
+### Introduction
 
 Trusted users are users that are able to invite other users and have administrative permissions. They can see all pages of the Git Integration app. Once a user is assigned the **Trusted** role, adding this user to the `jira-administrators` group will not change the access to the [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app because the **Trusted** role is considered to be a Jira administrator.
 
 Jira administrators can grant certain users the **Trusted** role via invite and then later on can change the role according to your organization rules.
 
-## Inviting a User and Assigning a Role
+### Inviting a User and Assigning a Role
 
 On your Jira dashboard, go to ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ **User Management**.
 
@@ -33,7 +33,7 @@ The next screen is displayed.
 
 *   Click **Invite # user(s)** to complete this setup.
 
-## Changing the Role of a User
+### Changing the Role of a User
 
 Go to ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ **User Management**.
 
