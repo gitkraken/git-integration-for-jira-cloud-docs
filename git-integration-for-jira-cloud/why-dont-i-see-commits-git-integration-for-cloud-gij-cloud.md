@@ -129,7 +129,7 @@ Valid Jira issue key examples are shown in the following screenshot:
 
 ![](/wp-content/uploads/gij-gitcloud-idontsee-commits-valid-key.png)
 
-GitHub showing an actual commit and the commit message:
+GitLab showing an actual commit and the commit message:
 
 ![](/wp-content/uploads/gij-gitcloud-idontsee-commits-gitlab.png)
 
