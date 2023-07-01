@@ -16,10 +16,10 @@ taxonomy:
         <b>Default Settings</b><br>
         <ul style='margin-bottom:0px'>
             <li>
-                By default, <a href="https://marketplace.atlassian.com/4984" target="_blank">Git Integration for Jira</a> ) has the Repository Browser enabled. (<a href="#">How to disable</a>)
+                By default, <a href="https://marketplace.atlassian.com/4984" target="_blank">Git Integration for Jira</a> ) has the Repository Browser enabled. (<a href="#how-to-enable-disable">How to disable</a>)
             </li>
             <li>
-                By default, <a href="https://marketplace.atlassian.com/1219270" target="_blank">Dev Info for Jira</a> has the Repository Browser disabled. (<a href="#">How to enable</a>)
+                By default, <a href="https://marketplace.atlassian.com/1219270" target="_blank">Dev Info for Jira</a> has the Repository Browser disabled. (<a href="#how-to-enable-disable">How to enable</a>)
             </li>
         </ul>
     </div>
@@ -41,7 +41,7 @@ taxonomy:
 * * *
 &nbsp;
 
-## Introduction
+### Introduction
 
 The Repository Browser is a feature that offers a view into your connected repositories into Jira Cloud. From the Repository browser page you can see summaries of the following:
 
@@ -57,7 +57,7 @@ The Repository Browser is a feature that offers a view into your connected repos
 
 &nbsp;
 
-## Repository browser
+### Repository browser
 
 ![](/wp-content/uploads/gij-gitcloud-repo-browser-page-access-feature.png)
 
@@ -66,8 +66,6 @@ To access the Repository browser:
 1.  On your Jira Cloud dashboard, go to menu Apps ➜ **Git Integration: Repository browser**; or
 
 2.  On your Jira Cloud dashboard, go to menu Apps ➜ Git Integration: Manage Git repositories ➜ **Repository browser** (sidebar).
-
-<br>
 
 While on the Repository browser page:
 
@@ -79,9 +77,9 @@ While on the Repository browser page:
 
 *   Click on **Manage Git repositories** to go to the Git integration repositories configuration page.
 
-<br>
+&nbsp;
 
-## Personal access column
+### Personal access column
 
 Jira administrators can configure git integrations (example: GitHub, GitLab) to require that Jira users create and provide their own [Personal Access Token](/git-integration-for-jira-cloud/personal-access-token-feature-gij-cloud) to enable features like creating branches, pull request or merge request via Jira Git integration development panel inside Jira.
 
@@ -95,15 +93,14 @@ Jira administrators can configure git integrations (example: GitHub, GitLab) to 
     </div>
     </div>
 </div>
-<br>
 
+&nbsp;
 
+<div id='how-to-enable-disable'></div>
 
-<br>
+### How can a Jira administrator enable or disable the Repository browser?
 
-## How can a Jira administrator enable or disable the Repository browser?
-
-1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) or the [Dev Info for Jira](https://marketplace.atlassian.com/1219270) app.
+1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984?tab=overview&hosting=cloud) or the [Dev Info for Jira](https://marketplace.atlassian.com/apps/1219270/?tab=overview&hosting=cloud) app.
 
 2.  Navigate to the [General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud) page of the application.
 

@@ -7,13 +7,13 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 Occasionally when the Git Integration for Jira Cloud app is installed - the licensing fails to fully provision.
 
 &nbsp;
 
-## Diagnosis
+### Diagnosis
 
 Jira administrators and users will see a message similar to the one below.
 
@@ -41,19 +41,19 @@ at java.lang.Thread.run(Thread.java:748)
 
 &nbsp;
 
-## Solution
+### Solution
 
 Most users can resolve this issue on their own by re-installing the app.
 
-1.  Navigate to the **Manage Apps** screen
+1.  Navigate to the **Manage Apps** screen.
 
-2.  Locate and expand the **Git Integration for Jira Cloud** app
+2.  Locate and expand the **Git Integration for Jira Cloud** app.
 
-3.  Prior to uninstalling the app - you must **Stop trial\***
+3.  Prior to uninstalling the app - you must **Unsubscribe**.
 
-4.  Proceed to **Uninstall** the app
+4.  Proceed to **Uninstall** the app.
 
-5.  Install the **Git Integration for Jira** app
+5.  Install the **Git Integration for Jira** app.
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -61,13 +61,12 @@ Most users can resolve this issue on their own by re-installing the app.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Stopping trial</b><br>
-The evaluation/trial must be stopped before you can uninstall the app.
+        <b>Stopping trial</b>
+        The evaluation/trial must be stopped before you can uninstall the app.<br>
+        <img src='/wp-content/uploads/gij-gitcloud-manage-apps-git-cloud-admin.png' style='margin:25px auto;max-width:100%;display:block;' />
     </div>
     </div>
 </div>
-
-![](/wp-content/uploads/gij-manage-apps-git-cloud-admin.png)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -76,13 +75,14 @@ The evaluation/trial must be stopped before you can uninstall the app.
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>support@gitkraken.com.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>support@gitkraken.com.</a>
     </div>
     </div>
 </div>
-<br>
 
-## Related articles
+&nbsp;
+
+### Related articles
 
 [Why don't I see commits? (Git Integration for Cloud)](/git-integration-for-jira-cloud/why-dont-i-see-commits-git-integration-for-cloud-gij-cloud) (Git Integration for Jira Cloud)
 
@@ -105,3 +105,4 @@ If you still have a question - reach out to our <a href='https://help.gitkraken
 [Empty list of repositories after integration of Azure Repos](/git-integration-for-jira-cloud/empty-list-of-repositories-after-integration-of-azure-repos-gij-cloud) (Git Integration for Jira Cloud)
 
 [Reconnecting Azure DevOps and VSTS OAuth integrations](/git-integration-for-jira-cloud/reconnecting-azure-devops-and-vsts-oauth-integrations-gij-cloud)
+

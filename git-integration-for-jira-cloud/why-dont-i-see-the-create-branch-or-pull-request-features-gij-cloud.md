@@ -7,25 +7,25 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 Users cannot see the **Create branch** or **Create pull/merge request** actions on the [Jira issue developer panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud).
 
-<img src='/wp-content/uploads/gij-troubleshoot-createbranch-pullrequest.png' style='max-width:100%;margin:25px auto;display:block' />
+<img src='/wp-content/uploads/gij-gitcloud-troubleshoot-createbranch-pullrequest.png' style='max-width:100%;margin:25px auto;display:block;' />
 
 &nbsp;
 
-## Solution
+### Solution
 
 The **Create branch** and **Create pull/merge requests** features are enabled by connecting to one of the Full feature integrations.
 
-<img src='/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png' style='max-width:100%;margin:25px auto;display:block' />
+<img src='/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png' style='max-width:100%;margin:25px auto;display:block;' />
 
 1.  Navigate to the Manage integrations page.
 
 2.  Click **Add integration** and select OAuth or PAT integration options (GitHub, GitLab, etc.).
 
-3.  Complete the integration connection wizard steps.
+3.  Complete the integration steps of the connection wizard.
 
 See our [Integration Guides](/git-integration-for-jira-cloud/integration-guide-gij-cloud) for each Full feature integration option.
 
