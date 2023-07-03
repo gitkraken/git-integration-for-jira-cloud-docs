@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 Git Integration for Jira application SSH keys:
 
@@ -21,7 +21,7 @@ Git Integration for Jira application SSH keys:
 
 &nbsp;
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a message similar to the one below when adding the SSH key:
 
@@ -56,13 +56,13 @@ at com.bigbrassband.jira.git.services.ssh.KeyManagerImpl.needPassphrase(KeyManag
 
 &nbsp;
 
-## Cause
+### Cause
 
 Jira admin has provided an SSH public key or an SSH private key with an incorrect format.
 
 &nbsp;
 
-## Solutions
+### Solutions
 
 1. Create a new SSH key:
 
@@ -84,8 +84,7 @@ Jira admin has provided an SSH public key or an SSH private key with an incorrec
         </div>
       </div>
     </div>
-    <br>
-
+    
     **On Windows:**
 
     Download [**PuTTY**](https://www.putty.org/) and use PuTTYgen to generate an SSH key pair:
@@ -125,9 +124,9 @@ Jira admin has provided an SSH public key or an SSH private key with an incorrec
     </div>
     </div>
 </div>
-<br>
 
-## Related articles
+&nbsp;
+### Related articles
 
 [Why don't I see commits? (Git Integration for Cloud)](/git-integration-for-jira-cloud/why-dont-i-see-commits-git-integration-for-cloud-gij-cloud) (Git Integration for Jira Cloud)
 

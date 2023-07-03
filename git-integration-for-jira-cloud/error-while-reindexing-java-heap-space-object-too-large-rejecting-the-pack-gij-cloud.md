@@ -7,13 +7,13 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 The Git Integration for Jira application uses the [JGit](https://www.eclipse.org/jgit/) library which does not support objects over 2GB in size stored in git repositories.
 
 &nbsp;
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log:`
 
@@ -44,7 +44,7 @@ at com.bigbrassband.jira.git.services.gitmanager.MultipleGitRepositoryManagerImp
 
 &nbsp;
 
-## Solutions
+### Solutions
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -56,8 +56,6 @@ at com.bigbrassband.jira.git.services.gitmanager.MultipleGitRepositoryManagerImp
     </div>
     </div>
 </div>
-<br>
-
 
 *   Remove objects larger than 2GB from the git repository history. See following articles for suggestions:
 
@@ -84,11 +82,10 @@ at com.bigbrassband.jira.git.services.gitmanager.MultipleGitRepositoryManagerImp
     </div>
     </div>
 </div>
-<br>
 
 &nbsp;
 
-## Related articles
+### Related articles
 
 [Why don't I see commits? (Git Integration for Cloud)](/git-integration-for-jira-cloud/why-dont-i-see-commits-git-integration-for-cloud-gij-cloud) (Git Integration for Jira Cloud)
 

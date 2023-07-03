@@ -9,11 +9,11 @@ taxonomy:
 
 <b style='background-color:#FFEED1; padding:1px 5px; color:#CC5900; border-radius:3px; margin: 0 5px; font-size: small;'>WORKAROUND</b>
 
-On March 2, 2022, all OAuth integrations between Git Integration for Jira and Azure DevOps and VSTS were interrupted. Our investigation found that Microsoft OAuth apps' client secrets expire after 5 years. This limitation has a single workaround and that is -- for all customers to reconnect. We apologize for this inconvenience and interruption in service. Below are steps to reconnect.
+On March 2, 2022, all OAuth integrations between Git Integration for Jira and Azure DevOps and VSTS were interrupted. Our investigation found that Microsoft OAuth apps' client secrets expire after 5 years. This limitation has a single workaround and that is -- **for all customers to reconnect**. We apologize for this inconvenience and interruption in service. Below are the steps to reconnect.
 
 &nbsp;
 
-## Requirements:
+### Requirements:
 
 1.  Jira administrator permissions
 
@@ -21,29 +21,19 @@ On March 2, 2022, all OAuth integrations between Git Integration for Jira and Az
 
 &nbsp;
 
-## Steps:
+### Steps:
 
-1.  Visit the **Manage Git repositories** screen in the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app
+1.  Go to the **Manage integrations** page in the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app.
 
 2.  Click on the integration name.
 
 3.  Click on **Reconnect**.
 
-4.  Login to Azure DevOps / VSTS with the account you wish to associate with Git Integration for Jira.
+4.  Login to Azure DevOps / VSTS with the account you wish to associate with Git Integration for Jira Cloud.
 
 &nbsp;
 
-## Videos:
-
-**GIJ Server/DC**
-
-<div class='embed-container' style='padding-bottom:50.33%'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/63ndpswgmc?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/63ndpswgmc'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
+### Videos:
 
 **GIJ Cloud**
 
@@ -51,8 +41,20 @@ On March 2, 2022, all OAuth integrations between Git Integration for Jira and Az
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/6jon0nfpu4?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:12px;'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/6jon0nfpu4'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+
+&nbsp;
+
+**GIJ Server/DC**
+
+<div class='embed-container' style='padding-bottom:50.33%'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/63ndpswgmc?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center' style='margin-top:12px;'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/63ndpswgmc'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;
@@ -68,11 +70,10 @@ On March 2, 2022, all OAuth integrations between Git Integration for Jira and Az
     </div>
     </div>
 </div>
-<br>
 
 &nbsp;
 
-## Related articles
+### Related articles
 
 [Why don't I see commits? (Git Integration for Cloud)](/git-integration-for-jira-cloud/why-dont-i-see-commits-git-integration-for-cloud-gij-cloud) (Git Integration for Jira Cloud)
 

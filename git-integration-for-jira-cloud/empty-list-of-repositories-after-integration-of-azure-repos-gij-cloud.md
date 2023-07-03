@@ -7,33 +7,31 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
-After integrating Azure DevOps to Jira, the Tracked Folder/Repositories dialog displays an empty list of repositories.
-
-&nbsp;
-
-## Diagnosis
-
-The integration status is <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>UPDATED</b> but users will see a blank list when performing ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Show integration repositories** in the Git Integration app manage repository configuration list.
-
-![](/wp-cotnent/uploads/gij-azure-no-repo-view-repos-cloud.png)
+After integrating Azure DevOps to Jira, the list filter for Azure repositories returns empty.
 
 &nbsp;
 
-## Solution
+### Diagnosis
 
-If the integration is using the oAuth access, switch to personal access token instead.
+The integration status is <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXED</b> but users still see a blank list on the Manage repositories list with MS Azure list filter set.
 
-If the problem still persists:
+![](/wp-cotnent/uploads/gij-gitcloud-azure-no-repo-manage-repos.png)
 
-1.  Follow the solutions outlined in the following articles:
+&nbsp;
 
-    *   [OAuth connection error or error 401 page with Azure DevOps integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-integration-gij-cloud)
+### Solution
 
-    *   [OAuth connection error or error 401 page with Azure DevOps with Active Directory integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-with-active-directory-integration-gij-cloud)
+If the integration is using the oAuth access, switch to personal access token instead. Also check PAT configuration when [Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
 
-2.  Configure [Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
+If the problem still persists, follow the solutions outlined in the following articles:
+
+*   [Reconnecting Azure DevOps and VSTS OAuth integrations](/git-integration-for-jira-cloud/reconnecting-azure-devops-and-vsts-oauth-integrations-gij-cloud)
+
+*   [OAuth connection error or error 401 page with Azure DevOps integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-integration-gij-cloud)
+
+*   [OAuth connection error or error 401 page with Azure DevOps with Active Directory integration](/git-integration-for-jira-cloud/oauth-connection-error-or-error-401-page-with-azure-devops-with-active-directory-integration-gij-cloud)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -49,7 +47,7 @@ If the problem still persists:
 
 &nbsp;
 
-## Related articles
+### Related articles
 
 [Why don't I see commits? (Git Integration for Cloud)](/git-integration-for-jira-cloud/why-dont-i-see-commits-git-integration-for-cloud-gij-cloud) (Git Integration for Jira Cloud)
 
