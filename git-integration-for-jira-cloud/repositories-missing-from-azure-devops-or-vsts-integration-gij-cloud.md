@@ -7,13 +7,13 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 Some or all repositories in Azure DevOps (or Visual Studio Team Services - VSTS) integrations are not showing or seen by the integration user.
 
 &nbsp;
 
-## Diagnoses
+### Diagnoses
 
 **1\. Permissions**
 
@@ -33,7 +33,7 @@ Only git format repositories are supported by the Git Integration for Jira app.�
 
 &nbsp;
 
-## Solutions
+### Solutions
 
 **1\. Permissions**
 
@@ -53,7 +53,7 @@ Convert the Team Foundation Version Control (TFVC) formatted repositories to gi
 
 &nbsp;
 
-## Workarounds
+### Workarounds
 
 See the following articles:
 
@@ -70,14 +70,14 @@ See the following articles:
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>
 
 &nbsp;
 
-## Related articles
+### Related articles
 
 [Why don't I see commits? (Git Integration for Cloud)](/git-integration-for-jira-cloud/why-dont-i-see-commits-git-integration-for-cloud-gij-cloud) (Git Integration for Jira Cloud)
 

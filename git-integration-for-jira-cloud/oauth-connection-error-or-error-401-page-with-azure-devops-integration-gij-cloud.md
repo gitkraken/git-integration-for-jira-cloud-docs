@@ -7,25 +7,25 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 You are getting the OAuth connection error or a 401 web page error is displayed when integrating Azure DevOps.
 
 &nbsp;
 
-## Diagnosis
+### Diagnosis
 
 These issues are related to the security settings in your Azure DevOps portal where certain security policies are rejecting connections to Git Integration for Jira app.
 
 &nbsp;
 
-## Cause
+### Cause
 
 On most cases, this is caused by an OAuth setting being turned OFF.
 
 &nbsp;
 
-## Solution
+### Solution
 
 Git Integration for Jira Cloud requires Git admins to allow the third-party app access OAuth security policy in their organization settings:
 
@@ -55,7 +55,7 @@ Git Integration for Jira Cloud requires Git admins to allow the third-party app 
 
 &nbsp;
 
-## Related articles
+### Related articles
 
 [Why don't I see commits? (Git Integration for Cloud)](/git-integration-for-jira-cloud/why-dont-i-see-commits-git-integration-for-cloud-gij-cloud) (Git Integration for Jira Cloud)
 

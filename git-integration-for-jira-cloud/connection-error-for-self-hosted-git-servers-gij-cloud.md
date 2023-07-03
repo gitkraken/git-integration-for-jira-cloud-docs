@@ -7,13 +7,13 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 Jira admins are not able to connect Jira Cloud to self-hosted git servers when hosted behind a firewall or otherwise not reachable by the Git Integration for Jira Cloud indexing service.
 
 &nbsp;
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a message similar to the one below when connecting to self-hosted git servers hosted behind a firewall or otherwise not reachable.
 
@@ -25,7 +25,7 @@ com.bigbrassband.gitforjiracloud.appserver.apiendpoint.tasks.TaskException: com.
 
 &nbsp;
 
-## Solution
+### Solution
 
 See [Whitelist GIJ Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud).
 
