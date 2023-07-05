@@ -36,13 +36,12 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 &nbsp;
 * * *
 &nbsp;
 
-## Introduction
+### Introduction
 
 The Issue Git Source Code Panel displays:
 
@@ -56,13 +55,13 @@ The Issue Git Source Code Panel displays:
 
 &nbsp;
 
-## Git Source Code Panel (old issue view)
+### Git Source Code Panel (old issue view)
 
 ![](/wp-content/uploads/gij-git-cloud-oldview-source-code-panel.png)
 
 &nbsp;
 
-## Git Source Code Panel (New issue view & next-gen projects)
+### Git Source Code Panel (New issue view & next-gen projects)
 
 The Git Commits Issue tab lists the git commits associated to the Jira issue grouped by repository and sorted by commit time. 
 
@@ -70,7 +69,7 @@ The Git Commits Issue tab lists the git commits associated to the Jira issue gr
 
 &nbsp;
 
-## How can a Jira administrator enable or disable the Issue Git Source Code Panel?
+### How can a Jira administrator enable or disable the Issue Git Source Code Panel?
 
 1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) or the [Dev Info for Jira](https://marketplace.atlassian.com/1219270) app
 
@@ -80,7 +79,7 @@ The Git Commits Issue tab lists the git commits associated to the Jira issue gr
 
 4.  Click **Update** button.
 
-![](/wp-content/uploads/gij-gitcloud-general-settings-git-source-code-panel.png)
+![](/wp-content/uploads/gij-gitcloud-general-settings-git-source-code-panel-1455.png)
 
 &nbsp;
 
@@ -97,5 +96,42 @@ For detailed information about this feature, see [Documentation: Jira Git integr
     </div>
     </div>
 </div>
-<br>
+
+### See more features
+
+[Deep linking feature](/git-integration-for-jira-cloud/deeplinking-feature-gij-cloud/)
+
+[CI / CD for Jira Cloud](/git-integration-for-jira-cloud/cicd-getting-started-with-ci-cd-for-jira-gij-cloud/)
+
+[Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud/)
+
+[Jira Development Information](/git-integration-for-jira-cloud/jira-development-information-gij-cloud/)
+
+[JQL Searching for Commits and Pull Requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud/)
+
+[Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/)
+
+[Git Roll Up Issue Tab features](/git-integration-for-jira-cloud/git-roll-up-issue-tab-gij-cloud/)
+
+[Git Commits Issue Tab and Project Pages](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-pages-gij-cloud/)
+
+**Issue Git Source Code Panel** (this page)
+
+[Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud/)
+
+[Create pull or merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud/)
+
+[Repository Browser – Viewing all repositories](/git-integration-for-jira-cloud/repository-browser-viewing-all-repositories-gij-cloud/)
+
+[Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/)
+
+[Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud/)
+
+[Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud/)
+
+[Git Integration Server/Data Center vs Jira Cloud – Feature Comparison](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud/)
+
+[Migrating from Jira Server + Data Center to Jira Cloud](/git-integration-for-jira-cloud/migrating-from-jira-server-data-center-to-jira-cloud-gij-cloud/)
+
+[User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud/)
 

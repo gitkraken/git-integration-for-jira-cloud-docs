@@ -1,6 +1,6 @@
 ---
 
-title: Git Commits Issue Tab and Project Pages
+title: Git Commits Issue Tab and Project Pages (Features)
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -38,50 +38,42 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-**What's on this page:**
-- [Git Commits Issue Tab](#git-commits-issue-tab)
-- [Git Commits Project Page](#git-commits-project-page)
-- [View Full Commit](#view-full-commit)
-- [Change Association](#change-association)
-- [How can a Jira administrator enable or disable the Git Commits Issue Tabs and Project Page?](#how-can-a-jira-administrator-enable-or-disable-the-git-commits-issue-tabs-and-project-page)
+&nbsp;
 
-* * *
-
-## Git Commits Issue Tab
+### Git Commits Issue Tab
 
 The Git Commits Issue tab lists the git commits associated to the Jira issue grouped by repository and sorted by commit time.
 
-![](/wp-content/uploads/gij-gitcloud-git-commits-issue-tab.png)
+![](/wp-content/uploads/gij-gitcloud-git-commits-issue-tab-1455.png)
 
-<br>
+&nbsp;
 
-## Git Commits Project Page
+### Git Commits Project Page
 
 The Git Commits Project Page lists the git commits associated to the Jira Project grouped by repository and sorted by commit time.
 
-![](/wp-content/uploads/gij-gitcloud-git-commits-project-page.png)
+![](/wp-content/uploads/gij-gitcloud-git-commits-project-page-1455.png)
 
-<br>
+&nbsp;
 
-## View Full Commit
+### View Full Commit
 
 The View Full Commit button launches a screen detailing the source code change in the commit.
 
-![](/wp-content/uploads/gij-gitcloud-gitcommits-diff-change.png)
+![](/wp-content/uploads/gij-gitcloud-gitcommits-diff-change-1455.png)
 
-<br>
+&nbsp;
 
-## Change Association
+### Change Association
 
 The Change association feature allows for updating the Jira issues associated with a commit.
 
-![](/wp-content/uploads/gij-git-cloud-change-association.png)
+![](/wp-content/uploads/gij-git-cloud-change-association-1455.png)
 
-<br>
+&nbsp;
 
-## How can a Jira administrator enable or disable the Git Commits Issue Tabs and Project Page?
+### How can a Jira administrator enable or disable the Git Commits Issue Tabs and Project Page?
 
 1.  Install the **[Git Integration for Jira](https://marketplace.atlassian.com/4984)** or the **[Dev Info for Jira](https://marketplace.atlassian.com/1219270)** app.
 
@@ -91,7 +83,7 @@ The Change association feature allows for updating the Jira issues associated wi
 
 4.  Click **Update** button.
 
-![](/wp-content/uploads/gij-gitcloud-general-settings-git-commits-issue-project.png)
+![](/wp-content/uploads/gij-gitcloud-general-settings-git-commits-issue-project-1455.png)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -103,5 +95,44 @@ The Change association feature allows for updating the Jira issues associated wi
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
+
+### See more features
+
+[Deep linking feature](/git-integration-for-jira-cloud/deeplinking-feature-gij-cloud/)
+
+[CI / CD for Jira Cloud](/git-integration-for-jira-cloud/cicd-getting-started-with-ci-cd-for-jira-gij-cloud/)
+
+[Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud/)
+
+[Jira Development Information](/git-integration-for-jira-cloud/jira-development-information-gij-cloud/)
+
+[JQL Searching for Commits and Pull Requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud/)
+
+[Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/)
+
+[Git Roll Up Issue Tab features](/git-integration-for-jira-cloud/git-roll-up-issue-tab-gij-cloud/)
+
+**Git Commits Issue Tab and Project Pages** (this page)
+
+[Issue Git Source Code Panel](/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud/)
+
+[Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud/)
+
+[Create pull or merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud/)
+
+[Repository Browser – Viewing all repositories](/git-integration-for-jira-cloud/repository-browser-viewing-all-repositories-gij-cloud/)
+
+[Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/)
+
+[Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud/)
+
+[Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud/)
+
+[Git Integration Server/Data Center vs Jira Cloud – Feature Comparison](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud/)
+
+[Migrating from Jira Server + Data Center to Jira Cloud](/git-integration-for-jira-cloud/migrating-from-jira-server-data-center-to-jira-cloud-gij-cloud/)
+
+[User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud/)
 

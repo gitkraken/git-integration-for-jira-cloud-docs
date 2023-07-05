@@ -32,9 +32,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Show Git Commits Issue Tab and Project Page
+&nbsp;
+
+### Show Git Commits Issue Tab and Project Page
 
 ![](/wp-content/uploads/gij-gitcloud-gencfg-show-git-commits-issue-proj-tab.png)
 
@@ -53,13 +54,12 @@ For more details, see [**Features: Git Commits Issue tab and Project Page (Jira
     </div>
     </div>
 </div>
-<br>
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
 
 &nbsp;
 
-## More General settings options
+### More General settings options
 
 [Enable beta features setting](/git-integration-for-jira-cloud/enable-beta-features-setting-gij-cloud)
 

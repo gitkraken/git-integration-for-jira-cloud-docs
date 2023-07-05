@@ -1,6 +1,6 @@
 ---
 
-title: Git Roll Up Issue Tab features
+title: Git Roll Up Issue Tab (Features)
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -36,13 +36,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-<br>
-<hr>
-<br>
+&nbsp;
 
-## Introduction
+### Introduction
 
 The Git Roll Up Issue tab displays a summary of the files, lines and the developers who made the changes in the commits commits associated with the Jira issue.
 
@@ -59,7 +56,7 @@ Some notable sections:
 
 &nbsp;
 
-## How can a Jira administrator enable or disable the Git Roll Up issue tab?
+### How can a Jira administrator enable or disable the Git Roll Up issue tab?
 
 1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) or the [Dev Info for Jira](https://marketplace.atlassian.com/1219270) app.
 
