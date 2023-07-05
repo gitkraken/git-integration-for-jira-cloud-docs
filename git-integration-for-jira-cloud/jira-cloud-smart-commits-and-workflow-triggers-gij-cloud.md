@@ -11,17 +11,6 @@ Smart commits allows your team to perform actions on Jira issues from a single c
 
 The smart commit processing is **active by default** and can be enabled/disabled via **General settings** _(Jira dashboard menu Apps ➜ Git Integration: Manage integrations ➜ (sidebar) General settings)._
 
-**What's on this page:**
-- [General settings effect on Smart Commits commands](#general-settings-effect-on-smart-commits-commands)
-- [How can a Jira administrator enable or disable the Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers?](#how-can-a-jira-administrator-enable-or-disable-the-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers)
-- [More related topics about Jira Cloud smart commits and workflow triggers](#more-related-topics-about-jira-cloud-smart-commits-and-workflow-triggers)
-- [More related topics on Jira Development Information](#more-related-topics-on-jira-development-information)
-
-
-&nbsp;
-<hr>
-&nbsp;
-
 <div class="bbb-callout bbb--tip">
     <div class="irow">
     <div class="ilogobox">
@@ -48,7 +37,7 @@ The smart commit processing is **active by default** and can be enabled/disabl
 
 &nbsp;
 
-## General settings effect on Smart Commits commands
+### General settings effect on Smart Commits commands
 
 Please take note that the following settings will affect availability of specific smart commit commands as outlined below:
 
@@ -62,11 +51,11 @@ Please take note that the following settings will affect availability of specifi
 
 &nbsp;
 
-## How can a Jira administrator enable or disable the Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers?
+### How can a Jira administrator enable or disable the Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers?
 
 1.  Install the [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) or the [**Dev Info for Jira**](https://marketplace.atlassian.com/1219270) app.
 
-2.  Navigate to the **General settings** page of the application _Jira Settings_ ➜ _Apps_ ➜ (sidebar) _General settings_).
+2.  Navigate to the **General settings** page of the application (_Jira Settings_ ➜ _Apps_ ➜ (sidebar) _General settings_).
 
 3.  Click the **Send Development Information to Jira Cloud** checkbox to mark and enable it. This also allows access to the **Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers** setting.
 
@@ -92,19 +81,17 @@ Please take note that the following settings will affect availability of specifi
 
 &nbsp;
 
-## More related topics about Jira Cloud smart commits and workflow triggers
+### More related topics about Jira Cloud smart commits and workflow triggers
 
 [Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers](/git-integration-for-jira-cloud/enable-jira-cloud-smart-commits-automation-for-jira-and-workflow-triggers-gij-cloud)
 
 [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## More related topics on Jira Development Information
+### More related topics on Jira Development Information
 
 *   [Development Information Views](/git-integration-for-jira-cloud/development-information-views-gij-cloud)
 
@@ -114,4 +101,42 @@ Please take note that the following settings will affect availability of specifi
 
 *   [Jira Development Information general settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
 
+
+### See more features
+
+[Deep linking feature](/git-integration-for-jira-cloud/deeplinking-feature-gij-cloud/)
+
+[CI / CD for Jira Cloud](/git-integration-for-jira-cloud/cicd-getting-started-with-ci-cd-for-jira-gij-cloud/)
+
+[Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud/)
+
+[Jira Development Information](/git-integration-for-jira-cloud/jira-development-information-gij-cloud/)
+
+[JQL Searching for Commits and Pull Requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud/)
+
+**Jira Cloud Smart Commits and Workflow Triggers** (this page)
+
+[Git Roll Up Issue Tab features](/git-integration-for-jira-cloud/git-roll-up-issue-tab-gij-cloud/)
+
+[Git Commits Issue Tab and Project Pages](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-pages-gij-cloud/)
+
+[Issue Git Source Code Panel](/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud/)
+
+[Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud/)
+
+[Create pull or merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud/)
+
+[Repository Browser – Viewing all repositories](/git-integration-for-jira-cloud/repository-browser-viewing-all-repositories-gij-cloud/)
+
+[Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/)
+
+[Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud/)
+
+[Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud/)
+
+[Git Integration Server/Data Center vs Jira Cloud – Feature Comparison](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud/)
+
+[Migrating from Jira Server + Data Center to Jira Cloud](/git-integration-for-jira-cloud/migrating-from-jira-server-data-center-to-jira-cloud-gij-cloud/)
+
+[User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud/)
 

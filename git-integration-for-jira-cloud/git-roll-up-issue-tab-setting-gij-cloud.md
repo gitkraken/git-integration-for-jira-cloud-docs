@@ -30,9 +30,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Show Git Roll Up Issue Tab
+&nbsp;
+
+### Show Git Roll Up Issue Tab
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-show-git-rollup-issue-tab.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -51,13 +52,12 @@ For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integra
     </div>
     </div>
 </div>
-<br>
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
 
 &nbsp;
 
-## More General settings options
+### More General settings options
 
 [Enable beta features setting](/git-integration-for-jira-cloud/enable-beta-features-setting-gij-cloud)
 
