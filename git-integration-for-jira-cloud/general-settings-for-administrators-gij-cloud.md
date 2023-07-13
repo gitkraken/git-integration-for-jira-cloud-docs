@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- documentation -->
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -30,9 +32,9 @@ The **General settings** configuration page can be accessed thru the following
 
 *   Jira dashboard ➜ Apps menu ➜ **Git Integration: Manage integrations** ➜ Git Integration for Jira (sidebar) ➜ **General settings**.
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-gitmenu-apps-gencfg-sel.png)
 
-*   Jira dashboard ➜Jira settings ➜ Apps ➜ **General settings** (sidebar).
+*   Jira dashboard ➜ &nbsp;![](/wp-content/uploads/actions-icon.png) Jira settings ➜ Apps ➜ **General settings** (sidebar).
 
     ![](/wp-content/uploads/gij-gitcloud-gencfg-admin-apps-menu.png)
 
