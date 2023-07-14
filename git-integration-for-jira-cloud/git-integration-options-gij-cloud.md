@@ -14,21 +14,10 @@ These settings will take effect at integration level for projects with connected
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-git-integration-options.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-
-**What’s on this page:**
-- [Git integration settings](#git-integration-settings)
-  - [Enable create \/ delete branch](#enable-create--delete-branch)
-  - [Enable create pull \/ merge request](#enable-create-pull--merge-request)
-- [Branch name template](#branch-name-template)
-- [Branch name templates inner separator](#branch-name-templates-inner-separator)
-- [Max branch name length](#max-branch-name-length)
-- [Some examples](#some-examples)
-
-&nbsp;
-* * *
 &nbsp;
 
-### Enable create \/ delete branch
+### Enable create and delete branch
+
 This setting shows or hides the function for creating/deleting of branches. The ability to create/delete selected branches from the Jira developer panel is dependent on this setting.
 
 <img src='/wp-content/uploads/gij-gitcloud-dev-panel-create-branch-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
@@ -37,7 +26,7 @@ For detailed information on this feature, see [Creating branches](/git-integrati
 
 &nbsp;
 
-### Enable create pull \/ merge request
+### Enable create pull or merge request
 
 This setting shows or hides the function for creating pull/merge requests from the Jira developer panel.
 
@@ -47,7 +36,7 @@ For detailed information on this feature, see [Creating pull/merge requests](/gi
 
 &nbsp;
 
-## Branch name template
+### Branch name template
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-branch-name-template.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -77,7 +66,7 @@ Use the following template variables:
     <div class="imsgbox">
         <b>The Git Integration for Jira app default is:</b><br>
         <code>${issuekey}-${summary}</code><br>
-        <div style='margin-bottom:0px'>This generates the string format like "<b>PRJ-123-add-more-logging</b>" as a default value for the Create Branch and Pull/Merge Request dialogs. Where <code>PRJ-123</code> is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form).</div>
+        <div style='margin-bottom:-10px'>This generates the string format like "<b>PRJ-123-add-more-logging</b>" as a default value for the Create Branch and Pull/Merge Request dialogs. Where <code>PRJ-123</code> is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form).</div>
     </div>
     </div>
 </div>
@@ -90,17 +79,17 @@ Use the following template variables:
 
 &nbsp;
 
-## Branch name templates inner separator
+#### Branch name templates inner separator
 
-<img src='/wp-content/uploads/gij-gitcloud-gencfg-branch-name-temp-inner-sep.png'style='margin:25px auto;max-width:100%;display:block;' />'
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-branch-name-temp-inner-sep.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 This setting applies which inner word separator to use for the branch name template. The default setting is `"-" (dash)`.
 
 &nbsp;
 
-## Max branch name length
+#### Max branch name length
 
-<img src='/wp-content/uploads/gij-gitcloud-gencfg-branch-name-length.png?version=1&modificationDate=1645097669336&cacheVersion=1&api=v2&width=511&height=73)
+<img src='/wp-content/uploads/gij-gitcloud-gencfg-branch-name-length.png' />
 
 This setting allows administrators to specify the maximum character length for branch names. The default value is **250** chars.
 
@@ -108,7 +97,7 @@ This setting allows administrators to specify the maximum character length for b
 * * *
 &nbsp;
 
-## Some examples
+#### Some examples
 
 **Example 1:**<br>
 `${issuetype}/${issuekey}-${summary}`<br>
@@ -129,7 +118,7 @@ After all the settings have been configured according to your requirements, clic
 
 &nbsp;
 
-## More General settings options
+### More General settings options
 
 [Enable beta features setting](/git-integration-for-jira-cloud/enable-beta-features-setting-gij-cloud)
 

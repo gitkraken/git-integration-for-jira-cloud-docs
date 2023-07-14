@@ -28,7 +28,7 @@ taxonomy:
 
 &nbsp;
 
-## What is Jira Development Information?
+### What is Jira Development Information?
 
 [**Jira Development Information**](/git-integration-for-jira-cloud/jira-development-information-gij-cloud) is a suite of new features available in Jira Software on the Cloud platform that puts commits, branches, and pull requests in context of Jira issue. These settings can be configured to "push" development information (commits, branches, and pull requests) directly into your Jira Cloud instance.
 
@@ -36,7 +36,7 @@ After all the settings have been configured according to your requirements, clic
 
 &nbsp;
 
-## General settings effect on Smart Commits commands
+### General settings effect on Smart Commits commands
 
 Please take note that the following settings will affect availability of specific smart commit commands as outlined below:
 
@@ -50,7 +50,7 @@ Please take note that the following settings will affect availability of specifi
 
 &nbsp;
 
-## More Jira development information settings
+### More Jira development information settings
 
 [Send development information to Jira Cloud setting](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting-gij-cloud)
 
@@ -60,13 +60,11 @@ Please take note that the following settings will affect availability of specifi
 
 [Advanced: Clear Development Information setting](/git-integration-for-jira-cloud/advanced-clear-development-information-setting-gij-cloud)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## More General settings options
+### More General settings options
 
 [Git roll up issue tab setting](/git-integration-for-jira-cloud/git-roll-up-issue-tab-setting-gij-cloud)
 

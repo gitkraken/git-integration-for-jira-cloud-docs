@@ -7,35 +7,23 @@ taxonomy:
 
 ---
 
-**What’s on this page:**
-- [Where is Jira Development Information shown?](#where-is-jira-development-information-shown)
-  - [Detailed view of commits](#detailed-view-of-commits)
-  - [Detailed view of branches](#detailed-view-of-branches)
-  - [Detailed view of pull requests](#detailed-view-of-pull-requests)
-- [More related topics about development information views](#more-related-topics-about-development-information-views)
-- [More related topics about Jira development information](#more-related-topics-about-jira-development-information)
+<!-- FEATURES -->
 
-<br>
-<br>
-<hr>
-<br>
-<br>
-
-## Where is Jira Development Information shown?
+### Where is Jira Development Information shown?
 
 Atlassian Jira Cloud currently displays Jira Development Information in the Development Panel in Jira issues.
 
 ![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-location.png)
 
-### Detailed view of commits
+#### Detailed view of commits
 
 ![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-commits.png)
 
-### Detailed view of branches
+#### Detailed view of branches
 
 ![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-branches.png)
 
-### Detailed view of pull requests
+#### Detailed view of pull requests
 
 ![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-pull-req.png)
 
@@ -50,9 +38,10 @@ Atlassian Jira Cloud currently displays Jira Development Information in the Deve
     </div>
     </div>
 </div>
-<br>
 
-## More related topics about development information views
+&nbsp;
+
+### More related topics about development information views
 
 [Development status in Jira issue searching](/git-integration-for-jira-cloud/development-status-in-jira-issue-searching-gij-cloud)
 
@@ -60,13 +49,11 @@ Atlassian Jira Cloud currently displays Jira Development Information in the Deve
 
 [Next-gen projects only: View commits, branches, and pull requests in Jira Boards](/git-integration-for-jira-cloud/next-gen-projects-only-view-commits-branches-and-pull-requests-in-jira-boards-gij-cloud)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## More related topics about Jira development information
+### More related topics about Jira development information
 
 **Development Information Views** (this page)
 

@@ -6,11 +6,14 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 Access this setting on the dashboard menu via Apps ➜ Git Integration: Manage Git repositories ➜ (sidebar) **General settings**. Alternatively, go to dashboard Jira Settings ➜ Apps ➜ (sidebar) **General settings**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1941373113/gitcloud-gencfg-jira-dev-info-settings.png?version=1&modificationDate=1631349902457&cacheVersion=1&api=v2)
 
 There are four Jira Development Information settings that Jira administrators should aware of:
+
+&nbsp;
 
 ### Send Development Information to Jira Cloud
 
@@ -18,17 +21,23 @@ Enabling _**Send Development Information to Jira Cloud**_ setting will send ne
 
 Only newly received data is sent to Jira Cloud - so if you wish to see historical data in these views - remove the current repositories/integrations in Manage Git repositories and re-connect.
 
+&nbsp;
+
 ### Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers
 
 The _**Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers**_ setting engages the native Jira Cloud Smart Commit processing (only `#time`, `#comment`, and `#transitions`) as well as enables **Automatic workflow triggers**.
 
 For more information - see our [Smart Commits^](/git-integration-for-jira-cloud/smart-commits-gij-cloud) or [Automatic workflow triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud) documentation.
 
+&nbsp;
+
 ### Enable Git Integration app Smart Commits
 
 The _**Enable Git Integration app Smart Commits**_ setting engages BigBrassBand's Git Integration Smart Commit processing (`#time`, `#comment`, `#transitions`, and `#label`).
 
 For more information - see our [Smart Commit documentation](/git-integration-for-jira-cloud/smart-commits-gij-cloud).
+
+&nbsp;
 
 ### Advanced: Clear Development Information
 

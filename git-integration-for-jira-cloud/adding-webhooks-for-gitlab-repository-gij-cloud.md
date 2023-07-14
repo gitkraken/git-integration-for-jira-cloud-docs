@@ -55,9 +55,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Setting up webhooks for GitLab
+&nbsp;
+
+### Setting up webhooks for GitLab
 
 Configure webhook by logging in to your GitLab account:
 
@@ -79,9 +80,9 @@ Configure webhook by logging in to your GitLab account:
 
 6.  Click **Add webhook** to save the new webhook settings.
 
-<br>
+&nbsp;
 
-## Merge request event webhook
+### Merge request event webhook
 
 The Git Integration for Jira app supports GitLab merge request webhooks now.
 

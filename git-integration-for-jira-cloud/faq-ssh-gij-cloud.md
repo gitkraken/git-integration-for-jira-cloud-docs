@@ -15,29 +15,27 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [Why do I need to provide a PRIVATE KEY to the Git Integration for Jira Cloud app instead of a PUBLIC KEY?](#why-do-i-need-to-provide-a-private-key-to-the-git-integration-for-jira-cloud-app-instead-of-a-public-key)
 - [How do I configure/connect an SSH remote git repository to Jira?](#how-do-i-configureconnect-an-ssh-remote-git-repository-to-jira)
 
-<hr>
+&nbsp;
+* * *
+&nbsp;
 
-## Does this app support authenticating to git repositories via SSH?
+### Does this app support authenticating to git repositories via SSH?
 
 Yes.
 
 SSH keys with and without passphrases are supported.
 
-## Why do I need to provide a PRIVATE KEY to the Git Integration for Jira Cloud app instead of a PUBLIC KEY?
+&nbsp;
+
+### Why do I need to provide a PRIVATE KEY to the Git Integration for Jira Cloud app instead of a PUBLIC KEY?
 
 The PRIVATE KEY is needed by the SSH client, which is the Jira Cloud, to connect to the Git server via SSH.
 
-## How do I configure/connect an SSH remote git repository to Jira?
+&nbsp;
 
-In Jira, use the **Connect to Git Repository** wizard to configure SSH integration with any remote git repositories.
+### How do I configure/connect an SSH remote git repository to Jira?
 
-1.  On your Jira dashboard > **Git** menu > **Manage git repositories**.
-2.  Click **Connect to Git Repository**. The **Connect to Git Repository** wizard appears.
-3.  Enter **Repository location** of your SSH git server. Click **Next**.
-4.  Upload the private key or paste it on the provided field. Click **Next**.
-5.  Enter **Passphrase** (if required). Click **Next**.
-The wizard will start cloning the selected repository. When the process is complete, the Permissions dialog is displayed.6.  Leave settings as is and click **Next**.
-7.  Click **Finish** to complete the setup. The repository is added to the repositories list.
+In Jira, use the **[Plain git integration](/git-integration-for-jira-cloud/using-the-single-git-integration-wizard-gij-cloud/)** wizard to configure SSH integration with any remote git repositories.
 
 Here's a video to guide you step-by-step as stated above:
 
