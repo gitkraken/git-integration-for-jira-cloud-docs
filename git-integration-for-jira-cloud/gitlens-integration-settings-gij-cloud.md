@@ -25,7 +25,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         <b>Default settings</b><br>
-        <ul>
+        <ul style='margin-bottom:0px;'>
             <li>
                 This setting is enabled in <a href="https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud" target="_blank"><b>Git Integration for Jira Cloud</b></a> app by default.
             </li>
@@ -36,9 +36,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Enable GitLens integration
+&nbsp;
+
+### Enable GitLens integration
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-gitlens-integration-417.png' style='margin:25px auto;max-width:100%;display:block;' />
 

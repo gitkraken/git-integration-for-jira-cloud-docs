@@ -25,7 +25,7 @@ Only Jira <b><i>Company-managed</i></b> projects support development JQL search
 
 &nbsp;
 
-## JQL: Commits
+### JQL: Commits
 
 Use the following JQL syntax to locate all Jira issues with more than one commit:
 ```java
@@ -40,7 +40,9 @@ development[commits].all \> 0
 development[commits].all \> 15
 ```
 
-## JQL: Pull Requests
+&nbsp;
+
+### JQL: Pull Requests
 
 Use the following JQL syntax to locate all Jira issues with more than one pull request:
 
@@ -50,6 +52,8 @@ Use the following JQL syntax to locate all Jira issues with more than one pull r
 ```
 
 ![JQL to find issues with at least pull request](/wp-content/uploads/gij-gitcloud-jql-seach-pull-requests.png)
+
+&nbsp;
 
 ### Examples:
 
@@ -73,9 +77,10 @@ development[pullrequests].open \> 0
     </div>
     </div>
 </div>
-<br>
 
-## More related topics on Jira Development Information
+&nbsp;
+
+### More related topics on Jira Development Information
 
 [Development Information Views](/git-integration-for-jira-cloud/development-information-views-gij-cloud)
 

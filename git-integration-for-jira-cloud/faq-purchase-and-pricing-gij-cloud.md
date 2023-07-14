@@ -15,9 +15,11 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 - [What payment methods are accepted?](#what-payment-methods-are-accepted)
 - [How do I determine the Git Integration for Jira app pricing after the trial?](#how-do-i-determine-the-git-integration-for-jira-app-pricing-after-the-trial)
 
+&nbsp;
 * * *
+&nbsp;
 
-## How do I buy this add-on?
+### How do I buy this add-on?
 
 Buy the Git Integration for Jira app on Atlassian Marketplace using your Atlassian account  —  the same place where you manage your Jira license today.
 
@@ -25,7 +27,9 @@ Buy the Git Integration for Jira app on Atlassian Marketplace using your Atlassi
 
 **[Click here to buy the Jira Git Plugin](https://my.atlassian.com/purchase/buyaddon?key=com.xiplink.jira.git.jira_git_plugin "[Buy the Jira Git Plugin]")**
 
-## What payment methods are accepted?
+&nbsp;
+
+### What payment methods are accepted?
 
 Atlassian Marketplace accepts MasterCard, Visa and American Express.  You may also pay with bank transfer or mailed check.
 
@@ -33,7 +37,9 @@ Atlassian Marketplace accepts MasterCard, Visa and American Express.  You may a
 
 [**Buy Now**](https://my.atlassian.com/purchase/buyaddon?key=com.xiplink.jira.git.jira_git_plugin "[Buy the Jira Git Plugin]")
 
-## How do I determine the Git Integration for Jira app pricing after the trial?
+&nbsp;
+
+### How do I determine the Git Integration for Jira app pricing after the trial?
 
 There are four ways to determine the pricing:
 

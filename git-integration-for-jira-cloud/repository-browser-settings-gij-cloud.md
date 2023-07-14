@@ -25,7 +25,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         <b>Features</b><br>
-        <ul>
+        <ul style='margin-bottom:0px;'>
             <li>
                 This setting is enabled in <a href="https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud" target="_blank">Git Integration for Jira Cloud</a> app by default.
             </li>
@@ -36,9 +36,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Show Repository browser: View all repositories, Commits and Compare pages
+&nbsp;
+
+### Show Repository browser: View all repositories, Commits and Compare pages
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-show-repo-browser.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -55,7 +56,6 @@ The Repository Browser is a feature that offers a view into your connected repos
     </div>
     </div>
 </div>
-<br>
 
 Disabling this feature, hides the **Git Integration: Repository browser** – dashboard Apps menu context.
 
@@ -65,7 +65,7 @@ After all the settings have been configured according to your requirements, clic
 
 &nbsp;
 
-## More General settings options
+### More General settings options
 
 [Enable beta features setting](/git-integration-for-jira-cloud/enable-beta-features-setting-gij-cloud)
 

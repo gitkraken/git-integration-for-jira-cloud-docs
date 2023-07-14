@@ -25,7 +25,6 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 To manually link a git commit to a Jira issue, access the **Change commit issues** feature from the following locations:
 

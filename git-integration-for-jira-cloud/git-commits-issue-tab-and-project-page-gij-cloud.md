@@ -37,7 +37,7 @@ taxonomy:
 
 ### Show Git Commits Issue Tab and Project Page
 
-![](/wp-content/uploads/gij-gitcloud-gencfg-show-git-commits-issue-proj-tab.png)
+![](/wp-content/uploads/gij-gitcloud-gencfg-show-git-commits-issue-proj-tab-1455.png)
 
 This setting will enable/disable the **Git Commits Issue tab** and the **Git Commits Project** page. These locations show the list of git commits associated to the Jira Issue and Jira Project, respectively. The list is grouped by repository and sorted by commit time.
 

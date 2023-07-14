@@ -33,20 +33,7 @@ taxonomy:
 
 &nbsp;
 
-**What's on this page:**
-- [What is Jira Development Information?](#what-is-jira-development-information)
-- [How does Jira Development Information work?](#how-does-jira-development-information-work)
-- [Who can see Jira Development Information?](#who-can-see-jira-development-information)
-- [How can a Jira administrator enable or disable Jira Development Information?](#how-can-a-jira-administrator-enable-or-disable-jira-development-information)
-- [What other features are enabled by Jira Development Information?](#what-other-features-are-enabled-by-jira-development-information)
-
-<br>
-<br>
-<hr>
-<br>
-<br>
-
-## What is Jira Development Information?
+### What is Jira Development Information?
 
 Jira Development Information is a suite of new features available in Jira Software on the Cloud platform that puts commits, branches, and pull requests in context of Jira issue.
 
@@ -54,11 +41,15 @@ Jira Development Information is a suite of new features available in Jira Softwa
 
 *   By default, [**Dev Info for Jira**](https://marketplace.atlassian.com/1219270) has Jira Development Information enabled. ([How to disable?](/git-integration-for-jira-cloud/how-can-a-jira-administrator-enable-or-disable-jira-development-information-gij-cloud))
 
-## How does Jira Development Information work?
+&nbsp;
+
+### How does Jira Development Information work?
 
 The [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) and [**Dev Info for Jira**](https://marketplace.atlassian.com/1219270) apps can be configured to "push" development information (commits, branches, and pull requests) directly into your Jira Cloud instance. Once the data is stored by Jira Cloud - the commits, branches, and pull requests can be displayed by Atlassian in a variety of locations within Jira Cloud. This data additionally enables a new of [new features](#What-other-features-are-enabled-by-Jira-Development-Information%3).
 
-## Who can see Jira Development Information?
+&nbsp;
+
+### Who can see Jira Development Information?
 
 *   Jira users with the View development tools Jira permission for a given Jira project can.
 
@@ -94,18 +85,18 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) and
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'><b>Support Desk</b></a> or email us at <a href='mailto:gijsupport@bigbrassband.com'>gijsupport@bigbrassband.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'><b>Support Desk</b></a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>
 
 &nbsp;
 
-## How can a Jira administrator enable or disable Jira Development Information?
+### How can a Jira administrator enable or disable Jira Development Information?
 
 Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) or the [Dev Info for Jira](https://marketplace.atlassian.com/1219270) app.
 
-1.  Navigate to the General settings page of the application (Jira Settings ➜ Apps ➜ (sidebar) **General settings**).
+1.  Navigate to the General settings page of the application (![](/wp-content/uploads/actions-icon.png) Jira Settings ➜ Apps ➜ (sidebar) **General settings**).
 
 2.  Enable or disable the setting: `Send Development Information to Jira Cloud`.
 
@@ -123,10 +114,10 @@ Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) o
     </div>
     </div>
 </div>
-<br>
-<br>
 
-## What other features are enabled by Jira Development Information?
+&nbsp;
+
+### What other features are enabled by Jira Development Information?
 
 Follow the links below to learn related topics about Jira Development Information
 

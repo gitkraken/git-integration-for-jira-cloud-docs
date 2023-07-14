@@ -16,16 +16,20 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 - [Commits are not showing right away.  Can they show up faster?](#commits-are-not-showing-right-away-can-they-show-up-faster)
 - [Is it possible to track the specified branches when reindexing?](#is-it-possible-to-track-the-specified-branches-when-reindexing)
 
+&nbsp;
 * * *
+&nbsp;
 
-## What does re-index do?
+### What does re-index do?
 
 Re-index does 2 operations:
 
 *   Updates the cloned repo from remote
 *   Updates the indexes which contain info about every commit
 
-## Is there any way to control the reindex?
+&nbsp;
+
+### Is there any way to control the reindex?
 
 In terms of kicking off the indexing based on an event:
 
@@ -33,11 +37,15 @@ In terms of kicking off the indexing based on an event:
 
 What other users have done is set a high interval and then configure one of those options.
 
-## Commits are not showing right away.  Can they show up faster?
+&nbsp;
 
-Commits won't appear immediately. Configure webhooks via **Manage Git repositories** page to make commits show faster.
+### Commits are not showing right away.  Can they show up faster?
 
-## Is it possible to track the specified branches when reindexing?
+Commits won't appear immediately. Configure webhooks via **Manage integrations** page to make commits show faster.
+
+&nbsp;
+
+### Is it possible to track the specified branches when reindexing?
 
 No. The Git Integration for Jira app is designed to do a full index.
 

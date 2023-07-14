@@ -17,7 +17,6 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 <img src='/wp-content/uploads/gij-aws-cc-logo-banner.png' width=442 height=92 style='margin:25px 0 30px 0' />
 
@@ -39,30 +38,9 @@ AWS CodeCommit is a git host service by Amazon Web Services to store and manage 
 
 Quickly learn how to connect AWS CodeCommit git repositories via Git Integration for Jira Cloud.
 
-**What's on this page:**
-- [Integrate AWS CodeCommit with Jira Cloud](#integrate-aws-codecommit-with-jira-cloud)
-  - [Required permissions](#required-permissions)
-  - [Webhooks | Triggers](#webhooks--triggers)
-  - [Using Git service integration](#using-git-service-integration)
-  - [Single repository (Manually connect via HTTP/HTTPS)](#single-repository-manually-connect-via-httphttps)
-  - [Single repository (Manually connect via SSH)](#single-repository-manually-connect-via-ssh)
-  - [Troubleshooting integration](#troubleshooting-integration)
-  - [Setting up AWS CodeCommit web links](#setting-up-aws-codecommit-web-links)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Working with branches and pull requests](#working-with-branches-and-pull-requests)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Creating pull requests](#creating-pull-requests)
-  - [More Integration Guides](#more-integration-guides)
+&nbsp;
 
-<br>
-<br>
-<hr>
-<br>
-<br>
-
-
-## Required permissions
+### Required permissions
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b>
 
@@ -76,7 +54,6 @@ Quickly learn how to connect AWS CodeCommit git repositories via Git Integration
     </div>
     </div>
 </div>
-<br>
 
 The permissions detailed in the connect/Full feature integrations wizard are necessary for specific features to work.
 
@@ -144,7 +121,9 @@ Configure [**AWSCodeCommitPowerUser »**](https://docs.aws.amazon.com/codecommi
 
 See [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens/) for related information.
 
-## Webhooks \| Triggers
+&nbsp;
+
+### Webhooks and Triggers
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
 
@@ -183,7 +162,6 @@ CodeCommit doesn't have webhooks but it has SNS triggers requiring a <a href='h
     </div>
     </div>
 </div>
-<br>
 
 For more information on Amazon SNS, see <a href='https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html' target='_blank'><b>Amazon SNS: Getting Started »</b></a>.
 
@@ -200,15 +178,15 @@ For more information on Amazon SNS, see <a href='https://docs.aws.amazon.com/sn
 </div>
 <br>
 
-## Using Git service integration
+### Using Git service integration
 
 This process requires an AWS account with existing CodeCommit repositories.
 
 We recommend using the Full feature integrations panel (formerly Auto-connect integration panel) to connect multiple repositories from your AWS CodeCommit git host.
 
-To connect your repository to Jira thru the Git Integration for Jira app, open the **Connect to Git Repository** wizard:
+To connect your repository to Jira thru the Git Integration for Jira app, open the Add new integration wizard:
 
-1.  On the Jira Cloud dashboard menu, go to **Apps** ➜ **Git Integration: Manage integrations**.
+1.  On the Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
 
     ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
@@ -273,7 +251,7 @@ The AWS CodeCommit repositories are now connected to Jira Cloud.
 
 If the connected git host has newly added repositories, the Git Integration for Jira app will automatically add them to the git repositories configuration on the next reindex.
 
-## Single repository (Manually connect via HTTP/HTTPS)
+### Single repository (Manually connect via HTTP/HTTPS)
 
 Connect a single AWS CodeCommit repository manually to Jira via HTTP/HTTPS connection.
 
@@ -285,7 +263,9 @@ Use the HTTP/HTTPS git clone URL from your AWS CodeCommit repository project pag
 
 The repository is now connected to Jira Cloud.
 
-## Single repository (Manually connect via SSH)
+&nbsp;
+
+### Single repository (Manually connect via SSH)
 
 Connect a single AWS CodeCommit repository manually to Jira via SSH connection.
 
@@ -342,7 +322,7 @@ If the SSH Key ID **1a2b3c4d5e** is applied to the original SSH URL, the resulti
 
 The modified URL can now be used as a valid repository URL via Manage repositories page ➜ Add integration ➜ **Single git repository integration** panel.
 
-## Troubleshooting integration
+### Troubleshooting integration
 
 Some repositories are not showing for the integration user. If this is the case, make adjustments to the configuration on the following settings:
 
@@ -350,13 +330,13 @@ Some repositories are not showing for the integration user. If this is the case,
 
 For detailed information, see [Required permissions](#required-permissions).
 
-## Setting up AWS CodeCommit web links
+### Setting up AWS CodeCommit web links
 
 The Git Integration for Jira app automatically configures web linking for AWS CodeCommit repositories connected via Git service integration in Jira Cloud.
 
 For single repository connections, configuring web linking is optional. For more information, see [Web linking documentation](/git-integration-for-jira-cloud/web-linking-gij-cloud).
 
-## Viewing git commits in Jira Cloud
+### Viewing git commits in Jira Cloud
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 
@@ -530,7 +510,7 @@ The pull request is also ready for approval by the reviewers in your AWS CodeCom
 
 The branch and the pull request status are also displayed on the developer panel.
 
-## More Integration Guides
+### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud) (Git Integration for Jira Cloud)
 
