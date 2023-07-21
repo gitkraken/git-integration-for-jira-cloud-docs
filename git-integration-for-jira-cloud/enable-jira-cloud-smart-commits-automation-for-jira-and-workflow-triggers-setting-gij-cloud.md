@@ -24,7 +24,7 @@ taxonomy:
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-smart-commits-automation.png' style='display:block;margin:25px auto;max-width:100%' />
 
-This setting engages the native Jira Cloud Smart Commit processing. At this time only `#time`, `#comment` and `#transitions` are supported for the triggers. This also enables the [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud) feature.
+This setting engages the native Atlassian Jira Cloud Smart Commit processor. At this time only `#time`, `#comment` and `#transitions` are supported for the triggers. This also enables the [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud) feature.
 
 The automatic workflow triggers allows you to use your development activity to make automatic changes in your Jira project workflows. For example, you can use the workflow trigger to transition your Jira issues.
 

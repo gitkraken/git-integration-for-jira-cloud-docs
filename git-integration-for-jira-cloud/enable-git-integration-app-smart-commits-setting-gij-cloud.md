@@ -22,7 +22,7 @@ taxonomy:
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-app-smart-commits.png' style='display:block;margin:25px auto;max-width:100%' />
 
-This setting engages BigBrassBand's Git Integration Smart Commit processing for `#time`, `#comment`, `#transitions` and `#label`.  For more information, see our [Smart Commits documentation^](/git-integration-for-jira-cloud/smart-commits-gij-cloud).
+This setting engages GitKraken's GIJ Smart Commit processor for `#time`, `#comment`, `#transitions` and `#label`.  For more information, see our [Smart Commits documentation^](/git-integration-for-jira-cloud/smart-commits-gij-cloud).
 
 &nbsp;
 
