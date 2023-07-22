@@ -7,11 +7,13 @@ taxonomy:
 
 ---
 
-## Introduction
+### Introduction
 
 Webhooks are not configured by default in Gerrit. They are not built into Gerrit just like they are in GitHub, GitLab and etc. Thus, when calling Gerrit webhooks, these won't trigger the reindex of the integration / repositories.
 
-## Installation
+&nbsp;
+
+### Installation
 
 To use webhooks with Gerrit, it needs to be configured. For starters, install Gerrit with the webhook plugin by reading at [https://gerrit.googlesource.com/plugins/webhooks/](https://gerrit.googlesource.com/plugins/webhooks/) and the steps below.
 
@@ -42,9 +44,9 @@ Where `webhook.json`:<br>
 }
 ```
 
-<br>
+&nbsp;
 
-## Manually Trigger Webhooks
+### Manually Trigger Webhooks
 
 Create a webhook that can be triggered for any **individual** repository. It can be used with continuous integration service
 

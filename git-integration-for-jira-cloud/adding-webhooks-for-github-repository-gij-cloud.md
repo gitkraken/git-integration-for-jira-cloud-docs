@@ -15,23 +15,23 @@ taxonomy:
     <div class="imsgbox">
         Pull request webhooks are now supported. <a href='/git-integration-for-jira-cloud/adding-webhooks-for-github-repository-gij-cloud'>See details</a> on this page.<br>
         <p>Supported webhook events:</p>
-        <ul>
+        <ul style='margin-bottom:0px;'>
             <li>Pushes</li>
             <li>Pull requests</li>
         </ul>
     </div>
     </div>
 </div>
-<br>   
+
+&nbsp;
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/pewl2o9uk6?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='magin-top:12px;margin-bottom:30px;'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/pewl2o9uk6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -43,41 +43,45 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Setup webhooks for GitHub
+&nbsp;
+
+### Setup webhooks for GitHub
 
 Configure webhooks by logging in to your GitHub account:
 
 1.  Select a repository.
 
-    <img src='/wp-content/uploads/gij-new-github-webhook-setting-page-c1.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
+    ![](/wp-content/uploads/gij-new-github-webhook-setting-page-c1.png)
 
-2.  Go to the **Settings** page.
+2.  Go to the **Settings** tab.
 
-3.  Select **Webhooks**.
+3.  On the sidebar, select **Webhooks**.
 
 4.  Click **Add webhook**. The following page is displayed.
 
-    <img src='/wp-content/uploads/gij-web-hooks-github-settings-add-c.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
+    ![](/wp-content/uploads/gij-web-hooks-github-settings-add-c.png)
 
-5.  Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app  ➜ **Indexing triggers** page into the _**Payload URL**_ field.
+5.  Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app ➜ **Indexing triggers** page into the _**Payload URL**_ field.
 
-    <img src='/wp-content/uploads/gij-jira-cloud-webhook-url-loc-c1.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
+    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc.png)
 
-    Set the _**Content type**_ to **application/json**.
+    *   Set the _**Content type**_ to **application/json**.
+    *   Enter the **Secret key** into the _**Secret**_ field.
 
-7.  Select the _**Just the push event**_ option as triggering event.  This is the default option when creating a new webhook.
+7.  Select the _**Just the push event**_ option as triggering event. This is the default option when creating a new webhook.
+
+    Leave the **Active** setting as is. Deactivating this option will stop sending event triggers from the selected repository.
 
 8.  Click **Add webhook** to save the new webhook settings.
 
-<br>
+&nbsp;
 
-## Pull request event webhook
+### Pull request event webhook
 
 The Git Integration for Jira app supports GitHub pull request webhooks now.
 
-You will need to enable two (2) event triggers in your GitHub webhooks configuration _(Repo > Settings > Webhooks)_ for it to work properly.  Under event triggers section, choose _**Let me select individual events**_ and then select both "**Pushes**" and "**Pull request**" triggers instead as outlined above in step **7**.
+You will need to enable two (2) event triggers in your GitHub webhooks configuration _(Repo ➜ Settings ➜ Webhooks)_ for it to work properly.  Under event triggers section, choose _**Let me select individual events**_ and then select both "**Pushes**" and "**Pull request**" triggers instead as outlined above in step **7**.
 
 <img src='/wp-content/uploads/gij-github-pull-request-event-trigger-webhook.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
 
@@ -110,7 +114,6 @@ Indexing triggers will be automatically registered for each GitHub repository co
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>VERSION 2.12.8+</b><br>
         Git Integration for Jira app will index only the updated repositories as indicated by the GitHub organization or GitLab group webhook.
     </div>
     </div>
