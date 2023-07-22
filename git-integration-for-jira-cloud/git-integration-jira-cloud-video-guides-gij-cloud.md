@@ -17,9 +17,11 @@ See sections:
 - [Customization](#customization)
 - [Support](#support)
 
+&nbsp;
 * * *
+&nbsp;
 
-## Installation
+### Installation
 
 **[Installation with Jira 7 »](https://bigbrassband.wistia.com/medias/lr0jp6ntfd)**
 
@@ -43,9 +45,9 @@ Learn how automatic and manual updating of Git Integration for Jira Cloud app �
 
 Familiarize quick steps on how to associate git commits to Jira issues in Jira Cloud.
 
-<br>
+&nbsp;
 
-## Administration
+### Administration
 
 **[Setting Permissions »](https://bigbrassband.wistia.com/medias/21vd3arsj6)**
 
@@ -57,9 +59,9 @@ Learn how to set project permissions with View Development Tools. The "View Deve
 
 Learn how to create branches, merge/pull requests by watching this video. These steps is also applicable to supported git hosts such as GitLab, GitHub, VSTS, TFS, etc.
 
-<br>
+&nbsp;
 
-## Integration
+### Integration
 
 Quick and easy! Learn about the basics of integrating git repositories to Jira Cloud and associating git commits to a Jira issue. Click on a link to see specific steps for the selected git host.
 
@@ -87,9 +89,9 @@ Quick and easy! Learn about the basics of integrating git repositories to Jira C
 
 **[HTTPS/HTTP/SSH »](https://bigbrassband.wistia.com/medias/bu0wamg1fx)**
 
-<br>
+&nbsp;
 
-## Customization
+### Customization
 
 **[Webhooks »](https://bigbrassband.wistia.com/medias/4o796wnrdx)**
 
@@ -113,9 +115,9 @@ Learn how to configure webhooks for GitLab git hosts.
 
 Learn how to configure webhooks for GitHub git hosts.
 
-<br>
+&nbsp;
 
-## Support
+### Support
 
 **[GitLab.com Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
 

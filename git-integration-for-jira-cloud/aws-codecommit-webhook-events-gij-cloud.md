@@ -25,7 +25,7 @@ The following are the supported types of AWS CodeCommit events for triggering we
 _Type_<br>**pushEvents:** `"^Notifications$"`
 
 _Request URL_<br>
-`/api/1/webhook/reindex/install/`**\<secret-key\>**`/repo/`**\<repo-uid\>**`/web`
+`/api/1/webhook/reindex/install/<secret-key>/repo/<repo-uid>/web`
 
 _Request headers_<br>
 **Content-Type:** `text/plain; charset=UTF-8`<br>
@@ -68,7 +68,9 @@ _Request payload example_
 }
 ```
 
-## Other webhook type events
+&nbsp;
+
+### Other webhook type events
 
 [GitHub webhook events](/git-integration-for-jira-cloud/gitHub-webhook-events)
 

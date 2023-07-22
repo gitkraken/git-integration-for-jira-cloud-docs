@@ -15,7 +15,7 @@ taxonomy:
     <div class="imsgbox">
         Pull request webhooks are now supported.  <a href='/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-repos-vsts-gij-cloud'>See details</a> on this page.<br>
         <p>Supported webhook events:</p>
-        <ul>
+        <ul style='margin-bottom:0px'>
             <li>Code pushed</li>
             <li>Pull request created</li>
             <li>Pull request updated</li>
@@ -30,10 +30,9 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/61wl72vp91?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:10px;margin-bottom:30px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/61wl72vp91'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -45,19 +44,20 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Setting up webhook for Azure Repos
+&nbsp;
+
+### Setting up webhook for Azure DevOps Repos and VSTS
 
 Configure webhook by logging in to your VSTS/Azure DevOps account.
 
 1.  Open a project by clicking on it.
 
-    <img src='/wp-content/uploads/gij-webhooks-azure-devops-sel-proj-c.png' width=646 height=361 style='margin:25px 0' />
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-sel-proj-c.png)
 
 2.  Click **Project Settings** then select **Service Hooks**. The following screen is displayed.
 
-    <img src='/wp-content/uploads/gij-webhooks-azure-devops-add-shooks-c.png' width=544 height=233 style='margin:25px 0' />
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-add-shooks-c.png)
 
 3.  Click + icon to add a new service hook subscription.
 
@@ -65,7 +65,7 @@ Configure webhook by logging in to your VSTS/Azure DevOps account.
 
 5.  Click **Next**. The following screen is displayed.
 
-    <img src='/wp-content/uploads/gij-webhooks-azure-devops-triggers-cfg-c.png' width=476 height=499 style='margin:25px 0' />
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-triggers-cfg-c.png)
 
     *   *Set **"code pushed"** for the _**Trigger on this type of event**_ selector.
 
@@ -73,11 +73,11 @@ Configure webhook by logging in to your VSTS/Azure DevOps account.
 
     *   Click **Next** to proceed to the following screen.
 
-        <img src='/wp-content/uploads/gij-webhooks-azure-devops-action-cfg-c.png' width=510&height=535 style='margin:25px 0' />
+        ![](/wp-content/uploads/gij-webhooks-azure-devops-action-cfg-c.png)
 
-6.  Switch to your Jira instance then navigate to **Manage Git repositories** page and then click **Indexing triggers** (_or alternatively go to Jira Settings ➜ Apps. On the sidebar, click Indexing triggers_).
+6.  Switch to your Jira Cloud instance and navigate to Apps ➜ **Git Integration: Manage integrations** then click **Indexing triggers** on the sidebar.
 
-    <img src='/wp-content/uploads/gij-jira-cloud-webhook-url-loc-c1.png' width=646 height=430 style='margin:25px 0' />
+    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc.png)
 
 7.  Copy the complete secret key URL by clicking the copy icon on the right.
 
@@ -85,19 +85,19 @@ Configure webhook by logging in to your VSTS/Azure DevOps account.
 
 9.  Click **Test** to verify if webhook integration is successful or not.
 
-    <img src='/wp-content/uploads/gij-webhooks-azure-devops-test-cfg-c.png' width=578 height=408 style='margin:25px 0' />
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-test-cfg-c.png)
 
 10.  Click **Finish** to complete this setup.
 
 11.  Repeat the above steps for **Pull request created** and **Pull request updated** webhooks.
 
-<br>
+&nbsp;
 
-## Pull request webhooks
+### Pull request webhooks
 
 The Git Integration for Jira app supports pull request webhooks now.
 
-You will need to have three (3) separate service hooks configuration for it to work properly. Aside from setting up the "**Code pushed**" service hook outlined above in step **6.a**, perform the same process with _**Pull request created**_ and _**Pull request updated**_ for the triggers.
+You will need to have three (3) separate service hooks configuration for it to work properly. Aside from setting up the "**Code pushed**" service hook outlined above in step **5.a**, perform the same process with _**Pull request created**_ and _**Pull request updated**_ for the triggers.
 
-<img src='/wp-content/uploads/gij-azure-devops-server-2019-req-service-hooks.png' width=680 height=239 style='margin:25px 0;max-width: 100%;' />
+<img src='/wp-content/uploads/gij-azure-devops-server-2019-req-service-hooks.png' style='margin:25px auto;max-width: 100%;display:block;' />
 
