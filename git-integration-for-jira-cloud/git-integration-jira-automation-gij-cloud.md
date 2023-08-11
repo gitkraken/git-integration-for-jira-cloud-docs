@@ -63,7 +63,7 @@ Create a rule to configure triggers and actions for automating tasks. There are 
 
 2.  On the sidebar, click **Automation**.
 
-3.  Click the ![zap](/wp-content/uploads/gij-zap-icon.png) **Rules** tab.
+3.  Click the ![zap](/wp-content/uploads/gij-zap-icon-20.png) **Rules** tab.
 
 4.  Click **Create rule** to create a new automation rule.
 
