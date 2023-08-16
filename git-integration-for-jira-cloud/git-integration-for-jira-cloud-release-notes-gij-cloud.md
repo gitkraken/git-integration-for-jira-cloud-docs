@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 We publish new features, bug fixes, security updates/patches, and Jira compatibility regularly. Below are highlights of the changes.
 
 **Important links**
@@ -23,34 +24,34 @@ If you have any questions, please contact us through our [Support Portal](https:
 
 * * *
 
-## GitLens for Visual Studio Code Integration
+### GitLens for Visual Studio Code Integration
 '29 Mar 2023' <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
 
 This workflow improvement is a great addition for developers that are using Visual Studio Code to edit source code. [GitLens](https://www.gitkraken.com/gitlens) is a Visual Studio Code extension that helps users visualize code, explore Git repositories, use powerful compare commands and so much more. From within Jira, clicking on the GitLens icon next to repositories, commits, tags, and branches will open them in VS Code.
 
-![](https://help.gitkraken.com/wp-content/uploads/gij-gitcloud-deeplink-gitlens-issue-git-commits.png)
+![](/wp-content/uploads/gij-gitcloud-deeplink-gitlens-issue-git-commits.png)
 
-This enables team members to quickly transition between Jira and their code editor without losing context. GitLens deep links are located within Jira issues and the Repository Browser. [View the help article](https://help.gitkraken.com/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud/) for more information.
+This enables team members to quickly transition between Jira and their code editor without losing context. GitLens deep links are located within Jira issues and the Repository Browser. [View the help article](/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud/) for more information.
 
-## GitHub OAuth: Deep link admins into their GitHub account to the correct app settings
+### GitHub OAuth: Deep link admins into their GitHub account to the correct app settings
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 Adds a link to GitHub to quickly view which GitHub organizations are authorized for use with Git Integration for Jira.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/gitcloud-github-oauth-permissions.png?version=1&modificationDate=1648202553405&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-github-autoconnect-grant-auth-screen-c.png)
 
-## Manage repositories: Ability to reindex or disable individual repositories
+### Manage repositories: Ability to reindex or disable individual repositories
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 This is a new feature that allows you to reindex individual repositories or disable them without having to remove them.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mr-reindex-selected.png?version=2&modificationDate=1645034345288&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-and-disable-selected.png)
 
-## Manage repositories: New settings are now visible
+### Manage repositories: New settings are now visible
 
-25 Mar 2022 IMPROVEMENT ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 Some new features have been brought to the Manage repositories screen such as:
 
@@ -65,93 +66,93 @@ Some new features have been brought to the Manage repositories screen such as:
 
 The status field has been upgraded to be much more accurate as well as show a symbol to let you know the state of progress.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mr-settings.png?version=1&modificationDate=1645121982620&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-repomgr-column-repo-status-features.png)
 
-## Manage repositories: Commits/branches/PR count added
+### Manage repositories: Commits/branches/PR count added
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 New column headers to view the number of branches, commits and pull requests.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mr-counts.png?version=1&modificationDate=1645034225511&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-gitmgr-branches-commits-pr-columns-feature.png)
 
-## Manage repositories: Improved access to indexing logs
+### Manage repositories: Improved access to indexing logs
 
-25 Mar 2022 IMPROVEMENT ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 The Repository Indexing Log has been greatly improved by now showing just the most-recent 15 lines of the log, and providing the ability to copy it to the clipboard or download the full log.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mr-logs.png?version=1&modificationDate=1645034180112&cacheVersion=1&api=v2&width=510&height=323)
+![](/wp-content/uploads/gij-gitcloud-repomgr-improved-view-logs.png)
 
-## Manage repositories: Refresh data
+### Manage repositories: Refresh data
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 You will get nice clean pagination when you refresh the data using this handy new feature.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mr-refresh-data.png?version=1&modificationDate=1645034149880&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-gitmgr-page-refresh.png)
 
-## Manage repositories: Multi-select
+### Manage repositories: Multi-select
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 This new features lets you select all repositories in your list or pick and choose repositories, then apply the function “Reindex selected”, “Enable selected”, or “Disable selected”.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mr-multiselect.png?version=1&modificationDate=1645034117757&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-repomgr-enabled-selector.png)
 
-## Manage repositories: Option to reindex individual repositories manually
+### Manage repositories: Option to reindex individual repositories manually
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 Reindex any selected repository.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mr-reindex-selected.png?version=2&modificationDate=1645034345288&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-repomgr-selector-actions-reindex-disable.png)
 
-## Manage repositories: Filtering (status, name, integration)
+### Manage repositories: Filtering (status, name, integration)
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 You can use this new dropdown menu to filter all integrations, status, and perform text searches for the names of repositories (very helpful if you have a high number of repositories).
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mr-filtering.png?version=1&modificationDate=1645034023629&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-repomgr-list-filters.png)
 
-## Manage repositories: Sorting (repo, integration, last indexed, # of commits/branches/PRs)
+### Manage repositories: Sorting (repo, integration, last indexed, # of commits/branches/PRs)
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 With this new feature you can now sort your list of repositories by repo name, integration name, last indexed time, or number of branches, commits, or PRs.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mr-sorting.png?version=1&modificationDate=1645033976431&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-repomgr-column-sorting.png)
 
-## New section: Manage repositories
+### New section: Manage repositories
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 There are many new and improved features in this section including: Sorting (repo, integration, last indexed, # of commits/branches/PRs), filtering (status, name, integration), a new option to reindex individual repositories manually, multi-select feature for repositories, ability to refresh data, improved access to indexing logs, commits/branches/PR count added, and the new ability to reindex or disable individual repositories.
 
 There are also an array of new settings now visible from this screen such as: permissions, smart commits, the state of indexing triggers for webhooks, status, and last indexed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mr.png?version=1&modificationDate=1645033607560&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-new-repo-manager-section.png)
 
-## Manage integrations: Implement filtering by name and status
+### Manage integrations: Implement filtering by name and status
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 Using the new status dropdown selector you can now filter by which state you’re in – useful if you have a large number of integrations. Filtering by name is also made possible.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mi-filtering.png?version=1&modificationDate=1644949149031&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-gitmgr-integration-status-selector-and-search.png)
 
-## Manage integrations: Disabling/Enabling feature
+### Manage integrations: Disabling/Enabling feature
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 Using this new feature, you can now stop or pause the integration without having to remove it.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mi-select-status.png?version=1&modificationDate=1644949108427&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-gitmgr-integration-enable-disable.png)
 
-## Manage integrations: New settings are now visible
+### Manage integrations: New settings are now visible
 
-25 Mar 2022 IMPROVEMENT ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 Some new features have been brought to the Manage integrations screen such as:
 
@@ -166,35 +167,35 @@ Some new features have been brought to the Manage integrations screen such as:
 
 The status field has been upgraded to be much more accurate as well as show a symbol to let you know the state of progress.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mi-settings.png?version=1&modificationDate=1645033548105&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-gitmgr-integration-index-and-status-features.png)
 
-## Manage integrations: Select orgs/repositories feature
+### Manage integrations: Select orgs/repositories feature
 
-25 Mar 2022 IMPROVEMENT ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 This new features allows you to pick and choose which repositories to connect, without having to add them all.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/select-repositories.png?version=1&modificationDate=1644948845755&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-github-repo-sel.png)
 
-## Manage integrations: improved access to indexing logs
+### Manage integrations: improved access to indexing logs
 
-25 Mar 2022 IMPROVEMENT ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 The Repository Indexing Log can be accessed from the gear icon located under Actions, and has been greatly improved by now showing just the most-recent 15 lines of the log, and providing the ability to copy it to the clipboard or download the full log.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mi-logs.png?version=1&modificationDate=1644948761571&cacheVersion=1&api=v2&width=510&height=323)
+![](/wp-content/uploads/gij-gitcloud-gitmgr-integration-view-logs-notes.png)
 
-## Manage integrations: Repo count
+### Manage integrations: Repo count
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 This handy new feature we’ve included on the Manage integrations page shows the number of connected repositories for each instance.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mi-repo-count.png?version=1&modificationDate=1644948728961&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-gitmgr-integration-repos-counter.png)
 
-## Manage integrations: Integrations list with wizard for adding to list
+### Manage integrations: Integrations list with wizard for adding to list
 
-25 Mar 2022 IMPROVEMENT ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 *   Admins will be able to take advantage of a new wizard to add integrations in a streamlined fashion. The wizard features an easy 3-step setup process:
 
@@ -207,11 +208,11 @@ This handy new feature we’ve included on the Manage integrations page shows th
     *   The wizard makes it clear to admins where they are in the process and guides them through each step to completion.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/add-integration.png?version=1&modificationDate=1644948694935&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-gitmgr-add-new-integration-template.png)
 
-## Manage integrations: Welcome message showing details of your integrations
+### Manage integrations: Welcome message showing details of your integrations
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 When you access the new “Manage integrations” menu item, you will now get a welcome message that includes details about your integrations. For example, upon getting started you will see the message “You have no integrations yet.” along with an accompanying button to “Add integrations”. This new improvement makes it easier to understand right from the start where you stand and what needs to be done upfront, while providing a handy button to proceed to get your integrations added.
 

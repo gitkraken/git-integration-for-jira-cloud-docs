@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 Every developer must have this hook on his local machine in order to:
 
 *   Commit codes locally several times then pushes it to the server.
@@ -29,7 +30,7 @@ The following settings must be configured in the script file:
 
 In Linux and OSX, this file must have executable permissions in the file system; in Windows, setting this permission is not necessary.  To use the hook in Windows without python installed, see [**Python on Windows FAQ »**](https://docs.python.org/2/faq/windows.html#how-do-i-make-an-executable-from-a-python-script).
 
-See the commit-msg hook code on the right panel or download the sample [**commit-msg file**](https://bigbrassband.com/files/commit-msg.zip) ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png), make the necessary changes, and place it in the required folder.
+See the commit-msg hook code on the right panel or download the sample [**commit-msg file**](https://bigbrassband.com/files/commit-msg.zip), make the necessary changes, and place it in the required folder.
 
 The **commit-msg** hook is a python script file that must be located in the developer's local repository.
 
@@ -54,16 +55,16 @@ import sys
 import re
 import xmlrpclib
 
-NO_JIRA_TICKET_MESSAGE = \
-'No Jira ticket present in the commit message. \
+NO_JIRA_TICKET_MESSAGE = \\
+'No Jira ticket present in the commit message. \\
 Please include the Jira ticket enclosed in brackets: [ABC-789].'
-INVALID_JIRA_TICKET_MESSAGE = \
-'Proper Jira ticket syntax was found, but none were valid tickets. \
+INVALID_JIRA_TICKET_MESSAGE = \\
+'Proper Jira ticket syntax was found, but none were valid tickets. \\
 Please check the tickets and try again.'
-TOO_MANY_JIRA_TICKETS_MESSAGE = \
+TOO_MANY_JIRA_TICKETS_MESSAGE = \\
 'Only 1 Jira ticket is allowed per commit. Please commit only 1 change at a time.'
-INVALID_ISSUE_TYPE_MESSAGE = \
-'You may not commit against subtasks or task-splits. \
+INVALID_ISSUE_TYPE_MESSAGE = \\
+'You may not commit against subtasks or task-splits. \\
 Please commit against the parent ticket.'
 
 JIRA_XMLRPC = 'https://jira.example.com/rpc/xmlrpc'

@@ -12,11 +12,11 @@ This page contains helpful topics related to Git Integration for Jira app suppor
 Use the FAQ below to find answers to common questions.  Feel free to contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 
-## Does the Git for Jira Cloud app support CJK languages or Unicode?
+### Does the Git for Jira Cloud app support CJK languages or Unicode?
 
 Unicode characters are supported and displayed properly.
 
-## Where can I find my App Information?
+### Where can I find my App Information?
 
 You can find your App information by Navigating to the GIJ General settings
 
@@ -29,8 +29,3 @@ Then, from the left hand menu,click the option labeled "General Settings" under 
 Copy the information at the bottom of the page, starting from "Current Build". Include this information in your support request, or supply it to the support team if they have requested it.
 
 ...
-
-## I am having a Licensing issue (installcheck failed)
-
-This error can occur sometimes when Jira does not properly assign the license to your Jira instance. To resolve this, all you need to do is uninstall the application, then reinstall it. Jira will properly apply the license upon reinstall. Please see [Licensing error](/git-integration-for-jira-cloud/licensing-error-installcheck-failed-gij-cloud)
-
