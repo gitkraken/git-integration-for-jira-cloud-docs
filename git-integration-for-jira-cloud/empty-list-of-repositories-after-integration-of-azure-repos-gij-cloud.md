@@ -17,7 +17,7 @@ After integrating Azure DevOps to Jira, the list filter for Azure repositories r
 
 The integration status is <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXED</b> but users still see a blank list on the Manage repositories list with MS Azure list filter set.
 
-![](/wp-cotnent/uploads/gij-gitcloud-azure-no-repo-manage-repos.png)
+![](/wp-content/uploads/gij-gitcloud-azure-no-repo-manage-repos.png)
 
 &nbsp;
 
@@ -40,7 +40,7 @@ If the problem still persists, follow the solutions outlined in the following ar
     </div>
     <div class="imsgbox">
         <b>Contact us</b><br>
-        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>

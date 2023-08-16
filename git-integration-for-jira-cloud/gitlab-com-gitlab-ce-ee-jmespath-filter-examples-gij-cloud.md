@@ -6,11 +6,12 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1349615801/gitlab-mobile-custom1.png?version=1&modificationDate=1615466210438&cacheVersion=1&api=v2&width=226&height=70)
+
+![](/wp-content/uploads/gitlab-mobile-custom1.png)
 
 An optional JMESPath filter can be configured when adding GitLab integration or repositories.
 
-## 1. Contains (include)
+### 1\. Contains (include)
 
 ```java
 [?contains(name, 'git') | contains(name, 'Slap') | contains(name, 'est')]
@@ -18,21 +19,25 @@ An optional JMESPath filter can be configured when adding GitLab integration or 
 
 This is a filter based on text in the repository name. It will list all the repositories that contain the specified names. Do note that the declared string format is case-sensitive.
 
-## 2. Contains (exclude)
+### 2\. Contains (exclude)
 
 ```java
 [?(!contains(tag_list, 'largemedia'))]
+```
 
+```java
 [?(!contains(name, 'firstword'))]
+```
 
+```java
 [?(!contains(name, 'firstword')) | (!contains(name, 'secondword'))]
 ```
 
-1 – Blacklists project tag.
+**1** – Blacklists project tag.
 
-2 – Lists repositories with names that either do not contain the word `'firstword'`.
+**2** – Lists repositories with names that either do not contain the word `'firstword'`.
 
-3 – Lists repositories with names that either do not contain the words `'firstword'` OR `'secondword'`.
+**3** – Lists repositories with names that either do not contain the words `'firstword'` OR `'secondword'`.
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -44,9 +49,8 @@ This is a filter based on text in the repository name. It will list all the repo
     </div>
     </div>
 </div>
-<br>
 
-## 3. Tags
+### 3\. Tags
 
 ```java
 [?contains(tag_list, 'largemedia')]
@@ -66,7 +70,7 @@ Whitelists project tag.
     </div>
 </div>
 
-## 4. Starts with or ends with
+### 4\. Starts with or ends with
 
 ```java
 [?starts_with(name, 'git') | ends_with(name, 'test')]
@@ -74,7 +78,7 @@ Whitelists project tag.
 
 Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
-## 5. Exclude projects without repositories
+### 5\. Exclude projects without repositories
 
 ```java
 [?!empty_repo]
@@ -82,9 +86,8 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
 Lists only repositories from projects that have existing repositories.
 
-<br>
-<br>
-
+&nbsp;
+&nbsp;
 * * *
 
 1 _Logo owned by_ [_GitLab Inc_](https://gitlab.com/) _used under_ [_license_](https://creativecommons.org/licenses/by-nc-sa/4.0/)
