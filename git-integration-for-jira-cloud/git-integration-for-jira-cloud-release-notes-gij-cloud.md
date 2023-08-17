@@ -216,40 +216,40 @@ This handy new feature we’ve included on the Manage integrations page shows th
 
 When you access the new “Manage integrations” menu item, you will now get a welcome message that includes details about your integrations. For example, upon getting started you will see the message “You have no integrations yet.” along with an accompanying button to “Add integrations”. This new improvement makes it easier to understand right from the start where you stand and what needs to be done upfront, while providing a handy button to proceed to get your integrations added.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/mi-welcome-message.png?version=1&modificationDate=1644948622922&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
 
-## New section: Manage integrations
+### New section: Manage integrations
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 There are many new and improved features in this section including: An improved integrations list, repo count, improved access to indexing logs, a new select orgs/repos feature, disable/enable feature for integrations, and you can now implement filtering by name and status.
 
 There are also an array of new settings now visible from this screen such as: permissions, smart commits, the state of indexing triggers for webhooks, status, and last indexed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/manage-integrations.png?version=2&modificationDate=1644948566792&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-list.png)
 
-## “Manage Git repositories” menu item has now been split into two new menu items
+### "Manage Git repositories" menu item has now been split into two new menu items
 
-25 Mar 2022 NEW FEATURE ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
-The “Manage Git repositories” menu item (from previous versions) has now been split into two new menu items named “Manage integrations” and “Manage repositories”.
+The "Manage Git repositories" menu item (from previous versions) has now been split into two new menu items named "Manage integrations" and "Manage repositories".
 Take a look at what each of these new sections entail in the following entries.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/New-menu-items.png?version=2&modificationDate=1644948507935&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-integration-repo-menu-split-new.png)
 
-## New User Interface for admins
+### New User Interface for Admins
 
-25 Mar 2022 IMPROVEMENT ADMINS
+`25 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 We’ve launched an all-new management user interface, supporting the goal of making the UI more self-serving for admins. The new UI contains improved functions from new sorting features to viewing the number of repos connected on each instance. More specific details are provided in the other Release Notes entries on this page. The new UI also features an improvement which now allows you to configure your repositories visually.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/manage-integrations.png?version=2&modificationDate=1644948566792&cacheVersion=1&api=v2&width=510&height=282)
+![](/wp-content/uploads/gij-gitcloud-gitmgr-edit-integrations-options-and-features.png)
 
 * * *
 
-## Deep Linking to GitKraken
+### Deep Linking to GitKraken
 
-21 Sep 2021 NEW FEATURE ALL USERS
+`21 Sep 2021` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
 
 With the [acquisition](https://www.gitkraken.com/blog/gitkraken-acquires-git-integration-jira-bigbrassband) of BigBrassBand's Git Integration for Jira app (GIJ) by GitKraken, we have introduced deep linking between GIJ and GitKraken so users can now have a stronger integration between the two. You can now click to open commits, branches, tags and repositories directly in GitKraken from the Jira issue view giving you a seamless transition from your Jira issues to GitKraken.
 
@@ -257,68 +257,69 @@ With the [acquisition](https://www.gitkraken.com/blog/gitkraken-acquires-git-int
 
 You will see the added ability to open the GitKraken client from our app in various locations. See an example of what this looks like below.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/screenshot%201.png?version=2&modificationDate=1636484053576&cacheVersion=1&api=v2&width=544&height=300)
+![](/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-user-settings.png)
 
-## Default branch for a repository + project + user
+### Default branch for a repository + project + user
 
-13 Jun 2021 IMPROVEMENT ALL USERS
+`13 Jun 2021` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
 
 Now you can configure a Default branch for a repository when creating new branches. When using this feature, you will no longer have to select the branch each time you pick the repository.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/gitcloud-user-settings-default-branches-sel.png?version=1&modificationDate=1632647800328&cacheVersion=1&api=v2&width=544&height=209)
+![](/wp-content/uploads/gij-gitcloud-user-settings-default-repo-feature.png)
 
 You may immediately set the selected branch as default for the current repository when using the create branch dialog.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/gitcloud-user-settings-create-def-branch-dlg.png?version=2&modificationDate=1632899635182&cacheVersion=1&api=v2&width=340&height=188)
+![](/wp-content/uploads/gitcloud-user-settings-create-def-branch-dlg.png)
 
 For more information on this feature, see article [Default branch feature](/git-integration-for-jira-cloud/default-branch-feature-gij-cloud).
 
-## Webhook indexing integration
+### Webhook indexing integration
 
-13 May 2021 NEW FEATURE ADMINS
+13 May 2021 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 Webhook indexing integration allows your connected git servers to work behind a firewall but will have limited features which are stated under the Connect the your Git server features comparison table. For detailed information on this new feature, see [Git Integration for Jira Cloud: Webhook indexing integration](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud).
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/gitcloud-release-notes-whook-idx-01.png?version=1&modificationDate=1621314159632&cacheVersion=1&api=v2)
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/gitcloud-release-notes-whook-idx-02.png?version=1&modificationDate=1621314164638&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-github.png)
+![](/wp-content/uploads/gij-gitcloud-add-new-integration-type-webhook-indexing.png)
 
-## User PATs have been moved to a new page
 
-07 Mar 2021 NEW FEATURE ALL USERS
+### User PATs have been moved to a new page
+
+`07 Mar 2021` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
 
 We've created a new Jira user settings screen to allow individual Jira users to manage their Personal Access Tokens (PATs) for use in creating/deleting branches and pull requests from Jira.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/CleanShot2021-03-08_at_13.26.54@2x.png?version=1&modificationDate=1615237434880&cacheVersion=1&api=v2&width=544&height=283)
+![](/wp-content/uploads/gij-gitcloud-user-settings-pat-options.png)
 
 * * *
 
-## Support for Dark Mode in Jira Cloud Mobile
+### Support for Dark Mode in Jira Cloud Mobile
 
-25 Jan 2021 NEW FEATURE ALL USERS
+`25 Jan 2021` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
 
 Enabled dark mode support for iOS, MacOS and Android for the Jira Cloud mobile apps.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/1632-aui-problem-example.PNG?version=1&modificationDate=1611594397643&cacheVersion=1&api=v2&width=204&height=362)
+![](/wp-content/uploads/gij-gitcloud-aui-mobile-problem-example.png)
 
 * * *
 
-## Expand to see more code in diff screens
+### Expand to see more code in diff screens
 
-23 Nov 2020 NEW FEATURE ALL USERS
+`23 Nov 2020` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
 
 Expand to see more of a file when doing quick code reviews in Jira Cloud.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/CleanShot2020-11-23%20at%2010.28.39@2x-20201123-153004.png?version=1&modificationDate=1606145421958&cacheVersion=1&api=v2&width=442&height=213)
+![](/wp-content/uploads/gij-gitcloud-code-diff-expand-view-controls.png)
 
-Video (0:09):
+Quick access guide:
 
-[CleanShot2020-11-23 at 10.27.04-2.mp4](/wiki/download/attachments/871792645/CleanShot2020-11-23%20at%2010.27.04-2.mp4?version=1&modificationDate=1606145270685&cacheVersion=1&api=v2&width=442)
+![](/wp-content/uploads/gij-gitcloud-code-diff-expand-view-control-sample.gif)
 
 * * *
 
-## Support for iOS, Android, and Mac Apps
+### Support for iOS, Android, and Mac Apps
 
-05 Nov 2020 NEW FEATURE ALL USERS
+`05 Nov 2020` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
 
 Development Information (branches, commits, and pull requests) are now visible in:
 
@@ -328,9 +329,7 @@ Development Information (branches, commits, and pull requests) are now visible i
 
 *   [Jira Cloud MacOS app](https://www.atlassian.com/software/jira/mac)
 
-
-This information is visible in the native Jira Cloud development information area + the Git Integration glance where you can view branches, commits, pull requests and tags.  You can create branches and pull requests all from the above applications.
-
+This information is visible in the native Jira Cloud development information area + the Git Integration glance where you can view branches, commits, pull requests and tags. You can create branches and pull requests all from the above applications.
 
 **Mobile apps**
 
