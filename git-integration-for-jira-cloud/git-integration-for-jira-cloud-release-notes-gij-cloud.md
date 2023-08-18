@@ -395,7 +395,7 @@ Webhook logs are retained for 7 days.
 
 `28 Feb 2020` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
 
-When a Jira user creates a pull request or merge request (GitLab) using the Git Integration for Jira app ([Create pull / merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud), a link to the Jira issue is included in the pull request / merge request description.
+When a Jira user creates a pull request or merge request (GitLab) using the Git Integration for Jira app ([Create pull / merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud)), a link to the Jira issue is included in the pull request / merge request description.
 
 | **GitLab** | **GitHub** | **Bitbucket** |
 | --- | --- | --- |
