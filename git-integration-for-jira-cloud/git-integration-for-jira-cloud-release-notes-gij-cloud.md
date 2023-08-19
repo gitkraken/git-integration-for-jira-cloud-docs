@@ -395,38 +395,47 @@ Webhook logs are retained for 7 days.
 
 `28 Feb 2020` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
 
-When a Jira user creates a pull request or merge request (GitLab) using the Git Integration for Jira app ([Create pull / merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud), a link to the Jira issue is included in the pull request / merge request description.
+When a Jira user creates a pull request or merge request (GitLab) using the Git Integration for Jira app ([Create pull / merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud)), a link to the Jira issue is included in the pull request / merge request description.
 
 | **GitLab** | **GitHub** | **Bitbucket** |
 | --- | --- | --- |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.41.17@2x-20201111-194133.png?version=1&modificationDate=1605123706591&cacheVersion=1&api=v2) | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.48.52@2x-20201111-194908.png?version=1&modificationDate=1605124157746&cacheVersion=1&api=v2) | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.52.22@2x-20201111-195238.png?version=1&modificationDate=1605124390642&cacheVersion=1&api=v2) |
+| ![](/wp-content/uploads/gij-gitcloud-jira-issue-link-in-MR-message-gitlab.png) | ![](/wp-content/uploads/gij-gitcloud-jira-issue-link-in-PR-message-github.png) | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.52.22@2x-20201111-195238.png?version=1&modificationDate=1605124390642&cacheVersion=1&api=v2) |
 
 | **Azure DevOps** | **AWS Code Commit** |
 | --- | --- |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.41.56@2x-20201111-194208.png?version=1&modificationDate=1605123738388&cacheVersion=1&api=v2) | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.46.04@2x-20201111-194620.png?version=1&modificationDate=1605123984893&cacheVersion=1&api=v2) |
+| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.41.56@2x-20201111-194208.png?version=1&modificationDate=1605123738388&cacheVersion=1&api=v2) | ![](/wp-content/uploads/gij-gitcloud-jira-issue-link-in-PR-message-aws.png) |
 
 * * *
 
 ## Show integration type + org/owner name + repo name in lists of repositories
 
-05 Feb 2020 NEW FEATURE ALL USERS
+`05 Feb 2020` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
 
 Integration type icons and org/group names have been added to user facing repository selectors to help distinguish between similarly named repositories across different git servers and orgs/groups.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/CleanShot%202020-11-11%20at%2015.06.42@2x-20201111-200706.png?version=1&modificationDate=1605125230566&cacheVersion=1&api=v2&width=510&height=210)
+![](/wp-content/uploads/gij-gitcloud-manage-repo-icons-org-plus-repo-name.png)
 
 * * *
 
 ## Display name for integrations and repositories
 
-02 Feb 2020 IMPROVEMENT ADMINS
+02 Feb 2020 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 Jira administrators can now edit the names of integrations and repositories that are shown in Jira Cloud.
 
-[display-name-feature.mov](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/display-name-feature.mov?version=1&modificationDate=1605047598752&cacheVersion=1&api=v2&width=578)
+![](/wp-content/uploads/gij-gitcloud-integration-repo-display-name-feature.gif)
 
-**Tip:** Use the Display Name feature to record information about the git server account.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Use the Display Name feature to record information about the git server account.
+    </div>
+    </div>
+</div>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/CleanShot%202020-11-10%20at%2017.36.53@2x-20201110-223701.png?version=3&modificationDate=1605047881789&cacheVersion=1&api=v2&width=204&height=110)
+![](/wp-content/uploads/gij-gitcloud-edit-integration-repo-settings-display-name.png)
 
 * * *
