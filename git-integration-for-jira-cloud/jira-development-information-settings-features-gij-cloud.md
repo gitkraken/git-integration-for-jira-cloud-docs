@@ -9,7 +9,7 @@ taxonomy:
 
 Access this setting on the dashboard menu via Apps ➜ Git Integration: Manage Git repositories ➜ (sidebar) **General settings**. Alternatively, go to dashboard Jira Settings ➜ Apps ➜ (sidebar) **General settings**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1941373113/gitcloud-gencfg-jira-dev-info-settings.png?version=1&modificationDate=1631349902457&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitcloud-jira-dev-info-general-settings.png)
 
 There are four Jira Development Information settings that Jira administrators should aware of:
 

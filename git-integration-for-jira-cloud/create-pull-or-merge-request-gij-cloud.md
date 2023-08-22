@@ -45,7 +45,7 @@ taxonomy:
 
 &nbsp;
 
-## Introduction
+### Introduction
 
 The **Create pull request** feature offers Jira users the ability to create a git pull request directly from the Jira issue.
 
@@ -55,7 +55,7 @@ For information about creating a branch from a Jira issue - see [Create branch]
 
 &nbsp;
 
-## Advantages
+### Advantages
 
 When creating a pull request from within Jira:
 
@@ -67,7 +67,7 @@ When creating a pull request from within Jira:
 
 &nbsp;
 
-## Supported
+### Supported
 
 *   Full feature integrations:
 
@@ -87,11 +87,23 @@ When creating a pull request from within Jira:
 
 &nbsp;
 
-## Steps to creating a git pull request in Jira
+### Steps to creating a git pull request in Jira
 
-1.  **Prerequisite:** Jira administrator configures a Full feature integration in the Git Integration for Jira Cloud app. See [Integration Guide](/git-integration-for-jira-cloud/integration-guide-gij-cloud) for more information.
+1.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>PREREQUISITE</b> Jira administrator configures a Full feature integration in the Git Integration for Jira Cloud app. See <a href='/git-integration-for-jira-cloud/integration-guide-gij-cloud'>Integration Guide</a> for more information.
 
-2.  To access the Create pull request action - do one of the following:
+    <div class="bbb-callout bbb--alert">
+        <div class="irow">
+        <div class="ilogobox">
+            <span class="logoimg"></span>
+        </div>
+        <div class="imsgbox">
+            <b>Important</b><br>
+            The source branch for the pull/merge request must have a commit. Fulfill this condition to create pull/merge request via Jira Git Integration panel without issues.
+        </div>
+        </div>
+    </div>
+
+2.  To access the Create pull/merge request action - do one of the following:
 
     *   Enable the **Git Development panel** or
 
@@ -117,7 +129,7 @@ When creating a pull request from within Jira:
 
 &nbsp;
 
-## Video: Creating pull request from Git Development panel
+### Video: Creating pull request from Git Development panel
 
 <div class='embed-container' style='padding-bottom:77.71%'>
     <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/rsccl5wxps?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -129,7 +141,7 @@ When creating a pull request from within Jira:
 
 &nbsp;
 
-## Video: Creating pull request from Git Source Code panel
+### Video: Creating pull request from Git Source Code panel
 
 <div class='embed-container' style='padding-bottom:77.71%'>
     <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/zbjshija1o?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -138,8 +150,8 @@ When creating a pull request from within Jira:
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/zbjshija1o'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
+
+&nbsp;
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -151,5 +163,4 @@ When creating a pull request from within Jira:
     </div>
     </div>
 </div>
-<br>
 

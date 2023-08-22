@@ -39,9 +39,21 @@ The displayed information depends on which supported git hosts are connected to 
     </div>
 </div>
 
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Prerequisite</b><br>
+        The source branch for the pull/merge request must have a commit. Fulfill this condition to create pull/merge request via Jira Git Integration panel without issues.
+    </div>
+    </div>
+</div>
+
 &nbsp;
 
-## Getting started
+### Getting started
 
 <img src='/wp-content/uploads/gij-gitcloud-devpanel-create-pullreq-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -88,7 +100,7 @@ This feature is available on connected GitLab, GitHub, Microsoft TFS/VSTS and AW
 
 &nbsp;
 
-## GitLab merge request
+### GitLab merge request
 
 If you want to create a merge request for GitLab, click **Create merge request**. It has the same process described in the pull request creation steps above.
 

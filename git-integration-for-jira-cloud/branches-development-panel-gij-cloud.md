@@ -31,7 +31,7 @@ The branch panel will show a summary of all the unmerged branches (regardless of
 
 &nbsp;
 
-## Create branch
+### Create branch
 
 <img src='/wp-content/uploads/gij-gitcloud-devpanel-create-branch-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -46,6 +46,18 @@ Click **Create branch** on the Jira Git integration development panel to creat
 2.  Set **Source branch**. _(Optional - click Make default to set this branch as default for Source branch when working with branch and PR/MR creation dialogs)._
 
 3.  The Git Integration for Jira app will populate the **Branch name** field according to the _Branch Name Template_ declared in the [**Git Integration Options**](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud) via **General Settings**. Enter a descriptive name or leave it as is (recommended).
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        After creating a branch, it is added to the Git Integration developer panel under the Branches list. The branch name does not have a commit if it is displayed in italics.<br>
+        <img src='/wp-content/uploads/gij-gitcloud-devpanel-create-branch-no-commit.png' style='margin:20px auto 10px auto;max-width:100%;display:block;' />
+    </div>
+    </div>
+</div>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -90,7 +102,7 @@ Clicking the icons adjacent to the right of the branch name will open this branc
 
 &nbsp;
 
-## Commits ahead and behind
+### Commits ahead and behind
 
 The numbers **ahead** and **behind** represent the number of commits that are ahead/behind the main branch:
 
@@ -104,7 +116,7 @@ The numbers **ahead** and **behind** represent the number of commits that ar
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">        
-        The <b>*Branches</b> section is only visible if commits from this branch are not merged to the <i><b>main branch</b></i>. It's also not displayed if the repository is not associated with a project.
+        The <b>Branches</b> list is only visible if commits from this branch are not merged to the <i><b>main branch</b></i>. It's also not displayed if the repository is not associated with a project.
     </div>
     </div>
 </div>
@@ -126,7 +138,7 @@ The numbers **ahead** and **behind** represent the number of commits that ar
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For detailed information about creating branches, see article <i><b>Creating branches</b></i>.
+        For detailed information about creating branches, see article <a href='/git-integration-for-jira-cloud/create-branch-gij-cloud'><i><b>Creating branches</b></i></a>.
     </div>
     </div>
 </div>

@@ -19,7 +19,6 @@ We publish new features, bug fixes, security updates/patches, and Jira compatibi
 
 *   [Git Integration for Jira Cloud Security](https://www.gitkraken.com/git-integration-for-jira/security-and-trust)
 
-
 If you have any questions, please contact us through our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
 * * *
@@ -399,15 +398,15 @@ When a Jira user creates a pull request or merge request (GitLab) using the Git 
 
 | **GitLab** | **GitHub** | **Bitbucket** |
 | --- | --- | --- |
-| ![](/wp-content/uploads/gij-gitcloud-jira-issue-link-in-MR-message-gitlab.png) | ![](/wp-content/uploads/gij-gitcloud-jira-issue-link-in-PR-message-github.png) | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.52.22@2x-20201111-195238.png?version=1&modificationDate=1605124390642&cacheVersion=1&api=v2) |
+| ![](/wp-content/uploads/gij-gitcloud-jira-issue-link-in-MR-message-gitlab.png) | ![](/wp-content/uploads/gij-gitcloud-jira-issue-link-in-PR-message-github.png) | ![](/wp-content/uploads/gij-gitcloud-jira-issue-link-in-PR-message-bitbucket.png) |
 
 | **Azure DevOps** | **AWS Code Commit** |
 | --- | --- |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2014.41.56@2x-20201111-194208.png?version=1&modificationDate=1605123738388&cacheVersion=1&api=v2) | ![](/wp-content/uploads/gij-gitcloud-jira-issue-link-in-PR-message-aws.png) |
+| ![](/wp-content/uploads/gij-gitcloud-jira-issue-link-in-PR-message-vsts.png) | ![](/wp-content/uploads/gij-gitcloud-jira-issue-link-in-PR-message-aws.png) |
 
 * * *
 
-## Show integration type + org/owner name + repo name in lists of repositories
+### Show integration type + org/owner name + repo name in lists of repositories
 
 `05 Feb 2020` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
 
@@ -417,7 +416,7 @@ Integration type icons and org/group names have been added to user facing reposi
 
 * * *
 
-## Display name for integrations and repositories
+### Display name for integrations and repositories
 
 02 Feb 2020 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 

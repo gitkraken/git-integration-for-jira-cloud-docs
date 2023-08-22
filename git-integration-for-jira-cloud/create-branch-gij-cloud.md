@@ -35,7 +35,7 @@ taxonomy:
 * * *
 &nbsp;
 
-## Introduction
+### Introduction
 
 The Create branch feature offers Jira users the ability to create a git branch directly from the Jira issue.
 
@@ -46,7 +46,7 @@ For information about creating pull/merge requests from a Jira issue - see [Cre
 
 &nbsp;
 
-## Advantages
+### Advantages
 
 When creating a branch from within Jira:
 
@@ -60,7 +60,7 @@ When creating a branch from within Jira:
 
 &nbsp;
 
-## Supported
+### Supported
 
 *   Full feature integrations:
 
@@ -80,9 +80,9 @@ When creating a branch from within Jira:
 
 &nbsp;
 
-## Steps to creating a git branch in Jira
+### Steps to creating a git branch in Jira
 
-1.  **Prerequisite:** Jira administrator configures a Full feature integration in the Git Integration for Jira Cloud app. See [Integration Guide](/git-integration-for-jira-cloud/integration-guide-gij-cloud) for more information.
+1.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>PREREQUISITE</b> Jira administrator configures a Full feature integration in the Git Integration for Jira Cloud app. See <a href='/git-integration-for-jira-cloud/integration-guide-gij-cloud'>Integration Guide</a> for more information.
 
 2.  To access the Create branch action - do one of the following:
 
@@ -106,9 +106,23 @@ When creating a branch from within Jira:
 
 8.  Click **Create branch**.
 
+Make a commit to this branch and continue to create a pull/merge request.
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        After creating a branch, it is added to the Git Integration developer panel under the Branches list. The branch name does not have a commit if it is displayed in italics.<br>
+        <img src='/wp-content/uploads/gij-gitcloud-devpanel-create-branch-no-commit.png' style='margin:20px auto 10px auto;max-width:100%;display:block;' />
+    </div>
+    </div>
+</div>
+
 &nbsp;
 
-## Video: Creating branch via Git Development panel
+### Video: Creating branch via Git Development panel
 
 <div class='embed-container' style='padding-bottom: 82.08%'>
     <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/8cy7v6ykug?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -120,7 +134,7 @@ When creating a branch from within Jira:
 
 &nbsp;
 
-## Video: Creating branch from Git Source Code panel
+### Video: Creating branch from Git Source Code panel
 
 <div class='embed-container' style='padding-bottom: 82.08%'>
     <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/2re05azbwl?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -138,9 +152,8 @@ When creating a branch from within Jira:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>
-<br>
 
