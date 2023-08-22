@@ -13,7 +13,7 @@ To create a link between your Git commit and a Jira issue, developers must inclu
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/cs229y2gzj?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-too:15px;margin-bottom:35px'>
+<div align='center' style='margin-top:15px;margin-bottom:30px;'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/cs229y2gzj'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
@@ -30,7 +30,7 @@ Commits are selected by issue key. Developers should add them to comments every
     </div>
 </div>
 
-<img src='/wp-content/uploads/gij-gitcloud-git-commits-commits-info.png' style='margin-top:25px' />
+<img src='/wp-content/uploads/gij-gitcloud-git-commits-commits-info.png' style='margin-top:25px auto;max-width:100%;display:block;' />
 
 <div style='margin-top:10px'><i>Example Git commit message: <b>"TEST-1 Update..."</b><br>
 In this case, <b>"TEST-1"</b> is the issue key linking the commit message to the Jira issue.</i></div>

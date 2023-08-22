@@ -6,11 +6,12 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 You can generate a quote for Git Integration for Jira Cloud by doing the following steps below.
 
 Primarily, click this [**Generate quote link**](https://www.atlassian.com/purchase/addon/com.xiplink.jira.git.jira_git_plugin.ondemand?purchaseMode=quote) to take you directly to the quote page for Cloud:
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1165459457/jira-cloud-quote-process.png?version=1&modificationDate=1612506133912&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-jira-cloud-quote-process.png)
 
 1.  The loaded page defaults to **Quote** mode.
 
@@ -21,5 +22,5 @@ Primarily, click this [**Generate quote link**](https://www.atlassian.com/purcha
 4.  Follow instructions on the next screen to complete this process.
 
 
-For more information on licensing, see [**Licensing Information, Migration and Transition**](https://bigbrassband.atlassian.net/wiki/spaces/BBBSUPPORT/pages/901120001/Licensing+Information+Migration+and+Transition).
+For more information on licensing, see [**Licensing Information, Migration and Transition**](/git-integration-for-jira-data-center/licensing-information-migration-and-transition-gij-self-managed).
 

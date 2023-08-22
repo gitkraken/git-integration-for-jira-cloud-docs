@@ -6,9 +6,10 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 The Git Integration for Jira app supports GitHub Organization webhooks. Rather than creating a webhook for each repository manually, configure the webhook at the GitHub Organization level to automatically register webhook for each repository.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171278791/new-github-org-webhook-settings-page.png?version=2&modificationDate=1617192450844&cacheVersion=1&api=v2&width=680&height=607)
+![](/wp-content/uploads/gij-new-github-org-webhook-settings-page.png)
 
 To configure GitHub organization webhook:
 
@@ -22,7 +23,7 @@ To configure GitHub organization webhook:
 
 5.  Paste the webhook URL into the Payload URL field. (The webhook url is acquired from the Git Integration for Jira Cloud app ➜ Indexing triggers configuration page.)
 
-6.  ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171278791/jira-cloud-webhook-url-loc(c1).png?version=1&modificationDate=1617192450865&cacheVersion=1&api=v2&width=652&height=434)
+6.  ![](/wp-content/uploads/gij-gitcloud-indexing-trigger-webhook-url-level-1.png)
 
     Set the _**Content type**_ to **application/json**.
 
@@ -37,3 +38,5 @@ To configure GitHub organization webhook:
     4.  Select **Pushes**
 
 8.  Click **Add webhook** to complete this setup.
+
+
