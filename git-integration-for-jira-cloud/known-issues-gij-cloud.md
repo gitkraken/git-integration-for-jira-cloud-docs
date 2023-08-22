@@ -14,8 +14,7 @@ Below are the Git Integration app known issues and workarounds:
 #### Number of connected repositories per integration
 The Git Integration for Jira app have per integration limitation for number of connected repositories:
 
-GitHub - 5000
-
+*   GitHub - 5000
 *   GitLab - 5000
 *   All others - 5000
 
@@ -25,7 +24,7 @@ _Reference: GITCL-1395, GITCL-1846_
 The Git Integration for Jira application uses the JGit library which does not support objects over 2GB in size stored in git repositories.
 *   2GB object limit
 
-Reference: …
+_Reference: …_
 
 #### Smart commits failing user search by email
 It was reported that some users have their smart commits attributed to the app user rather than specific users. It is found that the user search via email is failing. Some Jira Cloud instances are failing to return users based on email.
@@ -42,7 +41,7 @@ _Reference: GIT-3889_
 
 #### Why Microsoft PAT integrations require "All accessible organizations" permission
 
-**IMPORTANT!**
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b>
 It is highly required that administrators must select the "All accessible organizations" option when creating personal access tokens (PAT). Otherwise, the integration will not work.
 
 Please follow the instructions for creating MS/Azure PATs outlined in our Confluence how-tos [here](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
