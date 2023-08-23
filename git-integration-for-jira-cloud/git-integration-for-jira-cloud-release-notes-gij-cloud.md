@@ -334,21 +334,17 @@ This information is visible in the native Jira Cloud development information are
 
 **Mobile apps**
 
-| Examples | Examples | Examples |
+| Jira iOS/Android app:<br>View development information | Jira iOS/Android app:<br>Branches detail | Jira iOS/Android app:<br>Commits detail |
 | --- | --- | --- |
-| **Jira iOS/Android app: View development information**<br><br>![](/wp-content/uploads/gij-gitcloud-mobile-dev-info-panel.png) | **Jira iOS/Android app: Branches detail**<br><br>![](/wp-content/uploads/gij-gitcloud-mobile-branches-detail.png) | **Jira iOS/Android app: Commits detail**<br><br>![](/wp-content/uploads/gij-gitcloud-mobile-commits-detail.png) |
-| **Jira iOS/Android app: Pull / merge requests detail**<br><br>![](/wp-content/uploads/gij-gitcloud-mobile-pullreq-detail.png) | **Jira iOS/Android app: Git Integration “glance” view**<br><br>![](/wp-content/uploads/gij-gitcloud-mobile-integration-glance-view.png) | **Jira iOS/Android app: Glance: Create branch**<br><br>![](/wp-content/uploads/gij-gitcloud-mobile-create-branch-view.png) |
-| **Jira iOS/Android app: Glance: Create branch**<br><br>![](/wp-content/uploads/gij-gitcloud-mobile-create-pullreq-view.png) |     |     |
+| ![](/wp-content/uploads/gij-gitcloud-mobile-dev-info-panel.png) | ![](/wp-content/uploads/gij-gitcloud-mobile-branches-detail.png) | ![](/wp-content/uploads/gij-gitcloud-mobile-commits-detail.png) |
 
-**MacOS app**
-
-| Examples | Examples | Examples |
+| Jira iOS/Android app:<br>Pull/merge requests detail | Jira iOS/Android app:<br>Git Integration "glance" view | Jira iOS/Android app<br>Glance: Create branch |
 | --- | --- | --- |
-| **Jira MacOS app: Issue sidebar**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2015.33.16@2x-20201111-203318.png?version=1&modificationDate=1605126815417&cacheVersion=1&api=v2) | **Jira MacOS app: Branches detail**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/871792645/CleanShot%202020-11-11%20at%2015.34.00@2x-20201111-203401.png?version=1&modificationDate=1605126850897&cacheVersion=1&api=v2&width=204&height=162) | **Jira MacOS app: Commits detail**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2015.34.20@2x-20201111-203421.png?version=1&modificationDate=1605126872113&cacheVersion=1&api=v2) |
-| **Jira MacOS app: Pull / merge requests detail**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2015.34.56@2x-20201111-203457.png?version=1&modificationDate=1605126909706&cacheVersion=1&api=v2) | **Jira MacOS app: Git Integration: “glance” view**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2015.36.12@2x-20201111-203613.png?version=1&modificationDate=1605126983163&cacheVersion=1&api=v2) | **Jira MacOS app: Git Integration: Glance: Create branch**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2015.37.41@2x-20201111-203743.png?version=1&modificationDate=1605127079983&cacheVersion=1&api=v2) |
-| **Jira MacOS app: Git Integration: Glance: Create pull request**<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/871792645/CleanShot%202020-11-11%20at%2015.38.58@2x-20201111-203859.png?version=1&modificationDate=1605127149677&cacheVersion=1&api=v2) |     |     |
+| ![](/wp-content/uploads/gij-gitcloud-mobile-pullreq-detail.png) | ![](/wp-content/uploads/gij-gitcloud-mobile-integration-glance-view.png) | ![](/wp-content/uploads/gij-gitcloud-mobile-create-branch-view.png) |
 
-* * *
+| Jira iOS/Android app -- Glance: Create branch |
+| :---: |
+| ![](/wp-content/uploads/gij-gitcloud-mobile-create-pullreq-view.png) |
 
 ### Default repository for projects
 
@@ -418,7 +414,7 @@ Integration type icons and org/group names have been added to user facing reposi
 
 ### Display name for integrations and repositories
 
-02 Feb 2020 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
+`02 Feb 2020` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>IMPROVEMENT</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 Jira administrators can now edit the names of integrations and repositories that are shown in Jira Cloud.
 
