@@ -153,6 +153,23 @@ When creating a pull request from within Jira:
 
 &nbsp;
 
+### Associating pull/merge request to Jira issue
+
+A git service user can create a PR/MR via the Git host service portal and adding/inserting a Jira issue key in the PR/MR title. This is automatically added to the Pull/Merge request list in the Jira issue Git developer panel.
+
+| Git service portal |
+| :---: |
+| ![](/wp-content/uploads/gij-gitcloud-git-host-pull-req-assoc-test.png) |
+
+| Jira issue PR/MR list view |
+| :---: |
+| ![](/wp-content/uploads/gij-gitcloud-jira-dev-panel-pull-req-list-assoc-sel.png) |
+
+Additionally, creating PR/MR via the Git developer panel automatically associates the PR/MR to a Jira issue.
+
+&nbsp;
+* * * 
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
