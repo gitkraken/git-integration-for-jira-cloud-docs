@@ -7,14 +7,20 @@ taxonomy:
 
 ---
 
+&nbsp;
+
 ![](/wp-content/uploads/gitlab-mobile-custom1.png)
 
+&nbsp;
+
 An optional JMESPath filter can be configured when adding GitLab integration or repositories.
+
+&nbsp;
 
 ### 1\. Contains (include)
 
 ```java
-[?contains(name, 'git') | contains(name, 'Slap') | contains(name, 'est')]
+[?contains(name, 'git') || contains(name, 'Slap') || contains(name, 'est')]
 ```
 
 This is a filter based on text in the repository name. It will list all the repositories that contain the specified names. Do note that the declared string format is case-sensitive.
@@ -30,7 +36,7 @@ This is a filter based on text in the repository name. It will list all the repo
 ```
 
 ```java
-[?(!contains(name, 'firstword')) | (!contains(name, 'secondword'))]
+[?(!contains(name, 'firstword')) || (!contains(name, 'secondword'))]
 ```
 
 **1** – Blacklists project tag.
@@ -73,7 +79,7 @@ Whitelists project tag.
 ### 4\. Starts with or ends with
 
 ```java
-[?starts_with(name, 'git') | ends_with(name, 'test')]
+[?starts_with(name, 'git') || ends_with(name, 'test')]
 ```
 
 Lists repositories with names that starts with `'git'` or ends with `'test'`.
@@ -85,6 +91,20 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 ```
 
 Lists only repositories from projects that have existing repositories.
+
+&nbsp;
+
+### Git services that support JMESPath filters
+
+*   [GitHub.com | GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-cloud/github-com-github-enterprise-jmespath-filter-examples-gij-cloud)
+
+*   **GitLab.com \| GitLab CE/EE JMESPath filter examples** (this page)
+
+*   [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/git-integration-for-jira-cloud/microsoft-vsts-tfs-azure-repos-jmespath-filter-examples-gij-cloud)
+
+*   [Bitbucket JMESPath filter examples](/git-integration-for-jira-cloud/bitbucket-jmespath-filter-examples-gij-cloud)
+
+
 
 &nbsp;
 &nbsp;

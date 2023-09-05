@@ -9,13 +9,13 @@ taxonomy:
 
 JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.
 
-For help with writing expressions, please contact [**support**](support@gitkraken.com).
+For help with writing expressions, please contact [**support**](gijsupport@gitkraken.com) or request via our [Support portal](/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
 Read about JMESPath expressions on their [**website**](http://jmespath.org/).
 
 * * *
 
-## Accessible Locations
+### Accessible Locations
 
 There are two ways to access the JMESPath settings in Git Integration for Jira Cloud:
 
@@ -29,15 +29,15 @@ There are two ways to access the JMESPath settings in Git Integration for Jira C
 
 <br>
 
-2. Manage Git repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit integration settings</b> ➜ Integration settings. ➜ <b>JMESPath Filter</b>.
+2. Manage Git repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration settings** ➜ Integration settings ➜ **JMESPath Filter**.
 
     ![](/wp-content/uploads/gij-gitcloud-jmespath-actions-settings.png)
 
     This feature is accessible with supported git services on repository or integration connections.
 
-<br>
+&nbsp;
 
-## Git services that support JMESPath filters
+### Git services that support JMESPath filters
 
 *   [GitHub.com | GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-cloud/github-com-github-enterprise-jmespath-filter-examples-gij-cloud)
 
