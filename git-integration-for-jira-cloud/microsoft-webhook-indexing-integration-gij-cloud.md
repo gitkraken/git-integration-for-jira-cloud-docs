@@ -14,7 +14,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         For more information on Webhook indexing:
-        <ul style='margin-bottom:0 !important'>
+        <ul style='margin-bottom:0px;margin-top:-8px;'>
             <li>
                 <a href='/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud'>Webhook Indexing Explainer</a>
             </li>
@@ -39,11 +39,11 @@ taxonomy:
 
 &nbsp;
 
-## Video Guide
+### Video Guide
 
 For a step-by-step setup guide, watch the following demonstration video:
 
-### Project Level
+#### Project Level
 
 <div class='embed-container embed-container--16-9'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/5ztyu5vu5l?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -53,11 +53,9 @@ For a step-by-step setup guide, watch the following demonstration video:
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/5ztyu5vu5l'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-## Connect Azure Repos, Azure DevOps, Azure DevOps Server, VSTS or TFS using the Webhook Indexing integration type to Jira Cloud:
+### Connect Azure Repos, Azure DevOps, Azure DevOps Server, VSTS or TFS using the Webhook Indexing integration type to Jira Cloud
 
 The steps outlined below requires that [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app is already installed on your Jira Cloud instance. Otherwise, install the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app first from the Atlassian Marketplace.
-
-### Webhook indexing integration
 
 1.  On your Jira Cloud dashboard, go to Apps ➜ **Git Integration: Manage integrations**.
 
@@ -83,11 +81,11 @@ The steps outlined below requires that [Git Integration for Jira](https://market
 
     ![](/wp-content/uploads/gij-gitcloud-webhook-indexing-github-settings.png)
 
-7.  <img src='/wp-content/uploads/bbb-alert-20.png' height=20px width=20px style='margin-right:3px'/> Before clicking <b>Finish</b>, make sure to configure webhook for your git service. Use the <b>Webhook URL</b> and the <b>Secret key</b> then follow the steps below for repository level or organization level webhook setup.
+7.  ![](/wp-content/uploads/bbb-alert-20.png) Before clicking **Finish**, make sure to configure webhook for your git service. Use the **Webhook URL** and the **Secret key** then **follow the steps below** for repository level or organization level webhook setup.
 
 &nbsp;
 
-### Microsoft service hook setup (PROJECT LEVEL)
+#### Microsoft service hook setup (PROJECT LEVEL)
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>PROJECT LEVEL</b>
 
@@ -145,7 +143,7 @@ Open a new browser tab and login to your Microsoft web portal to setup webhook t
 
 &nbsp;
 
-### Microsoft service hook setup (REPOSITORY LEVEL)
+#### Microsoft service hook setup (REPOSITORY LEVEL)
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>REPOSITORY LEVEL</b>
 
@@ -201,35 +199,39 @@ Open a new browser tab and login to your Microsoft web portal to setup webhook t
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> After you’re done setting up the service hook with your git service (Microsoft), switch to the Jira Cloud browser tab where you left off. Click <b>Finish</b> to complete this setup.
 
-## Post webhook setup tips
+&nbsp;
+
+### Post webhook setup tips
 
 *   If you see any issues with the newly added service hook, verify that the **Webhook URL** from the Microsoft webhook indexing page is copied and pasted properly to the **URL** box in the Service hook wizard. Edit the these settings and try again.
 
 *   Edit integration settings via **Actions** on the Manage Git repository page. In here, you will find **Webhook URL** and **Secret key** for use with service hook setup with your Microsoft git service.
 
-## How to link commits, branches and pull requests to a Jira issue?
+*   <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b> The events are detected only after the Webhook indexing integration. If you see no repositories in the Manage repositories page, make sure to trigger either the push (commit) or pull/merge request events of the working repository.
+
+### How to link commits, branches and pull requests to a Jira issue?
 
 Make a commit if you don’t see commits in the Git Commits tab of an associated Jira issue.
 
 For information on this topic, see [Linking git commits, associating branches and pull requests to a Jira issue](/git-integration-for-jira-cloud/how-to-link-commits-branches-and-pull-requests-to-a-jira-issue-gij-cloud).
 
-## Git Roll Up tab
+### Git Roll Up tab
 
 The Git Roll Up tab is now supported for MS VSTS/Azure webhook indexing integration.
 
-MS VSTS/Azure doesn't provide information about changed files. It provides only commit message and hashes, dates and author information.
+<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>NOTE!</b> MS VSTS/Azure doesn't provide information about changed files. It provides only commit message and hashes, dates and author information.
 
-## Limited features for Microsoft webhook indexing integration
+### Limited features for Microsoft webhook indexing integration
 
 The feature table displays the supported git features for the selected git server. For more information, see [Feature matrix for Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud/).
 
 ![](/wp-content/uploads/gij-gitcloud-webhook-indexing-compare-vs-full-gitlab.png)
 
-### Works with git servers behind firewall
+#### Works with git servers behind firewall
 
 The webhooks indexing integration limits the features available. However, networks hosting git do not need to be updated to allow incoming requests as long as outbound requests can be made. See [Webhook Indexing explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud) for more information.
 
-### ![](/wp-content/uploads/gij-check.png) View commits, branches, pull requests in Jira
+#### ![](/wp-content/uploads/gij-check.png) View commits, branches, pull requests in Jira
 
 Commits, branches, pull requests are visible in the **Jira Development Information** panel as well as in the **Git Commits issue** tab and **Git Integration** side panel of the Jira issue. Jira administrators can regulate access to these displays using the _View development tools_ permission.
 
@@ -246,16 +248,16 @@ Commits, branches, pull requests are visible in the **Jira Development Informati
     </div>
     </div>
 </div>
-<br>
-<br>
 
-### View tags in Jira
+&nbsp;
+
+#### View tags in Jira
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b>
 
 &nbsp;
 
-### ![](/wp-content/uploads/gij-check.png) Support for Automation for Jira + Smart Commits
+#### ![](/wp-content/uploads/gij-check.png) Support for Automation for Jira + Smart Commits
 
 **Automation for Jira** - the following triggers are supported:
 
@@ -280,10 +282,10 @@ Commits, branches, pull requests are visible in the **Jira Development Informati
     </div>
     </div>
 </div>
-<br>
-<br>
 
-### ![](/wp-content/uploads/gij-check.png) Repository Browser
+&nbsp;
+
+#### ![](/wp-content/uploads/gij-check.png) Repository Browser
 
 The Repository Browser allows users to view commits in git repositories by branch1. Users can manually link and unlink commits to Jira issues2.
 
@@ -291,19 +293,31 @@ The Repository Browser allows users to view commits in git repositories by branc
 
 ![](/wp-content/uploads/gij-gitcloud-wh-idx-repo-browser-sel.png)
 
-### ![](/wp-content/uploads/gij-error.png) Create branches and pull requests in Jira
+#### ![](/wp-content/uploads/gij-error.png) Create branches and pull requests in Jira
 
 This feature is not supported with webhook indexing integration. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud)
 
-### Support for large number of commits in git pushes
+#### Support for large number of commits in git pushes
 
 Git servers may truncate how much of the activity is captured in a webhook on large git push events resulting in some git activity. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud).
 
-### ![](/wp-content/uploads/gij-error.png) Indexing full repository history
+#### ![](/wp-content/uploads/gij-error.png) Indexing full repository history
 
 Webhook indexing integration will only show new commit/branch/pull request activity once webhooks are configured on the git server according to this wizard. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud).
 
-### ![](/wp-content/uploads/gij-error.png) View source code in Jira
+#### ![](/wp-content/uploads/gij-error.png) View source code in Jira
 
 Webhook indexing integration does not have this option as webhooks do not contain source code.
+
+&nbsp;
+
+### Other supported webhook indexing integration articles
+
+[GitHub webhook indexing integration](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud)
+
+[GitLab webhook indexing integration](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud)
+
+**Microsoft webhook indexing integration** (this page)
+
+_Gerrit webhook indexing integration (Coming soon)_
 
