@@ -7,13 +7,13 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app currently supports **Jira** **8.0** to **9.9**!
+The Git Integration for Jira app currently supports **Jira** **8.0** to **9.11**!
 
 We are committed to provide you with an efficient and reliable support. Scroll down to see helpful tips to get started.
 
 * * *
 
-## Browser Compatibility
+### Browser Compatibility
 
 Atlassian has released mobile app versions of their Jira software.
 
@@ -21,7 +21,7 @@ The Git Integration for Jira Cloud app supports the desktop browsers that Atlass
 
 For more information, see [**Atlassian Jira Cloud Supported Browsers**](https://confluence.atlassian.com/cloud/supported-browsers-744721663.html).
 
-## Quick Installation Video
+### Quick Installation Video
 
 <div class='embed-container embed-container--16-9'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/m9u64t1a3h?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -30,7 +30,7 @@ For more information, see [**Atlassian Jira Cloud Supported Browsers**](https://
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/m9u64t1a3h'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
+
 
 No changes necessary to your Git server. This Jira app acts as a regular Git client.
 
@@ -38,7 +38,7 @@ Using Atlassian's marketplace system, a Jira administrator can install the Git I
 
 * * *
 
-## Viewing Reindex Logs
+### Viewing Reindex Logs
 
 Go to the Manage Git Repositories page, click the **Actions** icon then **View Log** to view the indexing logs.
 
@@ -50,7 +50,7 @@ If there is an error encountered when connecting to a repository, a similar inde
 
 * * *
 
-## Atlassian Support End of Life
+### Atlassian Support End of Life
 
 We are dropping support for **Java 7**, **Jira 7.0 and older** and Internet Explorer 11.
 
@@ -92,12 +92,14 @@ The table below shows the Jira Version, when [Atlassian will stop supporting th
 | 9.7 | March 20, 2025 | Edge | Yes\* |
 | 9.8 | April 25, 2025 | Edge | Yes\* |
 | 9.9 | June 02, 2025 | Edge | Yes\* |
+| 9.10 | July 11, 2025 | Edge | Yes\* |
+| 9.11 | August 30, 2025 | Edge | Yes\* |
 
 \* See information below about retiring IE11 support.
 
 * * *
 
-## **Retiring IE11 Support**
+### Retiring IE11 Support
 
 With the release of the Edge browser since 2015, IE has not been receiving major updates. Atlassian has stated in their [**blog**](https://blog.developer.atlassian.com/retiring-ie11-support-for-atlassian-cloud-server-and-data-center-products/) that they will withdraw support for IE11 on all Jira products.
 
