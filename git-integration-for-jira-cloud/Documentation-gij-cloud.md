@@ -17,7 +17,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This documentation guide covers <b>v1.4.58-AC</b> features. For more information on released features, see <a href='/git-integration-for-jira-cloud/git-integration-for-jira-cloud-release-notes-gij-cloud'>Release notes</a>.
+        This documentation guide covers <b>v1.4.62-AC</b> features. For more information on released features, see <a href='/git-integration-for-jira-cloud/git-integration-for-jira-cloud-release-notes-gij-cloud'>Release notes</a>.
     </div>
     </div>
 </div>
