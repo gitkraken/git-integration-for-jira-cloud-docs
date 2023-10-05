@@ -32,6 +32,7 @@ The `"!"` expression excludes all repositories with `'test'` in the repository n
 ### 3\. Starts with or ends with
 
 `{value:value[?(starts_with(name, 'git')||(ends_with(name, 'test')))]}`
+
 `{value:value[?(starts_with(name, 'git') || (ends_with(name, 'test')))]}`
 
 Lists repositories with names that starts with `'git'` or ends with `'test'`.
