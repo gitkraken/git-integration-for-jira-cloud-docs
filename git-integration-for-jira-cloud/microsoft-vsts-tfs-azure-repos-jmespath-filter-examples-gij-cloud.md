@@ -19,39 +19,32 @@ An optional JMESPath filter can be configured when adding Azure Repos integratio
 
 ### 1\. Contains (include)
 
-```java
-value[?contains(name, 'example')] || {value:@}
-```
+`{value:value[?contains(name, 'example')]}`
 
 This is a filter based on text in the repository name. It will list repositories with names containing the word `'example'`. Do note that the declared string format is case-sensitive.
 
 ### 2\. Contains (exclude)
 
-```java
-value[?(!contains(name, 'Test'))] || {value:@}
-```
+`{value:value[?(!contains(name, 'Test'))]}`
 
 The `"!"` expression excludes all repositories with `'test'` in the repository name.
 
 ### 3\. Starts with or ends with
 
-```java
-value[?starts_with(name, 'git') || ends_with(name, 'test')] || {value:@}
-```
+`{value:value[?(starts_with(name, 'git')||(ends_with(name, 'test')))]}`
+`{value:value[?(starts_with(name, 'git') || (ends_with(name, 'test')))]}`
 
 Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
 ### Other examples
 
-```java
-value[?contains(project.state, 'wellFormed')] || {value:@}
+`{value:value[?contains(project.state, 'wellFormed')]}`
 
-value[?contains(project.name, 'test2')] || {value:@}
+`{value:value[?contains(project.name, 'test2')]}`
 
-value[?contains(project.visibility, 'private')] || {value:@}
+`{value:value[?contains(project.visibility, 'private')]}`
 
-value[?contains(project.visibility, 'public')] || {value:@}
-```
+`{value:value[?contains(project.visibility, 'public')]}`
 
 1.  Displays repositories from projects where its state is _completely created and ready to use_.
 
