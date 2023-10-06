@@ -32,6 +32,28 @@ For more information on Automation for Jira, see article [Git Integration + Jira
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
 
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        With both smart commits processors active, the #time and #comment commands will be processed twice and you'll get duplicated results.
+    </div>
+    </div>
+</div>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Compared to the other smart commit processor option, this one has support for Jira Automation but lacks the <code>#label</code> command.
+    </div>
+    </div>
+</div>
+
 &nbsp;
 
 ## More Jira development information settings

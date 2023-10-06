@@ -22,7 +22,7 @@ taxonomy:
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-app-smart-commits.png' style='display:block;margin:25px auto;max-width:100%' />
 
-This setting engages GitKraken's GIJ Smart Commit processor for `#time`, `#comment`, `#transitions` and `#label`.  For more information, see our [Smart Commits documentation^](/git-integration-for-jira-cloud/smart-commits-gij-cloud).
+This setting engages GitKraken's GIJ Smart Commit processor for `#time`, `#comment`, `#transition` and `#label`.  For more information, see our [Smart Commits documentation^](/git-integration-for-jira-cloud/smart-commits-gij-cloud).
 
 &nbsp;
 
@@ -40,6 +40,28 @@ This setting engages GitKraken's GIJ Smart Commit processor for `#time`, `#com
 &nbsp;
 
 After all the settings have been configured according to your requirements, click **Update** to apply the changes.
+
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        With both smart commits processors active, the <code>#time</code> and <code>#comment</code> commands will be processed twice and you'll get duplicated results.
+    </div>
+    </div>
+</div>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Compared to the other smart commit processor option, this one does not support Jira Automation but allows you to use the <code>#label</code> command.
+    </div>
+    </div>
+</div>
 
 &nbsp;
 
