@@ -17,11 +17,12 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 <img src='/wp-content/uploads/gitlab-mobile-custom1.png' style='margin:20px 0 30px 0;max-width:100%' />
 
-# Integrate GitLab.com with Jira Cloud
+## Integrate GitLab.com with Jira Cloud
 
 GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories.  Service users are strongly advised to switch from using username/password to using Personal Access Tokens (PAT) for GitLab.com.
 
@@ -35,7 +36,6 @@ GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) 
     </div>
     </div>
 </div>
-<br>
 
 Quickly learn how to connect GitLab.com git repositories via Git Integration for Jira Cloud app.
 
@@ -53,11 +53,9 @@ Quickly learn how to connect GitLab.com git repositories via Git Integration for
     - [Creating merge requests](#creating-merge-requests)
   - [More Integration Guides](#more-integration-guides)
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/hi45vum4yp?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -66,9 +64,10 @@ Quickly learn how to connect GitLab.com git repositories via Git Integration for
 <div align='center' style='margin-top:15px;margin-bottom:40px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/hi45vum4yp'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br> <i>(Updated video coming soon)</i>
 </div>
-<br>
 
-## Permissions
+&nbsp;
+
+### Permissions
 
 GitLab can have users with different access level to a group or project. If the user's connected GitLab repositories to Jira are not accessible or commits are not showing for that user -- it's related to permission issues. This can be a per user, repository or a project level restriction.
 
@@ -107,7 +106,7 @@ This level of access allows the user to create/delete branches and create merge 
 
 For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/ee/user/permissions.html).
 
-## Creating a personal access token
+### Creating a personal access token
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -119,11 +118,12 @@ For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/e
     </div>
     </div>
 </div>
-<br>
 
 While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for a quick step-by-step guide to get you started.
 
-## Using Git service integration
+&nbsp;
+
+### Using Git service integration
 
 This process requires an existing GitLab.com account. Multiple git repositories in a GitLab.com account will be connected via Git Integration for Jira Cloud app.
 
@@ -220,7 +220,9 @@ There will be a slight delay in adding 2FA-enabled repositories compared to othe
     </tr>
 </table>
 
-## Single git repository integration
+&nbsp;
+
+### Single git repository integration
 
 This process requires an existing GitLab git repository. Look for the the GitLab repository clone URL on the repository project page. Choose between SSH or HTTPS.
 
@@ -243,7 +245,9 @@ There will be a slight delay in adding 2FA-enabled repositories compared to othe
     </div>
 </div>
 
-## Setting up GitLab web links
+&nbsp;
+
+### Setting up GitLab web links
 
 The Git Integration for Jira app automatically configures web linking for GitLab git repositories.
 
@@ -251,7 +255,9 @@ For single repository connections, web link setup is optional. However, git link
 
 For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-cloud/web-linking-gij-cloud).
 
-## Viewing git commits in Jira Cloud
+&nbsp;
+
+### Viewing git commits in Jira Cloud
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This action will associate the commit to the mentioned Jira issue.
 
@@ -264,13 +270,15 @@ For more information on this feature, see [Documentation: Web linking](/git-inte
 
 For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud).
 
-## Working with branches and merge requests with GitLab
+&nbsp;
+
+### Working with branches and merge requests with GitLab
 
 This process requires a GitLab git repository and a PAT with `api` scope.
 
 For GitLab Group, the user must have the **Write** permissions and the `api` PAT scope.
 
-### Default branch
+#### Default branch
 
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
@@ -284,9 +292,8 @@ Most git integrations allow changing of the default branch of the repository/pro
     </div>
     </div>
 </div>
-<br>
 
-### Creating branches
+#### Creating branches
 
 On your Jira Cloud instance, open a Jira issue. On the Jira Git integration development panel, click **Open Git integration** then click **Create branch**. The following dialog is displayed.
 
@@ -324,7 +331,7 @@ On your Jira Cloud instance, open a Jira issue. On the Jira Git integration deve
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
-### Creating merge requests
+#### Creating merge requests
 
 The merge request feature works the same as merge request. On your Jira Cloud, open the Jira issue where your previously created a branch. On the Jira Git integration development panel, click **Open Git integration** then click **Create merge request**. The following dialog is displayed.
 
@@ -384,8 +391,6 @@ The merge request feature works the same as merge request. On your Jira Cloud, o
     </div>
     </div>
 </div>
-<br>
-
 
 The merge request is listed on the developer panel of the Jira issue page.
 
@@ -393,7 +398,7 @@ The merge request is also ready for approval by the reviewers in your GitLab web
 
 &nbsp;
 
-## More Integration Guides
+### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud) (Git Integration for Jira Cloud)
 
@@ -401,7 +406,7 @@ The merge request is also ready for approval by the reviewers in your GitLab web
 
 **GitLab.com** (this page)
 
-[GitLab CE/EE](/git-integration-for-jira-cloud/github-ce-ee-com-gij-cloud) (Git Integration for Jira Cloud)
+[GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud) (Git Integration for Jira Cloud)
 
 [Azure DevOps \| Visual Studio Team Services (VSTS)](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud) (Git Integration for Jira Cloud)
 
