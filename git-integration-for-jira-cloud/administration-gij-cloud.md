@@ -13,19 +13,28 @@ Click on an article to learn more information for that specific topic.
 
 * * *
 
-[General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud)
+[Manager permissions](/git-integration-for-jira-cloud/manager-permissions-gij-cloud)
 
-Configure several features of the app within the General settings page.
+Learn how to dekegate specific users for managing Git Integration for Jira apps features as a Jira administrator.
 
-<br>
+&nbsp;
 
 [Trusted users](/git-integration-for-jira-cloud/trusted-users-gij-cloud)
 
 Learn more about trusted users and their role.
 
-<br>
+&nbsp;
 
-[Administrator toolbox](#)
 
-_Under construction_
+
+[General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud)
+
+Configure several features of the app within the General settings page.
+
+&nbsp;
+
+[Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-cloud/setup-gitlab-server-to-respond-to-incoming-network-api-calls-gij-cloud)
+
+Learn how to setup GitLab for correct repository clone links to your users.
+
 

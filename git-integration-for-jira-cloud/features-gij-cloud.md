@@ -8,6 +8,8 @@ taxonomy:
 ---
 On this page you will find topics related to the supported features of the app.
 
+*   [Manager permissions](/git-integration-for-jira-cloud/manager-permissions-gij-cloud) (Git Integration for Jira Cloud)
+
 *   [Deep Linking to the GitKraken Git Client](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client-gij-cloud) (Git Integration for Jira Cloud)
 
 *   [Deep Linking into GitLens](/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud) (Git Integration for Jira Cloud)
