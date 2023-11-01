@@ -33,10 +33,13 @@ A new item called **Manager permissions** is introduced on the Git Integration f
 
     ![](/wp-content/uploads/gij-gitserverdc-manage-permissions-admin-groups-sel.png)
 
+    &nbsp;
 
 2.  Click on the **Admin \> Groups** label link on the Manager permissions page to take you to the Groups page.
 
     ![](/wp-content/uploads/gij-gitserverdc-manager-permission-create-group.png)
+
+    &nbsp;
 
 3.  You can create a new group or use an existing group. For this guide, click **Create group**. The following dialog is displayed.
 
@@ -48,9 +51,13 @@ A new item called **Manager permissions** is introduced on the Git Integration f
 
     This creates the specified group and displays it in the Groups list.
 
+    &nbsp;
+
 4.  Switch to the Manager permissions page (browser tab) then click **System \> Global permissions**.
 
     ![](/wp-content/uploads/gij-gitserverdc-manager-permission-sys-global-acl.png)
+    
+    &nbsp;
 
 5.  On the Global permissions screen, the page is automatically scrolled to the **Grant Permission** section.
 
@@ -60,11 +67,15 @@ A new item called **Manager permissions** is introduced on the Git Integration f
 
     *   Select a group --> choose the group that you created previously.
 
+    &nbsp;
+
 6.  Click **Add** to continue.
 
 Looking at the **Manage Git Integration for Jira by GitKraken** permission section, you will see the roles that were assigned to this permission.
 
 ![](/wp-content/uploads/gij-gitserverdc-manager-permission-role-display.png)
+
+&nbsp;
 
 Switch back to the **Manager permission** page to see the recently active managers list.
 

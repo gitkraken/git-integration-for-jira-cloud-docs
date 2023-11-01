@@ -13,18 +13,18 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The information on this page is for GIJ Atlassian Cloud products only. These currently include Git Integration for Jira Cloud and Dev Info for Jira Cloud.
-        <p style='margin-bottom:0px !important'>Jira Server and Jira Data Center products are not hosted by GIJ or GitKraken.</p>
+        The information on this page is for GIJ Atlassian Cloud products only. These currently include Git Integration for Jira Cloud and Dev Info for Jira Cloud.<br>
+        <span style='margin-top:10px;margin-bottom:0px'>Jira Server and Jira Data Center products are not hosted by GIJ or GitKraken.</span>
     </div>
     </div>
 </div>
-<br>
 
 If using restrictive firewall or proxy server settings, you or your network admin will need to allow (allow list / whitelist) a specific IP  address to ensure GIJ Cloud applications work as expected. Specifically – if your team hosts a private git server (GitHub Enterprise, GitLab CE/EE, Microsoft TFS or Azure DevOps Server, Gerrit, Bitbucket Server, or a plain git server).
 
 Alternatively, you can use our [Webhook indexing feature](#Webhooks-indexing-integration-for-private-networks) to avoid incoming API requests.
 
 * * *
+&nbsp;
 
 ## Allow list IP address for self-hosted git repositories
 
@@ -32,7 +32,7 @@ We support [Atlassian’s Data Residency](https://www.atlassian.com/software/dat
 
 How to find out which geographic region your Git Integration for Jira Cloud application is hosted at - see [How do I find my app data](https://help.gitkraken.com/git-integration-for-jira-cloud/faq-support-gij-cloud/#where-can-i-find-my-app-information)
 
-<br>
+&nbsp;
 
 ### <img src='/wp-content/uploads/gij-global-icon.png' height=22 width=22 valign=middle />&nbsp; Global hosted customers (US-East-1)
 
@@ -42,7 +42,7 @@ For customers that are hosted on the Global (hosted in the Northern Virginia, US
 | :--- |
 | **52.73.151.196** |
 
-<br>
+&nbsp;
 
 ### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; European Union hosted customers (EU-West-1)
 
@@ -52,13 +52,15 @@ For customers that are hosted on the EU stack (hosted in Ireland, EU-West-1), se
 | :--- |
 | **18.202.139.125** |
 
+&nbsp;
+
 ### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; European Union hosted customers (EU-Central-1)
 
 For customers that are hosted on the EU stack (hosted in Frankfurt, Germany, EU-Central-1), set the allow list/whitelist for self-hosted git repositories:
 
 | IP address |
 | :--- |
-| **18.156.13.64*** |
+| **18.156.13.64** |
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -70,7 +72,8 @@ For customers that are hosted on the EU stack (hosted in Frankfurt, Germany, EU-
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ### <img src='/wp-content/uploads/gij-us-icon.png' height=24 width=24 valign=middle />&nbsp; USA hosted customers (US-East-2)
 
@@ -80,6 +83,7 @@ For customers that are hosted on the US stack (hosted in the Ohio, USA AWS regio
 | :--- |
 | **18.218.206.0** |
 
+&nbsp;
 
 ### <img src='/wp-content/uploads/gij-au-icon.png' height=24 width=24 valign=middle />&nbsp; Australia hosted customers (AP-Southeast-2)
 
@@ -88,6 +92,8 @@ For customers that are hosted on the Australia stack, set the allow list/whiteli
 | IP address |
 | :--- |
 | **52.65.83.20** |
+
+&nbsp;
 
 ## Ports
 
@@ -106,13 +112,14 @@ To allow self-hosted git repositories to be indexed by GIJ Cloud applications - 
     </div>
     <div class="imsgbox">
         Only open the ports required by your git server.<br><br>
-        <i><b>For example:</b> If your self-managed GitLab or GitHub Enterprise is using HTTPS, only open port 443.</i>
+        <span style='margin-top:10px;margin-bottom:0px;'><i><b>For example:</b> If your self-managed GitLab or GitHub Enterprise is using HTTPS, only open port 443.</i></span>
     </div>
     </div>
 </div>
-<br>
 
-## Allow list IP address for GitHub.com, Azure DevOps Repos, and GitLab.com:
+&nbsp;
+
+## Allow list IP address for GitHub.com, Azure DevOps Repos, and GitLab.com
 
 GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features allowing for allow listing and require an additional set of IP addresses for allow listing:
 
@@ -173,6 +180,8 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 
 If you use these IP addresses for allow listing - we ask that you contact us at [GIJ Cloud Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) so we can notify you if these IP addresses are ever changed.
 
+&nbsp;
+
 ## Reachable network address
 
 To allow self-hosted git servers, the git server must be reachable with a public address/IP by the indexing service.
@@ -183,17 +192,19 @@ If your git server is only reachable on a private intranet or through a virtual 
 
 **Examples:**
 
-![(tick)](/wp-content/uploads/gij-check.png) [https://git.corp.com/repository/widget-production.git](https://git.corp.com/repository/widget-production.git) - a hosted git repository added directly
+![](/wp-content/uploads/gij-check.png) [https://git.corp.com/repository/widget-production.git](https://git.corp.com/repository/widget-production.git) - a hosted git repository added directly
 
-![(tick)](/wp-content/uploads/gij-check.png) [https://git.corp.com](https://git.corp.com) - a git server running GitHub/Gitlab/etc
+![](/wp-content/uploads/gij-check.png) [https://git.corp.com](https://git.corp.com) - a git server running GitHub/Gitlab/etc
 
-![(tick)](/wp-content/uploads/gij-check.png) [https://gitlab.corp.com:8088](https://gitlab.corp.com:8088) - a server running on a non-standard port
+![](/wp-content/uploads/gij-check.png) [https://gitlab.corp.com:8088](https://gitlab.corp.com:8088) - a server running on a non-standard port
 
-![(tick)](/wp-content/uploads/gij-check.png) [http://52.123.19.12](http://52.123.19.12) - server without DNS, just an IP
+![](/wp-content/uploads/gij-check.png) [http://52.123.19.12](http://52.123.19.12) - server without DNS, just an IP
 
-![(error)](/wp-content/uploads/gij-error.png) 192.168.1.92
+![](/wp-content/uploads/gij-error.png) 192.168.1.92
 
-![(error)](/wp-content/uploads/gij-error.png) git.corp (private network)
+![](/wp-content/uploads/gij-error.png) git.corp (private network)
+
+&nbsp;
 
 ## Webhooks indexing integration for private networks
 
