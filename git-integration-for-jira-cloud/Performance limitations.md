@@ -1,12 +1,12 @@
 ---
 
-title: Known Performance limitations
+title: Known Performance Limitations
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-The Cloud version of our application is run on our services and there are numerous fewer options for configuration compared to a self-hosted instance of Jira/GIJ. This document details some “soft limits,” beyond which we’ve noticed some of our customers having performance issues. 
+The Cloud version of our application is run on our AWS instances and there are numerous fewer options for configuration compared to a self-hosted instance of Jira/GIJ. This document details some “soft limits,” beyond which we’ve noticed some of our customers having performance issues. 
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
