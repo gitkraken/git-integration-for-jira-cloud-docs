@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Since the Cloud version of our application is run on our services, there are numerous settings that are non-configurable compared to a self-hosted instance of Jira/GIJ. Because of this, there are certain limitations that can potentially cause issues when exceeded. Noted below are some "limits" that we know of that will cause some performance issues when exceeded. 
+The Cloud version of our application is run on our services and there are numerous fewer options for configuration compared to a self-hosted instance of Jira/GIJ. This document details some “soft limits,” beyond which we’ve noticed some of our customers having performance issues. 
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -14,7 +14,7 @@ Since the Cloud version of our application is run on our services, there are num
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Please note that the numbers below are meant to be guidelines rather than hard limits. In most cases, the limits can be exceeded, but depending on the severity, could lead to degregaded performance or even halted operation. In cases where you are having issues due to these limits being exceeded, our support team will do their best to make suggestions for alternative configurations that could help, but we cannot guarantee performance or operation in cases where the limits are being breached.
+        Please note that the thresholds below are meant to be guidelines rather than hard limits. In most cases, the limits can be exceeded, but depending on the severity, could lead to degraded performance or even halted operation. In cases where you are having issues due to these limits being exceeded, our support team will do their best to make suggestions for alternative configurations that could help, but we cannot guarantee performance or operation in cases where the limits are being breached.
     </div>
     </div>
 </div>
