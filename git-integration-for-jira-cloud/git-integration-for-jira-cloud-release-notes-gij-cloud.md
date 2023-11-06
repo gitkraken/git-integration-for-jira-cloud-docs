@@ -23,6 +23,14 @@ If you have any questions, please contact us through our [Support Portal](https:
 
 * * *
 
+### Manager Permissions
+
+`01 Nov 2023` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>Admins</b>
+
+Jira Administrators can now share app control (e.g. managing settings and integrations) with other (non admin) Jira users. By utilizing Jira Groups and Global Permissions, Jira Admins can select which Jira users they want to provide managerial access to. Once given the "Manage Git Integration for Jira by GitKraken" permission, these users can perform actions that were previously limited to Jira Admins - update app settings, connect new integrations, manage existing integrations, etc.
+
+Check out the [help article](/git-integration-for-jira-cloud/manager-permissions-gij-cloud/) or [walkthrough video](https://www.youtube.com/watch?v=2tmWvRxj9Ls) for more information.
+
 ### GitLens for Visual Studio Code Integration
 
 `29 Mar 2023` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
