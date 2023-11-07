@@ -1,6 +1,6 @@
 ---
 
-title: Manager permissions
+title: Known performance limitations
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
