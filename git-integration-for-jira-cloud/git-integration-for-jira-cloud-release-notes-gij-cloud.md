@@ -11,8 +11,6 @@ We publish new features, bug fixes, security updates/patches, and Jira compatibi
 
 **Important links**
 
-*   [Roadmap for Git Integration for Jira Cloud](https://trello.com/b/Af64QYkE/git-integration-jira-cloud-roadmap)
-
 *   [Atlassian Marketplace listing](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview)
 
 *   [Git Integration for Jira Cloud Status](https://status.bigbrassband.com)
