@@ -7,6 +7,14 @@ taxonomy:
 
 ---
 
+<div class='embed-container embed-container--16-9'>
+        <iframe width='709' height='382' src='https://www.youtube.com/watch?v=2tmWvRxj9Ls' frameborder='0' allowfullscreen ></iframe>
+    </div>
+
+<div align='center' stye='margin-top:12px;margin-ottom:40px;'>
+    <i>Right click <a href='https://www.youtube.com/watch?v=2tmWvRxj9Ls'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+
 This feature is intended for Jira admins because it offloads work off from them. This will give assigned users the ability to administer the Git Integration for Jira app without giving full JIra admin role to them.
 
 Before, the only people that can manage Git Integration for Jira app are Jira admins. And now with this new feature, it allows Jira admins to select other Jira users (that are not Jira admins) and get them permissions to Manage integrations, add/remove/update, manage apps etc.
