@@ -11,7 +11,7 @@ taxonomy:
         <iframe width='709' height='382' src='https://www.youtube.com/watch?v=2tmWvRxj9Ls' frameborder='0' allowfullscreen ></iframe>
     </div>
 
-<div align='center' stye='margin-top:12px;margin-ottom:40px;'>
+<div align='center' style='margin-top:12px;margin-ottom:40px;'>
     <i>Right click <a href='https://www.youtube.com/watch?v=2tmWvRxj9Ls'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
