@@ -52,13 +52,13 @@ GitKraken’s support policy is consistent with [Atlassian’s End of life polic
 **Git Integration for Jira as a Cloud App**<br>
 GitKraken’s support policy is consistent with [Atlassian’s End of life policy (EOL)](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html), for Jira Cloud. We follow Atlassian’s guidelines for deprecated features and support cycles. For either platform, make sure that your JRE is on the current version so that it is in line with security updates and features.
 
-### GitKraken Client Support
+### Git Integration for Jira Cloud Support
 
 *   Support requests for Git Integration for Jira Cloud and Dev Info for Jira app are to be submitted at [Contact Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/). Interactions with users submitting tickets are done primarily through emails, though other communication services such as phone calls, screenshare services might be used to deliver Support Services.
 
 *   Support Hours are 7:00am to 4:00pm Monday to Friday, ArizonaTime (UTC-7) with a response time of 1 (one) business day. While support requests can be submitted by users at any time, responses to requests and interactions with support are provided during Support Hours only.
 
-*   If you are a subscriber to Git Integration for Jira Cloud or Dev Info for Jira app, you are entitled for a guaranteed support. This includes any of our bundle products such as CI/CD for Jira and Team Insights for Jira .
+*   If you are a subscriber to Git Integration for Jira Cloud or Dev Info for Jira app, you are entitled for a guaranteed support. This includes any of our bundle products such as CI/CD for Jira and Team Insights for Jira.
 
 *   Git Integration for Jira Cloud and Dev Info for Jira app is available on platforms that Jira supports. See the current supported versions on our [Atlassian Marketplace Versions](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira/version-history) page.
 
