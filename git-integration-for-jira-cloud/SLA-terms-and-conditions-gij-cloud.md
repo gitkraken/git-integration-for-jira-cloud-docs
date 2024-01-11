@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken Service Level Agreement
+title: GitKraken GIJ Cloud Terms and Conditions
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
