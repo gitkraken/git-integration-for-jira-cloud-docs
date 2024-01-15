@@ -185,15 +185,21 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 ### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; Western EU Region Hosted IP addresses (EU-West-1)
 
 34.247.19.97
+
 54.72.243.188
+
 52.210.99.19
-54.76.253.10 
+
+54.76.253.102
 
 ### Southeast Asia - Singapore Region Hosted IP addresses
 
 18.140.19.30
+
 18.143.232.103
+
 54.151.179.195
+
 18.138.219.190
 
 ### <img src='/wp-content/uploads/gij-au-icon.png' height=24 width=24 valign=middle />&nbsp; Australia Region Hosted IP addresses
