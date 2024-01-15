@@ -52,6 +52,14 @@ Check out the links below to get started with Git Integration for Jira. Use the 
 - [Video Guides](/git-integration-for-jira-self-managed/git-integration-jira-data-center-video-guides) - List of video guides to aid you in your Git Integration for Jira journey.
 - [Version History](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira/version-history) - Find out what changes were implemented when.
 
+- [Service Level Agreement](https://www.gitkraken.com/sla-gij)
+
+- [Terms and Conditions](/git-integration-for-jira-cloud/sla-terms-and-conditions-gij-cloud/)
+
+- [Deprecation Notice](/git-integration-for-jira-cloud/deprecation-notice-gij-cloud/)
+
+***
+
 Join our GitKraken public slack community and interact with other Git Integration for Jira users from around the world 🌐.
 [Join GitKraken Slack](https://slack.gitkraken.com/)
 

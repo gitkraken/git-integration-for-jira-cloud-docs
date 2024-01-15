@@ -22,43 +22,43 @@ The Cloud version of our application is run on our AWS instances and there are f
 ## Git Tags
 
 | Limit | Possible issues |
-| --- | --- |
-|>2000 | Slow Indexing |
+| :--- | :--- |
+| \>2000 | Slow Indexing |
 
 ## Total Repositories in an Integration
 
 | Limit | Possible issues |
-| --- | --- |
-|>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
+| :--- | :--- |
+| \>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
 
 ## Individual Repository size
 
 | Limit | Possible issues |
-| --- | --- |
-|>2gb | Extended Indexing time <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
+| :--- | :--- |
+| \>2gb | Extended Indexing time <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
 
 ## Individual file size in a repository
-This is a hard limit due to a restriction in an internal component used in Git Integration for Jira. If the file size limit is exceeded, the Repository will not be able to be indexed. Please see [Max Object Error](https://help.gitkraken.com/git-integration-for-jira-cloud/error-while-reindexing-java-heap-space-object-too-large-rejecting-the-pack-gij-cloud/) for further details
+This is a hard limit due to a restriction in an internal component used in Git Integration for Jira. If the file size limit is exceeded, the Repository will not be able to be indexed. Please see [Max Object Error](/git-integration-for-jira-cloud/error-while-reindexing-java-heap-space-object-too-large-rejecting-the-pack-gij-cloud) for further details
 
 | Limit | Possible issues |
-| --- | --- |
-|>2Gb | Repository will not clone/index |
+| :--- | :--- |
+| \>2Gb | Repository will not clone/index |
 
 ## Number of branches in a repository
 
 | Limit | Possible issues |
-| --- | --- |
-|>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
+| :--- | :--- |
+| \>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
 
 ## Number of Pull/Merge Requests
 
 | Limit | Possible issues |
-| --- | --- |
-|>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
+| :--- | :--- |
+| \>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
 
 ## Number of Builds and/or Deployments
 
 | Limit | Possible issues |
-| --- | --- |
-|>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
+| :--- | :--- |
+| \>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
 
