@@ -85,6 +85,17 @@ For customers that are hosted on the US stack (hosted in the Ohio, USA AWS regio
 
 &nbsp;
 
+### Southeast Asia hosted customers (AP-Southeast-1)
+
+For customers that are hosted on the Southeast Asian stack (Singapore), set the allow list/whitelist for self-hosted git repositories:
+
+| IP address |
+| :--- |
+| **13.215.67.222** |
+
+
+&nbsp;
+
 ### <img src='/wp-content/uploads/gij-au-icon.png' height=24 width=24 valign=middle />&nbsp; Australia hosted customers (AP-Southeast-2)
 
 For customers that are hosted on the Australia stack, set the allow list/whitelist for self-hosted git repositories:
@@ -123,7 +134,7 @@ To allow self-hosted git repositories to be indexed by GIJ Cloud applications - 
 
 GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features allowing for allow listing and require an additional set of IP addresses for allow listing:
 
-### <img src='/wp-content/uploads/gij-global-icon.png' height=22 width=22 valign=middle />&nbsp; Global Region Hosted IP addresses
+### <img src='/wp-content/uploads/gij-global-icon.png' height=22 width=22 valign=middle />&nbsp; Global Region Hosted IP addresses (US-East-1)
 
 54.196.201.91  
 34.228.185.171  
@@ -145,7 +156,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 54.174.135.57  
 52.54.150.111  
 
-### <img src='/wp-content/uploads/gij-us-icon.png' height=22 width=22 valign=middle />&nbsp; USA Region Hosted IP addresses
+### <img src='/wp-content/uploads/gij-us-icon.png' height=22 width=22 valign=middle />&nbsp; USA Region Hosted IP addresses (US-East-2)
 
 3.130.34.25  
 18.218.122.134  
@@ -158,7 +169,7 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 3.142.176.34  
 3.130.151.4  
 
-### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; EU Region Hosted IP addresses
+### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; Central EU Region Hosted IP addresses (EU-Central-1)
 
 3.123.136.62  
 18.156.8.182  
@@ -170,6 +181,26 @@ GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features al
 3.68.13.136  
 3.67.63.5  
 52.58.106.61  
+
+### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; Western EU Region Hosted IP addresses (EU-West-1)
+
+34.247.19.97
+
+54.72.243.188
+
+52.210.99.19
+
+54.76.253.102
+
+### Southeast Asia - Singapore Region Hosted IP addresses
+
+18.140.19.30
+
+18.143.232.103
+
+54.151.179.195
+
+18.138.219.190
 
 ### <img src='/wp-content/uploads/gij-au-icon.png' height=24 width=24 valign=middle />&nbsp; Australia Region Hosted IP addresses
 
