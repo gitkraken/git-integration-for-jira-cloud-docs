@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Investigation and work on this issue is expected to continue through Monday, Feb. 5 before it's fully complete.
+        Investigation and work on this issue is expected to continue through Monday, <b>Feb. 5</b> before it's fully complete.
     </div>
     </div>
 </div>
@@ -32,9 +32,9 @@ While our team is still investigating the root cause behind the corrupted files,
 
 There are two cases that can lead to the following:
 
-    Integration configuration disappears completely.
+*   Integration configuration disappears completely.
 
-    Integration configuration still exists but there are indexing errors related to JSON parsing.
+*   Integration configuration still exists but there are indexing errors related to JSON parsing.
 
 &nbsp;
 
@@ -70,7 +70,7 @@ Unexpected file corruption of the JSON file which holds information about connec
 
 2.  Connect and setup the affected integration again. If the integration is large, do note that the indexing of all repositories may take some time, even several hours.
 
-3.  After performing the above steps, notify the GIJ support team that data restoration is not required for the install. Otherwise, data duplication will occur if we restore the on from our side.
+3.  After performing the above steps, notify the [GIJ support team](/git-integration-for-jira-cloud/gij-cloud-contact-support/) that data restoration is not required for the install. Otherwise, data duplication will occur if we restore the data on our side.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
