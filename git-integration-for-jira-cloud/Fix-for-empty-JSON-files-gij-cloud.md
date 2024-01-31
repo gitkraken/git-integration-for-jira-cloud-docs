@@ -40,7 +40,7 @@ There are two cases that can lead to the following:
 
 ### Cause
 
-Unexpected file corruption of the JSON file which holds information about connected integrations and repositories for your Jira instance.
+Unexpected file corruption of the JSON file which holds information about connected integrations and repositories configuration such as integration name, commits/pull/merge counter, etc.
 
 &nbsp;
 
