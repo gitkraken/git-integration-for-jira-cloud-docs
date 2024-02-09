@@ -27,13 +27,14 @@ After adding the CI/CD for Jira extension from the Atlassian Marketplace, there 
 A build is automatically linked to an issue if one of the build's commits includes the issue key in its commit message. A deployment to an environment, such as production or testing, is linked if a commit associated with the deploy contains the issue key in its commit message.
 
 ## Where to view builds and deployments
+
 Within Jira, build and deployment information can be found in several locations:
 
-*   In the Development, Releases, and Git Integration sections within issue Details
+*   [In the Development, Releases, and Git Integration sections within issue Details](/git-integration-for-jira-cloud/cicd-viewing-builds-and-deployments-in-a-jira-issue-gij-cloud/)
 
-*   In the Deployments feature under Operations (must be enabled)
+*   [In the Deployments feature under Operations](/git-integration-for-jira-cloud/cicd-how-to-enable-deployment-view-in-jira-gij-cloud/) (must be enabled)
 
-*   Within JQL searches
+*   [Within JQL searches](/git-integration-for-jira-cloud/cicd-how-to-use-jql-searches-for-builds-and-deployments-gij-cloud/)
 
-*   As Automation for Jira triggers
+*   [As Automation for Jira triggers](/git-integration-for-jira-cloud/cicd-how-to-trigger-a4j-with-builds-and-deployments-gij-cloud/)
 
