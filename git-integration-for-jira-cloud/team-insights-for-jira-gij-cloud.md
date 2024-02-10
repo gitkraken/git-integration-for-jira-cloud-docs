@@ -116,7 +116,7 @@ Enable every member of the team and all departments to enhance their understandi
 
 Team Insights for Jira provides a comprehensive view of your team's Jira and Git activity over time. It allows you to easily track what tasks your team is currently working on and monitor their progress. With this information, you can make more informed decisions to improve productivity and efficiency.
 
-TIJ displays Jira activity for all Jira users. Git data such as branches, commits, pull requests, and tags are automatically included in the views if you have the [Git Integration for Jira Cloud](https://www.gitkraken.com/git-integration-for-jira) app installed.
+TIJ displays Jira activity for all Jira users. Git data such as branches, commits, pull requests, and tags are automatically included in the views if you have the [Git Integration for Jira](https://www.gitkraken.com/git-integration-for-jira) app installed.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">

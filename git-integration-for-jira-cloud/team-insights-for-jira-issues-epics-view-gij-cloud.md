@@ -34,11 +34,11 @@ The list view displays Jira issues showing priority, user activity, and other in
 
 To view more details about a specific Jira issue, click on the twisty icon (**\>**) to expand it.
 
-![](/wp-content/uploads/tij-gircloud-issue-view-item-details.png)
+![](/wp-content/uploads/tij-gitcloud-issue-view-item-details.png)
 
 Click on the Issue details icon to display the detailed dialog of the Jira issue.
 
-<img src='/wp-content/uploads/tij-gircloud-issue-view-issue-details-dialog.png' style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/tij-gitcloud-issue-view-issue-details-dialog.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 The issue details shows the following information on:
 
@@ -142,7 +142,7 @@ Click on the following column headers to toggle ascending or descending sorting 
 
 ### More on Team Insights for Jira features
 
-[Team Insights for Jira Cloud](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud)
+[Team Insights for Jira](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud)
 
 **Sprints/Epics View** (this page)
 
