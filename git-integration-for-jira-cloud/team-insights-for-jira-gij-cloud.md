@@ -136,6 +136,8 @@ Team Insights for Jira provides a comprehensive view of your team's Jira and Git
 
 TIJ displays Jira activity for all Jira users. Git data such as branches, commits, pull requests, and tags are automatically included in the views if you have the [Git Integration for Jira](https://www.gitkraken.com/git-integration-for-jira) app installed.
 
+<img src='/wp-content/uploads/tij-gitcloud-main-screen-add-git-dev-activity.png' style='margin:25px auto;max-width:100%;display:block;' />
+
 <div class="bbb-callout bbb--tip">
     <div class="irow">
     <div class="ilogobox">
