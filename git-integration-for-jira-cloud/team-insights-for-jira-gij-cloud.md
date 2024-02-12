@@ -34,6 +34,24 @@ Team Insights for Jira (TIJ) grants managers a complete view of what your team i
 
 &nbsp;
 
+### Installation
+
+Go to the Atlassian Marketplace then search for “Team Insights for Jira”.
+
+![](/wp-content/uploads/tij-gitcloud-atlassian-marketplace-installation.png)
+
+Click **Get app**. The following screen is displayed.
+
+<img src='/wp-content/uploads/tij-gitcloud-atlassian-marketplace-installation-01.png' style='margin:25px auto 35px auto;max-width:100%;display:block;' />
+
+Click **Get it now** to start the installation.
+
+When the installation is complete, click **Get started** on the following dialog to start using Team Insights for Jira.
+
+<img src='/wp-content/uploads/tij-gitcloud-atlassian-marketplace-installation-02.png' style='margin:25px auto;max-width:100%;display:block;' />
+
+&nbsp;
+
 ### Feature matrix
 
 With Team Insights for Jira app, team managers will be able to see team activity across projects, epics and sprints.
