@@ -17,9 +17,9 @@ taxonomy:
 
 This extension provides team managers the ability to monitor specific git history and Jira team activity at the project, epic and sprint level. This enables managers to prioritize work, identify risks, reveal trends and make better decisions of managing Jira team workflows and activities.
 
-![](/wp-content/uploads/tij-gitcloud-main-default-view-issues-tab.png)
+![](/wp-content/uploads/tij-gitcloud-main-default-view-general-tab.png)
 
-Team Insights for Jira (TIJ) grants managers a complete view of what your team is working on and it's progress. Managers can easily identify items at-risk based on team activity and progress.
+Team Insights for Jira (TIJ) grants managers a complete view of what your team is working on and its progress. Managers can easily identify items at-risk based on team activity and progress.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -27,7 +27,7 @@ Team Insights for Jira (TIJ) grants managers a complete view of what your team i
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        It's not a requirement but if you have Git Integration for Jira Cloud installed, this extension will improve planning workflow and display more information by pulling Git data into your views.
+        If you have Git Integration for Jira Cloud installed, it can enhance your planning workflow and provide more information by integrating Git data into your views.
     </div>
     </div>
 </div>
@@ -36,7 +36,7 @@ Team Insights for Jira (TIJ) grants managers a complete view of what your team i
 
 ### Installation
 
-Go to the Atlassian Marketplace then search for “Team Insights for Jira”.
+Go to the Atlassian Marketplace then search for "Team Insights for Jira".
 
 ![](/wp-content/uploads/tij-gitcloud-atlassian-marketplace-installation.png)
 
@@ -56,20 +56,20 @@ When the installation is complete, click **Get started** on the following dialog
 
 With Team Insights for Jira app, team managers will be able to see team activity across projects, epics and sprints.
 
-| Feature   | GIJ + TIJ | TIJ Only |
-|:----------|:----------|:---------|
+| Feature   | TIJ Only  | GIJ + TIJ |
+|:----------|:----------|:----------|
 | Identify stale issues or issues that revert in status | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
 | See activities for sprint planning, stand ups, and retrospectives<sup>1</sup> | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
 | Helpful insights for executives, managers, and individual contributors<sup>1</sup> | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
 | Enables all team members to identify and contribute improvements | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
 | Valuable for all departments that use Jira in your organization | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
 | Easily see issues status progress over time, where it changed and how long it remained in that state | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
-| Identify pull requests that remain open for too long<sup>2</sup> | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-not-red.png) |
-| View commits and other git related data for your team. | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-not-red.png) |
-| Create branches and pull/merge requests in Jira issues for your team | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-not-red.png) |
-| Link webhooks to your Git and Jira for faster display of git data | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-not-red.png) |
-| Manage git integrations and repository connections | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-not-red.png) |
-| Assign other users to manage integrations and repository connections | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-not-red.png) |
+| Identify pull requests that remain open for too long<sup>2</sup> | ![](/wp-content/uploads/gij-matrix-open-not-red.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
+| View commits and other git related data for your team. | ![](/wp-content/uploads/gij-matrix-open-not-red.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
+| Create branches and pull/merge requests in Jira issues for your team | ![](/wp-content/uploads/gij-matrix-open-not-red.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
+| Link webhooks to your Git and Jira for faster display of git data | ![](/wp-content/uploads/gij-matrix-open-not-red.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
+| Manage git integrations and repository connections | ![](/wp-content/uploads/gij-matrix-open-not-red.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
+| Assign other users to manage integrations and repository connections | ![](/wp-content/uploads/gij-matrix-open-not-red.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
 
 <b><sup>1</sup><b> With Git Integration for Jira app also installed, git data is displayed in a more detailed manner
 
@@ -125,14 +125,15 @@ Team Insights for Jira aims to improve your workflows and provide you with the d
 
 #### Manage Jira Workflows Efficiently
 
-Focus on the Jira issues that matter the most or require immediate attention. Examine multiple Jira issues to see actions performed by users and when they occurred. Easily determine whether tasks are at risk of missing an upcoming deadline or if team members have an excessive workload -- in a more detailed view. Identify stagnant problems, issues that revert in status, or pull requests that remain open for an extended period of time.
-Enhance Team Collaboration with TIJ Views
+Focus on the Jira issues that demand immediate attention. Gain insight into actions performed by users and their timing across multiple Jira issues. Easily determine tasks that are at risk of missing upcoming deadlines, identify team members that have an excessive workload in a more detailed view. Pinpoint stagnant problems, reverted closed issues, and pull requests that remain open for an extended period of time.
 
-Enable every member of the team and all departments to enhance their understanding by utilizing TIJ views during sprint, epic, and backlog planning. By analyzing the data, individuals can develop the ability to identify recurring patterns, detect trends, and uncover potential areas for enhancement. This process enables them to acquire a thorough comprehension of the entire situation beforehand.
+#### Enhance Team Collaboration with TIJ Views
+
+Enable every team member and all departments to enhance their understanding by utilizing TIJ views during sprint, epic, and backlog planning. When analyzing data, individuals can identify recurring patterns, detect trends, and uncover potential areas for improvement. This process helps them understand the whole situation beforehand.
 
 #### Track and Improve Team Productivity
 
-Team Insights for Jira provides a comprehensive view of your team's Jira and Git activity over time. It allows you to easily track what tasks your team is currently working on and monitor their progress. With this information, you can make more informed decisions to improve productivity and efficiency.
+Team Insights for Jira provides a comprehensive view of your team's Jira and Git activity over time. It allows you to easily track what tasks your team is currently working on and monitor their progress, thus impacting on productivity and efficiency.
 
 TIJ displays Jira activity for all Jira users. Git data such as branches, commits, pull requests, and tags are automatically included in the views if you have the [Git Integration for Jira](https://www.gitkraken.com/git-integration-for-jira) app installed.
 
@@ -155,7 +156,7 @@ TIJ displays Jira activity for all Jira users. Git data such as branches, commit
 
 **Team Insights for Jira Cloud** (this page)
 
-[Sprints/Epics View](/git-integration-for-jira-cloud/team-insights-for-jira-issues-epics-view-gij-cloud/)
+[General View](/git-integration-for-jira-cloud/team-insights-for-jira-general-view-gij-cloud/)
 
 [Teams View](/git-integration-for-jira-cloud/team-insights-for-jira-teams-view-gij-cloud)
 
