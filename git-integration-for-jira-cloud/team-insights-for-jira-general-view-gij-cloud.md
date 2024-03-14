@@ -15,6 +15,8 @@ You can switch to another view such as General, Teams or Backlog by clicking the
 
 Use the search bar together with available search options to filter the list view.
 
+&nbsp;
+
 ### Column Information
 
 The list view displays Jira issues showing priority, user activity, and other information:
@@ -104,6 +106,8 @@ On the search panel, team/project managers can set the criteria and apply some f
 
 To find and display items in the list that contain a specific word or text, simply enter the desired search term into the search box. This will allow you to easily locate and view relevant items from the list.
 
+&nbsp;
+
 #### Activity filter
 
 ![](/wp-content/uploads/tij-gitcloud-teams-view-search-activity-filter.png)
@@ -127,6 +131,8 @@ For **Contributors**, click on the drop-down list to select one or more members 
 
 To reset selection and filter settings click **Clear** on each filter group.
 
+&nbsp;
+
 #### Issue filter
 
 The Issue Filters allows team/project managers to assign available issue filters to the search. Utilize the search box on each filter to quickly find and select one or more categories. If available, click **Apply selection** to accept the selected filters.
@@ -142,6 +148,8 @@ The Issue Filters allows team/project managers to assign available issue filters
 | Versions | Select one or more versions for the issue filter. Displays nothing if no versions are detected. |
 | Priorities | Select one or more priority state for the issue filter. |
 | Components | Select one or more components for the issue filter. Displays nothing if no components are detected. |
+
+&nbsp;
 
 #### Clear All
 

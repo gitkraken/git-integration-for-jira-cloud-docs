@@ -108,6 +108,8 @@ Team Insights for Jira provides you with the ability to view Git activity across
     </div>
 </div>
 
+&nbsp;
+
 #### Customize Your View Across Projects, Epics, and Sprints
 
 Team Insights for Jira aims to improve your workflows and provide you with the data you need to put you on the right track. View the timeline by Epics, Issues and Sub-tasks and filter by project, sprint, team members, issue status, and more. When managing your tasks, it's important to have the ability to sort them based on different criteria. For example, you can sort tasks by the number of days since the last status update or by the number of commits made.
@@ -123,13 +125,19 @@ Team Insights for Jira aims to improve your workflows and provide you with the d
     </div>
 </div>
 
+&nbsp;
+
 #### Manage Jira Workflows Efficiently
 
 Focus on the Jira issues that demand immediate attention. Gain insight into actions performed by users and their timing across multiple Jira issues. Easily determine tasks that are at risk of missing upcoming deadlines, identify team members that have an excessive workload in a more detailed view. Pinpoint stagnant problems, reverted closed issues, and pull requests that remain open for an extended period of time.
 
+&nbsp;
+
 #### Enhance Team Collaboration with TIJ Views
 
 Enable every team member and all departments to enhance their understanding by utilizing TIJ views during sprint, epic, and backlog planning. When analyzing data, individuals can identify recurring patterns, detect trends, and uncover potential areas for improvement. This process helps them understand the whole situation beforehand.
+
+&nbsp;
 
 #### Track and Improve Team Productivity
 
