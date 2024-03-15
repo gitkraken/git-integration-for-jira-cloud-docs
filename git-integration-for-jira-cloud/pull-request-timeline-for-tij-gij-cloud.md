@@ -1,6 +1,6 @@
 ---
 
-title: Pull request timeline for Team Insights for Jira
+title: Pull Request timeline for Team Insights for Jira
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
