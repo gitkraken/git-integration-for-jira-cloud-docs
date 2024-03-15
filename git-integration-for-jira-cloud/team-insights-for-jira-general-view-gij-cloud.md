@@ -15,6 +15,10 @@ You can switch to another view such as General, Teams or Backlog by clicking the
 
 Use the search bar together with available search options to filter the list view.
 
+&nbsp;
+
+### Column Information
+
 The list view displays Jira issues showing priority, user activity, and other information:
 
 | Column | Description |
@@ -27,8 +31,8 @@ The list view displays Jira issues showing priority, user activity, and other in
 | **_Sprint_** | Shows the sprint name a Jira issue is included in. |
 | **_Days_** | Shows the number of days a Jira issue has been worked on. |
 | **_Comments_** | Shows the number of comments a Jira issue has. |
-| **_Commits_** | Shows the number of git commits a Jira issue has. |
-| **_Pull requests_** | Shows the number of pull requests a Jira issue has. |
+| **_Commits_** | Shows how many commits this task has.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">If your organization or team requires information be displayed in this column, install the Git Integration for Jira app.</div></div></div> |
+| **_Pull requests_** | Shows how many pull requests this task has.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">If your organization or team requires information be displayed in this column, install the Git Integration for Jira app.</div></div></div> |
 
 &nbsp;
 
@@ -94,29 +98,15 @@ The Epics view contains information that helps to organize the rows by epics. Th
 
 &nbsp;
 
-### Column information
-
-Refer to the table below describing each column header's description and what information it shows.
-
-| Column | Description |
-|:------:|:------------|
-| Issue  | This is the name of a Jira issue. Click a row to expand and see details related to this Jira issue. |
-| Priority | Displays the priority of a Jira issue being worked on by a team member. |
-| Status | Shows status information and progress of a specific task. |
-| Contributors | Displays one or more contributors working on a specific task. |
-| Assignee | Shows the member assigned to this task. |
-| Days | Indicates the time the task has been worked on. |
-| Comments | Shows how many comments this task has. |
-| Commits | Shows how many commits this task has.<br><div class="bbb-callout bbb--tip"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">If your organization or team requires information be displayed in this column, install the Git Integration for Jira app.</div></div></div> |
-| Pull requests | Shows how many pull requests this task has.<br><div class="bbb-callout bbb--tip"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">If your organization or team requires information be displayed in this column, install the Git Integration for Jira app.</div></div></div> |
-
-### Search functions nad filters
+### Search Functions and Filters
 
 On the search panel, team/project managers can set the criteria and apply some filters to the search.
 
 ![](/wp-content/uploads/tij-gitcloud-teams-view-search-panel.png)
 
 To find and display items in the list that contain a specific word or text, simply enter the desired search term into the search box. This will allow you to easily locate and view relevant items from the list.
+
+&nbsp;
 
 #### Activity filter
 
@@ -141,6 +131,8 @@ For **Contributors**, click on the drop-down list to select one or more members 
 
 To reset selection and filter settings click **Clear** on each filter group.
 
+&nbsp;
+
 #### Issue filter
 
 The Issue Filters allows team/project managers to assign available issue filters to the search. Utilize the search box on each filter to quickly find and select one or more categories. If available, click **Apply selection** to accept the selected filters.
@@ -156,6 +148,8 @@ The Issue Filters allows team/project managers to assign available issue filters
 | Versions | Select one or more versions for the issue filter. Displays nothing if no versions are detected. |
 | Priorities | Select one or more priority state for the issue filter. |
 | Components | Select one or more components for the issue filter. Displays nothing if no components are detected. |
+
+&nbsp;
 
 #### Clear All
 

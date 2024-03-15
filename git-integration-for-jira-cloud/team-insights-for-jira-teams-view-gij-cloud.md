@@ -13,7 +13,7 @@ The Teams View allows team/project managers to see team activities and each row 
 
 &nbsp;
 
-### Member activities
+### Member Activities
 
 To view the activity information of a team member, click on the row for that team member.
 
@@ -22,12 +22,12 @@ To view the activity information of a team member, click on the row for that tea
 Information can be monitored in real-time as you inspect each team member listed in the view on…
 
 *   which Jira issues a team member are assigned to
-*   which Jira issues a team member has worked on
+*   which Jira issues a team member have worked on
 *   priority of the Jira issues assigned or worked on by a team member
 *   how much time was spent on a Jira issue
 *   git statistics for each team member (requires Git Integration for Jira app installed)
 *   progress and status of each Jira issue under a team member
-*   deadlines of the tasks for each member by using the timeline
+*   task deadlines for each member by using the timeline
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -40,11 +40,13 @@ Information can be monitored in real-time as you inspect each team member listed
     </div>
 </div>
 
+As you scroll down the list, the team member’s name is temporarily retained at the top of the list while the Jira issues related to the team member are shown.
+
 &nbsp;
 
-### Member issue details
+### Member Issue Details
 
-On the expanded view on a member in the list, hover on the issue details icon to see a brief information for that Jira issue.
+On the expanded view on a member in the list, hover on the issue column item row to see a brief information for that Jira issue.
 
 <img src='/wp-content/uploads/tij-gitcloud-teams-view-member-issue-mouse-over.png' style='margin:25px auto 35px auto;max-width:100%;display:block;' />
 
@@ -56,7 +58,7 @@ Click away from the issue details dialog to hide it.
 
 &nbsp;
 
-### Status progress
+### Status Progress
 
 Similar to what the status column shows in other views, hover on the status column for the selected issue to see the task progress information.
 
@@ -74,13 +76,13 @@ Team managers can utilize the timeline view to examine activity boxes for each t
 
 <img src='/wp-content/uploads/tij-gitcloud-teams-voew-activity-log-show.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Column information
+### Column Information
 
 Refer to the table below describing each column header’s description and what information it shows.
 
 | Column | Description |
 |:-------|-------------|
-| **_Name_** | This is the name of a team member. Click a row to expand and see activities related to this team member. |
+| **_Issue_** | This is the name of a team member along with the number of issues assigned and being worked on. Click a row to expand and see activities related to this team member. |
 | **_Priority_** | Displays the priority of a Jira issue being worked on by a team member. |
 | **_Status_** | Shows status information and progress of a specific task. |
 | **_Contributors_** | Displays one or more contributors working on a specific task. |
@@ -90,7 +92,7 @@ Refer to the table below describing each column header’s description and what 
 | **_Commits_** | Shows how many commits this task has.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">If your organization or team requires information be displayed in this column, install the Git Integration for Jira app.</div></div></div> |
 | Pull requests | Shows how many pull requests this task has.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">If your organization or team requires information be displayed in this column, install the Git Integration for Jira app.</div></div></div> |
 
-### Search functions and filters
+### Search Functions and Filters
 
 On the search panel, team/project managers can set the criteria and apply some filters to the search.
 
@@ -98,7 +100,7 @@ On the search panel, team/project managers can set the criteria and apply some f
 
 To find and display items in the list that contain a specific word or text, simply enter the desired search term into the search box. This will allow you to easily locate and view relevant items from the list.
 
-#### Activity Filter
+#### Activity filter
 
 ![](/wp-content/uploads/tij-gitcloud-teams-view-search-activity-filter.png)
 
@@ -121,7 +123,7 @@ For **Contributors**, click on the drop-down list to select one or more members 
 
 To reset selection and filter settings click **Clear** on each filter group.
 
-#### Issue Filter
+#### Issue filter
 
 The Issue Filters allows team/project managers to assign available issue filters to the search. Utilize the search box on each filter to quickly find and select one or more categories. If available, click Apply selection to accept the selected filters.
 
@@ -145,9 +147,9 @@ With all the selection of filters and search options in place, click **Search** 
 
 ### More on Team Insights for Jira features
 
-[Team Insights for Jira Cloud](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud)
+[Team Insights for Jira Cloud](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud/)
 
-[Sprints/Epics View](/git-integration-for-jira-cloud/team-insights-for-jira-issues-epics-view-gij-cloud/)
+[Sprints/Epics View](/git-integration-for-jira-cloud/team-insights-for-jira-general-view-gij-cloud/)
 
 **Teams View** (this page)
 

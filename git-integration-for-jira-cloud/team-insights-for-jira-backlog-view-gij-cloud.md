@@ -37,7 +37,7 @@ So, basically, the Backlog View lets users:
 
 On the middle top part of Team Insights for Jira page, click on the Backlog View tab.
 
-The Backlog View organizes issues into sprints, similar to how Epics group issues. This allows you to easily manage your backlog based on the Project filter. Sprints are automatically sorted by rank when the Backlog View is loaded.
+The Backlog View organizes issues into sprints, similar to how Epics mode in General View group issues. This allows you to easily manage your backlog based on the Project filter. Sprints are automatically sorted by rank when the Backlog View is loaded.
 
 &nbsp;
 
@@ -105,6 +105,14 @@ On a higher level, this gives team/project managers the ability to scan and tell
 
 &nbsp;
 
+#### Showing diff
+
+Click on the **Show diff** label on the Issue row to also show Jira issues that contains a code diff. Click **Hide diff** to switch off this mode.
+
+![](/wp-content/uploads/tij-gitcloud-backlog-view-show-diff.png)
+
+&nbsp;
+
 #### Actions menu
 
 <div class="bbb-callout bbb--alert">
@@ -126,8 +134,8 @@ Click on the **\[...\]** Actions menu to see options for managing the Sprints in
 | Action | Description |
 |:-------|:------------|
 | **_Edit_** | Allows team/project managers to edit the sprint. |
-| **_Start_** | Allows team/project managers to start the progress of the sprint. Set the status to In progress. |
-| **_Finish_** | Allows to team/project managers to mark the progress of the sprint as complete. Set the status to Done. |
+| **_Start_** | Allows team/project managers to start the progress of the sprint. Set the status to <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>IN PROGRESS</b>. |
+| **_Finish_** | Allows to team/project managers to mark the progress of the sprint as complete. Set the status to <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>DONE</b>. |
 | **_Move up_** | Moves the sprint up in the Issue list. Move sprints up to assume it in a higher priority. |
 | **_Move down_** | Moves the sprint down in the Issue list. Move sprints down to assume it in a lower priority. |
 | **_Delete_** | Remove the sprint from the Issue list. |
@@ -149,6 +157,14 @@ Utilize the following fields to modify the sprint properties:
 | **_Start Date_** | Assign or change the start date of the sprint. This ensures a smooth and organized workflow for all the work and tasks that will be undertaken during the sprint. By setting a clear start date, teams can effectively plan and allocate their resources accordingly.
 | **_End Date_** | Assign or change the end date of the sprint. In order to effectively manage a sprint, it is important to establish clear deadlines. The expected deadline for this particular sprint should be determined in advance. This allows for greater accountability and helps to keep the project on track. |
 | **_Editing the timeline_** | On the timeline view, drag the slider for the selected sprint to adjust the time period assigned to it. The timeline can be adjusted by dragging it from any point, but do note that only the end date is changed. |
+
+<img src='/wp-content/uploads/tij-gitcloud-backlog-view-timeline-drag-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
+
+&nbsp;
+
+### Editing the Timeline
+
+On the timeline view, drag the slider for the selected sprint to adjust the time period assigned to it. The timeline can be adjusted by dragging it from any point, but do note that only the end date is changed.
 
 <img src='/wp-content/uploads/tij-gitcloud-backlog-view-timeline-drag-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -235,7 +251,7 @@ Click on the following column headers to toggle ascending or descending sorting 
 
 [Team Insights for Jira Cloud](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud)
 
-[Sprints/Epics View](/git-integration-for-jira-cloud/team-insights-for-jira-issues-epics-view-gij-cloud/)
+[Sprints/Epics View](/git-integration-for-jira-cloud/team-insights-for-jira-general-view-gij-cloud/)
 
 [Teams View](/git-integration-for-jira-cloud/team-insights-for-jira-teams-view-gij-cloud)
 
