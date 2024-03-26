@@ -71,9 +71,9 @@ With Team Insights for Jira app, team managers will be able to see team activity
 | Manage git integrations and repository connections | ![](/wp-content/uploads/gij-matrix-open-not-red.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
 | Assign other users to manage integrations and repository connections | ![](/wp-content/uploads/gij-matrix-open-not-red.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
 
-<b><sup>1</sup><b> With Git Integration for Jira app also installed, git data is displayed in a more detailed manner
+<b><sup>1</sup></b> With Git Integration for Jira app also installed, git data is displayed in a more detailed manner
 
-<b><sup>2</sup><b> Requires Git Integration for Jira app installed if you want to see pull request status and information.
+<b><sup>2</sup></b> Requires Git Integration for Jira app installed if you want to see pull request status and information.
 
 &nbsp;
 
