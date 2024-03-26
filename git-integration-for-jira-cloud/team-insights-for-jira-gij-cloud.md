@@ -8,8 +8,8 @@ taxonomy:
 ---
 
 <div class='embed-container embed-container--16-9'>
-        <iframe width='709' height='382' src='https://www.youtube.com/embed/ctzCdY9CXOg' frameborder='0' allowfullscreen ></iframe>
-    </div>
+    <iframe width='709' height='382' src='https://www.youtube.com/embed/ctzCdY9CXOg' frameborder='0' allowfullscreen ></iframe>
+</div>
 
 <div align='center' style='margin-top:12px;margin-bottom:40px;'>
     <i>Right click <a href='https://www.youtube.com/watch?v=ctzCdY9CXOg'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
