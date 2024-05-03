@@ -49,7 +49,7 @@ For GitLab Server service users, they won't see the issue until they upgrade the
     </div>
     <div class="imsgbox">
         <b>GitLab deprecation notes</b><br>        
-        By the end of March 2024, GitLab legacy integrations will be deprecated in the Manage integrations screen. To avoid integration issues:<br>
+        By the end of March 2024, GitLab legacy integrations will be deprecated in the Manage integrations screen. To prevent any integration issues:<br>
         <ul style='margin-bottom:0px;'>
             <li>Please upgrade your GitLab server;</li>
             <li>Remove legacy integrations; and</li>
