@@ -27,6 +27,8 @@ With Manager permissions:
 
 *   Manage user roles through Jira Global Permissions
 
+*   Managers are allowed to create integrations with project mapping settings.
+
 &nbsp;
 
 ### Getting started
