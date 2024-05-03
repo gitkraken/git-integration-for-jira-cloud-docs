@@ -42,6 +42,23 @@ For GitLab Server service users, they won't see the issue until they upgrade the
     </div>
 </div>
 
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>GitLab deprecation notes</b><br>        
+        By the end of March 2024, GitLab legacy integrations will be deprecated in the Manage integrations screen. To prevent any integration issues:<br>
+        <ul style='margin-bottom:0px;'>
+            <li>Please upgrade your GitLab server;</li>
+            <li>Remove legacy integrations; and</li>
+            <li>Connect a new GitLab integration to your GitLab CE/EE.</li>
+        </ul>
+    </div>
+    </div>
+</div>
+
 <div class="bbb-callout bbb--tip">
     <div class="irow">
     <div class="ilogobox">
