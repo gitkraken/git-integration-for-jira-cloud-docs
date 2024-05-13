@@ -13,4 +13,5 @@ taxonomy:
 | **`${username}`** | Effective 29 April 2019 | The `${username}` is used when logging into Jira and in the branch name template to generate a default name for newly-created branches. This template variable is deprecated as Atlassian is no longer making usernames available. |
 | **Ignore unmatching webhooks** | 14 September 2021 | We will no longer reindex all repositories by default when a webhook arrives without a matching repository. |
 | GitLab legacy | 06 June 2023 | Starting v4.19+<br>We will be dropping support for GitLab legacy integrations. |
+| GitLab legacy integrations | End of March 2024 | GitLab legacy integrations will be deprecated in the Manage integrations screen. To prevent any integration issues:<br><ul><li>Please upgrade your GitLab server;</li><li>Remove legacy integrations; and</li><li>Connect a new GitLab integration to your GitLab CE/EE.</li><ul> |
 | _(more to come)_ |     |     |
