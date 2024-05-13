@@ -27,6 +27,8 @@ With Manager permissions:
 
 *   Manage user roles through Jira Global Permissions
 
+*   Managers are allowed to create integrations with project mapping settings.
+
 &nbsp;
 
 ### Getting started
@@ -71,12 +73,10 @@ A new item called **Manager permissions** is introduced on the Git Integration f
 
     ![](/wp-content/uploads/gij-gitserverdc-manager-permission-global-grant-permission.png)
 
-    *   Select a permission --> Manage Git Integration for Jira by GitKraken.
+    *   This feature adds a new global permission to your Jira instance. You can now select the permission ➜ **Manage Git Integration for Jira by GitKraken** for this step.
 
-    *   Select a group --> choose the group that you created previously.
-
-    &nbsp;
-
+    *   Select a group ➜ choose the group that you created previously.
+    
 6.  Click **Add** to continue.
 
 Looking at the **Manage Git Integration for Jira by GitKraken** permission section, you will see the roles that were assigned to this permission.
