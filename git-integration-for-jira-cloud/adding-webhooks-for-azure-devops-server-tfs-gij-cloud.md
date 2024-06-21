@@ -80,7 +80,7 @@ Configure webhook by logging in to your VSTS/Azure DevOps account:
 
 7.  Copy the complete webhook URL by clicking the copy icon on the right (4).
 
-8.  Switch back to VSTS/Azure DevOps portal (where you left off):
+8.  Switch back to Azure DevOps Server/TFS portal (where you left off):
 
     ![](/wp-content/uploads/gij-cloud-TFS-action-settings-header-etc-c.png)
 
