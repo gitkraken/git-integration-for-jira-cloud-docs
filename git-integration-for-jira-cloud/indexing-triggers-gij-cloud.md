@@ -28,7 +28,7 @@ taxonomy:
 
 ## What are indexing triggers and why use them?
 
-Indexing triggers (webhooks) can be an extremely powerful tool that can be configured to activate an immediate re-index of your repositories from remote systems. Your git server can send this near real-time data to Jira when your git data changes. This results in a much faster indexing time where you don’t have to wait for the regular polling interval (see [**General settings**](/git-integration-for-jira-cloud/general-settings-gij-cloud).
+Indexing triggers (webhooks) can be an extremely powerful tool that can be configured to activate an immediate re-index of your repositories from remote systems. Your git server can send this near real-time data to Jira when your git data changes. This results in a much faster indexing time where you don’t have to wait for the regular polling interval (see [**General settings**](/git-integration-for-jira-cloud/general-settings-gij-cloud)).
 
 Webhooks can be initiated whenever certain actions are performed. For example, you can configure a webhook to execute when:
 
