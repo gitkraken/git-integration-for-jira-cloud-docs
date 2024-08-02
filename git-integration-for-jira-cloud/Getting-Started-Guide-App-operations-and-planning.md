@@ -83,10 +83,6 @@ Note, there are some soft performance limitations to consider when planning your
 
 ___
 
-**Next - Integration Creation and Post Integration Config**
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/">Integration Creation and Post Integration Config</a>
 
-[Creating your Integrations, and post integration config](/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config)
-
-**Previous - Application Overview**
-
-[Application Overview](/git-integration-for-jira-cloud/Getting-Started-Guide.md)
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>PREVIOUS</b>](/git-integration-for-jira-cloud/Getting-Started-Guide/) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide/">Getting Started</a>

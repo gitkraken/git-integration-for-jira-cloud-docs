@@ -22,11 +22,4 @@ Team insights for Jira is a free stand alone application that we offer that is g
 
 ___
 
-**Next - Application operations and Integration structure planning**
-
-[Getting started part 2 - Application operations and Integration Structure Planning](/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning)
-
-**Previous - Integration Creation and Post integration configuration**
-
-[Integration Creation and Post integration configuration](/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config.md)
-
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>PREVIOUS</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/">Integration creation and Post integration Configuration</a>

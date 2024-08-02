@@ -36,7 +36,4 @@ Before configuring the application, we encourage new clients to discuss their te
 
 ___
 
-**Next - Application operations and Integration structure planning**
-
-[Getting started part 2 - Application operations and Integration Structure Planning](/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning)
-
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning/">Application operations and Integration Structure Planning</a>
