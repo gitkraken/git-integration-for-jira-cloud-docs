@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-# Integration Types
+## Integration Types
 **Full Featured vs. Webhook Indexing**
 
 The majority of our clients use the“Full Featured” or “Webhook Indexing” integration. Full featured integrations are active 2 way connections, while Webhook indexing integrations are one way passive connections. To decide which is best for your organization, consider the following 2 factors:
@@ -55,7 +55,7 @@ Despite the name, there is no actual indexing taking place when utilizing Webhoo
 GIJ only updates Jira issues when we receive webhooks from your repositories containing Jira issue keys as part of the changes. There is no periodic or scheduled indexing. This means that all changes are updated in near real time by default.
 
 
-# Integration structure planning
+## Integration structure planning
 Now that you have a better understanding of what to expect with GIJ, consider taking some time to evaluate how to structure your integrations such as:. 
 1. Total Number of Repositories you wish to connect to Jira.
     - The higher the number of connected repositories, the more challenging it can become to manage them, especially if you wish to utilize project associations. 
@@ -81,7 +81,7 @@ Note, there are some soft performance limitations to consider when planning your
     </div>
 </div>
 
-<br>
+___
 
 **Next - Integration Creation and Post Integration Config**
 

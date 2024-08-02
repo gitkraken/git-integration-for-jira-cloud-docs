@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-# Integration Creation
+## Integration Creation
 **Choosing Authentication type**
 Next, let’s  decide which Authentication option is best for you. You can choose either PAT or OAuth based authentication with full featured integrations, but please note that the availability of authentication options can vary by Git service. Functionally, in most cases both options will work, without much difference.
 
@@ -36,7 +36,7 @@ If using multiple integrations, consider creating only one or two integrations a
 While this suggested approach may take a bit longer to complete, it avoids common issues or quickly raises important issues to address before committing the time to create all of your integrations. For any such issues, contact our support team  to work through the problem and save time.
 
 
-# Post Integration creation configuration
+## Post Integration creation configuration
 Now that you have created all of your integrations, we recommend the following actions   to round out your configuration.
 
 **Edit Integration feature settings**
@@ -48,7 +48,7 @@ We strongly recommend enabling the “require user PAT” integration setting. T
 
 This is important, as we will then use their PAT to authenticate newly created branches and pull/merge requests and  attribute them to the correct user on your Git Service. If this option is not enabled, the branch/pull/merge request will still be created, but it will be authenticated using the integration connection credentials, and will be attributed to whatever account the credentials are associated with. Please see [Require Personal Access Tokens](https://help.gitkraken.com/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud/) for further details.
 
-<br>
+___
 
 **Next - Optional Features and Add-ons**
 
