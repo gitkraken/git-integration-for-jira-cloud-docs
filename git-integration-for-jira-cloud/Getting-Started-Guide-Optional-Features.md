@@ -1,6 +1,6 @@
 ---
 
-title: Git Integration for Jira Cloud Getting Started Guide
+title: Optional Features and Add-on Extensions
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

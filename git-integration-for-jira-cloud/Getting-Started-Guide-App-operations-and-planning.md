@@ -1,6 +1,6 @@
 ---
 
-title: Git Integration for Jira Cloud Getting Started Guide
+title: GIJ Application Operations and Planning
 description:
 taxonomy:
     category: git-integration-for-jira-cloud

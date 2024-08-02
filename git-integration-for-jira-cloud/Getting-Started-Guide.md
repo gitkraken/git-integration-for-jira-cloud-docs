@@ -1,6 +1,6 @@
 ---
 
-title: Git Integration for Jira Cloud Getting Started Guide
+title: GIJ Cloud Getting Started Guide
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -15,7 +15,7 @@ GIJ will display Commits, Branches, and Pull/Merge requests associated with a sp
  Please see: [Linking Git Commits](https://help.gitkraken.com/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/) for more details.
 
 ### Breakdown of information provided by GIJ in Jira issues:
-![Jira Issue View](/wp-content/uploads/Jira-Issue-Breakdown)
+![Jira Issue View](/wp-content/uploads/Jira-Issue-Breakdown.png)
 Activity Stream - Git Commits
 1. Git Commits tab in the activity stream, broken down by repository
 2. Individual Commit, noted by Developer that made the commit
