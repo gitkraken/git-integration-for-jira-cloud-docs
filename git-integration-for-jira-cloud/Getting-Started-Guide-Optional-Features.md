@@ -6,7 +6,6 @@ taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-# Optional Features and add-ons
 Congratulations! You have now successfully completed your base GIJ configuration.! The following features and free add-on extension applications are not necessary for the operation of GIJ, but do provide additional value on top of the base functionality, so we recommend that you explore them.
 
 **Feature: Automation for Jira triggers**
@@ -20,7 +19,8 @@ CI/CD for Jira is used to display build and deployment data in Jira. Please note
 **Team Insights for Jira**
 Team insights for Jira is a free stand alone application that we offer that is geared towards planning and sprint work management. While the application works independently, it can be used alongside with GIJ in order to view development information inside TIJ, providing a clearer view of work progress. Team Insights for Jira is available [here](https://marketplace.atlassian.com/apps/1230390/team-insights-for-jira?hosting=cloud&tab=overview) and you can see further details for the application [here](https://help.gitkraken.com/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud/)
 
-<br>
+
+___
 
 **Next - Application operations and Integration structure planning**
 
