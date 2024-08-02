@@ -50,10 +50,6 @@ This is important, as we will then use their PAT to authenticate newly created b
 
 ___
 
-**Next - Optional Features and Add-ons**
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-Optional-Features) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-Optional-Features/">Optional Features and Add-on Extensions</a>
 
-[Optional Features and Add ons](/git-integration-for-jira-cloud/Getting-Started-Guide-Optional-Features)
-
-**Previous - Application operations and Integration Planning***
-
-[Application operations and Integration Planning](/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning.md)
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>PREVIOUS</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/">Integration creation and Post integration Configuration</a>
