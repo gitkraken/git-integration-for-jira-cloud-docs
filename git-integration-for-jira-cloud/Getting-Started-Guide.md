@@ -1,21 +1,21 @@
 ---
 
-title: Git Integration for Jira Cloud Getting Started Guide
+title: GIJ Cloud Getting Started Guide
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 # Application Overview
-## What to expect
+**What to expect**
 
 Thank you for choosing Git Integration for Jira Cloud (GIJ)! This guide provides Jira Admins with crucial information for deciding the most effective configuration of Git Integration for Jira for their specific needs.
 
 GIJ will display Commits, Branches, and Pull/Merge requests associated with a specific Jira Issue. The Jira Issue key must be included in the commit message, the Branch name, and the Pull/Merge request title in order for GIJ to link the item to the respective Jira Issue. 
  Please see: [Linking Git Commits](https://help.gitkraken.com/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/) for more details.
 
-### Breakdown of information provided by GIJ in Jira issues:
-![Jira Issue View](/wp-content/uploads/Jira-Issue-Breakdown)
+**Breakdown of information provided by GIJ in Jira issues:**
+![Jira Issue View](/wp-content/uploads/Jira-Issue-Breakdown.png)
 Activity Stream - Git Commits
 1. Git Commits tab in the activity stream, broken down by repository
 2. Individual Commit, noted by Developer that made the commit
@@ -36,7 +36,7 @@ Before configuring the application, we encourage new clients to discuss their te
 
 <br>
 
-### Next - Application operations and Integration structure planning
+**Next - Application operations and Integration structure planning**
 
 [Getting started part 2 - Application operations and Integration Structure Planning](/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning)
 
