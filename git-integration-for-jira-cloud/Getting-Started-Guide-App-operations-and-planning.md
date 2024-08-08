@@ -7,7 +7,8 @@ taxonomy:
 
 ---
 ## Integration Types
-**Full Featured vs. Webhook Indexing**
+---
+### Full Featured vs. Webhook Indexing
 
 The majority of our clients use the“Full Featured” or “Webhook Indexing” integration. Full featured integrations are active 2 way connections, while Webhook indexing integrations are one way passive connections. To decide which is best for your organization, consider the following 2 factors:
 
@@ -23,15 +24,16 @@ Webhook Indexing integrations are designed to accommodate clients with security 
 The full feature matrix between the integration types can be found [here](https://help.gitkraken.com/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud/).
 
 
-**Plain Git Connections**
+### Plain Git Connections
 If you are not using one of the major Git services (GitHub, GitLab, Azure DevOps, Bitbucket,  AWS), we still have you covered! We support plain git connections to each individual repository you wish to roll up into your Jira issues. Please see the feature matrix linked above for details on the limitations on plain git connections.
 
-# Indexing Behavior
+## Indexing Behavior
+---
 Now that you have determined what kind of integration type fits your needs, let’s learn how Git Integration for Jira indexes updates from your repositories.
-**Full Featured Integrations**
+### Full Featured Integrations
 By default, full featured integrations go through 2 different stages of indexing, initial indexing which only happens once, and normal indexing.
 
-**First Time Indexing**
+### First Time Indexing
 The initial indexing phase only happens the first time that an integration is added to GIJ, or a new repository is added to an existing integration. This initial indexing phase is comprised of 2 different actions:
 
 1. Clone all of your repositories/ the newly created repository. 
@@ -39,13 +41,13 @@ The initial indexing phase only happens the first time that an integration is ad
 
 This scan allows us to link any Git data that previously referenced Jira issues in the appropriate places in order to provide the most comprehensive historical Git data in Jira possible. Because we are performing more intensive operations, this initial indexing phase tends to take more time than subsequent indexes. The total index time varies greatly for users, but in general demands more time for repositories with  longer Git histories, or with many branches and pull/merge requests. The number of repositories included in the integration will also have an impact on this indexing time.
 
-**Normal Indexing Operations**
+### Normal Indexing Operations
 After all of your integrations/repositories have been indexed for the 1st time, the application will automatically index your Git repositories periodically based on an adaptive timer. The index frequency will vary based on a few different factors, such as how often there are changes detected in that repository, but most active repositories will be indexed every 20 minutes or so. The amount of time that it takes GIJ to complete all of the indexing tasks will also affect the indexing frequency. For a more comprehensive explanation of our indexing process, please see [Classic Indexing explainer](https://help.gitkraken.com/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/)
 
-**Indexing Triggers**
+### Indexing Triggers
 We suggest utilizing [Indexing Triggers](https://help.gitkraken.com/git-integration-for-jira-cloud/indexing-triggers-gij-cloud/) alongside your integrations. These indexing triggers are webhooks that are created/sent from your repositories whenever there are updates to your repositories. When we receive the webhook, we will automatically index that repository outside of the normal indexing timer, allowing near real-time updates.
 
-**Webhook Indexing**
+### Webhook Indexing
 Despite the name, there is no actual indexing taking place when utilizing Webhook Indexing integrations. Since this is a one-way passive integration, we do not clone/scan/index your repositories at any point. Instead, we rely on metadata included in the webhooks themselves to update the Jira Issues. With webhook indexing:
 
 - No specific code change information is sent 
@@ -56,6 +58,7 @@ GIJ only updates Jira issues when we receive webhooks from your repositories con
 
 
 ## Integration structure planning
+---
 Now that you have a better understanding of what to expect with GIJ, consider taking some time to evaluate how to structure your integrations such as:. 
 1. Total Number of Repositories you wish to connect to Jira.
     - The higher the number of connected repositories, the more challenging it can become to manage them, especially if you wish to utilize project associations. 

@@ -7,7 +7,8 @@ taxonomy:
 
 ---
 ## Application Overview
-**What to expect**
+---
+### What to expect
 
 Thank you for choosing Git Integration for Jira Cloud (GIJ)! This guide provides Jira Admins with crucial information for deciding the most effective configuration of Git Integration for Jira for their specific needs.
 
@@ -31,7 +32,7 @@ GIJ will display Commits, Branches, and Pull/Merge requests associated with a sp
 
 
 ## Security Restrictions and Policies
-
+---
 Before configuring the application, we encourage new clients to discuss their team's needs and security concerns and restrictions. Consider whether your team has any restrictions regarding their code being cloned by third-party applications, and if they need to restrict code visibility between Jira projects. We will discuss the code cloning below as we discuss your integration type options, but you can use [Project association permissions](https://help.gitkraken.com/git-integration-for-jira-cloud/setting-project-permissions-gij-cloud/) to limit visibility between Jira projects. Please see [Permissions](https://help.gitkraken.com/git-integration-for-jira-cloud/permissions-gij-cloud/) for details on how to limit visibility of GIJ panels/Data between Jira users.
 
 ___
