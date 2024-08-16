@@ -1,6 +1,6 @@
 ---
 
-title: GIJ Application Operations and Planning
+title: Application Operations and Planning
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -19,9 +19,9 @@ Full Featured integrations are our recommended integration type for clients, as 
 
 Note, Full featured integrations requires GIJ to clone your repositories in order to provide Code Compare and Code Diff functionality directly from Jira. Repositories will be cloned to our AWS storage and, to a directory assigned specifically for your install. All traffic/data is encrypted in transit and at rest. Consider visiting our [Security and Trust](https://www.gitkraken.com/git-integration-for-jira/security-and-trust) page for an overview of our security measures. 
 
-Webhook Indexing integrations are designed to accommodate clients with security restrictions surrounding Code cloning, or for clients utilizing self-hosted git servers placed behind firewalls/proxies and cannot make those servers routable from the public internet. Details about how Webhook Indexing integrations work can be found [here](https://help.gitkraken.com/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud/). While this option addresses key security restrictions, this integration type has a limited feature set due to its reliance on webhooks delivered from your git service containing only basic git data for Jira Issue updates. 
+Webhook Indexing integrations are designed to accommodate clients with security restrictions surrounding Code cloning, or for clients utilizing self-hosted git servers placed behind firewalls/proxies and cannot make those servers routable from the public internet. Details about how Webhook Indexing integrations work can be found in our [Webhook Indexing Explainer](https://help.gitkraken.com/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud/). While this option addresses key security restrictions, this integration type has a limited feature set due to its reliance on webhooks delivered from your git service containing only basic git data for Jira Issue updates. 
 
-The full feature matrix between the integration types can be found [here](https://help.gitkraken.com/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud/).
+Please see our [Feature Matrix](https://help.gitkraken.com/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud/) for a detailed breakdown of features between the integration types can be found.
 
 
 ### Plain Git Connections
@@ -86,6 +86,6 @@ Note, there are some soft performance limitations to consider when planning your
 
 ___
 
-[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/">Integration Creation and Post Integration Config</a>
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>NEXT</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/">Integration Creation and Post Integration Config</a>
 
-[<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>PREVIOUS</b>](/git-integration-for-jira-cloud/Getting-Started-Guide/) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide/">Getting Started</a>
+[<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>PREVIOUS</b>](/git-integration-for-jira-cloud/Getting-Started-Guide/) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide/">Getting Started</a>
