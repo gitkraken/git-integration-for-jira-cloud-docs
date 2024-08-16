@@ -1,6 +1,6 @@
 ---
 
-title: GIJ Cloud Getting Started Guide
+title: Getting Started Guide
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -37,4 +37,4 @@ Before configuring the application, we encourage new clients to discuss their te
 
 ___
 
-[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning/">Application operations and Integration Structure Planning</a>
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>NEXT</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning/">Application operations and Integration Structure Planning</a>
