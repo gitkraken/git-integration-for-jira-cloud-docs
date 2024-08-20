@@ -43,19 +43,44 @@ All changes that developers have submitted will be listed in reverse chronologic
 
 &nbsp;
 
-### What will happen to Jira issue associations with commits if the Jira issue is moved to a new project?
+### What will happen to commit associations if a Jira issue is moved to a new Jira project?
 
-The commit retains the association even in the new project. The Git Integration for Jira Cloud app supports history tracking.  Thus, when moving a ticket to a new project whose issue key has changed, the association will still work.
+For GIJ Cloud users, moving Jira issues to a different project is not recommended, especially for repositories with extensive git commit histories. This is because associated git commits from the old project do not automatically transfer to the new project due to the different project key.
 
-The steps below provides an outline that you can follow to verify that the issue associations with commits are retained:
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Git Integration for Jira Cloud app allows users to manually associate git commits to a Jira issue via the Repository browser.
+    </div>
+    </div>
+</div>
 
-1.  Associate a commit with issue (ex. **TEST-1**)
-2.  Move the issue **TEST-1** to a new project (ex. **PM**)
-3.  New issue key for **TEST-1** is **PM-18**
-4.  Check that original commit in **TEST-1** is still available in **PM-18**. The commit should be there (Git Commits tab).
-5.  In the **Manage integrations** page, perform **Reset** and **Reindex** on the selected repository/integration to make sure that the commit was in the correct location.
+To manually associate git commits to a Jira issue in Jira Cloud:
 
-The Git Integration for Jira Cloud app also supports multiple issue keys in a commit message.
+1.  Go to Jira dashboard menu Apps ➜ **Git Integration: Repository browser**.
+2.  Click a repository to work on. The list defaults to the Compare view.
+3.  Click on the **Commits** tab.
+4.  On the right of the list item, click on the edit ![](/wp-content/uploads/gij-edit-icon-dark.png) icon or the **Link commit** label to manage Jira issue association for the selected git commit.
+5.  Add, remove or change one or more Jira issue keys to assign the selected commit.
+6.  Please note that manually linking git commits in this manner can only be done one at a time.
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Git Integration for Jira Cloud app also supports multiple issue keys in a commit message.
+    </div>
+    </div>
+</div>
+
+For Jira administrators planning to migrate from Jira Server/Data Center to Jira Cloud, please read this first - [Export project from Jira Server to Jira Cloud](https://support.atlassian.com/migration/resources/).
+
+When transitioning from Jira self-hosted to Jira Cloud, maintaining the same project name will retain all git commit associations after the migration.
 
 &nbsp;
 
