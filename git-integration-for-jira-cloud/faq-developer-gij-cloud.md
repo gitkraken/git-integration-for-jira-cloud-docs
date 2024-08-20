@@ -45,7 +45,7 @@ All changes that developers have submitted will be listed in reverse chronologic
 
 ### What will happen to commit associations if a Jira issue is moved to a new Jira project?
 
-For GIJ Cloud users, moving Jira issues to a different project is not recommended, especially for repositories with extensive git commit histories. This is because associated git commits from the old project do not automatically transfer to the new project due to the different name.
+For GIJ Cloud users, moving Jira issues to a different project is not recommended, especially for repositories with extensive git commit histories. This is because associated git commits from the old project do not automatically transfer to the new project due to the different project key.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -63,7 +63,9 @@ To manually associate git commits to a Jira issue in Jira Cloud:
 1.  Go to Jira dashboard menu Apps ➜ **Git Integration: Repository browser**.
 2.  Click a repository to work on. The list defaults to the Compare view.
 3.  Click on the **Commits** tab.
-4.  On the right of the list item, click on the edit ![](/wp-content/uploads/gij-edit-icon-dark.png) icon to manage Jira issue association for the selected git commit.
+4.  On the right of the list item, click on the edit ![](/wp-content/uploads/gij-edit-icon-dark.png) icon or the **Link commit** label to manage Jira issue association for the selected git commit.
+5.  Add, remove or change one or more Jira issue keys to assign the selected commit.
+6.  Please note that manually linking git commits in this manner can only be done one at a time.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -76,7 +78,7 @@ To manually associate git commits to a Jira issue in Jira Cloud:
     </div>
 </div>
 
-For Jira administrators planning to migrate from Jira Server/Data Center to Jira Cloud, please read this first - [Export project from Jira Server to Jira Cloud](https://community.atlassian.com/t5/Jira-questions/Export-project-from-Jira-server-to-Jira-Cloud/qaq-p/2191398&ved=2ahUKEwjr5eqBzvmHAxXUn2MGHcd9AmwQFnoECB4QAw&usg=AOvVaw0QNt6X4OFeIZ1KvZWmz4Y4).
+For Jira administrators planning to migrate from Jira Server/Data Center to Jira Cloud, please read this first - [Export project from Jira Server to Jira Cloud](https://support.atlassian.com/migration/resources/).
 
 When transitioning from Jira self-hosted to Jira Cloud, maintaining the same project name will retain all git commit associations after the migration.
 
