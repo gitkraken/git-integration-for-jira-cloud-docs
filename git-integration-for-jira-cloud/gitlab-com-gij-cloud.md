@@ -145,13 +145,13 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
 
 4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-gitlab-integration-oauth-01.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-gitlab-integration-oauth-sel.png)
 
-5.  For this guide, click on the GitLab **Personal Access Token** to select it.
+5.  For this guide, click on the OAuth integration to select it.
 
-    *   We recommend the PAT integration for this git service. This uses personal access tokens to setup GitLab.com integrations. Users will have to configure their own PAT from GitLab.com to use for this setup.
+    *   We recommend the OAuth integration which is outlined like a setup wizard — making it more easier for users to connect GitLab integrations.
 
-    *   For admins/owners, repository managers, collaborators or users that have enabled 2FA, enter the PAT on the **Personal Access Token** field.
+    *   For PAT integration, use personal access tokens (PAT) to setup your GitLab integrations. Users will have to configure their own PAT from GitLab to use for this setup.
 
     *   For GitLab webhook indexing integration, see [this article](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud) instead.
 
@@ -182,9 +182,34 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
 
     *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
-6.  Click **Connect and select repositories** to proceed to the next step.
+    
 
-7.  On the following screen, the Git Integration for Jira app will read all available repositories from your GitLab account.
+6.  Click **Connect to GitLab.com** to proceed to the next step.
+
+7.  Sign in to your GitLab account, if prompted. When connecting to your GitLab account using OAuth for the first time, the user will be presented with a grant authorization screen.
+
+    ![](/wp-content/uploads/gij-gitlab-autoconnect-grant-auth-screen-c.png)
+
+    *   Grant organization access to a group to also have its repositories listed in the Manage repositories page.
+
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b>&nbsp; If access is not granted, the repositories within those organizations (and even the orgs themselves) will not show up in the Git Integration for Jira app repositories list. The only way to see these repos/orgs is to return to the GitLab web portal using admin interface and specifically grant such permissions (Profile settings ➜ Developer settings ➜ OAuth Apps).
+
+    *   Below are the differences between the three authentication options for GitLab:
+
+        ```java
+        Authentication Method       When are group repositories connected?
+        ----------------------------------------------------------------------------
+        OAuth                       Users should press "Authorize" on the grant
+                                    authorization screen.
+        ----------------------------------------------------------------------------
+        PAT                         Group repositories are connected immediately.
+        ----------------------------------------------------------------------------
+        Username/Password           Group repositories are connected immediately.
+        ```
+
+    *   Click **Authorize...** to continue.
+
+8.  On the following screen, the Git Integration for Jira app will read all available repositories from your GitLab account.
 
     ![](/wp-content/uploads/gij-gitcloud-integration-gitlab-repo-sel-c.png)
 
@@ -194,7 +219,7 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
 
     *   Connect all repositories and organizations or select specific repositories to connect for this integration.
 
-7.  Click **Connect repositories** to complete this setup.
+9.  Click **Connect repositories** to complete this setup.
 
 
 The GitLab.com git repositories are now connected to Jira Cloud.
