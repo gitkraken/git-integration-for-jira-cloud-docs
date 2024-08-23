@@ -161,7 +161,7 @@ We recommend using the **Git service integration** panel to connect multiple rep
 
 6.  Click **Connect to GitHub.com** to proceed to the next step.
 
-7.  **Login to your GitHub account when prompted.** When connecting to GitHub.com using OAuth for the first time, the user will be presented with a grant authorization screen.
+7.  **Login to your GitHub account when prompted.** When connecting to your GitHub.com account using OAuth for the first time, the user will be presented with a grant authorization screen.
 
     ![](/wp-content/uploads/gij-github-autoconnect-grant-auth-screen-c.png)
 
