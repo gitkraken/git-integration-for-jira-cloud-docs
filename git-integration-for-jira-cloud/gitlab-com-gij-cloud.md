@@ -226,24 +226,18 @@ The GitLab.com git repositories are now connected to Jira Cloud.
 
 There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
-<table style='margin-bottom:40px'>
-    <tr>
-        <td>
-            <div class="bbb-callout bbb--alert">
-                <div class="irow">
-                <div class="ilogobox">
-                    <span class="logoimg"></span>
-                </div>
-                <div class="imsgbox">
-                    <b>Administrators</b><br>
-                    If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ Actions ➜ Edit integration** ➜ <b>Feature settings</b>.
-                </div>
-                </div>
-            </div>
-            <p style='margin:0 auto;margin-bottom:0px !important'><img src='/wp-content/uploads/gij-gitcloud-edit-integration-feature-cfg-req-user-PAT.png' /></p>
-        </td>
-    </tr>
-</table>
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Administrators</b><br>
+        If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ Actions ➜ Edit integration** ➜ <b>Feature settings</b>.
+        <p style='margin:8px auto;margin-bottom:0px !important'><img src='/wp-content/uploads/gij-gitcloud-edit-integration-feature-cfg-req-user-PAT.png' /></p>
+    </div>
+    </div>
+</div>
 
 &nbsp;
 
