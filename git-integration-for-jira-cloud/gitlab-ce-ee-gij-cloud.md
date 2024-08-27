@@ -187,7 +187,7 @@ We recommend using the Full feature integrations panel to connect multiple repos
 
     ![](/wp-content/uploads/gij-gitcloud-add-integration-type-gitlab-server-sel.png)
 
-5.  For this guide, click on the **PAT GitHub Server (CE/EE) APIv4** panel to select it.
+5.  For this guide, click on the **PAT GitLab Server (CE/EE) APIv4** panel to select it.
 
     *   While Git Integration for Jira Cloud app supports legacy APIv3 and APIv4, we recommend the **PAT APIv4** integration type for this git service connection. The PAT integration type uses personal access tokens to setup GitLab CE/EE integrations. Users will have to configure their own PAT from GitLab CE/EE to use for this setup.
 
