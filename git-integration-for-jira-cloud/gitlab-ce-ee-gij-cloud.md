@@ -23,7 +23,7 @@ taxonomy:
 
 <br>
 
-# Integrate GitLab CE/EE with Jira Cloud
+## Integrate GitLab CE/EE with Jira Cloud
 
 This feature tracks added or deleted repositories from a remote GitLab server (EE/CE) and automatically imports those Git repository references into Jira.
 
@@ -98,9 +98,8 @@ Quickly learn how to connect GitLab CE/EE git repositories via Git Integration f
 <div align='center' style='margin-top:10px;margin-bottom:40px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/q9q0zg3rug'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
-## Permissions
+### Permissions
 
 GitLab can have users with different access level to a group or project. If the user's connected GitLab repositories to Jira are not accessible or commits are not showing for that user -- it's related to permission issues. This can be a per user, repository or a project level restriction.
 
@@ -137,7 +136,9 @@ This level of access allows the user to create/delete branches and create merge 
 
 For more information, see <a href='https://docs.gitlab.com/ee/user/permissions.html' target='_blank'><b>GitLab Permissions »</b></a>.
 
-## Creating a personal access token
+&nbsp;
+
+### Creating a personal access token
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -153,7 +154,9 @@ For more information, see <a href='https://docs.gitlab.com/ee/user/permissions.
 
 While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for a quick step-by-step guide to get you started.
 
-## Using Git service integration
+&nbsp;
+
+### Using Git service integration
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -272,7 +275,9 @@ Repositories added or removed from GitLab server will be likewise added or remov
     </tr>
 </table>
 
-## Single git repository integration
+&nbsp;
+
+### Single git repository integration
 
 This process requires an existing GitLab CE/EE git repository. Look for the the GitLab CE/EE repository clone URL on the repository project page. Choose between SSH or HTTPS.
 
@@ -294,9 +299,10 @@ There will be a slight delay in adding 2FA-enabled repositories compared to othe
     </div>
     </div>
 </div>
-<br>
 
-## Setting up GitLab web links
+&nbsp;
+
+### Setting up GitLab web links
 
 The Git Integration for Jira app automatically configures web linking for GitLab git repositories.
 
@@ -304,7 +310,9 @@ For single repository connections, web link setup is optional. However, git link
 
 For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-cloud/web-linking-gij-cloud).
 
-## Viewing git commits in Jira Cloud
+&nbsp;
+
+### Viewing git commits in Jira Cloud
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This action will associate the commit to the mentioned Jira issue.
 
@@ -317,11 +325,15 @@ For more information on this feature, see [Documentation: Web linking](/git-inte
 
 For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud).
 
-## Working with branches and merge requests with GitLab CE/EE
+&nbsp;
+
+### Working with branches and merge requests with GitLab CE/EE
 
 For GitLab CE/EE (Legacy or newer), the user must have the **Write** permissions and the `api` PAT scope.
 
-### Default branch
+&nbsp;
+
+#### Default branch
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex.  Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
@@ -335,9 +347,10 @@ Most git integrations allow changing of the default branch of the repository/pro
     </div>
     </div>
 </div>
-<br>
 
-### Creating Branches
+&nbsp;
+
+#### Creating Branches
 
 On your Jira Cloud, open a Jira issue. On the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud), click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
 
@@ -373,11 +386,12 @@ On your Jira Cloud, open a Jira issue. On the [Jira Git integration development 
     </div>
     </div>
 </div>
-<br>
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
-### Creating merge requests
+&nbsp;
+
+#### Creating merge requests
 
 The merge request feature works the same as merge request. On your Jira Cloud, open the Jira issue where your previously created a branch. On the Jira Git integration development panel, click **Open Git integration** then click **Create merge request**. The following dialog is displayed.
 
@@ -443,7 +457,9 @@ The merge request is listed on the developer panel of the Jira issue page.
 
 The merge request is also ready for approval by the reviewers in your GitLab web portal.
 
-## More Integration Guides
+&nbsp;
+
+### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud) (Git Integration for Jira Cloud)
 
