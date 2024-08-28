@@ -171,8 +171,17 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
             Gitlab v9.5 and above -- only API v4.            
             ```
 
-            *   ![](/wp-content/uploads/bbb-note-20.png)&nbsp; **Remember:**<br>
-                The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
+            <div class="bbb-callout bbb--note">
+                <div class="irow">
+                <div class="ilogobox">
+                    <span class="logoimg"></span>
+                </div>
+                <div class="imsgbox">
+                    <b>Remember:</b><br>
+                    The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
+                </div>
+                </div>
+            </div>
 
         *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
@@ -234,7 +243,7 @@ There will be a slight delay in adding 2FA-enabled repositories compared to othe
     <div class="imsgbox">
         <b>Administrators</b><br>
         If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ Actions ➜ Edit integration** ➜ <b>Feature settings</b>.
-        <p style='margin:8px auto;margin-bottom:0px !important'><img src='/wp-content/uploads/gij-gitcloud-edit-integration-feature-cfg-req-user-PAT.png' /></p>
+        <div style='margin:8px auto;margin-bottom:0px !important'><img src='/wp-content/uploads/gij-gitcloud-edit-integration-feature-cfg-req-user-PAT.png' /></div>
     </div>
     </div>
 </div>
