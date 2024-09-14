@@ -26,9 +26,11 @@ If the user does not have the **View Development Tools** _project permission_�
 
 ### Git Integration panel
 
-Locate the Jira Git integration development panel on the right pane of the Jira issue page. Click on **Git integration** to expand its contents. GIJ does not auto-populate git data in the Git integration panel upon loading the issue page to improve Jira performance. Click **Refresh** to manually load the git data. This will also help avoid unnecessary git server requests that could potentially impact your rate limits.
+Locate the Jira Git integration development panel on the right pane of the Jira issue page. Click on **Git integration** to expand its contents. GIJ does not auto-populate git data in the Git integration panel upon loading the issue page to improve Jira performance.
 
 <img src='/wp-content/uploads/gij-cloud-jira-git-integration-panel-refresh.png' style='margin:25px auto;max-width:100%;display:block;' />
+
+Click **Refresh** to manually load the git data. This will also help avoid unnecessary git server requests that could potentially impact your rate limits.
 
 &nbsp;
 
