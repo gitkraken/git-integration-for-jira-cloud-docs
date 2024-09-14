@@ -9,7 +9,9 @@ taxonomy:
 
 This page applies to Jira Server, Jira Data Center and Jira Cloud.
 
-## Permissions
+&nbsp;
+
+### Permissions
 
 **Jira Cloud - Development panel**<br>
 The **View Development Tools** _permission_ only applies to Jira Classic Projects. Next-Gen Projects don't allow to modify the permission.
@@ -20,7 +22,17 @@ For connected GitHub git host, this feature requires enabled `public_repo` sco
 **Commits Ahead and Behind**<br>
 If the user does not have the **View Development Tools** _project permission_ for the project, the developer panel will be unavailable for that user.
 
-## Getting started
+&nbsp;
+
+### Git Integration panel
+
+Locate the Jira Git integration development panel on the right pane of the Jira issue page. Click on **Git integration** to expand its contents. GIJ does not auto-populate git data in the Git integration panel upon loading the issue page to improve Jira performance. Click **Refresh** to manually load the git data. This will also help avoid unnecessary git server requests that could potentially impact your rate limits.
+
+<img src='/wp-content/uploads/gij-cloud-jira-git-integration-panel-refresh.png' style='margin:25px auto;max-width:100%;display:block;' />
+
+&nbsp;
+
+### Getting started
 
 Git links are now available on the developer panel in the following locations:
 
@@ -35,11 +47,15 @@ Git links are now available on the developer panel in the following locations:
 
 The 24 commits counter refers to an existing Git Commits view, which the issue tab have now.
 
+&nbsp;
+
 ### Branches list
 
 This section displays the list of created branches that are associated to this Jira issue. The ahead and behind counters describes how much lines of code the branch is ahead or behind.
 
 To the right are the deep link icons: (1) opens this branch in the git host service portal, (2) opens this branch in GitKraken git client app, and (3) opens this branch in GitLens VSCode extension.
+
+&nbsp;
 
 ### Pull/merge Request list
 

@@ -99,13 +99,13 @@ If the admin decides to use the BigBrassBand processing, users will be able to u
 
 _Reference: GITCL-1334_
 
-#### Rare case of web links not updating for branches and tags
+#### Rare case of branches and tags web links are not updated
 
 The Git Commits tab and Git integration panels automatically update all web-linking URLs from a modified template once the **Save** button is clicked on the **Plain Git repository – Integration Feature Settings** page. However, when a user makes changes to the web-linking template, it affects the web links connected to new branches, commits, and tags on the Jira Git Integration Development Panel. Do note that these changes may not be automatically updated or refreshed.
 
 To resolve this issue, users can follow these steps:
 
-[insert image here…]
+![](/wp-content/uploads/gij-cloud-disable-reenable-plain-git-repo-via-actions.png)
 
 1.  Temporarily disable the affected Plain Git integration.
 
