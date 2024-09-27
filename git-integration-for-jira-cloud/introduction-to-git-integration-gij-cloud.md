@@ -7,8 +7,6 @@ taxonomy:
 
 ---
 
-**Covers release:** May 10th 2023
-
 Learn basic integration for most git hosts by connecting git repositories to Jira Cloud. This page contains simple
 
 <img src='/wp-content/uploads/gij-instant-integration-process.png' style='display:block;margin:25px auto;max-width:100%' width=500px /> 
@@ -29,7 +27,7 @@ The **Single repository integration** setup is ideal for users who are using SSH
 
 &nbsp;
 
-## Getting started
+### Getting started
 
 **Integration basics checklist:**
 
@@ -39,11 +37,15 @@ The **Single repository integration** setup is ideal for users who are using SSH
 *   Learn how to create branch/pull/merge request inside Jira via the developer panel; and
 *   <b style='background-color:#006745; padding:1px 5px; color:#E2FCEF; border-radius:3px; margin: 0 5px; font-size: small;'>NEW!</b> Post integration: Perform administrator toolbox tasks to discover helpful features and improve your Jira + Git experience.
 
-## Integration setup
+&nbsp;
+
+### Integration setup
 
 Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integration: Manage integrations_ ➜ _Add integration_). Start by following the steps for your favorite git host service:
 
-### Git service integration
+&nbsp;
+
+#### Git service integration
 
 *   [GitHub.com and GitHub Enterprise (Cloud)](/git-integration-for-jira-cloud/github-com-gij-cloud)
 
@@ -57,14 +59,15 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 *   [Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud)
 
-*   [AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud-gij-cloud)
+*   [AWS CodeCommit](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud)
 
 *   [Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud)
 
 *   [Gerrit](/git-integration-for-jira-cloud/Gerrit-gij-cloud)
 
+&nbsp;
 
-### Webhook indexing integration
+#### Webhook indexing integration
 
 *   [GitHub](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud)
 
@@ -76,12 +79,15 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 <!-- [Gerrit](/git-integration-for-jira-cloud/gerrit-webhook-indexing-integration-gij-cloud/) -->
 
-### Single repository integration
+&nbsp;
+
+#### Single repository integration
 
 *   [HTTP/HTTPS integration](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
 
-*   [SSH integration](/connecting-to-a-single-git-repository-ssh-gij-cloud)
+*   [SSH integration](/git-integration-for-jira-cloud/connecting-ssh-git-repositories-jira-cloud-gij-cloud)
 
+&nbsp;
 
 ### Setup next features to improve Git user experience
 

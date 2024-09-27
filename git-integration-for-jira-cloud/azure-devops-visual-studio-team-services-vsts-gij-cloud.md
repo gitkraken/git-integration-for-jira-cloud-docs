@@ -23,7 +23,7 @@ taxonomy:
 
 <img src='/wp-content/uploads/gij-vsts-logo.png' width=340 height=112 style='margin-bottom: 40px' />
 
-# Integrate VSTS/Azure DevOps with Jira Cloud
+### Integrate VSTS/Azure DevOps with Jira Cloud
 
 Quickly learn how to connect Azure DevOps/VSTS git repositories via Git Integration for Jira app.
 
@@ -34,25 +34,23 @@ The Git Integration for Jira app supports Azure Repos.
   - [Creating personal access tokens](#creating-personal-access-tokens)
   - [Permissions](#permissions)
   - [Using Git service integration](#using-git-service-integration)
-    - [Authenticate with OAuth (recommended)](#authenticate-with-oauth-recommended)
-    - [Authenticate with personal access token](#authenticate-with-personal-access-token)
+  - [Authenticate with OAuth (recommended)](#authenticate-with-oauth-recommended)
+  - [Authenticate with personal access token](#authenticate-with-personal-access-token)
   - [Single git repository integration](#single-git-repository-integration)
-  - [Troubleshooting integration](#troubleshooting-integration)
-  - [Webhooks and web linking](#webhooks-and-web-linking)
-  - [Linking Azure DevOps/VSTS git commits to Jira Cloud](#linking-azure-devopsvsts-git-commits-to-jira-cloud)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Working with branches and pull requests with Azure DevOps/VSTS](#working-with-branches-and-pull-requests-with-azure-devopsvsts)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Creating pull requests](#creating-pull-requests)
-    - [Merging _branch_ to _master_](#merging-branch-tomaster)
-  - [More Integration Guides](#more-integration-guides)
+- [Troubleshooting integration](#troubleshooting-integration)
+- [Webhooks and web linking](#webhooks-and-web-linking)
+- [Linking Azure DevOps/VSTS git commits to Jira Cloud](#linking-azure-devopsvsts-git-commits-to-jira-cloud)
+- [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
+- [Working with branches and pull requests with Azure DevOps/VSTS](#working-with-branches-and-pull-requests-with-azure-devopsvsts)
+  - [Default branch](#default-branch)
+  - [Creating branches](#creating-branches)
+  - [Creating pull requests](#creating-pull-requests)
+  - [Merging _branch_ to _master_](#merging-branch-tomaster)
+- [More Integration Guides](#more-integration-guides)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/n840jfrer4?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -61,9 +59,10 @@ The Git Integration for Jira app supports Azure Repos.
 <div align='center' style='margin-top:15px; margin-bottom:30px;'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/n840jfrer4'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
-## Creating personal access tokens
+&nbsp;
+
+#### Creating personal access tokens
 
 If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) – use the table of content anchor link to go to the Azure DevOps / VSTS section.
 
@@ -77,9 +76,10 @@ If you have not yet generated a personal access token (PAT), you can create one 
     </div>
     </div>
 </div>
-<br>
 
-## Permissions
+&nbsp;
+
+#### Permissions
 
 Set Azure DevOps/VSTS repository permissions according to your organization's rules. Viewing commits from Jira requires the user to have at least **Read** or **View** permissions. For branch/pull request creation, set specific service users with **Write** permissions.
 
@@ -99,7 +99,9 @@ For projects connected with Azure Active Directory, set the conditional access p
 
 <img src='/wp-content/uploads/gij-enable-conditional-access-policy-AD.png' width=442 height=126 style='margin:25px auto 35px auto;display:block;max-width:100%' />
 
-## Using Git service integration
+&nbsp;
+
+#### Using Git service integration
 
 Connecting Azure DevOps / VSTS accounts via Git service integration enables usability features that are not available in single repository connections or webhook indexing integrations.
 
@@ -116,7 +118,9 @@ Connecting Azure DevOps / VSTS accounts via Git service integration enables usab
 
 This step is <b>highly required</b> for Azure DevOps/ VSTS integrations connected via the Git service integrations setup.
 
-### Authenticate with OAuth (recommended)
+&nbsp;
+
+#### Authenticate with OAuth (recommended)
 
 This process requires an existing Microsoft account with Azure DevOps/VSTS **git** projects.
 
@@ -177,7 +181,9 @@ We recommend using the Git service integration panel to connect multiple reposit
 
 Azure DevOps/VSTS git repositories are now connected to Jira Cloud.
 
-### Authenticate with personal access token
+&nbsp;
+
+#### Authenticate with personal access token
 
 This process requires an existing Microsoft account with Azure DevOps/VSTS **git** projects and PAT is configured.
 
@@ -238,7 +244,9 @@ We recommend using the Full feature integrations panel to connect multiple repos
 
 Azure DevOps/VSTS git repositories are now connected to Jira Cloud.
 
-## Single git repository integration
+&nbsp;
+
+#### Single git repository integration
 
 This process requires an existing Azure/VSTS git repository. Look for the the Azure/VSTS repository URL on the repository project page. Choose between SSH or HTTPS.
 
@@ -261,13 +269,14 @@ The repository is now connected to Jira Cloud.
     </div>
     </div>
 </div>
-<br>
 
-## Troubleshooting integration
+&nbsp;
+
+### Troubleshooting integration
 
 Some repositories are not showing for the integration user. If this is the case, make adjustments to the configuration on the following settings:
 
-1.  Permissions  –  verify correct permissions have been granted to the integration user.
+1.  Permissions -– verify correct permissions have been granted to the integration user.
 
 2.  Grant access to the Git Integration for Jira app.
 
@@ -276,7 +285,9 @@ Some repositories are not showing for the integration user. If this is the case
 
 For detailed information, see [Troubleshooting: Repositories missing from Azure/VSTS/TFS integrations](/git-integration-for-jira-cloud/repositories-missing-from-azure-devops-or-vsts-integration-gij-cloud).
 
-## Webhooks and web linking
+&nbsp;
+
+### Webhooks and web linking
 
 The Git Integration for Jira app automatically configures web linking for Azure DevOps/VSTS git repositories.
 
@@ -291,11 +302,12 @@ The Git Integration for Jira app automatically configures web linking for Azure 
     </div>
     </div>
 </div>
-<br>
 
 For detailed step-by-step guide showcasing webhooks setup, [see this article](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-repos-vsts-gij-cloud).
 
-## Linking Azure DevOps/VSTS git commits to Jira Cloud
+&nbsp;
+
+### Linking Azure DevOps/VSTS git commits to Jira Cloud
 
 This process requires a VSTS/Azure DevOps git repository.
 
@@ -323,9 +335,9 @@ This process requires a VSTS/Azure DevOps git repository.
 
 <img src='/wp-content/uploads/gij-jira-server-vsts-repo-view-commit.png' width=613 height=202 style='margin:25px auto;display:block;max-width:!00%' />
 
-<br>
+&nbsp;
 
-## Viewing git commits in Jira Cloud
+### Viewing git commits in Jira Cloud
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 
@@ -338,13 +350,17 @@ This process requires a VSTS/Azure DevOps git repository.
 
 For more information about this feature, see [Documentation: Linking git commits to Jira issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud).
 
-## Working with branches and pull requests with Azure DevOps/VSTS
+&nbsp;
+
+### Working with branches and pull requests with Azure DevOps/VSTS
 
 This process requires a VSTS/Azure DevOps git repository and a PAT with at least `Code (read and write)` scope.
 
 This feature allows users to create branches and pull requests while inside Jira.
 
-### Default branch
+&nbsp;
+
+#### Default branch
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
@@ -358,9 +374,10 @@ Most git integrations allow changing of the default branch of the repository/pro
     </div>
     </div>
 </div>
-<br>
 
-### Creating branches
+&nbsp;
+
+#### Creating branches
 
 On your Jira Cloud, open a Jira issue. On the Jira Git integration development panel, click **Open** **Git Integration** then click **Create branch**. The following dialog is displayed.
 
@@ -399,10 +416,9 @@ On your Jira Cloud, open a Jira issue. On the Jira Git integration development 
     </div>
 </div>
 
-
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
-### Creating pull requests
+#### Creating pull requests
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -414,7 +430,6 @@ The newly-created branch is now listed in the developer panel under **Branches*
     </div>
     </div>
 </div>
-<br>
 
 The pull request feature works the same as merge request.
 
@@ -476,8 +491,6 @@ On your Jira Cloud, open the Jira issue where your previously created a branch. 
     </div>
     </div>
 </div>
-<br>
-
 
 The pull request is listed on the developer panel of the Jira issue page.
 
@@ -485,9 +498,9 @@ The pull request is also ready for approval by the reviewers in your Azure DevOp
 
 ![](/wp-content/uploads/gij-vsts-webui-branch-ready-for-merge.png)
 
-<br>
+&nbsp;
 
-### Merging _branch_ to _master_
+#### Merging _branch_ to _master_
 
 Continuing from the above steps, the current branch is ready for merge.
 
@@ -520,7 +533,7 @@ Once approved, the team leader or reviewer can then complete the merge. The comm
 
 &nbsp;
 
-## More Integration Guides
+### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-cloud/github-com-gij-cloud) (Git Integration for Jira Cloud)
 
@@ -528,7 +541,7 @@ Once approved, the team leader or reviewer can then complete the merge. The comm
 
 [GitLab.com](/git-integration-for-jira-cloud/gitlab-com-gij-cloud) (Git Integration for Jira Cloud)
 
-[GitLab CE/EE](/git-integration-for-jira-cloud/github-ce-ee-com-gij-cloud) (Git Integration for Jira Cloud)
+[GitLab CE/EE](/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud) (Git Integration for Jira Cloud)
 
 **Azure DevOps \| Visual Studio Team Services (VSTS)** (this page)
 

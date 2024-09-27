@@ -478,7 +478,7 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 [Gerrit](/git-integration-for-jira-cloud/gerrit-gij-cloud) (Git Integration for Jira Cloud)
 
-[Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-gij-cloud) (Git Integration for Jira Cloud)
+[Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud) (Git Integration for Jira Cloud)
 
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 

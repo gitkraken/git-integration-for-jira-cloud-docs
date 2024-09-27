@@ -35,5 +35,5 @@ Read through our collection of how-to guides which will show you the recommended
 
 [Setting Project Permissions](/git-integration-for-jira-cloud/setting-project-permissions-gij-cloud)
 
-[How to Create Reindex Triggers for a Single Repository](/git-integration-for-jira-cloud/how-to-create-reindex-%20triggers-for-a-single-repository-gij-cloud)
+[How to Create Reindex Triggers for a Single Repository](/git-integration-for-jira-cloud/how-to-create-reindex-triggers-for-a-single-repository-gij-cloud)
 

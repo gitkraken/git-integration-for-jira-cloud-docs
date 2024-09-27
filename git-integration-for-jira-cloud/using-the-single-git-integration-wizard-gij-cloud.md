@@ -22,13 +22,15 @@ Connect specific single git repositories via Git Integration for Jira app.
 
 &nbsp;
 
-## Step 1
+### Step 1
 
 On the Manage integrations page, click **Add integration**.
 
 ![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page.png)
 
-## Step 2
+&nbsp;
+
+### Step 2
 
 On the Git hosting service selection screen, use the **Quick start** section by pasting the git clone URL in the provided box (HTTPS or SSH) then click **Connect** to proceed.
 
@@ -36,11 +38,15 @@ You can also click on **Plain Git Repository** to connect single git repositorie
 
 <img src='/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-sel-https.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
-## Step 3
+&nbsp;
+
+### Step 3
 
 Setup the integration depending on which type of git clone URL that you are using. Enter the git clone URL into the **Host URL** field. The login form automatically adjusts to the type of the URL provided.
 
-### 3a\. HTTPS authentication
+&nbsp;
+
+#### 3a\. HTTPS authentication
 
 ![](/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-add-new-http.png)
 
@@ -90,7 +96,9 @@ If the [generated SSH key pair](/git-integration-for-jira-cloud/working-with-ssh
     </div>
 </div>
 
-## Setup complete
+&nbsp;
+
+### Setup complete
 
 Finally, after completing the setup, the wizard will index the git repository to build change history. This completes the setup and the newly added repository appears on the integration list in the Manage integrations page.
 
