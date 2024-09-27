@@ -15,21 +15,23 @@ taxonomy:
 - [Power Users](#power-users)
 - [Connecting SSH Git Repositories](#connecting-ssh-git-repositories)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## Introduction
+### Introduction
 
 SSH git repositories can be integrated with Jira Cloud via [**Git Integration for Jira app**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview).
 
-## Generating SSH Keys
+&nbsp;
+
+### Generating SSH Keys
 
 Initially, the SSH key pair must be generated to proceed. We recommend to generate a **4096-bit key**.
 
-### Windows
+&nbsp;
+
+#### Windows
 
 For Windows users, we recommend to use [**PuTTY**](https://www.putty.org/) and use PuTTYgen to generate public and private SSH keys.
 
@@ -67,11 +69,12 @@ For Windows users, we recommend to use [**PuTTY**](https://www.putty.org/) and
     </div>
     </div>
 </div>
-<br>
 
-You can also use the git bash command line to generate SSH key pair. For detailed information, see [**Generate SSH via Git bash**](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key).<br><br>Read on the section in our online documentation, [**Generating SSH Keys**](https://bigbrassband.com/git-integration-for-jira/documentation/working-with-ssh-keys.html#generate_SSH_keys), and follow specific information for the git host and platform that you use.
+You can also use the git bash command line to generate SSH key pair. For detailed information, see [**Generate SSH via Git bash**](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key).<br><br>Read on the section in our online documentation, [**Generating SSH Keys**](/git-integration-for-jira-cloud/working-with-ssh-keys-gij-cloud), and follow specific information for the git host and platform that you use.
 
-### Linux/MacOS
+&nbsp;
+
+#### Linux/MacOS
 
 On Linux and MacOS, this generates an SSH key in RSA format:
 
@@ -81,7 +84,9 @@ ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 
 MacOs often incorrectly creates an OpenSSH format certificate. For more details, see information on this [common problem](https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key). |
 
-## Power Users
+&nbsp;
+
+### Power Users
 
 The Git Integration for Jira app supports one format for private SSH keys ➜ RSA. To change your SSH key pair to the supported format, use the following syntax on your terminal or bash/powershell:
 
@@ -89,7 +94,9 @@ The Git Integration for Jira app supports one format for private SSH keys ➜ RS
 ssh-keygen -p -P "old_password" -N "new_password" -m pem
 ```
 
-## Connecting SSH Git Repositories
+&nbsp;
+
+### Connecting SSH Git Repositories
 
 1.  Generate an SSH key pair as stated in the previous section.
 
@@ -122,6 +129,4 @@ The connected repository is listed in the git configuration page.
     </div>
     </div>
 </div>
-
-&nbsp;
 

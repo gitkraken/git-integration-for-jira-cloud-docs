@@ -44,7 +44,7 @@ The **General settings** configuration page can be accessed thru the following
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you're using Jira Server or Jira Data Center, <a href='/git-integration-for-jira-self-managed/general-gij-self-managed'>view this page instead</a>.
+        If you're using Jira Server or Jira Data Center, <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'>view this page instead</a>.
     </div>
     </div>
 </div>

@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Using <b>Jira Server or Data Center</b>? <a href='/git-integration-for-jira-self-managed/gitlab-ce-ee-gij-self-managed'>See the corresponding article</a>.
+        Using <b>Jira Server or Data Center</b>? <a href='/git-integration-for-jira-self-managed/GitLab-com-CE-EE-gijsm-gij-self-managed'>See the corresponding article</a>.
     </div>
     </div>
 </div>

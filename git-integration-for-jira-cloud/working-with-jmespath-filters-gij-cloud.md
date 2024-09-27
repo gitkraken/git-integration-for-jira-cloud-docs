@@ -9,11 +9,13 @@ taxonomy:
 
 JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.
 
-For help with writing expressions, please contact [**support**](gijsupport@gitkraken.com) or request via our [Support portal](/git-integration-for-jira-cloud/gij-cloud-contact-support/).
+For help with writing expressions, please contact [**support**](mailto:gijsupport@gitkraken.com) or request via our [Support portal](/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
 Read about JMESPath expressions on their [**website**](http://jmespath.org/).
 
+&nbsp;
 * * *
+&nbsp;
 
 ### Accessible Locations
 

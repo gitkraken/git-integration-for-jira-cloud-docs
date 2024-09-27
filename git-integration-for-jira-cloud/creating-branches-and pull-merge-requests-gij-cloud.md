@@ -32,17 +32,21 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 Main branch for repositories within an integration can only be changed on the git server.
 
+&nbsp;
+
 ### Creating branches
 
 Open a Jira issue then on the developer panel, click **Create Branch** label to create a branch for the selected repository.
 
 For detailed information on this feature, see [Creating branches from Jira](/git-integration-for-jira-cloud/create-branch-gij-cloud).
 
+&nbsp;
+
 ### Creating pull/merge requests
 
 Open a Jira issue then on the developer panel, click **Create pull/merge request** label to create a pull/merge request for the selected repository.
 
-For detailed information on this feature, see [Creating pull/merge requests from Jira](/git-integration-for-jira-cloud/creating-branches-and%20pull-merge-requests-gij-cloud)
+For detailed information on this feature, see [Creating pull/merge requests from Jira](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud)
 
 &nbsp;
 * * *

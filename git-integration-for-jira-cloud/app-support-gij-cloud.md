@@ -11,7 +11,9 @@ The Git Integration for Jira app currently supports **Jira** **8.12** to **9.1
 
 We are committed to provide you with an efficient and reliable support. Scroll down to see helpful tips to get started.
 
+&nbsp;
 * * *
+&nbsp;
 
 ### Jira Server platform end of life support
 
@@ -31,6 +33,7 @@ See the following topics from Atlassian for migration:
 
 *   [Migrating from Jira Server to Jira Data Center](https://confluence.atlassian.com/enterprise/migrate-from-server-to-data-center-953127136.html)
 
+&nbsp;
 
 ### Browser Compatibility
 
@@ -39,6 +42,8 @@ Atlassian has released mobile app versions of their Jira software.
 The Git Integration for Jira Cloud app supports the desktop browsers that Atlassian supports for Jira Cloud. However, mobile browsers are not officially supported. This means that the desktop version of Git Integration for Jira Cloud app will not work using Android or iOS web browsers.
 
 For more information, see [**Atlassian Jira Cloud Supported Browsers**](https://confluence.atlassian.com/cloud/supported-browsers-744721663.html).
+
+&nbsp;
 
 ### Quick Installation Video
 
@@ -54,7 +59,9 @@ No changes necessary to your Git server. This Jira app acts as a regular Git cl
 
 Using Atlassian's marketplace system, a Jira administrator can install the Git Integration for Jira app without ever leaving the web browser.
 
+&nbsp;
 * * *
+&nbsp;
 
 ### Viewing Reindex Logs
 
@@ -66,7 +73,9 @@ If there is an error encountered when connecting to a repository, a similar inde
 
 <img src='/wp-content/uploads/gij-manage-git-repo-indexing-logs-dlg.png' width=680 height=425 style='margin:25px auto;max-width:100%;display:block;' />
 
+&nbsp;
 * * *
+&nbsp;
 
 ### Atlassian Support End of Life
 
@@ -130,7 +139,9 @@ The table below shows the Jira Version, when [Atlassian will stop supporting th
 
 \* See information below about retiring IE11 support.
 
+&nbsp;
 * * *
+&nbsp;
 
 ### Retiring IE11 Support
 
@@ -151,7 +162,7 @@ In view of this, BigBrassBand LLC will also follow this decision effectively:
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>

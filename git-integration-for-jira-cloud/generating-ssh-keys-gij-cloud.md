@@ -33,7 +33,7 @@ See GitHub supported platforms for generating SSH keys by following [this articl
 
 *   See reference, [Installing Git for MacOS/Windows/Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-*   For creating SSH keys, see [Generating SSH Public Key](https://docs.gitlab.com/ee/ssh/index.html). Also see the video demonstration [here](https://about.gitlab.com/blog/2014/03/04/add-ssh-key-screencast/).
+*   For creating SSH keys, see [Generating SSH Public Key](https://docs.gitlab.com/ee/user/ssh.html). Also see the video demonstration [here](https://about.gitlab.com/blog/2014/03/04/add-ssh-key-screencast/).
 
 ## GitLab CE/EE
 
@@ -61,7 +61,7 @@ The Git Integration for Jira app supports Gerrit web linking.
 
 *   For information about Gerrit software, see [Gerrit Software Wiki](http://en.wikipedia.org/wiki/Gerrit_(software)) and [Gerrit at Code Review](https://code.google.com/p/gerrit/).
 
-*   For general reference and installation, see [Gerrit documentation](https://gerrit-review.googlesource.com/Documentation/). [Ubuntu installation](https://gerrit-review.googlesource.com/Documentation/linux-quickstart.html) and fixing [registration error](https://code.google.com/p/gerrit/issues/detail?id=1549).
+*   For general reference and installation, see [Gerrit documentation](https://gerrit-review.googlesource.com/Documentation/). [Ubuntu installation](https://gerrit-review.googlesource.com/Documentation/linux-quickstart.html) and fixing [registration error](https://issues.gerritcodereview.com/issues/40001679).
 
 *   For information on SSH on Gerrit, see [SSH and Gerrit](https://gerrit-documentation.storage.googleapis.com/Documentation/2.11/user-upload.html#_ssh).
 
@@ -69,7 +69,7 @@ The Git Integration for Jira app supports Gerrit web linking.
 
 ## GitBlit
 
-*   For information about Gitblit, see [GitBlit official website](http://gitblit.github.io/gitblit/).
+*   For information about Gitblit, see [GitBlit official website](https://www.gitblit.com/).
 
 *   For general reference and installation, see [GitBlit Configuration](http://gitblit.com/administration.html), [Using HTTP/HTTPS Transport](http://gitblit.com/setup_transport_http.html) and [Built-in Authentication](http://gitblit.com/setup_authentication.html).
 
@@ -87,7 +87,7 @@ The Git Integration for Jira app supports Gerrit web linking.
 
 ## Git-scm
 
-*   See reference, [Installing Git for MacOS/Windows/Linux](https://git-scm.com/book/en/Getting-Started-Installing-Git).
+*   See reference, [Installing Git for MacOS/Windows/Linux](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 
 *   For creating SSH keys, see [Connecting to GitHub with SSH](https://help.github.com/en/articles/connecting-to-github-with-ssh).
 

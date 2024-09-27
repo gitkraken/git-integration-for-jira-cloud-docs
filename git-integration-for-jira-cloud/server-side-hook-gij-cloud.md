@@ -10,7 +10,7 @@ In addition to the commit-msg hook, you can use server-side hooks to apply polic
 
 In Linux and OSX, hook scripts must have executable permissions in the file system.
 
-For information about the local hook that should be installed, see [**Customizing Git – Hooks »**](http://git-scm.com/book/ch7-3.html).  For further information about git hooks, see [**githooks.com »**](http://githooks.com/).
+For information about the local hook that should be installed, see [**Customizing Git – Hooks »**](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).  For further information about git hooks, see [**githooks.com »**](http://githooks.com/).
 
 When the server handles the push from a client, the **pre-receive** script is run first.  When commits does not have proper Jira issue tagging, an error message from client to server is raised.
 
