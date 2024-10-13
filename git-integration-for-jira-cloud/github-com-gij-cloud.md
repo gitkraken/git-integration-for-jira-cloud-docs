@@ -67,11 +67,9 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
     - [Creating pull requests](#creating-pull-requests)
   - [More Integration Guides](#more-integration-guides)
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/8jtnqzp79y?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
