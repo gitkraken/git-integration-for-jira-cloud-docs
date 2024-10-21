@@ -37,7 +37,7 @@ taxonomy:
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-beta-features.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-This section introduces a setting to experience the next planned features granted as early access. Enabling this setting allows the use of the new beta features. This seamlessly opens the new features included in the current beta. Disable this setting to hide the new beta features.
+This section introduces a toggle setting to experience the next planned features granted as early access. Enabling this setting allows the use of the new beta features and show it in the General settings page. This seamlessly opens the new features included in the current beta to try out. Disable this setting to hide the new beta features.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">

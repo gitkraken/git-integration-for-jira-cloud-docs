@@ -30,7 +30,7 @@ Locate the Jira Git integration development panel on the right pane of the Jira 
 
 <img src='/wp-content/uploads/gij-cloud-jira-git-integration-panel-refresh.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Click **Refresh** to manually load the git data. This will also help avoid unnecessary git server requests that could potentially impact your rate limits.
+The **Refresh** action is available for manually reloading the git information on the Git Integration development panel. Use it to repopulate Git data without reloading the Jira issue page.
 
 &nbsp;
 
