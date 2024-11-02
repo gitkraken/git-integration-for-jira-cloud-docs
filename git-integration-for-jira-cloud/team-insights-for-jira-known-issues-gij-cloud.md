@@ -1,6 +1,6 @@
 ---
 
-title: Team Insights for Jira Cloud Known Issues
+title: Known Issues TIJ Cloud
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
