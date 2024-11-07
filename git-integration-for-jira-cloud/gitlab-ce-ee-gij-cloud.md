@@ -77,6 +77,7 @@ Quickly learn how to connect GitLab CE/EE git repositories via Git Integration f
 - [Integrate GitLab CE/EE with Jira Cloud](#integrate-gitlab-ceee-with-jira-cloud)
   - [Permissions](#permissions)
   - [Creating a personal access token](#creating-a-personal-access-token)
+    - [Automatic token rotation](#automatic-token-rotation)
   - [Using Git service integration](#using-git-service-integration)
   - [Single git repository integration](#single-git-repository-integration)
   - [Setting up GitLab web links](#setting-up-gitlab-web-links)
@@ -150,9 +151,27 @@ For more information, see <a href='https://docs.gitlab.com/ee/user/permissions.
     </div>
     </div>
 </div>
-<br>
 
 While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for a quick step-by-step guide to get you started.
+
+Starting May 14, 2024, Gitlab is removing support for non-expiring personal access tokens (PATs) where all existing unlimited tokens will suddenly expire. To maintain integration connections with your GitLab repositories, create a new token and manually enter it into the corresponding field in the integration connection properties in Git Integration for Jira app (GIJ).
+
+#### Automatic token rotation
+
+GIJ can [automatically rotate tokens](https://docs.gitlab.com/ee/api/personal_access_tokens.html#rotate-a-personal-access-token) but we still encourage users to manually enter their tokens before or as soon as it expires.
+
+The automatic rotation occurs only for the tokens used to connect Gitlab integrations. Any user PATs (used to create PRs) for Gitlab integrations aren't automatically rotated, and must be manually updated by each user themselves.
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If a PAT is used to connect several Gitlab integrations – only the integration that rotates the PAT first will still work. All other integrations will fail as they don’t know the new PAT, and the old PAT has been revoked by the rotation. The Jira admin will have to generate new PATs for each failed integration and manually update them.
+    </div>
+    </div>
+</div>
 
 &nbsp;
 
