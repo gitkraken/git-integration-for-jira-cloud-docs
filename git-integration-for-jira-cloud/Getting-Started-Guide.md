@@ -1,6 +1,6 @@
 ---
 
-title: Getting Started Guide
+title: Admin Getting Started Guide
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
