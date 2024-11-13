@@ -79,9 +79,10 @@ For customers that are hosted on the EU stack (hosted in Frankfurt, Germany, EU-
 
 For customers that are hosted on the US stack (hosted in the Ohio, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
 
-| IP address |
-| :--- |
-| **18.218.206.0** |
+| Server | IP address |
+| :--- | :--- |
+|App Server 0 | **18.218.206.0** |
+|App Server 1 | **3.22.75.155** |
 
 &nbsp;
 
@@ -100,9 +101,10 @@ For customers that are hosted on the Southeast Asian stack (Singapore), set the 
 
 For customers that are hosted on the Australia stack, set the allow list/whitelist for self-hosted git repositories:
 
-| IP address |
-| :--- |
-| **52.65.83.20** |
+| Server | IP address |
+| :--- | :--- |
+| App Server 0 | **52.65.83.20** |
+| App Server 1 | **13.237.217.178** |
 
 &nbsp;
 
