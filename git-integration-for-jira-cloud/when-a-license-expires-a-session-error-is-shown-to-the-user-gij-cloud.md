@@ -25,7 +25,7 @@ While session errors can just go away when the page is reloaded, this specific s
 
 Session error message that persist can mean that the trial or license to GIJ had expired. GIJ can detect a license expiration before it tries to detect a valid session. When valid, GIJ will display the correct message about the current license status.
 
-Once you have renewed you Git Integration for Jira app license, this error message
+Once you have renewed you Git Integration for Jira app license, this error message should stop appearing. Please note that if the license has been expired for too long, you might start seeing a different error noting 'There is no Enabled installID'. If you start seeing this error message after renewing your license. Please submit a [support request ](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/), as our dev team will need to manually enable your install.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
