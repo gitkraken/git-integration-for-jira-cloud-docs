@@ -38,9 +38,10 @@ How to find out which geographic region your Git Integration for Jira Cloud appl
 
 For customers that are hosted on the Global (hosted in the Northern Virginia, USA AWS region US-East-1), set the allow list/whitelist for self-hosted git repositories:
 
-| IP address |
-| :--- |
-| **52.73.151.196** |
+| Server | IP address |
+| :--- | :--- |
+|App server 0 | **52.73.151.196** |
+|App server 1 | **3.84.227.145** |
 
 &nbsp;
 
