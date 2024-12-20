@@ -92,7 +92,8 @@ Finally, on the bottom part of the page, you will see the following shortcut con
 
 Tick the **Show epics** checkbox on the Issue column header to display the list view in Epics mode.
 
-<img src='/wp-content/uploads/tij-gitcloud-general-view-epics-mode.png' style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/tij-gticloud-general-view-epics-mode.png' style='margin:25px auto;max-width:100%;display:block;' />
+
 
 The Epics view contains information that helps to organize the rows by epics. This allows team/product managers to easily expand and view the issues within each epic. While it functions closely similar to the General View, it also provides an additional level of organization based on epics.
 
