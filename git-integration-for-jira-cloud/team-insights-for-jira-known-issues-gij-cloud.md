@@ -15,7 +15,7 @@ Below are the known issues and workarounds related to Team Insights for Jira app
 - [Text search for issue key in backlog page not returning the desired Jira issue](#text-search-for-issue-key-in-backlog-page-not-returning-the-desired-jira-issue)
 - [More on Team Insights for Jira features](#more-on-team-insights-for-jira-features)
 
-<div id="users-are-removed-from-search-list">
+<div id="users-are-removed-from-search-list"></div>
 
 ### Users are removed from search list as you type in the search text box
 
