@@ -21,6 +21,17 @@ If you have any questions, please contact us through our [Support Portal](https:
 
 * * *
 
+### Admin Notifications
+
+`11 Nov 2024` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>Admins</b>
+
+Jira Admins and GIJ Managers now have the option to receive an email alert any time there is an issue with indexing a repository! Anything that causes an error state for an integration or repository will trigger these emails. Here's how to get started:
+
+*   In Jira, select Git Integration: Manage Integrations from the Apps dropdown
+*   Navigate to the General Settings page and select "Enable alerts..." under Email Alerts
+*   Individual Admins and GIJ Managers can opt out of receiving these emails by going to User settings and disabling "Send me alerts..." under Admin / manager email alerts
+*   To ensure you receive the emails, whitelist gij-notifications@gitkraken.com
+
 ### Manager Permissions
 
 `01 Nov 2023` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>Admins</b>
