@@ -9,6 +9,8 @@ taxonomy:
 
 [CI/CD for Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview) is a free extension to Git Integration for Jira, connecting your CI/CD DevOps pipelines with Jira Cloud’s builds and deployments features. Similar to how Git Integration for Jira exposes commits, branches, and pull requests, CI/CD for Jira adds in build and deployment information associated with Jira issues.
 
+&nbsp;
+
 ## Supported services
 
 [CI/CD for Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview) currently supports the following tools for Build and Deployment information:
@@ -18,13 +20,19 @@ taxonomy:
 *   Azure DevOps Pipelines (Cloud or Self Hosted)
 *   Bitbucket Pipelines (Cloud)
 
+&nbsp;
+
 ## Setup
 
 After adding the CI/CD for Jira extension from the Atlassian Marketplace, there are no additional steps needed to start seeing build and deployment information in Jira. Just ensure your previously connected repositories have been reindexed.
 
+&nbsp;
+
 ## Associating issues
 
-A build is automatically linked to an issue if one of the build's commits includes the issue key in its commit message. A deployment to an environment, such as production or testing, is linked if a commit associated with the deploy contains the issue key in its commit message.
+A build is automatically linked to a Jira issue if one of the build's commits includes the Jira issue key in its commit message. A deployment to an environment, such as production or testing, is linked if a commit that is associated with the deployment contains the Jira issue key in its commit message.
+
+&nbsp;
 
 ## Where to view builds and deployments
 
