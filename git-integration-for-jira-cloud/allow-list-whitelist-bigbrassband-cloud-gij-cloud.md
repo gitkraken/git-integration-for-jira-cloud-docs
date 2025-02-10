@@ -41,7 +41,7 @@ For customers that are hosted on the Global (hosted in the Northern Virginia, US
 | Server | IP address |
 | :--- | :--- |
 |App server 0 | **52.73.151.196** |
-|App server 1 | **3.84.227.145** |
+|App server 1 | **54.156.212.90** |
 
 &nbsp;
 
@@ -83,7 +83,7 @@ For customers that are hosted on the US stack (hosted in the Ohio, USA AWS regio
 | Server | IP address |
 | :--- | :--- |
 |App Server 0 | **18.218.206.0** |
-|App Server 1 | **3.22.75.155** |
+|App Server 1 | **18.218.116.230** |
 
 &nbsp;
 
