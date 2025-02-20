@@ -15,13 +15,13 @@ We are committed to provide you with an efficient and reliable support. Scroll 
 * * *
 &nbsp;
 
-### Jira Server platform end of life support
+### Jira Server platform migration planning
 
-Atlassian’s end of life support for the Jira Server platform is slated for February 15, 2024. Plan ahead on migrating your Jira Server to Cloud or Data Center starting now.
+If you are planning to migrate to another platform,  think ahead on migrating your Jira Server to Cloud or Data Center starting now.
 
 This process is simple and manageable:
 
-*   Before you migrate, upgrade Git Integration for Jira app to the latest version.
+*   Before you migrate, upgrade Git Integration for Jira Server app to the latest version.
 *   Back your data for migration.
 *   Plan your migration path.
 
@@ -135,7 +135,17 @@ The table below shows the Jira Version, when [Atlassian will stop supporting th
 | 9.9 | June 02, 2025 | Edge | Yes\* |
 | 9.10 | July 11, 2025 | Edge | Yes\* |
 | 9.11 | August 30, 2025 | Edge | Yes\* |
-| 9.12 | NOvember 29, 2025 | Edge | Yes\* |
+| 9.12 (LTS) | November 29, 2025 | Edge | Yes\* |
+| 9.13 | January 22, 2026 | Edge | Yes\* |
+| 9.14 | February 15, 2026 | Edge | Yes\* |
+| 9.15 | March 27, 2026 | Edge | Yes\* |
+| 9.16 | May 23, 2026 | Edge | Yes\* |
+| 9.17 | June 26, 2026 | Edge | Yes\* |
+| 10.0 | August 22, 2026 | Edge | Yes\* |
+| 10.1 | October 9, 2026 | Edge | Yes\* |
+| 10.2 | November 20, 2026 | Edge | Yes\* |
+| 10.3 (LTS) | December 5, 2026 | Edge | Yes\* |
+| 10.4 | January 22, 2027 | Edge | Yes\* |
 
 \* See information below about retiring IE11 support.
 

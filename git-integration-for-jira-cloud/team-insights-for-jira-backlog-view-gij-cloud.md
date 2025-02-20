@@ -158,8 +158,6 @@ Utilize the following fields to modify the sprint properties:
 | **_End Date_** | Assign or change the end date of the sprint. In order to effectively manage a sprint, it is important to establish clear deadlines. The expected deadline for this particular sprint should be determined in advance. This allows for greater accountability and helps to keep the project on track. |
 | **_Editing the timeline_** | On the timeline view, drag the slider for the selected sprint to adjust the time period assigned to it. The timeline can be adjusted by dragging it from any point, but do note that only the end date is changed. |
 
-<img src='/wp-content/uploads/tij-gitcloud-backlog-view-timeline-drag-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
-
 &nbsp;
 
 ### Editing the Timeline
