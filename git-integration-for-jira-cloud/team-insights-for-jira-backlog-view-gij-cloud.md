@@ -8,10 +8,10 @@ taxonomy:
 ---
 
 <div class='embed-container embed-container--16-9'>
-        <iframe width='709' height='382' src='https://www.youtube.com/embed/nxp_D7UuVU8' frameborder='0' allowfullscreen ></iframe>
-    </div>
+    <iframe width='709' height='382' src='https://www.youtube.com/embed/nxp_D7UuVU8' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-<div align='center' style='margin-top:12px;margin-bottom:40px;'>
+<div align='' style='margin-top:12px;margin-bottom:40px;'>
     <i>Right click <a href='https://www.youtube.com/watch?v=nxp_D7UuVU8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
@@ -157,8 +157,6 @@ Utilize the following fields to modify the sprint properties:
 | **_Start Date_** | Assign or change the start date of the sprint. This ensures a smooth and organized workflow for all the work and tasks that will be undertaken during the sprint. By setting a clear start date, teams can effectively plan and allocate their resources accordingly.
 | **_End Date_** | Assign or change the end date of the sprint. In order to effectively manage a sprint, it is important to establish clear deadlines. The expected deadline for this particular sprint should be determined in advance. This allows for greater accountability and helps to keep the project on track. |
 | **_Editing the timeline_** | On the timeline view, drag the slider for the selected sprint to adjust the time period assigned to it. The timeline can be adjusted by dragging it from any point, but do note that only the end date is changed. |
-
-<img src='/wp-content/uploads/tij-gitcloud-backlog-view-timeline-drag-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 &nbsp;
 

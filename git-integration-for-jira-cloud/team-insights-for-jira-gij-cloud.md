@@ -36,19 +36,39 @@ Team Insights for Jira (TIJ) grants managers a complete view of what your team i
 
 ### Installation
 
-Go to the Atlassian Marketplace then search for "Team Insights for Jira".
+Starting February 11, 2025, the Team Insights for Jra Cloud app extension is merged with Git Integration for Jira Cloud app.
 
-![](/wp-content/uploads/tij-gitcloud-atlassian-marketplace-installation.png)
+Go to the Atlassian Marketplace then search for "[Git Integration for Jira by GitKraken" (GIJ) app](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud).
 
-Click **Get app**. The following screen is displayed.
+![](/wp-content/uploads/gij-gitcloud-new-installation-trial-buy-c.png)
 
-<img src='/wp-content/uploads/tij-gitcloud-atlassian-marketplace-installation-01.png' style='margin:25px auto 35px auto;max-width:100%;display:block;' />
+Click **Try it free** and start the free trial for 30 days.
 
-Click **Get it now** to start the installation.
+![](/wp-content/uploads/gij-gitcloud-try-new-git-for-jira-cloud-app-c.png)
 
-When the installation is complete, click **Get started** on the following dialog to start using Team Insights for Jira.
+Login to your Jira account, if required, to proceed installation of the app. See [Git Integration for Jira Cloud pricing and subscription tiers](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=pricing) for more information. The license key is automatically configured into the app configuration for free trial licenses.
 
-<img src='/wp-content/uploads/tij-gitcloud-atlassian-marketplace-installation-02.png' style='margin:25px auto;max-width:100%;display:block;' />
+After the installation is complete, you will see the following message box:
+
+![](/wp-content/uploads/gij-gitcloud-installation-success-msg-balloon-c.png)
+
+*   Click **Get started** to take you to the Manage integrations page where you can configure and integrate your git repositories.
+
+*   Click **Manage app** to take you to the Manage apps page where you can manage your installed Jira apps and view the Git Integration for Jira app properties, version and license information.
+
+This completes the installation for Git Integration for Jira app with Team Insights for Jira extension.
+
+&nbsp;
+
+### Migration of Standalone TIJ Cloud data to GIJ\+TIJ Cloud
+
+#### Are there any special steps to migrate TIJ Cloud standalone to the merged GIJ+TIJ Cloud app? Any installation requirements?
+
+No, there are no additional steps or installation requirements needed. The TIJ standalone data migration is automatic.
+
+#### Does the TIJ extension becomes inaccessible when the GIJ app expires?
+
+No. The TIJ extension acts as a separate module and your TIJ data is not affected and remains accessible.
 
 &nbsp;
 
@@ -85,11 +105,11 @@ Viewing Team Insights for Jira data is derived from the Jira user permissions th
 
 &nbsp;
 
-### App location
+### Extension access location
 
 ![](/wp-content/uploads/tij-gitcloud-menu-access-location.png)
 
-Once you have successfully installed the application, you will be able to access Team Insights for Jira via the Jira dashboard menu. Simply navigate to Apps ➜ Team Insights for Jira.
+Once you have successfully installed the application, you will be able to access the Team Insights for Jira extension via the Jira dashboard menu. Simply navigate to Apps ➜ **Git Integration: Team Insights**.
 
 &nbsp;
 
@@ -144,8 +164,6 @@ Enable every team member and all departments to enhance their understanding by u
 Team Insights for Jira provides a comprehensive view of your team's Jira and Git activity over time. It allows you to easily track what tasks your team is currently working on and monitor their progress, thus impacting on productivity and efficiency.
 
 TIJ displays Jira activity for all Jira users. Git data such as branches, commits, pull requests, and tags are automatically included in the views if you have the [Git Integration for Jira](https://www.gitkraken.com/git-integration-for-jira) app installed.
-
-<img src='/wp-content/uploads/tij-gitcloud-main-screen-add-git-dev-activity.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
