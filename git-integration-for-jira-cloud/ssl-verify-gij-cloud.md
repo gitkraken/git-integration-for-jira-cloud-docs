@@ -20,16 +20,19 @@ This feature can be accessed at the following locations on the Manage Git reposi
     </li>
 </ul>
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If this setting is not displayed, it means that the git host service does not support this feature.
-    </div>
-    </div>
-</div>
+If this setting is not displayed, it means that the git host service does not support this feature. For example, SSL Verify is not available for git services such as:
+*   GitHub.com
+*   GitLab.com
+*   Azure/VSTS
+*   AWS CodeCommit
+*   Bitbucket.org
+
+SSL Verify is available for the following integrations:
+*   GitHub Enterprise
+*   GitLab CE/EE
+*   Azure DevOps Server/TFS
+*   Gerrit
+*   Plain git repository
 
 The **SSL Verify** option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira Cloud app will ignore verification of SSL certificates when connecting to a git server. This is useful for private Git servers that has custom SSL certificates.
 
