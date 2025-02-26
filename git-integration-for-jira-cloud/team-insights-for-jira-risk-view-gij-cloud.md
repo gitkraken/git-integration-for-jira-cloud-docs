@@ -25,31 +25,31 @@ To set the severity level for each setting, use the provided dropdown control.
 
 #### Sprint end date is less than # days away and more than #% of issues are not Done
 
-    Get visual notifications if the end date of the sprint is less than the defined **number of days**; and **how much percentage** (max 100%) of the issues that are still in an incomplete state.
+<p style='padding-left:30px;'>Get visual notifications if the end date of the sprint is less than the defined <b>number of days</b>; and <b>how much percentage</b> (max 100%) of the issues that are still in an incomplete state.</p>
 
 #### Sprint progress is # percentage points lower than expected
 
-    See visual cues if the sprint progress<sup>1</sup> is lower than the defined **number of percentage points**.
+<p style='padding-left:30px;'>See visual cues if the sprint progress<sup>1</sup> is lower than the defined <b>number of percentage points</b>.</p>
 
-    <sup>1</sup> _The expected progress calculation is based on completed issues, total number of issues and the sprint duration. For example, for a two-week sprint (14 days) with 14 issues -- the expected progress would be 1 issue in the Done status per day._
+<p style='padding-left:30px;'><sup>1</sup> <i>The expected progress calculation is based on completed issues, total number of issues and the sprint duration. For example, for a two-week sprint (14 days) with 14 issues -- the expected progress would be 1 issue in the Done status per day.</i></p>
 
 #### Sprint scope has been changed
 
-    Get visual alerts if the sprint scope has changed<sup>2</sup> at any point from when it started.
+<p style='padding-left:30px;'>Get visual alerts if the sprint scope has changed<sup>2</sup> at any point from when it started.</p>
 
-    <sup>2</sup> _Indicates an issue was added or removed from the sprint at any point after it was started._
+<p style='padding-left:30px;'><sup>2</sup> <i>Indicates an issue was added or removed from the sprint at any point after it was started.</i></p>
 
 #### Sprint is completed, but contains issues that are in progress
 
-    See visual warnings for completed sprints which contains issues that are still in progress.
+<p style='padding-left:30px;'>See visual warnings for completed sprints which contains issues that are still in progress.</p>
 
 #### Sprint is active beyond its end date
 
-    Get visual notifications if a sprint is still active past its due date.
+<p style='padding-left:30px;'>Get visual notifications if a sprint is still active past its due date.</p>
 
 #### Sprint has not been started and its start date is in the past
 
-    See visual alerts if a sprint has not been started for a long time.
+<p style='padding-left:30px;'>See visual alerts if a sprint has not been started for a long time.</p>
 
 &nbsp;
 
@@ -63,19 +63,19 @@ To set the severity level for each setting, use the provided dropdown control.
 
 #### Issue is stagnant (no activity) for # days from last activity
 
-    See visual notifications when an issue is inactive for the defined **number of days**.
+<p style='padding-left:30px;'>See visual notifications when an issue is inactive for the defined <b>number of days</b>.</p>
 
 #### Issue is stagnant (no activity) for # days from the last status change
 
-    Get visual cues when an issue is inactive for the defined **number of days** from the last time its status was changed.
+<p style='padding-left:30px;'>Get visual cues when an issue is inactive for the defined <b>number of days</b> from the last time its status was changed.</p>
 
 #### No assignee for # days
 
-    See visual alerts if an issue has no assigned user for a defined **number of days**.
+<p style='padding-left:30px;'>See visual alerts if an issue has no assigned user for a defined <b>number of days</b>.</p>
 
 #### More than # hours work of time logged
 
-    Get visual notifications if an issue has exceeded the defined **number of time logged** for work in hours.
+<p style='padding-left:30px;'>Get visual notifications if an issue has exceeded the defined <b>number of time logged</b> for work in hours.</p>
 
 &nbsp;
 
@@ -85,7 +85,7 @@ To set the severity level for each setting, use the provided dropdown control.
 
 #### No activity on PR # days since last activity
 
-    See visual representation alerts for pull requests that have been inactive for a defined **number of days** since the last activity.
+<p style='padding-left:30px;'>See visual representation alerts for pull requests that have been inactive for a defined <b>number of days</b> since the last activity.</p>
 
 &nbsp;
 
