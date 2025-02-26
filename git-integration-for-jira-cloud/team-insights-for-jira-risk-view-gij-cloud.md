@@ -25,31 +25,31 @@ To set the severity level for each setting, use the provided dropdown control.
 
 #### Sprint end date is less than # days away and more than #% of issues are not Done
 
-Get visual notifications if the end date of the sprint is less than the defined **number of days**; and **how much percentage** (max 100%) of the issues that are still in an incomplete state.
+    Get visual notifications if the end date of the sprint is less than the defined **number of days**; and **how much percentage** (max 100%) of the issues that are still in an incomplete state.
 
 #### Sprint progress is # percentage points lower than expected
 
-See visual cues if the sprint progress<sup>1</sup> is lower than the defined **number of percentage points**.
+    See visual cues if the sprint progress<sup>1</sup> is lower than the defined **number of percentage points**.
 
-<sup>1</sup> _The expected progress calculation is based on completed issues, total number of issues and the sprint duration. For example, for a two-week sprint (14 days) with 14 issues -- the expected progress would be 1 issue in the Done status per day._
+    <sup>1</sup> _The expected progress calculation is based on completed issues, total number of issues and the sprint duration. For example, for a two-week sprint (14 days) with 14 issues -- the expected progress would be 1 issue in the Done status per day._
 
 #### Sprint scope has been changed
 
-Get visual alerts if the sprint scope has changed<sup>2</sup> at any point from when it started.
+    Get visual alerts if the sprint scope has changed<sup>2</sup> at any point from when it started.
 
-<sup>2</sup> _Indicates an issue was added or removed from the sprint at any point after it was started._
+    <sup>2</sup> _Indicates an issue was added or removed from the sprint at any point after it was started._
 
 #### Sprint is completed, but contains issues that are in progress
 
-See visual warnings for completed sprints which contains issues that are still in progress.
+    See visual warnings for completed sprints which contains issues that are still in progress.
 
 #### Sprint is active beyond its end date
 
-Get visual notifications if a sprint is still active past its due date.
+    Get visual notifications if a sprint is still active past its due date.
 
 #### Sprint has not been started and its start date is in the past
 
-See visual alerts if a sprint has not been started for a long time.
+    See visual alerts if a sprint has not been started for a long time.
 
 &nbsp;
 
@@ -63,19 +63,19 @@ To set the severity level for each setting, use the provided dropdown control.
 
 #### Issue is stagnant (no activity) for # days from last activity
 
-See visual notifications when an issue is inactive for the defined **number of days**.
+    See visual notifications when an issue is inactive for the defined **number of days**.
 
 #### Issue is stagnant (no activity) for # days from the last status change
 
-Get visual cues when an issue is inactive for the defined **number of days** from the last time its status was changed.
+    Get visual cues when an issue is inactive for the defined **number of days** from the last time its status was changed.
 
 #### No assignee for # days
 
-See visual alerts if an issue has no assigned user for a defined **number of days**.
+    See visual alerts if an issue has no assigned user for a defined **number of days**.
 
 #### More than # hours work of time logged
 
-Get visual notifications if an issue has exceeded the defined **number of time logged** for work in hours.
+    Get visual notifications if an issue has exceeded the defined **number of time logged** for work in hours.
 
 &nbsp;
 
@@ -85,7 +85,7 @@ Get visual notifications if an issue has exceeded the defined **number of time l
 
 #### No activity on PR # days since last activity
 
-See visual representation alerts for pull requests that have been inactive for a defined **number of days** since the last activity.
+    See visual representation alerts for pull requests that have been inactive for a defined **number of days** since the last activity.
 
 &nbsp;
 
