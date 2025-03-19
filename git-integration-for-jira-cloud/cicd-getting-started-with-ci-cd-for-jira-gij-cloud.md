@@ -9,6 +9,8 @@ taxonomy:
 
 [CI/CD for Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview) is a free extension to Git Integration for Jira, connecting your CI/CD DevOps pipelines with Jira Cloud’s builds and deployments features. Similar to how Git Integration for Jira exposes commits, branches, and pull requests, CI/CD for Jira adds in build and deployment information associated with Jira issues.
 
+CI/CD for Jira tracks builds/deployments by Pull Requests, and supports classic pipelines, and YAML pipelines only for builds. If you are running your deployments via the build YAML pipeline, the deployments are not displayed.
+
 &nbsp;
 
 ## Supported services
@@ -31,6 +33,14 @@ After adding the CI/CD for Jira extension from the Atlassian Marketplace, there 
 ## Associating issues
 
 A build is automatically linked to a Jira issue if one of the build's commits includes the Jira issue key in its commit message. A deployment to an environment, such as production or testing, is linked if a commit that is associated with the deployment contains the Jira issue key in its commit message.
+
+&nbsp;
+
+## Does this extension support sending build/deployment information via webhook?
+
+CI/CD for Jira Cloud does not currently support sending build/deployment information via webhook event. Furthermore, if you are using webhook indexing, CI/CD information is not supported. 
+
+CI/CD indexing only happens during regular scheduled indexes, and cannot be triggered via indexing triggers. This can vary a little bit based on what service is being used and the way that the pipelines are configured.
 
 &nbsp;
 
