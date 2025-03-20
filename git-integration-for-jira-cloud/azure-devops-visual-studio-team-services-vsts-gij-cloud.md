@@ -46,6 +46,8 @@ The Git Integration for Jira app supports Azure Repos.
   - [Creating branches](#creating-branches)
   - [Creating pull requests](#creating-pull-requests)
   - [Merging _branch_ to _master_](#merging-branch-tomaster)
+- [Is it possible to integrate Azure Pipelines with Jira?](#is-it-possible-to-integrate-azure-pipelines-with-jira)
+- [Is CI/CD for Jira enough to display deployment data for Azure?](#is-cicd-for-jira-enough-to-display-deployment-data-for-azure)
 - [More Integration Guides](#more-integration-guides)
 
 &nbsp;
@@ -530,6 +532,20 @@ The reviewer's approval is required to completely merge the pull request. This 
 Once approved, the team leader or reviewer can then complete the merge. The commit can be viewed in the associated Jira issue page.
 
 ![](/wp-content/uploads/gij-gitcloud-merge-pull-request-example.png)
+
+&nbsp;
+
+### Is it possible to integrate Azure Pipelines with Jira?
+
+Yes. However, you will have to install our free add-on extension application called **[CI/CD For Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview)**. It is essentially an extension module that adds the ability to index CI/CD to our Git Integration for Jira app. Please see [Getting started with GIJ Cloud - CI/CD for Jira](https://help.gitkraken.com/git-integration-for-jira-cloud/cicd-getting-started-with-ci-cd-for-jira-gij-cloud/) for details.
+
+Do note that when using CI/CD for Jira with Azure, it currently only has partial support for YAML pipelines. If you are running both your builds and deployments through a single YAML pipeline, CI/CD for Jira can only index the builds and will not receive deployment data.
+
+&nbsp;
+
+### Is CI/CD for Jira enough to display deployment data for Azure?
+
+Not by itself, you need both [Git Integration for Jira Cloud app](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) AND [CI/CD for Jira extension](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview).
 
 &nbsp;
 
