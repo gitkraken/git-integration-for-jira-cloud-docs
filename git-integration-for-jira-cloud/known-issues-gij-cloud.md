@@ -12,11 +12,11 @@ The Git Integration for Jira app is packed with features that makes Jira adminis
 Below are the Git Integration app known issues and workarounds:
 
 #### Number of connected repositories per integration
-The Git Integration for Jira app have per integration limitation for number of connected repositories:
+The Git Integration for Jira app has a per integration limitation for number of connected repositories:
 
-*   GitHub - 5000
-*   GitLab - 5000
-*   All others - 5000
+*   GitHub - 10,000
+*   GitLab - 10,000
+*   All others - 10,000
 
 _Reference: GITCL-1395, GITCL-1846_
 
