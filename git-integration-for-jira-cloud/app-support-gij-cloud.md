@@ -7,8 +7,6 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app currently supports **Jira** **8.12** to **9.12**!
-
 We are committed to provide you with an efficient and reliable support. Scroll down to see helpful tips to get started.
 
 &nbsp;
@@ -91,61 +89,9 @@ If there is an error encountered when connecting to a repository, a similar inde
     </div>
 </div>
 
-Starting **v2.13.0+**, we are dropping support for Java 7, Jira 6.3 and 6.4.
+We are dropping support for Java 7.
 
-Starting **v3.5.1+**, support for Internet Explorer 11 browser is dropped.
-
-The table below shows the Jira Version, when [Atlassian will stop supporting that Jira version](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html) and the corresponding version of Internet Explorer.
-
-| Jira Version | Jira End of Life Date | Oldest IE Supported | Git Integration for Jira supported? |
-| --- | --- | --- | --- |
-| 7.13 | November 28, 2020 | Edge | Yes\* |
-| 8.0 | February 11, 2021 | Edge | Yes\* |
-| 8.1 | April 4, 2021 | Edge | Yes\* |
-| 8.2 | May 21, 2021 | Edge | Yes\* |
-| 8.3 | July 22, 2021 | Edge | Yes\* |
-| 8.4 | Sep 09, 2021 | Edge | Yes\* |
-| 8.5 | October 21, 2021 | Edge | Yes\* |
-| 8.6 | December 17, 2021 | Edge | Yes\* |
-| 8.7 | February 3, 2022 | Edge | Yes\* |
-| 8.8 | March 19, 2022 | Edge | Yes\* |
-| 8.9 | May 20, 2022 | Edge | Yes\* |
-| 8.10 | June 23, 2022 | Edge | Yes\* |
-| 8.11 | July 15, 2022 | Edge | Yes\* |
-| 8.12 | August 26, 2022 | Edge | Yes\* |
-| 8.13 | October 8, 2022 | Edge | Yes\* |
-| 8.14 | November 23, 2022 | Edge | Yes\* |
-| 8.15 | February 2, 2023 | Edge | Yes\* |
-| 8.16 | March 23, 2023 | Edge | Yes\* |
-| 8.17 | May 18, 2023 | Edge | Yes\* |
-| 8.18 | July 1, 2023 | Edge | Yes\* |
-| 8.19 | August 26, 2023 | Edge | Yes\* |
-| 8.20 | October 19, 2023 | Edge | Yes\* |
-| 8.21 | December 9, 2023 | Edge | Yes\* |
-| 8.22 | February 16, 2024 | Edge | Yes\* |
-| 9.0 | June 21, 2024 | Edge | Yes\* |
-| 9.1 | July 21, 2024 | Edge | Yes\* |
-| 9.2 | August 25, 2024 | Edge | Yes\* |
-| 9.3 | September 29, 2024 | Edge | Yes\* |
-| 9.4 | November 15, 2024 | Edge | Yes\* |
-| 9.5 | December 6, 2024 | Edge | Yes\* |
-| 9.6 | January 24, 2025 | Edge | Yes\* |
-| 9.7 | March 20, 2025 | Edge | Yes\* |
-| 9.8 | April 25, 2025 | Edge | Yes\* |
-| 9.9 | June 02, 2025 | Edge | Yes\* |
-| 9.10 | July 11, 2025 | Edge | Yes\* |
-| 9.11 | August 30, 2025 | Edge | Yes\* |
-| 9.12 (LTS) | November 29, 2025 | Edge | Yes\* |
-| 9.13 | January 22, 2026 | Edge | Yes\* |
-| 9.14 | February 15, 2026 | Edge | Yes\* |
-| 9.15 | March 27, 2026 | Edge | Yes\* |
-| 9.16 | May 23, 2026 | Edge | Yes\* |
-| 9.17 | June 26, 2026 | Edge | Yes\* |
-| 10.0 | August 22, 2026 | Edge | Yes\* |
-| 10.1 | October 9, 2026 | Edge | Yes\* |
-| 10.2 | November 20, 2026 | Edge | Yes\* |
-| 10.3 (LTS) | December 5, 2026 | Edge | Yes\* |
-| 10.4 | January 22, 2027 | Edge | Yes\* |
+Support for Internet Explorer 11 browser is dropped.
 
 \* See information below about retiring IE11 support.
 
