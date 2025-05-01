@@ -83,7 +83,7 @@ Group action becomes available when selecting multiple integrations and reposito
 
 [**Prev:** Managing repository or integration configuration](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration-gij-cloud)
 
-[**Next:** Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud)
+[**Next:** Edit integration settings](/git-integration-for-jira-cloud/edit-integration-gij-cloud)
 
 &nbsp;
 
@@ -93,15 +93,19 @@ Group action becomes available when selecting multiple integrations and reposito
 
 **Managing integrations via Actions (Jira Cloud)** (this page)
 
-[Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud/) (Git Integration for Jira Cloud)
+[Edit integration settings](/git-integration-for-jira-cloud/edit-integration-gij-cloud/) (Git Integration for Jira Cloud)
 
-[Edit repository](/git-integration-for-jira-cloud/edit-repository-gij-cloud/) (Git Integration for Jira Cloud)
+[Edit repository settings](/git-integration-for-jira-cloud/edit-repository-gij-cloud/) (Git Integration for Jira Cloud)
 
-[SSL Verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud/) (Git Integration for Jira Cloud)
+[Edit nested repository settings](/git-integration-for-jira-cloud/edit-nested-repository-settings-gij-cloud/) (Git Integration for Jira Cloud)
+
+[SSL verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud/) (Git Integration for Jira Cloud)
 
 [View repository indexing logs](/git-integration-for-jira-cloud/view-repository-indexing-logs-gij-cloud/) (Git Integration for Jira Cloud)
 
-[Removing integration or repository configuration](/git-integration-for-jira-cloud/removing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
+[Disconnect an integration or repository configuration](/git-integration-for-jira-cloud/removing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
+
+[Disconnect a nested repository configuration](/git-integration-for-cloud/remove-a-nested-repository-gij-cloud/) (Git Integration for Jira Cloud)
 
 [Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/) (Git Integration for Jira Cloud)
 
