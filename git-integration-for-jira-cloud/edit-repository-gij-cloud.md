@@ -1,6 +1,6 @@
 ---
 
-title: Edit repository
+title: Edit repository settings
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -51,9 +51,9 @@ Click **Cancel** to return to the manage git configuration page and discard the 
 &nbsp;
 * * *
 
-[**Prev:** Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud/)
+[**Prev:** Edit integration settings](/git-integration-for-jira-cloud/edit-integration-gij-cloud/)
 
-[**Next:** SSL verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud/)
+[**Next:** Edit nested repository settings](/git-integration-for-jira-cloud/edit-nested-repository-settings-gij-cloud/)
 
 &nbsp;
 
@@ -63,15 +63,20 @@ Click **Cancel** to return to the manage git configuration page and discard the 
 
 [Managing integrations via Actions (Jira Cloud)](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud/) (Git Integration for Jira Cloud)
 
-[Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud/) (Git Integration for Jira Cloud)
+[Edit integration settings](/git-integration-for-jira-cloud/edit-integration-gij-cloud/)
 
-**Edit repository** (this page)
+**Edit repository settings** (this page)
 
-[SSL Verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud/) (Git Integration for Jira Cloud)
+[Edit nested repository settings](/git-integration-for-jira-cloud/edit-nested-repository-settings-gij-cloud/) (Git Integration for Jira Cloud)
+
+[SSL verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud/) (Git Integration for Jira Cloud)
 
 [View repository indexing logs](/git-integration-for-jira-cloud/view-repository-indexing-logs-gij-cloud/) (Git Integration for Jira Cloud)
 
-[Removing integration or repository configuration](/git-integration-for-jira-cloud/removing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
+[Disconnect an integration or repository configuration](/git-integration-for-jira-cloud/removing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
+
+[Disconnect a nested repository configuration](/git-integration-for-jira-cloud/removing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
 
 [Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/) (Git Integration for Jira Cloud)
+
 

@@ -32,6 +32,7 @@ There are several types of project permission levels, namely:
   - [Integration level](#integration-level)
   - [Repository level within integration](#repository-level-within-integration)
 - [Setting project permissions in Jira Cloud](#setting-project-permissions-in-jira-cloud)
+  - [More related topics about managing repository/integration configuration](#more-related-topics-about-managing-repositoryintegration-configuration)
 
 ### Repository level
 
@@ -150,7 +151,31 @@ Watch the video below to learn different settings for each project permissions l
 &nbsp;
 * * *
 
-[**Prev:** Disconnecting integration or repositories](/git-integration-for-jira-cloud/removing-integration-or-repository-configuration-gij-cloud/)
+[**Prev:** Disconnect a nested repository configuration](/git-integration-for-jira-cloud/removing-integration-or-repository-configuration-gij-cloud/)
 
 [**Next:** General settings for Administrators](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud/)
+
+&nbsp;
+
+### More related topics about managing repository/integration configuration
+
+[Managing integration or repository configuration](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
+
+[Managing integrations via Actions (Jira Cloud)](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud/) (Git Integration for Jira Cloud)
+
+[Edit integration settings](/git-integration-for-jira-cloud/edit-integration-gij-cloud/) (Git Integration for Jira Cloud)
+
+[Edit repository settings](/git-integration-for-jira-cloud/edit-repository-gij-cloud/) (Git Integration for Jira Cloud)
+
+[Edit nested repository settings](/git-integration-for-jira-cloud/edit-nested-repository-settings-gij-cloud/) (Git Integration for Jira Cloud)
+
+[SSL verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud/) (Git Integration for Jira Cloud)
+
+[View repository indexing logs](/git-integration-for-jira-cloud/view-repository-indexing-logs-gij-cloud/) (Git Integration for Jira Cloud)
+
+[Disconnect an integration or repository configuration](/git-integration-for-jira-cloud/removing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
+
+[Disconnect a nested repository configuration](/git-integration-for-cloud/remove-a-nested-repository-gij-cloud/) (Git Integration for Jira Cloud)
+
+**Associating project permissions** (this page)
 
