@@ -32,3 +32,14 @@ Along with the feature limitations above, there are further differences in what 
 | Initial response time to support requests | 1 Business day | 6 hours with priority |
 | Customer Success representative support | None | Shared |
 | Ways to reach support | Email/support form | Email/support form, Chat (bot) |
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If these limitations are still not enough to cover your use case, please contact our Customer Success team at GIJSales@Gitkraken.com, and we can discuss further customization options for these limitations.
+    </div>
+    </div>
+</div>
