@@ -1,6 +1,6 @@
 ---
 
-title: New Doc Title
+title: GIJ Standard vs Advanced Feature matrix
 description: New Doc Description
 taxonomy:
     category: git-integration-for-jira-cloud

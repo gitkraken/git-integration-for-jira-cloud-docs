@@ -1,6 +1,6 @@
 ---
 
-title: Risk View Settings (TIJ Cloud)
+title: Signals Risk View Settings
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -89,17 +89,14 @@ To set the severity level for each setting, use the provided dropdown control.
 
 &nbsp;
 
-### More on Team Insights for Jira Cloud
+### More on Signals
 
-[Team Insights for Jira main](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud)
+[Signals](/git-integration-for-jira-cloud/Signals-gij-cloud)
 
-[General View](/git-integration-for-jira-cloud/team-insights-for-jira-general-view-gij-cloud/)
+[General View](/git-integration-for-jira-cloud/Signals-general-view-gij-cloud)
 
-[Teams View](/git-integration-for-jira-cloud/team-insights-for-jira-teams-view-gij-cloud)
+[Teams View](/git-integration-for-jira-cloud/Signals-teams-view-gij-cloud)
 
-[Backlog View](/git-integration-for-jira-cloud/team-insights-for-jira-backlog-view-gij-cloud/)
+[Backlog View](/git-integration-for-jira-cloud/Signals-backlog-view-gij-cloud)
 
-[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-tij-gij-cloud/)
-
-**Risk View Settings** (this page)
-
+[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)

@@ -1,19 +1,19 @@
 ---
 
-title: Known Issues TIJ Cloud
+title: Known Issues for Signals
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
-he Team Insights for Jira app extension is equipped with a wide range of features designed to elevate the work of team leaders and project leads, making their tasks significantly more manageable. However, due to the wide array of hardware configurations, these excellent features can sometimes be encumbered by various issues.
+The Signals feature is equipped with a wide range of features designed to elevate the work of team leaders and project leads, making their tasks significantly more manageable. However, due to the wide array of hardware configurations, these excellent features can sometimes be encumbered by various issues.
 
-Below are the known issues and workarounds related to Team Insights for Jira app extension:
+Below are the known issues and workarounds related to Signals:
 
 - [Users are removed from search list as you type in the search text box](#users-are-removed-from-search-list-as-you-type-in-the-search-text-box)
 - [Text search for issue key in backlog page not returning the desired Jira issue](#text-search-for-issue-key-in-backlog-page-not-returning-the-desired-jira-issue)
-- [More on Team Insights for Jira features](#more-on-team-insights-for-jira-features)
+- [More on Signals features](#more-on-Signals-features)
 
 <div id="users-are-removed-from-search-list"></div>
 
@@ -43,16 +43,16 @@ You can also do a search by issue key. Make sure to specify a valid Jira issue k
 
 &nbsp;
 
-### More on Team Insights for Jira features
+### More on Signals features
 
 **Team Insights for Jira Cloud** (this page)
 
-[General View](/git-integration-for-jira-cloud/team-insights-for-jira-general-view-gij-cloud/)
+[General View](/git-integration-for-jira-cloud/Signals-general-view-gij-cloud)
 
-[Teams View](/git-integration-for-jira-cloud/team-insights-for-jira-teams-view-gij-cloud)
+[Teams View](/git-integration-for-jira-cloud/Signals-teams-view-gij-cloud)
 
-[Backlog View](/git-integration-for-jira-cloud/team-insights-for-jira-backlog-view-gij-cloud/)
+[Backlog View](/git-integration-for-jira-cloud/Signals-backlog-view-gij-cloud)
 
-[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-tij-gij-cloud/)
+[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)
 
 

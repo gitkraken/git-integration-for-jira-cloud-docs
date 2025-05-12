@@ -1,6 +1,6 @@
 ---
 
-title: Teams View (TIJ Cloud)
+title: Signals Teams View
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -145,16 +145,13 @@ With all the selection of filters and search options in place, click **Search** 
 
 &nbsp;
 
-### More on Team Insights for Jira features
-
-[Team Insights for Jira Cloud](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud/)
-
-[Sprints/Epics View](/git-integration-for-jira-cloud/team-insights-for-jira-general-view-gij-cloud/)
-
-**Teams View** (this page)
-
-[Backlog View](/git-integration-for-jira-cloud/team-insights-for-jira-backlog-view-gij-cloud/)
-
-[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-tij-gij-cloud/)
+### More Signals features
 
 
+[Signals](/git-integration-for-jira-cloud/Signals-gij-cloud)
+
+[General View](/git-integration-for-jira-cloud/Signals-general-view-gij-cloud)
+
+[Backlog View](/git-integration-for-jira-cloud/Signals-backlog-view-gij-cloud)
+
+[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)

@@ -1,6 +1,6 @@
 ---
 
-title: Pull Request timeline for Team Insights for Jira
+title: Pull Request timeline for Signals
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -13,12 +13,12 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This feature requires Git Integration for Jira app installed to see pull request data in Team Insights for Jira.
+        This feature requires Git Integration for Jira app installed to see pull request data in Signals.
     </div>
     </div>
 </div>
 
-This feature supports pull/merge request (PR/MR) event history and it projects PR/MR reindex data to Team Insights for Jira (TIJ). The Git Integration for Jira app should be installed to be able to see more details in TIJ tasks and backlog view.
+This feature supports pull/merge request (PR/MR) event history and it projects PR/MR reindex data to Signals. The Git Integration for Jira app should be installed to be able to see more details in TIJ tasks and backlog view.
 
 For now, only GitHub and GitLab git services are currently supported.
 
@@ -74,16 +74,13 @@ Only these two scopes are required for GitHub App integration:
 
 &nbsp;
 
-### More on Team Insights for Jira features
+### More on Signals
 
-[Team Insights for Jira Cloud](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud/)
+[Signals](/git-integration-for-jira-cloud/Signals-gij-cloud)
 
-[General View](/git-integration-for-jira-cloud/team-insights-for-jira-general-view-gij-cloud/)
+[General View](/git-integration-for-jira-cloud/Signals-general-view-gij-cloud)
 
-[Teams View](/git-integration-for-jira-cloud/team-insights-for-jira-teams-view-gij-cloud/)
+[Teams View](/git-integration-for-jira-cloud/Signals-teams-view-gij-cloud)
 
-[Backlog View](/git-integration-for-jira-cloud/team-insights-for-jira-backlog-view-gij-cloud/)
-
-**Pull request timeline reindex** (this page)
-
+[Backlog View](/git-integration-for-jira-cloud/Signals-backlog-view-gij-cloud)
 

@@ -1,6 +1,6 @@
 ---
 
-title: Backlog View (TIJ Cloud)
+title: Signals Backlog View
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -35,7 +35,7 @@ So, basically, the Backlog View lets users:
 
 ![](/wp-content/uploads/tij-gitcloud-backlog-view-main-screen.png)
 
-On the middle top part of Team Insights for Jira page, click on the Backlog View tab.
+On the middle top part of Signals page, click on the Backlog View tab.
 
 The Backlog View organizes issues into sprints, similar to how Epics mode in General View group issues. This allows you to easily manage your backlog based on the Project filter. Sprints are automatically sorted by rank when the Backlog View is loaded.
 
@@ -245,16 +245,16 @@ Click on the following column headers to toggle ascending or descending sorting 
 
 &nbsp;
 
-### More on Team Insights for Jira features
+### More on Signals features
 
-[Team Insights for Jira Cloud](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud)
+[Signals for Jira Cloud](/git-integration-for-jira-cloud/Signals-gij-cloud)
 
-[Sprints/Epics View](/git-integration-for-jira-cloud/team-insights-for-jira-general-view-gij-cloud/)
+[Sprints/Epics View](/git-integration-for-jira-cloud/Signals-general-view-gij-cloud)
 
-[Teams View](/git-integration-for-jira-cloud/team-insights-for-jira-teams-view-gij-cloud)
+[Teams View](/git-integration-for-jira-cloud/Signals-teams-view-gij-cloud)
 
 **Backlog View** (this page)
 
-[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-tij-gij-cloud/)
+[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud/)
 
 
