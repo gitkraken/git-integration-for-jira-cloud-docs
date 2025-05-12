@@ -45,8 +45,6 @@ You can also do a search by issue key. Make sure to specify a valid Jira issue k
 
 ### More on Signals features
 
-**Team Insights for Jira Cloud** (this page)
-
 [General View](/git-integration-for-jira-cloud/Signals-general-view-gij-cloud)
 
 [Teams View](/git-integration-for-jira-cloud/Signals-teams-view-gij-cloud)
