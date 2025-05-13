@@ -26,4 +26,4 @@ taxonomy:
 | Priority Support | <img src='/wp-content/uploads/gij-matrix-open-not-red.png' width=20 height=20 /> | <img src='/wp-content/uploads/gij-matrix-open-check-green.png' width=20 height=20 /> |
 
 ## Usage Limits
-For a more detailed breakdown of the Usage limits between the two App Editions, please see our [GIJ Standard vs Advanced](/git-integration-for-jira-cloud/GIJ-Standard-vs-Advanced-features) page
+For a more detailed breakdown of the Usage limits between the two App Editions, please see our [GIJ Standard vs Advanced](/git-integration-for-jira-cloud/GIJ-Standard-vs-Advanced) page
