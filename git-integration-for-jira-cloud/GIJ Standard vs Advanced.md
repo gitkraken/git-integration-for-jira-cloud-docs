@@ -30,6 +30,9 @@ Along with the usage limitations above, there are further differences in what is
 | Customer Success representative support | None | <img src='/wp-content/uploads/gij-matrix-open-check-green.png' width=20 height=20 /> |
 | Support Channels | Email/support form | Email/support form, Chat |
 
+## Advanced Features
+For a more detailed breakdown of the feature differences between the two App Editions, please see our [GIJ Standard vs Advanced Feature breakdown](/git-integration-for-jira-cloud/GIJ-Standard-vs-Advanced-features)
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
