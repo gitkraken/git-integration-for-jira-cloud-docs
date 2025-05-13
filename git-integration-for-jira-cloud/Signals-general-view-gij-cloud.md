@@ -1,6 +1,6 @@
 ---
 
-title: General View (TIJ Cloud)
+title: General View (Signals_)
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
@@ -9,7 +9,7 @@ taxonomy:
 
 ![](/wp-content/uploads/tij-gitcloud-general-view-tab-access.png)
 
-The default view for the Team Insights for Jira app is the General View.
+The default view for Signals is the General View.
 
 You can switch to another view such as General, Teams or Backlog by clicking their specific tabs. In General View, the epics issue list can be enabled by clicking the **Show epics** checkbox on the Issues column header.
 
@@ -160,15 +160,13 @@ With all the selection of filters and search options in place, click **Search** 
 
 &nbsp;
 
-### More on Team Insights for Jira
+### More on Signals
 
-[Team Insights for Jira main](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud)
+[Signals](/git-integration-for-jira-cloud/Signals-gij-cloud)
 
-**General View** (this page)
+[Teams View](/git-integration-for-jira-cloud/Signals-teams-view-gij-cloud)
 
-[Teams View](/git-integration-for-jira-cloud/team-insights-for-jira-teams-view-gij-cloud)
+[Backlog View](/git-integration-for-jira-cloud/Signals-teams-view-gij-cloud)
 
-[Backlog View](/git-integration-for-jira-cloud/team-insights-for-jira-backlog-view-gij-cloud/)
-
-[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-tij-gij-cloud/)
+[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)
 
