@@ -1,6 +1,6 @@
 ---
 
-title: Team Insights for Jira Cloud
+title: Signals - GIJ Advanced
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
