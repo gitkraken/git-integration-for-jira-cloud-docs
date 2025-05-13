@@ -1,6 +1,6 @@
 ---
 
-title: General View (Signals_)
+title: General View (Signals)
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
