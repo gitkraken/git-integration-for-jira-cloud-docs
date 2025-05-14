@@ -19,6 +19,17 @@ GIJ Advanced is a higher tier edition of our application that is catered for cli
 | Daily Indexing Triggers | 5K | 25K |
 | Daily Webhook Indexing Events  | 2K | 10K |
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If you had an active GIJ subscription prior to May 14, 2025: Usage limits go into effect on July 1, 2025 for Monthly Subscriptions and upon next renewal for Annual Subscriptions (if after July 1, 2025). 
+    </div>
+    </div>
+</div>
+
 ### Non-Feature entitlements
 
 Along with the usage limitations above, there are further differences in what is offered between the two editions
@@ -29,6 +40,8 @@ Along with the usage limitations above, there are further differences in what is
 | Initial response time to support requests | 1 Business day | 6 hours with priority |
 | Customer Success representative support | None | <img src='/wp-content/uploads/gij-matrix-open-check-green.png' width=20 height=20 /> |
 | Support Channels | Email/support form | Email/support form, Chat |
+| Security Reports | SOC2 | Annual SOC2, custom security questionnaire |
+
 
 ## Advanced Features
 For a more detailed breakdown of the feature differences between the two App Editions, please see our [GIJ Standard vs Advanced Feature breakdown](/git-integration-for-jira-cloud/GIJ-Standard-vs-Advanced-features)
