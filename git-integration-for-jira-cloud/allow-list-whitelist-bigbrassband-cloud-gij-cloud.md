@@ -226,17 +226,14 @@ If your git server is only reachable on a private intranet or through a virtual 
 
 **Examples:**
 
-![](/wp-content/uploads/gij-check.png) [https://git.corp.com/repository/widget-production.git](https://git.corp.com/repository/widget-production.git) - a hosted git repository added directly
-
-![](/wp-content/uploads/gij-check.png) [https://git.corp.com](https://git.corp.com) - a git server running GitHub/Gitlab/etc
-
-![](/wp-content/uploads/gij-check.png) [https://gitlab.corp.com:8088](https://gitlab.corp.com:8088) - a server running on a non-standard port
-
-![](/wp-content/uploads/gij-check.png) [http://52.123.19.12](http://52.123.19.12) - server without DNS, just an IP
-
-![](/wp-content/uploads/gij-error.png) 192.168.1.92
-
-![](/wp-content/uploads/gij-error.png) git.corp (private network)
+| Reachable? | Example |
+| :--- | :--- |
+| ![](/wp-content/uploads/gij-check.png) | [https://git.corp.com/repository/widget-production.git](https://git.corp.com/repository/widget-production.git) -- a hosted git repository added directly |
+|![](/wp-content/uploads/gij-check.png) | [https://git.corp.com](https://git.corp.com) -- a git server running GitHub/Gitlab/etc |
+| ![](/wp-content/uploads/gij-check.png) | [https://gitlab.corp.com:8088](https://gitlab.corp.com:8088) -- a server running on a non-standard port |
+| ![](/wp-content/uploads/gij-check.png) | [http://52.123.19.12](http://52.123.19.12) -- server without DNS, just an IP |
+| ![](/wp-content/uploads/gij-error.png) | 192.168.1.92 |
+| ![](/wp-content/uploads/gij-error.png) | git.corp (private network) |
 
 &nbsp;
 
