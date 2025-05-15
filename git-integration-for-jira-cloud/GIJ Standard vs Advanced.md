@@ -14,10 +14,12 @@ GIJ Advanced is a higher tier edition of our application that is catered for cli
 
 | Usage Limits | Standard | Advanced |
 | :--- | :--- | :--- |
-| Total Connected Repositories | 200 | 10k |
-| Total Commits | 300k | 15 Million |
-| Daily Indexing Triggers | 5K | 25K |
-| Daily Webhook Indexing Events  | 2K | 10K |
+| Total Connected Repositories | 200 | 10k* |
+| Total Commits | 300k | 15 Million* |
+| Daily Indexing Triggers | 5K | 25K* |
+| Daily Webhook Indexing Events  | 2K | 10K* |
+
+*note: If your organization requires additional usage limits beyond the Advanced Edition, please reach out to our Customer Success team at gijsales@gitkraken.com.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
