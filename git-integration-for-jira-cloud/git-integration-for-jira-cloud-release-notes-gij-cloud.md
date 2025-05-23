@@ -21,6 +21,24 @@ If you have any questions, please contact us through our [Support Portal](https:
 
 * * *
 
+### Advanced Edition
+
+`14 May 2025` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURES</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
+
+Git Integration for Jira now offers two Editions - Standard and Advanced - with separate pricing and features. Existing subscriptions prior to this release are automatically converted to Standard Edition. 
+
+Advanced Edition was purpose-built based on insights and usage patterns from some of our most demanding enterprise customers. It’s designed for high-performing software teams that rely on deep Git/Jira integration to maintain velocity, surface risks early, and deliver complex projects at scale—going well beyond basic integration to help teams fully leverage their development data.
+
+Refer to the following pages to learn more about the changes, new features, and differences between Standard and Advanced Editions.
+*   [GIJ Advanced Launch Article](https://www.gitkraken.com/blog/introducing-git-integration-for-jira-cloud-advanced-edition)
+*   [Marketplace Listing - Pricing & Features](https://marketplace.atlassian.com/apps/4984?tab=pricing&hosting=cloud)
+*   [Usage Limits & Non-Feature Entitlements](/git-integration-for-jira-cloud/gij-standard-vs-advanced/)
+*   [Feature Comparison](git-integration-for-jira-cloud/GIJ-Standard-vs-Advanced-features/)
+
+Note: Standard Edition introduces a 200 connected repository limit, whereas the limit is 10k for Advanced. For subscriptions that were active prior to May 14, 2025: 
+*   Monthly Subscriptions (remaining on Standard): We are providing a ‘grace period’ that will end on July 1, 2025. At that point you will not be able to make changes to your connected repositories until you get below the 200 repo threshold.
+*   Annual Subscriptions (remaining on Standard): The ‘grace period’ (for connecting over 200 repos) extends until the end of your current subscription. Beginning on your next renewal date, you will be unable to make changes to your connected repositories until you get below the 200 repo threshold.  
+
 ### Admin Notifications
 
 `11 Nov 2024` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>Admins</b>
