@@ -21,6 +21,14 @@ If you have any questions, please contact us through our [Support Portal](https:
 
 * * *
 
+### GitHub App
+
+`6 June 2025` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>Admins</b>
+
+GitHub.com users can now connect integrations via Github App. Using this integration option can help with rate limiting, and also uses the app as context for permissions rather than a user.
+
+![](/wp-content/uploads/gij-github-app.png)
+
 ### Advanced Edition
 
 `14 May 2025` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURES</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
