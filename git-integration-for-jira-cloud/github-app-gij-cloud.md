@@ -74,13 +74,13 @@ Check GitHub Apps permission for your organization:
 
 1.  On your Jira dashboard menu, go to Apps ➜ **Git Integration for Jira by GitKraken**.
 
-    ![](/wp-content/uploads/github-app-integration.png)
+    ![](/wp-content/uploads/gij-github-app-integrations.png)
 
 2.  On the top right corner, click on the Add integration button. **GitHub**.
 
 3.  Click on the GitHub App option
 
-    ![](/wp-content/uploads/gij-github-app-integrations.png)
+    ![](/wp-content/uploads/github-app-integration.png)
 
 4.  Enter **Organization name**.
 
