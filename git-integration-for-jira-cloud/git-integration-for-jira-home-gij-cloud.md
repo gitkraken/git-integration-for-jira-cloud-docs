@@ -27,10 +27,10 @@ Check out the links below to get started with Git Integration for Jira. Use the 
 ## Getting started
 
 <div class='embed-container embed-container--16-9'>
-    <iframe width='709' height='443' src='https://fast.wistia.net/embed/iframe/8c0iq4hwdt?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IRyiQCx7buU?si=UVH0otlGzyG0607k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-<div style='margin-top:20px'>Direct links to the above <a href='https://bigbrassband.wistia.com/medias/8c0iq4hwdt'>Getting started</a> video as well as <a href='https://bigbrassband.wistia.com/medias/m9u64t1a3h'>Installation</a> video.</div>
+<div style='margin-top:20px'>Direct links to the above <a href='https://www.youtube.com/watch?v=IRyiQCx7buU'>Getting started video</a></div>
 
 ***
 
