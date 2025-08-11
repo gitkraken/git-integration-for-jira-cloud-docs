@@ -55,7 +55,18 @@ Evaluating a move to Jira Cloud? Learn more about the similarities and differenc
 
 <p id='steps-to-migrate'>&nbsp;</p>
 
-## ![](/wp-content/uploads/gij-pencil-icon.png) Steps to migrate
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+     GIJ now supports use of the JMCA migration tool! Currently you can use the tool to migrate any integrations of the following type: Github (PAT based) Cloud and Self-hosted, Gitlab Cloud, Azure DevOps Cloud and Self-hosted, and VSTS with more on the way! Detailed instructions coming soon!
+    </div>
+    </div>
+</div>
+
+## ![](/wp-content/uploads/gij-pencil-icon.png) Manual Steps to migrate
 
 Currently there are not automatic steps to migrate from Jira Server + Data Center to Jira Cloud.
 
