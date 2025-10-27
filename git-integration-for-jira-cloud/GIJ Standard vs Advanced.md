@@ -14,7 +14,7 @@ GIJ Advanced is a higher tier edition of our application that is catered for cli
 
 | Usage Limits | Standard | Advanced |
 | :--- | :--- | :--- |
-| Total Connected Repositories | 200 | 10k* |
+| Total Connected Repositories | 200 | 30k* |
 | Total Commits | 300k | 15 Million* |
 | Daily Indexing Triggers | 5K | 25K* |
 | Daily Webhook Indexing Events  | 2K | 10K* |
