@@ -436,7 +436,7 @@ The "..." indicates the truncation with the least character length to have the t
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        In case <a href="/git-integration-for-jira-cloud/jira-development-information-gij-cloud">when DevInfo for Jira Cloud is enabled</a>, commits shall be sent with <b><i>disabledTransition</i></b> flag.
+        In case <a href="/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-development-information">when DevInfo for Jira Cloud is enabled</a>, commits shall be sent with <b><i>disabledTransition</i></b> flag.
     </div>
     </div>
 </div>

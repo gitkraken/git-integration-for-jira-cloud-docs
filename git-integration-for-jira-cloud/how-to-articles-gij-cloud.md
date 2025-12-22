@@ -19,11 +19,11 @@ Read through our collection of how-to guides which will show you the recommended
 
 [Connecting SSH Git Repositories to Jira Cloud](/git-integration-for-jira-cloud/connecting-ssh-git-repositories-to-jira-cloud-gij-cloud)
 
-[How to link pull or merge requests to a Jira issue?](/git-integration-for-jira-cloud/how-to-link-pull-or-merge-requests-to-a-jira-issue-gij-cloud)
+[How to link pull or merge requests to a Jira issue?](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud#how-to-link-pull-or-merge-requests-to-a-jira-issue)
 
-[How to link branches to a Jira issue?](/git-integration-for-jira-cloud/how-to-link-branches-to-a-jira-issue-gij-cloud)
+[How to link branches to a Jira issue?](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud#how-to-link-branches-to-a-jira-issue)
 
-[How to link commits, branches and pull requests to a Jira issue?](/git-integration-for-jira-cloud/how-to-link-commits-branches-and-pull-requests-to-a-jira-issue-gij-cloud)
+[How to link commits, branches and pull requests to a Jira issue?](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud)
 
 [Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud)
 

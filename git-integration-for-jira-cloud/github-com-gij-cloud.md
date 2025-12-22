@@ -340,7 +340,7 @@ For more information about this feature, see [Documentation: Linking git commits
 
 ## Working with branches and pull requests with GitHub
 
-The Git Integration for Jira Cloud app adds two features on the Jira issue developer panel – Create Branch, and Create Pull/Merge Request. For more information about the developer panel, see the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud) documentation.
+The Git Integration for Jira Cloud app adds two features on the Jira issue developer panel – Create Branch, and Create Pull/Merge Request. For more information about the developer panel, see the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel) documentation.
 
 This process requires a GitHub git repository and a PAT with `repo` scopes.
 
@@ -352,7 +352,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 ### Creating branches
 
-On your Jira Cloud, open a Jira issue. On the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud), click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
+On your Jira Cloud, open a Jira issue. On the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel), click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
 
 ![](/wp-content/uploads/gij-gitcloud-issue-dev-panel-create-branch-dlg.png)
 

@@ -268,7 +268,7 @@ The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your GitHub web portal.
 
-Access the **Create branch** and **Create pull/merge request** features in the Jira issue developer panel. For more information, see [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud).
+Access the **Create branch** and **Create pull/merge request** features in the Jira issue developer panel. For more information, see [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel).
 
 &nbsp;
 

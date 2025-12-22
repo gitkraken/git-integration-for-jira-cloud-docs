@@ -371,7 +371,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 #### Creating Branches
 
-On your Jira Cloud, open a Jira issue. On the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud), click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
+On your Jira Cloud, open a Jira issue. On the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel), click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
 
 ![](/wp-content/uploads/gij-gitcloud-gitlab-ceee-create-branch-dlg.png)
 

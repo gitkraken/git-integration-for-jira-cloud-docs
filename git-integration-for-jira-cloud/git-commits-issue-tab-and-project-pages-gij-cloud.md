@@ -106,11 +106,11 @@ The Change association feature allows for updating the Jira issues associated wi
 
 [Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud/)
 
-[Jira Development Information](/git-integration-for-jira-cloud/jira-development-information-gij-cloud/)
+[Jira Development Information](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-development-information)
 
 [JQL Searching for Commits and Pull Requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud/)
 
-[Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/)
+[Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/smart-commits-gij-cloud#workflow-transitions)
 
 [Git Roll Up Issue Tab features](/git-integration-for-jira-cloud/git-roll-up-issue-tab-gij-cloud/)
 
@@ -122,7 +122,7 @@ The Change association feature allows for updating the Jira issues associated wi
 
 [Create pull or merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud/)
 
-[Repository Browser – Viewing all repositories](/git-integration-for-jira-cloud/repository-browser-viewing-all-repositories-gij-cloud/)
+[Repository Browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud)
 
 [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/)
 

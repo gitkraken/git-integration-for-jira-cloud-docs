@@ -9,7 +9,7 @@ taxonomy:
 
 <!-- FEATURES -->
 
-The Git Integration for Jira app adds two features on the Jira issue developer panel – **Create branch**, and **Create pull/merge request**. For more information on where to access them, see the [Jira Git integration development panel documentation](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud).
+The Git Integration for Jira app adds two features on the Jira issue developer panel – **Create branch**, and **Create pull/merge request**. For more information on where to access them, see the [Jira Git integration development panel documentation](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel).
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -69,7 +69,7 @@ Main branch for repositories within an integration can only be changed on the gi
                 The <b>View developer tools</b> <i>permission</i> is required to view the Source Code panel (see more in <a href='/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud'>Issue Git Source Code Panel</a>. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
             </li>
             <li>
-                Creating branch feature can be disabled for all Jira users (regardless of permissions) in <a href="/git-integration-for-jira-cloud/git-integration-options-gij-cloud#enable-create--delete-branch">General settings</a>.
+                Creating branch feature can be disabled for all Jira users (regardless of permissions) in <a href="/git-integration-for-jira-cloud/general-settings-gij-cloud#git-integration-options">General settings</a>.
             </li>
         </ul>
     </div>
@@ -203,7 +203,7 @@ Make a commit to this branch and continue to create a pull/merge request.
                 The <b>View developer tools</b> <i>permission</i> is required to view the Source Code panel (see more in <a href="/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud">Issue Git Source Code Panel</a>. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
             </li>
             <li>
-                Creating pull request feature can be disabled for all Jira users (regardless of permissions) in <a href="/git-integration-for-jira-cloud/git-integration-options-gij-cloud#enable-create-pull--merge-request">General settings</a>.
+                Creating pull request feature can be disabled for all Jira users (regardless of permissions) in <a href="/git-integration-for-jira-cloud/general-settings-gij-cloud#git-integration-options">General settings</a>.
             </li>
         </ul>
     </div>

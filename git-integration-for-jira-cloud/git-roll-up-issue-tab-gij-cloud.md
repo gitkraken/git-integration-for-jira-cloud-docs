@@ -87,19 +87,19 @@ Some notable sections:
 
 ### More related articles on Features
 
-[Deep Linking to the GitKraken Git Client](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client-gij-cloud) (Git Integration for Jira Cloud)
+[Deep Linking to the GitKraken Git Client](/git-integration-for-jira-cloud/Deeplinking-feature-gij-cloud) (Git Integration for Jira Cloud)
 
-[Deep Linking into GitLens](/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud) (Git Integration for Jira Cloud)
+[Deep Linking into GitLens](/git-integration-for-jira-cloud/Deeplinking-feature-gij-cloud) (Git Integration for Jira Cloud)
 
 [CI\/CD for Jira Cloud](/git-integration-for-jira-cloud/cicd-getting-started-with-ci-cd-for-jira-gij-cloud/) (Git Integration for Jira Cloud)
 
 [Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud/)
 
-[Jira Development Information](/git-integration-for-jira-cloud/jira-development-information-gij-cloud) (Git Integration for Jira Cloud)
+[Jira Development Information](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-development-information) (Git Integration for Jira Cloud)
 
 [JQL Searching for Commits and Pull/Merge Requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud/)
 
-[Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/)
+[Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/smart-commits-gij-cloud#workflow-transitions)
 
 **Git Roll Up Issue Tab** (this page)
 
@@ -107,7 +107,7 @@ Some notable sections:
 
 [Issue Git Source Code Panel](/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud) (Git Integration for Jira Cloud)
 
-[Repository Browser: Viewing all repositories](/git-integration-for-jira-cloud/repository-browser-viewing-all-repositories-gij-cloud) (Git Integration for Jira Cloud)
+[Repository Browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud) (Git Integration for Jira Cloud)
 
 [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud) (Git Integration for Jira Cloud)
 

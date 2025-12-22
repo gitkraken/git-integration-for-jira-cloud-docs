@@ -75,7 +75,7 @@ The Git Commits Issue tab lists the git commits associated to the Jira issue gr
 
 2.  Navigate to the **General settings** page of the application.
 
-3.  Enable or disable the setting: [Show Git Source Code Panel](/git-integration-for-jira-cloud/issue-git-source-code-panel-setting-gij-cloud).
+3.  Enable or disable the setting: [Show Git Source Code Panel](/git-integration-for-jira-cloud/general-settings-gij-cloud#issue-git-source-code-panel-setting).
 
 4.  Click **Update** button.
 
@@ -83,7 +83,7 @@ The Git Commits Issue tab lists the git commits associated to the Jira issue gr
 
 &nbsp;
 
-For detailed information about this feature, see [Documentation: Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud).
+For detailed information about this feature, see [Documentation: Jira Git integration development panel](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel).
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -105,11 +105,11 @@ For detailed information about this feature, see [Documentation: Jira Git integr
 
 [Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud/)
 
-[Jira Development Information](/git-integration-for-jira-cloud/jira-development-information-gij-cloud/)
+[Jira Development Information](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-development-information)
 
 [JQL Searching for Commits and Pull Requests](/git-integration-for-jira-cloud/jql-searching-for-commits-and-pull-requests-gij-cloud/)
 
-[Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/)
+[Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/smart-commits-gij-cloud#jira-cloud-smart-commits-and-workflow-triggers)
 
 [Git Roll Up Issue Tab features](/git-integration-for-jira-cloud/git-roll-up-issue-tab-gij-cloud/)
 
@@ -121,7 +121,7 @@ For detailed information about this feature, see [Documentation: Jira Git integr
 
 [Create pull or merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud/)
 
-[Repository Browser – Viewing all repositories](/git-integration-for-jira-cloud/repository-browser-viewing-all-repositories-gij-cloud/)
+[Repository Browser – Viewing all repositories](/git-integration-for-jira-cloud/repository-browser-gij-cloud)
 
 [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/)
 

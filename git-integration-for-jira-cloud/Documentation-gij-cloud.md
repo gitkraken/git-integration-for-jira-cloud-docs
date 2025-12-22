@@ -106,7 +106,7 @@ This page describes how to associate your commits to Jira issues.
 
 Learn how to use smart commits to transition Jira issues. See workflow setting and permission requirements to get started.
 
-#### [Repository Browser\: View all repositories](/git-integration-for-jira-cloud/repository-browser-viewing-all-repositories-gij-cloud)
+#### [Repository Browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud)
 
 View repository file and folder structure, compare branches or watch connected repos from within Jira.
 
@@ -130,11 +130,11 @@ This page contains information about new tabs that are added to the Jira issue p
 
 The Git Commits tab is added to the Jira project page. See more information about this feature.
 
-#### [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud)
+#### [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel)
 
 The git links are added to the developer panel; create branches and pull/merge requests via the Jira issue page, etc.
 
-#### [Git tags](/git-integration-for-jira-cloud/git-tags-gij-cloud)
+#### [Git tags](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#git-tags)
 
 See git tags support information and how to work with them.
 
