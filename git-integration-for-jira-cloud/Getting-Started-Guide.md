@@ -20,7 +20,7 @@ GIJ will display Commits, Branches, and Pull/Merge requests associated with a sp
  Please see: [Linking Git Commits](https://help.gitkraken.com/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/) for more details.
 
 **Breakdown of information provided by GIJ in Jira issues:**
-![Jira Issue View](/wp-content/uploads/Jira-Issue-Breakdown.png)
+![Jira Issue View](/wp-content/uploads/Jira-Issue-Breakdown-2025.png)
 **Activity Stream - Git Commits**
 1. Git Commits tab in the activity stream, broken down by repository
 2. Individual Commit, noted by Developer that made the commit
@@ -29,9 +29,9 @@ GIJ will display Commits, Branches, and Pull/Merge requests associated with a sp
 5. Link to view Code diff in Jira
 
 **Git Integration Panel**
-6. Commit Count
-7. Option to Create a branch directly from a Jira Issue. Associated Branches with change comparison count to main repository branch.
-8. Option to Create a Pull/Merge request directly from a Jira Issue. Associated Pull/Merge Requests with status
+6. Option to Create a branch or Pull Request directly from a Jira Issue
+7. Associated Branches and Pull requests with PR Status Icon.
+
 
 
 

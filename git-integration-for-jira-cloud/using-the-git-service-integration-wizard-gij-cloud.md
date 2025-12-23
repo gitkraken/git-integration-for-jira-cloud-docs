@@ -25,25 +25,25 @@ The Git service integration (_formerly full feature integration panel_) contains
 
 On the Manage integrations page, click on **Add integration** to start connecting git repositories from your git host service.
 
-<img src='/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 ## Step 2
 
 Click on the git service from the list then setup **OAuth** or **PAT** integration type. Click **Connect...** to proceed.
 
-<img src='/wp-content/uploads/gij-gitcloud-managed-ui-sel-git-host-service-page.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-managed-ui-sel-git-host-service-page-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 ## Step 3
 
 After the scan, select one or more repositories to connect it to Jira then click **Connect repositories**.
 
-<img src='/wp-content/uploads/gij-gitcloud-managed-ui-bitbucket-repo-sel.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-managed-ui-bitbucket-repo-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 ## Completed integration
 
 The integration is added to the git integration configuration list.
 
-<img src='/wp-content/uploads/gij-gitcloud-gitmgr-add-new-integration-complete.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-gitmgr-add-new-integration-complete-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 ## Other integration setup
 

@@ -26,14 +26,6 @@ To create a link between your Git commit and a Jira issue, developers must inclu
 
 ## How commit linking works
 
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/cs229y2gzj?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:15px;margin-bottom:30px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/cs229y2gzj'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 Commits are selected by issue key. Developers should add them to comments every time the commits are made.
 
 <div class="bbb-callout bbb--tip">
@@ -109,15 +101,6 @@ There are two scenarios related to the rename/move:
 &nbsp;
 
 ## Associating git commits manually to Jira issues
-
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/cq3r68b9ou?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px;margin-bottom:35px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/cq3r68b9ou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -131,21 +114,17 @@ There are two scenarios related to the rename/move:
 
 To manually link a git commit to a Jira issue, access the **Change commit issues** feature from the following locations:
 
-*   Projects (sidebar) ➜ **Git Commits** ➜ click _View Full Commit_. Click the ![edit](/wp-content/uploads/gij-edit-icon-dark.png) icon to modify commit associations.
-
-    ![](/wp-content/uploads/gij-gitcloud-view-full-commit-dlg-sel.png)
-
 *   Issue page ➜ **Git Commits** tab ➜ click _View Full Commit_. Click the ![edit](/wp-content/uploads/gij-edit-icon-dark.png) icon to modify commit associations.
 
-    ![](/wp-content/uploads/gij-gitcloud-view-full-commit-issue-page-sel.png)
+    ![](/wp-content/uploads/gij-gitcloud-view-full-commit-issue-page-sel.png-2025.png)
 
 *   Jira dashboard menu Apps ➜ **Git Integration: Repository browser** ➜ click a repository _with git commits_. Click the ![edit](/wp-content/uploads/gij-edit-icon-dark.png) icon on the commit in the repository view.
 
-    ![](/wp-content/uploads/gij-gitcloud-repo-browser-assoc-sel-with-browse.png)
+    ![](/wp-content/uploads/gij-gitcloud-repo-browser-assoc-sel-with-browse-2025.png)
 
 ### Method 1: Using the dropdown
 
-<img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-dropdown.png' style='margin:25px auto 35px auto;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-dropdown-2025.png' style='margin:25px auto 35px auto;display:block;' />
 
 Add, edit or delete linked Jira issue keys in the _**Associated issues to commit**_ field:
 
@@ -156,7 +135,7 @@ Add, edit or delete linked Jira issue keys in the _**Associated issues to commit
 
 ### Method 2: Type to search
 
-<img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-typetext.png' style='margin:25px auto 35px auto;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-typetext-2025.png' style='margin:25px auto 35px auto;display:block;' />
 
 *   Type a Jira issue key or a word from a Jira issue summary and the list will try to display them.
 *   Click a Jira issue from the list to associate it to the currently configured commit.
@@ -200,7 +179,7 @@ Click **Save** to save the changes.
 
 If the commit is associated with multiple Jira issues, you will see the following:
 
-<img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-multiple.png' style='margin:25px auto 35px auto;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-multiple-2025.png' style='margin:25px auto 35px auto;display:block;' />
 
 In the above example, the selected commit is associated with Jira issues `TEST-1` and `TEST-4`.
 

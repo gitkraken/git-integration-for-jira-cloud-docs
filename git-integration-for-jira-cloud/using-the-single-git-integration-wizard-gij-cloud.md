@@ -26,7 +26,7 @@ Connect specific single git repositories via Git Integration for Jira app.
 
 On the Manage integrations page, click **Add integration**.
 
-![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page.png)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page-2025.png)
 
 &nbsp;
 
@@ -36,7 +36,7 @@ On the Git hosting service selection screen, use the **Quick start** section by 
 
 You can also click on **Plain Git Repository** to connect single git repositories.
 
-<img src='/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-sel-https.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-sel-https-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 &nbsp;
 
@@ -48,7 +48,7 @@ Setup the integration depending on which type of git clone URL that you are usin
 
 #### 3a\. HTTPS authentication
 
-![](/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-add-new-http.png)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-add-new-http-2025.png)
 
 Provide login credentials as required then click **Add integration** to complete this setup.
 
@@ -67,7 +67,7 @@ Provide login credentials as required then click **Add integration** to complete
 
 ### 3b\. SSH authentication
 
-![](/wp-content/uploads/gij-gitcloud-quick-start-plain-git-integration-ssh.png)
+![](/wp-content/uploads/gij-gitcloud-quick-start-plain-git-integration-ssh-2025.png)
 
 Provide SSH credentials as required then click **Add integration** to complete this setup.
 

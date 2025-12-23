@@ -26,13 +26,13 @@ Webhook indexing integration allows your connected git servers to work behind a 
 
 On the Manage integration page, click **Add integration** then click on a supported Git service from the list.
 
-<img src='/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 ## Step 2
 
 Click on the **Webhook indexing** integration type then click **Add integration** to proceed.
 
-<img src='/wp-content/uploads/gij-gitcloud-add-new-integration-type-webhook-indexing.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-add-new-integration-type-webhook-indexing-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 ## Step 3
 
@@ -48,7 +48,7 @@ Click on the **Webhook indexing** integration type then click **Add integration*
     </div>
 </div>
 
-<img src='/wp-content/uploads/gij-gitcloud-webhook-indexing-data-sample-info.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-webhook-indexing-data-sample-info-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 Refer to the links under the **Instructions** section to provide you guidance while using generated information from the Webhook indexing integration screen (**Webhook URL** and **Secret key**). This is because [indexing triggers](/git-integration-for-jira-cloud/indexing-triggers-formerly-webhooks-gij-cloud/) and webhook indexing integration have different pipelines. However, the webhook events triggered by this integration also appears in the indexing triggers log (Git integration sidebar ➜ Indexing triggers ➜ **Indexing triggers log**).
 

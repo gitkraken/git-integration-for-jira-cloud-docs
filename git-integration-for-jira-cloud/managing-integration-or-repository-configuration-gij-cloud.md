@@ -17,7 +17,7 @@ On the git integration configuration page, you can manage connected integrations
 
 The Manage integrations page allows administrators to integrate and manage supported git host services in Jira.
 
-![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-list.png)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-list-2025.png)
 
 <br>
 
@@ -53,7 +53,7 @@ The Manage repositories page displays connected git repositories in Jira. All in
 
 Manage connected integration or repositories via the &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> **Actions** commands on the git configuration page. To learn more about these functions, proceed to the next page.
 
-![](/wp-content/uploads/gij-gitcloud-managed-ui-manage-integrations-actions-sel.png)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-manage-integrations-actions-sel-2025.png)
 
 &nbsp;
 * * *

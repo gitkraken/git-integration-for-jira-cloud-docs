@@ -7,11 +7,11 @@ taxonomy:
 
 ---
 
-![](/wp-content/uploads/gij-gitcloud-actions-view-logs.png)
+![](/wp-content/uploads/gij-gitcloud-actions-view-logs-2025.png)
 
 Access the repository indexing logs via ![](/wp-content/uploads/actions-icon.png) Actions ➜ **View log**. The Integration indexing log dialog is displayed.
 
-![](/wp-content/uploads/gij-gitcloud-actions-view-logs-dialog.png)
+![](/wp-content/uploads/gij-gitcloud-actions-view-logs-dialog-2025.png)
 
 
 The above dialog displays partial log information. Download the full log to save it to your local machine and view the entire log information via your favorite log viewer.

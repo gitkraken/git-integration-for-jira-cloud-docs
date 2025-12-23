@@ -15,11 +15,11 @@ For this guide, we will use GitLab Server as an example:
 
 1.  On your Jira dashboard, go to menu Apps ➜ **Git Integration: Manage Git repositories**. The following page is displayed.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page-2025.png)
 
 2.  On the Git host service selection screen, click on **GitLab server** then click on **GitLab Server (CE/EE) APIv4** to select this integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-add-integration-type-gitlab-server-sel.png)
+    ![](/wp-content/uploads/gij-gitcloud-add-integration-type-gitlab-server-sel-2025.png)
 
     *   Enter the **Host URL** of the private git server.
     *   Enter **Personal access token** for this server (APIv4). _Support for APIv3 is deprecated._

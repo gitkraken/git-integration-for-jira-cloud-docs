@@ -24,21 +24,21 @@ This guide covers connecting a single git repository to Jira using either HTTP/H
 
 This process requires an existing git host repository. Obtain the **HTTPS** git clone URL from the repository home of your git host service. The figure below is an example from GitHub:
 
-![](/wp-content/uploads/gij-github-single-repo-demo-clone-url.png)
+![](/wp-content/uploads/gij-github-single-repo-demo-clone-url-2025.png)
 
 To connect a git repository to Jira via the Git Integration for Jira app:
 
 1.  On your Jira dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel.png)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-2025.png)
 
 2.  On the Manage integrations page, click **Add integration.**
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  On the following screen, at the Quick start integration section of the page:
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-sel-https.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-sel-https-2025.png)
 
     *   Click on the **HTTPS** tab.
     *   Enter the git clone URL on the provided box.
@@ -61,21 +61,21 @@ The repository is now connected for use with Jira.
 
 This process requires an existing git host repository. Obtain the **SSH** git clone URL from the repository home of your git host service. The figure below is an example from GitHub:
 
-![](/wp-content/uploads/gij-gitcloud-github-clone-repo-url-ssh.png)
+![](/wp-content/uploads/gij-gitcloud-github-clone-repo-url-ssh-2025.png)
 
 To connect a git repository to Jira via the Git Integration for Jira app:
 
 1.  On your Jira dashboard menu, go to **Apps** ➜ **Git Integration: Manage integrations.**
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel.png)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-2025.png)
 
 2.  On the Manage integrations page, click **Add integration.**
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  On the following screen, at the Quick start integration section of the page:
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-sel-ssh.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-sel-ssh-2025.png)
 
     *   Click on the **SSH** tab.
     *   Enter the git clone URL on the provided box.

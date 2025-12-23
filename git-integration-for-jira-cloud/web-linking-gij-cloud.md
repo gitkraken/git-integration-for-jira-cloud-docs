@@ -24,14 +24,6 @@ The web linking feature adds links to your git hosting provider directly into th
 
 For single git repository integration, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/zfxfemq7z8?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px;margin-bottom:35px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/zfxfemq7z8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 The following providers are supported:
 
 *   **cgit**

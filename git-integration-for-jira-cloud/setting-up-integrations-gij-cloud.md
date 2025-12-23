@@ -9,7 +9,7 @@ taxonomy:
 
 Setup repositories and manage them in the Git Integration app configuration in Jira.
 
-![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page.png)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page-2025.png)
 
 &nbsp;
 
@@ -32,7 +32,7 @@ Setup repositories and manage them in the Git Integration app configuration in J
 
 Integrate your git repositories via the Git Integration for Jira app in Jira Cloud. The Git Integration app provides special integrations with GitHub, GitLab, Azure Repos and more. Start integrating your git repositories by clicking **Add integration**.
 
-![](/wp-content/uploads/gij-gitcloud-managed-ui-sel-git-host-service-page.png)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-sel-git-host-service-page-2025.png)
 
 **Cloud-hosted** Git host services can be integrated into Jira automatically. Supported git hosts listed under this group are hosted remotely in the Cloud.
 
@@ -52,11 +52,8 @@ After the installation, the Git Integration for Jira app repository configuratio
 
 *   Jira dashboard menu Apps ➜ **Git Integration: Manage integrations**
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel.png)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-2025.png)
 
-*   Jira dashboard menu Jira Settings ➜ Apps ➜ **Manage integrations** (sidebar)
-
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-system-apps-access.png)
 
 &nbsp;
 
@@ -68,11 +65,11 @@ After the installation, the Git Integration for Jira app repository configuratio
 
 On this page, you will be able to setup your git repositories and connect them to Jira.
 
-<img src='/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 On the **Add new integration** page, the list of supported Git host services is displayed.
 
-<img src='/wp-content/uploads/gij-gitcloud-managed-ui-sel-git-host-service-page.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-managed-ui-sel-git-host-service-page-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 Click on the git host service that you will be working on and connect it into Jira.
 
@@ -112,7 +109,7 @@ See example integration support table for popular git host services:
 
 ### OAuth integration
 
-<img src='/wp-content/uploads/gij-add-new-integration-oauth-sel.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-add-new-integration-oauth-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 Formerly known as Full feature auto-connect integration.
 
@@ -133,7 +130,7 @@ For more details on supported git host services, see the full feature integratio
 
 ### PAT integration
 
-<img src='/wp-content/uploads/git-add-new-integration-pat-sel.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/git-add-new-integration-pat-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 This type of integration has similar features to OAuth but uses PAT (personal access token) instead to automatically connect repository integrations.
 
@@ -151,7 +148,7 @@ This type of integration has similar features to OAuth but uses PAT (personal ac
 
 ### Webhook indexing integration
 
-<img src='/wp-content/uploads/gij-add-new-integration-webhook-indexing-sel.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-add-new-integration-webhook-indexing-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 Connect directly to a Git service by configuring webhooks to push commit, branch, pull request, and tag data to Jira Cloud.
 
@@ -165,13 +162,13 @@ Webhook indexing integration allows your connected git servers to work behind a 
 
 ## Plain Git integration
 
-<img src='/wp-content/uploads/gij-add-new-integration-plain-git-sel.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-add-new-integration-plain-git-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 Manually connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. or simply connect one specific repository.
 
 Connected git service integrations appear in the Manage integration configuration list.
 
-<img src='/wp-content/uploads/gij-add-new-integration-plain-git-repo-list-view.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-add-new-integration-plain-git-repo-list-view-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 1.  Use the search option and filter to control integration list display.
 
@@ -195,7 +192,7 @@ The above UI descriptions also apply to the Manage repositories page since it ha
 
 In the new managed user interface, the **Reindex all** function is further improved and superseded by (1) selecting one or more integration/repositories using the checkboxes on the Manage integrations list, and then (2) performing reindex on the selected items.
 
-<img src='/wp-content/uploads/gij-gitcloud-gitmgr-checkboxes-reindex-selected.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-gitmgr-checkboxes-reindex-selected-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 This function will perform a reindex queue of all the selected integration/repository from the list.
 
@@ -219,9 +216,9 @@ This function will perform a reindex queue of all the selected integration/repos
 
 ## More features
 
-Click the **…** to see more features such as Repository browser and General settings.
+Click the **…** to see more features such as Repository browser and App settings.
 
-<img src='/wp-content/uploads/gij-gitcloud-gitmgr-other-features-sel.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-gitmgr-other-features-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 The rest of the features can also be accessed on the left sidebar of the Manage integrations page.
 

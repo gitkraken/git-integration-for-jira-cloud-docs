@@ -9,7 +9,7 @@ taxonomy:
 
 On the Manage integrations page. click on <img src='/wp-content/uploads/actions-icon.png' style='margin: 0 3px' /> Actions ➜ **Edit integration** for the selected integration to open its configuration page.
 
-![](/wp-content/uploads/gij-gitcloud-manage-integration-actions-edit-cfg.png)
+![](/wp-content/uploads/gij-gitcloud-manage-integration-actions-edit-cfg-2025.png)
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -26,7 +26,7 @@ On the Manage integrations page. click on <img src='/wp-content/uploads/actions-
 
 ## Connection settings
 
-![](/wp-content/uploads/gij-gitcloud-edit-integration-connection-cfg.png)
+![](/wp-content/uploads/gij-gitcloud-edit-integration-connection-cfg-2025.png)
 
 The connection settings page contains configuration options to manage integration connection and displayed repositories.
 
@@ -44,7 +44,7 @@ Utilize the following options to configure the selected integration:
 
 ## Feature settings
 
-![](/wp-content/uploads/gij-gitcloud-edit-integration-features-cfg.png)
+![](/wp-content/uploads/gij-gitcloud-edit-integration-features-cfg-2025.png)
 
 The Feature settings page contains configuration options related to user and project access, and the indexing triggers URL.
 
@@ -58,7 +58,7 @@ The Feature settings page contains configuration options related to user and pro
 
 ## Choose repositories
 
-![](/wp-content/uploads/gij-gitcloud-managed-ui-github-repo-sel.png)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-github-repo-sel-2025.png)
 
 The Choose repositories settings page contains configuration options to manage which repositories to connect to Jira.
 

@@ -39,7 +39,7 @@ If the Git Integration for Jira app is configured and licensed successfully, new
     <div class="imsgbox">
         Some features can be switched on and off via <a href='/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud'>General settings</a>:<br>
         <ul style='margin-bottom:0px;'>
-            <li>Jira dashboard menu Apps ➜ Git Integration: Repository browser/Git Integration: Manage Git repositories ➜ <b>General settings</b> (sidebar).</li>
+            <li>Jira sidebar ➜ Apps ➜ Git Integration for Jira ➜ <b>App Setting</li>
         </ul>
     </div>
     </div>
@@ -52,7 +52,7 @@ Users can see available features in the Jira issue page:
 *   Git Development panel
 *   Git Integration panel
 
-![](/wp-content/uploads/gij-gitcloud-jira-issue-page-view-sel.png)
+![](/wp-content/uploads/gij-gitcloud-jira-issue-page-view-sel-2025.png)
 
 <img src='/wp-content/uploads/gij-gitcloud-jira-issue-git-idev-panel-view-new.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -60,14 +60,11 @@ Users can see available features in the Jira issue page:
 |:---:|:---|:---|
 | **1** | **Git Commits** | In this tab, service users can see commit information such as commit author, changes to source files, as well as viewing the full commit that are associated to the current issue. |
 | **2** | **Git Roll Up** | In this tab, service users can see commit statistics, diff and referenced Jira issues. |
-| **3** | **Jira Development panel** | The Jira Development Panel is located on the right panel of the Jira issue page. This is a shortcut to viewing list of branches, commits and pull/merge requests. |
-| **4** | **Git Integration panel** | Click to open the Git integration panel and allows service users to create branches and pull/merge requests for selected repositories inside Jira. |
-| **5** | **Commit counter** | Contains git commits counter and shortcuts to Git Commits and Git Roll Up tabs. |
-| **6** | **Branches** | Allows service users to create git branches against the specified repository from inside Jira. Created branches are displayed as a list. |
-| **7** | **Ahead and Behind** | Represents the number of commits that are ahead/behind the main branch. |
-| **8** | **Deep links** | Deep link shortcuts to view the selected branch in your git host service or in GitKraken git client app. |
-| **9** | **Pull/Merge Requests** | Allows service users to create pull/merge request against the specified repository from inside Jira. Created pull/merge requests are displayed as a list. |
-| **10** | **Git tags** | Lists available git tags from the connected git repositories. Use the git shortcut icons to open git tags in your git host service, GitKraken git client app or GitLens VSCode extension. |
+| **3** | **Jira Development panel** | The Jira Development Panel is located on the right panel of the Jira issue page. This is a shortcut to viewing list of branches, commits and pull/merge requests. **Please Note** This panel is owned/maintained directly by Jira. While our application passes information to it, at times, it is possible for the information to be out of date. We suggest relying on the information from our panels. |
+| **4 & 5** | **Issue Activity by GitKraken panel** | Click to open the Git integration panel and allows service users to create branches and pull/merge requests for selected repositories inside Jira. |
+| **6** | **Branches and Pull requests** | Allows service users to create git branchesand Pull Requests against the specified repository from inside Jira. Created branches and Pull Requests are displayed as a list, with Pull Requests displaying Icons to indicate the status of the PR. |
+| **7** | **Deep links** | Deep link shortcuts to view the selected branch or PR in your git host service or in the GitKraken Desktop App and Gitlen for VSCode. |
+| **8** | **Git tags** | Lists available git tags from the connected git repositories. Use the git shortcut icons to open git tags in your git host service, GitKraken git client app or GitLens VSCode extension. |
 
 &nbsp;
 
@@ -81,7 +78,7 @@ The **Git Roll Up** tab shows statistical information of the first and last revi
 
 Open a Jira issue then go to the Git Roll Up tab to view commit statistics, diffs and related git information.
 
-<img src='/wp-content/uploads/gij-gitcloud-jira-issue-rollup-tab.png' style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-jira-issue-rollup-tab-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 ### Category sorting
 
@@ -143,52 +140,14 @@ The **View Development Tools** _permission_ only applies to Jira Classic Project
 **Create Branches and Branch Names**
 For connected GitHub git host, this feature requires enabled `public_repo` scope permissions.
 
-**Commits Ahead and Behind**
-If the user does not have the **View Development Tools** _project permission_ for the project, the developer panel will be unavailable for that user.
+## Issue Activity by Gitkraken panel
 
-### Git Integration panel
+Locate the Issue Activity by Gitkraken panel panel on the right pane of the Jira issue page. Click on **Issue Activity by Gitkraken panel** to expand its contents.
 
-Locate the Jira Git integration development panel on the right pane of the Jira issue page. Click on **Git integration** to expand its contents. GIJ does not auto-populate git data in the Git integration panel upon loading the issue page to improve Jira performance.
+<img src='/wp-content/uploads/gij-gitcloud-git-integration-panel-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-<img src='/wp-content/uploads/gij-cloud-jira-git-integration-panel-refresh.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-The **Refresh** action is available for manually reloading the git information on the Git Integration development panel. Use it to repopulate Git data without reloading the Jira issue page.
-
-Git links are now available on the developer panel in the following locations:
-
-*   Issue page
-*   Search page in detailed view
-*   Jira Agile screen
-
-<img src='/wp-content/uploads/gij-gitcloud-git-integration-panel.png' style='margin:25px auto;max-width:100%;display:block;' />
-
-The commits counter refers to the existing Git Commits view which the issue tab displays.
-
-&nbsp;
-
-## Development panel locations
-
-The development panel can be accessed on the following locations.
-
-### Issue and Search pages
-
-In **Issue** and **Search** pages, the developer panel is visible on the right pane.
-
-![](/wp-content/uploads/gij-gitcloud-devpanel-location-issue-page.png)
-
-### Kanban board screen
-
-On the Kanban board, click on an issue on the board grid. On a dialog that displays the selected Jira issue, click **Open Git integration** on the right sidebar. The Git integration panel is displayed.
-
-![](/wp-content/uploads/gij-gitcloud-devpanel-location-kanban.png)
-
-&nbsp;
-
-* * *
-
-&nbsp;
-
-## Branches
+### Branches
 
 The **Branches** section lists the branches names, linking the selected branch to view via the Repository browser.
 
@@ -214,9 +173,9 @@ The branch panel will show a summary of all the unmerged branches (regardless of
 
 <img src='/wp-content/uploads/gij-gitcloud-devpanel-create-branch-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Click **Create branch** on the Jira Git integration development panel to create a branch for the selected repository.
+Click **Create branch** on the Issue Activity by Gitkraken panel to create a branch for the selected repository.
 
-![](/wp-content/uploads/gij-gitcloud-issue-dev-panel-create-branch-dlg)
+![](/wp-content/uploads/gij-gitcloud-issue-dev-panel-create-branch-dlg-2025)
 
 1.  Select a **Repository**. _(Optional - click Make default to set this repository as default for branch and PR/MR creation dialogs)._
 
@@ -230,33 +189,14 @@ Click **Create branch** on the Jira Git integration development panel to create 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        After creating a branch, it is added to the Git Integration developer panel under the Branches list. The branch name does not have a commit if it is displayed in italics.<br>
-        <img src='/wp-content/uploads/gij-gitcloud-devpanel-create-branch-no-commit.png' style='margin:20px auto 10px auto;max-width:100%;display:block;' />
+        After creating a branch, it is added to the Git Integration developer panel under the Branches list.
     </div>
     </div>
 </div>
 
-<img src='/wp-content/uploads/gij-gitcloud-devpanel-branches-list.png' style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-devpanel-branches-list-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Clicking the icons adjacent to the right of the branch name will open this branch in your remote git host portal or open this branch in GitKraken git client app.
-
-### Commits ahead and behind
-
-The numbers **ahead** and **behind** represent the number of commits that are ahead/behind the main branch:
-
-*   **Ahead** – number of commits in the branch which are not merged to the main branch.
-*   **Behind** – number of commits in the main branch which are not merged to the branch.
-
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">        
-        The <b>Branches</b> list is only visible if commits from this branch are not merged to the <i><b>main branch</b></i>. It's also not displayed if the repository is not associated with a project.
-    </div>
-    </div>
-</div>
+Clicking the the branch name will open this branch in your remote git service.
 
 &nbsp;
 
@@ -288,11 +228,11 @@ The displayed information depends on which supported git hosts are connected to 
 
 ### Create pull/merge request
 
-<img src='/wp-content/uploads/gij-gitcloud-devpanel-create-pullreq-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-devpanel-create-pullreq-sel-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 If a git host is connected to Jira, create a pull/merge request by clicking **Create pull request** or **Create merge request** label link on the Jira Git integration development panel.
 
-![](/wp-content/uploads/gij-gitcloud-create-pull-req-dlg)
+![](/wp-content/uploads/gij-gitcloud-create-pull-req-dlg-2025)
 
 *   Select **Repository** from the list.
 *   Choose a branch as the **Source branch**. This branch will be merged to the target branch.
@@ -311,11 +251,7 @@ The merge request is displayed on the developer panel and will also be associate
 
 This will also allow a service user to associate a Merge/Pull Request with multiple Jira issues regardless of commit associations.
 
-<img src='/wp-content/uploads/gij-gitcloud-devpanel-merge-req.png' style='margin:25px auto;max-width:100%;display:block;' />
-
-Hover the mouse pointer on the pull/merge request label to see information of the repository and branch where it belongs.
-
-<img src='/wp-content/uploads/gij-gitcloud-devpanel-merge-req-hover.png' style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-devpanel-merge-req-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 &nbsp;
 
@@ -347,7 +283,7 @@ The Git for Jira app supports two types of git tags:
 *   **lightweight** – shows only the commit object
 *   **annotated** – shows the message, author and the tag object followed by the commit
 
-<img src='/wp-content/uploads/gij-gitcloud-devpanel-git-tags.png' style='margin:25px auto 35px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-devpanel-git-tags-2025.png' style='margin:25px auto 35px auto;max-width:100%;display:block;' />
 
 The Git Integration for Jira app will show the last 3 and first tags if no filter is set. If the filter is set, the Git Integration for Jira app will use it and will display the tags sorted in ascending order by date.
 
@@ -366,7 +302,7 @@ If there are several git tags listed, click the **more...** label link to expand
 
 ### Tag information
 
-<img src='/wp-content/uploads/gij-gitcloud-devpanel-git-tags-hover.png' style='max-width:100%;margin:25px auto;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-devpanel-git-tags-hover-2025.png' style='max-width:100%;margin:25px auto;display:block;' />
 
 Move the mouse pointer over the tag to display the following tooltip information:
 
@@ -458,58 +394,23 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) and [
 
 Atlassian Jira Cloud currently displays Jira Development Information in the Development Panel in Jira issues.
 
-![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-location.png)
+![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-location-2025.png)
 
 ### Detailed view of commits
 
-![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-commits.png)
+![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-commits-2025.png)
 
 ### Detailed view of branches
 
-![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-branches.png)
+![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-branches-2025.png)
 
 ### Detailed view of pull requests
 
-![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-pull-req.png)
-
-### Development status in Jira issue searching
-
-In the Jira search interface you will have a new column to add: **Development**.
-
-This column is displayed in the following order of precedence:
-
-1.  **Blank** (no commits or pull requests are declined/closed)
-2.  **\# of Commits** (when no pull requests are associated)
-3.  **Merged** (all associated pull requests are merged or closed)
-4.  **Under Review** (at least one associated pull request is open)
-
-![](/wp-content/uploads/gij-gitcloud-dev-info-dev-status-in-jira-issue-search.png)
-
-### Release Hub - Warnings
-
-The Release Hub can be accessed within a Jira project at the **Releases** page. Jira issues with a fix version assigned will appear in the Release Hub.
-
-Currently two types of warnings are available:
-
-*   **Open pull requests:** These issues have been marked complete but have open pull requests.
-*   **Unreviewed Code:** These issues have been marked complete but the commits are not part of a pull request or review.
-
-![](/wp-content/uploads/gij-gitcloud-dev-info-release-hub-warnings.png)
-
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <a href='https://confluence.atlassian.com/jirasoftwarecloud/using-the-release-page-to-check-the-progress-of-a-version-764478141.html'><b>More information from Atlassian</b></a>
-    </div>
-    </div>
-</div>
+![](/wp-content/uploads/gij-gitcloud-jira-dev-info-views-pull-req-2025.png)
 
 ### Next-gen projects: View commits, branches, and pull requests in Jira Boards
 
-![Next-gen projects agile board view](/wp-content/uploads/gij-gitcloud-dev-info-next-gen-view-commits-etc.png)
+![Next-gen projects agile board view](/wp-content/uploads/gij-gitcloud-dev-info-next-gen-view-commits-etc.-2025.png)
 
 When using the Development Information feature within a 'Next-gen' (Team-managed) Jira Cloud project - your commits, branches and pull requests will be shown in your boards.
 

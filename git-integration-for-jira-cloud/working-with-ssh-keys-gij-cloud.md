@@ -274,7 +274,7 @@ If a new SSH key pair is generated for the configured repository, do the followi
 
 1.  On the Manage integrations page list, click on ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration** for the SSH-connected git repository.
 
-    ![](/wp-content/uploads/gij-gitmgr-actions-edit-integration-ssh-repo.png)
+    ![](/wp-content/uploads/gij-gitmgr-actions-edit-integration-ssh-repo-2025.png)
 
 2.  Change the Private SSH key field (highlighted below) by pasting with the updated value or uploading the Private SSH key file.
 

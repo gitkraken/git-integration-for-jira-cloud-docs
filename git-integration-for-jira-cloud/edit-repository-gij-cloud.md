@@ -11,7 +11,7 @@ taxonomy:
 
 On the Manage repositories page, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository** for the selected repository to open its repository configuration page where you can change the settings of the connected repository.
 
-![](/wp-content/uploads/gij-gitcloud-edit-repo-cfg-single-repo.png)
+![](/wp-content/uploads/gij-gitcloud-edit-repo-cfg-single-repo-2025.png)
 
 Utilize the options below for configuring repository settings.
 

@@ -24,11 +24,11 @@ When connecting to a private HTTPS git repository, a problem may be caused by a 
 
 2.  On the Manage integrations page, click on **Add integration**.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page-2025.png)
 
 3.  Add the repository via **Plain Git integration** or **Quick start** on the Add integration page.
 
-    ![](/wp-content/uploads/gij-add-new-integration-plain-git-sel.png)
+    ![](/wp-content/uploads/gij-add-new-integration-plain-git-sel-2025.png)
 
 4.  Enter **Host URL** and login credentials on the next screen. If 2FA is enabled on this account, enter PAT as the password.
 
