@@ -1,16 +1,13 @@
 ---
 
 title: Permissions
-description:
+description: Permission requirements for viewing commit information and Git data in Jira
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
-
-&nbsp;
-
-### Permissions requirement to display commit information
+## Permissions Required to View Commit Information
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -18,22 +15,22 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Users must have '<b><i>View Development Tools</i></b>' permission in order to view commit information on the issue page.
-        <p style='margin-bottom:-10px'>Administrators must grant themselves the '<b><i>View Development Tools</i></b>' permission in order to view commit information on the issue pages.</p>
+        Users must have the <b>View Development Tools</b> permission to view commit information on issue pages.
+        <p style='margin-bottom:-10px'>Administrators must also grant themselves this permission to view commit information.</p>
     </div>
     </div>
 </div>
 
-The user needs to be in the developers group to view code diffs when default permission scheme is used.
+Users must belong to the developers group to view code diffs when using the default permission scheme.
 
 ![](/wp-content/uploads/gij-gitcloud-jira-view-dev-tools-project-acl.png)
 
+When setting permissions, keep the following in mind:
 
-Consider the following criteria when setting permissions:
+- Permission names may differ depending on your Jira version.
+- Configure project permissions on the project administration page. Different projects may have different permissions.
+- The default permission scheme grants access to the app for all members of the **administrators** and **developers** groups. No additional configuration is required in this case.
 
-*   Permission name may be different depending on your version of Jira.
+<p>&nbsp;</p>
 
-*   Project permissions are configured on the project administration page. Different projects may have different permissions.
-
-*   Default permission scheme grants access to add-on to all members of _**administrators**_ and _**developers**_ groups. No additional configuration is required in this case.
-
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

@@ -1,12 +1,13 @@
 ---
 
-title: Known performance limitations
-description:
+title: Known Performance Limitations
+description: Soft limits and performance guidelines for Git Integration for Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-The Cloud version of our application is run on our AWS instances and there are fewer options for configuration compared to a self-hosted instance of Jira/GIJ. This document details some “soft limits” beyond which we’ve noticed some of our customers having performance issues. 
+
+The Cloud version of Git Integration for Jira runs on AWS instances and has fewer configuration options compared to a self-hosted Jira/GIJ instance. This document details soft limits beyond which some customers experience performance issues.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -14,51 +15,81 @@ The Cloud version of our application is run on our AWS instances and there are f
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Please note that the thresholds below are meant to be guidelines rather than hard limits. In most cases, the limits can be exceeded, but depending on the severity, could lead to degraded performance or even halted operation. In cases where you are having issues due to these limits being exceeded, our support team will do their best to make suggestions for alternative configurations that could help, but we cannot guarantee performance or operation in cases where the limits are being breached.
+        The thresholds below are guidelines rather than hard limits. In most cases, you can exceed these limits, but depending on severity, this could lead to degraded performance or halted operation. If you experience issues due to exceeding these limits, our support team will suggest alternative configurations, but we cannot guarantee performance or operation when limits are breached.
     </div>
     </div>
 </div>
 
+&nbsp;
+
 ## Git Tags
 
-| Limit | Possible issues |
+| Limit | Possible Issues |
 | :--- | :--- |
-| \>2000 | Slow Indexing |
+| >2,000 | Slow indexing |
+
+&nbsp;
 
 ## Total Repositories in an Integration
 
-| Limit | Possible issues |
+| Limit | Possible Issues |
 | :--- | :--- |
-| \>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
+| >2,000 | Slow indexing |
+| | Rate limit errors when getting PR/Builds/Deployments data during indexing |
+| | Long loading times or timeout errors when loading development data |
 
-## Individual Repository size
+&nbsp;
 
-| Limit | Possible issues |
+## Individual Repository Size
+
+| Limit | Possible Issues |
 | :--- | :--- |
-| \>2gb | Extended Indexing time <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
+| >2 GB | Extended indexing time |
+| | Rate limit errors when getting PR/Builds/Deployments data during indexing |
+| | Long loading times or timeout errors when loading development data |
 
-## Individual file size in a repository
-This is a hard limit due to a restriction in an internal component used in Git Integration for Jira. If the file size limit is exceeded, the Repository will not be able to be indexed. Please see [Max Object Error](/git-integration-for-jira-cloud/error-while-reindexing-java-heap-space-object-too-large-rejecting-the-pack-gij-cloud) for further details
+&nbsp;
 
-| Limit | Possible issues |
+## Individual File Size in a Repository
+
+This is a hard limit due to a restriction in an internal component used by Git Integration for Jira. If the file size limit is exceeded, the repository cannot be indexed.
+
+See [Max Object Error](/git-integration-for-jira-cloud/error-while-reindexing-java-heap-space-object-too-large-rejecting-the-pack-gij-cloud) for further details.
+
+| Limit | Possible Issues |
 | :--- | :--- |
-| \>2Gb | Repository will not clone/index |
+| >2 GB | Repository will not clone or index |
 
-## Number of branches in a repository
+&nbsp;
 
-| Limit | Possible issues |
+## Number of Branches in a Repository
+
+| Limit | Possible Issues |
 | :--- | :--- |
-| \>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
+| >2,000 | Slow indexing |
+| | Rate limit errors when getting PR/Builds/Deployments data during indexing |
+| | Long loading times or timeout errors when loading development data |
+
+&nbsp;
 
 ## Number of Pull/Merge Requests
 
-| Limit | Possible issues |
+| Limit | Possible Issues |
 | :--- | :--- |
-| \>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
+| >2,000 | Slow indexing |
+| | Rate limit errors when getting PR/Builds/Deployments data during indexing |
+| | Long loading times or timeout errors when loading development data |
+
+&nbsp;
 
 ## Number of Builds and/or Deployments
 
-| Limit | Possible issues |
+| Limit | Possible Issues |
 | :--- | :--- |
-| \>2000 | Slow Indexing <br> Rate limit errors when getting PR/Builds/Deployments data during indexing <br> Long loading times (or even timeout errors during loading) of development data. |
+| >2,000 | Slow indexing |
+| | Rate limit errors when getting PR/Builds/Deployments data during indexing |
+| | Long loading times or timeout errors when loading development data |
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
