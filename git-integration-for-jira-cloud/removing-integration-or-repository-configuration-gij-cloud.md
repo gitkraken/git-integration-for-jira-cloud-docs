@@ -1,7 +1,7 @@
 ---
 
 title: Disconnecting integrations or repositories
-description:
+description: How to disconnect and remove integrations or repositories from Git Integration for Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -21,17 +21,17 @@ Disconnect a repository or integration if it isn't needed or is broken in the Gi
 
 &nbsp;
 
-## Disconnecting an integration or repository
+## Disconnecting an Integration or Repository
 
-On the Manage integrations page, click on **Actions** for the selected integration or repository then **Disconnect integration**.
+On the Manage integrations page, click **Actions** for the selected integration or repository, then select **Disconnect integration**.
 
 <img src='/wp-content/uploads/gij-gitcloud-actions-disconnect-integration.png' style='margin: 25px 0 35px 0' />
 
-The Disconnect integration confirmation dialog is displayed.
+The Disconnect integration confirmation dialog appears.
 
 <img src='/wp-content/uploads/gij-gitcloud-actions-disconnect-integration-dlg-prompt.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
-Click **Disconnect integration** to remove the repository. All associated repositories under this integration will be removed from Git Integration for Jira Cloud app.
+Click **Disconnect integration** to remove the repository. All associated repositories under this integration are removed from Git Integration for Jira Cloud.
 
 Click **Cancel** to abort this process.
 
@@ -41,7 +41,7 @@ Click **Cancel** to abort this process.
 
 &nbsp;
 
-## Disconnecting a nested repository
+## Disconnecting a Nested Repository
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -61,7 +61,7 @@ Go to the **Manage integrations** configuration page and choose a plain git inte
 
     ![](/wp-content/uploads/gij-cloud-nested-repo-disconnect-integration.png)
 
-2.  The following screen is displayed.
+2.  The following screen appears.
 
     ![](/wp-content/uploads/gij-cloud-nested-repo-disconnect-repo-prompt.png)
 
@@ -79,7 +79,7 @@ Go to the **Manage integrations** configuration page and choose a plain git inte
 
 &nbsp;
 
-### More related topics about managing repository/integration configuration
+### More Related Topics About Managing Repository/Integration Configuration
 
 [Managing integration or repository configuration](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
 
@@ -99,3 +99,6 @@ Go to the **Manage integrations** configuration page and choose a plain git inte
 
 [Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/) (Git Integration for Jira Cloud)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
