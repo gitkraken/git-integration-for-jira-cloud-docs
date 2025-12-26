@@ -1,7 +1,7 @@
 ---
 
 title: Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues
-description:
+description: How to set up integrations with self-signed SSL certificates using automatic connection
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -11,13 +11,13 @@ taxonomy:
 
 Perform full feature integration with HTTPS git repositories that have self-signed SSL certificates or other SSL issues.
 
-For this guide, we will use GitLab Server as an example:
+For this guide, we use GitLab Server as an example:
 
-1.  On your Jira dashboard, go to menu Apps ➜ **Git Integration: Manage Git repositories**. The following page is displayed.
+1.  On your Jira dashboard, go to menu Apps ➜ **Git Integration: Manage Git repositories**. The following page appears.
 
     ![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page-2025.png)
 
-2.  On the Git host service selection screen, click on **GitLab server** then click on **GitLab Server (CE/EE) APIv4** to select this integration type.
+2.  On the Git host service selection screen, click **GitLab server**, then click **GitLab Server (CE/EE) APIv4** to select this integration type.
 
     ![](/wp-content/uploads/gij-gitcloud-add-integration-type-gitlab-server-sel-2025.png)
 
@@ -26,15 +26,15 @@ For this guide, we will use GitLab Server as an example:
 
 3.  Click **Connect and select repositories**.
 
-4.  If there is an indication of an SSL error, the following screen is displayed.
+4.  If there is an indication of an SSL error, the following screen appears.
 
     ![](/wp-content/uploads/gij-gitserver-gitlab-server-bad-ssl-example-c.png)
 
-5.  Click **Ignore certificate errors and continue connection**. This will ignore SSL verification if it's self-signed or expired.
+5.  Click **Ignore certificate errors and continue connection**. This ignores SSL verification if the certificate is self-signed or expired.
 
-8.  Select repositories or import all of them and then click **Connect repositories** to complete the setup.
+6.  Select repositories or import all of them, then click **Connect repositories** to complete the setup.
 
-This integration is displayed on the Manage integrations list. Go to ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration** if desired to make some changes to the repository settings.
+This integration appears in the Manage integrations list. Go to ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration** to make changes to the repository settings.
 
 &nbsp;
 * * *
@@ -43,3 +43,6 @@ This integration is displayed on the Manage integrations list. Go to ![](/wp-con
 
 [**Next:** Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-cloud/manually-connect-to-https-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues-gij-cloud)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

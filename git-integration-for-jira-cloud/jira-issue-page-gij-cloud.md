@@ -1,7 +1,7 @@
 ---
 
 title: Jira issue page
-description:
+description: Git development information displayed on the Jira issue page
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -433,4 +433,8 @@ A 'next-gen' project can be created in the Projects screen:
 [**Prev:** Jira user information card](/git-integration-for-jira-cloud/jira-user-information-card-gij-cloud)
 
 [**Next:** Jira project page](/git-integration-for-jira-cloud/jira-project-page-gij-cloud/)
+
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
 

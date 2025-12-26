@@ -1,13 +1,13 @@
 ---
 
 title: Smart commits
-description:
+description: Use Smart commits to perform actions on Jira issues directly from Git commit messages
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
-Smart commits allows your team to perform actions on Jira issues from a single commit. Users can enter the issue key and the desired action such as time tracking or closing an issue.
+Smart commits allow your team to perform actions on Jira issues from a single commit. Users can enter the issue key and the desired action such as time tracking or closing an issue.
 
 &nbsp;
 
@@ -28,9 +28,9 @@ Smart commits allows your team to perform actions on Jira issues from a single c
 
 &nbsp;
 
-## Getting started
+## Getting Started
 
-The smart commit processing is **active by default** and can be enabled/disabled via the following access locations:
+Smart commit processing is **active by default** and can be enabled/disabled via the following locations:
 
 *   Manage repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ Edit repository ➜ **Feature settings**.
 *   Manage repositories page ➜ click a repository to open its **Feature Settings** page.
@@ -45,27 +45,27 @@ The smart commit processing is **active by default** and can be enabled/disabled
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Smart commits support for project keys that has an underscore "_" character.<br>
-        Smart commits support for all alphabet characters.<br>
-        Smart commits support for case-insensitive smart commits.
+        Smart commits support project keys that have an underscore "_" character.<br>
+        Smart commits support all alphabet characters.<br>
+        Smart commits are case-insensitive.
     </div>
     </div>
 </div>
 
-### Smart commits configuration checklist
+### Smart Commits Configuration Checklist
 
 *   **The Jira DVCS Connector Plugin is not required.**
-    The Git Integration for Jira app has the functions of the connector plugin plus more integration support and features.
+    Git Integration for Jira has the functions of the connector plugin plus more integration support and features.
 
-*   **Your Jira e-mail address and Git commit e-mail address matches.** <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b>
-    The commit author's email should match exactly with a user's email in Jira. If they do not match, the application will add the commit as the app.
+*   **Your Jira email address and Git commit email address must match.** <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b>
+    The commit author's email must match exactly with a user's email in Jira. If they do not match, the application adds the commit as the app.
 
-*   **E-mail address is not shared by other Jira users.**
+*   **Email address is not shared by other Jira users.**
     Verify that this email address is used by only one Jira user.
 
 *   **Advanced:** Verify that the workflow conditions and validators are able to process successfully.
 
-### Basic syntax
+### Basic Syntax
 
 The basic syntax for a Smart commit message is:
 
@@ -77,15 +77,15 @@ The basic syntax for a Smart commit message is:
 
 &nbsp;
 
-## Basic commands
+## Basic Commands
 
-There are smart commits commands that you can use in your commit messages.
+Use the following smart commit commands in your commit messages.
 
 ### \#comment
 
-This command works both in Jira Server/Cloud.
+This command works in both Jira Server and Cloud.
 
-The `#comment` command will add a comment to a Jira issue.
+The `#comment` command adds a comment to a Jira issue.
 
 **Syntax:**
 `ISSUE_KEY #comment [your comment text]`
@@ -94,7 +94,7 @@ The `#comment` command will add a comment to a Jira issue.
 `GIT-264 #comment Resolved conflicts.`
 `GIT-1720 #comment Plugin version change from 2.8.2 to 2.8.3. Build number change from 69 to 70.`
 
-The above examples will add the specified comment text against the Jira issues.
+The above examples add the specified comment text against the Jira issues.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -102,16 +102,16 @@ The above examples will add the specified comment text against the Jira issues.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The committers' email address in the git configuration must match with the email address of the corresponding Jira user (or vice versa) to comment on issues.
+        The committer's email address in the git configuration must match the email address of the corresponding Jira user (or vice versa) to comment on issues.
     </div>
     </div>
 </div>
 
 ### \#time
 
-This command works both in Jira Server/Cloud.
+This command works in both Jira Server and Cloud.
 
-The `#time` command will record time tracking information against a Jira issue.
+The `#time` command records time tracking information against a Jira issue.
 
 **Syntax:**
 `ISSUE_KEY #time [Some amount in Jira time syntax] [Your worklog comment text]`
@@ -120,7 +120,7 @@ The `#time` command will record time tracking information against a Jira issue.
 `GIT-264 #time 1w 6d 13h 52m Total work logged.`
 `GIT-1720 #time 1h 20m Merged to master. Released to marketplace.`
 
-The above examples will add the respective time and worklog comment text against the Jira issues.
+The above examples add the respective time and worklog comment text against the Jira issues.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -128,16 +128,16 @@ The above examples will add the respective time and worklog comment text against
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The Jira time tracking feature allows users to log the length of time spent working on issues. Jira administrators must have enabled this feature for this smart commit to work.
+        The Jira time tracking feature allows users to log the length of time spent working on issues. Jira administrators must enable this feature for this smart commit to work.
     </div>
     </div>
 </div>
 
 ### \#\<transition-name\>
 
-This command works both in Jira Server/Cloud.
+This command works in both Jira Server and Cloud.
 
-The `#<transition-name>` command will move the Jira issue to a particular workflow state.
+The `#<transition-name>` command moves the Jira issue to a particular workflow state.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -145,7 +145,7 @@ The `#<transition-name>` command will move the Jira issue to a particular workfl
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The Jira user must have the appropriate project permissions to be able to transition issues.
+        The Jira user must have the appropriate project permissions to transition issues.
     </div>
     </div>
 </div>
@@ -157,17 +157,17 @@ The `#<transition-name>` command will move the Jira issue to a particular workfl
 `GIT-264 #code-review For review.`
 `GIT-1720 #close Closing ticket. #comment Tasks completed.`
 
-The first example will transition the Jira issue to the specified workflow state and adds the comment message to the commit.
+The first example transitions the Jira issue to the specified workflow state and adds the comment message to the commit.
 
-The second example will transition the Jira issue to the specified workflow state, adds the comment "_**Closing ticket**_" to the Comment tab and adds the specified comment, "_**Task completed**_" to the mentioned Jira issue.
+The second example transitions the Jira issue to the specified workflow state, adds the comment "_**Closing ticket**_" to the Comment tab, and adds the specified comment, "_**Task completed**_" to the mentioned Jira issue.
 
 For more information on transitions and workflow names, see the [Workflow Transitions](#workflow-transitions) section.
 
 ### \#assign
 
-This command works both in Jira Server/Cloud.
+This command works in both Jira Server and Cloud.
 
-The `#assign` command will assign the particular issue to the specified Jira user.
+The `#assign` command assigns the particular issue to the specified Jira user.
 
 **Syntax:**
 `ISSUE_KEY #assign [Jira username or email of Jira user]`
@@ -178,9 +178,9 @@ The `#assign` command will assign the particular issue to the specified Jira use
 
 ### \#label
 
-This command works both in Jira Server/Cloud.
+This command works in both Jira Server and Cloud.
 
-The `#label` command will add a new label to a Jira issue. If more than one Jira issue is referenced, the labels are added to all mentioned Jira issues. Multiple labels can be created by putting spaces between words.
+The `#label` command adds a new label to a Jira issue. If more than one Jira issue is referenced, the labels are added to all mentioned Jira issues. Create multiple labels by putting spaces between words.
 
 **Syntax:**
 `ISSUE_KEY(S) #label [label1] .. [labeln]`
@@ -195,30 +195,30 @@ The `#label` command will add a new label to a Jira issue. If more than one Jira
 
 &nbsp;
 
-## Advanced examples
+## Advanced Examples
 
-### A single action on a single issue
+### A Single Action on a Single Issue
 
 **Example:**
 `TEST-100 #time 2w 1d 4h 30m This is a time log comment`
 
-Records the specified worklog `#time` of **2 weeks, 1 day, 4 hours and 30 minutes** and adds worklog comment "_This is a time log comment_" to the issue, TEST-100.
+Records the specified worklog `#time` of **2 weeks, 1 day, 4 hours, and 30 minutes** and adds worklog comment "_This is a time log comment_" to the issue TEST-100.
 
-### Multiple actions on a single issue
+### Multiple Actions on a Single Issue
 
 **Example:**
 `TEST-100 #time 4h 30m Fix null pointers #comment Fixed code #resolve`
 
-Logs specified `#time` of **4 hours and 30 minutes** and add worklog comment "_Fixed null pointers_" to the issue, TEST-100; adds the `#comment` "Fixed code" and resolves the issue.
+Logs specified `#time` of **4 hours and 30 minutes** and adds worklog comment "_Fixed null pointers_" to the issue TEST-100; adds the `#comment` "Fixed code" and resolves the issue.
 
-### A single action on multiple issues
+### A Single Action on Multiple Issues
 
 **Example:**
 `TEST-100 TEST-101 TEST-102 #resolve`
 
 Resolves specified issues.
 
-### Multiple actions on multiple issues
+### Multiple Actions on Multiple Issues
 
 **Example:**
 `TEST-100 TEST-101 TEST-102 #resolve #time 2d 4h #comment Fixed code`
@@ -232,12 +232,12 @@ Resolves specified issues; logs specified `#time` of **2 days and 4 hours** and 
     </div>
     <div class="imsgbox">
         <b>VERSION 2.6.33+</b><br>
-        Implemented support for multi-line commit messages with smart commits.
+        Multi-line commit messages with smart commits are supported.
     </div>
     </div>
 </div>
 
-### Multi-line commit messages
+### Multi-line Commit Messages
 
 The following examples show correct usage of the smart commit message:
 
@@ -276,13 +276,13 @@ _This example, containing several issue keys, is also a valid multi-line smart c
 
 &nbsp;
 
-## Workflow transitions
+## Workflow Transitions
 
-The simple Jira workflow does not contain explicit transition names. These kind of workflow with no explicit transition names are becoming more popular as Atlassian is suggesting them to administrators upon project creation.
+The simple Jira workflow does not contain explicit transition names. These workflows with no explicit transition names are becoming more popular as Atlassian suggests them to administrators upon project creation.
 
 <img src='/wp-content/uploads/gij-gitcloud-jira-workflow-chart.png' width=217 height=241 style='margin:25px auto;display:block;' />
 
-The name of the status is the transition. So, using the basic example above, the valid transitions from <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>DONE</b> are:
+The name of the status is the transition. Using the basic example above, the valid transitions from <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>DONE</b> are:
 
 *   **\#to-do**
 *   **\#in-progress**
@@ -307,7 +307,7 @@ The name of the status is the transition. So, using the basic example above, the
     </div>
     <div class="imsgbox">
         <b>Absence of transition names</b><br>
-        When there are no transition names — just use the status names. If there is a space, replace it with "–" (hyphens). For example, <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>CODE REVIEW</b> becomes <code>#code-review</code>.
+        When there are no transition names, use the status names. If there is a space, replace it with "–" (hyphens). For example, <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>CODE REVIEW</b> becomes <code>#code-review</code>.
     </div>
     </div>
 </div>
@@ -319,7 +319,7 @@ The name of the status is the transition. So, using the basic example above, the
     </div>
     <div class="imsgbox">
         <b>Commit authors</b><br>
-        Only letters and "-" (dash) are valid for workflow transition names for smart commits. Any other characters are treated as invalid. Smart commits will ONLY use the valid characters before the occurrence of an invalid character for processing.
+        Only letters and "-" (dash) are valid for workflow transition names for smart commits. Any other characters are treated as invalid. Smart commits use only the valid characters before the occurrence of an invalid character for processing.
     </div>
     </div>
 </div>
@@ -331,7 +331,7 @@ The name of the status is the transition. So, using the basic example above, the
     </div>
     <div class="imsgbox">
         <b>Jira Administrators</b><br>
-        When adding transitions in the Workflow editor, make transition names simple and easy to remember. Only use letters and only one space between words.
+        When adding transitions in the Workflow editor, make transition names simple and easy to remember. Use only letters and only one space between words.
     </div>
     </div>
 </div>
@@ -342,7 +342,7 @@ The name of the status is the transition. So, using the basic example above, the
 
 &nbsp;
 
-## Viewing workflows
+## Viewing Workflows
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -363,11 +363,11 @@ You can see the available custom workflow transition commands for use with smart
 
 2.  Hover a status.
 
-    When you hover a status – it will highlight available transitions. This is the transition name that is used in smart commits and not the status name.
+    When you hover a status, it highlights available transitions. This is the transition name used in smart commits, not the status name.
 
     ![](/wp-content/uploads/gij-gitcloud-jira-workflow-issue-hover.png)
 
-Below is an example using the above workflow where the issue is in IN PROGRESS status and want to send it to CODE REVIEW status:
+Below is an example using the above workflow where the issue is in IN PROGRESS status and you want to send it to CODE REVIEW status:
 
 ```bash
 <ISSUE_KEY> #send-to-code-review or,
@@ -375,11 +375,11 @@ Below is an example using the above workflow where the issue is in IN PROGRESS s
 <ISSUE_KEY> #send (yes, this works, as long as it does not conflict with another transition name)
 ```
 
-Do note that invalid characters can be used in the transition name. Jira accepts most of them and they can be used. However, smart commits will only process letters and dash characters.
+Note that invalid characters can be used in the transition name. Jira accepts most of them and they can be used. However, smart commits only process letters and dash characters.
 
 Thus, the part of the transition name up to the invalid character can be used for transitions; where spaces become "-".
 
-### Transition name examples
+### Transition Name Examples
 
 | Transition name | Smart Commit transition |
 | :--- | :--- |
@@ -387,13 +387,13 @@ Thus, the part of the transition name up to the invalid character can be used fo
 | `SEND-TO_QA` | **SEND-TO** |
 | `SEND TO_QA` | **SEND-TO** |
 
-There must be at least one unique way to call each transition name. If you have multiple transition names from a single status that use the same word, the smart commits will fail.
+There must be at least one unique way to call each transition name. If you have multiple transition names from a single status that use the same word, the smart commits fail.
 
 **Example:** An issue status NEW has these two transition paths:
 *   `SEND_TO_DEVELOPMENT`
 *   `SEND_TO_BACKLOG`
 
-The invalid characters are used before unique transition names are possible. Both will become "**\#SEND**". Therefore, they are not unique and these transitions will fail.
+The invalid characters are used before unique transition names are possible. Both become "**\#SEND**". Therefore, they are not unique and these transitions fail.
 
 **Better example:** The transition names have spaces instead:
 *   `SEND TO DEVELOPMENT`
@@ -422,13 +422,13 @@ The "..." indicates the truncation with the least character length to have the t
 
 &nbsp;
 
-## General settings
+## General Settings
 
 <img src='/wp-content/uploads/gij-gitcloud-smart-commits-general-setting.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA CLOUD</b> <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>DEV INFO</b>
 
-**Max commit age** – This setting is a hidden feature in Git Integration for Jira Cloud and Dev Info for Jira Cloud. All commits which are older than this setting (in seconds) shall be ignored for smart commits processing. The default value is **1209600** seconds (14 days).
+**Max commit age** – This setting is a hidden feature in Git Integration for Jira Cloud and Dev Info for Jira Cloud. All commits older than this setting (in seconds) are ignored for smart commits processing. The default value is **1209600** seconds (14 days).
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -436,7 +436,7 @@ The "..." indicates the truncation with the least character length to have the t
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        In case <a href="/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-development-information">when DevInfo for Jira Cloud is enabled</a>, commits shall be sent with <b><i>disabledTransition</i></b> flag.
+        When <a href="/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-development-information">DevInfo for Jira Cloud is enabled</a>, commits are sent with <b><i>disabledTransition</i></b> flag.
     </div>
     </div>
 </div>
@@ -462,9 +462,9 @@ The "..." indicates the truncation with the least character length to have the t
     </div>
 </div>
 
-### General settings effect on Smart Commits commands
+### General Settings Effect on Smart Commits Commands
 
-Please take note that the following settings will affect availability of specific smart commit commands as outlined below:
+Note that the following settings affect availability of specific smart commit commands as outlined below:
 
 | When this General setting is enabled | \#time | \#label |
 |:---|:---|:---|
@@ -472,15 +472,15 @@ Please take note that the following settings will affect availability of specifi
 | Git Integration app Smart Commits | ![](/wp-content/uploads/gij-matrix-open-check-green.png) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
 |Both Jira Cloud Smart and GIJ app Smart commits | ![](/wp-content/uploads/gij-matrix-open-check-green.png)<br>(doubled \#time and \#comment) | ![](/wp-content/uploads/gij-matrix-open-check-green.png) |
 
-### How to enable or disable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers
+### How to Enable or Disable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers
 
 1.  Install the [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) or the [**Dev Info for Jira**](https://marketplace.atlassian.com/1219270) app.
 
 2.  Navigate to the **General settings** page of the application (_Jira Settings_ ➜ _Apps_ ➜ (sidebar) _General settings_).
 
-3.  Click the **Send Development Information to Jira Cloud** checkbox to mark and enable it. This also allows access to the **Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers** setting.
+3.  Select the **Send Development Information to Jira Cloud** checkbox to enable it. This also allows access to the **Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers** setting.
 
-4.  Click the **Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers** checkbox to mark and enable this setting.
+4.  Select the **Enable Jira Cloud Smart Commits, Automation for Jira and Workflow Triggers** checkbox to enable this setting.
 
 5.  Click **Update** to save the settings.
 
@@ -500,9 +500,9 @@ For more information, see Atlassian's [**Smart Commits**](https://confluence.atl
 
 Use your development activity to make automatic changes in your Jira project workflows. For example:
 
-*   you can configure your Jira workflow to automatically send a Jira issue to <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IN REVIEW</b> status when a pull request is pushed and associated with the issue, or
+*   You can configure your Jira workflow to automatically send a Jira issue to <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IN REVIEW</b> status when a pull request is pushed and associated with the issue.
 
-*   you can send a Jira issue to <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>IN PROGRESS</b> when a commit is pushed and associated with a Jira issue.
+*   You can send a Jira issue to <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>IN PROGRESS</b> when a commit is pushed and associated with a Jira issue.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -523,7 +523,7 @@ Use your development activity to make automatic changes in your Jira project wor
     </div>
 </div>
 
-### Configuring automatic workflow triggers
+### Configuring Automatic Workflow Triggers
 
 To configure automatic workflow triggers for your project:
 
@@ -537,19 +537,19 @@ To configure automatic workflow triggers for your project:
 
 5.  Under _**Transitions**_ column, click a transition item.
 
-6.  Click **Add trigger**. The Add trigger dialog is displayed.
+6.  Click **Add trigger**. The Add trigger dialog appears.
 
     ![](/wp-content/uploads/gij-gitcloud-automatic-workflow-trigger-add-trigger-c.png)
 
 7.  Click **Commit created**.
 
-8.  Click **Add trigger**. This trigger will automatically transition the issue when a related commit is made in a connected repository.
+8.  Click **Add trigger**. This trigger automatically transitions the issue when a related commit is made in a connected repository.
 
-9.  Click **Publish Draft**. This action will publish the currently edited workflow. Create a backup or set it to _**No**_ then click **Publish**.
+9.  Click **Publish Draft**. This action publishes the currently edited workflow. Create a backup or set it to _**No**_ then click **Publish**.
 
 The automatic workflow trigger is now configured.
 
-### Demo video: Configuring Automatic Workflow Trigger
+### Demo Video: Configuring Automatic Workflow Trigger
 
 <div class='embed-container' style='padding-bottom:65%'>
     <iframe width='709' height='461' src='https://fast.wistia.com/embed/iframe/r8fm0tbrcs?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -565,13 +565,13 @@ The automatic workflow trigger is now configured.
 
 &nbsp;
 
-## Email notifications for Smart Commits
+## Email Notifications for Smart Commits
 
 Sometimes users make mistakes in constructing smart commits syntax or try to use the name of the transition which is not available for the current issue status. In these cases, users receive smart commit errors via email notifications.
 
 ### Prerequisite
 
-Users should have a matched email address for Jira and the integrated git host.
+Users must have a matched email address for Jira and the integrated git host.
 
 ### Examples of Smart Commits Messages that Fail
 
@@ -599,13 +599,13 @@ For example, **JIRA-700000** **#time** **4h 30m**
 
 Example: **JIRA-1** **#time** **1w 2d 4h 30m**
 
-_The above example adds the time of 1 week, 2 days, 4 hours and 30 minutes (220.5 hours) to the Jira issue._
+_The above example adds the time of 1 week, 2 days, 4 hours, and 30 minutes (220.5 hours) to the Jira issue._
 
 **2. Smart commits with a correct transition name**
 
 Example: **JIRA-1** **#close**
 
-_The above example will move the stage of the Jira issue as CLOSED._
+_The above example moves the stage of the Jira issue to CLOSED._
 
 &nbsp;
 
@@ -617,3 +617,6 @@ _The above example will move the stage of the Jira issue as CLOSED._
 
 [**Next:** Repository Browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
