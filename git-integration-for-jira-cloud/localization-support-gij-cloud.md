@@ -1,38 +1,35 @@
 ---
 
 title: Localization support
-description:
+description: Supported languages for Git Integration for Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Unicode characters are now supported and displayed properly.
 
-The following language localization for this app are available:
+Unicode characters are supported and displayed properly.
 
-*   German 
+The following languages are available for Git Integration for Jira:
 
-*   Polish 
+*   German
+*   Polish
+*   French
+*   Russian
+*   Japanese
+*   Chinese
+*   Spanish
 
-*   French 
+&nbsp;
 
-*   Russian 
-
-*   Japanese 
-
-*   Chinese 
-
-*   Spanish 
-
-
+## Switching Languages
 
 To switch to another language:
 
-1.  Go to your User Profile **➜ Personal settings**.
+1.  Go to your User Profile ➜ **Personal settings**.
 
-2.  Follow the clickable link under the Language section to go the **Account preferences** of your personal profile page.
+2.  Follow the clickable link under the Language section to go to the **Account preferences** of your personal profile page.
 
-3.  Under the **Language & Region** section, select one of the supported language from the list.
+3.  Under the **Language & Region** section, select one of the supported languages from the list.
 
 4.  Go back to your Jira Cloud instance to see the changes.
 
@@ -43,3 +40,6 @@ To switch to another language:
 
 [**Next:** Glossary of terms](/git-integration-for-jira-cloud/glossary-of-terms-gij-cloud)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
