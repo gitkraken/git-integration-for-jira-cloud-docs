@@ -1,13 +1,13 @@
 ---
 
 title: Git Integration for Jira Cloud - Release Notes
-description:
+description: Release notes documenting new features, improvements, bug fixes, and security updates for Git Integration for Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
-We publish new features, bug fixes, security updates/patches, and Jira compatibility regularly. Below are highlights of the changes.
+We publish new features, bug fixes, security updates, and Jira compatibility improvements regularly. Below are highlights of the changes.
 
 **Important links**
 
