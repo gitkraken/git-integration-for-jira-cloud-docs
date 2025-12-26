@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-The Cloud version of Git Integration for Jira runs on AWS instances and has fewer configuration options compared to a self-hosted Jira/GIJ instance. This document details soft limits beyond which some customers experience performance issues.
+Git Integration for Jira Cloud runs on AWS instances and has fewer configuration options compared to a self-hosted Jira/GIJ instance. This document details soft limits beyond which some customers experience performance issues.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -35,7 +35,7 @@ The Cloud version of Git Integration for Jira runs on AWS instances and has fewe
 | Limit | Possible Issues |
 | :--- | :--- |
 | >2,000 | Slow indexing |
-| | Rate limit errors when getting PR/Builds/Deployments data during indexing |
+| | Rate limit errors when retrieving PR/Builds/Deployments data during indexing |
 | | Long loading times or timeout errors when loading development data |
 
 &nbsp;
@@ -45,7 +45,7 @@ The Cloud version of Git Integration for Jira runs on AWS instances and has fewe
 | Limit | Possible Issues |
 | :--- | :--- |
 | >2 GB | Extended indexing time |
-| | Rate limit errors when getting PR/Builds/Deployments data during indexing |
+| | Rate limit errors when retrieving PR/Builds/Deployments data during indexing |
 | | Long loading times or timeout errors when loading development data |
 
 &nbsp;
@@ -67,7 +67,7 @@ See [Max Object Error](/git-integration-for-jira-cloud/error-while-reindexing-ja
 | Limit | Possible Issues |
 | :--- | :--- |
 | >2,000 | Slow indexing |
-| | Rate limit errors when getting PR/Builds/Deployments data during indexing |
+| | Rate limit errors when retrieving PR/Builds/Deployments data during indexing |
 | | Long loading times or timeout errors when loading development data |
 
 &nbsp;
@@ -77,7 +77,7 @@ See [Max Object Error](/git-integration-for-jira-cloud/error-while-reindexing-ja
 | Limit | Possible Issues |
 | :--- | :--- |
 | >2,000 | Slow indexing |
-| | Rate limit errors when getting PR/Builds/Deployments data during indexing |
+| | Rate limit errors when retrieving PR/Builds/Deployments data during indexing |
 | | Long loading times or timeout errors when loading development data |
 
 &nbsp;
@@ -87,7 +87,7 @@ See [Max Object Error](/git-integration-for-jira-cloud/error-while-reindexing-ja
 | Limit | Possible Issues |
 | :--- | :--- |
 | >2,000 | Slow indexing |
-| | Rate limit errors when getting PR/Builds/Deployments data during indexing |
+| | Rate limit errors when retrieving PR/Builds/Deployments data during indexing |
 | | Long loading times or timeout errors when loading development data |
 
 <p>&nbsp;</p>
