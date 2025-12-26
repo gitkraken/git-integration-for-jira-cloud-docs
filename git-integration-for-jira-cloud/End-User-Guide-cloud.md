@@ -1,13 +1,15 @@
 ---
 
 title: User Guide - GIJ Cloud
-description:
+description: End user guide for Git Integration for Jira Cloud - learn how to view and create Git data in Jira
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 ## Introduction to GIJ
-Thank you for using Git Integration for Jira! First, let’s go over how information will be displayed in Jira through our application.
+
+Thank you for using Git Integration for Jira! This guide explains how Git information displays in Jira through our application.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -15,35 +17,47 @@ Thank you for using Git Integration for Jira! First, let’s go over how informa
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you have an idea for an improvement or would like to request a specific feature, please submit a feature request on our <a href='https://gitkraken.canny.io/git-integration-for-jira-feedback'>Feature Request Board</a>.
+        Have an idea for an improvement or want to request a specific feature? Submit a feature request on our <a href='https://gitkraken.canny.io/git-integration-for-jira-feedback'>Feature Request Board</a>.
     </div>
     </div>
 </div>
 
+&nbsp;
+
 ## Jira Issue View
 
-GIJ will display Commits, Branches, and Pull/Merge requests associated with a specific Jira Issue. The Jira Issue key must be included in the commit message, the Branch name, and the Pull/Merge request title in order for GIJ to link the item to the respective Jira Issue. 
- Please see: [Linking Git Commits](https://help.gitkraken.com/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/) for more details.
+GIJ displays commits, branches, and pull/merge requests associated with a specific Jira issue. To link items to a Jira issue, include the Jira issue key in the commit message, branch name, or pull/merge request title.
+
+See [Linking Git Commits](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/) for more details.
 
 **Breakdown of information provided by GIJ in Jira issues:**
+
 ![Jira Issue View](/wp-content/uploads/Jira-Issue-Breakdown-2025.png)
+
 **Activity Stream - Git Commits**
-1. Git Commits tab in the activity stream, broken down by repository
-2. Individual Commit, noted by Developer that made the commit
+
+1. Git Commits tab in the activity stream, organized by repository
+2. Individual commit with the developer who made it
 3. Commit message
 4. Commit line change summary by file
-5. Link to view Code diff in Jira
+5. Link to view code diff in Jira
 
 **Git Integration Panel**
-6. Option to Create a branch or Pull Request directly from a Jira Issue
-7. Associated Branches and Pull requests with PR Status Icon.
 
-Additionally, the [Git Rollup tab](https://help.gitkraken.com/git-integration-for-jira-cloud/git-roll-up-tab-gij-cloud/) allows you to see a summary of the files, lines and the developers who have made the changes associated with the Jira issue.
+6. Options to create a branch or pull request directly from a Jira issue
+7. Associated branches and pull requests with status icons
+
+The [Git Rollup Tab](/git-integration-for-jira-cloud/git-roll-up-tab-gij-cloud/) shows a summary of files, lines changed, and the developers who made changes associated with the Jira issue.
+
 ![Git Rollup Tab](/wp-content/uploads/gij-gitcloud-jira-issue-rollup-tab-2025.png)
+
+&nbsp;
 
 ## Linking Behavior
 
-GIJ uses the Jira issue key to determine whether or not a repository activity (Commits, Branches, Pull/Merge Requests) is linked to any Jira items. In order for the linking to occur, you need to include the Jira issue key in the commit message, the branch name, and the pull request title. It does not need to be in any specific part of the message or name as long as it is included. Please see: [Linking Git Commits to Jira Issues](https://help.gitkraken.com/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/) for more details.
+GIJ uses the Jira issue key to determine whether repository activity (commits, branches, pull/merge requests) links to any Jira items. Include the Jira issue key in the commit message, branch name, or pull request title. The key can appear anywhere in the message or name.
+
+See [Linking Git Commits to Jira Issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/) for more details.
 
 ![Jira Issue Key](/wp-content/uploads/Jira-Issue-key-linking-cloud.png)
 
@@ -51,49 +65,93 @@ GIJ uses the Jira issue key to determine whether or not a repository activity (C
 
 ![Pull request Example](/wp-content/uploads/Pull-Request-Linking-Example.png)
 
+&nbsp;
+
 ## Creating Branches
-You can [create branches](https://help.gitkraken.com/git-integration-for-jira-cloud/create-branch-gij-cloud/) directly from a Jira issue using GIJ. To do this, first open and load the ‘Git Integration’ panel from the right hand side of the Jira issue, then click the ‘Create branch’ option.
+
+You can [create branches](/git-integration-for-jira-cloud/create-branch-gij-cloud/) directly from a Jira issue using GIJ.
+
+**To create a branch:**
+
+1. Open the Git Integration panel from the right side of the Jira issue.
+2. Click **Create branch**.
 
 ![Create Branch 1](/wp-content/uploads/Enduserguide-Cloud-Create-Branch-1-2025.png)
 
-Select the desired repository to create the branch in, the source branch, and the branch name. Make sure that the Jira issue key is included in the branch name.
+3. Select the repository to create the branch in.
+4. Select the source branch.
+5. Enter the branch name. Make sure the Jira issue key is included.
+6. Click **Create branch**.
 
 ![Create Branch 2](/wp-content/uploads/Enduserguide-Cloud-Create-Branch-2-2025.png)
 
-You will see a pop up after the branch is created, and you will be able to link our directly to the newly created branch.
+A confirmation popup appears after the branch is created. Click the link to open the newly created branch directly.
+
+&nbsp;
 
 ## Creating Pull/Merge Requests
-You can [create Pull/Merge Requests](https://help.gitkraken.com/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud/) directly from Jira using GIJ as well. To do this, first open and load the ‘Git Integration’ panel from the right hand side of the Jira issue, then click the ‘Create Pull Request/Merge Request’.
+
+You can [create pull/merge requests](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud/) directly from Jira using GIJ.
+
+**To create a pull/merge request:**
+
+1. Open the Git Integration panel from the right side of the Jira issue.
+2. Click **Create Pull Request** or **Create Merge Request**.
 
 ![Create PR 1](/wp-content/uploads/Enduserguide-Cloud-Creating-PR-1-2025.png)
-Select the repository, Source and Target branches, and make sure that the title of the pull request contains the Jira issue key, and click the ‘Create pull/merge request’ button.
+
+3. Select the repository.
+4. Select the source and target branches.
+5. Verify the title contains the Jira issue key.
+6. Click **Create pull/merge request**.
 
 ![Create PR 2](/wp-content/uploads/Enduserguide-Cloud-Creating-PR-2-2025.png)
-You will see a pop up after the branch is created, and you will be able to link our directly to the newly created branch.
+
+A confirmation popup appears after the pull/merge request is created. Click the link to open it directly.
+
+&nbsp;
 
 ## GIJ User Settings
-GIJ let’s you manage your Connected Apps, Default Repository, Branch, and Personal Access Tokens through the [GIJ User settings](https://help.gitkraken.com/git-integration-for-jira-cloud/user-settings-gij-cloud/) page. 
 
-To navigate to this page, click your Jira profile picture icon, then select ‘Git Integration: User Settings’.
+GIJ lets you manage your connected apps, default repository, default branch, and personal access tokens through the [GIJ User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud/) page.
+
+**To access User Settings:**
+
+1. Click your Jira profile picture icon.
+2. Select **Git Integration: User Settings**.
+
 ![User-Settings](/wp-content/uploads/GIJ-General-Settings-navigation-cloud-2025.png)
+
 ### Connected Apps
-You can enabled/disable the visbility of the the Gitkraken and Gitlens icons in Jira issues which allow you to open specific Git items in the respective application directly from the issue.
+
+Enable or disable the visibility of GitKraken and GitLens icons in Jira issues. These icons let you open specific Git items in the respective application directly from the issue.
 
 ![Connected Apps](/wp-content/uploads/GIJ-Cloud-User-Settings-Connnected-Apps.png)
 
 ![Connected Apps - icons](/wp-content/uploads/GIJ-Connected-Apps-Jiraissue-icons-2025.png)
 
 ### Default Repository
-You can set a default repository on a per project basis.
+
+Set a default repository on a per-project basis.
 
 ![Default-repo](/wp-content/uploads/GIJ-Cloud-User-Settings-Default-Repo.png)
 
 ### Default Branch
-You can set a default branch for a specific repository, set up dependent on the Jira Project.
+
+Set a default branch for a specific repository, configured by Jira project.
 
 ![Default-Branch](/wp-content/uploads/GIJ-Cloud-User-Settings-Default-Branch.png)
 
 ### Personal Access Tokens
-You can manage the Personal access tokens that will be used to authenticate your requests to create Branches and Pull Requests directly from Jira. You will need to provide a token for each integration. You can both provide the Personal Access Token and click the link to create a new token, which will take you directly to the token creation page for the given Git service. Please see [Creating Personal Access Tokens](https://help.gitkraken.com/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud/) for detailed instructions for creating your PAT.
+
+Manage the personal access tokens used to authenticate your requests to create branches and pull requests directly from Jira. You need to provide a token for each integration.
+
+You can enter an existing personal access token or click the link to create a new token. The link takes you directly to the token creation page for that Git service.
+
+See [Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud/) for detailed instructions.
 
 ![PAT](/wp-content/uploads/GIJ-Cloud-User-Settings-PAT.png)
+
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
