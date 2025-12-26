@@ -1,76 +1,95 @@
 ---
 
 title: Application Operations and Planning
-description:
+description: Understanding integration types, indexing behavior, and planning your Git Integration for Jira structure
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 ## Integration Types
----
-### Full Featured vs. Webhook Indexing
 
-The majority of our clients use the“Full Featured” or “Webhook Indexing” integration. Full featured integrations are active 2 way connections, while Webhook indexing integrations are one way passive connections. To decide which is best for your organization, consider the following 2 factors:
+### Full Featured vs Webhook Indexing
 
-1. Company policy regarding cloning code
-2. Private vs Public Git Server
+Most users choose either Full Featured or Webhook Indexing integrations. Full Featured integrations create active two-way connections, while Webhook Indexing integrations create one-way passive connections.
 
-Full Featured integrations are our recommended integration type for clients, as this will allow you to utilize our full feature set. If your git server is behind a firewall/proxy, you can still utilize this integration type, but you will have to do some whitelisting of our IP’s, and make sure that the URL for your git service is publicly routable: [Allowlist - GIJ Cloud](https://help.gitkraken.com/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud/)
+Consider these factors when choosing:
 
-Note, Full featured integrations requires GIJ to clone your repositories in order to provide Code Compare and Code Diff functionality directly from Jira. Repositories will be cloned to our AWS storage and, to a directory assigned specifically for your install. All traffic/data is encrypted in transit and at rest. Consider visiting our [Security and Trust](https://www.gitkraken.com/git-integration-for-jira/security-and-trust) page for an overview of our security measures. 
+1. Your company policy regarding code cloning
+2. Whether your Git server is private or public
 
-Webhook Indexing integrations are designed to accommodate clients with security restrictions surrounding Code cloning, or for clients utilizing self-hosted git servers placed behind firewalls/proxies and cannot make those servers routable from the public internet. Details about how Webhook Indexing integrations work can be found in our [Webhook Indexing Explainer](https://help.gitkraken.com/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud/). While this option addresses key security restrictions, this integration type has a limited feature set due to its reliance on webhooks delivered from your git service containing only basic git data for Jira Issue updates. 
+**Full Featured integrations** are recommended for most users because they provide access to all features. If your Git server is behind a firewall or proxy, you can still use this integration type by allowlisting our IPs and ensuring your Git service URL is publicly routable. See [Allowlist - GIJ Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud/) for details.
 
-Please see our [Feature Matrix](https://help.gitkraken.com/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud/) for a detailed breakdown of features between the integration types can be found.
+Full Featured integrations require GIJ to clone your repositories to provide Code Compare and Code Diff functionality directly from Jira. Repositories are cloned to AWS storage in a directory assigned specifically to your installation. All traffic and data is encrypted in transit and at rest. Visit our [Security and Trust](https://www.gitkraken.com/git-integration-for-jira/security-and-trust) page for an overview of security measures.
 
+**Webhook Indexing integrations** accommodate users with security restrictions around code cloning, or users with self-hosted Git servers behind firewalls that cannot be made publicly routable. See the [Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud/) for details on how this works. This integration type has a limited feature set because it relies on webhook metadata rather than direct repository access.
+
+See our [Feature Matrix](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud/) for a detailed breakdown of features by integration type.
 
 ### Plain Git Connections
-If you are not using one of the major Git services (GitHub, GitLab, Azure DevOps, Bitbucket,  AWS), we still have you covered! We support plain git connections to each individual repository you wish to roll up into your Jira issues. Please see the feature matrix linked above for details on the limitations on plain git connections.
+
+If you don't use a major Git service (GitHub, GitLab, Azure DevOps, Bitbucket, AWS), GIJ supports plain Git connections to individual repositories. See the Feature Matrix linked above for details on plain Git connection limitations.
+
+&nbsp;
 
 ## Indexing Behavior
----
-Now that you have determined what kind of integration type fits your needs, let’s learn how Git Integration for Jira indexes updates from your repositories.
+
+Now that you understand integration types, let's examine how Git Integration for Jira indexes updates from your repositories.
+
 ### Full Featured Integrations
-By default, full featured integrations go through 2 different stages of indexing, initial indexing which only happens once, and normal indexing.
+
+Full Featured integrations go through two stages of indexing: initial indexing (happens once) and normal indexing.
 
 ### First Time Indexing
-The initial indexing phase only happens the first time that an integration is added to GIJ, or a new repository is added to an existing integration. This initial indexing phase is comprised of 2 different actions:
 
-1. Clone all of your repositories/ the newly created repository. 
-2. Scan the entire Git history for each repository searching for Jira issues.
+Initial indexing occurs only when you first add an integration to GIJ or add a new repository to an existing integration. This phase includes two actions:
 
-This scan allows us to link any Git data that previously referenced Jira issues in the appropriate places in order to provide the most comprehensive historical Git data in Jira possible. Because we are performing more intensive operations, this initial indexing phase tends to take more time than subsequent indexes. The total index time varies greatly for users, but in general demands more time for repositories with  longer Git histories, or with many branches and pull/merge requests. The number of repositories included in the integration will also have an impact on this indexing time.
+1. Clone all repositories (or the newly created repository)
+2. Scan the entire Git history for each repository, searching for Jira issue references
+
+This scan links any Git data that previously referenced Jira issues, providing comprehensive historical Git data in Jira. Because these operations are more intensive, initial indexing takes longer than subsequent indexes. Total index time varies based on repository Git history length, number of branches and pull/merge requests, and number of repositories in the integration.
 
 ### Normal Indexing Operations
-After all of your integrations/repositories have been indexed for the 1st time, the application will automatically index your Git repositories periodically based on an adaptive timer. The index frequency will vary based on a few different factors, such as how often there are changes detected in that repository, but most active repositories will be indexed every 20 minutes or so. The amount of time that it takes GIJ to complete all of the indexing tasks will also affect the indexing frequency. For a more comprehensive explanation of our indexing process, please see [Classic Indexing explainer](https://help.gitkraken.com/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/)
+
+After initial indexing completes, the application automatically indexes your Git repositories periodically based on an adaptive timer. Index frequency varies based on how often changes are detected in each repository, but most active repositories index every 20 minutes or so. The time required to complete all indexing tasks also affects frequency.
+
+For a comprehensive explanation of the indexing process, see [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/).
 
 ### Indexing Triggers
-We suggest utilizing [Indexing Triggers](https://help.gitkraken.com/git-integration-for-jira-cloud/indexing-triggers-gij-cloud/) alongside your integrations. These indexing triggers are webhooks that are created/sent from your repositories whenever there are updates to your repositories. When we receive the webhook, we will automatically index that repository outside of the normal indexing timer, allowing near real-time updates.
+
+We recommend using [Indexing Triggers](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud/) alongside your integrations. These triggers are webhooks sent from your repositories whenever updates occur. When GIJ receives the webhook, it automatically indexes that repository outside the normal timer, enabling near real-time updates.
 
 ### Webhook Indexing
-Despite the name, there is no actual indexing taking place when utilizing Webhook Indexing integrations. Since this is a one-way passive integration, we do not clone/scan/index your repositories at any point. Instead, we rely on metadata included in the webhooks themselves to update the Jira Issues. With webhook indexing:
 
-- No specific code change information is sent 
-- No repository information is sent 
-- Repository record is added after a webhooks is received
+Despite the name, Webhook Indexing integrations don't actually index repositories. Since this is a one-way passive integration, GIJ never clones, scans, or indexes your repositories. Instead, it relies on metadata in the webhooks to update Jira issues.
 
-GIJ only updates Jira issues when we receive webhooks from your repositories containing Jira issue keys as part of the changes. There is no periodic or scheduled indexing. This means that all changes are updated in near real time by default.
+With Webhook Indexing:
 
+- No specific code change information is sent
+- No repository information is sent
+- Repository records are added after webhooks are received
 
-## Integration structure planning
----
-Now that you have a better understanding of what to expect with GIJ, consider taking some time to evaluate how to structure your integrations such as:. 
-1. Total Number of Repositories you wish to connect to Jira.
-    - The higher the number of connected repositories, the more challenging it can become to manage them, especially if you wish to utilize project associations. 
-    - The more repository connections, the more likely you are to run into rate limiting issues as well.
-2. The structure of your repositories in your Git services. 
-    - Do you have your repositories organized by organization/groups in your Git service, or is everything included in a single group/org? The more structured your repositories, the easier it becomes to create integrations.
+GIJ only updates Jira issues when it receives webhooks containing Jira issue keys. There is no periodic or scheduled indexing, so all changes update in near real time by default.
 
-Consider creating multiple integrations to the same Git service, each connecting to a different org/group instead of one large integration containing all of your repositories. If you only have less than 100, then this might not be necessary for your needs, but if you have more than 100, and wish to limit visibility between Jira projects, then it will be easier to manage if they are broken up over multiple integrations.
+&nbsp;
 
-Usually the best way to do this is to create an integration per Org/group, as long as the total number of repositories included in each integration is less than 2000. If a group/org has more than 2000 repos, then you will have to create multiple integrations to that same org/group in order to get the total number of repos to around 2000 or less. This can be done either by manually selecting the repositories in the UI, or by applying [Custom API Path](https://help.gitkraken.com/git-integration-for-jira-cloud/working-with-custom-api-path-gij-cloud/) and/or [JMESPath filtering](https://help.gitkraken.com/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud/) .
+## Integration Structure Planning
 
-Rate limiting can become an issue for large instances when there are a large number of repositories included, or some of the repositories have long and complex Git histories with a lot of Branches and or Pull/Merge requests. If this is a concern for your instance, then the best way to address it will vary based on a few factors, but the general suggestion is to generate multiple service accounts on your Git service, and spread out the authentication for your various integrations across the different accounts. Since the API calls will then be spread out across more accounts, and over a longer period of time, this should help avoid hitting your Git services rate limits.
+Now that you understand what to expect with GIJ, take time to evaluate how to structure your integrations:
+
+1. **Total number of repositories** you want to connect to Jira
+    - More connected repositories make management more challenging, especially when using project associations
+    - More repository connections increase the likelihood of rate limiting issues
+
+2. **Repository structure** in your Git services
+    - Are repositories organized by organization/group, or is everything in a single group/org?
+    - More structured repositories make integration creation easier
+
+Consider creating multiple integrations to the same Git service, each connecting to a different org/group, instead of one large integration containing all repositories. If you have fewer than 100 repositories, this may not be necessary. If you have more than 100 and want to limit visibility between Jira projects, breaking them into multiple integrations makes management easier.
+
+The best approach is usually to create one integration per org/group, keeping each integration under 2,000 repositories. If a group/org has more than 2,000 repositories, create multiple integrations to that same org/group to keep each under 2,000 repositories. You can do this by manually selecting repositories in the UI or by applying [Custom API Path](/git-integration-for-jira-cloud/working-with-custom-api-path-gij-cloud/) and/or [JMESPath Filtering](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud/).
+
+Rate limiting can become an issue for large instances with many repositories or repositories with long, complex Git histories with many branches and pull/merge requests. To address this, generate multiple service accounts on your Git service and spread authentication across different accounts. This distributes API calls across more accounts and over longer periods, helping avoid rate limits.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -78,14 +97,19 @@ Rate limiting can become an issue for large instances when there are a large num
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        
-Note, there are some soft performance limitations to consider when planning your integrations, so please review our known Performance Limitations page for some guidelines to follow when planning out your integrations. <a href='/git-integration-for-jira-cloud/known-performance-limitations-gij-cloud/'>Click here</a>
+        Review our <a href='/git-integration-for-jira-cloud/known-performance-limitations-gij-cloud/'>Known Performance Limitations</a> page for soft performance limitations to consider when planning your integrations.
     </div>
     </div>
 </div>
 
-___
+&nbsp;
+
+---
 
 [<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>NEXT</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/">Integration Creation and Post Integration Config</a>
 
 [<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>PREVIOUS</b>](/git-integration-for-jira-cloud/Getting-Started-Guide/) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide/">Getting Started</a>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
