@@ -1,7 +1,7 @@
 ---
 
 title: GitHub Enterprise Server
-description:
+description: How to integrate GitHub Enterprise Server repositories with Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -440,4 +440,8 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 [Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-gij-cloud) (Git Integration for Jira Cloud)
 
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
+
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
 

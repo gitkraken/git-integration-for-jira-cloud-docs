@@ -1,7 +1,7 @@
 ---
 
 title: GitLab CE/EE
-description:
+description: How to integrate GitLab CE/EE repositories with Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -499,4 +499,8 @@ The merge request is also ready for approval by the reviewers in your GitLab web
     <sup>1</sup> <i>Logo owned by <a href='https://gitlab.com/'>GitLab Inc</a> used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>license</a>.
     <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.<p><i>
 </div>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
 

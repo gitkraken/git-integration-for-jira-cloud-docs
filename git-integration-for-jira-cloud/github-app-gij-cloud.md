@@ -1,7 +1,7 @@
 ---
 
 title: GitHub App integration
-description:
+description: How to integrate GitHub repositories using the GitHub App with Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
