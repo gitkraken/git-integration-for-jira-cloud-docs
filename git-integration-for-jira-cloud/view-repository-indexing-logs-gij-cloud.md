@@ -1,7 +1,7 @@
 ---
 
 title: View repository indexing logs
-description:
+description: How to view and download repository indexing logs
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -9,14 +9,13 @@ taxonomy:
 
 ![](/wp-content/uploads/gij-gitcloud-actions-view-logs-2025.png)
 
-Access the repository indexing logs via ![](/wp-content/uploads/actions-icon.png) Actions ➜ **View log**. The Integration indexing log dialog is displayed.
+Access the repository indexing logs via ![](/wp-content/uploads/actions-icon.png) Actions ➜ **View log**. The Integration indexing log dialog appears.
 
 ![](/wp-content/uploads/gij-gitcloud-actions-view-logs-dialog-2025.png)
 
+The dialog displays partial log information. Download the full log to save it to your local machine and view the entire log information using your preferred log viewer.
 
-The above dialog displays partial log information. Download the full log to save it to your local machine and view the entire log information via your favorite log viewer.
-
-If you encounter issues, you can send this log to [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) for further analysis.
+If you encounter issues, send this log to [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) for further analysis.
 
 &nbsp;
 * * *
@@ -27,7 +26,7 @@ If you encounter issues, you can send this log to [gijsupport@gitkraken.com](mai
 
 &nbsp;
 
-### More related topics about managing repository/integration configuration
+### More Related Topics About Managing Repository/Integration Configuration
 
 [Managing integration or repository configuration](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
 
@@ -39,9 +38,9 @@ If you encounter issues, you can send this log to [gijsupport@gitkraken.com](mai
 
 [Edit nested repository settings](/git-integration-for-jira-cloud/edit-nested-repository-settings-gij-cloud/) (Git Integration for Jira Cloud)
 
-**SSL verify** (this page)
+[SSL verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud/) (Git Integration for Jira Cloud)
 
-[View repository indexing logs](/git-integration-for-jira-cloud/view-repository-indexing-logs-gij-cloud/) (Git Integration for Jira Cloud)
+**View repository indexing logs** (this page)
 
 [Disconnect an integration or repository configuration](/git-integration-for-jira-cloud/removing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
 
@@ -49,3 +48,6 @@ If you encounter issues, you can send this log to [gijsupport@gitkraken.com](mai
 
 [Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/) (Git Integration for Jira Cloud)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

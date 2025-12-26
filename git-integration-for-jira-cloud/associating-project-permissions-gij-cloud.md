@@ -1,15 +1,15 @@
 ---
 
 title: Associating project permissions
-description:
+description: How to configure project-level permissions for Git integrations and repositories
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
-Integrations and/or repositories can be associated with one or more Jira projects to restrict which users can view development information. All newly-connected repositories or integrations are associated with all Jira projects by default.
+Integrations and repositories can be associated with one or more Jira projects to restrict which users can view development information. All newly-connected repositories or integrations are associated with all Jira projects by default.
 
-This feature is displayed on the following locations:
+This feature is displayed in the following locations:
 
 <ul>
     <li><b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>REPOSITORY</b> Manage repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit repository ➜ <b>Feature settings</b>.</li>
@@ -18,21 +18,19 @@ This feature is displayed on the following locations:
 
 <img src='/wp-content/uploads/gij-gitcloud-project-permissions-setting.png' style='display:block;margin:25px auto;height:auto;max-width:100%;' />
 
-**Restrict to projects**  –  One or more projects can be mapped to this repository or integration to make Git Commits tabs available in the Issue pages of the associated projects. Disable _**Associate with all projects**_ option to gain access to this field.
+**Restrict to projects** – One or more projects can be mapped to this repository or integration to make Git Commits tabs available in the Issue pages of the associated projects. Disable the _**Associate with all projects**_ option to access this field.
 
-**Associate with all projects**  –  Enable this option to associate this repository or integration to all projects. Disable this option if you want to use the existing mapped projects from the **Restrict to projects** field. The default setting is enabled _(checked)_.
+**Associate with all projects** – Enable this option to associate this repository or integration with all projects. Disable this option to use the existing mapped projects from the **Restrict to projects** field. The default setting is enabled (checked).
 
 &nbsp;
 
-## Project permissions level
+## Project Permissions Level
 
-There are several types of project permission levels, namely:
-- [Project permissions level](#project-permissions-level)
-  - [Repository level](#repository-level)
-  - [Integration level](#integration-level)
-  - [Repository level within integration](#repository-level-within-integration)
-- [Setting project permissions in Jira Cloud](#setting-project-permissions-in-jira-cloud)
-  - [More related topics about managing repository/integration configuration](#more-related-topics-about-managing-repositoryintegration-configuration)
+There are several types of project permission levels:
+
+- [Repository level](#repository-level)
+- [Integration level](#integration-level)
+- [Repository level within integration](#repository-level-within-integration)
 
 ### Repository level
 
@@ -46,19 +44,19 @@ There are several types of project permission levels, namely:
 
 <div align='center' style='margin-bottom:30px;'>(<i>Updated video coming soon</i>)</div>
 
-You can configure the project permissions for single connection repositories:
+To configure project permissions for single connection repositories:
 
-1.  On the Manage repositories page, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository**.
+1.  On the Manage repositories page, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository**.
 
-2.  On the page that appears, scroll down to **Project Permissions**.
+2.  On the page that appears, scroll down to **Project Permissions**.
 
-3.  Uncheck (turn off) the **Associate with all projects** setting.
+3.  Clear the **Associate with all projects** checkbox.
 
-4.  Click on the **Restrict to projects** field then select one or more projects from the list.
+4.  Click the **Restrict to projects** field, then select one or more projects from the list.
 
-5.  Click **Update** to save the settings.
+5.  Click **Update** to save the settings.
 
-The same process can also be applied for other single repository connections in Jira Cloud.
+The same process applies to other single repository connections in Jira Cloud.
 
 &nbsp;
 
@@ -74,17 +72,17 @@ The same process can also be applied for other single repository connections in 
 
 <div align='center' style='margin-bottom:30px'>(<i>Updated video coming soon</i>)</div>
 
-You can configure the project permissions for integration (multiple repository connection):
+To configure project permissions for an integration (multiple repository connection):
 
-1.  On the Manage integrations page, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration**.
+1.  On the Manage integrations page, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration**.
 
-2.  On the page that appears, click **Feature settings** on the sidebar then scroll down to the **Project Permissions** section.
+2.  On the page that appears, click **Feature settings** on the sidebar, then scroll down to the **Project Permissions** section.
 
-3.  Uncheck (turn off) the **Associate with all projects** setting.
+3.  Clear the **Associate with all projects** checkbox.
 
-4.  Click on the **Restrict to projects** field then select one or more projects from the list.
+4.  Click the **Restrict to projects** field, then select one or more projects from the list.
 
-5.  Click **Update** to save the settings.
+5.  Click **Update** to save the settings.
 
 <p>&nbsp;</p>
 
@@ -100,10 +98,9 @@ You can configure the project permissions for integration (multiple repository c
 
 <div align='center' style='margin-bottom:30px'>(<i>Updated video coming soon</i>)</div>
 
+To configure project permissions for repositories within an integration:
 
-You can configure the project permissions for repositories within integration:
-
-1.  On the Manage repositories page, click <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration** for a repository that is part of the integration (which can be identified with the Integration column).
+1.  On the Manage repositories page, click <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration** for a repository that is part of the integration (identified by the Integration column).
 
     For easy access, use the integration dropdown selector.
 
@@ -111,19 +108,19 @@ You can configure the project permissions for repositories within integration:
 
 2.  Click a repository name (under the Repository column) to directly open its repository settings.
 
-3.  On the page that appears, scroll down to **Project Permissions**.
+3.  On the page that appears, scroll down to **Project Permissions**.
 
-4.  Uncheck (turn off) the **Associate with all projects** setting.
+4.  Clear the **Associate with all projects** checkbox.
 
-5.  Click on the **Restrict to projects** field then select one or more projects from the list.
+5.  Click the **Restrict to projects** field, then select one or more projects from the list.
 
-6.  Click **Update** to save the settings.
+6.  Click **Update** to save the settings.
 
 <p>&nbsp;</p>
 
-## Setting project permissions in Jira Cloud
+## Setting Project Permissions in Jira Cloud
 
-Project permissions are now available in Git Integration for Jira Cloud. The default setting for new repository/integration connections is **Associated with all Jira projects**.
+Project permissions are available in Git Integration for Jira Cloud. The default setting for new repository/integration connections is **Associated with all Jira projects**.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -131,12 +128,12 @@ Project permissions are now available in Git Integration for Jira Cloud. The def
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Whenever the <b>integration</b> settings for project permissions are updated, the repository settings will be overwritten.
+        When you update <b>integration</b> settings for project permissions, the repository settings are overwritten.
     </div>
     </div>
 </div>
 
-Watch the video below to learn different settings for each project permissions level.
+Watch the video below to learn about different settings for each project permissions level.
 
 <div class='embed-container' style='padding-bottom: 67.29%'>
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/nnao2x4ses?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -157,7 +154,7 @@ Watch the video below to learn different settings for each project permissions l
 
 &nbsp;
 
-### More related topics about managing repository/integration configuration
+### More Related Topics About Managing Repository/Integration Configuration
 
 [Managing integration or repository configuration](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
 
@@ -179,3 +176,6 @@ Watch the video below to learn different settings for each project permissions l
 
 **Associating project permissions** (this page)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
