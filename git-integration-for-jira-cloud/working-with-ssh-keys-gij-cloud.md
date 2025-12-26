@@ -1,15 +1,15 @@
 ---
 
 title: Working with SSH keys
-description:
+description: How to generate and configure SSH keys for Git Integration for Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
-SSH keys are required in order to provide secure connection with the remote git host. The Git Integration for Jira app uses one set of keys for accessing all configured repositories.
+SSH keys provide a secure connection with the remote git host. Git Integration for Jira uses one set of keys for accessing all configured repositories.
 
-Follow this guide if you are one of the users who are limited to or wanted to use SSH to securely connect to your git repositories.
+Follow this guide if you want to use SSH to securely connect to your git repositories.
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -17,7 +17,7 @@ Follow this guide if you are one of the users who are limited to or wanted to us
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Features such as branch and pull/merge request creation are only available to repositories/git hosts that were connected via the Full feature integration (<i>formerly Auto-connect integration</i>).
+        Features such as branch and pull/merge request creation are only available for repositories/git hosts connected via the Full feature integration (<i>formerly Auto-connect integration</i>).
     </div>
     </div>
 </div>
@@ -39,15 +39,15 @@ Follow this guide if you are one of the users who are limited to or wanted to us
 
 &nbsp;
 
-## Getting started
+## Getting Started
 
-Before connecting repositories via SSH, users are required to generate SSH keys for use with the remote git host (_public key_) and for Git Integration app in Jira (_private key_).
+Before connecting repositories via SSH, generate SSH keys for use with the remote git host (public key) and for Git Integration for Jira (private key).
 
-Generated SSH keys always come in pair. (**Example:** `id_rsa.pub` and `id_rsa`)
+Generated SSH keys always come in pairs. (Example: `id_rsa.pub` and `id_rsa`)
 
-For establishing safety connection with SSH, upload a **public key** to the SSH server and set the **private key** to the SSH client.
+To establish a secure connection with SSH, upload a **public key** to the SSH server and set the **private key** on the SSH client.
 
-In this case, the SSH server is the Git server and the SSH client is the Jira server. Therefore:
+In this case, the SSH server is the Git server and the SSH client is the Jira server:
 
 *   Git server — public key
 *   Jira server — private key
@@ -58,12 +58,12 @@ In this case, the SSH server is the Git server and the SSH client is the Jira se
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Note that Git Integration for Jira app SSH key:
+        Git Integration for Jira SSH key requirements:
         <ul>
-            <li>must not be created using the OpenSSH format.</li>
-            <li>must be the private key.</li>
-            <li>must use the supported certificate format: RSA.</li>
-            <li>must use the supported storage format: OpenSSL PEM.</li>
+            <li>Must not use the OpenSSH format</li>
+            <li>Must be the private key</li>
+            <li>Must use the supported certificate format: RSA</li>
+            <li>Must use the supported storage format: OpenSSL PEM</li>
         </ul>
         <hr>
         <p style='margin-bottom:0px !important'>For more information, see known issue <a href='/git-integration-for-jira-cloud/ssh-key-file-format-is-invalid-gij-cloud'>SSH key format is invalid</a>.</p>
@@ -77,13 +77,13 @@ In this case, the SSH server is the Git server and the SSH client is the Jira se
 
 &nbsp;
 
-## Generating SSH keys on Windows
+## Generating SSH Keys on Windows
 
-For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use PuTTYgen to generate public and private SSH keys.
+For Windows, we recommend using [**PuTTY**](https://www.putty.org/) and PuTTYgen to generate public and private SSH keys.
 
 <img src='/wp-content/uploads/gij-workting-with-puttygen-key-dlg.png' style='margin:25px auto;display:block;max-width:100%' width=479px height=471px />
 
-1.  Launch **PuTTYgen** and refer to the above image for the rest of the steps on this section.
+1.  Launch **PuTTYgen** and refer to the above image for the rest of the steps.
 
 2.  Set _**Type of key to generate**_ to **RSA**.
 
@@ -91,13 +91,13 @@ For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use PuT
 
 4.  Click **Generate**.
 
-5.  Follow screen instructions such as moving your mouse pointer on random locations on the blank area of the PuTTYgen dialog. Do this until the progress bar completely fills up and the SSH key pair is generated.
+5.  Follow screen instructions such as moving your mouse pointer to random locations on the blank area of the PuTTYgen dialog. Continue until the progress bar fills completely and the SSH key pair is generated.
 
-6.  Entering a **Passphrase** for the generated key is optional but will ensure a more secure connection.
+6.  Entering a **Passphrase** for the generated key is optional but ensures a more secure connection.
 
 7.  Save your generated public and private key to a file by clicking the respective options.
 
-8.  Copy the generated key. This is the public key that you will be using on the SSH configuration page of your git host.
+8.  Copy the generated key. This is the public key you will use on the SSH configuration page of your git host.
 
 9.  For the private key, see the notes below.
 
@@ -107,7 +107,7 @@ For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use PuT
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        PuTTY creates a private key in its own ".ppk" format. To convert it to ".pem", the user should do the <b>Conversions</b> ➜ <b>Export OpenSSH key</b> menu option in PuTTYgen. Add/upload this file to Git Integration for Jira app ➜ <b>SSH keys</b> or when prompted on connecting SSH git repositories in Jira via Connect wizard.
+        PuTTY creates a private key in its own ".ppk" format. To convert it to ".pem", select <b>Conversions</b> ➜ <b>Export OpenSSH key</b> in PuTTYgen. Add/upload this file to Git Integration for Jira ➜ <b>SSH keys</b> or when prompted while connecting SSH git repositories in Jira via the Connect wizard.
     </div>
     </div>
 </div>
@@ -118,16 +118,16 @@ For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use PuT
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        You can also use the git bash command line to generate SSH key pair. For detailed information, see <a href='https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key'><b>Generate SSH via Git bash</b></a>.
+        You can also use the git bash command line to generate an SSH key pair. For detailed information, see <a href='https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key'><b>Generate SSH via Git bash</b></a>.
     </div>
     </div>
 </div>
 
 &nbsp;
 
-## Generating SSH keys on Linux/MacOS
+## Generating SSH Keys on Linux/MacOS
 
-On Linux and MacOS, this generates an SSH key in RSA format:
+On Linux and MacOS, run the following command to generate an SSH key in RSA format:
 
 ```
 ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
@@ -141,9 +141,9 @@ MacOS often incorrectly creates an OpenSSH format certificate. For more details,
 
 &nbsp;
 
-## Git host specific SSH key instructions
+## Git Host Specific SSH Key Instructions
 
-Configure and generate SSH keys for the following git hosting systems by following the reference links on each sub-section:
+Configure and generate SSH keys for the following git hosting systems by following the reference links in each sub-section:
 
 ### Beanstalk
 
@@ -158,9 +158,9 @@ Configure and generate SSH keys for the following git hosting systems by followi
 
 ### GitHub
 
-[Check for existing SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) before you proceed to generate new keys.
+[Check for existing SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) before generating new keys.
 
-See GitHub supported platforms for generating SSH keys by following [this article](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+See GitHub supported platforms for generating SSH keys in [this article](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 ### GitLab
 
@@ -169,25 +169,25 @@ See GitHub supported platforms for generating SSH keys by following [this articl
 
 ### GitLab CE/EE
 
-Follow the above GitLab references for GitLab CE/EE. Then verify that your GitLab server should have the following SSH settings:
+Follow the GitLab references above for GitLab CE/EE. Then verify that your GitLab server has the following SSH settings:
 
 <img src='/wp-content/uploads/gij-gitlab-server-ssh-settings.png' style='margin:25px auto;display:block;' />
 
-*   Enabled Git access protocols -- **Both SSH and HTTP(s)**
-*   RSA SSH keys -- **Are allowed**
+*   Enabled Git access protocols — **Both SSH and HTTP(s)**
+*   RSA SSH keys — **Are allowed**
 
-Other SSH key formats may be supported by Git Integration for Jira app, but prefer to use RSA format for your SSH git connections.
+Other SSH key formats may be supported by Git Integration for Jira, but use RSA format for your SSH git connections.
 
-### VSTS, TFS, Azure DevOps and Azure Repos
+### VSTS, TFS, Azure DevOps, and Azure Repos
 
-The SSH support starts with TFS 2013 and later versions.
+SSH support starts with TFS 2013 and later versions.
 
 *   For information about TFS/Azure DevOps Server, see [MS Team Foundation Server](https://azure.microsoft.com/en-us/services/devops/server/).
 *   For general reference and terms, see [Git Experience Futures](https://devblogs.microsoft.com/devops/git-experience-futures/).
 
 ### Gerrit
 
-The Git Integration for Jira app supports Gerrit web linking.
+Git Integration for Jira supports Gerrit web linking.
 
 *   For information about Gerrit software, see [Gerrit Software Wiki](http://en.wikipedia.org/wiki/Gerrit_(software)) and [Gerrit at Code Review](https://code.google.com/p/gerrit/).
 *   For general reference and installation, see [Gerrit documentation](https://gerrit-review.googlesource.com/Documentation/). [Ubuntu installation](https://gerrit-review.googlesource.com/Documentation/linux-quickstart.html) and fixing [registration error](https://issues.gerritcodereview.com/issues/40001679).
@@ -197,7 +197,7 @@ The Git Integration for Jira app supports Gerrit web linking.
 ### GitBlit
 
 *   For information about Gitblit, see [GitBlit official website](https://www.gitblit.com/).
-*   For general reference and installation, see [GitBlit Configuration](http://gitblit.com/administration.html), [Using HTTP/HTTPS Transport](http://gitblit.com/setup_transport_http.html) and [Built-in Authentication](http://gitblit.com/setup_authentication.html).
+*   For general reference and installation, see [GitBlit Configuration](http://gitblit.com/administration.html), [Using HTTP/HTTPS Transport](http://gitblit.com/setup_transport_http.html), and [Built-in Authentication](http://gitblit.com/setup_authentication.html).
 *   For information on SSH on GitBlit, see [GitBlit: Using the SSH Transport](http://gitblit.com/setup_transport_ssh.html).
 *   For GitBlit related FAQ, see [GitBlit Frequently Asked Questions](http://gitblit.com/faq.html).
 
@@ -220,9 +220,9 @@ The Git Integration for Jira app supports Gerrit web linking.
 
 ## Connecting SSH Git Repositories
 
-SSH git repositories can be integrated with Jira Cloud via Git Integration for Jira app.
+SSH git repositories can be integrated with Jira Cloud via Git Integration for Jira.
 
-We recommend to generate a **4096-bit** key using the instructions above.
+We recommend generating a **4096-bit** key using the instructions above.
 
 To connect an SSH repository:
 
@@ -230,12 +230,12 @@ To connect an SSH repository:
 
 2.  On the Manage integrations page, click **Add integration.**
 
-3.  On the following screen, at the Quick start integration section:
-    *   Click on the **SSH** tab.
-    *   Enter the git clone URL on the provided box.
+3.  On the following screen, in the Quick start integration section:
+    *   Click the **SSH** tab.
+    *   Enter the git clone URL in the provided box.
 
 4.  Click **Connect** to complete this process.
-    *   If prompted, enter login credentials for this repository integration. If 2FA is enabled for this account, enter the personal access token (PAT) for the password instead.
+    *   If prompted, enter login credentials for this repository integration. If 2FA is enabled for this account, enter the personal access token (PAT) as the password instead.
     *   Enable/disable [SSL Verify](/git-integration-for-jira-cloud/ssl-verify-gij-cloud) for this repository integration.
 
 The repository is now connected for use with Jira.
@@ -246,19 +246,19 @@ The repository is now connected for use with Jira.
 
 &nbsp;
 
-## Adding a public SSH key to your Git server
+## Adding a Public SSH Key to Your Git Server
 
-Add a public SSH key to your remote git host to prepare its repositories for connection with the Git Integration for Jira app.
+Add a public SSH key to your remote git host to prepare its repositories for connection with Git Integration for Jira.
 
-Do the following steps to setup SSH for your remote git host:
+To set up SSH for your remote git host:
 
-1.  Login to your remote git host service.
+1.  Log in to your remote git host service.
 
 2.  Go to the SSH configuration page, if supported.
 
     See examples: [Adding SSH key in GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) or [Adding SSH key in GitLab](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account).
 
-3.  Paste the public key to the provided box (GitLab) or upload the public key file and complete the setup (GitHub).
+3.  Paste the public key in the provided box (GitLab) or upload the public key file and complete the setup (GitHub).
 
 4.  Verify your SSH connection to the git host server.
 
@@ -268,19 +268,22 @@ Do the following steps to setup SSH for your remote git host:
 
 &nbsp;
 
-## Updating a private SSH key
+## Updating a Private SSH Key
 
-If a new SSH key pair is generated for the configured repository, do the following steps:
+If a new SSH key pair is generated for the configured repository, follow these steps:
 
-1.  On the Manage integrations page list, click on ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration** for the SSH-connected git repository.
+1.  On the Manage integrations page list, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration** for the SSH-connected git repository.
 
     ![](/wp-content/uploads/gij-gitmgr-actions-edit-integration-ssh-repo-2025.png)
 
-2.  Change the Private SSH key field (highlighted below) by pasting with the updated value or uploading the Private SSH key file.
+2.  Update the Private SSH key field (highlighted below) by pasting the updated value or uploading the Private SSH key file.
 
     ![](/wp-content/uploads/gij-gitmgr-actions-edit-integration-ssh-credentials-sel.png)
 
-    If a passphrase is present, enter it on the provided box.
+    If a passphrase is present, enter it in the provided box.
 
 3.  Click **Save** to save the settings.
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

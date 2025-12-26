@@ -1,13 +1,13 @@
 ---
 
 title: Setting up integrations
-description:
+description: How to set up and manage Git repository integrations in Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
-Setup repositories and manage them in the Git Integration app configuration in Jira.
+Set up repositories and manage them in the Git Integration app configuration in Jira.
 
 ![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page-2025.png)
 
@@ -30,15 +30,15 @@ Setup repositories and manage them in the Git Integration app configuration in J
 
 ## Introduction
 
-Integrate your git repositories via the Git Integration for Jira app in Jira Cloud. The Git Integration app provides special integrations with GitHub, GitLab, Azure Repos and more. Start integrating your git repositories by clicking **Add integration**.
+Integrate your git repositories via Git Integration for Jira Cloud. The app provides special integrations with GitHub, GitLab, Azure Repos, and more. Start integrating your git repositories by clicking **Add integration**.
 
 ![](/wp-content/uploads/gij-gitcloud-managed-ui-sel-git-host-service-page-2025.png)
 
 **Cloud-hosted** Git host services can be integrated into Jira automatically. Supported git hosts listed under this group are hosted remotely in the Cloud.
 
-**Self-hosted** (also known as self-managed) Git host services can also be integrated into Jira automatically (except Plain git repository). Supported git hosts listed under this group are hosted by organization themselves which can also be accessed remotely by their members.
+**Self-hosted** (also known as self-managed) Git host services can also be integrated into Jira automatically (except Plain git repository). Supported git hosts listed under this group are hosted by organizations themselves and can be accessed remotely by their members.
 
-Cloud-hosted and self-hosted git host services support this feature to automatically connect multiple repositories and has an array of features not found in other types of integration. _**This is the recommended way**_.
+Cloud-hosted and self-hosted git host services support automatic connection of multiple repositories and have an array of features not found in other types of integration. _**This is the recommended approach**_.
 
 **Webhook indexing integration** allows Jira integration for connected git repositories behind a firewall. This feature is accessible in some of the supported cloud-hosted or self-hosted git services on the list.
 
@@ -46,14 +46,13 @@ Cloud-hosted and self-hosted git host services support this feature to automatic
 
 &nbsp;
 
-## Menu access locations
+## Menu Access Locations
 
-After the installation, the Git Integration for Jira app repository configuration page can be accessed via:
+After installation, access the Git Integration for Jira app repository configuration page via:
 
 *   Jira dashboard menu Apps ➜ **Git Integration: Manage integrations**
 
     ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-2025.png)
-
 
 &nbsp;
 
@@ -61,9 +60,9 @@ After the installation, the Git Integration for Jira app repository configuratio
 
 &nbsp;
 
-## Git integration configuration page
+## Git Integration Configuration Page
 
-On this page, you will be able to setup your git repositories and connect them to Jira.
+On this page, you can set up your git repositories and connect them to Jira.
 
 <img src='/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
@@ -71,13 +70,13 @@ On the **Add new integration** page, the list of supported Git host services is 
 
 <img src='/wp-content/uploads/gij-gitcloud-managed-ui-sel-git-host-service-page-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
-Click on the git host service that you will be working on and connect it into Jira.
+Click the git host service you want to work with and connect it to Jira.
 
-Git Integration for Jira app supports one or more integration types for specific Git host service:
+Git Integration for Jira supports one or more integration types for specific Git host services:
 
 *   **Git service integration** – supports automatic connection and configuration of integration repositories using your Git service account or PAT.
 
-*   **Plain Git integration** – manually connect single HTTP/HTTPS or SSH git repositories into Jira. See supported Remote Git URL examples on the connection wizard.
+*   **Plain Git integration** – manually connect single HTTP/HTTPS or SSH git repositories into Jira. See supported Remote Git URL examples in the connection wizard.
 
 &nbsp;
 
@@ -85,11 +84,11 @@ Git Integration for Jira app supports one or more integration types for specific
 
 &nbsp;
 
-## Git service integration
+## Git Service Integration
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
 
-The following are types of integration supported by Git Integration for Jira app for automatic connection of specific git host service: 
+Git Integration for Jira supports the following types of automatic integration for specific git host services:
 
 *   OAuth Git service integration
 *   PAT Git service integration
@@ -107,7 +106,7 @@ See example integration support table for popular git host services:
 | Gerrit | <img src='/wp-content/uploads/gij-matrix-open-check-green.png' width=20 height=20 /> | <img src='/wp-content/uploads/gij-matrix-open-not-red.png' width=20 height=20 /> | <img src='/wp-content/uploads/gij-matrix-open-check-green.png' width=20 height=20 /> |
 | Bitbucket | <img src='/wp-content/uploads/gij-matrix-open-check-green.png' width=20 height=20 /> | <img src='/wp-content/uploads/gij-matrix-open-not-red.png' width=20 height=20 /> | <img src='/wp-content/uploads/gij-matrix-open-not-red.png' width=20 height=20 /> |
 
-### OAuth integration
+### OAuth Integration
 
 <img src='/wp-content/uploads/gij-add-new-integration-oauth-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
@@ -128,7 +127,7 @@ Use this type of integration to connect specific git host services to Jira. This
 
 For more details on supported git host services, see the full feature integration section in our [Integration Guides](/git-integration-for-jira-cloud/integration-guide-gij-cloud/).
 
-### PAT integration
+### PAT Integration
 
 <img src='/wp-content/uploads/git-add-new-integration-pat-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
@@ -141,18 +140,18 @@ This type of integration has similar features to OAuth but uses PAT (personal ac
     </div>
     <div class="imsgbox">
         <b>GitLab</b><br>
-        Support for Gitlab API v3 is deprecated. We recommend to use <b>GitLab API v4</b> when adding new integrations for increased security.
+        Support for Gitlab API v3 is deprecated. Use <b>GitLab API v4</b> when adding new integrations for increased security.
     </div>
     </div>
 </div>
 
-### Webhook indexing integration
+### Webhook Indexing Integration
 
 <img src='/wp-content/uploads/gij-add-new-integration-webhook-indexing-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 Connect directly to a Git service by configuring webhooks to push commit, branch, pull request, and tag data to Jira Cloud.
 
-Webhook indexing integration allows your connected git servers to work behind a firewall. However, the downside is that your integration will have limited features. For now, the supported git servers are GitHub.com, GitLab and Microsoft. More will be coming in the future.
+Webhook indexing integration allows your connected git servers to work behind a firewall. However, this integration type has limited features. Currently supported git servers are GitHub.com, GitLab, and Microsoft. More will be added in the future.
 
 &nbsp;
 
@@ -160,11 +159,11 @@ Webhook indexing integration allows your connected git servers to work behind a 
 
 &nbsp;
 
-## Plain Git integration
+## Plain Git Integration
 
 <img src='/wp-content/uploads/gij-add-new-integration-plain-git-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
-Manually connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. or simply connect one specific repository.
+Manually connect single git repositories using this setup, such as git protocol, SSH, HTTP/HTTPS, etc., or connect one specific repository.
 
 Connected git service integrations appear in the Manage integration configuration list.
 
@@ -172,7 +171,7 @@ Connected git service integrations appear in the Manage integration configuratio
 
 1.  Use the search option and filter to control integration list display.
 
-2.  Use the checkbox to specifically select integration/repositories from the list. Pair this with actions to perform multiple configuration for selected items.
+2.  Use the checkbox to select specific integrations/repositories from the list. Pair this with actions to perform multiple configuration for selected items.
 
 3.  Use the column headers to sort the list in ascending or descending order.
 
@@ -186,15 +185,15 @@ The above UI descriptions also apply to the Manage repositories page since it ha
 
 &nbsp;
 
-## Reindex selected
+## Reindex Selected
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>UPDATED FEATURE</b>
 
-In the new managed user interface, the **Reindex all** function is further improved and superseded by (1) selecting one or more integration/repositories using the checkboxes on the Manage integrations list, and then (2) performing reindex on the selected items.
+In the new managed user interface, the **Reindex all** function has been improved and superseded by (1) selecting one or more integrations/repositories using the checkboxes on the Manage integrations list, and then (2) performing reindex on the selected items.
 
 <img src='/wp-content/uploads/gij-gitcloud-gitmgr-checkboxes-reindex-selected-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
-This function will perform a reindex queue of all the selected integration/repository from the list.
+This function performs a reindex queue of all selected integrations/repositories from the list.
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -203,7 +202,7 @@ This function will perform a reindex queue of all the selected integration/repos
     </div>
     <div class="imsgbox">
         <b>Note</b><br>
-        Reindex is not available on <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>DISABLED</b> integrations or repositories. On multiple item selection, Reindex will ignore <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>DISABLED</b> integrations or repositories. For more information on this topic, see <a href='/git-integration-for-jira-cloud/reindexing-gij-cloud'>Reindexing</a>.
+        Reindex is not available for <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>DISABLED</b> integrations or repositories. On multiple item selection, Reindex ignores <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>DISABLED</b> integrations or repositories. For more information, see <a href='/git-integration-for-jira-cloud/reindexing-gij-cloud'>Reindexing</a>.
     </div>
     </div>
 </div>
@@ -214,9 +213,9 @@ This function will perform a reindex queue of all the selected integration/repos
 
 &nbsp;
 
-## More features
+## More Features
 
-Click the **…** to see more features such as Repository browser and App settings.
+Click **…** to see more features such as Repository browser and App settings.
 
 <img src='/wp-content/uploads/gij-gitcloud-gitmgr-other-features-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
@@ -234,3 +233,6 @@ The rest of the features can also be accessed on the left sidebar of the Manage 
 
 [**Next:** Using the Git service integration wizard](/git-integration-for-jira-cloud/using-the-git-service-integration-wizard-gij-cloud/)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

@@ -1,7 +1,7 @@
 ---
 
 title: Nested repository
-description:
+description: Understanding and configuring nested repositories in Git Integration for Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -35,43 +35,43 @@ To use GitHub submodules, you need at least read access to the "Contents" and "M
 
 ### GitLab
 
-Managing permissions for nested repositories (projects within groups and subgroups) involves assigning roles to users or groups, which determine their access levels. For this case, the minimum role is Reporter – which can view code and issues, but cannot create or edit them.
+Managing permissions for nested repositories (projects within groups and subgroups) involves assigning roles to users or groups, which determine their access levels. The minimum role is Reporter, which allows viewing code and issues but not creating or editing them.
 
 ### Azure DevOps
 
-To access Git submodules in Azure DevOps, the minimum permissions required are for the build service account to have access to both the main repository and the submodule repository. If the "Protect access to repositories in YAML pipelines" setting is enabled, you may need to explicitly reference the submodule in your pipeline to avoid permission errors.
+To access Git submodules in Azure DevOps, the build service account must have access to both the main repository and the submodule repository. If the "Protect access to repositories in YAML pipelines" setting is enabled, you may need to explicitly reference the submodule in your pipeline to avoid permission errors.
 
 ### Bitbucket
 
-To access a Bitbucket submodule, the minimum permissions required are read access to the submodule repository for the user or SSH key being used. Ensure that the user has the appropriate permissions set in Bitbucket for both the parent and submodule repositories.
+To access a Bitbucket submodule, you need read access to the submodule repository for the user or SSH key being used. Ensure that the user has the appropriate permissions set in Bitbucket for both the parent and submodule repositories.
 
 ### AWS CodeCommit
 
-To work with AWS submodules, you need to ensure that the IAM user or role has the necessary permissions to access the repositories and perform actions like cloning and updating submodules. This typically includes permissions for Git operations and access to the specific resources involved in your project.
+To work with AWS submodules, ensure that the IAM user or role has the necessary permissions to access the repositories and perform actions like cloning and updating submodules. This typically includes permissions for Git operations and access to the specific resources involved in your project.
 
 &nbsp;
 
-## How nested repositories work
+## How Nested Repositories Work
 
-When a Git repository is placed inside another repository's directory, it does not automatically become part of the parent repository. The parent repository does not track the nested repo's files unless they are plainly added, which can sometimes cause confusion in version control workflows.
+When you place a Git repository inside another repository's directory, it does not automatically become part of the parent repository. The parent repository does not track the nested repo's files unless they are plainly added, which can sometimes cause confusion in version control workflows.
 
 &nbsp;
 
-## Practical use for developers
+## Practical Use for Developers
 
-Nested repositories can be useful in some specific development scenarios:
+Nested repositories can be useful in specific development scenarios:
 
 -   **Develop modular projects**
 
-    Developers working on large projects can organize their code into separate repositories while still keeping them inside a main project folder.
+    Developers working on large projects can organize their code into separate repositories while keeping them inside a main project folder.
 
 -   **Manage third-party dependencies**
 
-    Developers can include third-party projects or libraries as nested repositories rather than manually copying their source code. This helps in maintaining dependencies up to date by pulling changes from the remote repository when needed.
+    Developers can include third-party projects or libraries as nested repositories rather than manually copying their source code. This helps maintain dependencies up to date by pulling changes from the remote repository when needed.
 
 -   **Standalone version control**
 
-    Each nested repository keeps its own history and branches. This will allow teams to work on different components independently. This is useful in cases where sub-teams or external collaborators need full control over a specific module.
+    Each nested repository keeps its own history and branches, allowing teams to work on different components independently. This is useful when sub-teams or external collaborators need full control over a specific module.
 
 -   **Custom development environments**
 
@@ -79,9 +79,9 @@ Nested repositories can be useful in some specific development scenarios:
 
 &nbsp;
 
-## Some challenges with using nested repositories
+## Some Challenges with Using Nested Repositories
 
-While nested repositories offer some benefits, they also come with challenges. For instance:
+While nested repositories offer benefits, they also present challenges:
 
 -   **Files are not tracked**
 
@@ -97,9 +97,9 @@ While nested repositories offer some benefits, they also come with challenges. F
 
 &nbsp;
 
-## Nested repository as a formal feature
+## Nested Repository as a Formal Feature
 
-Various Git hosting services and platforms implement distinct policies for managing nested repositories. Although Git does not natively support "nested repositories" as a formal feature, certain services offer equivalent functionality under different name or terms.
+Various Git hosting services and platforms implement distinct policies for managing nested repositories. Although Git does not natively support "nested repositories" as a formal feature, certain services offer equivalent functionality under different names or terms.
 
 For example:
 
@@ -114,7 +114,7 @@ For example:
 
 &nbsp;
 
-## Adding a nested repository with Git Submodule
+## Adding a Nested Repository with Git Submodule
 
 While GitHub does not allow nested repositories (Git doesn't allow this for bare repositories), you can use submodules to nest repositories on the "client side" in the working tree:
 
@@ -124,9 +124,9 @@ While GitHub does not allow nested repositories (Git doesn't allow this for bare
 
     `git submodule add https://github.com/<username>/<sub_repo>.git`
 
-    The `<sub_repo>` module will then be linked to the parent repo and can be found in the `<sub_repo>` directory.
+    The `<sub_repo>` module is then linked to the parent repo and can be found in the `<sub_repo>` directory.
 
-3.  Commit (`.gitmodules` and `<sub_repo>`), push and you're done.
+3.  Commit (`.gitmodules` and `<sub_repo>`), push, and you're done.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -134,38 +134,38 @@ While GitHub does not allow nested repositories (Git doesn't allow this for bare
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The <code>git submodule add</code> command works on most Git services that supports it. Check with your Git service documentation on how to add a submodule.
+        The <code>git submodule add</code> command works on most Git services that support it. Check your Git service documentation for how to add a submodule.
     </div>
     </div>
 </div>
 
 &nbsp;
 
-## Connecting a nested repository with Git Integration for Jira Cloud app
+## Connecting a Nested Repository with Git Integration for Jira Cloud App
 
-Connecting a nested repository is similar to adding a plain Git repository through the Git Integration for Jira Cloud app.
+Connecting a nested repository is similar to adding a plain Git repository through Git Integration for Jira Cloud.
 
 1.  Go to the **Manage integrations** configuration page from your Jira dashboard **Apps** menu ➜ **Git Integration: Manage integrations**.
 
     ![](/wp-content/uploads/gij-cloud-nested-repo-add-integration-new.png)
 
-2.  Click **Add integration** then click **Plain Git repository** on the list of hosting service or use the **Quick start** panel. The following screen is displayed.
+2.  Click **Add integration**, then click **Plain Git repository** on the list of hosting services or use the **Quick start** panel. The following screen appears.
 
     ![](/wp-content/uploads/gij-cloud-nested-repo-add-integration-single.png)
 
-3.  For the Quick start panel, paste the **clone URL of the submodule** from your git service portal. If you clicked on Plain Git Repository, paste the **clone URL of the submodule** from your git service portal on the following screen.
+3.  For the Quick start panel, paste the **clone URL of the submodule** from your git service portal. If you clicked Plain Git Repository, paste the **clone URL of the submodule** from your git service portal on the following screen.
 
-    For this guide, we will be using GitLab as an example.
+    For this guide, we use GitLab as an example.
 
     ![](/wp-content/uploads/gij-cloud-nested-repo-add-integration-auth.png)
 
-4.  On the Connect single Git repository screen, the input fields depends on what type of clone URL you'll be using:
+4.  On the Connect single Git repository screen, the input fields depend on the type of clone URL you're using:
 
     *   **HTTPS authentication** – Enter your credentials such as username and password. For the password, provide the PAT as the password.
 
     *   **SSH authentication** – Provide the private ssh key. If your SSH key requires a passphrase, provide that as well.
 
-    For this guide, we used an HTTP(S) authentication as an example. Therefore, enter **Username** and **PAT** (personal access token) as the password. Click **Add integration** to proceed.
+    For this guide, we use HTTP(S) authentication as an example. Enter **Username** and **PAT** (personal access token) as the password. Click **Add integration** to proceed.
 
 5.  On the Settings screen, leave all options as is. Click **Finish** to complete this setup.
 
@@ -173,25 +173,25 @@ The nested repository configuration is added to the Manage integrations list.
 
 &nbsp;
 
-## Connecting an integration that contains nested repositories
+## Connecting an Integration That Contains Nested Repositories
 
-Adding an integration containing nested repositories is similar to connecting a new integration via the Git Integration for Jira Cloud app.
+Adding an integration containing nested repositories is similar to connecting a new integration via Git Integration for Jira Cloud.
 
 ![](/wp-content/uploads/gij-cloud-nested-repo-add-integration-new.png)
 
-1.  Go to the **Manage integrations** configuration page. Click **Add integration**. The following screen is displayed.
+1.  Go to the **Manage integrations** configuration page. Click **Add integration**. The following screen appears.
 
     ![](/wp-content/uploads/git-cloud-nested-repo-add-full-integration-new.png)
 
-2.  For this session, we will use GitLab as an example. Click the **GitLab** full-feature integration icon on the integration panel. The following screen is displayed.
+2.  For this session, we use GitLab as an example. Click the **GitLab** full-feature integration icon on the integration panel. The following screen appears.
 
     ![](/wp-content/uploads/gij-cloud-nested-repo-add-full-integration-pat.png)
 
-3.  You can either use the OAuth or PAT integration connection. For OAuth integration, enter the required credentials. For PAT integration, enter the personal access token.
+3.  You can use either OAuth or PAT integration connection. For OAuth integration, enter the required credentials. For PAT integration, enter the personal access token.
 
     Click **Connect and select repositories** to continue.
 
-    The Git Integration for Jira Cloud app will scan the remote git service and connect detected repositories.
+    Git Integration for Jira Cloud scans the remote git service and connects detected repositories.
 
     ![](/wp-content/uploads/gij-cloud-nested-repo-add-full-integration-select-repos.png)
 
@@ -213,3 +213,6 @@ To view the nested repository settings, go to the Manage repositories page and n
 
 [**Next:** Self-signed HTTPS integration](/git-integration-for-jira-cloud/self-signed-https-integration-gij-cloud)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
