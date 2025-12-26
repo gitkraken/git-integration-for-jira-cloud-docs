@@ -1,13 +1,13 @@
 ---
 
 title: Using the Single git integration wizard
-description:
+description: How to connect single git repositories using the integration wizard
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
-Connect specific single git repositories via Git Integration for Jira app.
+Connect specific single git repositories using Git Integration for Jira.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -15,7 +15,7 @@ Connect specific single git repositories via Git Integration for Jira app.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Make sure to copy the git clone URL from your repository home portal before proceeding.
+        Copy the git clone URL from your repository home portal before proceeding.
     </div>
     </div>
 </div>
@@ -32,9 +32,9 @@ On the Manage integrations page, click **Add integration**.
 
 ### Step 2
 
-On the Git hosting service selection screen, use the **Quick start** section by pasting the git clone URL in the provided box (HTTPS or SSH) then click **Connect** to proceed.
+On the Git hosting service selection screen, use the **Quick start** section by pasting the git clone URL in the provided box (HTTPS or SSH), then click **Connect** to proceed.
 
-You can also click on **Plain Git Repository** to connect single git repositories.
+You can also click **Plain Git Repository** to connect single git repositories.
 
 <img src='/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-sel-https-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
@@ -42,15 +42,15 @@ You can also click on **Plain Git Repository** to connect single git repositorie
 
 ### Step 3
 
-Setup the integration depending on which type of git clone URL that you are using. Enter the git clone URL into the **Host URL** field. The login form automatically adjusts to the type of the URL provided.
+Set up the integration depending on the type of git clone URL you are using. Enter the git clone URL into the **Host URL** field. The login form automatically adjusts to the type of URL provided.
 
 &nbsp;
 
-#### 3a\. HTTPS authentication
+#### 3a. HTTPS Authentication
 
 ![](/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-add-new-http-2025.png)
 
-Provide login credentials as required then click **Add integration** to complete this setup.
+Provide login credentials as required, then click **Add integration** to complete this setup.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -65,11 +65,11 @@ Provide login credentials as required then click **Add integration** to complete
 
 &nbsp;
 
-### 3b\. SSH authentication
+### 3b. SSH Authentication
 
 ![](/wp-content/uploads/gij-gitcloud-quick-start-plain-git-integration-ssh-2025.png)
 
-Provide SSH credentials as required then click **Add integration** to complete this setup.
+Provide SSH credentials as required, then click **Add integration** to complete this setup.
 
 If the [generated SSH key pair](/git-integration-for-jira-cloud/working-with-ssh-keys-gij-cloud) has a passphrase, enter the **Passphrase** for your private key.
 
@@ -79,7 +79,7 @@ If the [generated SSH key pair](/git-integration-for-jira-cloud/working-with-ssh
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Take note that the SSH server is the Git server (git service such as GitHub, GitLab etc.); and the SSH client is the Jira server (in this case, the Jira Cloud instance).
+        The SSH server is the Git server (git service such as GitHub, GitLab, etc.), and the SSH client is the Jira server (in this case, the Jira Cloud instance).
     </div>
     </div>
 </div>
@@ -91,16 +91,16 @@ If the [generated SSH key pair](/git-integration-for-jira-cloud/working-with-ssh
     </div>
     <div class="imsgbox">
         <b>SSH</b><br>
-        When setting up repositories with the Git Integration app, you need to have the necessary access permissions on the private key in the Git server to proceed.
+        When setting up repositories with Git Integration for Jira, you need the necessary access permissions on the private key in the Git server to proceed.
     </div>
     </div>
 </div>
 
 &nbsp;
 
-### Setup complete
+### Setup Complete
 
-Finally, after completing the setup, the wizard will index the git repository to build change history. This completes the setup and the newly added repository appears on the integration list in the Manage integrations page.
+After completing the setup, the wizard indexes the git repository to build change history. This completes the setup, and the newly added repository appears in the integration list on the Manage integrations page.
 
 &nbsp;
 * * *
@@ -109,3 +109,6 @@ Finally, after completing the setup, the wizard will index the git repository to
 
 [**Next:** Self-signed HTTPS integration](/git-integration-for-jira-cloud/self-signed-https-integration-gij-cloud)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
