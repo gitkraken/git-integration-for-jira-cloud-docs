@@ -65,50 +65,43 @@ We currently support the following triggers:
 
 And thus, we will support all of these triggers in the coming releases.
 
-<div class='embed-container embed-container--16-9'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/i21p45xb5y?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:12px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/i21p45xb5y'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
-&nbsp;
-
 ## How to set up automation templates
 
 Create a rule to configure triggers and actions for automating tasks. There are two levels:
 
 ### Project level (projects)
 
-1.  Open a project to work on, then go to ![](/wp-content/uploads/actions-icon.png) **Project settings**.
+1.  Open a project to work on, Open the Side Bar, click the ( ... ) Icon then go to ![](/wp-content/uploads/actions-icon.png) **Space settings**.
 
-    ![](/wp-content/uploads/gij-gitcloud-automation-proj-level.png)
+    ![](/wp-content/uploads/gij-gitcloud-automation-proj-level-2025.pngg)
 
 2.  On the sidebar, click **Automation**.
 
-3.  Click the ![zap](/wp-content/uploads/gij-zap-icon-20.png) **Rules** tab.
+3.  Click the ![](/wp-content/uploads/gij-jira-cloud-automation-New-Rule-2025.png) **Create Rule** button, then 'Create from Scratch'.
 
-4.  Click **Create rule** to create a new automation rule.
+4.  This will take you to the Automation creation wizard.
 
-    ![](/wp-content/uploads/gij-jira-cloud-automation-start.png)
+    ![](/wp-content/uploads/gij-jira-cloud-automation-start-2025.png)
 
-5.  Configure triggers, conditions and actions for this rule:
+5. Clicking the 'DevOps' category will display the GIJ provided triggers. These are the triggers that you will base your automations on.
+    ![](/wp-content/uploads/gij-jira-cloud-automation-triggers-2025.png)
 
-    ![](/wp-content/uploads/gij-jira-cloud-automation-example-rule.png)
+6.  Configure triggers, conditions and actions for this rule:
+
+    ![](/wp-content/uploads/gij-jira-cloud-automation-example-rule-2025.png)
 
     a.  **TRIGGER** – This rule will trigger when a pull request is created.
 
-    b.  **CONDITION** – When the status of the Jira issue is IN PROGRESS, it will perform the actions below.
+    b.  **CONDITION** – When the status of the Jira issue is To Do, it will perform the actions below.
 
-    c.  **ACTIONS** – If the condition(s) are met, the rule will fire up the actions, assign the issue to a specific user and transitions the Jira issue to IN REVIEW.
+    c.  **ACTIONS** – If the condition(s) are met, the rule will fire up the actions, assign the issue to a specific user and transitions the Jira issue to In Progress.
 
-6.  Enter a descriptive name for this rule in the provided box.
+7.  Enter a descriptive name for this rule in the provided box.
 
-7.  Click **Turn it on** to publish and activate it. The new rule is added to the automation list.
+8.  Click **Turn it on** to publish and activate it. The new rule is added to the automation list.
 
 
-<img src='/wp-content/uploads/gij-jira-cloud-automation-list.png' style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/gij-jira-cloud-automation-list-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 &nbsp;
 
@@ -116,40 +109,35 @@ Create a rule to configure triggers and actions for automating tasks. There are 
 
 1.  On your Jira dashboard, go to menu **Jira Settings** ➜ **System**.
 
-    ![](/wp-content/uploads/gij-jira-cloud-administration-settings-menu.png)
+    ![](/wp-content/uploads/gij-jira-cloud-administration-settings-menu-2025.png)
 
 2.  On the left sidebar, scroll to the bottom (Automation) and click **Automation rules**.
 
-    ![](/wp-content/uploads/gij-gitcloud-automation-proj-level.png)
+3.  Click **Create rule** , the 'Create from Scratch' to create a new automation rule.
 
-3.  Click the **Rules** tab.
+    ![](/wp-content/uploads/gij-gitcloud-automation-global-level-2025.png)
 
-4.  Click **Create rule** to create a new automation rule.
+    ![](/wp-content/uploads/gij-jira-cloud-automation-start-2025.png)
 
-    ![](/wp-content/uploads/gij-jira-cloud-automation-start.png)
+5. Clicking the 'DevOps' category will display the GIJ provided triggers. These are the triggers that you will base your automations on.
+    ![](/wp-content/uploads/gij-jira-cloud-automation-triggers-2025.png)
 
-5.  Configure triggers, conditions and actions for this rule:
+6.  Configure triggers, conditions and actions for this rule:
 
-    ![](/wp-content/uploads/gij-jira-cloud-automation-example-rule.png)
-    
+    ![](/wp-content/uploads/gij-jira-cloud-automation-example-rule-2025.png)
+
     a.  **TRIGGER** – This rule will trigger when a pull request is created.
 
-    b.  **CONDITION** – When the status of the Jira issue is IN PROGRESS, it will perform the actions below.
+    b.  **CONDITION** – When the status of the Jira issue is To Do, it will perform the actions below.
 
-    c.  **ACTIONS** – If the condition(s) are met, the rule will fire up the actions, assign the issue to a specific user and transitions the Jira issue to IN REVIEW.
+    c.  **ACTIONS** – If the condition(s) are met, the rule will fire up the actions, assign the issue to a specific user and transitions the Jira issue to In Progress.
 
-6.  Enter a descriptive name for this rule in the provided box.
+7.  Enter a descriptive name for this rule in the provided box.
 
-7.  Click **Turn it on** to publish and activate it. The new rule is added to the automation list.
+8.  Click **Turn it on** to publish and activate it. The new rule is added to the automation list.
 
 
-<img src='/wp-content/uploads/gij-jira-cloud-automation-list.png' style='margin:25px auto;max-width:100%;display:block;' />
-
-&nbsp;
-
-## Known issue
-
-![(info)](/wp-content/uploads/bbb-info-20.png) The limitation of Git Integration for Jira (GIJ) app not working with Automation for Jira (A4J) Lite is not a GIJ limitation but an Atlassian limitation.
+<img src='/wp-content/uploads/gij-jira-cloud-automation-list-global-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 &nbsp;
 
@@ -229,7 +217,7 @@ Here are some templates from Atlassian you can use as a guide for some of the mo
 
 We currently support the 5 highlighted triggers depicted below, and we will support all of these triggers in coming releases.
 
-<img src='/wp-content/uploads/gij-jira-cloud-automation-supported-triggers.png' style='margin:25px auto;width:566px;height:auto;display:block;max-width:100%;' />
+<img src='/wp-content/uploads/gij-jira-cloud-automation-triggers-2025.png' style='margin:25px auto;width:566px;height:auto;display:block;max-width:100%;' />
 
 &nbsp;
 

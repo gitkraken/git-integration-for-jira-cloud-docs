@@ -43,32 +43,23 @@ Quickly learn how to connect Gerrit git repositories via Git Integration for Jir
 <br>
 <br>
 
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/eolraizc6s?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:15px;margin-bottom:40px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/eolraizc6s'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-<br>
-
 ## Git service integration
 
-1.  On your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
-2.  On the Manage integrations page, click **Add integration.**
+2.  On the Manage integrations page, click **Add integration**.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **Gerrit (self-managed)** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-gerrit.png.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-gerrit-2025.png)
 
 4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-integration-type-gerrit-full-feature.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-integration-type-gerrit-full-feature-2025.png)
 
 5.  For this guide, continue with the default selected type for Gerrit integration.
 
@@ -109,20 +100,20 @@ Login to your Gerrit account. Obtain the repository URL from the Gerrit reposito
 
 2.  On the following screen, click **Add integration**.
 
-    ![](/wp-content/uploads/gij-gitcloud-single-repo-http-ssh-gerrit-integration.png)
+    ![](/wp-content/uploads/gij-gitcloud-single-repo-http-ssh-gerrit-integration-2025.png)
 
 4.  Paste the git clone URL from Gerrit web portal in the provided box.
     (For e_xample:_ `http(s)://<your.org.com>/<repo_name>`)
 
 5.  Click **Connect** to proceed. The following screen is displayed.
 
-    ![](/wp-content/uploads/gij-gitcloud-single-repo-http-ssh-gerrit-configure.png)
+    ![](/wp-content/uploads/gij-gitcloud-single-repo-http-ssh-gerrit-configure-2025.png)
 
-    a.  Enter **Host URL** for this integration.
+    1.  Enter **Host URL** for this integration.
 
-    b.  Enter **Username** on the provided box.
+    2.  Enter **Username** on the provided box.
 
-    c.  Enter **Password/Token** on the provided box.
+    3.  Enter **Password/Token** on the provided box.
 
 6.  Click **Add integration** to complete this process.
 

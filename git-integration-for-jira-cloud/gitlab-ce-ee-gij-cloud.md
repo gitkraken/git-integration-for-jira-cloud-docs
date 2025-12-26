@@ -92,14 +92,6 @@ Quickly learn how to connect GitLab CE/EE git repositories via Git Integration f
 <hr>
 <br>
 
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/q9q0zg3rug?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px;margin-bottom:40px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/q9q0zg3rug'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 ### Permissions
 
 GitLab can have users with different access level to a group or project. If the user's connected GitLab repositories to Jira are not accessible or commits are not showing for that user -- it's related to permission issues. This can be a per user, repository or a project level restriction.
@@ -193,21 +185,20 @@ This process requires an existing GitLab Server EE or GitLab Server CE. If your
 
 We recommend using the Full feature integrations panel to connect multiple repositories from your GitLab CE/EE account.
 
-1.  On the Jira Cloud dashboard menu, go to **Apps** ➜ **Git Integration: Manage integrations**. The git configuration page for connecting repositories is displayed.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
-2.  On the Manage integrations page, click **Add integration.**
-
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+2.  On the Manage integrations page, click **Add integration**.
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **GitLab Server** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-gitlab-server.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-gitlab-server-2025.png)
 
 4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-add-integration-type-gitlab-server-sel.png)
+    ![](/wp-content/uploads/gij-gitcloud-add-integration-type-gitlab-server-sel-2025.png)
 
 5.  For this guide, click on the **PAT GitLab Server (CE/EE) APIv4** panel to select it.
 

@@ -25,15 +25,6 @@ taxonomy:
     </div>
 </div>
 <br>
-
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/61wl72vp91?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px;margin-bottom:30px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/61wl72vp91'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 <div class="bbb-callout bbb--tip">
     <div class="irow">
     <div class="ilogobox">
@@ -75,7 +66,7 @@ Configure webhook by logging in to your VSTS/Azure DevOps account:
 
 6.  Switch to your Jira Cloud instance and navigate to Apps ➜ **Git Integration: Manage integrations** then click **Indexing triggers** on the sidebar.
 
-    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc.png)
+    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc-2025.png)
 
 7.  Copy the complete webhook URL by clicking the copy icon on the right (4).
 
@@ -102,8 +93,6 @@ Configure webhook by logging in to your VSTS/Azure DevOps account:
 10.  Click **Finish** to complete this setup.
 
 11.  Repeat the above steps for **Pull request created** and **Pull request updated** webhooks.
-
-![](/wp-content/uploads/gij-cloud-TFS-webhook-idx-trigger-complete-c.png)
 
 &nbsp;
 

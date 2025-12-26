@@ -144,42 +144,6 @@ When creating a branch from within Jira:
 
 Make a commit to this branch and continue to create a pull/merge request.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        After creating a branch, it is added to the Git Integration developer panel under the Branches list. The branch name does not have a commit if it is displayed in italics.<br>
-        <img src='/wp-content/uploads/gij-gitcloud-devpanel-create-branch-no-commit.png' style='margin:20px auto 10px auto;max-width:100%;display:block;' />
-    </div>
-    </div>
-</div>
-
-&nbsp;
-
-### Video: Creating branch via Git Development panel
-
-<div class='embed-container' style='padding-bottom: 82.08%'>
-    <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/8cy7v6ykug?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/8cy7v6ykug'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
-&nbsp;
-
-### Video: Creating branch from Git Source Code panel
-
-<div class='embed-container' style='padding-bottom: 82.08%'>
-    <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/2re05azbwl?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/2re05azbwl'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 &nbsp;
 
 * * *
@@ -224,7 +188,7 @@ Make a commit to this branch and continue to create a pull/merge request.
 
 The **Create pull request** feature offers Jira users the ability to create a git pull request directly from the Jira issue.
 
-![](/wp-content/uploads/gij-create-pull-request.png)
+![](/wp-content/uploads/gij-gitcloud-create-pull-req-dlg-2025.png)
 
 &nbsp;
 
@@ -302,28 +266,6 @@ When creating a pull request from within Jira:
 
 &nbsp;
 
-### Video: Creating pull request from Git Development panel
-
-<div class='embed-container' style='padding-bottom:77.71%'>
-    <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/rsccl5wxps?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/rsccl5wxps'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
-&nbsp;
-
-### Video: Creating pull request from Git Source Code panel
-
-<div class='embed-container' style='padding-bottom:77.71%'>
-    <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/zbjshija1o?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/zbjshija1o'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 &nbsp;
 
 ### Associating pull/merge request to Jira issue
@@ -336,7 +278,7 @@ A git service user can create a PR/MR via the Git host service portal and adding
 
 | Jira issue PR/MR list view |
 | :---: |
-| ![](/wp-content/uploads/gij-gitcloud-jira-dev-panel-pull-req-list-assoc-sel.png) |
+| ![](/wp-content/uploads/gij-gitcloud-jira-dev-panel-pull-req-list-assoc-sel-2025.png) |
 
 Additionally, creating PR/MR via the Git developer panel automatically associates the PR/MR to a Jira issue.
 

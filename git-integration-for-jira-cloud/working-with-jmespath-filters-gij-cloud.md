@@ -25,7 +25,7 @@ There are two ways to access the JMESPath settings in Git Integration for Jira C
 
     For example:
 
-    ![](/wp-content/uploads/gij-cloud-connect-github-example-advanced-jmespath.png)
+    ![](/wp-content/uploads/gij-cloud-connect-github-example-advanced-jmespath-2025.png)
     
     This feature is accessible with supported git services on the Full feature integrations panel.
 
@@ -33,7 +33,7 @@ There are two ways to access the JMESPath settings in Git Integration for Jira C
 
 2. Manage Git repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration settings** ➜ Integration settings ➜ **JMESPath Filter**.
 
-    ![](/wp-content/uploads/gij-gitcloud-jmespath-actions-settings.png)
+    ![](/wp-content/uploads/gij-gitcloud-jmespath-actions-settings-2025.png)
 
     This feature is accessible with supported git services on repository or integration connections.
 

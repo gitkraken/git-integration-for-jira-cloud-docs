@@ -9,7 +9,7 @@ taxonomy:
 
 The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/4984) app offers a type of integration called **Webhook Indexing**.
 
-The classic full feature Git service integration gives you access to all features for the connected git servers. However, it requires two-way communication originating from outside of your network. Thus, you will need to allow incoming requests by updating your network/firewall settings. For more information, see [Allow list (whitelist) BigBrassBand Cloud.](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud)
+The classic full feature Git service integration gives you access to all features for the connected git servers. However, it requires two-way communication originating from outside of your network. Thus, you will need to allow incoming requests by updating your network/firewall settings. For more information, see [Allow list (whitelist) GIJ Cloud.](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud)
 
 Webhook indexing integration allows your connected git servers to work behind a firewall. This is its main aspect. However, the downside is that your integration will have limited features which are stated under the Connect to your Git server features table.
 
@@ -34,7 +34,7 @@ Webhook indexing integration allows your connected git servers to work behind a 
 
 <img src='/wp-content/uploads/gij-webhook-indexing-explainer.png' width=244 height=196 style='margin: 25px auto; max-width: 100%; display: block;' alt='Highlights the webhook indexing integration feature (boxed)' />
 
-In the Classic Indexing options, all features are available (explained here: [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud)) but require two-way communication originating from outside your network (see [Allow list (whitelist) BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud)). Webhook Indexing only requires that your Git server be able to make outbound Internet requests.
+In the Classic Indexing options, all features are available (explained here: [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud)) but require two-way communication originating from outside your network (see [Allow list (whitelist) GIJ Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud)). Webhook Indexing only requires that your Git server be able to make outbound Internet requests.
 
 &nbsp;
 

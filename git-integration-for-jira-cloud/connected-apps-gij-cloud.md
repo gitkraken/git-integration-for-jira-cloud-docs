@@ -17,7 +17,7 @@ Click the toggle switch to enable/disable GitKraken integration with Git Integra
 
 When enabled, this feature adds the deep linking feature to open commits, branches, tags and repositories by invoking the GitKraken git client via the following locations:
 
-![](/wp-content/uploads/gij-gitcloud-jira-issue-branches-deep-links.png)
+![](/wp-content/uploads/gij-gitcloud-jira-issue-branches-deep-links-2025.png)
 
 1.  On the **Commits** tab, click the **Open in GitKraken** button to open this commit with the GitKraken git client.
 

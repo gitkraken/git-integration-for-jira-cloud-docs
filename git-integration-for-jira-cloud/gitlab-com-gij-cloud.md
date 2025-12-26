@@ -57,15 +57,6 @@ Quickly learn how to connect GitLab.com git repositories via Git Integration for
 &nbsp;
 <hr>
 &nbsp;
-
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/hi45vum4yp?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:15px;margin-bottom:40px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/hi45vum4yp'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br> <i>(Updated video coming soon)</i>
-</div>
-
 &nbsp;
 
 ### Permissions
@@ -161,21 +152,20 @@ While instructions from GitLab works just fine, here are some specific instructi
 
 We recommend using the Git service integration panel[1](#logo) to connect multiple repositories from your GitLab.com account.
 
-1.  On your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
-2.  On the Manage integrations page, click **Add integration.**
-
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+2.  On the Manage integrations page, click **Add integration**.
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **GitLab.com** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-gitlab-com.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-gitlab-com-2025.png)
 
 4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-gitlab-integration-oauth-sel.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-gitlab-integration-oauth-sel-2025.png)
 
 5.  For this guide, click on the OAuth integration to select it.
 

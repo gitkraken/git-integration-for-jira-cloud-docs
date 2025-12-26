@@ -164,18 +164,6 @@ CodeCommit doesn't have webhooks but it has SNS triggers requiring a <a href='h
 </div>
 
 For more information on Amazon SNS, see <a href='https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html' target='_blank'><b>Amazon SNS: Getting Started »</b></a>.
-
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/5w5p0lbz77?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/5w5p0lbz77'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
-<div align='center'>
-    <i>Updated video coming soon.</i>
-</div>
 <br>
 
 ### Using Git service integration
@@ -186,21 +174,22 @@ We recommend using the Full feature integrations panel (formerly Auto-connect in
 
 To connect your repository to Jira thru the Git Integration for Jira app, open the Add new integration wizard:
 
-1.  On the Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
+    
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
 2.  On the Manage integrations page, click **Add integration**.
-
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+    
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **AWS CodeCommit** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-aws-cc-sel.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-aws-cc-sel-2025.png)
 
 4.  On the following screen, proceed to enter information on the provided field boxes.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-add-integration-aws-cc.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-add-integration-aws-cc-2025.png)
 
     *   Enter the **Access key ID** and the **Secret access key** in their respective fields.
 
@@ -268,15 +257,6 @@ The repository is now connected to Jira Cloud.
 ### Single repository (Manually connect via SSH)
 
 Connect a single AWS CodeCommit repository manually to Jira via SSH connection.
-
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/xq1xzic0tm?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/xq1xzic0tm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-<br>
 
 <img src='/wp-content/uploads/gij-aws-cc-repo-home-portal-git-clone-url.png' style='max-width:100%;margin:25px auto;display:block;' />
 

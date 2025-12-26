@@ -262,14 +262,6 @@ The PRIVATE KEY is needed by the SSH client, which is the Jira Cloud, to connect
 
 In Jira, use the **[Plain git integration](/git-integration-for-jira-cloud/using-the-single-git-integration-wizard-gij-cloud/)** wizard to configure SSH integration with any remote git repositories.
 
-Here's a video to guide you step-by-step as stated above:
-
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/qmumdo048n?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align="center" style='margin-top:10px'>
-    <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/qmumdo048n" target="_blank"><b>here</b></a> to open this video in a new browser tab<br> for more viewing options.</i>
 </div>
 
 &nbsp;
@@ -328,30 +320,6 @@ No. The Git Integration for Jira app is designed to do a full index.
 &nbsp;
 * * *
 &nbsp;
-
-## Uninstall and Reinstall
-
-Questions related to uninstall and reinstall of Git Integration for Jira app.
-
-### How do I reinstall the app?
-
-1.  Do an uninstall of the app as detailed in the section below.
-2.  Install the Git for Jira Cloud app as outlined [**here**](/git-integration-for-jira-cloud/installation-via-atlassian-marketplace-gij-cloud).
-
-### How do I uninstall the Git for Jira Cloud app?
-
-The following steps will remove the Git Integration app from Jira:
-
-**Uninstall the Git for Jira Cloud app from the Jira UPM (Universal Plugin Manager).**
-
-1. Go to **`Jira Settings ➜ Apps ➜ Manage apps`**.
-
-2. Under _User-installed apps_, select **Git for Jira Cloud** then click **Uninstall**.
-
-&nbsp;
-* * *
-&nbsp;
-
 ## Purchase and Pricing
 
 Questions about trial or purchase of Git Integration for Jira app and accepted payment methods.
@@ -415,11 +383,8 @@ Unicode characters are supported and displayed properly.
 
 You can find your App information by Navigating to the GIJ General settings
 
-First, click on the apps menu, then click "Manage Integrations"
-![](/wp-content/uploads/App-Information1.png)
-
-Then, from the left hand menu,click the option labeled "General Settings" under the 'GIT' heading.
-![](/wp-content/uploads/App-Information2.png)
+First, click on the apps menu, then click "Git Integration for Jira", then click the 'Settings' button.
+![](/wp-content/uploads/App-Information2-2025.png)
 
 Copy the information at the bottom of the page, starting from "Current Build". Include this information in your support request, or supply it to the support team if they have requested it.
 

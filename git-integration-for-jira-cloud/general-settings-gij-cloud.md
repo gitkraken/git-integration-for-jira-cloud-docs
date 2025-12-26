@@ -46,13 +46,9 @@ Open the **General settings** page in the Jira Apps Management (**Applications**
 
 The **General settings** configuration page can be accessed thru the following locations:
 
-*   Jira dashboard **Git** menu ➜ Apps ➜ Git Integration: Manage integrations ➜ **General settings**.
+*   Jira Side Bar➜ Apps ➜ Git Integration for Jira ➜ **App settings**.
 
-    ![](/wp-content/uploads/gij-gitcloud-gitmenu-apps-gencfg-sel.png)
-
-*   Jira dashboard ➜ &nbsp;![](/wp-content/uploads/actions-icon.png) Jira settings ➜ Apps ➜ **General settings** (sidebar).
-
-    ![](/wp-content/uploads/gij-gitcloud-gencfg-admin-apps-menu.png)
+    ![](/wp-content/uploads/gij-gitcloud-gitmenu-apps-gencfg-sel-2025.png)
 
 After making changes to the configuration settings, click **Update** to apply the changes.
 
@@ -156,7 +152,7 @@ For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integrat
 
 ### Show Git Commits Issue Tab and Project Page
 
-![](/wp-content/uploads/gij-gitcloud-gencfg-show-git-commits-issue-proj-tab-1455.png)
+![](/wp-content/uploads/gij-gitcloud-gencfg-show-git-commits-issue-proj-tab-2025.png)
 
 This setting will enable/disable the **Git Commits Issue tab** and the **Git Commits Project** page. These locations show the list of git commits associated to the Jira Issue and Jira Project, respectively. The list is grouped by repository and sorted by commit time.
 
@@ -201,7 +197,7 @@ For more details, see [**Features: Git Commits Issue tab and Project Page (Jira 
 
 Enable/disable this setting to have Git Integration for Jira app show/hide the _Git Integration_ section on the Jira issue developer panel.
 
-![](/wp-content/uploads/gij-gitcloud-jira-dev-integration-panel-sel.png)
+![](/wp-content/uploads/gij-gitcloud-jira-dev-integration-panel-sel-2025.png)
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -245,29 +241,6 @@ For introductory information on this feature, see [Jira git issue development pa
     </div>
     </div>
 </div>
-
-### Show Repository browser: View all repositories, Commits and Compare pages
-
-<img src='/wp-content/uploads/gij-gitcloud-gencfg-show-repo-browser.png' style='margin:25px auto;max-width:100%;display:block;' />
-
-The Repository Browser is a feature that offers a view into your connected repositories with Jira Cloud. From the **Repository browser** page you can see summaries such as repository, most recent issue associated by a commit, last updated by commit author, last commit date/time and etc.
-
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Permissions</b><br>
-        Jira users must have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
-    </div>
-    </div>
-</div>
-
-Disabling this feature, hides the **Git Integration: Repository browser** – dashboard Apps menu context.
-
-For more details, see [Features: Repository Browser (Jira Cloud)](/git-integration-for-jira-cloud/repository-browser-viewing-all-repositories-gij-cloud).
-
 &nbsp;
 
 * * *
@@ -284,7 +257,7 @@ These settings will take effect at integration level for projects with connected
 
 This setting shows or hides the function for creating/deleting of branches. The ability to create/delete selected branches from the Jira developer panel is dependent on this setting.
 
-<img src='/wp-content/uploads/gij-gitcloud-dev-panel-create-branch-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-dev-panel-create-branch-sel-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 For detailed information on this feature, see [Creating branches](/git-integration-for-jira-cloud/create-branch-gij-cloud).
 
@@ -292,7 +265,7 @@ For detailed information on this feature, see [Creating branches](/git-integrati
 
 This setting shows or hides the function for creating pull/merge requests from the Jira developer panel.
 
-<img src='/wp-content/uploads/gij-gitcloud-dev-panel-create-PRMR-sel.png'  style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-dev-panel-create-PRMR-sel-2025.png'  style='margin:25px auto;max-width:100%;display:block;' />
 
 For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
 

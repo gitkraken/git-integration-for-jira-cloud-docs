@@ -152,7 +152,7 @@ The table below describes the automatic indexing period limits:
 
 All repositories and integrations can be updated manually via the Manage Git repositories screen by selecting the **Reindex All** button:
 
-![Git Cloud manage git repositories page highlighting Reindex All](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-02.png)
+![Git Cloud manage git repositories page highlighting Reindex All](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-02-2025.png)
 
 <br>
 
@@ -160,7 +160,7 @@ All repositories and integrations can be updated manually via the Manage Git rep
 
 Repositories can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex repository**:
 
-![Git Cloud manage git repositories page highlighting Reindex repository action](/wp-content/uploads/gij-gitcloud-gitmgr-actions-reindex-repo.png)
+![Git Cloud manage git repositories page highlighting Reindex repository action](/wp-content/uploads/gij-gitcloud-gitmgr-actions-reindex-repo-2025.png)
 
 <br>
 
@@ -168,7 +168,7 @@ Repositories can be updated manually via the Manage git repositories screen by o
 
 Integrations can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex integration**:
 
-![Git Cloud manage git repositories page highlighting Reindex integration action](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-01.png)
+![Git Cloud manage git repositories page highlighting Reindex integration action](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-01-2025.png)
 
 <br>
 

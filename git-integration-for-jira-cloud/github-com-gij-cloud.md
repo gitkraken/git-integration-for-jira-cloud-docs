@@ -71,17 +71,6 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 <hr>
 &nbsp;
 
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/8jtnqzp79y?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/8jtnqzp79y'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
-    <i>Updated video coming soon</i>
-</div>
-<br>
-<br>
-
 ## Creating a personal access token
 
 <div class="bbb-callout bbb--alert">
@@ -117,21 +106,21 @@ We recommend using the **Git service integration** panel to connect multiple rep
 </div>
 <br>
 
-1.  On your Jira dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
 2.  On the Manage integrations page, click **Add integration**.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **GitHub.com** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-github.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-github-2025.png)
 
 4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-github-integration-oauth-01.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-github-integration-oauth-01-2025.png)
 
 5.  For this guide, click on the **OAuth integration** to select it.
 

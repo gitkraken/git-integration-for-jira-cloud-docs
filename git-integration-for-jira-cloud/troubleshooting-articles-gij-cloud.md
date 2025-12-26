@@ -59,15 +59,6 @@ Read through our collection of troubleshooting guides which will show you the re
 Using the **Permission Helper** within Jira Cloud - verify that the user in question has the **Development Tools** permission.
 
 The Permission Helper is available to Jira admins: &nbsp;![](/wp-content/uploads/actions-icon.png) Jira settings ➜ System ➜ **Permission Helper**.
-
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/21vd3arsj6?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px;margin-bottom:15px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/21vd3arsj6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 <p style='font-size:20px;text-align:center;'>&#8681;</p>
 
 <p align=center>Permissions are correct</p>
@@ -157,17 +148,6 @@ Valid Jira issue key examples are shown in the following screenshot:
 GitLab showing an actual commit and the commit message:
 
 ![](/wp-content/uploads/gij-gitcloud-idontsee-commits-gitlab.png)
-
-Check the video for more instructions:
-
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/cs229y2gzj?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin:10px 0 30px 0'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/cs229y2gzj'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 <p style='font-size:20px;text-align:center;'>&#8681;</p>
 
 <p align=center>Commit has a valid Jira issue key</p>
@@ -317,50 +297,6 @@ Most users can resolve this issue on their own by re-installing the app.
     <div class="imsgbox">
         <b>Contact Us</b><br>
         If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>support@gitkraken.com.</a>
-    </div>
-    </div>
-</div>
-
-&nbsp;
-
-* * *
-
-&nbsp;
-
-## Why don't I see the Create branch or pull request features?
-
-### Problem
-
-Users cannot see the **Create branch** or **Create pull/merge request** actions on the [Jira issue developer panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud).
-
-<img src='/wp-content/uploads/gij-gitcloud-troubleshoot-createbranch-pullrequest.png' style='max-width:100%;margin:25px auto;display:block;' />
-
-### Solution
-
-The **Create branch** and **Create pull/merge requests** features are enabled by connecting to one of the Full feature integrations.
-
-<img src='/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png' style='max-width:100%;margin:25px auto;display:block;' />
-
-1.  Navigate to the Manage integrations page.
-
-2.  Click **Add integration** and select OAuth or PAT integration options (GitHub, GitLab, etc.).
-
-3.  Complete the integration steps of the connection wizard.
-
-See our [Integration Guides](/git-integration-for-jira-cloud/integration-guide-gij-cloud) for each Full feature integration option.
-
-The regular Git integration and Limited connect feature Git option does not offer the Create branch and Create pull/merge request features.
-
-<img src='/wp-content/uploads/gij-add-new-integration-plain-git-sel.png' style='max-width:100%;margin:25px auto;display:block;' />
-
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>
@@ -834,40 +770,3 @@ On March 2, 2022, all OAuth integrations between Git Integration for Jira and Az
 3.  Click on **Reconnect**.
 
 4.  Login to Azure DevOps / VSTS with the account you wish to associate with Git Integration for Jira Cloud.
-
-### Videos:
-
-**GIJ Cloud**
-
-<div class='embed-container' style='padding-bottom:47.29%'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/6jon0nfpu4?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:12px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/6jon0nfpu4'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
-&nbsp;
-
-**GIJ Server/DC**
-
-<div class='embed-container' style='padding-bottom:50.33%'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/63ndpswgmc?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:12px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/63ndpswgmc'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
-

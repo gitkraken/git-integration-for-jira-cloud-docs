@@ -24,15 +24,6 @@ taxonomy:
 </div>
 
 &nbsp;
-
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/pewl2o9uk6?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='magin-top:12px;margin-bottom:30px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/pewl2o9uk6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 <div class="bbb-callout bbb--error">
     <div class="irow">
     <div class="ilogobox">
@@ -64,7 +55,7 @@ Configure webhooks by logging in to your GitHub account:
 
 5.  Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app ➜ **Indexing triggers** page into the _**Payload URL**_ field.
 
-    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc.png)
+    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc-2025.png)
 
     *   Set the _**Content type**_ to **application/json**.
     *   Enter the **Secret key** into the _**Secret**_ field.

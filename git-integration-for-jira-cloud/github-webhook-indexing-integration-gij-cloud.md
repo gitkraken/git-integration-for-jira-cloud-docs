@@ -56,49 +56,25 @@ taxonomy:
 
 &nbsp;
 
-### Video Guides
-
-Watch video guides below showcasing Repository and Group level webhook indexing integration.
-
-#### Setup webhook indexing integration (Repository Level)
-
-<div class='embed-container embed-container--16-9'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/p54dj581ec?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:15px;margin-bottom:40px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/p54dj581ec'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
-#### Setup webhook indexing integration (Organization Level)
-
-<div class='embed-container embed-container--16-9'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/l6msatuap5?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:15px;margin-bottom:40px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/l6msatuap5'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 ### Connect GitHub.com or GitHub Enterprise Server using the Webhook Indexing integration type to Jira Cloud
 
 The steps outlined below requires that [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app is already installed on your Jira Cloud instance. Otherwise, install the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app first from the Atlassian Marketplace.
 
-1.  On your Jira Cloud dashboard, go to Apps ➜ **Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
 2.  On the Manage integrations page, click **Add integration**.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **GitHub.com** to start integration with this git service. If you're using **GitHub Enterprise Server**, choose that instead.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-github.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-github-2025.png)
 
 4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-github.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-github-2025.png)
 
 5.  For this guide, click on the **Webhook indexing** panel to select it.
 
@@ -106,15 +82,13 @@ The steps outlined below requires that [Git Integration for Jira](https://market
 
 6.  Click **Add integration** to proceed. The screen below shows the webhook indexing settings for use with the GitHub git service webhook setup. This also adds the current webhook indexing integration to the manage integration list.
 
-    ![](/wp-content/uploads/gij-gitcloud-webhook-indexing-github-settings.png)
+    ![](/wp-content/uploads/gij-gitcloud-webhook-indexing-github-settings-2025.png)
 
 7.  ![](/wp-content/uploads/bbb-alert-20.png) Before clicking **Finish**, make sure to configure webhook for your git service. Use the **Webhook URL** and the **Secret key** then **follow the steps below** for repository level or organization level webhook setup.
 
 &nbsp;
 
 ### Repository Level
-
-[See full video walkthrough on this page](#setup-webhook-indexing-integration-repository-level)
 
 Open a new browser tab and login to your GitHub web portal to setup webhook triggers for the selected _**repository**_. Configure a webhook on your git service by performing the following steps:
 
@@ -222,7 +196,7 @@ The webhooks indexing integration limits the features available. However, networ
 
 Commits, branches, pull requests are visible in the **Jira Development Information** panel as well as in the **Git Commits issue** tab and **Git Integration** side panel of the Jira issue. Jira administrators can regulate access to these displays using the _View development tools_ permission.
 
-![](/wp-content/uploads/gij-gitcloud-jira-issue-webhook-idx-sample.png)
+![](/wp-content/uploads/gij-gitcloud-jira-issue-webhook-idx-sample-2025.png)
 
 #### View tags in Jira
 
@@ -251,7 +225,7 @@ The Repository Browser allows users to view commits in git repositories by branc
 
 *   Click a git repository on the **View all repositories** page to start from here.
 
-![](/wp-content/uploads/gij-gitcloud-wh-idx-repo-browser-sel.png)
+![](/wp-content/uploads/gij-gitcloud-wh-idx-repo-browser-sel-2025.png)
 
 #### ![](/wp-content/uploads/gij-error.png) Create branches and pull requests in Jira
 

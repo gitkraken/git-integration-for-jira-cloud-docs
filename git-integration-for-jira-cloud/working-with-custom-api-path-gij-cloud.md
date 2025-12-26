@@ -24,11 +24,11 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 *   Go to Manage Git repositories page ➜ Full feature integration wizard ➜ **Connect** screen ➜ _Advanced_ ➜ **Custom API Path**. In this case, we use GitHub as an example:
 
-    ![](/wp-content/uploads/gij-gitcloud-autoconnect-github-custom-api-path.png)
+    ![](/wp-content/uploads/gij-gitcloud-autoconnect-github-custom-api-path-2025.png)
 
 *   Go to Manage Git repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit integration settings (for integration) or Edit repository settings (for repositories) ➜ Integration settings section ➜ **Custom API Path**.
 
-    ![](/wp-content/uploads/gij-gitcloud-actions-edit-integration-settings-cAPI-path.png)
+    ![](/wp-content/uploads/gij-gitcloud-actions-edit-integration-settings-cAPI-path-2025.png)
 
 <hr>
 

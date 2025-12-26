@@ -52,7 +52,7 @@ Some notable sections:
 *   **Files** section can be _**rolled up by**_: None, File Extension, Change, Extension and Change, Change and Extension, and Repository.
 
 
-![](/wp-content/uploads/gij-gitcloud-jira-issue-rollup-tab-sel-new.png)
+![](/wp-content/uploads/gij-gitcloud-jira-issue-rollup-tab-sel-2025.png)
 
 &nbsp;
 
@@ -67,7 +67,7 @@ Some notable sections:
 4.  Click **Update** button.
 
 
-![](/wp-content/uploads/gij-gitcloud-gencfg-git-rollup-sel-new.png)
+![](/wp-content/uploads/gij-gitcloud-gencfg-git-rollup-sel-new-2025.png)
 
 <br>
 

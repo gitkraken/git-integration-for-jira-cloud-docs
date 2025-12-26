@@ -23,7 +23,7 @@ To configure GitHub organization webhook:
 
 5.  Paste the webhook URL into the Payload URL field. (The webhook url is acquired from the Git Integration for Jira Cloud app ➜ Indexing triggers configuration page.)
 
-6.  ![](/wp-content/uploads/gij-gitcloud-indexing-trigger-webhook-url-level-1.png)
+6.  ![](/wp-content/uploads/gij-gitcloud-indexing-trigger-webhook-url-level-1-2025.png)
 
     Set the _**Content type**_ to **application/json**.
 
