@@ -1,12 +1,13 @@
 ---
 
 title: Self-signed HTTPS integration
-description:
+description: How to integrate repositories using self-signed HTTPS certificates
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
-Self-signed certificates are common in HTTPS Git repositories that are hosted privately. Even for an administrator, it's not easy to set the HTTP `sslVerify` to connect to this repository.
+
+Self-signed certificates are common in HTTPS Git repositories that are hosted privately. Even for an administrator, setting the HTTP `sslVerify` option to connect to this repository can be challenging.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -14,12 +15,12 @@ Self-signed certificates are common in HTTPS Git repositories that are hosted pr
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The Jira administrator now has the option to disable <code>sslVerify</code> for specific repositories while inside Jira.
+        Jira administrators can now disable <code>sslVerify</code> for specific repositories from within Jira.
     </div>
     </div>
 </div>
 
-This feature is available in **Connect to Git Repository** wizard and the **Full feature integration** panel for GitHub and GitLab.
+This feature is available in the **Connect to Git Repository** wizard and the **Full feature integration** panel for GitHub and GitLab.
 
 Continue to the next topic for further information on setup and integration.
 
@@ -30,3 +31,6 @@ Continue to the next topic for further information on setup and integration.
 
 [**Next:** Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-cloud/automatically-connect-to-https-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues-gij-cloud)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

@@ -1,7 +1,7 @@
 ---
 
 title: General settings for administrators
-description:
+description: Overview of general settings configuration for Jira administrators
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -20,15 +20,15 @@ taxonomy:
     </div>
 </div>
 
-The Git Integration for Jira app introduces the General settings page which contains configuration options for performance and features.
+Git Integration for Jira provides a General settings page that contains configuration options for performance and features.
 
 &nbsp;
 
-### Getting started
+### Getting Started
 
-The **App settings** configuration page can be accessed thru the following locations:
+Access the **App settings** configuration page through the following location:
 
-*   Jira Sidebar ➜ Apps menu ➜ **Git Integration For Jira** ➜ Setting Button ➜ **App settings**.
+*   Jira Sidebar ➜ Apps menu ➜ **Git Integration For Jira** ➜ Setting Button ➜ **App settings**.
 
     ![](/wp-content/uploads/gij-gitcloud-gitmenu-apps-gencfg-sel-2025.png)
 
@@ -43,7 +43,7 @@ The **App settings** configuration page can be accessed thru the following loc
     </div>
 </div>
 
-After making changes to the configuration settings, click **Save** to apply the changes.
+After making changes to the configuration settings, click **Save** to apply the changes.
 
 For detailed information about this feature and the supported settings, see [Administration: General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud).
 
@@ -54,3 +54,6 @@ For detailed information about this feature and the supported settings, see [Adm
 
 [**Next:** Web linking](/git-integration-for-jira-cloud/web-linking-gij-cloud/)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
