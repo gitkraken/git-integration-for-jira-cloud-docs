@@ -7,9 +7,9 @@ taxonomy:
 
 ---
 
-[CI/CD for Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview) is a free extension to Git Integration for Jira, connecting your CI/CD DevOps pipelines with Jira Cloud's builds and deployments features. Similar to how Git Integration for Jira exposes commits, branches, and pull requests, CI/CD for Jira adds in build and deployment information associated with Jira issues.
+[CI/CD for Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview) is a free extension to Git Integration for Jira that connects your CI/CD DevOps pipelines with Jira Cloud's builds and deployments features. Just as Git Integration for Jira exposes commits, branches, and pull requests, CI/CD for Jira adds build and deployment information associated with Jira issues.
 
-CI/CD for Jira tracks builds/deployments by Pull Requests, and supports classic pipelines, and YAML pipelines only for builds. If you are running your deployments via the build YAML pipeline, the deployments are not displayed.
+CI/CD for Jira tracks builds and deployments by Pull Requests. The extension supports classic pipelines and YAML pipelines for builds only. If you run your deployments through the build YAML pipeline, the deployments do not appear.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -36,32 +36,32 @@ CI/CD for Jira tracks builds/deployments by Pull Requests, and supports classic 
 
 ## Supported services
 
-[CI/CD for Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview) currently supports the following tools for Build and Deployment information:
+[CI/CD for Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview) currently supports the following tools for build and deployment information:
 
-*   GitHub Actions (Cloud or Self Hosted)
-*   GitLab CI/CD (Cloud or Self Hosted)
-*   Azure DevOps Pipelines (Cloud or Self Hosted)
-*   Bitbucket Pipelines (Cloud)
+- GitHub Actions (Cloud or Self Hosted)
+- GitLab CI/CD (Cloud or Self Hosted)
+- Azure DevOps Pipelines (Cloud or Self Hosted)
+- Bitbucket Pipelines (Cloud)
 
 &nbsp;
 
 ## Setup
 
-After adding the CI/CD for Jira extension from the Atlassian Marketplace, there are no additional steps needed to start seeing build and deployment information in Jira. Just ensure your previously connected repositories have been reindexed.
+After you add the CI/CD for Jira extension from the Atlassian Marketplace, no additional steps are needed to start seeing build and deployment information in Jira. Ensure your previously connected repositories have been reindexed.
 
 &nbsp;
 
 ## Associating issues
 
-A build is automatically linked to a Jira issue if one of the build's commits includes the Jira issue key in its commit message. A deployment to an environment, such as production or testing, is linked if a commit that is associated with the deployment contains the Jira issue key in its commit message.
+A build automatically links to a Jira issue when one of the build's commits includes the Jira issue key in its commit message. A deployment to an environment (such as production or testing) links to an issue when a commit associated with the deployment contains the Jira issue key in its commit message.
 
 &nbsp;
 
 ## Does this extension support sending build/deployment information via webhook?
 
-CI/CD for Jira Cloud does not currently support sending build/deployment information via webhook event. Furthermore, if you are using webhook indexing, CI/CD information is not supported. 
+CI/CD for Jira Cloud does not currently support sending build/deployment information via webhook event. If you use webhook indexing, CI/CD information is not supported.
 
-CI/CD indexing only happens during regular scheduled indexes, and cannot be triggered via indexing triggers. This can vary a little bit based on what service is being used and the way that the pipelines are configured.
+CI/CD indexing only happens during regular scheduled indexes and cannot be triggered via indexing triggers. Timing can vary based on the service you use and how you configure your pipelines.
 
 &nbsp;
 
@@ -71,22 +71,22 @@ CI/CD indexing only happens during regular scheduled indexes, and cannot be trig
 
 ## Viewing builds and deployments in a Jira issue
 
-When an issue is associated with a build or deployment, additional information will be available in the right hand panel.
+When an issue associates with a build or deployment, additional information appears in the right-hand panel.
 
 <img src='/wp-content/uploads/gij-cloud-cicd-Issuepanel-1-2025.png' height=588 width=514 style='margin: 15px auto 25px auto; max-width: 100%' />
 
-Builds and Deployments will show as successful or failed based on the icon to the right (<img src='/wp-content/uploads/bbb-tips-20.png' style='' /> green checkmark). Clicking on a build or a release will pop up a new window with a link out to the pipeline for more information.
+Builds and deployments show as successful or failed based on the icon on the right (<img src='/wp-content/uploads/bbb-tips-20.png' style='' /> green checkmark). Click a build or release to open a new window with a link to the pipeline for more information.
 
-For pipeline errors, wherein a step within your pipeline has failed, there are several external factors that is causing it to fail. For example:
+For pipeline errors where a step within your pipeline has failed, several external factors may cause the failure. For example:
 
-*   a misconfiguration in your deployment too
-*   an incorrectly set environment variable
+- A misconfiguration in your deployment tool
+- An incorrectly set environment variable
 
-If a pipeline fails, you have the option to rerun the whole pipeline, or any failed steps. For more information, see Atlassian docs on [How to view your pipeline](https://support.atlassian.com/bitbucket-cloud/docs/view-your-pipeline/#Viewyourpipeline-CI_RerunStep).
+If a pipeline fails, you can rerun the whole pipeline or any failed steps. For more information, see Atlassian docs on [How to view your pipeline](https://support.atlassian.com/bitbucket-cloud/docs/view-your-pipeline/#Viewyourpipeline-CI_RerunStep).
 
 <img src='/wp-content/uploads/gij-cloud-cicd-Issuepanel-2-2025.png' height=215 width=933 style='margin: 15px auto 25px auto; max-width: 100%' />
 
-Clicking on **Open Git Integration** will open a view that rolls up all commits by file and developer, and reports change statistics. From here you can click individual commits, builds, and deployments to see more information.
+Click **Open Git Integration** to open a view that rolls up all commits by file and developer, and reports change statistics. From here you can click individual commits, builds, and deployments to see more information.
 
 <img src='/wp-content/uploads/gij-cloud-cicd-Issuepanel-3-2025.png' height=726 width=519 style='margin: 15px auto 25px auto; max-width: 100%' />
 
@@ -98,11 +98,11 @@ Clicking on **Open Git Integration** will open a view that rolls up all commits 
 
 ## How to enable Deployment View in Jira
 
-Jira includes a timeline that shows deployments across environments. You can search deployments by issues, environments, types and more.
+Jira includes a timeline that shows deployments across environments. You can search deployments by issues, environments, types, and more.
 
 <img src='/wp-content/uploads/gij-cloud-cicd-deployments-view-1.png' height=226 width=428 style='margin: 15px auto 25px auto; max-width: 100%' />
 
-By default this feature is turned off, and must be turned on.
+This feature is turned off by default and must be enabled.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -116,19 +116,19 @@ By default this feature is turned off, and must be turned on.
 </div>
 <br>
 
-1.  Navigate to your project.
+1. Navigate to your project.
 
-2.  Go to Project settings ➜ **Features**.
+2. Go to Project settings ➜ **Features**.
 
     <img src='/wp-content/uploads/gij-cloud-cicd-deployments-view-2.png' height=204 width=227 style='margin: 15px auto 25px auto; max-width: 100%' />
 
-3.  Enable the Deployments feature.
+3. Enable the Deployments feature.
 
     <img src='/wp-content/uploads/gij-cloud-cicd-deployments-view-3.png' height=196 width=956 style='margin: 15px auto 25px auto; max-width: 100%' />
 
-A new menu item, Deployments, will be added to the left-hand project menu (under Operations).
+A new menu item, Deployments, appears in the left-hand project menu (under Operations).
 
-More information on using the deployments view, visit [Atlassian Docs - Enable deployments](https://support.atlassian.com/jira-software-cloud/docs/enable-deployments/)
+For more information on using the deployments view, visit [Atlassian Docs - Enable deployments](https://support.atlassian.com/jira-software-cloud/docs/enable-deployments/).
 
 &nbsp;
 
@@ -138,13 +138,13 @@ More information on using the deployments view, visit [Atlassian Docs - Enable d
 
 ## How to use JQL searches for builds and deployments
 
-Jira Query Language (JQL) is a powerful and flexible way to search within Jira. With CI/CD for Jira you can now query on build and deployment information.
+Jira Query Language (JQL) provides a powerful and flexible way to search within Jira. With CI/CD for Jira, you can query build and deployment information.
 
 From the Jira search bar, select JQL on the far right to begin writing your query.
 
 <img src='/wp-content/uploads/gij-cloud-cicd-jql-1.png' height=215 width=933 style='margin: 15px auto 25px auto; max-width: 100%' />
 
-When you begin typing, Jira will offer some guidance on syntax:
+When you begin typing, Jira offers guidance on syntax:
 
 <img src='/wp-content/uploads/gij-cloud-cicd-jql-2.png' height=162 width=229 style='margin: 15px auto 25px auto; max-width: 100%' />
 
@@ -170,7 +170,7 @@ Shows all issues where the latest deployment is in the production environment
 
 **Example syntax:**<br>
 `buildState` ~ successful<br>
-Show all issues where the latest build was successful
+Shows all issues where the latest build was successful
 
 &nbsp;
 
@@ -180,24 +180,19 @@ Show all issues where the latest build was successful
 
 ## How to trigger Automation for Jira with builds and deployments
 
-Jira automation allows teams to control processes and workflows using rules to automate actions within Jira. Automation rules have 3 parts:
+Jira automation allows teams to control processes and workflows using rules to automate actions within Jira. Automation rules have three parts:
 
-*   **Triggers** – Listens for events and starts the execution of a rule when a set condition is met.
-
-*   **Conditions** – Set the scope of a rule with specific events tailored for your team.
-
-*   **Actions** – Set automated tasks to perform when a condition is met.
+- **Triggers** – Listen for events and start executing a rule when a set condition is met.
+- **Conditions** – Set the scope of a rule with specific events tailored for your team.
+- **Actions** – Set automated tasks to perform when a condition is met.
 
 Git Integration for Jira supports triggers for branches, commits, and pull requests. Adding the CI/CD for Jira extension enables the use of additional triggers:
 
-*   Build status changed, failed, and successful
-
-*   Deployment status changed, failed, and successful.
+- Build status changed, failed, and successful
+- Deployment status changed, failed, and successful
 
 <img src='/wp-content/uploads/gij-cloud-cicd-a4j-1.png' height=574 width=562 style='margin: 15px auto 25px auto; max-width: 100%' />
-
 
 To create new rules, go to Project settings ➜ Automation ➜ **Create Rule**. For more information on setting up Automation for Jira rules, visit the [Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud/) article.
 
 <kbd>Last updated: December 2025</kbd>
-

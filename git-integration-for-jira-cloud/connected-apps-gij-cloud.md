@@ -9,19 +9,19 @@ taxonomy:
 
 <!-- FEATURES: USER SETTINGS -->
 
-The Connected apps section shows which integrated app is connected with Git Integration for Jira. GitKraken integration app is implemented at the end of 2021 September GitCloud release.
+The Connected apps section displays which integrated apps connect with Git Integration for Jira.
 
 ![](/wp-content/uploads/gij-gitcloud-user-settings-connected-apps.png)
 
-Click the toggle switch to enable/disable GitKraken integration with Git Integration for Jira Cloud app.
+Use the toggle switch to enable or disable GitKraken integration with the Git Integration for Jira Cloud app.
 
-When enabled, this feature adds the deep linking feature to open commits, branches, tags and repositories by invoking the GitKraken git client via the following locations:
+When enabled, this feature adds deep linking that opens commits, branches, tags, and repositories directly in the GitKraken git client from the following locations:
 
 ![](/wp-content/uploads/gij-gitcloud-jira-issue-branches-deep-links-2025.png)
 
-1.  On the **Commits** tab, click the **Open in GitKraken** button to open this commit with the GitKraken git client.
+1.  On the **Commits** tab, click **Open in GitKraken** to open this commit in the GitKraken git client.
 
-2.  In **Branches** list on the Jira development panel, click the GitKraken pop-out icon (right) to open this branch in GitKraken git client.
+2.  In the **Branches** list on the Jira development panel, click the GitKraken pop-out icon to open this branch in the GitKraken git client.
 
 &nbsp;
 

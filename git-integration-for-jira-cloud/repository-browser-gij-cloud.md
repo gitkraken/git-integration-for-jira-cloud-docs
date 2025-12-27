@@ -56,13 +56,13 @@ The **Repository Browser** allows users to view git repositories of configured p
     </div>
 </div>
 
-The Repository Browser provides a view into your connected repositories in Jira Cloud. From the Repository browser page you can see summaries of:
+The Repository Browser provides a view into your connected repositories in Jira Cloud. From the Repository browser page, you can see summaries of:
 
-*   Repository
-*   Most recent issue associated by a commit
-*   Last updated by commit author
-*   Last commit date/time
-*   Personal Access Token management
+- Repository
+- Most recent issue associated by a commit
+- Last updated by commit author
+- Last commit date/time
+- Personal Access Token management
 
 &nbsp;
 
@@ -82,19 +82,13 @@ On any Jira Cloud page, go to Side Menu ➜ Apps ➜ **Git Integration for Jira*
 
 ![](/wp-content/uploads/gij-gitcloud-repo-browser-page-list-2025.png)
 
-*   On the list table, you see git repositories, recent issues updated by users, and the last commits made.
-
-*   Clicking **Manage integrations** at the top right of the screen opens the git integration configuration page.
-
-*   Use the search bar to look for repositories that contain the specified name.
-
-*   Click a git repository name to browse its contents. See [Repository view](#repository-view---viewing-list-of-commits) below.
-
-*   Click the GitKraken icon under the Actions column to view the selected repository in GitKraken git client app.
-
-*   Use the page navigation at the bottom right of the list to display the next list.
-
-*   Click **User Settings** to access the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page for setting up connected apps, default repositories, default branches, and personal access tokens configuration.
+- The list table displays git repositories, recent issues updated by users, and the last commits made.
+- Click **Manage integrations** at the top right of the screen to open the git integration configuration page.
+- Use the search bar to find repositories that contain the specified name.
+- Click a git repository name to browse its contents. See [Repository view](#repository-view---viewing-list-of-commits) below.
+- Click the GitKraken icon under the Actions column to view the selected repository in the GitKraken git client app.
+- Use the page navigation at the bottom right of the list to display the next page.
+- Click **User Settings** to access the [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud) page for setting up connected apps, default repositories, default branches, and personal access tokens configuration.
 
 &nbsp;
 
@@ -110,19 +104,19 @@ The list of commits for the currently selected project appears in descending ord
 
 ![](/wp-content/uploads/gij-gitcloud-repo-browser-page-repoview-list-new-2025.png)
 
-1.  Click the repository selector dropdown list to select the repository to view.
+1. Click the repository selector dropdown list to select the repository to view.
 
-2.  Select the branch from the dropdown list to browse repository contents for that branch (default view is the master branch).
+2. Select the branch from the dropdown list to browse repository contents for that branch (default view is the master branch).
 
-3.  Select filter to show all commits, linked commits, or unlinked commits that were not associated to a Jira issue.
+3. Select a filter to show all commits, linked commits, or unlinked commits that were not associated with a Jira issue.
 
-4.  Displays the Jira issue key associated with this commit or pull/merge request (for example, `DMO-8`).
+4. Displays the Jira issue key associated with this commit or pull/merge request (for example, `DMO-8`).
 
-5.  Click the **Change icon** ![](/wp-content/uploads/gij-edit-icon-dark.png) to edit/manage associated Jira issue keys for the selected commit.
+5. Click the **Change icon** ![](/wp-content/uploads/gij-edit-icon-dark.png) to edit or manage associated Jira issue keys for the selected commit.
 
-6.  Click the GitKraken icon at the far right of the row to view this commit in [GitKraken git client](https://www.gitkraken.com/git-client/features) app.
+6. Click the GitKraken icon at the far right of the row to view this commit in the [GitKraken git client](https://www.gitkraken.com/git-client/features) app.
 
-7.  Click the GitLens icon at the far right of the row to view this commit in [GitLens for VSCode extension](https://www.gitkraken.com/gitlens).
+7. Click the GitLens icon at the far right of the row to view this commit in the [GitLens for VSCode extension](https://www.gitkraken.com/gitlens).
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -156,7 +150,7 @@ The list of commits for the currently selected project appears in descending ord
 
 On the Repository browser (_Jira dashboard ➜ Apps menu ➜ **Git Integration: Repository browser**_), click the **Compare** page tab.
 
-On this page, two branches from the current repository can be compared.
+On this page, you can compare two branches from the current repository.
 
 A diff between the _**base**_ branch and the _**compare**_ branch appears:
 
@@ -164,27 +158,25 @@ A diff between the _**base**_ branch and the _**compare**_ branch appears:
 
 To view desired results, use the following selection scenarios:
 
-*   Select **master** as compare; select the most recent branch as base.
-
-*   Select **master** as compare; select a tag with a version release.
-
-*   Select different branches as base and compare. (Example: `TYT-212` against `TYT-316`)
+- Select **master** as compare; select the most recent branch as base.
+- Select **master** as compare; select a tag with a version release.
+- Select different branches as base and compare. (Example: `TYT-212` against `TYT-316`)
 
 ![](/wp-content/uploads/gij-gitcloud-repo-browser-compare-view-swap-2025.png)
 
-Click **…** to swap the base and the compare selection.
+Click **…** to swap the base and compare selections.
 
 The **Summary** page displays the _**Commits**_, _**Aggregated Lines by Developers**_, and _**Files**_. Click a file to view its code diff.
 
-Click **Commits** on the sidebar to view the list of commits resulting from this compare. The adjacent figure indicates the number of commits associated to this compare.
+Click **Commits** on the sidebar to view the list of commits resulting from this comparison. The adjacent figure indicates the number of commits associated with this comparison.
 
 Click **Diff** on the sidebar to view code diffs of the selected range of commits with the path and name of the affected files.
 
-![](/wp-content/uploads/gij-gitcloud-repo-browser-page-compare-isues-view-2025.pngg)
+![](/wp-content/uploads/gij-gitcloud-repo-browser-page-compare-isues-view-2025.png)
 
-Click **Issues** on the sidebar to view list of unique Jira issues related to commits.
+Click **Issues** on the sidebar to view a list of unique Jira issues related to commits.
 
-On the **Issues** page, clicking the **View in issue navigator** label opens the search page with passed query of a list of Jira issues found based on the compare criteria.
+On the **Issues** page, clicking the **View in issue navigator** label opens the search page with a query of Jira issues found based on the compare criteria.
 
 &nbsp;
 

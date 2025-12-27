@@ -10,15 +10,13 @@ taxonomy:
 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA CLOUD</b> &mdash; <b>AVAILABLE!</b><br>
 <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA SERVER / DATA CENTER</b> &mdash; <b>AVAILABLE!</b>
 
-Jira automation allows teams and groups to control processes and workflows using a rule to automate actions within Jira based on criteria.
+Jira automation allows teams and groups to control processes and workflows using rules to automate actions within Jira based on specific criteria.
 
-Automation rules have 3 parts:
+Automation rules have three parts:
 
-*   **Triggers** - Listens for events and starts the execution of a rule when a set condition is met.
-
-*   **Conditions** - Set the scope of a rule with specific events tailored for your team.
-
-*   **Actions** - Set automated tasks to perform when a condition is met.
+- **Triggers** – Listen for events and start executing a rule when a set condition is met.
+- **Conditions** – Set the scope of a rule with specific events tailored for your team.
+- **Actions** – Set automated tasks to perform when a condition is met.
 
 
 <div class="bbb-callout bbb--info">
@@ -44,61 +42,57 @@ Automation rules have 3 parts:
 
 ## Permissions
 
-Any user with Browser Project permissions can create a rule.
+Any user with Browse Project permissions can create a rule.
 
 &nbsp;
 
 ## Git Integration for Jira app supported triggers
 
-We currently support the following triggers:
+Git Integration for Jira currently supports the following triggers:
 
-*   Branch created
+- Branch created
+- Commit created
+- Pull request created
+- Pull request merged
+- Pull request declined
 
-*   Commit created
-
-*   Pull request created
-
-*   Pull request merged
-
-*   Pull request declined
-
-
-And thus, we will support all of these triggers in the coming releases.
+Additional triggers will be supported in future releases.
 
 ## How to set up automation templates
 
-Create a rule to configure triggers and actions for automating tasks. There are two levels:
+Create a rule to configure triggers and actions for automating tasks. You can create rules at two levels:
 
 ### Project level (projects)
 
-1.  Open a project to work on, Open the Side Bar, click the ( ... ) Icon then go to ![](/wp-content/uploads/actions-icon.png) **Space settings**.
+1. Open a project, open the sidebar, click the (...) icon, then go to ![](/wp-content/uploads/actions-icon.png) **Space settings**.
 
-    ![](/wp-content/uploads/gij-gitcloud-automation-proj-level-2025.pngg)
+    ![](/wp-content/uploads/gij-gitcloud-automation-proj-level-2025.png)
 
-2.  On the sidebar, click **Automation**.
+2. On the sidebar, click **Automation**.
 
-3.  Click the ![](/wp-content/uploads/gij-jira-cloud-automation-New-Rule-2025.png) **Create Rule** button, then 'Create from Scratch'.
+3. Click the ![](/wp-content/uploads/gij-jira-cloud-automation-New-Rule-2025.png) **Create Rule** button, then select **Create from Scratch**.
 
-4.  This will take you to the Automation creation wizard.
+4. The Automation creation wizard opens.
 
     ![](/wp-content/uploads/gij-jira-cloud-automation-start-2025.png)
 
-5. Clicking the 'DevOps' category will display the GIJ provided triggers. These are the triggers that you will base your automations on.
+5. Click the **DevOps** category to display the Git Integration for Jira triggers. Use these triggers as the basis for your automations.
+
     ![](/wp-content/uploads/gij-jira-cloud-automation-triggers-2025.png)
 
-6.  Configure triggers, conditions and actions for this rule:
+6. Configure triggers, conditions, and actions for this rule:
 
     ![](/wp-content/uploads/gij-jira-cloud-automation-example-rule-2025.png)
 
-    a.  **TRIGGER** – This rule will trigger when a pull request is created.
+    a. **TRIGGER** – This rule triggers when a pull request is created.
 
-    b.  **CONDITION** – When the status of the Jira issue is To Do, it will perform the actions below.
+    b. **CONDITION** – When the status of the Jira issue is To Do, the rule performs the actions below.
 
-    c.  **ACTIONS** – If the condition(s) are met, the rule will fire up the actions, assign the issue to a specific user and transitions the Jira issue to In Progress.
+    c. **ACTIONS** – If the conditions are met, the rule assigns the issue to a specific user and transitions the Jira issue to In Progress.
 
-7.  Enter a descriptive name for this rule in the provided box.
+7. Enter a descriptive name for this rule in the provided box.
 
-8.  Click **Turn it on** to publish and activate it. The new rule is added to the automation list.
+8. Click **Turn it on** to publish and activate the rule. The new rule appears in the automation list.
 
 
 <img src='/wp-content/uploads/gij-jira-cloud-automation-list-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
@@ -107,34 +101,35 @@ Create a rule to configure triggers and actions for automating tasks. There are 
 
 ### Global administration level (system)
 
-1.  On your Jira dashboard, go to menu **Jira Settings** ➜ **System**.
+1. On your Jira dashboard, go to menu **Jira Settings** ➜ **System**.
 
     ![](/wp-content/uploads/gij-jira-cloud-administration-settings-menu-2025.png)
 
-2.  On the left sidebar, scroll to the bottom (Automation) and click **Automation rules**.
+2. On the left sidebar, scroll to the bottom (Automation) and click **Automation rules**.
 
-3.  Click **Create rule** , the 'Create from Scratch' to create a new automation rule.
+3. Click **Create rule**, then **Create from Scratch** to create a new automation rule.
 
     ![](/wp-content/uploads/gij-gitcloud-automation-global-level-2025.png)
 
     ![](/wp-content/uploads/gij-jira-cloud-automation-start-2025.png)
 
-5. Clicking the 'DevOps' category will display the GIJ provided triggers. These are the triggers that you will base your automations on.
+4. Click the **DevOps** category to display the Git Integration for Jira triggers. Use these triggers as the basis for your automations.
+
     ![](/wp-content/uploads/gij-jira-cloud-automation-triggers-2025.png)
 
-6.  Configure triggers, conditions and actions for this rule:
+5. Configure triggers, conditions, and actions for this rule:
 
     ![](/wp-content/uploads/gij-jira-cloud-automation-example-rule-2025.png)
 
-    a.  **TRIGGER** – This rule will trigger when a pull request is created.
+    a. **TRIGGER** – This rule triggers when a pull request is created.
 
-    b.  **CONDITION** – When the status of the Jira issue is To Do, it will perform the actions below.
+    b. **CONDITION** – When the status of the Jira issue is To Do, the rule performs the actions below.
 
-    c.  **ACTIONS** – If the condition(s) are met, the rule will fire up the actions, assign the issue to a specific user and transitions the Jira issue to In Progress.
+    c. **ACTIONS** – If the conditions are met, the rule assigns the issue to a specific user and transitions the Jira issue to In Progress.
 
-7.  Enter a descriptive name for this rule in the provided box.
+6. Enter a descriptive name for this rule in the provided box.
 
-8.  Click **Turn it on** to publish and activate it. The new rule is added to the automation list.
+7. Click **Turn it on** to publish and activate the rule. The new rule appears in the automation list.
 
 
 <img src='/wp-content/uploads/gij-jira-cloud-automation-list-global-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
@@ -161,61 +156,54 @@ Create a rule to configure triggers and actions for automating tasks. There are 
 
 ## Automation template library
 
-Let automation do the work while your developers focus on what's important. Automation Templates for Git Integration for Jira can be implemented so you never need to start from scratch. We've provided some templates we think are useful so you don't need to create your own automation rules from scratch.
+Let automation handle repetitive tasks while your developers focus on what matters. Automation Templates for Git Integration for Jira help you get started quickly without creating rules from scratch. We've provided templates for common workflows.
 
-\*All of the templates from [Atlassian's template library](https://www.atlassian.com/software/jira/automation-template-library/bitbucket-github-gitlab) will work with Git Integration for Jira
+All templates from [Atlassian's template library](https://www.atlassian.com/software/jira/automation-template-library/bitbucket-github-gitlab) work with Git Integration for Jira.
 
 <img src='/wp-content/uploads/gij-automation-library-template.png' style='margin:25px auto;max-width:100%;display:block;height:auto;width:470px;' />
 
-**With Git Integration for Jira you can integrate any Git repository with Jira. And better yet, you can make use of any of our handy automation templates, or use Atlassian's!**
-
-You can write your own templates using [Atlassian's no-code Jira automation engine](https://www.atlassian.com/software/jira/features/automation).
+With Git Integration for Jira, you can integrate any Git repository with Jira and use any of these automation templates or create your own using [Atlassian's no-code Jira automation engine](https://www.atlassian.com/software/jira/features/automation).
 
 &nbsp;
 
 ### Available templates from Atlassian for Git Integration for Jira users
 
-Here are some templates from Atlassian you can use as a guide for some of the most common uses:
+Use these templates from Atlassian as a guide for common use cases:
 
-*   [When a commit is created, then transition the Jira issue](https://www.atlassian.com/software/jira/automation-template-library/rules#/rule/1357202).
-
-*   [When a PR is created, add a comment to the Jira issue](https://www.atlassian.com/software/jira/automation-template-library/rules#/rule/1357211).
-
-*   [When a commit is created then send Slack message based on assignee](https://www.atlassian.com/software/jira/automation-template-library/rules#/rule/1357149).
+- [When a commit is created, then transition the Jira issue](https://www.atlassian.com/software/jira/automation-template-library/rules#/rule/1357202)
+- [When a PR is created, add a comment to the Jira issue](https://www.atlassian.com/software/jira/automation-template-library/rules#/rule/1357211)
+- [When a commit is created, then send Slack message based on assignee](https://www.atlassian.com/software/jira/automation-template-library/rules#/rule/1357149)
 
 &nbsp;
 
-### Handy use cases for automation for Git Integration for Jira users
+### Common use cases for automation with Git Integration for Jira
 
-*   Transition issue state when a commit arrives.
-
-*   Transition issue state when pull/merge request is merged. For example: from IN PROGRESS to DONE.
+- Transition issue state when a commit arrives.
+- Transition issue state when a pull/merge request is merged (for example, from IN PROGRESS to DONE).
 
 &nbsp;
 
 ### For more powerful conditions
 
-*   Use [Jira Automation Smart Values](https://support.atlassian.com/jira-software-cloud/docs/what-are-smart-values/) to extract data from your commits and branches to be used in an automation action such as;
+Use [Jira Automation Smart Values](https://support.atlassian.com/jira-software-cloud/docs/what-are-smart-values/) to extract data from your commits and branches for use in automation actions:
 
-    *   Take actions based on the name of a branch. For example:
+- **Take actions based on branch name.** For example:
+    - Only transition branches that contain a specific keyword like "WIP" (Work In Progress).
+    - Add a comment to an issue when a branch contains a certain keyword.
 
-        *   only transition branches that contain a specific keyword like "WIP" (Work In Progress).
+- **Extract the pullRequest state** (Open vs Merged vs Declined) from a pull request and use it in an [advanced compare condition](https://support.atlassian.com/jira-software-cloud/docs/automation-conditions/).
 
-        *   add a comment to an issue when a branch contains a certain keyword.
+- **Verify commit messages** contain required elements, like issue keys.
 
-    *   Extract the pullRequest state (Open vs Merged vs Declined) from a Pull request, and use it in an [advanced compare condition](https://support.atlassian.com/jira-software-cloud/docs/automation-conditions/)
+- **Filter by repository** to ensure only certain repos trigger the automation.
 
-    *   Ensure the commit message contains things you're looking for, like issue keys, etc.
-
-    *   Verify that only certain repos trigger the automation
-
-    *   See the full list of [available smart values](https://support.atlassian.com/jira-software-cloud/docs/smart-values-development/)
+- See the full list of [available smart values](https://support.atlassian.com/jira-software-cloud/docs/smart-values-development/).
 
 &nbsp;
 
 ### Supported triggers
 
-We currently support the 5 highlighted triggers depicted below, and we will support all of these triggers in coming releases.
+Git Integration for Jira currently supports the five highlighted triggers shown below. Additional triggers will be supported in future releases.
 
 <img src='/wp-content/uploads/gij-jira-cloud-automation-triggers-2025.png' style='margin:25px auto;width:566px;height:auto;display:block;max-width:100%;' />
 
@@ -223,10 +211,8 @@ We currently support the 5 highlighted triggers depicted below, and we will supp
 
 ### More Jira automation information
 
-[Automation basics](https://www.atlassian.com/software/jira/guides/expand-jira/automation)
-
-[What are smart values?](https://support.atlassian.com/jira-software-cloud/docs/what-are-smart-values/)
-
-[Automation conditions](https://support.atlassian.com/jira-software-cloud/docs/automation-conditions/)
+- [Automation basics](https://www.atlassian.com/software/jira/guides/expand-jira/automation)
+- [What are smart values?](https://support.atlassian.com/jira-software-cloud/docs/what-are-smart-values/)
+- [Automation conditions](https://support.atlassian.com/jira-software-cloud/docs/automation-conditions/)
 
 <kbd>Last updated: December 2025</kbd>
