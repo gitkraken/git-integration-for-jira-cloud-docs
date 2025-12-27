@@ -8,7 +8,7 @@ taxonomy:
 ---
 See also [Feature Comparison](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud) for information on features and differences between Git Integration for Server/Data Center versus Git Integration for Jira Cloud.
 
-The [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app offers a variety of integration options and features. The below matrix explains which features are offered when using a specific type of integration. For any questions, contact [BigBrassBand Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
+[Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) offers various integration options and features. The matrix below shows which features each integration type supports. For questions, contact [BigBrassBand Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
 |     | Git service integrations<br><br>\[Classic full feature integrations\] | Single git repository integrations<br><br>\[Limited feature connect\] | Webhook indexing integrations<br><br>\[Limited feature connect\] |
 | :--- | :--- | :--- | :--- |

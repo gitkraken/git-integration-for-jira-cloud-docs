@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-This feature lets users set the default repository for a Jira project when using the [Create Branch](/git-integration-for-jira-cloud/create-branch-gij-cloud) and [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud) features.
+Set the default repository for a Jira project when using the [Create Branch](/git-integration-for-jira-cloud/create-branch-gij-cloud) and [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud) features.
 
 ![](/wp-content/uploads/gij-gitcloud-user-settings-default-repo-feature.png)
 
@@ -17,7 +17,7 @@ This feature lets users set the default repository for a Jira project when using
 
 <img src='/wp-content/uploads/gij-gitcloud-user-settings-def-repo-search.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-If your Jira instance has multiple projects, use the search bar to find a project or several projects to work on and assign a default repository for each.
+If your Jira instance has multiple projects, use the search bar to find projects and assign a default repository to each.
 
 &nbsp;
 

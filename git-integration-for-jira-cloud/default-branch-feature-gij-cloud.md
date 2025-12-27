@@ -9,7 +9,7 @@ taxonomy:
 
 ![](/wp-content/uploads/gij-gitcloud-user-settings-default-branches.png)
 
-You can configure a default branch for a repository when creating new branches. The system automatically selects the configured default branch for the selected repository each time you create a new branch from a Jira issue.
+Configure a default branch for a repository when creating new branches. The system automatically selects your configured default branch each time you create a new branch from a Jira issue.
 
 Click **+ Add default branch** to set up a default branch for the selected repository. The following dialog appears:
 

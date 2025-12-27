@@ -20,7 +20,7 @@ taxonomy:
     </div>
 </div>
 
-The Git Integration for Jira Cloud app General settings page lets administrators configure several app features. Enable or disable settings that fit your organization's rules and usage requirements.
+The General settings page lets administrators configure Git Integration for Jira Cloud app features. Enable or disable settings based on your organization's requirements.
 
 **On this page:**
 - [Getting started](#getting-started)
@@ -42,15 +42,15 @@ The Git Integration for Jira Cloud app General settings page lets administrators
 
 ## Getting started
 
-Open the **General settings** page in Jira Apps Management (**Applications** page in Jira 7 and later) to enable or disable Git Integration for Cloud app features.
+Open the **General settings** page in Jira Apps Management to enable or disable Git Integration for Jira Cloud app features.
 
-Access the **General settings** configuration page through:
+Access **General settings** through:
 
 *   Jira Side Bar ➜ Apps ➜ Git Integration for Jira ➜ **App settings**.
 
     ![](/wp-content/uploads/gij-gitcloud-gitmenu-apps-gencfg-sel-2025.png)
 
-After making changes to configuration settings, click **Update** to apply the changes.
+Click **Update** to apply your changes.
 
 &nbsp;
 
@@ -75,7 +75,7 @@ After making changes to configuration settings, click **Update** to apply the ch
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-beta-features.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-This toggle setting provides early access to upcoming planned features. Enable this setting to use new beta features and display them in the General settings page. Disable this setting to hide the beta features.
+This toggle provides early access to upcoming features. Enable it to use new beta features and display them in General settings. Disable it to hide beta features.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -113,7 +113,7 @@ This toggle setting provides early access to upcoming planned features. Enable t
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-show-git-rollup-issue-tab.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-The Git Roll Up Issue tab displays a summary of files, lines, and developers who made changes in commits associated with the Jira issue. Enable or disable this setting to show or hide the **Git Roll Up** tab on the Issue page for all Jira projects.
+The Git Roll Up Issue tab displays a summary of files, lines, and developers who changed commits associated with a Jira issue. Toggle this setting to show or hide the **Git Roll Up** tab on Issue pages for all Jira projects.
 
 For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integration-for-jira-cloud/git-roll-up-tab-gij-cloud).
 
@@ -154,7 +154,7 @@ For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integrat
 
 ![](/wp-content/uploads/gij-gitcloud-gencfg-show-git-commits-issue-proj-tab-2025.png)
 
-This setting enables or disables the **Git Commits Issue tab** and the **Git Commits Project** page. These locations display the list of git commits associated with the Jira Issue and Jira Project, respectively. The list groups commits by repository and sorts them by commit time.
+This setting enables or disables the **Git Commits Issue tab** and the **Git Commits Project** page. These locations display git commits associated with the Jira issue and project respectively. The list groups commits by repository and sorts them by commit time.
 
 For more details, see [**Features: Git Commits Issue tab and Project Page (Jira Cloud)**](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-pages-gij-cloud).
 
@@ -195,7 +195,7 @@ For more details, see [**Features: Git Commits Issue tab and Project Page (Jira 
 
 ![](/wp-content/uploads/gij-gitcloud-gencfg-show-issue-dev-panel.png)
 
-Enable or disable this setting to show or hide the _Git Integration_ section on the Jira issue developer panel.
+Toggle this setting to show or hide the _Git Integration_ section on the Jira issue developer panel.
 
 ![](/wp-content/uploads/gij-gitcloud-jira-dev-integration-panel-sel-2025.png)
 
@@ -255,7 +255,7 @@ These settings take effect at the integration level for projects with connected 
 
 ### Enable create and delete branch
 
-This setting shows or hides the branch creation and deletion functions. The ability to create or delete selected branches from the Jira developer panel depends on this setting.
+This setting controls branch creation and deletion functions. The Jira developer panel's ability to create or delete branches depends on this setting.
 
 <img src='/wp-content/uploads/gij-gitcloud-dev-panel-create-branch-sel-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -263,7 +263,7 @@ For detailed information on this feature, see [Creating branches](/git-integrati
 
 ### Enable create pull or merge request
 
-This setting shows or hides the function for creating pull/merge requests from the Jira developer panel.
+This setting controls pull/merge request creation from the Jira developer panel.
 
 <img src='/wp-content/uploads/gij-gitcloud-dev-panel-create-PRMR-sel-2025.png'  style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -365,7 +365,7 @@ This generates the string format like "**branch/PRJ-123-add-more-logging**" as a
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-gitkraken-integration-417.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Enable this setting to turn on the deep linking feature, which lets you quickly move between Jira and your Git source code with the GitKraken git client app. GitKraken also supports deep linking into Git Integration for Jira. To learn more about this feature, see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
+Enable deep linking to quickly move between Jira and your Git source code using the GitKraken git client. GitKraken also supports deep linking into Git Integration for Jira. For more information, see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -412,7 +412,7 @@ For more details, see [Features: Deep Linking to the GitKraken Git client (Jira 
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-gitlens-integration-417.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Enable this setting to turn on the deep linking feature, which lets you quickly move between Jira and your Git source code with the GitLens VSCode extension. GitLens also supports deep linking into Git Integration for Jira. To learn more about this feature, see [GitLens Integrations: Git Integration for Jira](https://www.gitkraken.com/gitlens).
+Enable deep linking to quickly move between Jira and your Git source code using the GitLens VSCode extension. GitLens also supports deep linking into Git Integration for Jira. For more information, see [GitLens Integrations: Git Integration for Jira](https://www.gitkraken.com/gitlens).
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -444,7 +444,7 @@ For more details, see [Features: Deep Linking to the GitLens (Jira Cloud)](/git-
 
 ### What is Jira Development Information?
 
-[**Jira Development Information**](/git-integration-for-jira-cloud/jira-development-information-gij-cloud) is a suite of features available in Jira Software on the Cloud platform that puts commits, branches, and pull requests in context of Jira issues. Configure these settings to push development information (commits, branches, and pull requests) directly into your Jira Cloud instance.
+[**Jira Development Information**](/git-integration-for-jira-cloud/jira-development-information-gij-cloud) is a suite of Jira Software Cloud features that put commits, branches, and pull requests in context of Jira issues. Configure these settings to push development information directly into your Jira Cloud instance.
 
 #### General settings effect on Smart Commits commands
 
@@ -464,7 +464,7 @@ The following settings affect the availability of specific smart commit commands
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-jira-dev-info-send-to-cloud.png' style='display:block;margin:25px auto;max-width:100%' />
 
-Enable or disable this setting to send new commit/branch/pull request data to Jira Cloud where the data is processed and made available in various views and features.
+Toggle this setting to send new commit, branch, and pull request data to Jira Cloud for processing and display in various views and features.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -479,7 +479,7 @@ Enable or disable this setting to send new commit/branch/pull request data to Ji
     </div>
 </div>
 
-Only newly added commits, branches, and pull requests upload to Jira Cloud when you enable this setting. To upload the entire history of an integration or repository, remove the integration/repository and then add it back.
+Only newly added commits, branches, and pull requests upload to Jira Cloud when enabled. To upload the entire history of an integration or repository, remove it and add it back.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -510,7 +510,7 @@ Only newly added commits, branches, and pull requests upload to Jira Cloud when 
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-smart-commits-automation.png' style='display:block;margin:25px auto;max-width:100%' />
 
-This setting engages the native Atlassian Jira Cloud Smart Commit processor. Currently, only `#time`, `#comment`, and `#transitions` are supported for triggers. This also enables the [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud) feature.
+This setting activates the native Atlassian Jira Cloud Smart Commit processor, supporting `#time`, `#comment`, and `#transitions` commands for triggers. It also enables [Automatic Workflow Triggers](/git-integration-for-jira-cloud/automatic-workflow-triggers-gij-cloud).
 
 Automatic workflow triggers let you use development activity to make automatic changes in your Jira project workflows. For example, you can use workflow triggers to transition Jira issues.
 
@@ -544,7 +544,7 @@ For more information on Automation for Jira, see [Git Integration + Jira Automat
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-app-smart-commits.png' style='display:block;margin:25px auto;max-width:100%' />
 
-This setting engages GitKraken's GIJ Smart Commit processor for `#time`, `#comment`, `#transition`, and `#label`. For more information, see our [Smart Commits documentation](/git-integration-for-jira-cloud/smart-commits-gij-cloud).
+This setting activates GitKraken's GIJ Smart Commit processor for `#time`, `#comment`, `#transition`, and `#label` commands. For more information, see [Smart Commits documentation](/git-integration-for-jira-cloud/smart-commits-gij-cloud).
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -585,7 +585,7 @@ This setting engages GitKraken's GIJ Smart Commit processor for `#time`, `#comme
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-advanced-clear-dev-info.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Behind the **Advanced** twisty is a button that lets Jira administrators clear all Development Information associated with the Git Integration for Jira app.
+The **Advanced** section contains a button that lets Jira administrators clear all Development Information associated with Git Integration for Jira.
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -604,7 +604,7 @@ Behind the **Advanced** twisty is a button that lets Jira administrators clear a
 
 &nbsp;
 
-After configuring all settings according to your requirements, click **Update** to apply the changes.
+Click **Update** to apply your configuration changes.
 
 &nbsp;
 

@@ -9,17 +9,17 @@ taxonomy:
 
 <!-- USER SETTINGS -->
 
-This feature lets users configure personal access tokens for connected git integrations.
+Configure personal access tokens for connected git integrations.
 
 <img src='/wp-content/uploads/gij-gitcloud-user-settings-pat-feature.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 &nbsp;
 
-## The Search function
+## Search function
 
 <img src='/wp-content/uploads/gij-gitcloud-user-settings-def-repo-search.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Use the search bar to filter the list by git integration name. This helps you find and select the integration you want to assign a personal access token to.
+Use the search bar to filter the list by git integration name and find the integration you want to configure.
 
 &nbsp;
 
