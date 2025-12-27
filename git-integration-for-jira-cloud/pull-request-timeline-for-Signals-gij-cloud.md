@@ -1,7 +1,7 @@
 ---
 
 title: Pull Request timeline for Signals
-description:
+description: Learn about pull request timeline reindexing and permission requirements for GitHub and GitLab integrations with Signals.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -84,3 +84,4 @@ Only these two scopes are required for GitHub App integration:
 
 [Backlog View](/git-integration-for-jira-cloud/Signals-backlog-view-gij-cloud)
 
+<kbd>Last updated: December 2025</kbd>

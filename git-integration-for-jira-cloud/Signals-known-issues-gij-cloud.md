@@ -1,7 +1,7 @@
 ---
 
 title: Known Issues for Signals
-description:
+description: Review known issues and workarounds for the Signals feature in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -53,4 +53,4 @@ You can also do a search by issue key. Make sure to specify a valid Jira issue k
 
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)
 
-
+<kbd>Last updated: December 2025</kbd>

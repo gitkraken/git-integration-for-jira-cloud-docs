@@ -1,7 +1,7 @@
 ---
 
 title: General View (Signals)
-description:
+description: Learn how to use the General View in Signals to monitor Jira issues, track activity timelines, and filter by projects, sprints, and team members.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -169,4 +169,6 @@ With all the selection of filters and search options in place, click **Search** 
 [Backlog View](/git-integration-for-jira-cloud/Signals-teams-view-gij-cloud)
 
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)
+
+<kbd>Last updated: December 2025</kbd>
 
