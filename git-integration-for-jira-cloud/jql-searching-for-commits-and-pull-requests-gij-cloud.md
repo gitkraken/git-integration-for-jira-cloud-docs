@@ -1,7 +1,7 @@
 ---
 
 title: JQL Searching for Commits and Pull Requests
-description:
+description: Learn how to use JQL syntax to search for Jira issues based on commit and pull request activity.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -90,4 +90,4 @@ development[pullrequests].open \> 0
 
 [Jira Development Information general settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
 
-
+<kbd>Last updated: December 2025</kbd>

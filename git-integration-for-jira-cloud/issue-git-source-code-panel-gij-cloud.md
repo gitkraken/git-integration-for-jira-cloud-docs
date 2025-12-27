@@ -1,7 +1,7 @@
 ---
 
 title: Issue Git Source Code Panel
-description:
+description: Learn how to view commits, branches, pull requests, and tags in the Issue Git Source Code Panel on Jira issues.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -135,3 +135,4 @@ For detailed information about this feature, see [Documentation: Jira Git integr
 
 [User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud/)
 
+<kbd>Last updated: December 2025</kbd>

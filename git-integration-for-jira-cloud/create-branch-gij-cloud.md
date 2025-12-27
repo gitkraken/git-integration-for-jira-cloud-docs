@@ -1,7 +1,7 @@
 ---
 
 title: Create Branch and Pull/Merge Request
-description:
+description: Learn how to create branches and pull/merge requests directly from Jira issues using Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -299,3 +299,4 @@ Additionally, creating PR/MR via the Git developer panel automatically associate
     </div>
 </div>
 
+<kbd>Last updated: December 2025</kbd>

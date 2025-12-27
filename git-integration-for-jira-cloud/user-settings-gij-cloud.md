@@ -1,7 +1,7 @@
 ---
 
 title: User Settings
-description:
+description: Configure default repositories, default branches, connected apps, and personal access tokens in Git Integration for Jira Cloud user settings.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -33,4 +33,4 @@ To learn more about these features such as default repository and setting up PAT
 
 [Personal access token feature](/git-integration-for-jira-cloud/personal-access-token-feature-gij-cloud/) (Git Integration for Jira Cloud)
 
-
+<kbd>Last updated: December 2025</kbd>

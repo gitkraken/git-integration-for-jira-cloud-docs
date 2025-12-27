@@ -1,7 +1,7 @@
 ---
 
 title: Webhook indexing integration
-description:
+description: Learn how to configure webhook indexing integration for Git Integration for Jira Cloud to work with git servers behind firewalls.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -162,3 +162,4 @@ See: [Security & Trust](https://bigbrassband.com/security-and-trust.html)
 
 Please reach out to us at [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) or via our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
+<kbd>Last updated: December 2025</kbd>

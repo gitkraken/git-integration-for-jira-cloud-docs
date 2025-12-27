@@ -1,7 +1,7 @@
 ---
 
 title: Git Commits Issue Tab and Project Pages (Features)
-description:
+description: Learn how to view git commits associated with Jira issues and projects using the Git Commits Issue Tab and Project Page.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -136,3 +136,4 @@ The Change association feature allows for updating the Jira issues associated wi
 
 [User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud/)
 
+<kbd>Last updated: December 2025</kbd>

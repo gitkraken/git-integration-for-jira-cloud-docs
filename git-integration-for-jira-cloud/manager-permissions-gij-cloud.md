@@ -1,7 +1,7 @@
 ---
 
 title: Manager permissions
-description:
+description: Learn how to configure manager permissions in Git Integration for Jira Cloud to delegate app administration to non-admin users.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -103,4 +103,6 @@ Every user that you add in the GIJ Managers group will have full access to the G
 
 ### What will the non-admin users see when trying to access Git Integration for Jira app?
 
-Non-admin users will not be able to see or access the Git Integration for Jira app configuration or the Manger permissions pages.
+Non-admin users will not be able to see or access the Git Integration for Jira app configuration or the Manager permissions pages.
+
+<kbd>Last updated: December 2025</kbd>

@@ -1,7 +1,7 @@
 ---
 
 title: Default branch feature
-description:
+description: Learn how to configure default branches for repositories when creating new branches from Jira issues.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -34,3 +34,4 @@ Use this function to assign a branch for the selected repository:
 
 [**Next:** Default repository feature](/git-integration-for-jira-cloud/default-repository-feature-gij-cloud)
 
+<kbd>Last updated: December 2025</kbd>

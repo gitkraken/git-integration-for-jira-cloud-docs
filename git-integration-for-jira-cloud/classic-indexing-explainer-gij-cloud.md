@@ -1,7 +1,7 @@
 ---
 
 title: Classic Indexing Explainer
-description:
+description: Learn how Git Integration for Jira Cloud indexes commits, branches, tags, and pull requests using classic indexing.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -252,3 +252,4 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/g
 
 Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
 
+<kbd>Last updated: December 2025</kbd>

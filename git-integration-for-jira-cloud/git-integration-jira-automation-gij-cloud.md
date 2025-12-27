@@ -1,7 +1,7 @@
 ---
 
 title: Git Integration + Jira Automation
-description:
+description: Learn how to configure Jira automation rules with Git Integration for Jira Cloud triggers for branches, commits, and pull requests.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -229,3 +229,4 @@ We currently support the 5 highlighted triggers depicted below, and we will supp
 
 [Automation conditions](https://support.atlassian.com/jira-software-cloud/docs/automation-conditions/)
 
+<kbd>Last updated: December 2025</kbd>

@@ -1,7 +1,7 @@
 ---
 
 title: Default repository feature
-description:
+description: Learn how to set default repositories for Jira projects when using the Create Branch and Create Pull Request features.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -62,4 +62,6 @@ Referring to the above example image, the selected default repository has a labe
 [**Prev:** Default branch feature](/git-integration-for-jira-cloud/default-branch-feature-gij-cloud)
 
 [**Next:** Personal access token feature](/git-integration-for-jira-cloud/personal-access-token-feature-gij-cloud)
+
+<kbd>Last updated: December 2025</kbd>
 

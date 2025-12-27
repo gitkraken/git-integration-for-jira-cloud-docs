@@ -1,7 +1,7 @@
 ---
 
 title: Personal access token feature
-description:
+description: Learn how to configure personal access tokens for git integrations in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -43,4 +43,6 @@ Click the **New token** label to generate a new personal access token via the gi
 [**Prev:** Default repository feature](/git-integration-for-jira-cloud/default-repository-feature-gij-cloud)
 
 [**Back to:** User settings (index)](/git-integration-for-jira-cloud/user-settings-gij-cloud)
+
+<kbd>Last updated: December 2025</kbd>
 

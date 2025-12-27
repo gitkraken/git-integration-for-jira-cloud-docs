@@ -1,7 +1,7 @@
 ---
 
 title: General Settings
-description:
+description: Configure Git Integration for Jira Cloud general settings including development panel options, branch naming, and integration features.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -611,4 +611,6 @@ After all the settings have been configured according to your requirements, clic
 ## Related articles
 
 [General settings for administrators](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud) (Git Integration for Jira Cloud)
+
+<kbd>Last updated: December 2025</kbd>
 

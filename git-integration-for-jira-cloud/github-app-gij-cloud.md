@@ -155,3 +155,4 @@ The GitHub App is created automatically by the Git Integration for Jira app. For
 
 See the [Features section](/git-integration-for-jira-cloud/features-gij-cloud) to learn more about Git Integration for Jira app features.
 
+<kbd>Last updated: December 2025</kbd>

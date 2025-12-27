@@ -1,7 +1,7 @@
 ---
 
 title: Connected apps
-description:
+description: Learn how to enable or disable GitKraken integration and deep linking features in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -29,3 +29,4 @@ When enabled, this feature adds the deep linking feature to open commits, branch
 
 [**Next:** Default branch feature](/git-integration-for-jira-cloud/default-branch-feature-gij-cloud)
 
+<kbd>Last updated: December 2025</kbd>

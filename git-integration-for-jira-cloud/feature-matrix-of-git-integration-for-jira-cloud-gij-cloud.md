@@ -1,7 +1,7 @@
 ---
 
 title: Feature matrix of Git Integration for Jira Cloud
-description:
+description: Compare features available across different integration types including git service integrations, single repositories, and webhook indexing.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -60,5 +60,5 @@ The [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984
     </div>
     </div>
 </div>
-<br>
 
+<kbd>Last updated: December 2025</kbd>

@@ -1,7 +1,7 @@
 ---
 
 title: Git Roll Up Issue Tab (Features)
-description:
+description: Learn how to use the Git Roll Up Issue Tab to view commit summaries, file changes, and developer activity in Jira issues.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -127,3 +127,4 @@ Some notable sections:
 
 [General Settings](/git-integration-for-jira-cloud/general-settings-gij-cloud) (Git Integration for Jira Cloud)
 
+<kbd>Last updated: December 2025</kbd>

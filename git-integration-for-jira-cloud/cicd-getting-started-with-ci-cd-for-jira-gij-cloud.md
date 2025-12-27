@@ -1,7 +1,7 @@
 ---
 
 title: CI/CD for Jira Cloud
-description:
+description: Learn how to use CI/CD for Jira Cloud to connect your DevOps pipelines with Jira's builds and deployments features.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -198,4 +198,6 @@ Git Integration for Jira supports triggers for branches, commits, and pull reque
 
 
 To create new rules, go to Project settings ➜ Automation ➜ **Create Rule**. For more information on setting up Automation for Jira rules, visit the [Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud/) article.
+
+<kbd>Last updated: December 2025</kbd>
 
