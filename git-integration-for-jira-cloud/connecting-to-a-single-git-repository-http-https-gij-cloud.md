@@ -1,7 +1,7 @@
 ---
 
 title: Connecting to a Single Git Repository
-description:
+description: Learn how to connect a single git repository to Jira Cloud using HTTP/HTTPS or SSH protocols with Git Integration for Jira.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -109,4 +109,8 @@ You may configure repository settings for this integration via:
 [**Prev:** Introduction to Git integration](/git-integration-for-jira-cloud/introduction-to-git-integration-gij-cloud)
 
 [**Next:** Setting up weblinks](/git-integration-for-jira-cloud/setting-up-web-links-gij-cloud)
+
+<br>
+
+<kbd>Last updated: December 2025</kbd>
 

@@ -1,7 +1,7 @@
 ---
 
 title: Azure DevOps Server | Team Foundation Services (TFS)
-description:
+description: Learn how to integrate Azure DevOps Server and Team Foundation Services (TFS) git repositories with Jira Cloud using Git Integration for Jira.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -463,4 +463,8 @@ Once approved, the team leader or reviewer can then complete the merge. The com
 [Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud) (Git Integration for Jira Cloud)
 
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
+
+<br>
+
+<kbd>Last updated: December 2025</kbd>
 

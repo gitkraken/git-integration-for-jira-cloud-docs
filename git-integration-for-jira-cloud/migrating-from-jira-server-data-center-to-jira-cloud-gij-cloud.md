@@ -1,7 +1,7 @@
 ---
 
 title: Migrating from Jira Server + Data Center to Jira Cloud
-description:
+description: Step-by-step guide for migrating Git Integration for Jira from Server or Data Center to Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -122,4 +122,8 @@ Currently there are not automatic steps to migrate from Jira Server + Data Cente
 </div>
 
 &nbsp;
+
+<br>
+
+<kbd>Last updated: December 2025</kbd>
 

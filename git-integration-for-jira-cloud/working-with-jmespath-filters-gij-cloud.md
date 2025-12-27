@@ -1,7 +1,7 @@
 ---
 
 title: Working with JMESPath Filters
-description:
+description: Learn how to use JMESPath query language to filter API results and control which repositories are integrated with Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -48,4 +48,8 @@ There are two ways to access the JMESPath settings in Git Integration for Jira C
 *   [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/git-integration-for-jira-cloud/microsoft-vsts-tfs-azure-repos-jmespath-filter-examples-gij-cloud)
 
 *   [Bitbucket JMESPath filter examples](/git-integration-for-jira-cloud/bitbucket-jmespath-filter-examples-gij-cloud)
+
+<br>
+
+<kbd>Last updated: December 2025</kbd>
 

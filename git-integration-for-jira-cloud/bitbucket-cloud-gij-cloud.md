@@ -1,7 +1,7 @@
 ---
 
 title: Bitbucket Cloud
-description:
+description: Learn how to integrate Bitbucket Cloud git repositories with Jira Cloud using Git Integration for Jira.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -294,4 +294,8 @@ Access the **Create branch** and **Create pull/merge request** features in t
 **Bitbucket Cloud** (this page)
 
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
+
+<br>
+
+<kbd>Last updated: December 2025</kbd>
 
