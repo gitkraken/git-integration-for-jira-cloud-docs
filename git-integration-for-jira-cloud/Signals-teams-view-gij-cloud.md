@@ -1,7 +1,7 @@
 ---
 
 title: Signals Teams View
-description:
+description: Learn how to use the Teams View in Signals to monitor team member activities, track assignments, and view individual progress.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -155,3 +155,5 @@ With all the selection of filters and search options in place, click **Search** 
 [Backlog View](/git-integration-for-jira-cloud/Signals-backlog-view-gij-cloud)
 
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)
+
+<kbd>Last updated: December 2025</kbd>

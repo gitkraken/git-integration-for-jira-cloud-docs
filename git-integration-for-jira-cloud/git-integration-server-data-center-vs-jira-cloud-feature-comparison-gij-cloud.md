@@ -1,7 +1,7 @@
 ---
 
 title: Git Integration Server/Data Center vs Jira Cloud - Feature Comparison
-description:
+description: Compare features between Git Integration for Jira Server/Data Center and Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -560,7 +560,8 @@ Git Integration for Jira Data Center</th>
         <b>Git Integration for Jira Cloud</b><br>
         There is no setting to disable this feature.
     </div>
-    </div>
+</div>
 </div>
 <br>
 
+<kbd>Last updated: December 2025</kbd>

@@ -1,13 +1,13 @@
 ---
 
 title: Using the Webhook indexing integration wizard
-description:
+description: How to use the Webhook indexing integration wizard
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
-Webhook indexing integration allows your connected git servers to work behind a firewall. This is its main aspect. However, the downside is that your integration will have limited features (such as no branch and pull/merge request creation).
+Webhook indexing integration allows your connected git servers to work behind a firewall. However, this integration type has limited features, such as no branch and pull/merge request creation.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -15,7 +15,7 @@ Webhook indexing integration allows your connected git servers to work behind a 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Currently, supported Git host services are GitHub, GitLab, Microsoft, and Gerrit.
+        Currently supported Git host services are GitHub, GitLab, Microsoft, and Gerrit.
     </div>
     </div>
 </div>
@@ -24,15 +24,15 @@ Webhook indexing integration allows your connected git servers to work behind a 
 
 ## Step 1
 
-On the Manage integration page, click **Add integration** then click on a supported Git service from the list.
+On the Manage integration page, click **Add integration**, then click a supported Git service from the list.
 
-<img src='/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 ## Step 2
 
-Click on the **Webhook indexing** integration type then click **Add integration** to proceed.
+Click the **Webhook indexing** integration type, then click **Add integration** to proceed.
 
-<img src='/wp-content/uploads/gij-gitcloud-add-new-integration-type-webhook-indexing.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-add-new-integration-type-webhook-indexing-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
 ## Step 3
 
@@ -42,15 +42,15 @@ Click on the **Webhook indexing** integration type then click **Add integration*
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Don’t click <b>Finish</b> yet!<br>
-        Setup webhooks to your git host service using the information provided from this screen.
+        Don't click <b>Finish</b> yet!<br>
+        Set up webhooks in your git host service using the information provided on this screen.
     </div>
     </div>
 </div>
 
-<img src='/wp-content/uploads/gij-gitcloud-webhook-indexing-data-sample-info.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
+<img src='/wp-content/uploads/gij-gitcloud-webhook-indexing-data-sample-info-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
-Refer to the links under the **Instructions** section to provide you guidance while using generated information from the Webhook indexing integration screen (**Webhook URL** and **Secret key**). This is because [indexing triggers](/git-integration-for-jira-cloud/indexing-triggers-formerly-webhooks-gij-cloud/) and webhook indexing integration have different pipelines. However, the webhook events triggered by this integration also appears in the indexing triggers log (Git integration sidebar ➜ Indexing triggers ➜ **Indexing triggers log**).
+Refer to the links under the **Instructions** section for guidance while using generated information from the Webhook indexing integration screen (**Webhook URL** and **Secret key**). Note that [indexing triggers](/git-integration-for-jira-cloud/indexing-triggers-formerly-webhooks-gij-cloud/) and webhook indexing integration have different pipelines. However, webhook events triggered by this integration also appear in the indexing triggers log (Git integration sidebar ➜ Indexing triggers ➜ **Indexing triggers log**).
 
 For detailed information on this integration type, see [Webhook indexing integration guide](/git-integration-for-jira-cloud/webhook-indexing-integration-gij-cloud/).
 
@@ -63,7 +63,7 @@ For detailed information on this integration type, see [Webhook indexing integra
 
 &nbsp;
 
-## Related topics about setting up integration
+## Related Topics About Setting Up Integration
 
 [Git integration configuration page](/git-integration-for-jira-cloud/git-integration-configuration-page-gij-cloud/) (Git Integration for Jira Cloud)
 
@@ -73,3 +73,6 @@ For detailed information on this integration type, see [Webhook indexing integra
 
 [Using the Git service integration wizard](/git-integration-for-jira-cloud/using-the-git-service-integration-wizard-gij-cloud/) (Git Integration for Jira Cloud)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

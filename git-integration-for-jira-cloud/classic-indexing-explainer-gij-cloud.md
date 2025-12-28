@@ -1,7 +1,7 @@
 ---
 
 title: Classic Indexing Explainer
-description:
+description: Learn how Git Integration for Jira Cloud indexes commits, branches, tags, and pull requests using classic indexing.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -28,9 +28,9 @@ taxonomy:
 * * *
 &nbsp;
 
-The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app automatically indexes commits, branches, tags, and pull/merge requests. Previously, all repositories and integrations were updated on a strict schedule – which is approximately every 8 minutes after the last indexing process has finished for an account. This worked for small accounts and provided consistency but was inefficient with large accounts (many with repositories that rarely change).
+The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app automatically indexes commits, branches, tags, and pull/merge requests. Previously, the system updated all repositories and integrations on a strict schedule – approximately every 8 minutes after the last indexing process finished for an account. This worked for small accounts and provided consistency but was inefficient for large accounts with repositories that rarely change.
 
-Starting on October 28, 2019, indexing is now calculated based on per repository activity. The overall goals are to reduce the strain on git services and make the indexing service more available for the webhook triggers.
+Starting on October 28, 2019, the system calculates indexing based on per-repository activity. The overall goals are to reduce the strain on git services and make the indexing service more available for webhook triggers.
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -39,7 +39,7 @@ Starting on October 28, 2019, indexing is now calculated based on per repository
     </div>
     <div class="imsgbox">
         <b>Note</b><br>
-        Pull/merge requests are only indexed for repositories connected using the Full feature integrations panel in <b>Manage Git Repositories</b>. They can be accessed via the Jira Developer Panel on the right sidebar of a Jira issue. Git repositories added individually via SSH or HTTPS credentials will not show pull/merge requests.
+        The system only indexes pull/merge requests for repositories connected using the Full feature integrations panel in <b>Manage Git Repositories</b>. You can access them via the Jira Developer Panel on the right sidebar of a Jira issue. Git repositories added individually via SSH or HTTPS credentials do not show pull/merge requests.
     </div>
     </div>
 </div>
@@ -48,7 +48,7 @@ Starting on October 28, 2019, indexing is now calculated based on per repository
 
 ## How is git data indexed?
 
-Git Integration for Jira Cloud indexes a variety of Git and Git related data once connected by a Jira administrator. The table below describes how each data type is accessed. All data is stored until a Jira administrator removes the integration or the subscription is cancelled or expires.
+Git Integration for Jira Cloud indexes a variety of Git and Git-related data once a Jira administrator connects it. The table below describes how the system accesses each data type. All data remains stored until a Jira administrator removes the integration or the subscription is cancelled or expires.
 
 See our [Privacy Policy](https://www.gitkraken.com/privacy-gij) and [Data Deletion Policy](https://bigbrassband.com/security-and-trust.html).
 
@@ -71,36 +71,36 @@ See our [Privacy Policy](https://www.gitkraken.com/privacy-gij) and [Data Deleti
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Indexing is not run on disabled integrations/repositories.
+        The system does not run indexing on disabled integrations/repositories.
     </div>
     </div>
 </div>
 
 ### Indexing repositories
 
-An internal process runs approximately every 8 minutes to review repositories eligible to be checked for changes. All repositories are checked for changes at least once daily. A repository change (commit, branch, tag) will cause the _Next repository check_ to be calculated next: in a quarter of the time since the last repository update was detected.
+An internal process runs approximately every 8 minutes to review repositories eligible for change checking. The system checks all repositories for changes at least once daily. A repository change (commit, branch, tag) causes the system to calculate the _Next repository check_ as: a quarter of the time since the last repository update was detected.
 
-For example, if the last commit was detected 4 hours ago then the _Next repository check_ will be scheduled in 1 hour.
+For example, if the last commit was detected 4 hours ago, the system schedules the _Next repository check_ in 1 hour.
 
-The time for _Next repository check_ are re-calculated on each indexer check.
+The system recalculates _Next repository check_ times on each indexer check.
 
 ### Indexing integrations
 
-An internal process runs approximately every 8 minutes to review integrations eligible to be checked for changes. Integrations (for example, GitLab, GitHub, etc) are checked during each _Next indexer check_ via the git service's API for available repositories. 
+An internal process runs approximately every 8 minutes to review integrations eligible for change checking. The system checks integrations (for example, GitLab, GitHub, etc) during each _Next indexer check_ via the git service's API for available repositories.
 
-All repositories are checked for changes at least once daily. A repository change (commit, branch, tag) will cause the _Next repository check_ to be calculated next: in a quarter of the time since the last repository update was detected.
+The system checks all repositories for changes at least once daily. A repository change (commit, branch, tag) causes the system to calculate the _Next repository check_ as: a quarter of the time since the last repository update was detected.
 
-For example, if the last commit was detected 4 hours ago then the _Next repository check_ will be scheduled in 1 hour.
+For example, if the last commit was detected 4 hours ago, the system schedules the _Next repository check_ in 1 hour.
 
-_Next repository check_ times are re-calculated on each indexer check.
+The system recalculates _Next repository check_ times on each indexer check.
 
 ### Triggering automatic reindexes via webhooks
 
-Automatic indexing is designed to record changes in a timely manner for all types of repositories, but ideally, changes should be indexed immediately. Configuring webhooks to trigger automatic reindexing will result in immediate reindex times.
+Automatic indexing records changes in a timely manner for all types of repositories, but ideally, changes should be indexed immediately. Configure webhooks to trigger automatic reindexing for immediate reindex times.
 
-When webhooks are received by the indexing service, the indexing service will reduce the automatic indexing to once - hourly.
+When the indexing service receives webhooks, it reduces automatic indexing to once hourly.
 
-For more information on configuring webhooks, see: [Indexing triggers](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud).
+For more information on configuring webhooks, see: [Indexing triggers](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud).
 
 ### Automatic indexing period limits
 
@@ -118,7 +118,7 @@ The table below describes the automatic indexing period limits:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If the indexing has been requested by a user or a webhook, it will be executed immediately – regardless of any skipping settings.
+        If a user or webhook requests indexing, the system executes it immediately – regardless of any skipping settings.
     </div>
     </div>
 </div>
@@ -143,32 +143,32 @@ The table below describes the automatic indexing period limits:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Indexing is not run on disabled integrations/repositories.
+        The system does not run indexing on disabled integrations/repositories.
     </div>
     </div>
 </div>
 
 ### Reindex all
 
-All repositories and integrations can be updated manually via the Manage Git repositories screen by selecting the **Reindex All** button:
+You can update all repositories and integrations manually via the Manage Git repositories screen by selecting the **Reindex All** button:
 
-![Git Cloud manage git repositories page highlighting Reindex All](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-02.png)
+![Git Cloud manage git repositories page highlighting Reindex All](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-02-2025.png)
 
 <br>
 
 ### Repositories
 
-Repositories can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex repository**:
+You can update repositories manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex repository**:
 
-![Git Cloud manage git repositories page highlighting Reindex repository action](/wp-content/uploads/gij-gitcloud-gitmgr-actions-reindex-repo.png)
+![Git Cloud manage git repositories page highlighting Reindex repository action](/wp-content/uploads/gij-gitcloud-gitmgr-actions-reindex-repo-2025.png)
 
 <br>
 
 ### Integrations
 
-Integrations can be updated manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex integration**:
+You can update integrations manually via the Manage git repositories screen by opening the <img src='/wp-content/uploads/actions-icon.png' /> Actions menu and selecting **Reindex integration**:
 
-![Git Cloud manage git repositories page highlighting Reindex integration action](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-01.png)
+![Git Cloud manage git repositories page highlighting Reindex integration action](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-01-2025.png)
 
 <br>
 
@@ -176,37 +176,11 @@ Integrations can be updated manually via the Manage git repositories screen by o
 
 | Status | Description |
 | :--- | :--- |
-| <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXED</b> | Integration or repository has been indexed and no errors were detected. |
-| <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>QUEUED</b> | Integration or repository is actively queued for indexing. |
-| <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXING</b> | Indexer is actively checking integration or repository for changes. |
-| <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> | Integration has at least one repository in an error state (and not updating) and at least one repository was successfully updated. |
-| <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> | Integration or all repositories are in an error state and are not updating. |
-
-<!--
-## Indexing definitions
-
-The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app now has new indexing date/times to indicate the variety of repository checks:
-
-![Show tracked repos action dialog showcasing indexing definitions](/wp-content/uploads/gij-gitcloud-indexing-defs.png)
-
-<br>
-
-### Definitions
-
-| Information Label | Description |
-| :--- | :--- |
-| _Last indexer check_ | Date and time the indexing service has checked if the repository should be examined for changes. |
-| _Next indexer check_ | Date and time the indexing service will next check if the repository should be examined for changes (commits, tags, branches) |
-| _Last repository check_ | Date and time the indexing service has last checked the repository for changes (commits, tags, branches) |
-| _Last repository change_ | Date and time the indexing service last detected a change (commits, tags, branches) in the repository. This time is accurate only as of the release of the new indexing service on October 27, 2019 or when the repository was first integrated with Git Integration for Jira Cloud. |
-| _Next repository check_ | Date and time the indexing service will check the repository for changes (commits, tags, branches). |
-| _Commit webhooks detected_ | Indexing service has received a commit webhook trigger for this repository. Thus, automatic indexing for this repository is reduced to once daily. |
-| _Last pull request check_ | Date and time the indexing service last checked the repository for pull request changes (new pull/merge requests or status changes). |
-| _Last pull request change_ | Date and time the indexing service last detected a change (new pull/merge requests or status changes) in the repository. This time is accurate only as of the release of the new indexing service on October 27, 2019. |
-| _Next pull request check_ | Date and time the indexing service will check repository for new pull/merge requests or status changes. |
-| _Pull request webhooks detected_ | Indexing service has received a pull/merge request webhook trigger for this repository. Thus, automatic indexing for this repository is reduced to once hourly. |
-
--->
+| <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXED</b> | The integration or repository has been indexed and no errors were detected. |
+| <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>QUEUED</b> | The integration or repository is actively queued for indexing. |
+| <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXING</b> | The indexer is actively checking the integration or repository for changes. |
+| <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> | The integration has at least one repository in an error state (and not updating) and at least one repository was successfully updated. |
+| <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> | The integration or all repositories are in an error state and are not updating. |
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -231,7 +205,7 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/g
     </div>
     <div class="imsgbox">
         <b>Indexing Errors</b><br>
-        A notification about indexing error is displayed in the Git Commits tab so that Jira administrators can be alerted immediately.
+        A notification about indexing errors appears in the Git Commits tab so Jira administrators receive immediate alerts.
     </div>
     </div>
 </div>
@@ -242,7 +216,7 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/g
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you still have a question – reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'><b>Support Desk</b> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
+        If you still have a question, reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'><b>Support Desk</b></a> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
     </div>
     </div>
 </div>
@@ -252,3 +226,4 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/g
 
 Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
 
+<kbd>Last updated: December 2025</kbd>

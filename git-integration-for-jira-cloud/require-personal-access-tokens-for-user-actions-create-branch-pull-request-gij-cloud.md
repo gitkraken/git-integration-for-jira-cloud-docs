@@ -18,7 +18,7 @@ taxonomy:
 
 The Git Integration for Jira app allows users of integrations (_such as GitLab, GitHub and etc._) to create branches and pull requests from within the Jira issue. By default, the operation will be performed by the integration user that is used for indexing.
 
-![](/wp-content/uploads/gij-jira-server-create-branch-example-01.png)
+![](/wp-content/uploads/gij-jira-cloud-create-branch-example-01-2025.png)
 
 ## Objective
 
@@ -55,11 +55,11 @@ To enable/disable the _**Require User PAT**_ setting for all repositories with
 
 2.  Add a new integration or edit existing integration's feature settings.
 
-    ![](/wp-content/uploads/gij-req-pat-gitmgr-actions-edit-git-settings.png)
+    ![](/wp-content/uploads/gij-req-pat-gitmgr-actions-edit-git-settings-2025.png)
 
 3.  Locate the **Require User PAT** setting.
 
-    ![](/wp-content/uploads/gij-req-pat-gitmgr-page-actions-control-cfg.png)
+    ![](/wp-content/uploads/gij-req-pat-gitmgr-page-actions-control-cfg-2025.png)
 
 4.  Tick the box to enable the requiring of user PAT.
 
@@ -70,18 +70,18 @@ To enable/disable the _**Require User PAT**_ setting for all repositories with
 
 1.  Once the Jira administrator requires Personal Access Tokens, your Jira users will be presented with a message that setup is required.
 
-    ![](/wp-content/uploads/gij-req-pat-create-branch-dlg-setup-your-pat.png)
+    ![](/wp-content/uploads/gij-req-pat-create-branch-dlg-setup-your-pat-2025.png)
 
 2.  Following that link - the user is taken to a prompt on the **User settings** screen to enter Personal Access Token (PAT) for the service (GitHub, GitLab, etc).
     See [Instructions: Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
 
-    ![](/wp-content/uploads/gij-req-pat-seruo-pat-dlg.png)
+    ![](/wp-content/uploads/gij-req-pat-seruo-pat-dlg-2025.png)
 
     If you don't have a token or your existing PAT has expired, click the **New token** label link to start generating a new PAT.
 
 3.  With the Personal Access Token saved - the user will now see the following:
 
-    ![](/wp-content/uploads/gij-req-pat-create-branch-dlg-after-pat-is-setup.png)
+    ![](/wp-content/uploads/gij-req-pat-create-branch-dlg-after-pat-is-setup-2025.png)
 
 PATs were introduced with TFS 2017 and newer.  TFS 2013 and TFS 2015 do not support PATs.  If the repository setting **Require User PAT** property is set to `ON`, the users will not be able to create/delete branches and pull requests.
 

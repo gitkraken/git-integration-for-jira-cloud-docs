@@ -1,7 +1,7 @@
 ---
 
 title: Signals Backlog View
-description:
+description: Learn how to use the Backlog View in Signals to track sprint progress, identify work risks, and manage backlog priorities.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -257,4 +257,4 @@ Click on the following column headers to toggle ascending or descending sorting 
 
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud/)
 
-
+<kbd>Last updated: December 2025</kbd>

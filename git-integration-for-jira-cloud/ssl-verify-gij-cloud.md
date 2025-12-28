@@ -1,13 +1,13 @@
 ---
 
 title: SSL verify
-description:
+description: How to configure SSL verification for Git integrations
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
-This feature can be accessed at the following locations on the Manage Git repositories page:
+Access this feature at the following locations on the Manage Git repositories page:
 
 <ul style='line-height:2;'>
     <li>
@@ -16,11 +16,12 @@ This feature can be accessed at the following locations on the Manage Git reposi
     <li>
         <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>EXISTING REPOSITORY</b> <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository</b>.
     </li>
-    <li><b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 0 0 5px; font-size: small;'>EXISTING INTEGRATION</b> <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>EXISTING REPOSITORY</b> Under <b>Integration/Repository</b> _column_ ➜ click an integration or repository URL name.
+    <li><b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 0 0 5px; font-size: small;'>EXISTING INTEGRATION</b> <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>EXISTING REPOSITORY</b> Under the <b>Integration/Repository</b> column ➜ click an integration or repository URL name.
     </li>
 </ul>
 
-If this setting is not displayed, it means that the git host service does not support this feature. For example, SSL Verify is not available for git services such as:
+If this setting is not displayed, the git host service does not support this feature. For example, SSL Verify is not available for git services such as:
+
 *   GitHub.com
 *   GitLab.com
 *   Azure/VSTS
@@ -28,15 +29,16 @@ If this setting is not displayed, it means that the git host service does not su
 *   Bitbucket.org
 
 SSL Verify is available for the following integrations:
+
 *   GitHub Enterprise
 *   GitLab CE/EE
 *   Azure DevOps Server/TFS
 *   Gerrit
 *   Plain git repository
 
-The **SSL Verify** option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira Cloud app will ignore verification of SSL certificates when connecting to a git server. This is useful for private Git servers that has custom SSL certificates.
+The **SSL Verify** option is set to `Enabled` by default. If set to `Disabled`, Git Integration for Jira Cloud ignores verification of SSL certificates when connecting to a git server. This is useful for private Git servers that have custom SSL certificates.
 
-<img src='/wp-content/uploads/gij-gitcloud-edit-repo-cfg-ssl-verify.png' style='margin:25px auto;max-width:100%;dispay:block;' />
+<img src='/wp-content/uploads/gij-gitcloud-edit-repo-cfg-ssl-verify.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -44,7 +46,7 @@ The **SSL Verify** option is set to `Enabled` by default. If set to `Disabl
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The <b>SSL Verify</b> setting is available in Jira Server, Data Center and Jira Cloud. This option is not available for non-fetched repositories.
+        The <b>SSL Verify</b> setting is available in Jira Server, Data Center, and Jira Cloud. This option is not available for non-fetched repositories.
     </div>
     </div>
 </div>
@@ -54,11 +56,11 @@ The **SSL Verify** option is set to `Enabled` by default. If set to `Disabl
 
 [**Prev:** Edit nested repository settings](/git-integration-for-jira-cloud/edit-nested-repository-settings-gij-cloud/)
 
-[**Next:** View repository indexing logs](/git-integratin-for-jira-cloud/view-repository-indexing-logs-gij-cloud)
+[**Next:** View repository indexing logs](/git-integration-for-jira-cloud/view-repository-indexing-logs-gij-cloud)
 
 &nbsp;
 
-### More related topics about managing repository/integration configuration
+### More Related Topics About Managing Repository/Integration Configuration
 
 [Managing integration or repository configuration](/git-integration-for-jira-cloud/managing-integration-or-repository-configuration-gij-cloud/) (Git Integration for Jira Cloud)
 
@@ -80,3 +82,6 @@ The **SSL Verify** option is set to `Enabled` by default. If set to `Disabl
 
 [Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/) (Git Integration for Jira Cloud)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

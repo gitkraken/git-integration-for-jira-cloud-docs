@@ -1,7 +1,7 @@
 ---
 
 title: GitHub Enterprise Server
-description:
+description: How to integrate GitHub Enterprise Server repositories with Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -74,15 +74,6 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
 <br>
 <br>
 
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/vfwwqnn3mm?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px;margin-bottom:40px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/vfwwqnn3mm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-<br>
-
 ## Creating a personal access token
 
 <div class="bbb-callout bbb--alert">
@@ -105,21 +96,23 @@ This process requires an existing GitHub Enterprise Server account. 
 
 We recommend using the **Git service integration** panel to connect multiple repositories from your GitHub Enterprise Server account.
 
-1.  On your Jira dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
+
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
 2.  On the Manage integrations page, click **Add integration**.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **GitHub Enterprise Server** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-ghe-sel.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-ghe-sel-2025.png)
 
 4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-ghe-pat.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-ghe-pat-2025.png)
 
 5.  For this guide, click on the **PAT GitHub Server** to select it.
 
@@ -447,4 +440,8 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 [Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-gij-cloud) (Git Integration for Jira Cloud)
 
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
+
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
 

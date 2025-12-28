@@ -1,7 +1,7 @@
 ---
 
 title: Bitbucket Cloud
-description:
+description: Learn how to integrate Bitbucket Cloud git repositories with Jira Cloud using Git Integration for Jira.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -54,21 +54,22 @@ Set Bitbucket Cloud permissions according to your organization's rules. Viewing
 
 We recommend using the Git service integration setup to connect multiple repositories from your Bitbucket Cloud account.
 
-1.  On your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
-2.  On the Manage integrations page, click **Add integration.**
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+2.  On the Manage integrations page, click **Add integration**.
+
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **Bitbucket.org** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-bitbucket.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-bitbucket-2025.png)
 
 4.  The following screen is displayed.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-bitbucket-connect.png)    
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-bitbucket-connect-2025.png)    
 
     *   Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
 
@@ -268,7 +269,7 @@ The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your GitHub web portal.
 
-Access the **Create branch** and **Create pull/merge request** features in the Jira issue developer panel. For more information, see [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud).
+Access the **Create branch** and **Create pull/merge request** features in the Jira issue developer panel. For more information, see [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel).
 
 &nbsp;
 
@@ -293,4 +294,8 @@ Access the **Create branch** and **Create pull/merge request** features in t
 **Bitbucket Cloud** (this page)
 
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
+
+<br>
+
+<kbd>Last updated: December 2025</kbd>
 

@@ -38,11 +38,6 @@ taxonomy:
 </div>
 
 &nbsp;
-
-### Video Guide
-
-For a step-by-step setup guide, watch the following demonstration video:
-
 #### Project Level
 
 <div class='embed-container embed-container--16-9'>
@@ -57,21 +52,23 @@ For a step-by-step setup guide, watch the following demonstration video:
 
 The steps outlined below requires that [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app is already installed on your Jira Cloud instance. Otherwise, install the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app first from the Atlassian Marketplace.
 
-1.  On your Jira Cloud dashboard, go to Apps ➜ **Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
+
 
 2.  On the Manage integrations page, click **Add integration**.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
+
 
 3.  For the following screen, click **Visual Studio Team Services (VSTS)** to start integration with this git service. If you're using **Azure DevOps Repos**, choose that instead.
 
-    ![](/wp-content/uploads/https://help.gitkraken.com/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-vsts.png)
+    ![](/wp-content/uploads/https://help.gitkraken.com/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-vsts-2025.png)
 
 4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gij-gitcloud-managed-ui-webhook-idx-ms-vsts.png)
+    ![](/wp-content/uploads/gij-gij-gitcloud-managed-ui-webhook-idx-ms-vsts-2025.png)
 
 5.  For this guide, click on the **Webhook indexing** panel to select it.
 
@@ -79,7 +76,7 @@ The steps outlined below requires that [Git Integration for Jira](https://market
 
 6.  Click **Add integration** to proceed. The screen below shows the webhook indexing settings for use with the Microsoft Azure Repos / VSTS / TFS git service webhook setup. This also adds the current webhook indexing integration to the manage integration list.
 
-    ![](/wp-content/uploads/gij-gitcloud-webhook-indexing-github-settings.png)
+    ![](/wp-content/uploads/gij-gitcloud-webhook-indexing-azure-settings-2025.png)
 
 7.  ![](/wp-content/uploads/bbb-alert-20.png) Before clicking **Finish**, make sure to configure webhook for your git service. Use the **Webhook URL** and the **Secret key** then **follow the steps below** for repository level or organization level webhook setup.
 
@@ -291,7 +288,7 @@ The Repository Browser allows users to view commits in git repositories by branc
 
 *   Click a git repository on the **View all repositories** page to start from here.
 
-![](/wp-content/uploads/gij-gitcloud-wh-idx-repo-browser-sel.png)
+![](/wp-content/uploads/gij-gitcloud-wh-idx-repo-browser-sel-2025.png)
 
 #### ![](/wp-content/uploads/gij-error.png) Create branches and pull requests in Jira
 

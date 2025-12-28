@@ -1,7 +1,7 @@
 ---
 
 title: Azure DevOps | Visual Studio Team Services (VSTS)
-description:
+description: Learn how to integrate Azure DevOps and Visual Studio Team Services (VSTS) git repositories with Jira Cloud using Git Integration for Jira.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -53,14 +53,6 @@ The Git Integration for Jira app supports Azure Repos.
 &nbsp;
 * * *
 &nbsp;
-
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/n840jfrer4?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:15px; margin-bottom:30px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/n840jfrer4'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
 
 &nbsp;
 
@@ -128,21 +120,22 @@ This process requires an existing Microsoft account with Azure DevOps/VSTS **gi
 
 We recommend using the Git service integration panel to connect multiple repositories from your Azure DevOps/VSTS account.
 
-1.  On the Jira Cloud dashboard menu, go to **Apps ➜ Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
-2.  On the Manage integrations page, click **Add integration.**
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+2.  On the Manage integrations page, click **Add integration**.
+
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **Visual Studio Team Services (VSTS)** to start integration with this git service. If you're using Azure Repos, choose that instead.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-vsts.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-vsts-2025.png)
 
 4.  The following screen is displayed.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-gitlab-integration-oauth-vsts-sel.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-gitlab-integration-oauth-vsts-sel-2025.png)
 
     *   We recommend the PAT integration for this git service. This uses personal access tokens to setup Azure/VSTS integrations. Users will have to configure their own PAT from Azure/VSTS to use for this setup.
 
@@ -191,21 +184,22 @@ This process requires an existing Microsoft account with Azure DevOps/VSTS **gi
 
 We recommend using the Full feature integrations panel to connect multiple repositories from your Azure DevOps/VSTS account.
 
-1.  On the Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
-2.  On the Manage integrations page, click **Add integration.**
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+2.  On the Manage integrations page, click **Add integration**.
+
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **Visual Studio Team Services (VSTS)** to start integration with this git service. If you're using Azure Repos, choose that instead.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-vsts.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-vsts-2025.png)
 
 4.  For the following screen, click on the **PAT** integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-gitlab-integration-pat-vsts-sel.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-gitlab-integration-pat-vsts-sel-2025.png)
 
     *   Enter the personal access token on the provided box.
 
@@ -570,4 +564,8 @@ Not by itself, you need both [Git Integration for Jira Cloud app](https://market
 [Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-gij-cloud) (Git Integration for Jira Cloud)
 
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
+
+<br>
+
+<kbd>Last updated: December 2025</kbd>
 

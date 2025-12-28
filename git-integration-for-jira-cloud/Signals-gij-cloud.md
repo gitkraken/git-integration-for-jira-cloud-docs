@@ -1,7 +1,7 @@
 ---
 
 title: Signals - GIJ Advanced
-description:
+description: Learn how to use Signals (Team Insights for Jira) to monitor team activity, track sprint progress, and identify work risks in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -190,4 +190,4 @@ TIJ displays Jira activity for all Jira users. Git data such as branches, commit
 
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-tij-gij-cloud/)
 
-
+<kbd>Last updated: December 2025</kbd>

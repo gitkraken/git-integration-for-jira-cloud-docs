@@ -17,15 +17,15 @@ Jira administrators can grant certain users the **Trusted** role via invite and 
 
 On your Jira dashboard, go to ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ **User Management**.
 
-<img src='/wp-content/uploads/gij-gitcloud-jira-admin-user-mgr-menu-access.png' style='display:block;margin:25px auto 35px auto;max-width:100%' alt='Jira Cloud menu Administration accessing User Management' />
+<img src='/wp-content/uploads/gij-gitcloud-jira-admin-user-mgr-menu-access-2025.png' style='display:block;margin:25px auto 35px auto;max-width:100%' alt='Jira Cloud menu Administration accessing User Management' />
 
 On the following screen, click **Invite Users**.
 
-<img src='/wp-content/uploads/gij-gitcloud-jira-admin-user-mgr-invite.png' style='display:block;margin:25px auto 35px auto;max-width:100%' alt='Jira user management screen' />
+<img src='/wp-content/uploads/gij-gitcloud-jira-admin-user-mgr-invite-2025.png' style='display:block;margin:25px auto 35px auto;max-width:100%' alt='Jira user management screen' />
 
 The next screen is displayed.
 
-<img src='/wp-content/uploads/gij-gitcloud-jira-admin-invite-users.png' style='display:block;margin:25px auto 25px auto;max-width:100%' alt='Invite users screen selecting the Trusted role' />
+<img src='/wp-content/uploads/gij-gitcloud-jira-admin-invite-users-2025.png' style='display:block;margin:25px auto 25px auto;max-width:100%' alt='Invite users screen selecting the Trusted role' />
 
 *   Enter a user’s email address or several email addresses of the users to be assigned with the role.
 
@@ -39,12 +39,4 @@ Go to ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ **User M
 
 Scroll to the bottom of the page to find the list of users.
 
-<img src='/wp-content/uploads/gij-gitcloud-user-mgr-userlist.png' style='display:block;margin:25px auto 25px auto;max-width:100%' />
-
-Click **Show details** or click **…** then **Show details**. The next screen is displayed.
-
-<img src='/wp-content/uploads/gij-gitcloud-user-show-details-roles.png' style='display:block;margin:25px auto 35px auto;max-width:100%' />
-
-
-Click the Role dropdown then select **Trusted**. The role is automatically applied once granted.
-
+<img src='/wp-content/uploads/gij-gitcloud-user-mgr-userlist-2025.png' style='display:block;margin:25px auto 25px auto;max-width:100%' />

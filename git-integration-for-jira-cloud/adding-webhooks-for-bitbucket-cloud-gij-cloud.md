@@ -26,14 +26,6 @@ taxonomy:
 
 &nbsp;
 
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/7tt09xc1my?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:12px;margin-bottom:30px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/7tt09xc1my'><b>here</b></a> to open this video in a new browser tab for more viewing options. (While the above video showcases other integration, jump to <a href='https://bigbrassband.wistia.com/medias/7tt09xc1my?wtime=1m41s' target='_blank' title='Click to open in a new tab/window'><b>01:41</b></a> <br>to see Webhook setup for Bitbucket Cloud.)</i>
-</div>
-
 <div class="bbb-callout bbb--error">
     <div class="irow">
     <div class="ilogobox">
@@ -79,7 +71,7 @@ Configure webhook by logging in to your Bitbucket.
 
 3.  Switch to your Jira instance then navigate to **Manage Git repositories** page and then click **Indexing triggers** (_or alternatively go to Jira Settings ➜ Apps. On the sidebar, click Indexing triggers_).
 
-    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc.png)
+    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc-2025.png)
 
     Copy the complete secret key URL mentioned from the paragraph description below the **Secret key** box.
 

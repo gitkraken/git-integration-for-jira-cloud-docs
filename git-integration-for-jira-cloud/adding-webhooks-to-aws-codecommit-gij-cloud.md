@@ -91,7 +91,7 @@ Start by logging in to your AWS CodeCommit _admin_ or _poweruser_ account that h
 
 2.  On your Jira Cloud instance, go to Apps ➜ Git Integration: Manage integrations ➜ **Indexing triggers** and copy the **Webhook URL**.
 
-    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc.png)
+    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc-2025.png)
 
 3.  Switch back to your AWS web portal (_where you’re on the Create subscription page_) and paste this URL into the **Endpoint** field.
 

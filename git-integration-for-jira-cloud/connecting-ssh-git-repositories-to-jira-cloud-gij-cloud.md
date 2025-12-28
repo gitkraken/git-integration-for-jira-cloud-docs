@@ -1,7 +1,7 @@
 ---
 
 title: Connecting SSH Git Repositories to Jira Cloud
-description:
+description: Learn how to connect SSH git repositories to Jira Cloud, including SSH key generation and configuration.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -129,4 +129,8 @@ The connected repository is listed in the git configuration page.
     </div>
     </div>
 </div>
+
+<br>
+
+<kbd>Last updated: December 2025</kbd>
 

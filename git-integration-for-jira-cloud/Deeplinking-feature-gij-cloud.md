@@ -1,7 +1,7 @@
 ---
 
-title: Deep linking feature
-description:
+title: Deep Linking
+description: Learn how to use deep linking in Git Integration for Jira Cloud to open repositories, commits, branches, and tags in GitKraken or GitLens.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -10,19 +10,158 @@ taxonomy:
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
 <br>
 
-Deep linking allows you to quickly move between Jira and your Git source code.
+Deep linking allows you to move quickly between Jira and your Git source code.
 
-We've added the ability to deep link from repositories, commits, branches, and tags throughout the Git Integration for Jira app into the [GitKraken Git client](https://www.gitkraken.com) and [GitLens VS Code extension](https://www.gitkraken.com/gitlens).
+Git Integration for Jira supports deep linking from repositories, commits, branches, and tags into the [GitKraken Git client](https://www.gitkraken.com) and [GitLens VS Code extension](https://www.gitkraken.com/gitlens).
 
-![](/wp-content/uploads/gij-gitcloud-deeplinking-feature-example.png)
+![](/wp-content/uploads/gij-gitcloud-deeplinking-feature-example-2025.png)
 
-GitKraken supports deep linking into Git Integration for Jira as well. To learn more about this feature, see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
+GitKraken also supports deep linking into Git Integration for Jira. To learn more, see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
 
-GitLens 13.3 introduced deep linking support and Git Integration for Jira allows users to open commit, tags and repository links into GitLens. To learn more about this feature, see [GitLens Deep Linking support](https://help.gitkraken.com/gitlens/gitlens-release-notes-current/#deep-linking-support).
+GitLens 13.3 introduced deep linking support, allowing users to open commits, tags, and repository links in GitLens. To learn more, see [GitLens Deep Linking support](https://help.gitkraken.com/gitlens/gitlens-release-notes-current/#deep-linking-support).
 
-## See topics about deep linking integration
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>On this page:</b><br>
+        <ul style='margin-bottom:0px;'>
+            <li><a href='#deep-linking-to-the-gitkraken-client'>Deep Linking to the GitKraken Client</a></li>
+            <li><a href='#deep-linking-to-gitlens'>Deep Linking to GitLens</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
 
-[Deep Linking into GitKraken Git client](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client-gij-cloud/)
+&nbsp;
 
-[Deep Linking into GitLens VS Code extension](/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud/) <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b>
+* * *
 
+&nbsp;
+
+## Deep Linking to the GitKraken Client
+
+<img src='https://www.gitkraken.com/wp-content/uploads/2023/01/Group-812.svg' style='margin:30px auto 35px auto;' />
+
+[GitKraken Git Client](https://www.gitkraken.com/git-client/features) is a multi-platform application that integrates with Git repositories such as GitHub, GitLab, Bitbucket, Azure DevOps, Jira, and more. GitKraken helps developers visualize Git and save time with their development workflow. You can switch between a GUI or terminal, and the robust team features provide a seamless Git experience on Windows, Mac, or Linux.
+
+### GitKraken deep link access locations
+
+GitKraken deep links are accessible in the following locations:
+
+#### Jira issue – Git commits tab
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-issue-git-commits-2025.png' style='margin:25px auto;display:block;' alt='Shows the deeplink for GitKraken in the Commits panel in the Git Commits tab' />
+
+#### Jira issue Git developer panel – branches and tags lists
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-issue-branches-2025.png' style='margin:25px auto;display:block;' alt='Shows the deeplink for GitKraken in the Branches list on the Jira issue Git development panel' />
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-issue-tags-2025.png' style='margin:0 auto 25px auto;display:block;' alt='Shows the deeplink for GitKraken in the Tags list on the Jira issue Git development panel' />
+
+#### Repository browser – All repository table
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-repo-browser-actions-2025.png' style='margin:25px auto;display:block;' alt='Shows the deeplink for GitKraken in the Repository browser -- Repositories list' />
+
+#### Repository browser – Compare page (commit view)
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-repo-browser-compare-2025.png' style='margin:25px auto;display:block;' alt='Shows the deeplink for GitKraken in the Repository browser -- Compare page' />
+
+### GitKraken user settings
+
+Individual Jira Cloud users can enable or disable the GitKraken integration by visiting the Git Integration: User settings page.
+
+1. Go to the **Jira Profile** menu.
+
+2. Click **Git Integration: User settings**.
+
+3. Enable or disable the setting under the **Connected apps** section.
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-user-settings-2025-profile.png'  style='margin:25px auto;display:block;' alt='Access the GitKraken integration option to enable/disable the feature in the User settings (sidebar) of the Git Integration for Jira app' />
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-user-settings-2025.png'  style='margin:25px auto;display:block;' alt='Access the GitKraken integration option to enable/disable the feature in the User settings (sidebar) of the Git Integration for Jira app' />
+
+<br>
+
+### GitKraken administrator settings
+
+The GitKraken deep linking feature is enabled by default in the Git Integration for Jira app settings.
+
+Jira administrators can enable or disable this feature for all Jira users. Individual users can also enable the GitKraken integration separately (see [User settings](/git-integration-for-jira-cloud/user-settings-gij-cloud)).
+
+1. Go to the Git Integration for Jira – **General settings** tab (sidebar).
+
+2. Enable or disable this setting under **Jira Issue View Options**.
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-general-settings-2025.png'  style='margin:25px auto;display:block;' alt='Access the GitKraken integration option to enable/disable the feature in the General settings of the Git Integration for Jira app' />
+
+&nbsp;
+
+* * *
+
+&nbsp;
+
+## Deep Linking to GitLens
+
+<img src='https://www.gitkraken.com/wp-content/uploads/2023/01/Group-17491.svg' style='margin:30px auto 35px auto;' />
+
+[GitLens](https://www.gitkraken.com/gitlens) is a Visual Studio Code extension that supercharges Git inside VS Code. GitLens helps you visualize code, explore Git repositories, use powerful compare commands, and much more.
+
+Git Integration for Jira supports GitLens deep linking. You can open repositories, commits, tags, and branches in GitLens using the relevant access locations in Jira.
+
+### GitLens deep link access locations
+
+GitLens deep links are accessible in the following locations:
+
+#### Jira issue – Git commits tab
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitlens-issue-git-commits-2025.png' style='margin:25px auto;display:block;' alt='Shows the deeplink for GitLens in the Commits panel in the Git Commits tab' />
+
+#### Jira issue Git developer panel – branches and tags lists
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitlens-issue-branches-2025.png' style='margin:25px auto;display:block;' alt='Shows the deeplink for GitLens in the Branches list on the Jira issue Git development panel' />
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitlens-issue-tags-2025.png' style='margin:0 auto 25px auto;display:block;' alt='Shows the deeplink for GitLens in the Tags list on the Jira issue Git development panel' />
+
+#### Repository browser – All repository table
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitlens-repo-browser-actions-2025.png' style='margin:25px auto;display:block;' alt='Shows the deeplink for GitLens in the Repository browser -- Repositories list' />
+
+#### Repository browser – Commits page
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitlens-repo-browser-commit-2025.png' style='margin:25px auto;display:block;' alt='Shows the deeplink for GitLens in the Repository browser -- Commits page' />
+
+#### Repository browser – Compare page (commit view)
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitlens-repo-browser-compare-2025.png' style='margin:25px auto;display:block;' alt='Shows the deeplink for GitLens in the Repository browser -- Compare page' />
+
+### GitLens user settings
+
+Individual Jira Cloud users can enable or disable the GitLens integration by visiting the Git Integration: User settings page.
+
+1. Go to the **Jira Profile** menu.
+
+2. Click **Git Integration: User settings**.
+
+3. Enable or disable the setting under the **Connected apps** section.
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-user-settings-2025-profile.png'  style='margin:25px auto;display:block;' alt='Access the GitKraken integration option to enable/disable the feature in the User settings (sidebar) of the Git Integration for Jira app' />
+
+
+<br>
+
+### GitLens administrator settings
+
+The GitLens deep linking feature is enabled by default in the Git Integration for Jira General settings.
+
+Jira administrators can enable or disable this feature for all Jira users. Individual users can also enable the GitLens integration separately (see User settings above).
+
+1. Go to the Git Integration for Jira – **General settings** tab (sidebar).
+
+2. Enable or disable this setting under the **GitLens integration** section.
+
+<img src='/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-user-settings-2025.png'  style='margin:25px auto;display:block;' alt='Access the GitKraken integration option to enable/disable the feature in the User settings (sidebar) of the Git Integration for Jira app' />
+
+<kbd>Last updated: December 2025</kbd>

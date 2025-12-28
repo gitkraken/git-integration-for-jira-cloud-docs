@@ -1,7 +1,7 @@
 ---
 
 title: Personal access token feature
-description:
+description: Learn how to configure personal access tokens for git integrations in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -9,23 +9,23 @@ taxonomy:
 
 <!-- USER SETTINGS -->
 
-This feature allows users to configure personal access tokens for the connected git integration.
+Configure personal access tokens for connected git integrations.
 
 <img src='/wp-content/uploads/gij-gitcloud-user-settings-pat-feature.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 &nbsp;
 
-## The Search function
+## Search function
 
 <img src='/wp-content/uploads/gij-gitcloud-user-settings-def-repo-search.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Use the search bar (using the search criteria) to only list the names of the git integration to work on and assign a personal access token for the selected git integration and/or configure PAT in the git service.
+Use the search bar to filter the list by git integration name and find the integration you want to configure.
 
 &nbsp;
 
 ## Setting up your personal access token
 
-Click the **Setup your PAT** label to open the setup dialog and paste in the personal access token that was generated from the git service web portal.
+Click **Setup your PAT** to open the setup dialog and paste your personal access token from the git service web portal.
 
 <img src='/wp-content/uploads/gij-gitcloud-user-settings-pat-feature-cfg-dlg.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -35,7 +35,7 @@ Click **Update** to save the changes and assign this PAT to the selected git int
 
 ## Generate new token
 
-Click the **New token** label to generate a new personal access token via the git service web portal for the selected git integration.
+Click **New token** to generate a new personal access token through the git service web portal for the selected git integration.
 
 &nbsp;
 * * *
@@ -44,3 +44,4 @@ Click the **New token** label to generate a new personal access token via the gi
 
 [**Back to:** User settings (index)](/git-integration-for-jira-cloud/user-settings-gij-cloud)
 
+<kbd>Last updated: December 2025</kbd>

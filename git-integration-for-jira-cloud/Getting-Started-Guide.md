@@ -1,44 +1,64 @@
 ---
 
 title: Admin Getting Started Guide
-description:
+description: Essential configuration guide for Jira Admins setting up Git Integration for Jira Cloud
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
+
 ## Application Overview
 
-Thank you for choosing Git Integration for Jira Cloud (GIJ)! This guide provides Jira Admins with crucial information for deciding the most effective configuration of Git Integration for Jira.
+Thank you for choosing Git Integration for Jira Cloud (GIJ). This guide provides Jira Admins with essential information for configuring Git Integration for Jira effectively.
 
-Consider GIJ a "set it and forget it" app and Jira Admins who read each page of this guide can expect to *save days of configuration rework*. With that, let's get crackin!
+GIJ is designed as a "set it and forget it" application. Jira Admins who read each page of this guide can expect to save significant time on configuration. Let's get started.
 
----
-### What to expect
+&nbsp;
 
+## What to Expect
 
-GIJ will display Commits, Branches, and Pull/Merge requests associated with a specific Jira Issue. The Jira Issue key must be included in the commit message, the Branch name, and the Pull/Merge request title in order for GIJ to link the item to the respective Jira Issue. 
- Please see: [Linking Git Commits](https://help.gitkraken.com/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/) for more details.
+GIJ displays commits, branches, and pull/merge requests associated with specific Jira issues. To link items to Jira issues, include the Jira issue key in:
 
-**Breakdown of information provided by GIJ in Jira issues:**
-![Jira Issue View](/wp-content/uploads/Jira-Issue-Breakdown.png)
+- The commit message
+- The branch name
+- The pull/merge request title
+
+For more details, see [Linking Git Commits](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/).
+
+### Information Displayed in Jira Issues
+
+![Jira Issue View](/wp-content/uploads/Jira-Issue-Breakdown-2025.png)
+
 **Activity Stream - Git Commits**
-1. Git Commits tab in the activity stream, broken down by repository
-2. Individual Commit, noted by Developer that made the commit
+
+1. Git Commits tab in the activity stream, organized by repository
+2. Individual commit with the developer who made it
 3. Commit message
 4. Commit line change summary by file
-5. Link to view Code diff in Jira
+5. Link to view code diff in Jira
 
 **Git Integration Panel**
-6. Commit Count
-7. Option to Create a branch directly from a Jira Issue. Associated Branches with change comparison count to main repository branch.
-8. Option to Create a Pull/Merge request directly from a Jira Issue. Associated Pull/Merge Requests with status
 
+6. Options to create a branch or pull request directly from a Jira issue
+7. Associated branches and pull requests with status icons
 
+&nbsp;
 
 ## Security Restrictions and Policies
+
+Before configuring the application, discuss your team's needs and security requirements. Consider:
+
+- Whether your team has restrictions on third-party applications cloning code
+- Whether you need to restrict code visibility between Jira projects
+
+Use [Project Association Permissions](/git-integration-for-jira-cloud/setting-project-permissions-gij-cloud/) to limit visibility between Jira projects. See [Permissions](/git-integration-for-jira-cloud/permissions-gij-cloud/) for details on limiting visibility of GIJ panels and data between Jira users.
+
+&nbsp;
+
 ---
-Before configuring the application, we encourage new clients to discuss their team's needs and security concerns and restrictions. Consider whether your team has any restrictions regarding their code being cloned by third-party applications, and if they need to restrict code visibility between Jira projects. We will discuss the code cloning below as we discuss your integration type options, but you can use [Project association permissions](https://help.gitkraken.com/git-integration-for-jira-cloud/setting-project-permissions-gij-cloud/) to limit visibility between Jira projects. Please see [Permissions](https://help.gitkraken.com/git-integration-for-jira-cloud/permissions-gij-cloud/) for details on how to limit visibility of GIJ panels/Data between Jira users.
 
-___
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>NEXT</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning/">Application Operations and Integration Structure Planning</a>
 
-[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>NEXT</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning/">Application operations and Integration Structure Planning</a>
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

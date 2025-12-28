@@ -1,7 +1,7 @@
 ---
 
 title: Azure DevOps Server | Team Foundation Services (TFS)
-description:
+description: Learn how to integrate Azure DevOps Server and Team Foundation Services (TFS) git repositories with Jira Cloud using Git Integration for Jira.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -78,27 +78,26 @@ This process requires an existing Microsoft account with Azure DevOps Server/TFS
 
 We recommend using the Git service integrations panel to connect multiple repositories from your Azure DevOps Server/TFS account.
 
-1.  On the Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
 
-2.  On the Manage integrations page, click **Add integration.**
-
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+2.  On the Manage integrations page, click **Add integration**.
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **Team Foundation Server (TFS)** to start integration with this git service. If you're using Azure DevOps Server, choose that instead.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-server-tfs.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-server-tfs-2025.png)
 
 4.  The following screen is displayed.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-tfs-setup.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-tfs-setup-2025.png)
 
-    a.  Choose **Team Foundation Server** for the integration type (recommended). If you are using **Azure DevOps Server**, choose that instead.
+        1.  Choose **Team Foundation Server** for the integration type (recommended). If you are using **Azure DevOps Server**, choose that instead.
 
-    b.   Enter the **Host URL** for your Azure DevOps/TFS git server.
+        2.   Enter the **Host URL** for your Azure DevOps/TFS git server.
 
-    c.   **Suffix**  –  This is a relative path that defaults to `"/tfs"`.
+        3.   **Suffix**  –  This is a relative path that defaults to `"/tfs"`.
 
         *   For TFS integrations, the suffix will have a **/tfs** as default path. Thus, there is no need to add the `/tfs` to the **Host URL** path. If this field is blank, the Git Integration for Jira app automatically appends the default `"/tfs"` suffix and scans for all the collections inside it.
 
@@ -106,9 +105,9 @@ We recommend using the Git service integrations panel to connect multiple reposi
 
         *   <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>AZURE DEVOPS SERVER</b> For Azure DevOps Server integrations, leave this field empty.
 
-    d.  **Collection**  –  Enter a specific collection to use. If you know your specific collection, type its name in the provided box. The Git Integration app defaults to read and import all collection from the connected Azure DevOps Server/TFS server.
+        4.  **Collection**  –  Enter a specific collection to use. If you know your specific collection, type its name in the provided box. The Git Integration app defaults to read and import all collection from the connected Azure DevOps Server/TFS server.
 
-    e.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> For TFS 2017 and newer, use <b>PAT</b> for authentication. Otherwise, use <b>Username/Password</b> for authentication (for example: TFS 2013/2015). PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs.
+        5.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> For TFS 2017 and newer, use <b>PAT</b> for authentication. Otherwise, use <b>Username/Password</b> for authentication (for example: TFS 2013/2015). PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs.
 
         ```java
         IMPORTANT!
@@ -327,7 +326,7 @@ The branch is created and can be viewed under the **Branches** tab in your Azu
 </div>
 <br>
 
-<img src='/tfs-server-2017-new-branch-example-c.png' width=723 height=451 style='margin:25px auto;display:block;max-width:100%;' />
+<img src='/gij-tfs-server-2017-new-branch-example-c.png' width=723 height=451 style='margin:25px auto;display:block;max-width:100%;' />
 
 To update the branch list to your Visual Studio's Team Explorer:
 
@@ -341,7 +340,7 @@ To update the branch list to your Visual Studio's Team Explorer:
 
 5.  Make changes to a file or project then perform a commit to the selected branch.
 
-    <img src='/wp-content/uploads/gij-vs-ide-team-explorer-branch-commit(c).png' width=349 height=427 style='margin:25px 0;' />
+    <img src='/wp-content/uploads/gij-vs-ide-team-explorer-branch-commit-c.png' width=349 height=427 style='margin:25px 0;' />
 
     1.  On the Team Explorer, click Changes.
 
@@ -464,4 +463,8 @@ Once approved, the team leader or reviewer can then complete the merge. The com
 [Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud) (Git Integration for Jira Cloud)
 
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
+
+<br>
+
+<kbd>Last updated: December 2025</kbd>
 

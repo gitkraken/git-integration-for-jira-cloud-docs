@@ -1,39 +1,37 @@
 ---
 
-title: Git user Identity
-description:
+title: Git User Identity
+description: How Git user identity is configured and displayed in Jira
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
-A git user can identify himself on his local computer using the following commands:
+A git user can identify themselves on their local computer using the following commands:
 
 ```bash
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
 
-
-Or, for specific repository:
+Or, for a specific repository:
 
 ```bash
 $ git config user.name "John Doe"
 $ git config user.email johndoe@example.com
 ```
 
+Every commit is then associated with the configured user information.
 
-Then every commit is supported by the configured user information.
+Hosting services (like GitHub and Bitbucket, for example) try to match this data in commits with a particular account:
 
-Hosting services _(like GitHub and BitBucket, for example)_ try to match these data in commits with a particular account:
-
-*   **If the email is unknown, it just displays the name from the commit.**
-    If there is no Jira user associated with the email, the Git Integration for Jira app will use the author's name from the commit and displays this name without any associated links.
+*   **If the email is unknown, the app displays the name from the commit.**
+    If there is no Jira user associated with the email, Git Integration for Jira will use the author's name from the commit and display this name without any associated links.
 
     ![](/wp-content/uploads/gij-git-user-non-matching-email.png)
 
-*   **If an email is configured in the local repository, the account is detected and will be displayed.**
-    The Git Integration for Jira app will use the email from a commit and will search for a Jira user using this email. If the Jira user is found, the associated link to his Jira profile is displayed with the accompanying Jira avatar beside the name.
+*   **If an email is configured in the local repository, the account is detected and displayed.**
+    Git Integration for Jira uses the email from a commit and searches for a Jira user using this email. If a Jira user is found, the associated link to their Jira profile is displayed with the accompanying Jira avatar beside the name.
 
     ![](/wp-content/uploads/git-user-matching-email.png)
 
@@ -44,3 +42,6 @@ Hosting services _(like GitHub and BitBucket, for example)_ try to match these
 
 [**Next:** Jira user information card](/git-integration-for-jira-cloud/jira-user-information-card-gij-cloud)
 
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

@@ -9,10 +9,8 @@ taxonomy:
 **What’s on this page:**
 - [Introduction](#introduction)
 - [Instructions for integrations (GitLab, GitHub, etc)](#instructions-for-integrations-gitlab-github-etc)
-  - [Video Example 1: Setting project permissions for an existing GitLab integration](#video-example-1-setting-project-permissions-for-an-existing-gitlab-integration)
-  - [Video Example 2: Setting project permissions at the repository level for an existing GitLab integration](#video-example-2-setting-project-permissions-at-the-repository-level-for-an-existing-gitlab-integration)
+(#video-example-2-setting-project-permissions-at-the-repository-level-for-an-existing-gitlab-integration)
 - [Instructions for individual repositories](#instructions-for-individual-repositories)
-  - [Video Example: Setting project permissions for a repository](#video-example-setting-project-permissions-for-a-repository)
 
 <p>&nbsp;</p>
 * * *
@@ -62,27 +60,6 @@ To limit which Jira projects are associated with an integration's repositories:
 
 6.  Click **Update**.
 
-
-### Video Example 1: Setting project permissions for an existing GitLab integration
-
-<div class='embed-container' style='padding-bottom:75.21%;'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/rnm5t639cz?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px;margin-bottom:30px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
-### Video Example 2: Setting project permissions at the repository level for an existing GitLab integration
-
-<div class='embed-container' style='padding-bottom:75.0%;'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/fder2qnpgw?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px;margin-bottom:30px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-
 ## Instructions for individual repositories
 
 To limit which Jira projects are associated for individual repositories:
@@ -99,14 +76,4 @@ To limit which Jira projects are associated for individual repositories:
 
 6.  Click **Update**.
 
-
-### Video Example: Setting project permissions for a repository
-
-<div class='embed-container' style='padding-bottom:75.21%;'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/xvzj32nxou?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px;margin-bottom:30px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
 

@@ -1,7 +1,7 @@
 ---
 
 title: Signals Risk View Settings
-description:
+description: Configure risk thresholds and severity levels for sprints, issues, and pull requests in Signals to identify potential project risks.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -100,3 +100,5 @@ To set the severity level for each setting, use the provided dropdown control.
 [Backlog View](/git-integration-for-jira-cloud/Signals-backlog-view-gij-cloud)
 
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)
+
+<kbd>Last updated: December 2025</kbd>

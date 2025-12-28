@@ -71,17 +71,6 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 <hr>
 &nbsp;
 
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/8jtnqzp79y?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/8jtnqzp79y'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
-    <i>Updated video coming soon</i>
-</div>
-<br>
-<br>
-
 ## Creating a personal access token
 
 <div class="bbb-callout bbb--alert">
@@ -117,21 +106,21 @@ We recommend using the **Git service integration** panel to connect multiple rep
 </div>
 <br>
 
-1.  On your Jira dashboard menu, go to Apps ➜ **Git Integration: Manage integrations**.
+1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
 
-    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
 2.  On the Manage integrations page, click **Add integration**.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-c.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
 3.  For the following screen, click **GitHub.com** to start integration with this git service.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-github.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-type-github-2025.png)
 
 4.  On the following screen, click on the **Git service integration** panel for your integration type.
 
-    ![](/wp-content/uploads/gij-gitcloud-managed-ui-github-integration-oauth-01.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-github-integration-oauth-01-2025.png)
 
 5.  For this guide, click on the **OAuth integration** to select it.
 
@@ -340,7 +329,7 @@ For more information about this feature, see [Documentation: Linking git commits
 
 ## Working with branches and pull requests with GitHub
 
-The Git Integration for Jira Cloud app adds two features on the Jira issue developer panel – Create Branch, and Create Pull/Merge Request. For more information about the developer panel, see the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud) documentation.
+The Git Integration for Jira Cloud app adds two features on the Jira issue developer panel – Create Branch, and Create Pull/Merge Request. For more information about the developer panel, see the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel) documentation.
 
 This process requires a GitHub git repository and a PAT with `repo` scopes.
 
@@ -352,7 +341,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 ### Creating branches
 
-On your Jira Cloud, open a Jira issue. On the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud), click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
+On your Jira Cloud, open a Jira issue. On the [Jira Git integration development panel](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel), click **Open Git Integration** then click **Create branch**. The following dialog is displayed.
 
 ![](/wp-content/uploads/gij-gitcloud-issue-dev-panel-create-branch-dlg.png)
 
@@ -479,4 +468,8 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 [Bitbucket Cloud](/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud) (Git Integration for Jira Cloud)
 
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
+
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
 

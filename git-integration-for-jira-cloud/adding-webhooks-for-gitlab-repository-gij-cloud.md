@@ -34,14 +34,6 @@ taxonomy:
     </div>
 </div>
 <br>
-
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/trp1frsfl4?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div>
-
-<div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/trp1frsfl4'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
 <br>
 
 
@@ -74,7 +66,7 @@ Configure webhook by logging in to your GitLab account:
 
 4.  Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app ➜ **Webhooks** page into the _**Payload URL**_ field.
 
-    <img src='/wp-content/uploads/gij-jira-cloud-webhook-url-loc-c1.png' width=646 height=430 style='margin:25px 0' />
+    <img src='/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc-2025.png' width=646 height=430 style='margin:25px 0' />
 
 5.  Select the _**Push events**_ as a triggering event option. This is the default option when creating a new webhook.
 
