@@ -7,9 +7,9 @@ taxonomy:
 
 ---
 
-The Signals feature is equipped with a wide range of features designed to elevate the work of team leaders and project leads, making their tasks significantly more manageable. However, due to the wide array of hardware configurations, these excellent features can sometimes be encumbered by various issues.
+Signals provides features for team leaders and project leads. However, some known issues may occur.
 
-Below are the known issues and workarounds related to Signals:
+Known issues and workarounds:
 
 - [Users are removed from search list as you type in the search text box](#users-are-removed-from-search-list-as-you-type-in-the-search-text-box)
 - [Text search for issue key in backlog page not returning the desired Jira issue](#text-search-for-issue-key-in-backlog-page-not-returning-the-desired-jira-issue)
@@ -19,23 +19,23 @@ Below are the known issues and workarounds related to Signals:
 
 ### Users are removed from search list as you type in the search text box
 
-When doing a search query for a user through a search filter (contributor or assignee), typing a search text past a certain number of characters will cause the search result items to disappear.
+When searching for a user through a filter (contributor or assignee), typing more than a few characters may cause search results to disappear.
 
 For example, if the search text is two characters or less, a user’s name is displayed correctly and appears in the recommended list and search results. However, when you type more than 3 characters of that name, it is no longer shown in the list.
 
 On the other hand, searching by last name appears to work as expected and shows the correct search result.
 
-Please expect that this issue will be fixed in the future version of the extension.
+This issue will be fixed in a future version.
 
 ### Text search for issue key in backlog page not returning the desired Jira issue
 
-Sometimes, the Backlog view does not display the desired Jira issue. This is because of the known slow performance of loading data into the view. However, as a tradeoff, this allowed users to see all Jira issues on the Backlog view.
+The Backlog view may not display the desired Jira issue due to slow data loading. This tradeoff allows users to see all Jira issues in the Backlog view.
 
-For example, you can use the search field to find Jira issues by summary. This approach supports wildcards. See below:
+**Workaround:** Search by issue summary using wildcards:
 
 ![](/wp-content/uploads/tij-gitcloud-search-list-example.png)
 
-You can also do a search by issue key. Make sure to specify a valid Jira issue key or you'll get errors. Take note that this approach does not support wildcards. See example below:
+You can also search by issue key. Specify a valid Jira issue key to avoid errors. This approach does not support wildcards:
 
 ![](/wp-content/uploads/tij-gitcloud-search-supports-jql-example.png)
 
