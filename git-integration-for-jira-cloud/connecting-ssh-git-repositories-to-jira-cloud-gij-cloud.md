@@ -21,13 +21,13 @@ taxonomy:
 
 ### Introduction
 
-SSH git repositories can be integrated with Jira Cloud via [**Git Integration for Jira app**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview).
+SSH git repositories can be integrated with Jira Cloud using [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview).
 
 &nbsp;
 
 ### Generating SSH Keys
 
-Initially, the SSH key pair must be generated to proceed. We recommend to generate a **4096-bit key**.
+Generate an SSH key pair before proceeding. We recommend a **4096-bit key**.
 
 &nbsp;
 
@@ -88,7 +88,7 @@ MacOs often incorrectly creates an OpenSSH format certificate. For more details,
 
 ### Power Users
 
-The Git Integration for Jira app supports one format for private SSH keys ➜ RSA. To change your SSH key pair to the supported format, use the following syntax on your terminal or bash/powershell:
+Git Integration for Jira supports RSA format for private SSH keys. To convert your SSH key pair to the supported format, use this syntax:
 
 ```bash
 ssh-keygen -p -P "old_password" -N "new_password" -m pem

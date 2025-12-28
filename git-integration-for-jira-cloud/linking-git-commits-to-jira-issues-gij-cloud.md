@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-To create a link between your Git commit and a Jira issue, developers must include the issue key in the commit comment.
+To link your Git commit to a Jira issue, include the issue key in the commit message.
 
 &nbsp;
 
@@ -26,7 +26,7 @@ To create a link between your Git commit and a Jira issue, developers must inclu
 
 ## How Commit Linking Works
 
-Commits are selected by issue key. Developers should add them to comments every time they make commits.
+Commits are selected by issue key. Add issue keys to commit messages every time you commit.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -59,7 +59,7 @@ In this case, <b>"TEST-1"</b> is the issue key linking the commit message to the
 
 ## Best Practices for Linking
 
-As a best practice when working with sub-tasks, put the parent and sub-task Jira issue keys in the commit message so that the commit shows in both places. This way, the commit for the sub-task does not get lost in the many commits of the parent issue.
+When working with sub-tasks, include both the parent and sub-task Jira issue keys in the commit message. This displays the commit in both places and prevents sub-task commits from getting lost among parent issue commits.
 
 <img src='/wp-content/uploads/gij-gitcloud-git-commit-commit-sel-subtask.png' style='margin:25px auto' />
 
@@ -74,7 +74,7 @@ As a best practice when working with sub-tasks, put the parent and sub-task Jira
     </div>
 </div>
 
-Git Integration for Jira supports commits that used the old Jira key in the commit message after a project rename to a new key name (Example: `TEST-16` to `PROJ-16`).
+Git Integration for Jira supports commits using the old Jira key after a project rename (Example: `TEST-16` to `PROJ-16`).
 
 Two scenarios relate to the rename/move:
 

@@ -1,7 +1,7 @@
 ---
 
 title: How-to articles
-description:
+description: Browse step-by-step guides for Git Integration for Jira Cloud including pricing, configuration, and integration workflows.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -36,4 +36,6 @@ Read through our collection of how-to guides which will show you the recommended
 [Setting Project Permissions](/git-integration-for-jira-cloud/setting-project-permissions-gij-cloud)
 
 [How to Create Reindex Triggers for a Single Repository](/git-integration-for-jira-cloud/how-to-create-reindex-triggers-for-a-single-repository-gij-cloud)
+
+<kbd>Last updated: December 2025</kbd>
 

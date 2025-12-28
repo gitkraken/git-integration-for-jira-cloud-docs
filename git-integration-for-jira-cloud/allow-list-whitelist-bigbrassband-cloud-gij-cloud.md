@@ -1,7 +1,7 @@
 ---
 
 title: Allow list (whitelist) GIJ Cloud
-description:
+description: Configure firewall settings to allow Git Integration for Jira Cloud to access your self-hosted git repositories.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -19,7 +19,7 @@ taxonomy:
     </div>
 </div>
 
-If using restrictive firewall or proxy server settings, you or your network admin will need to allow (allow list / whitelist) a specific IP  address to ensure GIJ Cloud applications work as expected. Specifically – if your team hosts a private git server (GitHub Enterprise, GitLab CE/EE, Microsoft TFS or Azure DevOps Server, Gerrit, Bitbucket Server, or a plain git server).
+If you use restrictive firewall or proxy server settings, allow (whitelist) specific IP addresses to ensure GIJ Cloud applications work correctly. This applies when your team hosts a private git server (GitHub Enterprise, GitLab CE/EE, Microsoft TFS or Azure DevOps Server, Gerrit, Bitbucket Server, or a plain git server).
 
 Alternatively, you can use our [Webhook indexing feature](#Webhooks-indexing-integration-for-private-networks) to avoid incoming API requests.
 
@@ -30,13 +30,13 @@ Alternatively, you can use our [Webhook indexing feature](#Webhooks-indexing-int
 
 We support [Atlassian’s Data Residency](https://www.atlassian.com/software/data-residency) hosting model where customer’s Jira Cloud instances can be assigned to a specific geographic region. We currently support hosting specifically in the USA and EU. Customers not pinned to a specific geographic region are assigned to the Global region (which we host in the USA). All applications and data are hosted in Amazon Web Services (AWS). For more information - see our [Trust & Security](https://www.gitkraken.com/git-integration-for-jira/security-and-trust) page.
 
-How to find out which geographic region your Git Integration for Jira Cloud application is hosted at - see [How do I find my app data](https://help.gitkraken.com/git-integration-for-jira-cloud/faq-support-gij-cloud/#where-can-i-find-my-app-information)
+To find your geographic region, see [How do I find my app data](https://help.gitkraken.com/git-integration-for-jira-cloud/faq-support-gij-cloud/#where-can-i-find-my-app-information).
 
 &nbsp;
 
 ### <img src='/wp-content/uploads/gij-global-icon.png' height=22 width=22 valign=middle />&nbsp; Global hosted customers (US-East-1)
 
-For customers that are hosted on the Global (hosted in the Northern Virginia, USA AWS region US-East-1), set the allow list/whitelist for self-hosted git repositories:
+For customers hosted on Global (Northern Virginia, USA AWS region US-East-1), configure the allow list for self-hosted git repositories:
 
 | Server | IP address |
 | :--- | :--- |
@@ -47,7 +47,7 @@ For customers that are hosted on the Global (hosted in the Northern Virginia, US
 
 ### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; European Union hosted customers (EU-West-1)
 
-For customers that are hosted on the EU stack (hosted in Ireland, EU-West-1), set the allow list/whitelist for self-hosted git repositories:
+For customers hosted on the EU stack (Ireland, EU-West-1), configure the allow list for self-hosted git repositories:
 
 | IP address |
 | :--- |
@@ -57,7 +57,7 @@ For customers that are hosted on the EU stack (hosted in Ireland, EU-West-1), se
 
 ### <img src='/wp-content/uploads/gij-eu-icon.png' height=24 width=24 valign=middle />&nbsp; European Union hosted customers (EU-Central-1)
 
-For customers that are hosted on the EU stack (hosted in Frankfurt, Germany, EU-Central-1), set the allow list/whitelist for self-hosted git repositories:
+For customers hosted on the EU stack (Frankfurt, Germany, EU-Central-1), configure the allow list for self-hosted git repositories:
 
 | IP address |
 | :--- |
@@ -78,7 +78,7 @@ For customers that are hosted on the EU stack (hosted in Frankfurt, Germany, EU-
 
 ### <img src='/wp-content/uploads/gij-us-icon.png' height=24 width=24 valign=middle />&nbsp; USA hosted customers (US-East-2)
 
-For customers that are hosted on the US stack (hosted in the Ohio, USA AWS region), set the allow list/whitelist for self-hosted git repositories:
+For customers hosted on the US stack (Ohio, USA AWS region), configure the allow list for self-hosted git repositories:
 
 | Server | IP address |
 | :--- | :--- |
@@ -89,7 +89,7 @@ For customers that are hosted on the US stack (hosted in the Ohio, USA AWS regio
 
 ### Southeast Asia hosted customers (AP-Southeast-1)
 
-For customers that are hosted on the Southeast Asian stack (Singapore), set the allow list/whitelist for self-hosted git repositories:
+For customers hosted on the Southeast Asian stack (Singapore), configure the allow list for self-hosted git repositories:
 
 | IP address |
 | :--- |
@@ -100,7 +100,7 @@ For customers that are hosted on the Southeast Asian stack (Singapore), set the 
 
 ### <img src='/wp-content/uploads/gij-au-icon.png' height=24 width=24 valign=middle />&nbsp; Australia hosted customers (AP-Southeast-2)
 
-For customers that are hosted on the Australia stack, set the allow list/whitelist for self-hosted git repositories:
+For customers hosted on the Australia stack, configure the allow list for self-hosted git repositories:
 
 | Server | IP address |
 | :--- | :--- |
@@ -111,7 +111,7 @@ For customers that are hosted on the Australia stack, set the allow list/whiteli
 
 ## Ports
 
-To allow self-hosted git repositories to be indexed by GIJ Cloud applications - the following port(s) may be necessary to be open:
+To allow self-hosted git repositories to be indexed by GIJ Cloud applications, open the following ports as needed:
 
 | Protocol | Port | Notes |
 | :--- | :--- | :--- |
@@ -135,7 +135,7 @@ To allow self-hosted git repositories to be indexed by GIJ Cloud applications - 
 
 ## Allow list IP address for GitHub.com, Azure DevOps Repos, and GitLab.com
 
-GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise level features allowing for allow listing and require an additional set of IP addresses for allow listing:
+GitHub.com, Azure DevOps Repos, and GitLab.com have enterprise-level features for allow listing. These require additional IP addresses:
 
 ### <img src='/wp-content/uploads/gij-global-icon.png' height=22 width=22 valign=middle />&nbsp; Global Region Hosted IP addresses (US-East-1)
 
@@ -218,7 +218,7 @@ If you use these IP addresses for allow listing - we ask that you contact us at�
 
 ## Reachable network address
 
-To allow self-hosted git servers, the git server must be reachable with a public address/IP by the indexing service.
+Self-hosted git servers must be reachable with a public address/IP by the indexing service.
 
 If your git server is simply behind a firewall, whitelist the IP address of the indexing service (see [Whitelist IP address](#allow-list-ip-address-for-githubcom-azure-devops-repos-and-gitlabcom)).
 
