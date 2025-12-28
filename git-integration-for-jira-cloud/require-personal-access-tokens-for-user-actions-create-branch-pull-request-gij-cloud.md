@@ -1,7 +1,7 @@
 ---
 
 title: Require Personal Access Tokens for user actions (create branch/pull request)
-description:
+description: Configure Git Integration for Jira Cloud to require personal access tokens for user actions like creating branches and pull requests.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -100,4 +100,6 @@ Jira users must have the **View Development Tools** permission in the context of
     <sup>1</sup> <i>Logo owned by <a href='https://gitlab.com/'>GitLab Inc</a> used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>license</a>.
     <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.<p><i>
 </div>
+
+<kbd>Last updated: December 2025</kbd>
 

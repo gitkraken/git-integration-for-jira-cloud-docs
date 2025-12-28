@@ -1,7 +1,7 @@
 ---
 
 title: Working with Custom API Path
-description:
+description: Configure Custom API Path to filter and retrieve specific repositories from GitHub, GitLab, and Bitbucket integrations in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -262,4 +262,6 @@ While Custom API Path and JMESPath filter are mutually exclusive, you can use on
     <sup>1</sup> <i>Logo owned by <a href='https://gitlab.com/'>GitLab Inc</a> used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>license</a>.
     <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.<p><i>
 </div>
+
+<kbd>Last updated: December 2025</kbd>
 

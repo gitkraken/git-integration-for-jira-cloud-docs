@@ -1,7 +1,7 @@
 ---
 
 title: How to Create Reindex Triggers for a Single Repository
-description:
+description: Create webhook triggers to reindex a single repository in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -29,5 +29,7 @@ The webhook is a POST request with the following JSON body:
 
 **Result:**
 
-The repository is placed in the indexing queue in the **Git** > **Manage git repositories** configuration page.
+The repository enters the indexing queue in the **Git** > **Manage git repositories** configuration page.
+
+<kbd>Last updated: December 2025</kbd>
 

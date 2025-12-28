@@ -1,7 +1,7 @@
 ---
 
 title: Creating Personal Access Tokens
-description:
+description: Create personal access tokens (PATs) for GitHub, GitLab, Azure DevOps, TFS, and AWS CodeCommit to authenticate with Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -252,9 +252,10 @@ To create a new Access Key ID and Secret Access Key, go to IAM ➜ Users ➜ Sec
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        We recommend that AWS administrators should not use the same IAM user's Access Key for the Git Integration for Jira app tasks.
+        AWS administrators should not use the same IAM user's Access Key for Git Integration for Jira app tasks.
     </div>
     </div>
 </div>
-<br>
+
+<kbd>Last updated: December 2025</kbd>
 
