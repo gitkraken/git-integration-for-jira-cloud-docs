@@ -15,10 +15,10 @@ Git Integration for Jira (GIJ) Advanced is a higher-tier edition designed for or
 
 | Usage Limits | Standard | Advanced |
 | :--- | :--- | :--- |
-| Total Connected Repositories | 200 | 10,000* |
-| Total Commits | 300,000 | 15 Million* |
-| Daily Indexing Triggers | 5,000 | 25,000* |
-| Daily Webhook Indexing Events | 2,000 | 10,000* |
+| Total Connected Repositories | 200 | 30k* |
+| Total Commits | 300k | 15 Million* |
+| Daily Indexing Triggers | 5K | 25K* |
+| Daily Webhook Indexing Events  | 2K | 10K* |
 
 *If your organization requires usage limits beyond the Advanced Edition, contact our Customer Success team at gijsales@gitkraken.com.
 
