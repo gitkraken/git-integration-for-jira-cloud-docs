@@ -1,7 +1,7 @@
 ---
 
 title: Git Integration (Jira Cloud) - Video Guides
-description:
+description: Watch video tutorials covering installation, integration, administration, and customization of Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
 
@@ -134,4 +134,6 @@ Setup GitLab server personal access tokens and scopes required for Git for Jira 
 **[Receive App Update Notifications »](https://bigbrassband.wistia.com/medias/u9rojnv0vv)**
 
 Configure Jira preferences to enable receiving of app update notifications.
+
+<kbd>Last updated: December 2025</kbd>
 
