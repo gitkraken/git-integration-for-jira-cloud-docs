@@ -1,37 +1,74 @@
 ---
-
 title: Server-side Hook
-description:
+description: Configure server-side hooks to enforce Jira ticket policies on git pushes.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
-In addition to the commit-msg hook, you can use server-side hooks to apply policies for your project.  The server runs these scripts before and after the push.  The server-side hook, like commit-msg hook, requires Python to be installed.
 
-In Linux and OSX, hook scripts must have executable permissions in the file system.
+Server-side hooks enforce project policies by running scripts before and after pushes. Use these hooks to require valid Jira ticket references in commit messages.
 
-For information about the local hook that should be installed, see [**Customizing Git – Hooks »**](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).  For further information about git hooks, see [**githooks.com »**](http://githooks.com/).
+**On this page:**
+- [Understand server-side hooks](#understand-server-side-hooks)
+- [Install the pre-receive hook](#install-the-pre-receive-hook)
+- [Configure the script](#configure-the-script)
+- [Sample script](#sample-script)
 
-When the server handles the push from a client, the **pre-receive** script is run first.  When commits does not have proper Jira issue tagging, an error message from client to server is raised.
+&nbsp;
+* * *
+&nbsp;
 
-The **pre-receive** server-side hook requires git administrators to:
+## Understand Server-side Hooks
 
-1.  Copy the **pre-receive** script file from the `hooks/` folder in the git repository to the Git server repository `hooks/` folder.
+The server runs these scripts when handling pushes from clients:
 
-2.  Configure **JIRA\_XMLRPC**, **JIRA\_USER**, **JIRA\_PASSWORD** and **PROJECT\_KEYS** in the pre-receive file.
+- **pre-receive**: Runs before accepting any commits. Rejects the push if commits don't have proper Jira issue tags.
+- **post-receive**: Runs after the push completes.
 
+Server-side hooks require Python on the server. On Linux and macOS, hook scripts must have executable permissions.
 
-The PROJECT\_KEYS setting defines an array of project keys which is compared to a ticket key from the commit message.  When Jira is not available, the hook simply checks the commit message if it contains the string pattern satisfying its declared conditions.
+For more information:
+- [Customizing Git – Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
+- [githooks.com](http://githooks.com/)
 
-Pattern example: `(PROJECT_KEY1|PROJECT_KEY2|...)-\d+`
+&nbsp;
 
-The PROJECT\_KEYS variable is only used when Jira is not available. Otherwise, this setting in the **pre-receive** file is ignored. The hook will not perform any checks if the PROJECT\_KEY array is empty and Jira is not available.
+## Install the Pre-receive Hook
 
-See the server-side hook script on the right panel or download the sample [**pre-receive file ↓**](https://bigbrassband.com/files/pre-receive.zip) – make the necessary changes, and place it in the required folder.
+1. Download the sample [pre-receive file](https://bigbrassband.com/files/pre-receive.zip).
 
-The server-side hook script enforces users to include correct Jira tags.
+2. Copy the file to your Git server repository: `hooks/pre-receive`
 
-##### **Sample contents of the pre-receive file:**
+3. Set executable permissions (Linux/macOS):
+   ```bash
+   chmod +x hooks/pre-receive
+   ```
+
+4. Configure the required settings in the script.
+
+&nbsp;
+
+## Configure the Script
+
+Edit these settings in the pre-receive file:
+
+| Setting | Description | Example |
+|---------|-------------|---------|
+| `JIRA_XMLRPC` | Path to your Jira instance | `https://jira.example.com/rpc/xmlrpc` |
+| `JIRA_USER` | Jira username with issue lookup permissions | `service-account` |
+| `JIRA_PASSWORD` | Password for the Jira user | `password123` |
+| `PROJECT_KEYS` | Array of project keys (used when Jira is unavailable) | `['PROJ1', 'PROJ2']` |
+
+### How PROJECT_KEYS works
+
+The `PROJECT_KEYS` setting defines project keys that are compared against ticket keys in commit messages. This setting is used only when Jira is unavailable. When Jira is available, the hook validates tickets directly against Jira.
+
+**Pattern example:** `(PROJECT_KEY1|PROJECT_KEY2|...)-\d+`
+
+If the `PROJECT_KEYS` array is empty and Jira is unavailable, the hook performs no checks.
+
+&nbsp;
+
+## Sample Script
 
 ```py
 #!/usr/bin/python
@@ -156,3 +193,5 @@ for c, msg in commits.iteritems():
         print >> sys.stderr, 'Install pre-commit hook (https://bigbrassband.com/api-doc.html#cmhook) to run this check at the commit time'
         sys.exit(1)
 ```
+
+<kbd>Last updated: December 2025</kbd>

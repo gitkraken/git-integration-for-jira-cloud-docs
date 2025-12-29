@@ -1,41 +1,26 @@
 ---
-
 title: Hooks and Webhooks
-description:
+description: Configure client-side hooks, server-side hooks, and indexing triggers for Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
-Welcome to the Git Integration for Jira app hooks and webhooks reference page index for Jira Cloud.
 
-On this page, you will find the list of available hooks and webhooks supported by the Git Integration for Jira app.  Click on a topic title to view its content or search through the related topics.
+This section covers hooks and webhooks supported by Git Integration for Jira Cloud. Use these features to enforce commit policies and enable real-time repository indexing.
 
+## Hook Types
 
+### [Configure Client-Side Hooks](/git-integration-for-jira-cloud/commit-msg-hook-gij-cloud)
 
- Search
+Set up the **commit-msg** hook as a Python script in developers' local repositories to validate commit messages before they're accepted.
 
+### [Configure Server-Side Hooks](/git-integration-for-jira-cloud/server-side-hook-gij-cloud)
 
+Apply project policies using server-side hooks. These scripts run before and after pushes, requiring Python on the server.
 
+## Indexing Triggers
 
+### [Set Up Indexing Triggers](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud)
 
-* * *
+Configure webhooks to trigger immediate reindexing of your repositories from remote systems, providing near real-time git data in Jira.
 
-
-
-
-
-[Client-side Hook](/git-integration-for-jira-cloud/commit-msg-hook-gij-cloud)
-
-The **_commit-msg_** hook is a python script file that must be located in the developer's local repository.
-
-
-
-[Server-side Hook](/git-integration-for-jira-cloud/server-side-hook-gij-cloud)
-
-Use server-side hooks to apply policies for your project.  The server runs these scripts before and after the push.  The server-side hook, like commit-msg hook, requires Python to be installed.
-
-
-
-[Indexing Triggers](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud)
-
-Trigger immediate reindex of your repositories from remote systems via webhooks.
+<kbd>Last updated: December 2025</kbd>

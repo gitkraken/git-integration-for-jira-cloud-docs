@@ -1,42 +1,69 @@
 ---
-
 title: Trusted Users
-description:
+description: Learn how to assign the Trusted role to users for Git Integration for Jira Cloud administrative access.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-### Introduction
+Trusted users have administrative permissions for the Git Integration for Jira app. They can see all pages of the app and invite other users.
 
-Trusted users are users that are able to invite other users and have administrative permissions. They can see all pages of the Git Integration app. Once a user is assigned the **Trusted** role, adding this user to the `jira-administrators` group will not change the access to the [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app because the **Trusted** role is considered to be a Jira administrator.
+**On this page:**
+- [Understand trusted users](#understand-trusted-users)
+- [Invite a user and assign the Trusted role](#invite-a-user-and-assign-the-trusted-role)
+- [Change a user's role](#change-a-users-role)
 
-Jira administrators can grant certain users the **Trusted** role via invite and then later on can change the role according to your organization rules.
+&nbsp;
+* * *
+&nbsp;
 
-### Inviting a User and Assigning a Role
+## Understand Trusted Users
 
-On your Jira dashboard, go to ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ **User Management**.
+When you assign the **Trusted** role to a user:
 
-<img src='/wp-content/uploads/gij-gitcloud-jira-admin-user-mgr-menu-access-2025.png' style='display:block;margin:25px auto 35px auto;max-width:100%' alt='Jira Cloud menu Administration accessing User Management' />
+- The user gains administrative permissions for the [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app
+- The user can see all pages of the Git Integration app
+- The user can invite other users
+- Adding this user to the `jira-administrators` group does not change their Git Integration app access because the Trusted role already grants equivalent permissions
 
-On the following screen, click **Invite Users**.
+Jira administrators can grant the Trusted role when inviting users and can change roles later according to organizational requirements.
 
-<img src='/wp-content/uploads/gij-gitcloud-jira-admin-user-mgr-invite-2025.png' style='display:block;margin:25px auto 35px auto;max-width:100%' alt='Jira user management screen' />
+&nbsp;
 
-The next screen is displayed.
+## Invite a User and Assign the Trusted Role
 
-<img src='/wp-content/uploads/gij-gitcloud-jira-admin-invite-users-2025.png' style='display:block;margin:25px auto 25px auto;max-width:100%' alt='Invite users screen selecting the Trusted role' />
+1. Go to ![](/wp-content/uploads/actions-icon.png) **Jira Administration** ➜ **User Management**.
 
-*   Enter a user’s email address or several email addresses of the users to be assigned with the role.
+    ![](/wp-content/uploads/gij-gitcloud-jira-admin-user-mgr-menu-access-2025.png)
 
-*   Under the **Role** dropdown, choose **Trusted**.
+2. Click **Invite Users**.
 
-*   Click **Invite # user(s)** to complete this setup.
+    ![](/wp-content/uploads/gij-gitcloud-jira-admin-user-mgr-invite-2025.png)
 
-### Changing the Role of a User
+3. Configure the invitation:
 
-Go to ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ **User Management**.
+    ![](/wp-content/uploads/gij-gitcloud-jira-admin-invite-users-2025.png)
 
-Scroll to the bottom of the page to find the list of users.
+    - Enter one or more email addresses for the users you want to invite
+    - Select **Trusted** from the **Role** dropdown
 
-<img src='/wp-content/uploads/gij-gitcloud-user-mgr-userlist-2025.png' style='display:block;margin:25px auto 25px auto;max-width:100%' />
+4. Click **Invite # user(s)** to send the invitations.
+
+&nbsp;
+
+## Change a User's Role
+
+1. Go to ![](/wp-content/uploads/actions-icon.png) **Jira Administration** ➜ **User Management**.
+
+2. Scroll to the user list at the bottom of the page.
+
+    ![](/wp-content/uploads/gij-gitcloud-user-mgr-userlist-2025.png)
+
+3. Locate the user whose role you want to change.
+
+4. Click the role dropdown next to the user's name.
+
+5. Select the new role from the dropdown options.
+
+6. The role change takes effect immediately.
+
+<kbd>Last updated: December 2025</kbd>

@@ -1,37 +1,46 @@
 ---
-
 title: Creating indexing triggers for a single repository
-description:
+description: Create indexing triggers for individual repositories using webhooks with Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
-Create an indexing trigger that can be initiated for any **individual** repository. It can be used with continuous integration service.
 
-_**Required headers:**_
+Create an indexing trigger for any individual repository. Use this with continuous integration services to trigger immediate reindexing.
 
-*   'x-bbb-webhook-type': `push`
+## Required Headers
 
-*   'Content-Type': `application/json`
+| Header | Value |
+|--------|-------|
+| `x-bbb-webhook-type` | `push` |
+| `Content-Type` | `application/json` |
 
+## Optional Headers
 
-_**Optional headers:**_
+| Header | Description |
+|--------|-------------|
+| `x-bbb-webhook-id` | Any string representing the request ID |
 
-*   `x-bbb-webhook-id` -- Can be any string representing the _id_ of the request to be used.
+&nbsp;
 
-<br>
+## Usage Examples
 
-**Usage examples:**
+**Basic request:**
 
 ```powershell
 curl -H 'x-bbb-webhook-type: push' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url
 ```
 
+**Request with custom ID:**
+
 ```powershell
 curl -H 'x-bbb-webhook-type: push' -H 'x-bbb-webhook-id: id-string' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url
 ```
 
-**Payload.json**
+&nbsp;
+
+## Payload Format
+
+Create a `payload.json` file with the repository origin:
 
 ```json
 {
@@ -39,3 +48,4 @@ curl -H 'x-bbb-webhook-type: push' -H 'x-bbb-webhook-id: id-string' -H 'content-
 }
 ```
 
+<kbd>Last updated: December 2025</kbd>

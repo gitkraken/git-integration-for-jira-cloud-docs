@@ -1,7 +1,7 @@
 ---
 
 title: GitHub.com
-description:
+description: Integrate GitHub.com repositories with Jira Cloud using Git Integration for Jira.
 taxonomy:
     category: git-integration-for-jira-cloud
 

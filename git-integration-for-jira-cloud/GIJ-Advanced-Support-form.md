@@ -1,13 +1,11 @@
 ---
-
 title: GIJ Advanced Support Form
-description: Support form for GIJ Advanced
+description: Submit a support request for GIJ Advanced edition.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-Please see our [GIJ Advanced Support Guide](https://help.gitkraken.com/git-integration-for-jira-cloud/GIJ-Advanced-Support-Guide) for further details on what kind of information you should be including with your request, as well as instructions on how to gather it.
+See the [GIJ Advanced Support Guide](https://help.gitkraken.com/git-integration-for-jira-cloud/GIJ-Advanced-Support-Guide) for details on what information to include with your request and how to gather it.
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
 <script>
@@ -17,3 +15,5 @@ Please see our [GIJ Advanced Support Guide](https://help.gitkraken.com/git-integ
     region: "na1"
   });
 </script>
+
+<kbd>Last updated: December 2025</kbd>

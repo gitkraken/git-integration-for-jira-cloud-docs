@@ -1,11 +1,11 @@
 ---
-
 title: AWS CodeCommit webhook events
-description:
+description: Reference documentation for AWS CodeCommit webhook event types supported by Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+
+This page documents the AWS CodeCommit webhook event types that Git Integration for Jira Cloud supports.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -13,34 +13,27 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        In the CodeCommit webhook, the <code>message</code> field is parsed.
+        AWS CodeCommit webhooks use SNS (Simple Notification Service). The <code>Message</code> field in the SNS notification contains the CodeCommit event data.
     </div>
     </div>
 </div>
 
+## Notifications Event
 
-The following are the supported types of AWS CodeCommit events for triggering webhooks:
+| Property | Value |
+|----------|-------|
+| Type | `"^Notifications$"` |
+| Request URI | `/api/1/webhook/reindex/install/<secret_key>/repo/<repo_uid>/web` |
+| Content-Type | `text/plain; charset=UTF-8` |
+| x-amz-sns-message-type | `Notification` |
 
-### AWS CodeCommit (Notifications Event)
-_Type_<br>**pushEvents:** `"^Notifications$"`
-
-_Request URL_<br>
-`/api/1/webhook/reindex/install/<secret-key>/repo/<repo-uid>/web`
-
-_Request headers_<br>
-**Content-Type:** `text/plain; charset=UTF-8`<br>
-**x-amz-sns-message-id:** \--<br>
-**x-amz-sns-message-type:** `Notification`<br>
-**x-amz-sns-subscription-arn:** \--<br>
-**x-amz-sns-topic-arn:** \--
-
-_Request payload example_
+**Payload example:**
 
 ```json
 {
     "SignatureVersion": "1",
     "Type": "Notification",
-    "TopicArn": "arn:aws:sns:us-east-1:552887875838:git-for-jira-cloud-webhook-6bsuxx79skn7n8kfpgse5qb58-entd68eq86k9frrp2rxg6xkcpppek5h4",
+    "TopicArn": "arn:aws:sns:us-east-1:552887875838:git-for-jira-cloud-webhook",
     "Message": "{
         \"Records\":[{
             \"awsRegion\":\"us-east-1\",
@@ -51,18 +44,14 @@ _Request payload example_
                 }]
             },
             \"customData\":null,
-            \"eventId\":\"e6317415-5a45-41a8-8234-fa90742d2c66\",    \"eventName\":\"ReferenceChanges\",\"eventPartNumber\":1,
+            \"eventId\":\"e6317415-5a45-41a8-8234-fa90742d2c66\",
+            \"eventName\":\"ReferenceChanges\",
             \"eventSource\":\"aws:codecommit\",
             \"eventSourceARN\":\"arn:aws:codecommit:us-east-1:552887875838:acme_test\",
-            \"eventTime\":\"2020-06-03T08:28:16.625+0000\",
-            \"eventTotalParts\":1,
-            \"eventTriggerConfigId\":\"b5b69ba9-8d48-436f-97d2-e5609d4039c8\",
-            \"eventTriggerName\":\"git-for-jira-cloud-webhook-6bsuxx79skn7n8kfpgse5qb58-entd68eq86k9frrp2rxg6xkcpppek5h4\",
-            \"eventVersion\":\"1.0\",            \"userIdentityARN\":\"arn:aws:iam::552887875838:user/johnsmith\"
+            \"eventTime\":\"2020-06-03T08:28:16.625+0000\"
         }]
     }",
-    "Timestamp": "2020-06-03T08:28:16.882Z",    
-    "SigningCertURL": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-hnhffstgav9qvvskm2py3c4b43e6dczm.pem",    
+    "Timestamp": "2020-06-03T08:28:16.882Z",
     "Subject": "UPDATE: AWS CodeCommit us-east-1 push: acme_test",
     "MessageId": "3179bd00-3741-583a-a6a7-ea5156211a57"
 }
@@ -70,13 +59,11 @@ _Request payload example_
 
 &nbsp;
 
-### Other webhook type events
+## Related Webhook Events
 
-[GitHub webhook events](/git-integration-for-jira-cloud/gitHub-webhook-events)
+- [GitHub webhook events](/git-integration-for-jira-cloud/github-webhook-events-gij-cloud)
+- [GitLab webhook events](/git-integration-for-jira-cloud/gitlab-webhook-events-gij-cloud)
+- [Microsoft webhook events](/git-integration-for-jira-cloud/microsoft-webhook-events-gij-cloud)
+- [Bitbucket webhook events](/git-integration-for-jira-cloud/bitbucket-webhook-events-gij-cloud)
 
-[GitLab webhook events](/git-integration-for-jira-cloud/gitlab-webhook-events)
-
-[Microsoft webhook events](/git-integration-for-jira-cloud/microsoft-webhook-events)
-
-[Bitbucket webhook events](/git-integration-for-jira-cloud/aws-codecommit-webhook-events)
-
+<kbd>Last updated: December 2025</kbd>

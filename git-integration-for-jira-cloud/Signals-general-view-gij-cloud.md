@@ -9,154 +9,153 @@ taxonomy:
 
 ![](/wp-content/uploads/tij-gitcloud-general-view-tab-access.png)
 
-The default view for Signals is the General View.
+General View is the default Signals view. This page explains how to navigate and use its features effectively.
 
-You can switch to another view such as General, Teams or Backlog by clicking their specific tabs. In General View, the epics issue list can be enabled by clicking the **Show epics** checkbox on the Issues column header.
+To switch views, click the tabs at the top to select General, Teams, or Backlog. To display epics instead of issues, select **Show epics** in the Issues column header.
 
-Use the search bar together with available search options to filter the list view.
+Use the search bar to filter results by keyword.
 
 &nbsp;
 
-### Column Information
+### Understanding the columns
 
-The list view displays Jira issues showing priority, user activity, and other information:
+The list view displays Jira issues with the following columns:
 
 | Column | Description |
 |:-------|:------------|
-| **_Issue_** | The Issue column shows the Jira issues that contain user and progress activities.<br><br>Click the **Show epics checkbox** to display the Epics issue types instead. |
-| **_Priority_** | Displays the degree of priority of a Jira issue. |
-| **_Status_** | Shows the progress status of a Jira issue. |
-| **_Assignee_** | Shows the user the Jira issue is currently assigned to. |
-| **_Contributors_** | Shows the contributor users actively worked on the Jira issue. |
-| **_Sprint_** | Shows the sprint name a Jira issue is included in. |
-| **_Days_** | Shows the number of days a Jira issue has been worked on. |
-| **_Comments_** | Shows the number of comments a Jira issue has. |
-| **_Commits_** | Shows how many commits this task has.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">If your organization or team requires information be displayed in this column, install the Git Integration for Jira app.</div></div></div> |
-| **_Pull requests_** | Shows how many pull requests this task has.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">If your organization or team requires information be displayed in this column, install the Git Integration for Jira app.</div></div></div> |
+| **Issue** | Displays Jira issues with user and progress activities. Select **Show epics** to display epics instead. |
+| **Priority** | Shows the issue priority level. |
+| **Status** | Shows the issue progress status. |
+| **Assignee** | Shows the assigned user. |
+| **Contributors** | Lists users who worked on the issue. |
+| **Sprint** | Shows the sprint containing this issue. |
+| **Days** | Shows the number of days worked on the issue. |
+| **Comments** | Shows the comment count. |
+| **Commits** | Shows the commit count.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">Requires Git Integration for Jira.</div></div></div> |
+| **Pull requests** | Shows the pull request count.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">Requires Git Integration for Jira.</div></div></div> |
 
 &nbsp;
 
-### Showing Issue Details
+### Viewing issue details
 
-To view more details about a specific Jira issue or Epics, click on the twisty icon (**\>**) to expand it.
+To expand an issue or epic, click the expand icon (**\>**) next to it.
 
 ![](/wp-content/uploads/tij-gitcloud-general-view-item-details.png)
 
-Click on the Issue details icon to display the detailed dialog of the Jira issue.
+To open the issue details dialog, click the Issue details icon.
 
 <img src='/wp-content/uploads/tij-gitcloud-issue-view-issue-details-dialog.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-The issue details shows the following information on:
+The dialog displays:
 
-*   who the Jira issue is assigned to
-*   which Jira issues the current ticket is waiting on
-*   which Jira issues is causing the current ticket to stall
-*   what is the current status of the Jira issue
+*   Assigned user
+*   Blocking issues
+*   Issues causing stalls
+*   Current status
 
 &nbsp;
 
-### Sprints view
+### Using the sprint timeline
 
-On the right section of the Issue list is the sprints view which displays the timeline of the sprint. This gives team managers the full picture of the progress of the Jira issues and what’s the next step to do. They will also be able to see which Jira issues that needed attention and identify which team members are overloaded with tasks or which work is at risk for an upcoming due date.
+The right section shows the sprint timeline. Use this view to identify issues needing attention, overloaded team members, and at-risk work.
 
 ![](/wp-content/uploads/tij-gitcloud-general-view-timeline-labels.png)
 
-The red line indicates today's date. If you drag the timeline scrubber, it changes the Activity date range filter. Hence, it will only show issues that have activity in that time frame. For example, dragging the slider to left lets you take a peek on what was worked on in the past few days or yesterday.
+The red vertical line marks today's date. Drag the timeline scrubber to change the activity date range. The view shows only issues with activity in the selected range.
 
-Hover the mouse pointer over the activity bar and it will show details about status changes, and statistics on development changes – for that day. This will display what type of work the team performed on that day.
+To view status changes and development statistics for a specific day, hover over the activity bars.
 
 <img src='/wp-content/uploads/tij-gitcloud-general-view-sprints-section-details.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Click on the **Go to issue** shortcut to take you directly to that Jira issue.
+To open the corresponding Jira issue, click **Go to issue** in the popup.
 
-Scroll the timeline horizontally by using the scrollbar at the bottom. The timeline shows a list of issues based on your selected Issue and Activity filters.
+To scroll the timeline horizontally, use the bottom scrollbar. Results reflect your selected filters.
 
 ![](/wp-content/uploads/tij-gitcloud-general-view-bottom-scroll-bar-loc.png)
 
-Click on an Issue row to expand child issues and view additional information by moving the mouse pointer over the revealed icons.
+To expand child issues, click an issue row. To view details about specific items, hover over their icons.
 
 ![](/wp-content/uploads/tij-gitcloud-issue-view-timeline-row-details.png)
 
-Finally, on the bottom part of the page, you will see the following shortcut controls:
+The following controls appear at the bottom of the page:
 
 | Control | Description |
 |:--------|:------------|
-| **_Displayed items_** | Set how many items per page will be displayed in the list view. |
-| **_Page navigation_** | Shows the page controls to switch across several pages of information views. |
-| **_Today_** | Clicking this button will automatically adjust the slider to today's date. |
-| <img src='/wp-content/uploads/gij-question-mark-icon-32.png' style='height:16px;width:auto;' /> |Clicking this button will show quick helpful tips on how to navigate and use the General, Epics, or Teams view. |
+| **Displayed items** | Sets the number of items per page. |
+| **Page navigation** | Navigates between pages. |
+| **Today** | Jumps to today's date on the timeline. |
+| <img src='/wp-content/uploads/gij-question-mark-icon-32.png' style='height:16px;width:auto;' /> | Displays navigation tips. |
 
 &nbsp;
 
-### Epics view mode
+### Switching to Epics view
 
-Tick the **Show epics** checkbox on the Issue column header to display the list view in Epics mode.
+To switch to Epics mode, select **Show epics** in the Issue column header.
 
 <img src='/wp-content/uploads/tij-gticloud-general-view-epics-mode.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-
-The Epics view contains information that helps to organize the rows by epics. This allows team/product managers to easily expand and view the issues within each epic. While it functions closely similar to the General View, it also provides an additional level of organization based on epics.
+Epics mode groups rows by epic. Expand each epic to view its issues. This mode works like General View but organizes content by epic.
 
 &nbsp;
 
-### Search Functions and Filters
+### Searching and filtering
 
-On the search panel, team/project managers can set the criteria and apply some filters to the search.
+Use the search panel to set criteria and filter results.
 
 ![](/wp-content/uploads/tij-gitcloud-teams-view-search-panel.png)
 
-To find and display items in the list that contain a specific word or text, simply enter the desired search term into the search box. This will allow you to easily locate and view relevant items from the list.
+Enter terms in the search box to find matching items.
 
 &nbsp;
 
-#### Activity filter
+#### Filtering by activity
 
 ![](/wp-content/uploads/tij-gitcloud-teams-view-search-activity-filter.png)
 
-Set **Activity Dates** by choosing the desired interval. Click on the drop-down list to see available intervals which include:
+To set the activity date range, select from the **Activity Dates** dropdown:
 
 *   All Activity - Last 8 weeks
 *   Last 4 weeks
 *   Last 2 weeks
 *   Last 1 week
-*   Custom - Select start date and end date for this filter.
+*   Custom - Set specific start and end dates
 
-For **Filters**, select if you want to:
+Under **Filters**, select the activity types to display:
 
-*   Show Issues with Jira Activity, and/or
-*   Show Issues with Git Activity (requires Git Integration for Jira app installed)
+*   Show Issues with Jira Activity
+*   Show Issues with Git Activity (requires Git Integration for Jira)
 
-You can select one or both. Click **Apply selection** to accept the selected filters.
+Click **Apply selection** to apply your choices.
 
-For **Contributors**, click on the drop-down list to select one or more members for this filter. The default filter is **All**. Utilize the search box to quickly find the team member that you want to select for this filter. Finally, click **Apply selection** to accept the selected members for the contributors filter.
+Under **Contributors**, select members from the dropdown. Default: **All**. Use the search box to locate specific members. Click **Apply selection** to apply.
 
-To reset selection and filter settings click **Clear** on each filter group.
+To reset a filter group, click **Clear**.
 
 &nbsp;
 
-#### Issue filter
+#### Filtering by issue attributes
 
-The Issue Filters allows team/project managers to assign available issue filters to the search. Utilize the search box on each filter to quickly find and select one or more categories. If available, click **Apply selection** to accept the selected filters.
+Narrow results using issue filters. Use search boxes to locate categories within each filter. Click **Apply selection** to apply.
 
 | Category filter | Description |
 |:----------------|:------------|
-| Project | Select one or more projects for the issue filter. |
-| Sprints | Click on the sprints filter to view and select one or more sprints.<br><br>Choose No Sprint if you want to see projects that does not have sprints. |
-| Statuses | Select one or more statuses for the issue filter. |
-| Assignees | Select one or more team members for the issue filter. |
-| Labels | Select one or more labels for the issue filter. |
-| Issue Types | Select one or more issue type for the issue filter. |
-| Versions | Select one or more versions for the issue filter. Displays nothing if no versions are detected. |
-| Priorities | Select one or more priority state for the issue filter. |
-| Components | Select one or more components for the issue filter. Displays nothing if no components are detected. |
+| **Project** | Select one or more projects. |
+| **Sprints** | Select one or more sprints. Select **No Sprint** for unassigned issues. |
+| **Statuses** | Select one or more statuses. |
+| **Assignees** | Select one or more team members. |
+| **Labels** | Select one or more labels. |
+| **Issue Types** | Select one or more issue types. |
+| **Versions** | Select one or more versions. |
+| **Priorities** | Select one or more priority levels. |
+| **Components** | Select one or more components. |
 
 &nbsp;
 
-#### Clear All
+#### Resetting filters
 
-To clear all the selected filters and search settings, click **Clear All**. Some selections and search filters are also reset to default.
+To reset all filters to defaults, click **Clear All**.
 
-With all the selection of filters and search options in place, click **Search** to see the results in the list view according to your preference.
+To apply your filter selections and display results, click **Search**.
 
 &nbsp;
 
@@ -166,9 +165,10 @@ With all the selection of filters and search options in place, click **Search** 
 
 [Teams View](/git-integration-for-jira-cloud/Signals-teams-view-gij-cloud)
 
-[Backlog View](/git-integration-for-jira-cloud/Signals-teams-view-gij-cloud)
+[Backlog View](/git-integration-for-jira-cloud/Signals-backlog-view-gij-cloud)
 
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)
 
-<kbd>Last updated: December 2025</kbd>
+<p>&nbsp;</p>
 
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

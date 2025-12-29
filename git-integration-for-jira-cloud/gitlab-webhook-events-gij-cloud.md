@@ -1,67 +1,59 @@
 ---
-
 title: GitLab webhook events
-description:
+description: Reference documentation for GitLab webhook event types supported by Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-The following are the supported types of GitLab events for triggering webhooks:
+This page documents the GitLab webhook event types that Git Integration for Jira Cloud supports.
 
-## GitLab (Push Events)
+## Push Events
 
-_Type_<br>
-**pushEvents:** `"^push$"`
+| Property | Value |
+|----------|-------|
+| Type | `"^push$"` |
+| Request URI | `/api/1/webhook/reindex/install/<secret_key>/web` |
+| Content-Type | `application/json` |
+| X-GitLab-Event | `Push Hook` |
 
-_Request URI_<br>
-/api/1/webhook/reindex/install/**\<secret\_key\>**/web
+**Payload example:**
 
-_Request headers_<br>
-**Content-type:** `application/json`<br>
-**X-GitHub-Event:** `push hook`
-
-_Request payload example_<br>
 ```json
 {
   "object_kind": "push",
   "project_id": 15,
-  ...
-  "repository":{
+  "repository": {
     "name": "test1",
     "url": "git@example.com:acme/test1.git",
     "description": "",
     "homepage": "http://example.com/acme/test1",
-    "git_http_url":"http://example.com/acme/test1.git",
-    "git_ssh_url":"git@example.com:acme/test1.git",
+    "git_http_url": "http://example.com/acme/test1.git",
+    "git_ssh_url": "git@example.com:acme/test1.git"
   },
-  ...
   "total_commits_count": 4
 }
 ```
 
-## GitLab (Merge Request Events)
+## Merge Request Events
 
-_Type_<br>
-`"^merge_request$"`
+| Property | Value |
+|----------|-------|
+| Type | `"^merge_request$"` |
+| Request URI | `/api/1/webhook/reindex/install/<secret_key>/web` |
+| Content-Type | `application/json` |
+| X-GitLab-Event | `Merge Request Hook` |
 
-_Request URI_<br>
-/api/1/webhook/reindex/install/**\<secret\_key\>**/web
+**Payload example:**
 
-_Request headers_<br>
-**Content-type:** `application/json`<br>
-**X-GitHub-Event:** `merge request hook`
-
-_Request payload example_<br>
 ```json
 {
   "event_type": "merge_request",
-  ...  
+  "object_kind": "merge_request",
   "project": {
     "description": "",
     "git_http_url": "https://gitlab.com/johnsmith/test1.git",
     "git_ssh_url": "git@gitlab.com:johnsmith/test1.git",
-    "url": "git@gitlab.com:ntalalova/test1.git",
+    "url": "git@gitlab.com:johnsmith/test1.git",
     "http_url": "https://gitlab.com/johnsmith/test1.git",
     "name": "test1",
     "default_branch": "master",
@@ -73,26 +65,21 @@ _Request payload example_<br>
     "description": "",
     "url": "git@gitlab.com:johnsmith/test1.git",
     "homepage": "https://gitlab.com/johnsmith/test1"
-  },
-  ... 
-  "object_kind": "merge_request",
-  "labels": []
+  }
 }
 ```
 
-## GitLab (Repository Project Create Events)
+## Project Create Events
 
-_Type_<br>
-**repositoryEvents:** `"^project_create$"`
+| Property | Value |
+|----------|-------|
+| Type | `"^project_create$"` |
+| Request URI | `/api/1/webhook/reindex/install/<secret_key>/web` |
+| Content-Type | `application/json` |
+| X-GitLab-Event | `System Hook` |
 
-_Request URI_<br>
-/api/1/webhook/reindex/install/**\<secret\_key\>**/web
+**Payload example:**
 
-_Request headers_<br>
-**Content-type:** `application/json`<br>
-**X-GitHub-Event:** `system hook`
-
-_Request payload example_<br>
 ```json
 {
   "owner_email": "admin@example.com",
@@ -102,23 +89,21 @@ _Request payload example_<br>
   "path_with_namespace": "root/jsmith_4",
   "name": "JohnSmith_4",
   "project_visibility": "private",
-  "event_name": "project_create",
+  "event_name": "project_create"
 }
 ```
 
- ## GitLab (Repository Project Update Events)
+## Project Update Events
 
-_Type_<br>
-**repositoryEvents:** `"^project_update$"`
+| Property | Value |
+|----------|-------|
+| Type | `"^project_update$"` |
+| Request URI | `/api/1/webhook/reindex/install/<secret_key>/web` |
+| Content-Type | `application/json` |
+| X-GitLab-Event | `System Hook` |
 
-_Request URI_<br>
-/api/1/webhook/reindex/install/**\<secret\_key\>**/web
+**Payload example:**
 
-_Request headers_<br>
-**Content-type:** `application/json`<br>
-**X-GitHub-Event:** `system hook`
-
-_Request payload example_<br>
 ```json
 {
   "owner_email": "admin@example.com",
@@ -128,23 +113,21 @@ _Request payload example_<br>
   "path_with_namespace": "root/jsmith_4",
   "name": "JohnSmith_5",
   "project_visibility": "private",
-  "event_name": "project_update",
+  "event_name": "project_update"
 }
 ```
 
-## GitLab (Repository Project Destroy Events)
+## Project Destroy Events
 
-_Type_<br>
-**repositoryEvents:** `"^project_destroy$"`
+| Property | Value |
+|----------|-------|
+| Type | `"^project_destroy$"` |
+| Request URI | `/api/1/webhook/reindex/install/<secret_key>/web` |
+| Content-Type | `application/json` |
+| X-GitLab-Event | `System Hook` |
 
-_Request URI_<br>
-/api/1/webhook/reindex/install/**\<secret\_key\>**/web
+**Payload example:**
 
-_Request headers_<br>
-**Content-type:** `application/json`<br>
-**X-GitHub-Event:** `system hook`
-
-_Request payload example_<br>
 ```json
 {
   "owner_email": "admin@example.com",
@@ -154,17 +137,17 @@ _Request payload example_<br>
   "path_with_namespace": "root/jsmith_4",
   "name": "JohnSmith_5",
   "project_visibility": "private",
-  "event_name": "project_destroy",
+  "event_name": "project_destroy"
 }
 ```
 
-## Other webhook type events
+&nbsp;
 
-[GitHub webhook events](/git-integration-for-jira-cloud/github-webhook-events)
+## Related Webhook Events
 
-[Microsoft webhook events](/git-integration-for-jira-cloud/microsoft-webhook-events)
+- [GitHub webhook events](/git-integration-for-jira-cloud/github-webhook-events-gij-cloud)
+- [Microsoft webhook events](/git-integration-for-jira-cloud/microsoft-webhook-events-gij-cloud)
+- [AWS CodeCommit webhook events](/git-integration-for-jira-cloud/aws-codecommit-webhook-events-gij-cloud)
+- [Bitbucket webhook events](/git-integration-for-jira-cloud/bitbucket-webhook-events-gij-cloud)
 
-[AWS CodeCommit webhook events](/git-integration-for-jira-cloud/aws-codecommit-webhook-events)
-
-[Bitbucket webhook events](/git-integration-for-jira-cloud/bitbucket-webhook-events)
-
+<kbd>Last updated: December 2025</kbd>

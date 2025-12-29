@@ -1,41 +1,49 @@
 ---
-
 title: Adding webhooks for Gerrit
-description:
+description: Configure webhooks for Gerrit repositories in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-### Introduction
+Webhooks are not built into Gerrit by default. You must install and configure the Gerrit webhook plugin before using webhooks with Git Integration for Jira Cloud.
 
-Webhooks are not configured by default in Gerrit. They are not built into Gerrit just like they are in GitHub, GitLab and etc. Thus, when calling Gerrit webhooks, these won't trigger the reindex of the integration / repositories.
+**On this page:**
+- [Install the webhook plugin](#install-the-webhook-plugin)
+- [Configure webhooks](#configure-webhooks)
+- [Trigger webhooks manually](#trigger-webhooks-manually)
+
+&nbsp;
+* * *
+&nbsp;
+
+## Install the Webhook Plugin
+
+Install Gerrit with the webhook plugin from [https://gerrit.googlesource.com/plugins/webhooks/](https://gerrit.googlesource.com/plugins/webhooks/).
 
 &nbsp;
 
-### Installation
+## Configure Webhooks
 
-To use webhooks with Gerrit, it needs to be configured. For starters, install Gerrit with the webhook plugin by reading at [https://gerrit.googlesource.com/plugins/webhooks/](https://gerrit.googlesource.com/plugins/webhooks/) and the steps below.
-
-**Project (repository) list**
+### List Projects (Repositories)
 
 ```powershell
 curl http(s)://your.org.com:8080/projects/?d
 ```
 
-**Enabled webhooks for the repository, for example, MyTestRepo**
+### Check Enabled Webhooks
 
 ```powershell
 curl http(s)://your.org.com:8080/config/server/webhooks~projects/MyTestRepo/remotes
 ```
 
-**Add webhook for the repository**
+### Add a Webhook
 
 ```powershell
 curl --user username:password -H 'Content-Type: application/json' -X PUT -d @webhook.json http(s)://your.org.com:8080/a/config/server/webhooks~projects/MyTestRepo/remotes/bbb-webhook
 ```
 
-Where `webhook.json`:<br>
+Create a `webhook.json` file:
+
 ```json
 {
    "url" : "https://example.com/webhook/url",
@@ -44,37 +52,44 @@ Where `webhook.json`:<br>
 }
 ```
 
+Replace `https://example.com/webhook/url` with your webhook URL from Git Integration for Jira ➜ **Indexing triggers**.
+
 &nbsp;
 
-### Manually Trigger Webhooks
+## Trigger Webhooks Manually
 
-Create a webhook that can be triggered for any **individual** repository. It can be used with continuous integration service
+Create a webhook trigger for individual repositories. Use this with continuous integration services.
 
-_**Required headers:**_
+### Required Headers
 
-*   'x-bbb-webhook-type': `PUSH`
+| Header | Value |
+|--------|-------|
+| `x-bbb-webhook-type` | `PUSH` |
+| `Content-Type` | `application/json` |
 
-*   'Content-Type': `application/json`
+### Optional Headers
 
-<br>
+| Header | Description |
+|--------|-------------|
+| `x-bbb-webhook-id` | Any string representing the request ID |
 
-_**Optional headers:**_
+### Examples
 
-*   'x-bbb-webhook-id' -- Can be any string representing the id of the request to be used.
-
-<br>
-
-**Usage examples:**
+**Basic request:**
 
 ```powershell
 curl -H 'x-bbb-webhook-type: push' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url
 ```
 
+**Request with ID:**
+
 ```powershell
 curl -H 'x-bbb-webhook-type: push' -H 'x-bbb-webhook-id: id-string' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url
 ```
 
-**Payload.json**
+### Payload Format
+
+Create a `payload.json` file:
 
 ```json
 {  
@@ -82,3 +97,6 @@ curl -H 'x-bbb-webhook-type: push' -H 'x-bbb-webhook-id: id-string' -H 'content-
 }
 ```
 
+Replace `repository-origin` with your repository's origin URL.
+
+<kbd>Last updated: December 2025</kbd>

@@ -13,22 +13,22 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This feature requires Git Integration for Jira app installed to see pull request data in Signals.
+        This feature requires Git Integration for Jira to display pull request data in Signals.
     </div>
     </div>
 </div>
 
-This feature supports pull/merge request (PR/MR) event history and it projects PR/MR reindex data to Signals. The Git Integration for Jira app should be installed to be able to see more details in TIJ tasks and backlog view.
+The pull request timeline feature captures pull/merge request (PR/MR) event history and projects reindex data to Signals. Install Git Integration for Jira to see detailed information in tasks and Backlog View.
 
-For now, only GitHub and GitLab git services are currently supported.
+Currently supported git services: GitHub and GitLab.
 
 &nbsp;
 
-### What happens if these extended permissions are not set?
+### Understanding permission errors
 
-Errors on the reindex will occur. The git host will generate the logs detailing the cause of the error.
+If you do not configure the required extended permissions, reindex errors occur. The git host generates logs that detail the error cause.
 
-Example GitHub generated error log:
+**Example GitHub error log:**
 
 ```json
 {
@@ -40,37 +40,39 @@ Example GitHub generated error log:
 
 &nbsp;
 
-### Permission requirements for project access token
+### Configuring project access token permissions
 
-It is important that Git administrators must set the minimum permission requirements in an organization/group as follows:
-
-#### GitHub org
-
-| Permissions | Description |
-|:-----------------------|:------------|
-| admin:org ➜ **read:org** | Under **admin:org** scope group, enable the **read:org** setting. This grants permission to read org and team membership as well as read org projects. This is required to read information about users with the organization type.<br><img src='/wp-content/uploads/tij-gitcloud-pull-req-timeline-reindex-github-org-setting.png' style='margin:15px auto 0px auto;max-width:100%;display:block;' /> |
-| user ➜ **user:email** | Under **user** scope group, enable the **user:email** setting. This grants read-only access to user email addresses. This is required to read the user's email address information which is then used to match with users from Jira. |
-| user ➜ **read:user** | Optional. This grants read access to all user profile data. |
-| **_read:discussion_** | Optional. This grants read access to team discussions. |
+Git administrators must set these minimum permission requirements in the organization or group settings.
 
 &nbsp;
 
-#### GitLab group
+#### GitHub organization permissions
 
-| Permissions | Description |
-|:------------|:------------|
-| **_Role_** | At least Reporter role. |
-| **_Scope_** | At least read_api scope. |
+| Permission | Description |
+|:-----------|:------------|
+| admin:org ➜ **read:org** | Enable **read:org** under the **admin:org** scope. This grants permission to read organization and team membership along with organization projects. Required to read user information for organization types.<br><img src='/wp-content/uploads/tij-gitcloud-pull-req-timeline-reindex-github-org-setting.png' style='margin:15px auto 0px auto;max-width:100%;display:block;' /> |
+| user ➜ **user:email** | Enable **user:email** under the **user** scope. This grants read-only access to user email addresses. Required to match users with Jira. |
+| user ➜ **read:user** | Optional. Grants read access to all user profile data. |
+| **read:discussion** | Optional. Grants read access to team discussions. |
 
 &nbsp;
 
-### Which permission scopes should be set for GitHub App integration?
+#### GitLab group permissions
 
-Only these two scopes are required for GitHub App integration:
+| Permission | Description |
+|:-----------|:------------|
+| **Role** | Minimum: Reporter role. |
+| **Scope** | Minimum: read_api scope. |
 
-*   **read:org** – Read org and team membership, read org projects, and 
+&nbsp;
 
-*   **user:email** – Access user email addresses (read-only).
+### Setting GitHub App integration scopes
+
+When configuring a GitHub App integration, set these required scopes:
+
+*   **read:org** – Grants permission to read organization and team membership, and organization projects
+
+*   **user:email** – Grants read-only access to user email addresses
 
 &nbsp;
 
@@ -84,4 +86,6 @@ Only these two scopes are required for GitHub App integration:
 
 [Backlog View](/git-integration-for-jira-cloud/Signals-backlog-view-gij-cloud)
 
-<kbd>Last updated: December 2025</kbd>
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

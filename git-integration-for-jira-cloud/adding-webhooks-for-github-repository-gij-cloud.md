@@ -1,10 +1,8 @@
 ---
-
 title: Adding webhooks for GitHub repository
-description:
+description: Configure webhooks for GitHub repositories in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
 <div class="bbb-callout bbb--info">
@@ -13,8 +11,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Pull request webhooks are now supported. <a href='/git-integration-for-jira-cloud/adding-webhooks-for-github-repository-gij-cloud'>See details</a> on this page.<br>
-        <p>Supported webhook events:</p>
+        <b>Supported webhook events:</b>
         <ul style='margin-bottom:0px;'>
             <li>Pushes</li>
             <li>Pull requests</li>
@@ -23,70 +20,80 @@ taxonomy:
     </div>
 </div>
 
-&nbsp;
 <div class="bbb-callout bbb--error">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Before you can proceed with the steps outlined on this guide, indexing triggers must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing Triggers - Getting Started</b></a>.
+        <b>Prerequisite:</b> Enable indexing triggers in the Git Integration for Jira app before proceeding. See <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing Triggers - Getting Started</b></a>.
     </div>
     </div>
 </div>
 
 &nbsp;
 
-### Setup webhooks for GitHub
+## Configure GitHub Webhooks
 
-Configure webhooks by logging in to your GitHub account:
-
-1.  Select a repository.
+1. Log in to your GitHub account and select a repository.
 
     ![](/wp-content/uploads/gij-new-github-webhook-setting-page-c1.png)
 
-2.  Go to the **Settings** tab.
+2. Go to **Settings** ➜ **Webhooks** (sidebar).
 
-3.  On the sidebar, select **Webhooks**.
-
-4.  Click **Add webhook**. The following page is displayed.
+3. Click **Add webhook**.
 
     ![](/wp-content/uploads/gij-web-hooks-github-settings-add-c.png)
 
-5.  Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app ➜ **Indexing triggers** page into the _**Payload URL**_ field.
+4. Configure the webhook:
 
-    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc-2025.png)
+    - **Payload URL**: Paste the Secret URL from Git Integration for Jira ➜ **Indexing triggers** page
+    
+        ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc-2025.png)
+    
+    - **Content type**: Select **application/json**
+    - **Secret**: Enter the Secret key from the Indexing triggers page
 
-    *   Set the _**Content type**_ to **application/json**.
-    *   Enter the **Secret key** into the _**Secret**_ field.
+5. Under **Which events would you like to trigger this webhook?**, select **Just the push event** for commits only.
 
-7.  Select the _**Just the push event**_ option as triggering event. This is the default option when creating a new webhook.
+6. Leave **Active** enabled.
 
-    Leave the **Active** setting as is. Deactivating this option will stop sending event triggers from the selected repository.
-
-8.  Click **Add webhook** to save the new webhook settings.
+7. Click **Add webhook**.
 
 &nbsp;
 
-### Pull request event webhook
+## Enable Pull Request Webhooks
 
-The Git Integration for Jira app supports GitHub pull request webhooks now.
+To receive both commit and pull request events:
 
-You will need to enable two (2) event triggers in your GitHub webhooks configuration _(Repo ➜ Settings ➜ Webhooks)_ for it to work properly.  Under event triggers section, choose _**Let me select individual events**_ and then select both "**Pushes**" and "**Pull request**" triggers instead as outlined above in step **7**.
+1. Go to your repository's **Settings** ➜ **Webhooks**.
 
-<img src='/wp-content/uploads/gij-github-pull-request-event-trigger-webhook.png' style='display:block;margin:25px auto;height:auto;max-width: 100%;' />
+2. Edit your existing webhook or create a new one.
 
-For the figure above:
+3. Under **Which events would you like to trigger this webhook?**, select **Let me select individual events**.
 
-*   **Just the** `push` event – This is the default configuration and this works only for commits.
+4. Enable both **Pushes** and **Pull requests**.
 
-*   **Send me** `everything` – This would send commits/pull requests events but is very verbose. We don't recommend this configuration.
+    ![](/wp-content/uploads/gij-github-pull-request-event-trigger-webhook.png)
 
-*   **Let me select individual events** (`Pushes`/`Pull requests`) – This would work better than the second option and we recommend this configuration.
+5. Click **Update webhook** or **Add webhook**.
 
-<br>
+### Event Trigger Options
 
-Indexing triggers will be automatically registered for each GitHub repository connected to Jira Cloud to instantly index your commits. For this to work, the connecting GitHub user must be the Organization Owner or have repository **ADMIN** rights.
+| Option | Behavior | Recommended |
+|--------|----------|-------------|
+| Just the push event | Commits only | For basic indexing |
+| Send me everything | All events (very verbose) | Not recommended |
+| Let me select individual events | Choose Pushes + Pull requests | Recommended for full functionality |
+
+&nbsp;
+
+## Automatic Webhook Registration
+
+Indexing triggers are automatically registered for each GitHub repository connected to Jira Cloud. For automatic registration to work, the connecting GitHub user must be:
+
+- The Organization Owner, OR
+- Have repository **ADMIN** rights
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -94,7 +101,7 @@ Indexing triggers will be automatically registered for each GitHub repository co
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Indexing triggers for GitHub will be deleted when GitHub integration is disconnected from Git Integration for Jira Cloud.
+        Indexing triggers for GitHub are deleted when you disconnect the GitHub integration from Git Integration for Jira Cloud.
     </div>
     </div>
 </div>
@@ -105,9 +112,9 @@ Indexing triggers will be automatically registered for each GitHub repository co
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Git Integration for Jira app will index only the updated repositories as indicated by the GitHub organization or GitLab group webhook.
+        Git Integration for Jira indexes only the repositories indicated by the GitHub organization webhook, not all repositories.
     </div>
     </div>
 </div>
-<br>
 
+<kbd>Last updated: December 2025</kbd>

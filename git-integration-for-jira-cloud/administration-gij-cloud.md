@@ -1,40 +1,28 @@
 ---
-
-title: Administration GIJ Cloud
-description:
+title: Administration
+description: Administration resources for Git Integration for Jira Cloud including manager permissions, trusted users, and general settings.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-On this page are relevant articles targeted for administrators.
+This section contains administration resources for configuring and managing Git Integration for Jira Cloud.
 
-Click on an article to learn more information for that specific topic.
+## Administration Topics
 
-* * *
+### [Configure Manager Permissions](/git-integration-for-jira-cloud/manager-permissions-gij-cloud)
 
-[Manager permissions](/git-integration-for-jira-cloud/manager-permissions-gij-cloud)
+Delegate Git Integration for Jira app management to non-admin users. Grant specific users the ability to manage integrations without requiring full Jira admin access.
 
-Learn how to dekegate specific users for managing Git Integration for Jira apps features as a Jira administrator.
+### [Manage Trusted Users](/git-integration-for-jira-cloud/trusted-users-gij-cloud)
 
-&nbsp;
+Assign the Trusted role to users who need administrative permissions for the Git Integration app. Trusted users can invite other users and access all app pages.
 
-[Trusted users](/git-integration-for-jira-cloud/trusted-users-gij-cloud)
+### [Configure General Settings](/git-integration-for-jira-cloud/general-settings-gij-cloud)
 
-Learn more about trusted users and their role.
+Adjust performance and feature settings for Git Integration for Jira Cloud through the App settings page.
 
-&nbsp;
+### [Set Up GitLab Server for API Calls](/git-integration-for-jira-cloud/setup-gitlab-server-to-respond-to-incoming-network-api-calls-gij-cloud)
 
+Configure your GitLab server to respond to incoming network API calls and provide correct repository clone links to users.
 
-
-[General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud)
-
-Configure several features of the app within the General settings page.
-
-&nbsp;
-
-[Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-cloud/setup-gitlab-server-to-respond-to-incoming-network-api-calls-gij-cloud)
-
-Learn how to setup GitLab for correct repository clone links to your users.
-
-
+<kbd>Last updated: December 2025</kbd>

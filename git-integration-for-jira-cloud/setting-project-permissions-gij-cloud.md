@@ -1,79 +1,82 @@
 ---
-
 title: Setting Project Permissions
-description:
+description: Configure project permissions to control which Jira projects can access Git integration data and repository content.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
-**What’s on this page:**
-- [Introduction](#introduction)
-- [Instructions for integrations (GitLab, GitHub, etc)](#instructions-for-integrations-gitlab-github-etc)
-(#video-example-2-setting-project-permissions-at-the-repository-level-for-an-existing-gitlab-integration)
-- [Instructions for individual repositories](#instructions-for-individual-repositories)
 
-<p>&nbsp;</p>
+**On this page:**
+- [Understand project permissions](#understand-project-permissions)
+- [Configure permissions for integrations](#configure-permissions-for-integrations)
+- [Configure permissions for individual repositories](#configure-permissions-for-individual-repositories)
+
+&nbsp;
 * * *
-<p>&nbsp;</p>
+&nbsp;
 
-## Introduction
+## Understand Project Permissions
 
-By default - integrations (GitLab, GitHub, etc) and individual repositories are associated with all Jira projects. Jira administrators can limit which Jira projects are associated to integrations or individual repositories.
+By default, integrations (GitLab, GitHub, etc.) and individual repositories associate with all Jira projects. Jira administrators can limit which projects have access to specific integrations or repositories.
 
-**Related Features**
-Associating a Jira project with an integration or repository will limit repository content displaying in:
+### Affected Features
 
-*   **Git Commits** issue tab
+Project associations control which projects display repository content in:
 
-*   **Git Roll Up** issue tab
+- Git Commits issue tab
+- Git Roll Up issue tab
+- Git Source Code issue side panel
+- View all repositories page
+- Repository Browser: Browse page
+- Repository Browser: Commits page
+- Repository Browser: Compare page
+- Create branch issue dialog
+- Create pull/merge request issue dialog
 
-*   **Git Source Code** issue side panel
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Users must have the <b>View Development Tools</b> permission in a Jira project to view Git Integration for Jira content.
+    </div>
+    </div>
+</div>
 
-*   **View all repositories** page
+&nbsp;
 
-*   **Repository Browser: Browse** page
+## Configure Permissions for Integrations
 
-*   **Repository Browser: Commits** page
+Limit which Jira projects can access an integration's repositories:
 
-*   **Repository Browser: Compare** page
+1. Go to **Git** ➜ **Manage Git repositories**.
 
-*   **Create branch issue** dialog
+2. Add a new integration or edit an existing one.
 
-*   **Create pull/merge request** issue dialog
+3. Locate the **Project Permissions** setting.
 
+4. Clear **Associate with all projects**.
 
-Jira users must have the **View Development Tools** permission in the context of a Jira project to view content from the Git Integration for Jira app.
+5. Select one or more Jira projects from the list.
 
-## Instructions for integrations (GitLab, GitHub, etc)
+6. Click **Update** to save your changes.
 
-To limit which Jira projects are associated with an integration's repositories:
+&nbsp;
 
-1.  Navigate to menu Git ➜ **Manage Git repositories**.
+## Configure Permissions for Individual Repositories
 
-2.  Add a new integration or edit existing integration's settings.
+Limit which Jira projects can access a specific repository:
 
-3.  Locate the **Project Permissions** setting.
+1. Go to **Git** ➜ **Manage Git repositories**.
 
-4.  Uncheck **Associate with all projects**.
+2. Add a new repository or edit an existing one.
 
-5.  Select one or more Jira projects (at least one must be selected).
+3. Locate the **Project Permissions** setting.
 
-6.  Click **Update**.
+4. Clear **Associate with all projects**.
 
-## Instructions for individual repositories
+5. Select one or more Jira projects from the list.
 
-To limit which Jira projects are associated for individual repositories:
+6. Click **Update** to save your changes.
 
-1.  Navigate to menu Git ➜ **Manage Git repositories**.
-
-2.  Add a new repository or edit existing repository's settings.
-
-3.  Locate the **Project Permissions** setting.
-
-4.  Uncheck **Associate with all projects**.
-
-5.  Select one or more Jira projects (at least one must be selected).
-
-6.  Click **Update**.
-
-
+<kbd>Last updated: December 2025</kbd>
