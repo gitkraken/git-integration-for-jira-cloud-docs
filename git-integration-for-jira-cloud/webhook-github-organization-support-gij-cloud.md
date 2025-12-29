@@ -1,42 +1,43 @@
 ---
-
 title: Webhook GitHub Organization support
-description:
+description: Configure organization-level webhooks in GitHub to automatically register webhooks for all repositories.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-The Git Integration for Jira app supports GitHub Organization webhooks. Rather than creating a webhook for each repository manually, configure the webhook at the GitHub Organization level to automatically register webhook for each repository.
+Git Integration for Jira supports GitHub Organization webhooks. Configure webhooks at the organization level to automatically register webhooks for all repositories, eliminating the need to create individual webhooks for each repository.
 
 ![](/wp-content/uploads/gij-new-github-org-webhook-settings-page.png)
 
-To configure GitHub organization webhook:
+&nbsp;
 
-1.  Login to your GitHub account and go to your GitHub Organization.
+## Configure GitHub Organization Webhooks
 
-2.  Go to **Settings**.
+1. Log in to GitHub and open your organization.
 
-3.  Under _Organization Settings_, go to **Webhooks**.
+2. Go to **Settings** ➜ **Webhooks** (under Organization Settings).
 
-4.  Click **Add webhook**.
+3. Click **Add webhook**.
 
-5.  Paste the webhook URL into the Payload URL field. (The webhook url is acquired from the Git Integration for Jira Cloud app ➜ Indexing triggers configuration page.)
+4. Get the webhook URL from Jira:
 
-6.  ![](/wp-content/uploads/gij-gitcloud-indexing-trigger-webhook-url-level-1-2025.png)
+    - Go to **Apps** ➜ **Git Integration: Manage integrations** ➜ **Indexing triggers**
+    
+    ![](/wp-content/uploads/gij-gitcloud-indexing-trigger-webhook-url-level-1-2025.png)
 
-    Set the _**Content type**_ to **application/json**.
+5. Paste the webhook URL into the **Payload URL** field.
 
-7.  Select/enable the "Let me select individual events" option:
+6. Set **Content type** to **application/json**.
 
-    1.  Select **Branch or tag deletion**
+7. Select **Let me select individual events** and enable:
 
-    2.  Select **Branch or tag creation**
+    - Branch or tag deletion
+    - Branch or tag creation
+    - Pull requests
+    - Pushes
 
-    3.  Select **Pull requests**
+8. Click **Add webhook**.
 
-    4.  Select **Pushes**
+All repositories in the organization will now send webhook events to Git Integration for Jira.
 
-8.  Click **Add webhook** to complete this setup.
-
-
+<kbd>Last updated: December 2025</kbd>

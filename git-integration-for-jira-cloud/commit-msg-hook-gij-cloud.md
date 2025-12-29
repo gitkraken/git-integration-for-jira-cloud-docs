@@ -1,40 +1,71 @@
 ---
-
 title: Commit-msg Hook
-description:
+description: Configure the commit-msg client-side hook to validate Jira ticket references in commit messages.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-Every developer must have this hook on his local machine in order to:
+The commit-msg hook validates commit messages before they're accepted. Use this client-side hook to ensure all commits reference valid Jira tickets.
 
-*   Commit codes locally several times then pushes it to the server.
+**On this page:**
+- [Understand the commit-msg hook](#understand-the-commit-msg-hook)
+- [Install the hook](#install-the-hook)
+- [Configure the script](#configure-the-script)
+- [Sample script](#sample-script)
 
-*   Merge auto-commits with auto-messages without referencing to a Jira ticket.
+&nbsp;
+* * *
+&nbsp;
 
+## Understand the Commit-msg Hook
 
-The commit-msg hook is a python script file and it must be placed in the developer's local repository as: **`.git/hooks/commit-msg`**.  There is no server-side hook required.
+This hook enables developers to:
 
-The following settings must be configured in the script file:
+- Commit code locally multiple times before pushing to the server
+- Merge auto-commits with auto-messages that don't reference Jira tickets
 
-*   **JIRA\_XMLRPC** -- path to Jira.
-    Example: `https://jira.example.com/rpc/xmlrpc`
+The commit-msg hook is a Python script that runs on each developer's local machine. No server-side hook is required.
 
+&nbsp;
 
-*   **JIRA\_USER**, **JIRA\_PASSWORD** -- developer's credentials.
+## Install the Hook
 
-*   **JIRA\_TICKET\_PATTERN** -- pattern that will search ticket references.
-    Example: `re.compile(r'\[(\w+7-\d+?)\]')`
+1. Download the sample [commit-msg file](https://bigbrassband.com/files/commit-msg.zip).
 
+2. Place the file in your local repository at: **`.git/hooks/commit-msg`**
 
-In Linux and OSX, this file must have executable permissions in the file system; in Windows, setting this permission is not necessary.  To use the hook in Windows without python installed, see [**Python on Windows FAQ »**](https://docs.python.org/2/faq/windows.html#how-do-i-make-an-executable-from-a-python-script).
+3. Set executable permissions (Linux/macOS only):
+   ```bash
+   chmod +x .git/hooks/commit-msg
+   ```
 
-See the commit-msg hook code on the right panel or download the sample [**commit-msg file**](https://bigbrassband.com/files/commit-msg.zip), make the necessary changes, and place it in the required folder.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Windows users:</b> Executable permissions are not required. To run the hook without Python installed, see <a href='https://docs.python.org/2/faq/windows.html#how-do-i-make-an-executable-from-a-python-script'>Python on Windows FAQ</a>.
+    </div>
+    </div>
+</div>
 
-The **commit-msg** hook is a python script file that must be located in the developer's local repository.
+&nbsp;
 
-### **Sample contents of the commit-msg file:**
+## Configure the Script
+
+Edit these settings in the script file:
+
+| Setting | Description | Example |
+|---------|-------------|---------|
+| `JIRA_XMLRPC` | Path to your Jira instance | `https://jira.example.com/rpc/xmlrpc` |
+| `JIRA_USER` | Developer's Jira username | `developer1` |
+| `JIRA_PASSWORD` | Developer's Jira password | `password123` |
+| `JIRA_TICKET_PATTERN` | Regex pattern to find ticket references | `re.compile(r'\[(\w+7-\d+?)\]')` |
+
+&nbsp;
+
+## Sample Script
 
 ```py
 #!/usr/bin/python
@@ -55,16 +86,16 @@ import sys
 import re
 import xmlrpclib
 
-NO_JIRA_TICKET_MESSAGE = \\
-'No Jira ticket present in the commit message. \\
+NO_JIRA_TICKET_MESSAGE = \
+'No Jira ticket present in the commit message. \
 Please include the Jira ticket enclosed in brackets: [ABC-789].'
-INVALID_JIRA_TICKET_MESSAGE = \\
-'Proper Jira ticket syntax was found, but none were valid tickets. \\
+INVALID_JIRA_TICKET_MESSAGE = \
+'Proper Jira ticket syntax was found, but none were valid tickets. \
 Please check the tickets and try again.'
-TOO_MANY_JIRA_TICKETS_MESSAGE = \\
+TOO_MANY_JIRA_TICKETS_MESSAGE = \
 'Only 1 Jira ticket is allowed per commit. Please commit only 1 change at a time.'
-INVALID_ISSUE_TYPE_MESSAGE = \\
-'You may not commit against subtasks or task-splits. \\
+INVALID_ISSUE_TYPE_MESSAGE = \
+'You may not commit against subtasks or task-splits. \
 Please commit against the parent ticket.'
 
 JIRA_XMLRPC = 'https://jira.example.com/rpc/xmlrpc'
@@ -117,3 +148,4 @@ if err_msg:
     sys.exit(1)
 ```
 
+<kbd>Last updated: December 2025</kbd>

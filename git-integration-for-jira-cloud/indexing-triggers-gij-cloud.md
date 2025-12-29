@@ -1,55 +1,41 @@
 ---
-
 title: Indexing Triggers
-description:
+description: Configure indexing triggers (webhooks) to enable real-time repository updates in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-**What’s on this page:**
-
-- [What are indexing triggers and why use them?](#what-are-indexing-triggers-and-why-use-them)
-- [Do I need to set up indexing triggers?](#do-i-need-to-set-up-indexing-triggers)
-- [Getting started](#getting-started)
-- [Where to get the indexing triggers webhook URL?](#where-to-get-the-indexing-triggers-webhook-url)
-- [Setting up indexing triggers (video guide)](#setting-up-indexing-triggers-video-guide)
-- [Levels of Webhook URL](#levels-of-webhook-url)
-  - [Webhook URL: Install level](#webhook-url-install-level)
-  - [Webhook URL: Integration level](#webhook-url-integration-level)
-  - [Webhook URL: Repository level](#webhook-url-repository-level)
+**On this page:**
+- [Understand indexing triggers](#understand-indexing-triggers)
+- [Enable indexing triggers](#enable-indexing-triggers)
+- [Find the webhook URL](#find-the-webhook-url)
+- [Choose a webhook URL level](#choose-a-webhook-url-level)
 
 &nbsp;
 * * *
 &nbsp;
 
+## Understand Indexing Triggers
 
-### What are indexing triggers and why use them?
+Indexing triggers (webhooks) activate immediate reindexing of your repositories from remote systems. Your git server sends near real-time data to Jira when git data changes, providing much faster updates than the default 5-minute polling interval.
 
-Indexing triggers (webhooks) can be an extremely powerful tool that can be configured to activate an immediate re-index of your repositories from remote systems. Your git server can send this near real-time data to Jira when your git data changes. This results in a much faster indexing time where you don’t have to wait for the regular polling interval (see [**General settings**](/git-integration-for-jira-cloud/general-settings-gij-cloud)).
+### Common trigger events
 
-Webhooks can be initiated whenever certain actions are performed. For example, you can configure a webhook to execute when:
+Configure webhooks to execute when:
 
-*   a new commit is pushed
+- A new commit is pushed
+- A pull request is opened
+- A branch is merged
 
-*   a pull request is opened
+You can create indexing triggers for individual repositories, and most git providers support account-level or organization-level webhooks.
 
-*   a branch is merged
+### Why use indexing triggers?
 
-
-You can create indexing triggers for individual repositories. Most git providers will also allow you to create webhooks at an account-level or org-level.
-
-&nbsp;
-
-### Do I need to set up indexing triggers?
-
-By configuring indexing triggers to initiate reindexing, Jira will more often have up-to-date information.
-
-Without setting up indexing triggers, you will be relying on the default polling of the app which is unchangeable by non-Jira administrators. Jira users will have to wait for the default interval for updates (usually 5 minutes) – which means users will not quickly see new commits or pull requests until the next indexing interval.
+Without indexing triggers, Jira relies on default polling (usually 5 minutes). Users must wait for the next interval to see new commits or pull requests. With indexing triggers, Jira receives updates immediately.
 
 &nbsp;
 
-### Getting started
+## Enable Indexing Triggers
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -57,50 +43,61 @@ Without setting up indexing triggers, you will be relying on the default polling
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Important</b><br>
-        To use the indexing triggers feature, it must be enabled in the Manage (Git) repositories ➜ <b>Indexing triggers</b> page.
+        You must enable indexing triggers before using this feature.
     </div>
     </div>
 </div>
 
+1. From your Jira Cloud dashboard, go to **Apps** ➜ **Git Integration: Repository browser**.
 
-Configure indexing triggers to activate immediate reindex of your repositories from remote systems.
-
-1.  From your Jira Cloud dashboard menu, go to Apps ➜ **Git Integration: Repository browser**. (_Alternatively, go to Jira Settings ➜ Apps_).
-
-2.  On the sidebar, click **Indexing triggers**. The following screen is displayed.
+2. Click **Indexing triggers** in the sidebar.
 
     ![](/wp-content/uploads/gij-gitcloud-new-webhooks-settings-page-c-2025.png)
 
-3.  Enable/disable the indexing trigger feature by clicking on the **Indexing triggers enabled** toggle switch.
+3. Click the **Indexing triggers enabled** toggle to enable or disable the feature.
 
 &nbsp;
 
-### Where to get the indexing triggers webhook URL?
+## Find the Webhook URL
 
-The webhooks URL can be accessed on the following locations:
+Access the webhook URL from these locations:
 
-1.  From your Jira Cloud Side Bar, go to Apps ➜ **Git Integration for Jira**. click **Settings**, then **Indexing triggers**
+### From the Indexing Triggers Page
 
-    ![](/wp-content/uploads/gij-gitcloud-indexing-triggers-loc-01c-2025.png)
+Go to **Apps** ➜ **Git Integration for Jira** ➜ **Settings** ➜ **Indexing triggers**.
 
-2.  In the **Manage repository** page of a tracked repository — click on a repository/integration from the git configuration list. Select the "Look for the Webhook URL field.
+![](/wp-content/uploads/gij-gitcloud-indexing-triggers-loc-01c-2025.png)
 
-    ![](/wp-content/uploads/gij-git-cloud-webhook-url-repo-list-loc-c.-01-2025.png)
+### From the Repository List
 
-    ![](/wp-content/uploads/gij-git-cloud-webhook-url-repo-list-loc-c.-02-2025.png)
+1. Go to the **Manage repository** page.
+2. Click a repository or integration.
+3. Find the **Webhook URL** field.
 
-3.  In the Repository Settings page of a repository in a tracked repository or a single connected repository — on the git configuration page, go to <img src='/wp-content/uploads/actions-icon.png' Actions ➜ **Show integration repositories**.
+![](/wp-content/uploads/gij-git-cloud-webhook-url-repo-list-loc-c.-01-2025.png)
 
-<img src='/wp-content/uploads/gij-git-cloud-webhook-url-repo-cfg-tracked-repos-c-2025.png' style='display:block;margin:25px auto 0 auto;max-width:100%' />
+![](/wp-content/uploads/gij-git-cloud-webhook-url-repo-list-loc-c.-02-2025.png)
 
-<img src='/wp-content/uploads/gij-jira-cloud-repo-cfg-view-tracked-repo-dlg-c-2025.png' style='display:block;margin:0 auto 25px auto;max-width:100%' />
+### From Repository Settings
 
-The **Secret Key** is a secure random-generated alphanumeric string at the time of the Git Integration for Jira app installation. The user can change this to a different value by generating another secret token according to your Git host.
+1. Go to the git configuration page.
+2. Click ![](/wp-content/uploads/actions-icon.png) **Actions** ➜ **Show integration repositories**.
 
-Use this key in the form of:
+![](/wp-content/uploads/gij-git-cloud-webhook-url-repo-cfg-tracked-repos-c-2025.png)
 
-https://[your-cloud-domain-url]/api/1/webhook/reindex/install/**\<INSTANCE\_ID\>**/**\<SECRET\_KEY\>**
+![](/wp-content/uploads/gij-jira-cloud-repo-cfg-view-tracked-repo-dlg-c-2025.png)
+
+### URL format
+
+```
+https://[your-cloud-domain-url]/api/1/webhook/reindex/install/<INSTANCE_ID>/<SECRET_KEY>
+```
+
+**Example:**
+
+```
+https://gitforjiracloud.bigbrassband.com/api/1/webhook/reindex/install/x5chdqpqln0j04xcgv02zy7h9/vfTmXtqIFyqeCYYS3WjLIn2RRz5rHSDO
+```
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -108,15 +105,10 @@ https://[your-cloud-domain-url]/api/1/webhook/reindex/install/**\<INSTANCE\_ID\>
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Copy the <b>Webhook URL</b> to the system clipboard by clicking the copy icon adjacent to the right. Use this URL when required by the repository web hooks setting of your git host.
+        Click the copy icon next to the Webhook URL to copy it to your clipboard.
     </div>
     </div>
 </div>
-<br>
-
-**Example**
-Assign your Jira base URL and Secret Key to the example URL structure:
-`https://gitforjiracloud.bigbrassband.com/api/1/webhook/reindex/install/`**x5chdqpqln0j04xcgv02zy7h9**`/`**vfTmXtqIFyqeCYYS3WjLIn2RRz5rHSDO**
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -124,74 +116,53 @@ Assign your Jira base URL and Secret Key to the example URL structure:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>HTTP Method</b><br>
-        All the repositories will be reindexed if the URL specified above is activated through <code>GET</code>, <code>POST</code>, or <code>PUT</code> and the webhooks are enabled.<br><br>
-        There is no support for other HTTP methods such as <code>DELETE</code> or <code>HEAD</code>.
+        <b>Supported HTTP methods:</b> <code>GET</code>, <code>POST</code>, <code>PUT</code><br>
+        <b>Not supported:</b> <code>DELETE</code>, <code>HEAD</code>
     </div>
     </div>
 </div>
 
 &nbsp;
-&nbsp;
 
-### Levels of Webhook URL
+## Choose a Webhook URL Level
 
-There are three (3) levels of webhook url:
+Three webhook URL levels are available:
 
-1.  Install level
+| Level | Scope | Use Case |
+|-------|-------|----------|
+| Install level | All configured repositories | Simplest setup; recommended for most users |
+| Integration level | Repositories within one integration | When you need separate triggers per integration |
+| Repository level | Single repository only | Granular control for specific repositories |
 
-2.  Integration Level
+### Install Level (Recommended)
 
-3.  Repository level
+This default webhook URL triggers events for all configured repositories. It's the easiest to configure.
 
-
-Each level references which webhook URL was utilized to configure the webhook:
-
-&nbsp;
-
-#### Indexing Trigger URL: Install level
-
-This is the default webhook URL that is added upon the installation of the Git Integration for Jira app. For this level, events are triggered for all configured repositories.
-
-We recommend to use this webhook URL because it's generally easy to configure and simple to understand.
-
-**Indexing Trigger access location:**
+**Access location:** Git Integration sidebar ➜ **Indexing triggers**
 
 ![](/wp-content/uploads/gij-gitcloud-indexing-triggers-loc-01c-2025.png)
 
-*   Git Integration sidebar, **Indexing triggers**
+### Integration Level
 
+This webhook URL triggers events only for repositories within a specific integration.
 
-&nbsp;
+**Access location:** Manage integrations page ➜ ![](/wp-content/uploads/actions-icon.png) **Actions** ➜ **Edit integration** ➜ **Feature Settings**
 
-#### Webhook URL: Integration level
+![](/wp-content/uploads/gij-gitcloud-indexing-trigger-webhook-url-level-1-2025.png)
 
-This webhook URL triggers events only for the repositories within that integration.
-
-**Indexing Trigger access location:**
-
-*   Manage integrations page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ Edit integration ➜ **Feature Settings** (sidebar)
-
-    ![](/wp-content/uploads/gij-gitcloud-indexing-trigger-webhook-url-level-1-2025.png)    
-
-*   Manage integrations page ➜ click an integration ➜ **Feature Settings** (sidebar)
+Or: Manage integrations page ➜ click an integration ➜ **Feature Settings**
 
 ![](/wp-content/uploads/gij-gitcloud-indexing-triggers-integration-level-02-2025.png)
 
-&nbsp;
+### Repository Level
 
-#### Indexing Trigger URL: Repository level
+This webhook URL triggers events only for a single repository.
 
-This webhook URL triggers events only for the configured repository.
+**Access location:** Manage repository page ➜ click a repository ➜ **Webhook URL** field
 
-**Indexing Trigger access location:**
+![](/wp-content/uploads/gij-git-cloud-webhook-url-repo-list-loc-c.-01-2025.png)
 
-In the **Manage repository** page of a tracked repository — click on a repository/integration from the git configuration list. Select the "Look for the Webhook URL field.
-
-    ![](/wp-content/uploads/gij-git-cloud-webhook-url-repo-list-loc-c.-01-2025.png)
-
-    ![](/wp-content/uploads/gij-git-cloud-webhook-url-repo-list-loc-c.-02-2025.png)
-<br>
+![](/wp-content/uploads/gij-git-cloud-webhook-url-repo-list-loc-c.-02-2025.png)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -199,10 +170,9 @@ In the **Manage repository** page of a tracked repository — click on a repo
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW UPDATE!</b><br>
-        Repository IDs are extracted from all webhook types (even from the install level ones) and only the repositories specified in the webhook will be indexed. This implementation prevents indexing all repositories in integrations that especially important for large integrations.
+        Repository IDs are extracted from all webhook types (including install level). Only repositories specified in the webhook are indexed, preventing unnecessary indexing of all repositories in large integrations.
     </div>
     </div>
 </div>
 
-
+<kbd>Last updated: December 2025</kbd>

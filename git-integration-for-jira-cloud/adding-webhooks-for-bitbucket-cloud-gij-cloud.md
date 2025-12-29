@@ -1,10 +1,8 @@
 ---
-
 title: Adding webhooks for Bitbucket Cloud
-description:
+description: Configure webhooks for Bitbucket Cloud repositories in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
 <div class="bbb-callout bbb--info">
@@ -13,18 +11,15 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Pull request webhooks are now supported. <a href='/git-integration-for-jira-cloud/adding-webhooks-for-bitbucket-cloud-gij-cloud'>See details</a> on this page.<br>
-        <p>Supported webhook events:</p>
+        <b>Supported webhook events:</b>
         <ul style='margin-bottom:0px;'>
-            <li><i>Repository</i> - Push</li>
-            <li><i>Pull request</i> - Created</li>
-            <li><i>Pull request</i> - Updated</li>
+            <li>Repository - Push</li>
+            <li>Pull request - Created</li>
+            <li>Pull request - Updated</li>
         </ul>
     </div>
     </div>
 </div>
-
-&nbsp;
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -32,64 +27,54 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing triggers - Getting Started</b></a>.
+        <b>Prerequisite:</b> Enable webhooks in the Git Integration for Jira app before proceeding. See <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing triggers - Getting Started</b></a>.
     </div>
     </div>
 </div>
 
 &nbsp;
 
-### Setting up webhooks for Bitbucket Cloud
+## Configure Bitbucket Cloud Webhooks
 
-Configure webhook by logging in to your Bitbucket.
-
-1.  Open a project by clicking on it.
+1. Log in to Bitbucket and open your project.
 
     ![](/wp-content/uploads/gij-webhooks-bitbucket-add-shooks-c.png)
 
-    Click **Repository Settings** then under **WORKFLOW**, select **Webhooks**.
+2. Go to **Repository Settings** ➜ **Webhooks** (under WORKFLOW).
 
-2.  Click **Add webhook** to create a webhook for the repository. The _**Add new webhook**_ screen appears.
+3. Click **Add webhook**.
 
     ![](/wp-content/uploads/gij-webhooks-add-new-whook-bitbucket-dlg-w.png)
 
-    *   **Title** - This is the title name for this webhook.
+4. Configure the webhook:
 
-    *   **URL** - This field accepts the webhook url from your Git Integration for Jira app ➜ **Webhooks** setting.
+    - **Title**: Enter a descriptive name for the webhook
+    - **URL**: Paste the Secret URL from Git Integration for Jira ➜ **Indexing triggers** page
+    
+        ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc-2025.png)
 
-    *   **Triggers** - By default, the trigger for the webhook is a repository push. If you want different actions to trigger the webhook, click _**Choose from a full list of triggers**_. The list of all the webhook trigger event types is displayed.
-        
-        Set the necessary scope depending on your organization access/usage rules. For this guide, choose the following triggers:
+5. Under **Triggers**, select one of these options:
 
-        *   Repository - **Push** (required)
+    **For commits only:**
+    - Select **Repository push**
 
-        *   Pull Request (optional) - select these options to also include the pull request triggers
+    **For commits and pull requests (recommended):**
+    - Click **Choose from a full list of triggers**
+    - Select **Repository** ➜ **Push**
+    - Select **Pull Request** ➜ **Created** and **Updated**
 
-            *   **Created**
-
-            *   **Updated**
-
-3.  Switch to your Jira instance then navigate to **Manage Git repositories** page and then click **Indexing triggers** (_or alternatively go to Jira Settings ➜ Apps. On the sidebar, click Indexing triggers_).
-
-    ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc-2025.png)
-
-    Copy the complete secret key URL mentioned from the paragraph description below the **Secret key** box.
-
-4.  Switch back to Bitbucket (where you left off) and paste this information into the provided **URL** box.
-
-5.  Enter a meaningful **Title** name for this webhook.
-
-6.  For the **Triggers**, if your organization does not require pull request events, select **Repository push**. Otherwise, select _**Choose from a full list of triggers**_ (recommended) and then tick Repository (**Push**) and Pull Request (**Created**, **Updated**).
-
-7.  Click **Save** to complete this setup.
+6. Click **Save**.
 
 &nbsp;
 
-### Pull request webhooks
+## Enable Pull Request Webhooks
 
-The Git Integration for Jira app supports pull request webhooks now.
+For pull request events, configure three separate triggers:
 
-For pull request triggers, you will need to have three (3) separate service hooks configuration for it to work properly. See **step 9**, **second option** for the webhook triggers.
+1. Repository - **Push** (required)
+2. Pull Request - **Created**
+3. Pull Request - **Updated**
 
-<img src='/wp-content/uploads/gij-webhooks-bitbucket-sample.png' style='margin:25px auto;max-width:100%;display:block;' />
+![](/wp-content/uploads/gij-webhooks-bitbucket-sample.png)
 
+<kbd>Last updated: December 2025</kbd>

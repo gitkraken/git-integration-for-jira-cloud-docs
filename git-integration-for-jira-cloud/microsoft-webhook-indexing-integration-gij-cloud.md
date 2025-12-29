@@ -1,10 +1,8 @@
 ---
-
 title: Microsoft webhook indexing integration
-description:
+description: Configure webhook indexing integration for Azure DevOps, Azure Repos, VSTS, or TFS to work with Git Integration for Jira Cloud behind firewalls.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
 <div class="bbb-callout bbb--info">
@@ -13,14 +11,10 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For more information on Webhook indexing:
+        <b>More information:</b>
         <ul style='margin-bottom:0px;margin-top:-8px;'>
-            <li>
-                <a href='/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud'>Webhook Indexing Explainer</a>
-            </li>
-            <li>
-                <a href='/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud'>Feature matrix of Git Integration for Jira Cloud</a>
-            </li>
+            <li><a href='/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud'>Webhook Indexing Explainer</a></li>
+            <li><a href='/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud'>Feature matrix of Git Integration for Jira Cloud</a></li>
         </ul>
     </div>
     </div>
@@ -32,207 +26,138 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        With webhook indexing integration, there’s no need to enable indexing triggers in the git manager configuration page.
+        Webhook indexing integration does not require indexing triggers in the git manager configuration page.
     </div>
     </div>
 </div>
 
+**On this page:**
+- [Video guide](#video-guide)
+- [Connect Microsoft git services to Jira Cloud](#connect-microsoft-git-services-to-jira-cloud)
+- [Configure project-level service hooks](#configure-project-level-service-hooks)
+- [Configure repository-level service hooks](#configure-repository-level-service-hooks)
+- [Post-setup tips](#post-setup-tips)
+- [Supported features](#supported-features)
+
 &nbsp;
-#### Project Level
+* * *
+&nbsp;
+
+## Video Guide
 
 <div class='embed-container embed-container--16-9'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/5ztyu5vu5l?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
 <div align='center' style='margin-top:15px;margin-bottom:35px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/5ztyu5vu5l'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/5ztyu5vu5l'><b>here</b></a> to open in a new tab.</i>
 </div>
 
-### Connect Azure Repos, Azure DevOps, Azure DevOps Server, VSTS or TFS using the Webhook Indexing integration type to Jira Cloud
+&nbsp;
 
-The steps outlined below requires that [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app is already installed on your Jira Cloud instance. Otherwise, install the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app first from the Atlassian Marketplace.
+## Connect Microsoft Git Services to Jira Cloud
 
-1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
+**Prerequisites:** Install the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) app on your Jira Cloud instance.
+
+1. Go to **Apps** ➜ **Git Integration for Jira** ➜ **Settings** ➜ **Manage Integrations**.
 
     ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
 
-
-2.  On the Manage integrations page, click **Add integration**.
+2. Click **Add integration**.
 
     ![](/wp-content/uploads/gij-gitcloud-managed-ui-webhook-idx-setup-2025.png)
 
-
-3.  For the following screen, click **Visual Studio Team Services (VSTS)** to start integration with this git service. If you're using **Azure DevOps Repos**, choose that instead.
+3. Select **Visual Studio Team Services (VSTS)** or **Azure DevOps Repos**.
 
     ![](/wp-content/uploads/https://help.gitkraken.com/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-vsts-2025.png)
 
-4.  On the following screen, click on the **Git service integration** panel for your integration type.
+4. Select the **Webhook indexing** panel.
 
     ![](/wp-content/uploads/gij-gij-gitcloud-managed-ui-webhook-idx-ms-vsts-2025.png)
 
-5.  For this guide, click on the **Webhook indexing** panel to select it.
+    Webhook indexing has limited features but does not require firewall configuration.
 
-    While webhook indexing integration has limited features (such as no branch/pull/merge request creation etc.), this type Git service integration does not require specific configuration behind a firewall.
-
-6.  Click **Add integration** to proceed. The screen below shows the webhook indexing settings for use with the Microsoft Azure Repos / VSTS / TFS git service webhook setup. This also adds the current webhook indexing integration to the manage integration list.
+5. Click **Add integration**. The webhook settings screen appears.
 
     ![](/wp-content/uploads/gij-gitcloud-webhook-indexing-azure-settings-2025.png)
 
-7.  ![](/wp-content/uploads/bbb-alert-20.png) Before clicking **Finish**, make sure to configure webhook for your git service. Use the **Webhook URL** and the **Secret key** then **follow the steps below** for repository level or organization level webhook setup.
+6. **Do not click Finish yet.** Copy the **Webhook URL** and **Secret key**, then configure service hooks in Microsoft using the steps below.
 
 &nbsp;
 
-#### Microsoft service hook setup (PROJECT LEVEL)
+## Configure Project-Level Service Hooks
 
-<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>PROJECT LEVEL</b>
+1. Open your Microsoft project.
 
-Open a new browser tab and login to your Microsoft web portal to setup webhook triggers for the selected _**project**_. Configure a webhook on your git service by performing the following steps:
+    ![](/wp-content/uploads/gij-gitcloud-ms-azure-project-sel.png)
 
-![](/wp-content/uploads/gij-gitcloud-ms-azure-project-sel.png)
-
-1.  On your Microsoft web portal, open a project to work on.
+2. Go to **Project Settings** ➜ **Service hooks**.
 
     ![](/wp-content/uploads/gij-gitcloud-ms-azure-project-cfg-srv-hooks.png)
 
-2.  On the sidebar, go to **Project Settings**.
-
-3.  Click **Service hooks**. The service hooks configuration page is displayed.
-
-4.  Click **Create subscription** (_If there are existing configuration in the list, click_ ![](/wp-content/uploads/gij-icon-add.png) _to add a new subscription instead_). The Service hook wizard is displayed.
+3. Click **Create subscription** (or ![](/wp-content/uploads/gij-icon-add.png) if subscriptions already exist).
 
     ![](/wp-content/uploads/gij-gitcloud-ms-azure-svc-hook-wiz-01.png)
 
-5.  Select a service to integrate with by scrolling down to **Web Hooks**, click on it then click **Next**. The Trigger screen is displayed.
+4. Select **Web Hooks** and click **Next**.
 
     ![](/wp-content/uploads/gij-ms-azure-svc-hooks-trigger-screen.png)
 
-6.  Select an event to trigger on and configure any filters. We recommend to setup the following three (3) event triggers in separate webhook subscriptions:
+5. Create three separate subscriptions for these events:
 
-    i.  Code pushed
+    | Event | Purpose |
+    |-------|---------|
+    | Code pushed | Indexes commits and branches |
+    | Pull request created | Indexes new pull requests |
+    | Pull request updated | Indexes pull request changes |
 
-    ii.  Pull request created
-
-    iii.  Pull request updated
-
-7.  Set all **FILTERS** to any then click **Next** to continue. The Action screen is displayed.
-
-    ![](/wp-content/uploads/gij-ms-azure-svc-hooks-actions-screen.png)
-
-    a.  On the Settings - **URL** box, paste the **Webhook URL** that you got from the webhook indexing integration (_settings screen with the Finish button_).
-
-    b.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> On the Settings - **Basic authentication password** box, paste the the **Secret key** from the previous section.
-
-8.   Review your service hook setup and we recommend to test your settings. For example, test **Code push** event and **Pull request** events if it fails or succeeds.
-
-    ![](/wp-content/uploads/gij-ms-azure-test-notification.png)
-
-    If it returns no errors, click **Finish** on this subscription wizard to save the service hook configuration.
-
-9.  The service hook configuration is added to the service hook list.
-
-    ![](/wp-content/uploads/gij-ms-azure-svc-hooks-cfg-list.png)
-
-10. Create subscriptions for **Pull request created** and **Pull request updated** with the steps outlined in [Microsoft service hook setup **PROJECT LEVEL**](#microsoft-service-hook-setup-project-level).
-
-&nbsp;
-
-<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> After you’re done setting up the service hook with your git service (Microsoft), switch to the Jira Cloud browser tab where you left off. Click <b>Finish</b> to complete this setup.
-
-&nbsp;
-
-#### Microsoft service hook setup (REPOSITORY LEVEL)
-
-<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>REPOSITORY LEVEL</b>
-
-Open a new browser tab and login to your Microsoft web portal to setup webhook triggers for the selected _**repository**_. Do the steps similar to the project level setup but choose a repository instead (see **step 7 below**).
-
-![](/wp-content/uploads/gij-gitcloud-ms-azure-project-sel.png)
-
-1.  On your Microsoft web portal, open a project to work on.
-
-    ![](/wp-content/uploads/gij-gitcloud-ms-azure-project-cfg-srv-hooks.png)
-
-2.  On the sidebar, go to **Project Settings**.
-
-3.  Click **Service hooks**. The service hooks configuration page is displayed.
-
-4.  Click **Create subscription** (_If there are existing configuration in the list, click_ ![](/wp-content/uploads/gij-icon-add.png) _to add a new subscription instead_). The Service hook wizard is displayed.
-
-    ![](/wp-content/uploads/gij-gitcloud-ms-azure-svc-hook-wiz-01.png)
-
-5.  Select a service to integrate with by scrolling down to **Web Hooks**, click on it then click **Next**. The Trigger screen is displayed.
-
-    ![](/wp-content/uploads/gij-ms-azure-svc-hooks-trigger-repo-level-repo-sel.png)
-
-6.  Select an event to trigger on and configure any filters. We recommend to setup the following three (3) event triggers in separate webhook subscriptions:
-
-    1.  Code pushed
-
-    2.  Pull request created
-
-    3.  Pull request updated
-
-7.  Set all **FILTERS** to any then click **Next** to continue. The Action screen is displayed.
+6. Set all **FILTERS** to **Any** and click **Next**.
 
     ![](/wp-content/uploads/gij-ms-azure-svc-hooks-actions-screen.png)
 
-    a.  On the Settings - **URL** box, paste the **Webhook URL** that you got from the webhook indexing integration (_settings screen with the Finish button_).
+7. Configure the action:
 
-    b.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> On the Settings - **Basic authentication password** box, paste the the **Secret key** from the previous section.
+    a. Paste the **Webhook URL** in the **URL** box.
 
-8.   Review your service hook setup and we recommend to test your settings. For example, test **Code push** event and **Pull request** events if it fails or succeeds.
+    b. Paste the **Secret key** in the **Basic authentication password** box. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b>
+
+8. Test the configuration.
 
     ![](/wp-content/uploads/gij-ms-azure-test-notification.png)
 
-    If it returns no errors, click **Finish** on this subscription wizard to save the service hook configuration.
-
-9.  The service hook configuration is added to the service hook list.
+9. Click **Finish** to save.
 
     ![](/wp-content/uploads/gij-ms-azure-svc-hooks-cfg-list.png)
 
-10. Create subscriptions for **Pull request created** and **Pull request updated** with the steps outlined in [Microsoft service hook setup **REPOSITORY LEVEL**](#microsoft-service-hook-setup-repository-level).
+10. Repeat steps 3-9 for each event type.
+
+11. Return to Jira and click **Finish**.
 
 &nbsp;
 
-<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> After you’re done setting up the service hook with your git service (Microsoft), switch to the Jira Cloud browser tab where you left off. Click <b>Finish</b> to complete this setup.
+## Configure Repository-Level Service Hooks
+
+Follow the same steps as project-level setup, but select a specific repository in step 6 instead of **Any**.
+
+![](/wp-content/uploads/gij-ms-azure-svc-hooks-trigger-repo-level-repo-sel.png)
 
 &nbsp;
 
-### Post webhook setup tips
+## Post-Setup Tips
 
-*   If you see any issues with the newly added service hook, verify that the **Webhook URL** from the Microsoft webhook indexing page is copied and pasted properly to the **URL** box in the Service hook wizard. Edit the these settings and try again.
+- If service hooks fail, verify the **URL** and **Basic authentication password** settings.
+- Find **Webhook URL** and **Secret key** in **Actions** ➜ **Edit integration**.
+- <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> Repositories appear only after triggering push or pull request events.
 
-*   Edit integration settings via **Actions** on the Manage Git repository page. In here, you will find **Webhook URL** and **Secret key** for use with service hook setup with your Microsoft git service.
+### Link Commits to Jira Issues
 
-*   <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b> The events are detected only after the Webhook indexing integration. If you see no repositories in the Manage repositories page, make sure to trigger either the push (commit) or pull/merge request events of the working repository.
+To display commits in Jira, include the Jira issue key in your commit messages. See [Linking git commits to Jira issues](/git-integration-for-jira-cloud/how-to-link-commits-branches-and-pull-requests-to-a-jira-issue-gij-cloud).
 
-### How to link commits, branches and pull requests to a Jira issue?
+&nbsp;
 
-Make a commit if you don’t see commits in the Git Commits tab of an associated Jira issue.
+## Supported Features
 
-For information on this topic, see [Linking git commits, associating branches and pull requests to a Jira issue](/git-integration-for-jira-cloud/how-to-link-commits-branches-and-pull-requests-to-a-jira-issue-gij-cloud).
-
-### Git Roll Up tab
-
-The Git Roll Up tab is now supported for MS VSTS/Azure webhook indexing integration.
-
-<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>NOTE!</b> MS VSTS/Azure doesn't provide information about changed files. It provides only commit message and hashes, dates and author information.
-
-### Limited features for Microsoft webhook indexing integration
-
-The feature table displays the supported git features for the selected git server. For more information, see [Feature matrix for Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud/).
-
-![](/wp-content/uploads/gij-gitcloud-webhook-indexing-compare-vs-full-gitlab.png)
-
-#### Works with git servers behind firewall
-
-The webhooks indexing integration limits the features available. However, networks hosting git do not need to be updated to allow incoming requests as long as outbound requests can be made. See [Webhook Indexing explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud) for more information.
-
-#### ![](/wp-content/uploads/gij-check.png) View commits, branches, pull requests in Jira
-
-Commits, branches, pull requests are visible in the **Jira Development Information** panel as well as in the **Git Commits issue** tab and **Git Integration** side panel of the Jira issue. Jira administrators can regulate access to these displays using the _View development tools_ permission.
-
-![](/wp-content/uploads/gij-gitcloud-jira-issue-git-commits-tab-wh-idx-azure.png)
+The Git Roll Up tab is supported for Microsoft webhook indexing integration.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -240,81 +165,38 @@ Commits, branches, pull requests are visible in the **Jira Development Informati
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Jira issue Git Roll Up tab</b><br>
-        With Microsoft webhook indexing integration, the Git Roll Up tab only provides commit message and hashes, dates and author information. It does not offer information about changed files.
+        Microsoft webhooks provide commit messages, hashes, dates, and author information only. Changed file information is not available.
     </div>
     </div>
 </div>
 
-&nbsp;
+| Feature | Status |
+|---------|--------|
+| Works behind firewall | ![](/wp-content/uploads/gij-check.png) Supported |
+| View commits, branches, pull requests | ![](/wp-content/uploads/gij-check.png) Supported |
+| View tags | Coming soon |
+| Automation for Jira triggers | ![](/wp-content/uploads/gij-check.png) Supported |
+| Smart Commits | ![](/wp-content/uploads/gij-check.png) Supported |
+| Repository Browser | ![](/wp-content/uploads/gij-check.png) Supported |
+| Create branches/PRs in Jira | ![](/wp-content/uploads/gij-error.png) Not supported |
+| View source code | ![](/wp-content/uploads/gij-error.png) Not supported |
+| Full repository history | ![](/wp-content/uploads/gij-error.png) Not supported |
 
-#### View tags in Jira
+**Automation triggers supported:**
+- Commit created
+- Branch created
+- Pull request created
+- Pull request declined
+- Pull request merged
 
-<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b>
-
-&nbsp;
-
-#### ![](/wp-content/uploads/gij-check.png) Support for Automation for Jira + Smart Commits
-
-**Automation for Jira** - the following triggers are supported:
-
-1.  `Commit created`
-
-2.  `Branch created`
-
-3.  `Pull request created`
-
-4.  `Pull request declined`
-
-5.  `Pull request merged`
-
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Smart Commits:</b><br>
-        Atlassian’s Smart Commits are enabled by default. Additional Smart Commit commands are available. See <a href='/git-integration-for-jira-cloud/smart-commits-gij-cloud'>Smart Commits</a> for more information.
-    </div>
-    </div>
-</div>
+For complete feature details, see [Feature matrix](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud).
 
 &nbsp;
 
-#### ![](/wp-content/uploads/gij-check.png) Repository Browser
+## Related Articles
 
-The Repository Browser allows users to view commits in git repositories by branch1. Users can manually link and unlink commits to Jira issues2.
+- [GitHub webhook indexing integration](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud)
+- [GitLab webhook indexing integration](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud)
+- [Gerrit webhook indexing integration](/git-integration-for-jira-cloud/gerrit-webhook-indexing-integration-gij-cloud)
 
-*   Click a git repository on the **View all repositories** page to start from here.
-
-![](/wp-content/uploads/gij-gitcloud-wh-idx-repo-browser-sel-2025.png)
-
-#### ![](/wp-content/uploads/gij-error.png) Create branches and pull requests in Jira
-
-This feature is not supported with webhook indexing integration. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud)
-
-#### Support for large number of commits in git pushes
-
-Git servers may truncate how much of the activity is captured in a webhook on large git push events resulting in some git activity. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud).
-
-#### ![](/wp-content/uploads/gij-error.png) Indexing full repository history
-
-Webhook indexing integration will only show new commit/branch/pull request activity once webhooks are configured on the git server according to this wizard. For more information, see [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud).
-
-#### ![](/wp-content/uploads/gij-error.png) View source code in Jira
-
-Webhook indexing integration does not have this option as webhooks do not contain source code.
-
-&nbsp;
-
-### Other supported webhook indexing integration articles
-
-[GitHub webhook indexing integration](/git-integration-for-jira-cloud/github-webhook-indexing-integration-gij-cloud)
-
-[GitLab webhook indexing integration](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud)
-
-**Microsoft webhook indexing integration** (this page)
-
-_Gerrit webhook indexing integration (Coming soon)_
-
+<kbd>Last updated: December 2025</kbd>

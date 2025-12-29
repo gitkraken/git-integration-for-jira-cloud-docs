@@ -1,10 +1,8 @@
 ---
-
 title: Adding webhooks for GitLab repository
-description:
+description: Configure webhooks for GitLab repositories in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
 <div class="bbb-callout bbb--tip">
@@ -13,10 +11,9 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Merge request webhooks are now supported. <a href='/git-integration-for-jira-cloud/adding-webhooks-for-gitlab-repository-gij-cloud'>See details</a> on this page.<br>
-        <p>Supported webhook events:</p>
+        <b>Supported webhook events:</b>
         <ul style='margin-bottom:0px !important'>
-            <li>Push events</lI>
+            <li>Push events</li>
             <li>Merge request events</li>
         </ul>
     </div>
@@ -29,13 +26,10 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Git Integration for Jira Cloud app now supports <b>GitLab System Hooks</b> (menu Admin Area ➜ System Hooks ➜ <i>Merge Request events</i>). However, it is only available for self-hosted GitLab instances. We highly recommend that Jira administrators should use this feature as it greatly reduces the amount of configuration time to setup webhooks.
+        <b>GitLab System Hooks:</b> For self-hosted GitLab instances, use System Hooks (Admin Area ➜ System Hooks ➜ Merge Request events) to reduce configuration time.
     </div>
     </div>
 </div>
-<br>
-<br>
-
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -43,42 +37,49 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira Cloud instance. For more details, see <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing Triggers - Getting Started</b></a>.
+        <b>Prerequisite:</b> Enable webhooks in the Git Integration for Jira app before proceeding. See <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing Triggers - Getting Started</b></a>.
     </div>
     </div>
 </div>
 
 &nbsp;
 
-### Setting up webhooks for GitLab
+## Configure GitLab Webhooks
 
-Configure webhook by logging in to your GitLab account:
+1. Log in to your GitLab account and select a repository.
 
-1.  Select a repository.
+    ![](/wp-content/uploads/gij-web-hooks-gitlab-settings-c.png)
 
-    <img src='/wp-content/uploads/gij-web-hooks-gitlab-settings-c.png' width=647 height=341 style='margin:25px 0' />
+2. Go to **Settings** ➜ **Webhooks** (sidebar).
 
-2.  Go to the settings page by clicking **Settings** on the sidebar.
+    ![](/wp-content/uploads/gij-web-hooks-gitlab-settings-add-c.png)
 
-3.  Select **Webhooks**. The following page is displayed.
+3. Configure the webhook:
 
-    <img src='/wp-content/uploads/gij-web-hooks-gitlab-settings-add-c.png' width=584 height=867 style='margin:25px 0' />
+    - **URL**: Paste the Secret URL from Git Integration for Jira ➜ **Webhooks** page
+    
+        ![](/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc-2025.png)
 
-4.  Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app ➜ **Webhooks** page into the _**Payload URL**_ field.
+4. Under **Trigger**, select **Push events** (default option).
 
-    <img src='/wp-content/uploads/gij-gitcloud-gitmgr-indexing-triggers-url-link-loc-2025.png' width=646 height=430 style='margin:25px 0' />
-
-5.  Select the _**Push events**_ as a triggering event option. This is the default option when creating a new webhook.
-
-6.  Click **Add webhook** to save the new webhook settings.
+5. Click **Add webhook**.
 
 &nbsp;
 
-### Merge request event webhook
+## Enable Merge Request Webhooks
 
-The Git Integration for Jira app supports GitLab merge request webhooks now.
+To receive both push and merge request events:
 
-You will need to enable two (2) event triggers in your GitLab webhooks configuration _(Repo ➜ Settings ➜ Webhooks)_ for it to work properly. Select both "**Push events**" and "**Merge request events**" triggers as outlined above in **step** **5**.
+1. Go to your repository's **Settings** ➜ **Webhooks**.
 
-<img src='/wp-content/uploads/gij-gitlab-merge-request-event-trigger-webhook.png' width=648 height=173 style='margin:25px 0;max-width:100%;display:block' />
+2. Edit your existing webhook or create a new one.
 
+3. Select both triggers:
+    - **Push events**
+    - **Merge request events**
+
+    ![](/wp-content/uploads/gij-gitlab-merge-request-event-trigger-webhook.png)
+
+4. Click **Add webhook** or **Save changes**.
+
+<kbd>Last updated: December 2025</kbd>
