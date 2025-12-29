@@ -1,35 +1,42 @@
 ---
-
 title: How to Create Reindex Triggers for a Single Repository
 description: Create webhook triggers to reindex a single repository in Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
-To create a webhook that triggers the reindex of a single repository, the following requirements are required::
 
-1. The **`git_http_url`** matches the **Repository Origin** URL from the Jira git configuration page (**Git** \> **Manage repositories** \> **Actions** \> **Edit integration settings**).
+Create a webhook that triggers reindexing for a specific repository by following these requirements.
 
-2. The **Content-Type** request header is set to **application/json**.
+## Requirements
 
-3\. Use the webhook secret key from the git configuration page > **Webhooks**.
+Your webhook must meet these criteria:
 
-The webhook is a POST request with the following JSON body:
+1. The **`git_http_url`** in the request body must match the **Repository Origin** URL from your Jira git configuration (**Git** ➜ **Manage repositories** ➜ **Actions** ➜ **Edit integration settings**).
 
-```diff
+2. Set the **Content-Type** request header to **application/json**.
+
+3. Include the webhook secret key from your git configuration page (**Webhooks** section).
+
+## Configure the Webhook
+
+Send a POST request with this JSON body structure:
+
+```json
 {
-  "repository":
-    { "git_http_url": "https://gitlab.com/bbb-dev/bbb-testrepo.git" }
+  "repository": {
+    "git_http_url": "https://gitlab.com/your-org/your-repo.git"
+  }
 }
 ```
 
-**For example:**
+Replace `https://gitlab.com/your-org/your-repo.git` with your actual repository URL.
+
+**Example request:**
 
 ![](https://bigbrassband.com/images/bbb/webhook-reindex-post-api-json.png)
 
-**Result:**
+## Verify the Result
 
-The repository enters the indexing queue in the **Git** > **Manage git repositories** configuration page.
+After sending the webhook request, the repository enters the indexing queue. You can verify this on the **Git** ➜ **Manage git repositories** page.
 
 <kbd>Last updated: December 2025</kbd>
-

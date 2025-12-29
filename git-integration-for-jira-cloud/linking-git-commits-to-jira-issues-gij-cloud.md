@@ -1,32 +1,26 @@
 ---
-
 title: Linking git commits to Jira issues
 description: How to link Git commits, branches, and pull requests to Jira issues
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-To link your Git commit to a Jira issue, include the issue key in the commit message.
-
-&nbsp;
+Link your git commits to Jira issues by including the issue key in the commit message.
 
 **On this page:**
-- [How commit linking works](#how-commit-linking-works)
-- [Best practices for linking](#best-practices-for-linking)
-- [Associating git commits manually to Jira issues](#associating-git-commits-manually-to-jira-issues)
-- [How to link branches to a Jira issue](#how-to-link-branches-to-a-jira-issue)
-- [How to link pull or merge requests to a Jira issue](#how-to-link-pull-or-merge-requests-to-a-jira-issue)
+- [Understand commit linking](#understand-commit-linking)
+- [Follow best practices for linking](#follow-best-practices-for-linking)
+- [Associate commits manually](#associate-commits-manually)
+- [Link branches to a Jira issue](#link-branches-to-a-jira-issue)
+- [Link pull or merge requests to a Jira issue](#link-pull-or-merge-requests-to-a-jira-issue)
 
 &nbsp;
-
 * * *
-
 &nbsp;
 
-## How Commit Linking Works
+## Understand Commit Linking
 
-Commits are selected by issue key. Add issue keys to commit messages every time you commit.
+Git Integration for Jira selects commits by issue key. Include issue keys in your commit messages every time you commit.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -34,15 +28,14 @@ Commits are selected by issue key. Add issue keys to commit messages every time 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For example, the <b>"PRJ-50 fixed issue"</b> comment – this assumes that you have configured a Jira project with the key <b>'PRJ'</b> and someone has created the issue <b>#50</b> within this project.
+        <b>Example:</b> The commit message <b>"PRJ-50 fixed issue"</b> links to issue #50 in the PRJ project. This assumes you have a Jira project with the key "PRJ" and someone created issue #50 within that project.
     </div>
     </div>
 </div>
 
 <img src='/wp-content/uploads/gij-gitcloud-git-commits-commits-info.png' style='margin-top:25px auto;max-width:100%;display:block;' />
 
-<div style='margin-top:10px'><i>Example Git commit message: <b>"TEST-1 Update..."</b><br>
-In this case, <b>"TEST-1"</b> is the issue key linking the commit message to the Jira issue.</i></div>
+<div style='margin-top:10px'><i>Example: The commit message <b>"TEST-1 Update..."</b> links to Jira issue TEST-1.</i></div>
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -50,16 +43,18 @@ In this case, <b>"TEST-1"</b> is the issue key linking the commit message to the
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Commits that are part of non-master branches are included only if the master branch doesn't have them.
+        Commits from non-master branches appear only if the master branch does not contain them.
     </div>
     </div>
 </div>
 
 &nbsp;
 
-## Best Practices for Linking
+## Follow Best Practices for Linking
 
-When working with sub-tasks, include both the parent and sub-task Jira issue keys in the commit message. This displays the commit in both places and prevents sub-task commits from getting lost among parent issue commits.
+When working with sub-tasks, include both the parent and sub-task issue keys in your commit message. This approach:
+- Displays the commit in both places
+- Prevents sub-task commits from getting lost among parent issue commits
 
 <img src='/wp-content/uploads/gij-gitcloud-git-commit-commit-sel-subtask.png' style='margin:25px auto' />
 
@@ -69,18 +64,18 @@ When working with sub-tasks, include both the parent and sub-task Jira issue key
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The maximum commit message length limit is <b>8,000 characters</b>.
+        The maximum commit message length is <b>8,000 characters</b>.
     </div>
     </div>
 </div>
 
-Git Integration for Jira supports commits using the old Jira key after a project rename (Example: `TEST-16` to `PROJ-16`).
+### Support for Renamed Projects
 
-Two scenarios relate to the rename/move:
+Git Integration for Jira supports commits that use the old Jira key after a project rename (for example, `TEST-16` to `PROJ-16`).
 
-*   The Jira project key was renamed and the commit message contains the old key prior to installing Git Integration for Jira.
-
-*   The Jira issue was moved from one project to another project and the message contains the old key prior to installing Git Integration for Jira.
+Two scenarios apply after a rename or move:
+- The Jira project key was renamed and the commit message contains the old key (from before you installed Git Integration for Jira)
+- A Jira issue was moved to another project and the message contains the old key (from before you installed Git Integration for Jira)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -88,19 +83,16 @@ Two scenarios relate to the rename/move:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Jira Activity Stream</b><br>
-        Only commits linked to Jira issues appear in the Jira Activity Stream (not all commits in repositories).
+        <b>Jira Activity Stream:</b> Only commits linked to Jira issues appear in the Activity Stream—not all commits from connected repositories.
     </div>
     </div>
 </div>
 
 &nbsp;
-
 * * *
-
 &nbsp;
 
-## Associating Git Commits Manually to Jira Issues
+## Associate Commits Manually
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -108,42 +100,49 @@ Two scenarios relate to the rename/move:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The process steps in this section apply to Jira Cloud instances with Git Integration for Jira installed.
+        These steps apply to Jira Cloud instances with Git Integration for Jira installed.
     </div>
     </div>
 </div>
 
-To manually link a git commit to a Jira issue, access the **Change commit issues** feature from the following locations:
+Access the **Change commit issues** feature from two locations:
 
-*   Issue page ➜ **Git Commits** tab ➜ click _View Full Commit_. Click the ![edit](/wp-content/uploads/gij-edit-icon-dark.png) icon to modify commit associations.
+**From the Issue Page:**
+1. Open the issue page.
+2. Go to the **Git Commits** tab.
+3. Click **View Full Commit**.
+4. Click the ![edit](/wp-content/uploads/gij-edit-icon-dark.png) icon to modify associations.
 
-    ![](/wp-content/uploads/gij-gitcloud-view-full-commit-issue-page-sel.png-2025.png)
+![](/wp-content/uploads/gij-gitcloud-view-full-commit-issue-page-sel.png-2025.png)
 
-*   Jira dashboard menu Apps ➜ **Git Integration: Repository browser** ➜ click a repository _with git commits_. Click the ![edit](/wp-content/uploads/gij-edit-icon-dark.png) icon on the commit in the repository view.
+**From the Repository Browser:**
+1. Go to **Apps** ➜ **Git Integration: Repository browser**.
+2. Click a repository that contains commits.
+3. Click the ![edit](/wp-content/uploads/gij-edit-icon-dark.png) icon on the commit you want to modify.
 
-    ![](/wp-content/uploads/gij-gitcloud-repo-browser-assoc-sel-with-browse-2025.png)
+![](/wp-content/uploads/gij-gitcloud-repo-browser-assoc-sel-with-browse-2025.png)
 
-### Method 1: Using the Dropdown
+### Method 1: Use the Dropdown
 
 <img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-dropdown-2025.png' style='margin:25px auto 35px auto;display:block;' />
 
-Add, edit, or delete linked Jira issue keys in the _**Associated issues to commit**_ field:
-
-*   Click the dropdown arrow and select a Jira issue from the list.
-*   The selected Jira issue is associated to the currently configured commit.
-*   Repeat the same process to associate one or more Jira issues.
-*   Click **X** to remove selected commit association(s).
+1. Click the dropdown arrow in the **Associated issues to commit** field.
+2. Select a Jira issue from the list.
+3. Repeat to associate additional issues.
+4. Click **X** next to an issue to remove that association.
+5. Click **Save** to apply changes.
 
 ### Method 2: Type to Search
 
 <img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-typetext-2025.png' style='margin:25px auto 35px auto;display:block;' />
 
-*   Type a Jira issue key or a word from a Jira issue summary and the list displays matching results.
-*   Click a Jira issue from the list to associate it to the currently configured commit.
-*   Repeat the same process to associate one or more Jira issues.
-*   Click **X** to remove selected commit association(s).
+1. Type a Jira issue key or a word from an issue summary.
+2. Select a matching issue from the results.
+3. Repeat to associate additional issues.
+4. Click **X** next to an issue to remove that association.
+5. Click **Save** to apply changes.
 
-Click **Save** to save the changes.
+### Association Permissions
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -151,7 +150,7 @@ Click **Save** to save the changes.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Jira administrators can add/remove any association(s).
+        Jira administrators can add or remove any associations.
     </div>
     </div>
 </div>
@@ -162,7 +161,7 @@ Click **Save** to save the changes.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Project administrators can add/remove any association(s) in that project.
+        Project administrators can add or remove associations within their projects.
     </div>
     </div>
 </div>
@@ -173,16 +172,18 @@ Click **Save** to save the changes.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The authors of the commit can add/remove the association if they have the View Development Tools access.
+        Commit authors can add or remove their own associations if they have <b>View Development Tools</b> access.
     </div>
     </div>
 </div>
 
-If the commit is associated with multiple Jira issues, you see the following:
+### Multiple Associations
+
+If a commit is associated with multiple Jira issues, you see all linked issues in the dialog:
 
 <img src='/wp-content/uploads/gij-gitcloud-assoc-commits-dlg-multiple-2025.png' style='margin:25px auto 35px auto;display:block;' />
 
-In the above example, the selected commit is associated with Jira issues `TEST-1` and `TEST-4`.
+In this example, the commit is associated with issues `TEST-1` and `TEST-4`.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -190,97 +191,67 @@ In the above example, the selected commit is associated with Jira issues `TEST-1
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Saving the changes triggers a repository reindexing to show new associations.
+        Saving changes triggers a repository reindex to display the new associations.
     </div>
     </div>
 </div>
 
 &nbsp;
-
 * * *
-
 &nbsp;
 
-## How to Link Branches to a Jira Issue
+## Link Branches to a Jira Issue
 
-Associate branches to a Jira issue by inserting the Jira issue key in the branch name when creating them.
+Include the Jira issue key in the branch name when you create a new branch.
 
-### Via Git Service (GitHub Example)
+### Create a Branch in Your Git Service (GitHub Example)
 
 <img src='/wp-content/uploads/gij-github-web-create-branch-sample.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-Create a branch and associate it to a Jira issue:
+1. Click the branch dropdown (showing **master** or your current branch).
+2. Enter a new branch name that includes the Jira issue key.
+3. Click the result to create the branch.
 
-1.  Select the _master_ branch dropdown.
+### Create a Branch from Jira
 
-2.  Enter a new branch name in the search box. Mention a Jira issue key in the name to associate it to the Jira issue.
-
-3.  Click the result to create the new branch.
-
-### Via Git Integration for Jira App
-
-You can also do this via the Jira issue Git integration developer panel:
-
-1.  Open a Jira issue.
-
-2.  On the right sidebar, click **Git Integration**. This opens the Jira issue Git integration developer panel.
-
-3.  Click **Create branch**.
-
-4.  Select a repository.
-
-5.  Select the Source branch to use as base.
-
-6.  The Branch name is automatically generated from the issue summary with inserted Jira issue key.
-
-7.  Edit the proposed name but leave the Jira issue key as is, or accept the generated branch name as it is.
+1. Open a Jira issue.
+2. Click **Git Integration** in the right sidebar.
+3. Click **Create branch**.
+4. Select a repository.
+5. Select the source branch to use as a base.
+6. Edit the proposed branch name if needed, but keep the Jira issue key.
+7. Click **Create branch**.
 
 &nbsp;
-
 * * *
-
 &nbsp;
 
-## How to Link Pull or Merge Requests to a Jira Issue
+## Link Pull or Merge Requests to a Jira Issue
 
-Associate pull or merge requests to a Jira issue by inserting the Jira issue key in the pull request when creating them.
+Include the Jira issue key in the pull request title or description when you create a new PR/MR.
 
-### Via Git Service
+### Create a Pull Request in Your Git Service
 
 ![](/wp-content/uploads/gij-github-web-create-pull-request-sample.png)
 
-Create a pull/merge request and associate it to a Jira issue:
+1. Set the base and compare branches (for example, feature branch to master).
+2. Enter a title that includes the Jira issue key.
+3. Optionally, include the Jira issue key in the description for additional linking.
+4. Submit the pull request.
 
-1.  Set base and compare as required. (branch to master)
+### Create a Pull Request from Jira
 
-2.  Enter a new pull request title in the provided box. Mention a Jira issue key in the title to associate it to the Jira issue.
-
-3.  Mentioning a Jira issue key in the description also associates this pull request to the Jira issue.
-
-### Via Git Integration for Jira App
-
-You can also do this via the Jira issue Git integration developer panel:
-
-1.  Open a Jira issue.
-
-2.  On the right sidebar, click **Git Integration**. This opens the Jira issue Git integration developer panel.
-
-3.  Click **Create pull request** or **Create merge request** (GitLab).
-
-4.  Select a repository.
-
-5.  Select the Source branch to use as base.
-
-6.  Select the Target branch to merge the source branch to.
-
-7.  The PR/MR name is automatically generated from the issue summary with inserted Jira issue key.
-
-8.  Edit the proposed name but leave the Jira issue key as is, or accept the generated name as it is.
+1. Open a Jira issue.
+2. Click **Git Integration** in the right sidebar.
+3. Click **Create pull request** (or **Create merge request** for GitLab).
+4. Select a repository.
+5. Select the source branch.
+6. Select the target branch.
+7. Edit the proposed name if needed, but keep the Jira issue key.
+8. Submit the request.
 
 &nbsp;
-
 * * *
-
 &nbsp;
 
 [**Prev:** Web linking](/git-integration-for-jira-cloud/web-linking-gij-cloud)
