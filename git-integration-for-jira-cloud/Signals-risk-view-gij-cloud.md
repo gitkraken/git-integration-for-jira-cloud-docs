@@ -7,85 +7,127 @@ taxonomy:
 
 ---
 
-Risks highlight sprints or issues not progressing as expected, drawing attention to potential delays. Managers can activate or deactivate risks based on project status. Each risk has a severity level indicating project impact.
+Signals highlights sprints or issues not progressing as expected, drawing attention to potential delays. Managers can activate or deactivate risk alerts based on project requirements. Each risk has a configurable severity level that indicates its impact on the project.
 
-When issues or sprints reach predefined thresholds, visual alerts appear on the timeline showing risk severity. Use these alerts to assess, classify, and prioritize potential impacts.
+When issues or sprints reach predefined thresholds, visual alerts appear on the timeline showing the risk severity. Use these alerts to assess, classify, and prioritize potential impacts on your project.
 
-Configure Risk View Settings to highlight risks requiring immediate attention.
+This page explains how to configure Risk View Settings to highlight the risks that require immediate attention.
 
 &nbsp;
 
-### Sprint risks
+### Configuring sprint risks
 
 ![](/wp-content/uploads/tij-gitcloud-risk-settings-sprint-cfg.png)
 
-Monitor sprint risks: approaching deadlines, behind-schedule progress, scope changes, overdue sprints, and pending sprints past start date.
+Sprint risks alert you to approaching deadlines, behind-schedule progress, scope changes, overdue sprints, and pending sprints past their start date.
 
-Set severity levels using the dropdown.
+To configure severity levels for each risk type, use the dropdown menu next to each setting.
+
+&nbsp;
 
 #### Sprint end date approaching with incomplete issues
 
-<p style='padding-left:30px;'>Alert when sprint ends in fewer than <b># days</b> with more than <b>#%</b> issues incomplete.</p>
+This risk triggers an alert when the sprint ends in fewer than **# days** with more than **#%** of issues incomplete.
+
+Use this setting to identify sprints that may not complete all planned work.
+
+&nbsp;
 
 #### Sprint progress behind schedule
 
-<p style='padding-left:30px;'>Alert when progress<sup>1</sup> falls <b># percentage points</b> below expected.</p>
+This risk triggers an alert when actual progress falls **# percentage points** below expected progress.
 
-<p style='padding-left:30px;'><sup>1</sup> <i>Expected progress = completed issues ÷ total issues ÷ sprint duration. A 14-day sprint with 14 issues expects 1 completed issue per day.</i></p>
+Expected progress calculates as: completed issues ÷ total issues ÷ sprint duration. For example, a 14-day sprint with 14 issues expects one completed issue per day.
+
+&nbsp;
 
 #### Sprint scope changed
 
-<p style='padding-left:30px;'>Alert when issues are added or removed<sup>2</sup> after sprint start.</p>
+This risk triggers an alert when issues are added or removed after the sprint starts.
 
-<p style='padding-left:30px;'><sup>2</sup> <i>Triggers when sprint scope changes post-start.</i></p>
+Use this setting to track scope creep and ensure sprint boundaries remain consistent.
+
+&nbsp;
 
 #### Completed sprint with in-progress issues
 
-<p style='padding-left:30px;'>Alert when completed sprints contain in-progress issues.</p>
+This risk triggers an alert when a completed sprint contains issues that remain in progress.
+
+Use this setting to identify work that may have been overlooked at sprint completion.
+
+&nbsp;
 
 #### Sprint active past end date
 
-<p style='padding-left:30px;'>Alert when sprints remain active past due date.</p>
+This risk triggers an alert when sprints remain active past their scheduled end date.
+
+Use this setting to identify overdue sprints that need closure or extension.
+
+&nbsp;
 
 #### Sprint not started past start date
 
-<p style='padding-left:30px;'>Alert when sprints have not started and start date has passed.</p>
+This risk triggers an alert when sprints have not started and their scheduled start date has passed.
+
+Use this setting to identify delayed sprint kickoffs.
 
 &nbsp;
 
-### Issue risks
+### Configuring issue risks
 
 ![](/wp-content/uploads/tij-gitcloud-risk-settings-issues-cfg.png)
 
-Monitor issue risks: inactivity, missing assignees, or excessive logged hours.
+Issue risks alert you to inactivity, missing assignees, or excessive logged hours on individual issues.
 
-Set severity levels using the dropdown.
-
-#### Stagnant issue (no activity)
-
-<p style='padding-left:30px;'>Alert when issues have no activity for <b># days</b>.</p>
-
-#### Stagnant issue (no status change)
-
-<p style='padding-left:30px;'>Alert when issues have no status change for <b># days</b>.</p>
-
-#### Unassigned issue
-
-<p style='padding-left:30px;'>Alert when issues have no assignee for <b># days</b>.</p>
-
-#### Excessive logged time
-
-<p style='padding-left:30px;'>Alert when logged time exceeds <b># hours</b>.</p>
+To configure severity levels for each risk type, use the dropdown menu next to each setting.
 
 &nbsp;
 
-### Pull request risks
+#### Stagnant issue (no activity)
+
+This risk triggers an alert when issues have no activity for **# days**.
+
+Use this setting to identify abandoned or forgotten issues.
+
+&nbsp;
+
+#### Stagnant issue (no status change)
+
+This risk triggers an alert when issues have no status change for **# days**.
+
+Use this setting to identify issues stuck in a single state.
+
+&nbsp;
+
+#### Unassigned issue
+
+This risk triggers an alert when issues have no assignee for **# days**.
+
+Use this setting to identify work that lacks ownership.
+
+&nbsp;
+
+#### Excessive logged time
+
+This risk triggers an alert when logged time exceeds **# hours**.
+
+Use this setting to identify issues consuming more effort than expected.
+
+&nbsp;
+
+### Configuring pull request risks
 
 ![](/wp-content/uploads/tij-gitcloud-risk-settings-pull-request-cfg.png)
 
+Pull request risks alert you to code reviews that may be stalling development progress.
+
+&nbsp;
+
 #### Inactive pull request
 
-<p style='padding-left:30px;'>Alert when pull requests have no activity for <b># days</b>.</p>
+This risk triggers an alert when pull requests have no activity for **# days**.
+
+Use this setting to identify code reviews that need attention or may be blocking other work.
 
 &nbsp;
 
@@ -101,4 +143,6 @@ Set severity levels using the dropdown.
 
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)
 
-<kbd>Last updated: December 2025</kbd>
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

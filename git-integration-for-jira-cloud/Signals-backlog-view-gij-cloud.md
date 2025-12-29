@@ -15,13 +15,13 @@ taxonomy:
     <i>Right click <a href='https://www.youtube.com/watch?v=nxp_D7UuVU8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-Backlog View tracks work progress and highlights items needing attention.
+Backlog View tracks work progress and highlights items needing attention. This page explains how to use Backlog View to monitor sprints and identify risks.
 
 &nbsp;
 
-### Introduction
+### Overview
 
-Backlog View helps identify work risks before missed deadlines. It organizes issues into sprints for easy tracking.
+Backlog View helps you identify work risks before deadlines pass. The view organizes issues into sprints for easy tracking.
 
 Use Backlog View to:
 
@@ -31,27 +31,27 @@ Use Backlog View to:
 
 &nbsp;
 
-### Getting started
+### Accessing Backlog View
 
 ![](/wp-content/uploads/tij-gitcloud-backlog-view-main-screen.png)
 
-Click the Backlog View tab at the top of the Signals page.
+To open Backlog View, click the **Backlog View** tab at the top of the Signals page.
 
 Backlog View groups issues by sprint, similar to Epics mode in General View. Use the Project filter to manage your backlog. Sprints sort by rank when the view loads.
 
 &nbsp;
 
-### Activity timeline
+### Understanding the activity timeline
 
-The Activity timeline displays sprint duration and user activity. A two-week sprint shows two weeks of work. Longer sprints appear here as well.
+The activity timeline displays sprint duration and user activity. A two-week sprint shows two weeks of work. Longer sprints display their full duration.
 
 ![](/wp-content/uploads/tij-gitcloud-backlog-view-activity-timeline.png)
 
 &nbsp;
 
-### Auditing activity
+### Auditing sprint activity
 
-Hover over activity boxes to view sprint changes in a popup. Track issue additions, removals, and status changes. This audit window shows progress and modifications.
+To view sprint changes, hover over activity boxes. A popup displays issue additions, removals, and status changes. This audit window shows progress and modifications throughout the sprint.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -59,16 +59,16 @@ Hover over activity boxes to view sprint changes in a popup. Track issue additio
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Hover over daily activities to see work performed that day.
+        Hover over daily activities to see work performed on each specific day.
     </div>
     </div>
 </div>
 
 &nbsp;
 
-### Issues
+### Viewing sprint issues
 
-Click **\>** to expand a sprint and view issue activities.
+To expand a sprint and view issue activities, click the expand icon (**\>**).
 
 ![](/wp-content/uploads/tij-gitcloud-backlog-view-open-item-detail.png)
 
@@ -85,35 +85,35 @@ Click **\>** to expand a sprint and view issue activities.
 
 &nbsp;
 
-#### Status column
+#### Understanding the status column
 
-Hover to view progress status and completion percentage.
+To view progress status and completion percentage, hover over the status column.
 
 <img src='/wp-content/uploads/tij-gitcloud-backlog-view-show-status-detail.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 &nbsp;
 
-#### Alert symbols
+#### Interpreting alert symbols
 
-Hover over <img src='/wp-content/uploads/bbb-alert-20.png' style='margin:0 3px 0 3px;display:inline-block;' /> alert icons to compare calculated versus expected progress. Review remaining sprint time and completed issue count.
+To compare calculated versus expected progress, hover over <img src='/wp-content/uploads/bbb-alert-20.png' style='margin:0 3px 0 3px;display:inline-block;' /> alert icons. The popup shows remaining sprint time and completed issue count.
 
 <img src='/wp-content/uploads/tij-gitcloud-backlog-view-show-calc-progress-detail.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-In this example, the sprint has two days left with 18% calculated progress, indicating few completed issues.
+In this example, the sprint has two days remaining with 18% calculated progress, indicating few completed issues.
 
-This view shows whether the sprint is on track or at risk of missing deadlines.
+This view helps you determine whether the sprint is on track or at risk of missing deadlines.
 
 &nbsp;
 
-#### Code diffs
+#### Showing code differences
 
-Click **Show diff** to display issues with code changes. Click **Hide diff** to disable.
+To display issues with code changes, click **Show diff**. To hide code differences, click **Hide diff**.
 
 ![](/wp-content/uploads/tij-gitcloud-backlog-view-show-diff.png)
 
 &nbsp;
 
-#### Actions menu
+#### Using the actions menu
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -128,48 +128,56 @@ Click **Show diff** to display issues with code changes. Click **Hide diff** to 
 
 <img src='/wp-content/uploads/tij-gitcloud-backlog-view-actions-menu.png' style='margin:25px auto 35px auto;max-width:100%;display:block;' />
 
-Click **\[...\]** to open the Actions menu.
+To access sprint actions, click the menu icon **\[...\]**.
 
 | Action | Description |
 |:-------|:------------|
-| **_Edit_** | Modify sprint settings. |
-| **_Start_** | Begin the sprint. Status: <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>IN PROGRESS</b>. |
-| **_Finish_** | Complete the sprint. Status: <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>DONE</b>. |
-| **_Move up_** | Increase priority. |
-| **_Move down_** | Decrease priority. |
-| **_Delete_** | Remove the sprint. |
+| **Edit** | Opens the dialog to modify sprint settings. |
+| **Start** | Begins the sprint. Status changes to: <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>IN PROGRESS</b>. |
+| **Finish** | Completes the sprint. Status changes to: <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>DONE</b>. |
+| **Move up** | Increases the sprint's priority ranking. |
+| **Move down** | Decreases the sprint's priority ranking. |
+| **Delete** | Removes the sprint. |
 
 &nbsp;
 
-### Edit sprint
+### Editing a sprint
 
-Click **\[...\]** ➜ **Edit** to modify sprint properties:
+To edit sprint properties:
+
+1.  Click **\[...\]** to open the actions menu.
+2.  Select **Edit** to open the sprint properties dialog.
 
 <img src='/wp-content/uploads/tij-gitcloud-backlog-view-actions-edit-dlg.png' style='margin:25px auto 35px auto;max-width:100%;display:block;' />
 
-Modify sprint properties using these fields:
+The dialog contains the following fields:
 
 | Field | Description |
 |:------|:------------|
-| **_Name_** | Sprint name. |
-| **_Goal_** | Completion goal for planning. |
-| **_Start Date_** | Sprint start for resource planning. |
-| **_End Date_** | Sprint deadline for accountability. |
-| **_Timeline_** | Drag slider to adjust period. Only end date changes. |
+| **Name** | The sprint name. |
+| **Goal** | The completion goal for planning purposes. |
+| **Start Date** | The sprint start date for resource planning. |
+| **End Date** | The sprint deadline for accountability. |
+| **Timeline** | A slider to adjust the sprint period. Dragging changes only the end date. |
 
 &nbsp;
 
-### Timeline editing
+### Adjusting the timeline
 
-Drag the timeline slider to adjust sprint duration. Only the end date changes.
+To adjust sprint duration using the timeline slider:
+
+1.  Click and drag the slider to change the period.
+2.  Release to set the new end date.
 
 <img src='/wp-content/uploads/tij-gitcloud-backlog-view-timeline-drag-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
 
+Note that dragging the slider changes only the end date, not the start date.
+
 &nbsp;
 
-### Sorting and filtering
+### Searching and filtering
 
-Use search and sort filters at the top to refine displayed data.
+Use the search and sort filters at the top to refine the displayed data.
 
 ![](/wp-content/uploads/tij-gitcloud-backlog-view-search-panel.png)
 
@@ -177,51 +185,53 @@ Enter text to search for issues. Apply filters to narrow results.
 
 &nbsp;
 
-#### Sprint type filter
+#### Filtering by sprint type
 
 ![](/wp-content/uploads/tij-gitcloud-backlog-view-search-pane-typel.png)
 
-Select sprint types: active, future, or backlog. The counter shows matches per type.
+Select sprint types to display: active, future, or backlog. The counter shows the number of matches per type.
 
-Click **Apply selection** to apply. Click **Clear** to reset.
+Click **Apply selection** to apply your choices. Click **Clear** to reset.
 
 &nbsp;
 
-#### Activity filter
+#### Filtering by activity
 
 ![](/wp-content/uploads/tij-gitcloud-backlog-view-search-pane-activity.png)
 
 Select an activity date interval. Default: **All**.
 
-Choose **Custom** for specific dates. Click **Clear** to reset.
+Choose **Custom** to specify exact dates. Click **Clear** to reset.
 
 &nbsp;
 
-#### Project filter
+#### Filtering by project
 
 ![](/wp-content/uploads/tij-gitcloud-backlog-view-search-pane-project.png)
 
-Select a project to search. Use the search box when filtering multiple projects.
+Select a project to search within. Use the search box when filtering across multiple projects.
 
 &nbsp;
 
-#### Assignee filter
+#### Filtering by assignee
 
 Select users to filter by assignee. Default: **All**.
 
 &nbsp;
 
-#### Reset filters
+#### Resetting filters
 
-Click **Clear All** to reset all filters.
+To reset all filters, click **Clear All**.
 
-Click **Search** to apply filters.
+To apply your filter selections and display results, click **Search**.
 
 &nbsp;
 
-### Column sorting
+### Sorting columns
 
-Click column headers to toggle sort order:
+To change the sort order, click a column header. Click again to toggle between ascending and descending order.
+
+Sortable columns include:
 
 -   **Rank** – List position
 -   **Issue Name** – Issue title
@@ -243,4 +253,6 @@ Click column headers to toggle sort order:
 
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud/)
 
-<kbd>Last updated: December 2025</kbd>
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

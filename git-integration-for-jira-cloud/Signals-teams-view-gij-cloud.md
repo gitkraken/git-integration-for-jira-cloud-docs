@@ -9,20 +9,20 @@ taxonomy:
 
 ![](/wp-content/uploads/tij-gitcloud-teams-view-main-screen.png)
 
-Teams View displays team activities. Each row represents a team member.
+Teams View displays team activities with each row representing a team member. This page explains how to use Teams View to monitor workloads and track individual progress.
 
 &nbsp;
 
-### Member activities
+### Viewing member activities
 
-Click a team member's row to view their activity information.
+To view a team member's activity information, click their row.
 
 ![](/wp-content/uploads/tij-gitcloud-teams-item-details.png)
 
-Monitor real-time information for each team member:
+The expanded view displays real-time information for each team member:
 
 *   Assigned Jira issues
-*   Issues worked on
+*   Issues the member worked on
 *   Issue priorities
 *   Time spent on issues
 *   Git statistics (requires Git Integration for Jira)
@@ -40,59 +40,63 @@ Monitor real-time information for each team member:
     </div>
 </div>
 
-As you scroll, the team member's name stays at the top while displaying their related issues.
+As you scroll, the team member's name stays at the top while displaying their related issues below.
 
 &nbsp;
 
-### Member issue details
+### Viewing member issue details
 
-In the expanded member view, hover on an issue row to see brief information.
+In the expanded member view, hover on an issue row to see brief information about that issue.
 
 <img src='/wp-content/uploads/tij-gitcloud-teams-view-member-issue-mouse-over.png' style='margin:25px auto 35px auto;max-width:100%;display:block;' />
 
-Click a Jira issue link in the popup to open it in a new browser tab.
+To open the Jira issue in a new browser tab, click the issue link in the popup.
 
 <img src='/wp-content/uploads/tij-gitcloud-teams-view-member-issue-dlg-link.png' style='margin:25px auto 35px auto;max-width:100%;display:block;' />
 
-Click away from the dialog to hide it.
+To close the dialog, click anywhere outside it.
 
 &nbsp;
 
-### Status progress
+### Checking status progress
 
-Hover on the status column to see task progress information.
+To view task progress information, hover on the status column.
 
 <img src='/wp-content/uploads/tij-gitcloud-teams-view-issue-hover-status.png' style='margin:25px auto 35px auto;max-width:100%;display:block;' />
 
-This helps managers plan ahead and monitor assignment progress.
+This information helps managers plan ahead and monitor assignment progress.
 
 &nbsp;
 
-### Timeline view
+### Using the timeline view
 
 ![](/wp-content/uploads/tij-gitcloud-teams-view-timeline-gen.png)
 
-Use the timeline view to examine activity boxes for each team member. This provides a concise overview of daily activities and what tasks each member worked on.
+The timeline view shows activity boxes for each team member. This provides a concise overview of daily activities and the tasks each member worked on.
 
 <img src='/wp-content/uploads/tij-gitcloud-teams-voew-activity-log-show.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-### Column information
+&nbsp;
 
-The table below describes each column header.
+### Understanding the columns
+
+The table below describes each column header in Teams View.
 
 | Column | Description |
-|:-------|-------------|
-| **_Issue_** | Team member name with assigned issue count. Click to expand activities. |
-| **_Priority_** | Issue priority level. |
-| **_Status_** | Task status and progress. |
-| **_Contributors_** | Contributors working on the task. |
-| **_Assignee_** | Assigned member. |
-| **_Days_** | Time worked on the task. |
-| **_Comments_** | Comment count. |
-| **_Commits_** | Commit count.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">Install Git Integration for Jira to display commit data.</div></div></div> |
-| Pull requests | Pull request count.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">Install Git Integration for Jira to display pull request data.</div></div></div> |
+|:-------|:------------|
+| **Issue** | Displays the team member name with their assigned issue count. Click to expand and view activities. |
+| **Priority** | Shows the issue priority level. |
+| **Status** | Shows the task status and progress percentage. |
+| **Contributors** | Lists contributors working on the task. |
+| **Assignee** | Shows the assigned member. |
+| **Days** | Shows the time worked on the task. |
+| **Comments** | Shows the comment count. |
+| **Commits** | Shows the commit count.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">Install Git Integration for Jira to display commit data.</div></div></div> |
+| **Pull requests** | Shows the pull request count.<br><div class="bbb-callout bbb--alert"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">Install Git Integration for Jira to display pull request data.</div></div></div> |
 
-### Search functions and filters
+&nbsp;
+
+### Searching and filtering
 
 Use the search panel to set criteria and apply filters.
 
@@ -100,53 +104,60 @@ Use the search panel to set criteria and apply filters.
 
 Enter search terms in the search box to find and display matching items.
 
-#### Activity filter
+&nbsp;
+
+#### Filtering by activity
 
 ![](/wp-content/uploads/tij-gitcloud-teams-view-search-activity-filter.png)
 
-Set **Activity Dates** by selecting an interval from the drop-down list:
+To set the activity date range, select from the **Activity Dates** dropdown:
 
 *   All Activity - Last 8 weeks
 *   Last 4 weeks
 *   Last 2 weeks
 *   Last 1 week
-*   Custom - Select which day from now or before for this filter.
+*   Custom - Select specific start and end dates
 
-For **Filters**, select one or both options:
+Under **Filters**, select one or both options:
 
 *   Show Issues with Jira Activity
 *   Show Issues with Git Activity (requires Git Integration for Jira)
 
-Click **Apply selection** to confirm.
+Click **Apply selection** to confirm your choices.
 
-For **Contributors**, select one or more members from the drop-down list. The default is **All**. Use the search box to find specific team members. Click **Apply selection** to confirm.
+Under **Contributors**, select one or more members from the dropdown. Default: **All**. Use the search box to find specific team members. Click **Apply selection** to confirm.
 
-Click **Clear** on each filter group to reset settings.
-
-#### Issue filter
-
-Issue Filters let managers assign filters to the search. Use the search box on each filter to find and select categories. Click **Apply selection** to confirm.
-
-| Category filter | Description |
-|:----------------|:------------|
-| **_Project_** | Select one or more projects. |
-| **_Sprints_** | Select one or more sprints. Choose **No Sprint** for projects without sprints. |
-| **_Statuses_** | Select one or more statuses. |
-| **_Assignees_** | Select one or more team members. |
-| **_Labels_** | Select one or more labels. |
-| **_Issue Types_** | Select one or more issue types. |
-| **_Versions_** | Select one or more versions. Empty if no versions exist. |
-| **_Priorities_** | Select one or more priority states. |
-| **_Components_** | Select one or more components. Empty if no components exist. |
-
-Click **Clear All** to reset all filters and search settings to default.
-
-Click **Search** to display results based on your filter settings.
+To reset a filter group, click **Clear**.
 
 &nbsp;
 
-### More Signals features
+#### Filtering by issue attributes
 
+Issue filters let managers narrow results to specific criteria. Use the search box in each filter category to find and select items. Click **Apply selection** to confirm.
+
+| Category filter | Description |
+|:----------------|:------------|
+| **Project** | Select one or more projects. |
+| **Sprints** | Select one or more sprints. Choose **No Sprint** for issues without sprints. |
+| **Statuses** | Select one or more statuses. |
+| **Assignees** | Select one or more team members. |
+| **Labels** | Select one or more labels. |
+| **Issue Types** | Select one or more issue types. |
+| **Versions** | Select one or more versions. Empty if no versions exist. |
+| **Priorities** | Select one or more priority states. |
+| **Components** | Select one or more components. Empty if no components exist. |
+
+&nbsp;
+
+#### Resetting filters
+
+To reset all filters and search settings to defaults, click **Clear All**.
+
+To apply your filter selections and display results, click **Search**.
+
+&nbsp;
+
+### More on Signals features
 
 [Signals](/git-integration-for-jira-cloud/Signals-gij-cloud)
 
@@ -156,4 +167,6 @@ Click **Search** to display results based on your filter settings.
 
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)
 
-<kbd>Last updated: December 2025</kbd>
+<p>&nbsp;</p>
+
+<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
