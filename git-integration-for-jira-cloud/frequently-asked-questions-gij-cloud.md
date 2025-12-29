@@ -1,30 +1,25 @@
 ---
-
 title: Frequently Asked Questions
-description:
+description: Find answers to common questions about Git Integration for Jira Cloud, including setup, configuration, and troubleshooting.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-Find answers to questions asked by Git Integration for Jira app users, workarounds and solutions to help you get up and running. Use the table of contents below to jump to a specific topic.
+Find answers to questions asked by Git Integration for Jira app users. Use the table of contents below to jump to a specific topic.
 
-Feel free to contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
+Contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
-&nbsp;
-
-## On this page
-
+**On this page:**
 - [General](#general)
 - [Developer](#developer)
-- [Installation and Setup](#installation-and-setup)
+- [Installation and setup](#installation-and-setup)
 - [Administration](#administration)
 - [Repositories](#repositories)
 - [Workspace](#workspace)
 - [SSH](#ssh)
 - [Reindex](#reindex)
-- [Uninstall and Reinstall](#uninstall-and-reinstall)
-- [Purchase and Pricing](#purchase-and-pricing)
+- [Uninstall and reinstall](#uninstall-and-reinstall)
+- [Purchase and pricing](#purchase-and-pricing)
 - [Support](#support)
 
 &nbsp;
@@ -33,35 +28,31 @@ Feel free to contact our [support team](https://help.gitkraken.com/git-integrati
 
 ## General
 
-Frequently asked questions by users in general.
-
 ### What is Git?
 
-Git is a source code repository. Developers keep track of their source code using Git. Git relies heavily on branching and merging. Branching is making a temporary copy of source code for a single purpose like adding a particular feature or fixing a bug. Merging is safely moving the changes from one branch back to another.
+Git is a source code repository. Developers keep track of their source code using Git. Git relies heavily on branching and merging. Branching creates a temporary copy of source code for a single purpose like adding a feature or fixing a bug. Merging safely moves changes from one branch back to another.
 
 ### What is this app?
 
-This is Git Integration for Jira Cloud – an app for Jira that mashes together data from a Git server with your Jira Cloud. It let's people see code from Git in context with Jira issues.
+Git Integration for Jira Cloud connects data from a Git server with your Jira Cloud instance. It displays code from Git in context with Jira issues.
 
 ### Why would I want to see Git in my Jira?
 
-Git can be complicated and daunting – especially for non-developers.  Jira users want this app so they can work with Git in the familiar Jira interface.
+Git can be complicated and daunting, especially for non-developers. Jira users use this app to work with Git in the familiar Jira interface.
 
 ### How do Git and Jira work together?
 
-In organizations with Git and Jira, it is common to have a branch for each Jira issue and branches for every version.
+In organizations with Git and Jira, it's common to have a branch for each Jira issue and branches for every version.
 
-When developers put their work in Git, they can include a Jira issue key in the comments. With the Git Integration for Jira app installed, Jira Cloud will then show the changes in the issue.
+When developers commit their work in Git with a Jira issue key in the message, the Git Integration for Jira app displays those changes in the Jira issue.
 
-### Is this safe? Will it cause trouble?
+### Is this safe?
 
-It is a safe and well-tested plugin.
-
-We test this on huge Git repositories in large Jira instances. Over 5000 organizations in 70 countries use the Git Integration for Jira app.
+Yes. The plugin is safe and well-tested. We test it on large Git repositories in large Jira instances. Over 5000 organizations in 70 countries use the Git Integration for Jira app.
 
 ### Which version of Jira is compatible with Git for Jira Cloud app?
 
-For a more comprehensive view, see **[Git Integration for Jira app Version History »](https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions "Git add-on Version History")**.
+For compatibility details, see the [Git Integration for Jira app Version History](https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions).
 
 &nbsp;
 * * *
@@ -69,27 +60,28 @@ For a more comprehensive view, see **[Git Integration for Jira app Version Histo
 
 ## Developer
 
-Solutions targeted for developers.
-
 ### How do Git commits get associated with a Jira issue?
 
-On every Git commit, make sure the message includes the exact issue ID at the beginning of the text. The Git Integration for Jira Cloud app will automatically index new commits and associate the referenced issue.
+Include the exact issue key at the beginning of your commit message. The Git Integration for Jira Cloud app automatically indexes new commits and associates them with the referenced issue.
 
-To create a link between your Git commit and a Jira issue, developers must include the issue key into the commit comment.
+**Example commit message:**
 
-Example git commit message:
+```
+PROJ-913 - Plugin version change from 2.6.7 to 2.6.8
+```
 
-"`PROJ-913 - Plugin version change from 2.6.7 to 2.6.8`"; where **_PROJ-913_** is the issue key that links the commit message to the Jira issue.
+The issue key `PROJ-913` links this commit to that Jira issue.
 
-### How do I ensure people are following our organization's process for source code?
+### How do I ensure people follow our organization's process for source code?
 
-Open the project summary in your browser and click on the **Git Commits** tab.
+1. Open the project summary in your browser.
+2. Click the **Git Commits** tab.
 
-All changes that developers have submitted will be listed in reverse chronologically order.  From this view, you can audit all of the changes that developers have recently submitted.
+All changes that developers have submitted appear in reverse chronological order. Use this view to audit recent changes.
 
-### What will happen to commit associations if a Jira issue is moved to a new Jira project?
+### What happens to commit associations if a Jira issue moves to a new project?
 
-For GIJ Cloud users, moving Jira issues to a different project is not recommended, especially for repositories with extensive git commit histories. This is because associated git commits from the old project do not automatically transfer to the new project due to the different project key.
+Moving Jira issues to a different project is not recommended for repositories with extensive git commit histories. Associated git commits from the old project do not automatically transfer to the new project due to the different project key.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -97,19 +89,18 @@ For GIJ Cloud users, moving Jira issues to a different project is not recommende
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The Git Integration for Jira Cloud app allows users to manually associate git commits to a Jira issue via the Repository browser.
+        You can manually associate git commits to a Jira issue via the Repository browser.
     </div>
     </div>
 </div>
 
-To manually associate git commits to a Jira issue in Jira Cloud:
+**To manually associate git commits:**
 
-1.  Go to Jira dashboard menu Apps ➜ **Git Integration: Repository browser**.
-2.  Click a repository to work on. The list defaults to the Compare view.
-3.  Click on the **Commits** tab.
-4.  On the right of the list item, click on the edit ![](/wp-content/uploads/gij-edit-icon-dark.png) icon or the **Link commit** label to manage Jira issue association for the selected git commit.
-5.  Add, remove or change one or more Jira issue keys to assign the selected commit.
-6.  Please note that manually linking git commits in this manner can only be done one at a time.
+1. Go to **Apps** ➜ **Git Integration: Repository browser**.
+2. Click a repository. The list defaults to the Compare view.
+3. Click the **Commits** tab.
+4. Click the edit ![](/wp-content/uploads/gij-edit-icon-dark.png) icon or **Link commit** label.
+5. Add, remove, or change Jira issue keys for the selected commit.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -117,20 +108,16 @@ To manually associate git commits to a Jira issue in Jira Cloud:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The Git Integration for Jira Cloud app also supports multiple issue keys in a commit message.
+        The app supports multiple issue keys in a commit message.
     </div>
     </div>
 </div>
 
-For Jira administrators planning to migrate from Jira Server/Data Center to Jira Cloud, please read this first - [Export project from Jira Server to Jira Cloud](https://support.atlassian.com/migration/resources/).
+For migrations from Jira Server/Data Center to Jira Cloud, see [Export project from Jira Server to Jira Cloud](https://support.atlassian.com/migration/resources/). Maintaining the same project name retains all git commit associations after migration.
 
-When transitioning from Jira self-hosted to Jira Cloud, maintaining the same project name will retain all git commit associations after the migration.
+### Can the plugin scan multiple keys for one project?
 
-### Can the plugin be configured to handle or scan multiple keys for one project? How is this supposed to work?
-
-Yes – the Git Integration for Jira Cloud app supports multiple Jira issue keys in a multiple-line commit message.
-
-For more information, see **[Smart Commits »](/git-integration-for-jira-cloud/smart-commits-gij-cloud)**.
+Yes. The Git Integration for Jira Cloud app supports multiple Jira issue keys in a multiple-line commit message. See [Smart Commits](/git-integration-for-jira-cloud/smart-commits-gij-cloud) for more information.
 
 &nbsp;
 * * *
@@ -138,31 +125,31 @@ For more information, see **[Smart Commits »](/git-integration-for-jira-cloud/s
 
 ## Installation and Setup
 
-Solutions related to Git Integration for Jira Cloud app installation.
-
 ### Does it take long to install?
 
-No. With Atlassian Marketplace, you can install the app from inside of your JIRA Cloud using your browser.
+No. Install the app from inside your Jira Cloud instance using your browser via Atlassian Marketplace.
 
-### I don't know Git — what will I need to install the app?
+### What do I need to install the app?
 
-For the most common setups, you will need the URL to your Git server and credentials to access it. Tell your Git administrator that you need access to the Git repository just like a regular developer would have.  They will provide what you need.
+For most setups, you need:
+- The URL to your Git server
+- Credentials to access it
 
-### What will my Jira look like after it is installed?
+Ask your Git administrator for access to the Git repository with the same permissions as a regular developer.
 
-A new tab is added in each issue. A new tab is added in each project.
+### What changes in Jira after installation?
+
+The app adds:
+- A new tab in each issue
+- A new tab in each project
 
 ### How do I install the plugin in a development version of Jira?
 
-Atlassian has posted the following relevant information regarding Atlassian Marketplace addons and development licenses of Jira:
+See the Atlassian documentation:
+- [Licensing and Pricing](https://www.atlassian.com/licensing/marketplace#licensingandpricing-4)
+- [Licensing and Paid via Atlassian Listings](https://developer.atlassian.com/market/add-on-licensing-for-developers/licensing-and-paid-via-atlassian-listings)
 
-[Licensing and Pricing](https://www.atlassian.com/licensing/marketplace#licensingandpricing-4)
-
-Which points to:
-
-[Licensing and Paid via Atlassian Listings](https://developer.atlassian.com/market/add-on-licensing-for-developers/licensing-and-paid-via-atlassian-listings)
-
-Go to the section titled, **"Can customers use developer licenses for my add-on?"**, which has instructions on how to get a developer license for add-ons.
+Look for the section titled "Can customers use developer licenses for my add-on?" for instructions.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -170,8 +157,7 @@ Go to the section titled, **"Can customers use developer licenses for my add-on?
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>In summary:</b><br>
-        A developer license can be generated (free of charge) once the plugin has been purchased and can only be installed on a development licensed version of Jira.
+        Generate a developer license (free) after purchasing the plugin. It can only be installed on a development-licensed version of Jira.
     </div>
     </div>
 </div>
@@ -182,11 +168,9 @@ Go to the section titled, **"Can customers use developer licenses for my add-on?
 
 ## Administration
 
-Questions and solutions targeted for administrators.
+### Does the integration support many-to-many relationships between Jira projects and git repositories?
 
-### Does Jira+GitHub integration support multiple Jira projects (many) to multiple git repositories (many)? If it does not, how about many-to-one or one-to-many?
-
-Yes — it does support repositories supporting many projects. That said, the associations are made by the developers when they commit code to a specific issue key (which is part of a project). The permission that allows a user to see these commits in a Jira project is whether they have the "View Development Tools" permission for that project (that's a Jira setting).
+Yes. Repositories can support multiple projects. Developers create associations when they commit code with a specific issue key. Users with the "View Development Tools" permission for a project can see commits in that project.
 
 &nbsp;
 * * *
@@ -194,11 +178,9 @@ Yes — it does support repositories supporting many projects. That said, the as
 
 ## Repositories
 
-Solutions to common issues encountered while connecting and configuring git repositories.
+### Does Git Integration for Jira support GitBlit with HTTPS (without SSH)?
 
-### We use GitBlit without SSH keys and use only HTTPS instead. Does Git Integration Plugin for Jira support this?
-
-Yes. The Git Integration for Jira Cloud app definitely supports GitBlit via HTTPS authentication. Use the **[Plain git integration](/git-integration-for-jira-cloud/using-the-single-git-integration-wizard-gij-cloud/)** wizard to connect to your repositories. Towards the end of the process, a username and password will be required for connection authentication.
+Yes. The app supports GitBlit via HTTPS authentication. Use the [Plain git integration](/git-integration-for-jira-cloud/using-the-single-git-integration-wizard-gij-cloud/) wizard to connect. Enter your username and password when prompted.
 
 &nbsp;
 * * *
@@ -206,39 +188,30 @@ Yes. The Git Integration for Jira Cloud app definitely supports GitBlit via HTTP
 
 ## Workspace
 
-Questions on Git Integration for Jira add-on user experience in Jira.
+### How do I see if work has started on an issue?
 
-### How do I see if work has really started on an issue?
+1. Open an issue in your browser.
+2. Click the **Git Commits** tab.
 
-Open an issue in your browser and click on the **Git Commits** tab.
+If the tab says no Git log entries were found, work has not started on the ticket.
 
-If the tab says that no Git log entries have been found, then work has not yet started on the ticket.
-
-<img src='https://bigbrassband.com/images/bbb/jira-issue-git-commits.png' style='margin:25px auto 15px auto;max-width:100%:;display:block;' />
-
-<p align=center>
-    <i>See all Git commits associated with an issue in Jira</i>
-</p>
+<img src='https://bigbrassband.com/images/bbb/jira-issue-git-commits.png' style='margin:25px auto 15px auto;max-width:100%;display:block;' />
 
 ### How do I see who has worked on an issue?
 
-Open an issue in your browser and click on the **Git Commits** tab.
+1. Open an issue and click the **Git Commits** tab.
+2. Everyone listed in the "Author/Committer" column has worked on the issue.
 
-Everyone listed in the "Author/Committer" column has worked on the issue.
+### How do I see when someone last worked on an issue?
 
-### How do I see how long ago since someone worked on it?
+1. Open an issue and click the **Git Commits** tab.
+2. Changes appear from newest to oldest. The date/time on the first line shows the last submission.
 
-Open an issue in your browser and click on the **Git Commits** tab.
+### How do I see what changed in a ticket?
 
-All changes to source code are listed from newest to oldest. The date/time in the "Date/Revision" column on the first line is the last time changes to the issue have been submitted into Git.
-
-### How do I see what is being changed in this ticket?
-
-Open an issue in your browser and click on the **Git Commits** tab.
-
-When a developer submits a change to Git, they can type a brief message that summarizes the changes. These messages show up under the Committer/Author's name.
-
-The files that were changed by the developer appear as clickable links. column. Click on the file links to view the actual source code that was changed.
+1. Open an issue and click the **Git Commits** tab.
+2. Commit messages show under the committer's name.
+3. Click file links to view the actual source code changes.
 
 &nbsp;
 * * *
@@ -246,23 +219,17 @@ The files that were changed by the developer appear as clickable links. column. 
 
 ## SSH
 
-Questions related to SSH connections in Jira.
+### Does this app support SSH authentication?
 
-### Does this app support authenticating to git repositories via SSH?
+Yes. SSH keys with and without passphrases are supported.
 
-Yes.
+### Why do I need to provide a PRIVATE KEY instead of a PUBLIC KEY?
 
-SSH keys with and without passphrases are supported.
+The SSH client (Jira Cloud) needs the PRIVATE KEY to connect to the Git server via SSH.
 
-### Why do I need to provide a PRIVATE KEY to the Git Integration for Jira Cloud app instead of a PUBLIC KEY?
+### How do I configure an SSH remote git repository?
 
-The PRIVATE KEY is needed by the SSH client, which is the Jira Cloud, to connect to the Git server via SSH.
-
-### How do I configure/connect an SSH remote git repository to Jira?
-
-In Jira, use the **[Plain git integration](/git-integration-for-jira-cloud/using-the-single-git-integration-wizard-gij-cloud/)** wizard to configure SSH integration with any remote git repositories.
-
-</div>
+Use the [Plain git integration](/git-integration-for-jira-cloud/using-the-single-git-integration-wizard-gij-cloud/) wizard to configure SSH integration with remote git repositories.
 
 &nbsp;
 * * *
@@ -270,30 +237,25 @@ In Jira, use the **[Plain git integration](/git-integration-for-jira-cloud/using
 
 ## Reindex
 
-Questions related to git notes, reindex tracking and control.
+### What does reindex do?
 
-### What does re-index do?
+Reindex performs two operations:
+1. Updates the cloned repo from remote
+2. Updates the indexes containing info about every commit
 
-Re-index does 2 operations:
+### How do I control reindexing?
 
-*   Updates the cloned repo from remote
-*   Updates the indexes which contain info about every commit
+Configure webhooks to trigger indexing based on events. See [Configure Webhooks](/git-integration-for-jira-cloud/indexing-triggers-formerly-webhooks-gij-cloud).
 
-### Is there any way to control the reindex?
+Set a high interval and configure webhook triggers for more control.
 
-In terms of kicking off the indexing based on an event:
+### Why don't commits appear immediately?
 
-*   Webhook: [Configure Webhooks](/git-integration-for-jira-cloud/indexing-triggers-formerly-webhooks-gij-cloud)
+Commits won't appear immediately. Configure webhooks via the **Manage integrations** page to make commits show faster.
 
-What other users have done is set a high interval and then configure one of those options.
+### Can I track specific branches when reindexing?
 
-### Commits are not showing right away. Can they show up faster?
-
-Commits won't appear immediately. Configure webhooks via **Manage integrations** page to make commits show faster.
-
-### Is it possible to track the specified branches when reindexing?
-
-No. The Git Integration for Jira app is designed to do a full index.
+No. The Git Integration for Jira app performs a full index.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -306,66 +268,36 @@ No. The Git Integration for Jira app is designed to do a full index.
     </div>
 </div>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For more information on indexing, see [Indexing Explainer for Git Integration for Jira Cloud](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/).
-    </div>
-    </div>
-</div>
+For more information, see [Indexing Explainer for Git Integration for Jira Cloud](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/).
 
 &nbsp;
 * * *
 &nbsp;
-## Purchase and Pricing
 
-Questions about trial or purchase of Git Integration for Jira app and accepted payment methods.
+## Purchase and Pricing
 
 ### How do I buy this add-on?
 
-Buy the Git Integration for Jira app on Atlassian Marketplace using your Atlassian account  —  the same place where you manage your Jira license today.
+Buy the Git Integration for Jira app on Atlassian Marketplace using your Atlassian account.
 
-**[Click here for a 30-day trial of Jira Git Plugin](https://my.atlassian.com/addon/try/com.xiplink.jira.git.jira_git_plugin "[Try our Jira Git Plugin]")**
-
-**[Click here to buy the Jira Git Plugin](https://my.atlassian.com/purchase/buyaddon?key=com.xiplink.jira.git.jira_git_plugin "[Buy the Jira Git Plugin]")**
+- [Start a 30-day trial](https://my.atlassian.com/addon/try/com.xiplink.jira.git.jira_git_plugin)
+- [Buy now](https://my.atlassian.com/purchase/buyaddon?key=com.xiplink.jira.git.jira_git_plugin)
 
 ### What payment methods are accepted?
 
-Atlassian Marketplace accepts MasterCard, Visa and American Express.  You may also pay with bank transfer or mailed check.
+Atlassian Marketplace accepts MasterCard, Visa, American Express, bank transfer, and mailed check.
 
-[**30 Day Trial**](https://my.atlassian.com/addon/try/com.xiplink.jira.git.jira_git_plugin "[Try our Jira Git Plugin]")
+### How do I determine pricing after the trial?
 
-[**Buy Now**](https://my.atlassian.com/purchase/buyaddon?key=com.xiplink.jira.git.jira_git_plugin "[Buy the Jira Git Plugin]")
+Use any of these methods:
 
-### How do I determine the Git Integration for Jira app pricing after the trial?
+1. **In Jira:** Install the app and go to `https://[your-jira].atlassian.net/admin/billing/estimate`
 
-There are four ways to determine the pricing:
+2. **Atlassian Marketplace:** See [Git Integration for Jira pricing](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=pricing)
 
-1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=pricing) app then go to:
+3. **Pricing Calculator:** Use the [Atlassian Cloud Pricing Calculator](https://www.atlassian.com/software/pricing-calculator)
 
-    ```powershell
-    https://[replacewithyourJiraname].atlassian.net/admin/billing/estimate
-    ```
-
-    The estimated monthly or annual price will be quoted.
-
-2.  See pricing details on the [Atlassian Marketplace: Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=pricing).
-
-3.  Use the [Atlassian Cloud Pricing Calculator](https://www.atlassian.com/software/pricing-calculator):
-
-    *   Choose between **monthly/annual**.
-    *   Enter the **number of seats** your Jira is licensed for.
-    *   Select **Apps**.
-    *   Select **Git Integration for Jira _(Top Selling)_** from the dropdown list.
-
-4.  Create a quote on [Atlassian.com](https://www.atlassian.com/purchase/addon/com.xiplink.jira.git.jira_git_plugin).
-
-    Select the **Quote** option then **Deployment** (Server/Cloud/DC) and follow the instructions.
-
-All four should provide the same answer.
+4. **Create a quote:** Visit [Atlassian.com](https://www.atlassian.com/purchase/addon/com.xiplink.jira.git.jira_git_plugin)
 
 &nbsp;
 * * *
@@ -373,18 +305,18 @@ All four should provide the same answer.
 
 ## Support
 
-Topics related to Git Integration for Jira app support.
-
 ### Does the Git for Jira Cloud app support CJK languages or Unicode?
 
-Unicode characters are supported and displayed properly.
+Yes. Unicode characters are supported and displayed properly.
 
 ### Where can I find my App Information?
 
-You can find your App information by Navigating to the GIJ General settings
+1. Click **Apps** ➜ **Git Integration for Jira**.
+2. Click **Settings**.
+3. Copy the information at the bottom of the page, starting from "Current Build".
 
-First, click on the apps menu, then click "Git Integration for Jira", then click the 'Settings' button.
 ![](/wp-content/uploads/App-Information2-2025.png)
 
-Copy the information at the bottom of the page, starting from "Current Build". Include this information in your support request, or supply it to the support team if they have requested it.
+Include this information in support requests.
 
+<kbd>Last updated: December 2025</kbd>

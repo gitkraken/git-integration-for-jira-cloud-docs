@@ -1,115 +1,147 @@
 ---
-
 title: Known Issues (GIJ Cloud)
-description:
+description: Known issues and workarounds for Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-The Git Integration for Jira app is packed with features that makes Jira administrators and developers happy. However, with different hardware configurations out there, these great features can also become burdened by issues.
+This page documents known issues and limitations in Git Integration for Jira Cloud along with available workarounds.
 
-Below are the Git Integration app known issues and workarounds:
+**On this page:**
+- [Repository limits per integration](#repository-limits-per-integration)
+- [2GB object size limit](#2gb-object-size-limit)
+- [Smart commits user search issue](#smart-commits-user-search-issue)
+- [Microsoft pull request status updates](#microsoft-pull-request-status-updates)
+- [Microsoft PAT organization permission](#microsoft-pat-organization-permission)
+- [SSH repository automation triggers](#ssh-repository-automation-triggers)
+- [Tag loading timeout](#tag-loading-timeout)
+- [Left sidebar loading delay](#left-sidebar-loading-delay)
+- [Duplicate Smart Commit commands](#duplicate-smart-commit-commands)
+- [Web links not updating](#web-links-not-updating)
 
-#### Number of connected repositories per integration
-The Git Integration for Jira app has a per integration limitation for number of connected repositories:
+&nbsp;
+* * *
+&nbsp;
 
-*   GitHub - 10,000
-*   GitLab - 10,000
-*   All others - 10,000
+## Repository Limits Per Integration
+
+Git Integration for Jira Cloud limits the number of connected repositories per integration:
+
+| Git Service | Maximum Repositories |
+|-------------|---------------------|
+| GitHub | 10,000 |
+| GitLab | 10,000 |
+| All others | 10,000 |
 
 _Reference: GITCL-1395, GITCL-1846_
 
-#### 2GB object Git repositories storage limit
-The Git Integration for Jira application uses the JGit library which does not support objects over 2GB in size stored in git repositories.
-*   2GB object limit
+&nbsp;
 
-_Reference: …_
+## 2GB Object Size Limit
 
-#### Smart commits failing user search by email
-It was reported that some users have their smart commits attributed to the app user rather than specific users. It is found that the user search via email is failing. Some Jira Cloud instances are failing to return users based on email.
+Git Integration for Jira uses the JGit library, which does not support objects over 2GB in size stored in git repositories.
 
-**Workaround:**
-Use `/rest/api/2/user/assignable/search?issueKey=ABC-123` to return a list of assignable users for an issue - if the user search by email fails.
+**Workaround:** Remove large objects from repository history or use Git LFS for large files.
+
+&nbsp;
+
+## Smart Commits User Search Issue
+
+Some users have smart commits attributed to the app user rather than specific users when user search via email fails.
+
+**Workaround:** Use the assignable users API endpoint:
+
+```
+/rest/api/2/user/assignable/search?issueKey=ABC-123
+```
 
 _Reference: GITCL-800_
 
-#### Microsoft pull request requirement for status updates
-Microsoft integrations require all pull requests for the configured repositories to be requested each time for status updates. Microsoft's Pull Request APIs do not currently provide any information allowing for filtering by last changed date/time.
+&nbsp;
+
+## Microsoft Pull Request Status Updates
+
+Microsoft integrations require all pull requests for configured repositories to be requested each time for status updates. Microsoft's Pull Request APIs do not provide filtering by last changed date/time.
 
 _Reference: GIT-3889_
 
-#### Why Microsoft PAT integrations require "All accessible organizations" permission
+&nbsp;
 
-<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b>
-It is highly required that administrators must select the "All accessible organizations" option when creating personal access tokens (PAT). Otherwise, the integration will not work.
+## Microsoft PAT Organization Permission
 
-Please follow the instructions for creating MS/Azure PATs outlined in our Confluence how-tos [here](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b>
 
-For more information, see the [**official reference for Azure DevOps PAT integration**](https://developercommunity.visualstudio.com/content/problem/902833/azure-devops-personal-access-token-does-).
+When creating personal access tokens (PAT) for Microsoft/Azure integrations, select **All accessible organizations**. Otherwise, the integration will not work.
+
+See [Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for instructions.
+
+For more information, see the [official Azure DevOps PAT documentation](https://developercommunity.visualstudio.com/content/problem/902833/azure-devops-personal-access-token-does-).
 
 _Reference: GIT-3978_
 
-#### SSH single Git repository integration is not generating the trigger for Jira Automation
-In Automation for Jira, a user can create a rule or set of rules to start a trigger. These triggers will run the rules while listening to events; such as when a commit or branch is created.
+&nbsp;
 
-This feature works well for auto-connected integrations and [single HTTPS authenticated git repositories](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud), but single repositories authenticated via [SSH connection](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-ssh-gij-cloud) are not supported by Atlassian Jira Cloud (Atlassian bug issue: [JSWCLOUD-20935](https://jira.atlassian.com/browse/JSWCLOUD-20935)).
+## SSH Repository Automation Triggers
 
-If you use Jira automation triggers, we strongly recommend to use HTTP/HTTPS connections for single repository git URL. _(See below)_
-| Using this git URL will make triggers to ignore commit event:
+Automation for Jira triggers work with auto-connected integrations and single HTTPS authenticated git repositories, but single repositories authenticated via SSH are not supported by Atlassian Jira Cloud.
 
-```java
-git@github.com:admin/admin-test-repo-one.git
-```
+See Atlassian bug: [JSWCLOUD-20935](https://jira.atlassian.com/browse/JSWCLOUD-20935)
 
-Using the HTTPS git URL works:
-```java
-https://github.com/admin/admin-test-repo-one.git
-```
+**Workaround:** Use HTTP/HTTPS connections for single repository git URLs:
+
+| Connection Type | Example | Trigger Support |
+|-----------------|---------|-----------------|
+| SSH (not supported) | `git@github.com:admin/repo.git` | ❌ |
+| HTTPS (supported) | `https://github.com/admin/repo.git` | ✅ |
 
 _Reference: GITCL-1624_
 
-#### Tags taking longer than 10s to load on an issue will timeout
-Loading tags in Jira is a very resource-intensive operation and usually occurs on integrations with repositories with large git history – which can take a very long time to process/load.
+&nbsp;
 
-Currently, the GIt Integration for Jira Cloud app limits loading of tags to **10 seconds** before timing out.
+## Tag Loading Timeout
 
-#### Left Git Integration options panel takes up to 10 seconds to load
-The left sidebar for the Git Integration for Jira app panel takes up to 10 seconds to load.
+Loading tags on integrations with large git history can take a long time. Git Integration for Jira Cloud limits tag loading to **10 seconds** before timing out.
+
+&nbsp;
+
+## Left Sidebar Loading Delay
+
+The Git Integration for Jira app panel in the left sidebar takes up to 10 seconds to load.
 
 ![](/wp-content/uploads/gij-left-sidebar-loading-delay-bug-example.png)
 
-Atlassian has opened a public [bug ticket](https://ecosystem.atlassian.net/browse/ACJIRA-2415) for this issue.
+Atlassian has opened a [bug ticket](https://ecosystem.atlassian.net/browse/ACJIRA-2415) for this issue.
 
-#### Duplicate SC commands #comment and #time with both BBB and Atlassian SC enabled
-In Jira Cloud, there are two possible Smart Commit processors: Jira Cloud and BigBrassBand.
+&nbsp;
 
-In the Git Integration for Jira Cloud: General settings, there are two options for processing Smart commits:
+## Duplicate Smart Commit Commands
 
-*   Atlassian – which supports `#comment`, `#time`, and `#<transition>`
-*   GitKraken – which supports `#comment`, `#time`, and `#<transition>`, `#assign` and `#label`.
-
-If both are enabled, the user will see duplicate `#comment` and `#time`.
+When both Atlassian and GitKraken Smart Commit processors are enabled, users see duplicate `#comment` and `#time` commands.
 
 ![](/wp-content/uploads/gij-gitcloud-gencfg-dup-smart-commits-sel.png)
 
-We set the default to the Atlassian smart commit processor to enabled because it is bundled with the workflow triggers (a valuable feature). In addition, the Atlassian processor does most of the SC features plus the workflow triggers.
+| Processor | Commands Supported |
+|-----------|-------------------|
+| Atlassian | `#comment`, `#time`, `#<transition>` + workflow triggers |
+| GitKraken | `#comment`, `#time`, `#<transition>`, `#assign`, `#label` |
 
-If the admin decides to use the BigBrassBand processing, users will be able to use the additional smart commit commands (`#assign` and `#label`). However, choosing this path drops support for workflow triggers.
+**Recommendation:** Use Atlassian processor (default) for workflow trigger support. Use GitKraken processor only if you need `#assign` and `#label` commands.
 
 _Reference: GITCL-1334_
 
-#### Rare case of branches and tags web links are not updated
+&nbsp;
 
-The Git Commits tab and Git integration panels automatically update all web-linking URLs from a modified template once the **Save** button is clicked on the **Plain Git repository – Integration Feature Settings** page. However, when a user makes changes to the web-linking template, it affects the web links connected to new branches, commits, and tags on the Jira Git Integration Development Panel. Do note that these changes may not be automatically updated or refreshed.
+## Web Links Not Updating
 
-To resolve this issue, users can follow these steps:
+In rare cases, web links for branches and tags do not update automatically after modifying the web-linking template.
+
+**Workaround:**
 
 ![](/wp-content/uploads/gij-cloud-disable-reenable-plain-git-repo-via-actions.png)
 
-1.  Temporarily disable the affected Plain Git integration.
-
-2.  Re-enable the integration to ensure the successful application of the web linking update.
+1. Temporarily disable the affected Plain Git integration.
+2. Re-enable the integration to apply the web linking update.
 
 _Reference: GITCL-3981_
 
+<kbd>Last updated: December 2025</kbd>
