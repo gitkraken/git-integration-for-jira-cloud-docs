@@ -1,15 +1,22 @@
 ---
-
 title: Manager permissions
 description: Learn how to configure manager permissions in Git Integration for Jira Cloud to delegate app administration to non-admin users.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
 
-Manager permissions allow Jira administrators to delegate Git Integration for Jira app management to non-admin users. This feature reduces the administrative burden on Jira admins while giving designated users the ability to manage integrations without requiring full Jira admin access.
+Manager permissions allow Jira administrators to delegate Git Integration for Jira app management to non-admin users. Designated users can manage integrations, add or remove repositories, and update settings without requiring full Jira admin access.
 
-Previously, only Jira administrators could manage the Git Integration for Jira app. With manager permissions, Jira admins can grant other Jira users (who are not Jira admins) the ability to manage integrations, add or remove repositories, update settings, and more.
+**On this page:**
+- [Understand manager permissions](#understand-manager-permissions)
+- [Set up manager permissions](#set-up-manager-permissions)
+- [Understand manager access levels](#understand-manager-access-levels)
+
+&nbsp;
+* * *
+&nbsp;
+
+## Understand Manager Permissions
 
 With manager permissions, you can:
 
@@ -20,59 +27,63 @@ With manager permissions, you can:
 
 &nbsp;
 
-## Getting started
+## Set Up Manager Permissions
 
-A new item called **Manager permissions** appears on the Git Integration for Jira sidebar menu.
+### Step 1: Access Manager Permissions
+
+1. Go to **Apps** ➜ **Git Integration: Manage integrations**.
+2. Click **Manager permissions** in the sidebar.
 
 ![](/wp-content/uploads/gij-gitserverdc-manager-permission-access-location-2025.png)
 
-1. On your Jira dashboard menu, go to Apps ➜ Git Integration: Manage integrations ➜ **Manager permissions** (as an admin).
+When you first access the Manager permissions page, no active managers appear. The list populates as you add users.
 
-    When you first access the Manager permissions page, no active managers appear. The list populates as you add users.
+![](/wp-content/uploads/gij-gitserverdc-manage-permissions-admin-groups-sel-2025.png)
 
-    ![](/wp-content/uploads/gij-gitserverdc-manage-permissions-admin-groups-sel-2025.png)
+### Step 2: Create a Manager Group
 
-    &nbsp;
-
-2. Click the **Admin \> Groups** label link on the Manager permissions page to open the Groups page.
+1. Click the **Admin > Groups** label link on the Manager permissions page.
 
     ![](/wp-content/uploads/gij-gitserverdc-manager-permission-create-group-2025.png)
 
-    &nbsp;
+2. Click **Create group**.
 
-3. Create a new group or use an existing group. For this guide, click **Create group**. The following dialog appears:
+3. Configure the group:
 
     ![](/wp-content/uploads/gij-gitserverdc-manager-permission-create-group-dlg-2025.png)
 
-    - Enter a group name. For this guide, enter "GIJ Managers".
-    - Add one or more users to this group.
+    - Enter a group name (for example, "GIJ Managers")
+    - Add one or more users to this group
 
-    Jira creates the specified group and displays it in the Groups list.
+4. Click **Create group** to save.
 
-    &nbsp;
+Jira creates the group and displays it in the Groups list.
 
-4. Switch to the Manager permissions page (browser tab), then click **System \> Global permissions**.
+### Step 3: Grant Global Permission
+
+1. Return to the Manager permissions page (browser tab).
+
+2. Click **System > Global permissions**.
 
     ![](/wp-content/uploads/gij-gitserverdc-manager-permission-sys-global-acl-2025.png)
-    
-    &nbsp;
 
-5. On the Global permissions screen, the page automatically scrolls to the **Grant Permission** section.
+3. The page scrolls to the **Grant Permission** section.
 
     ![](/wp-content/uploads/gij-gitserverdc-manager-permission-global-grant-permission-2025.png)
 
-    - This feature adds a new global permission to your Jira instance. Select **Manage Git Integration for Jira by GitKraken** for this step.
-    - Select the group you created previously.
-    
-6. Click **Add** to continue.
+4. Select **Manage Git Integration for Jira by GitKraken** from the permission dropdown.
 
-The **Manage Git Integration for Jira by GitKraken** permission section displays the roles assigned to this permission.
+5. Select the group you created (for example, "GIJ Managers").
+
+6. Click **Add**.
+
+The **Manage Git Integration for Jira by GitKraken** permission section displays the assigned roles:
 
 ![](/wp-content/uploads/gij-gitserverdc-manager-permission-role-display-2025.png)
 
-&nbsp;
+### Step 4: Verify Manager Access
 
-Switch back to the **Manager permission** page to see the recently active managers list.
+Return to the **Manager permission** page to view the active managers list:
 
 ![](/wp-content/uploads/gij-gitserverdc-manager-permission-active-user-list-2025.png)
 
@@ -82,23 +93,37 @@ Switch back to the **Manager permission** page to see the recently active manage
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The recent active managers list populates for every user added to the GIJ Manager group.
+        The active managers list updates automatically when you add users to the GIJ Manager group.
     </div>
     </div>
 </div>
 
 &nbsp;
 
-## What do users with the manager role have access to?
+## Understand Manager Access Levels
 
-Users in the GIJ Managers group have full access to the Git Integration for Jira app configuration, including changing settings and adding or managing integrations.
+### What Managers Can Do
 
-**GIJ Managers** cannot modify permissions or view the Manager permissions page. Only Jira admins have this level of access.
+Users in the GIJ Managers group have full access to Git Integration for Jira app configuration:
 
-&nbsp;
+- Change app settings
+- Add, update, or remove integrations
+- Manage repositories
 
-## What do non-admin users see when accessing Git Integration for Jira?
+### What Managers Cannot Do
 
-Non-admin users who are not in the GIJ Managers group cannot see or access the Git Integration for Jira app configuration or the Manager permissions pages.
+GIJ Managers **cannot**:
+
+- Modify permissions
+- View the Manager permissions page
+
+Only Jira administrators have access to permission management.
+
+### What Non-Manager Users See
+
+Non-admin users who are not in the GIJ Managers group cannot see or access:
+
+- Git Integration for Jira app configuration
+- Manager permissions pages
 
 <kbd>Last updated: December 2025</kbd>
