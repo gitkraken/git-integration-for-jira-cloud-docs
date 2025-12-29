@@ -1,139 +1,108 @@
 ---
-
 title: Git Integration (Jira Cloud) - Video Guides
 description: Watch video tutorials covering installation, integration, administration, and customization of Git Integration for Jira Cloud.
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
-On this page, you will find videos showcasing important features of the app such as installation, connecting supported git hosts and viewing git commits from Jira Cloud.
 
-Get started with connecting your favorite git host to Jira Cloud now!
+These video tutorials walk you through key features of Git Integration for Jira Cloud, including installation, connecting git hosts, and viewing commits from Jira.
 
-See sections:
-- [Installation](#installation)
-- [Administration](#administration)
-- [Integration](#integration)
-- [Customization](#customization)
-- [Support](#support)
+**On this page:**
+- [Get started with installation](#get-started-with-installation)
+- [Configure administration settings](#configure-administration-settings)
+- [Connect your git host](#connect-your-git-host)
+- [Customize your integration](#customize-your-integration)
+- [Set up authentication](#set-up-authentication)
 
 &nbsp;
 * * *
 &nbsp;
 
-### Installation
+## Get Started with Installation
 
-**[Installation with Jira 7 »](https://bigbrassband.wistia.com/medias/lr0jp6ntfd)**
+**[Install Git Integration for Jira Cloud »](https://bigbrassband.wistia.com/medias/lr0jp6ntfd)**
 
-Learn quick installation steps of the Git Integration app for Jira Cloud.
+Walk through the installation steps for the Git Integration app on Jira Cloud.
 
-<br>
+**[View the Git Commits Tab »](https://bigbrassband.wistia.com/medias/fp60i95l2w)**
 
-**[The Git Commits Tab »](https://bigbrassband.wistia.com/medias/fp60i95l2w)**
+Explore commit information including author, web links, and code diffs in the Git Commits tab.
 
-View information about commits, author, web links, code diff, etc. in the Git Commits tab.
+**[Update the App Automatically or Manually »](https://bigbrassband.wistia.com/medias/aoyowvw485)**
 
-<br>
+Configure automatic updates or perform manual updates for Git Integration for Jira Cloud.
 
-**[Installation: Automatic and Manual Updating »](https://bigbrassband.wistia.com/medias/aoyowvw485)**
+**[Link Git Commits to Jira Issues »](https://bigbrassband.wistia.com/medias/cs229y2gzj)**
 
-Learn how automatic and manual updating of Git Integration for Jira Cloud app – the easy way.
-
-<br>
-
-**[Linking Git Commits to Jira »](https://bigbrassband.wistia.com/medias/cs229y2gzj)**
-
-Familiarize quick steps on how to associate git commits to Jira issues in Jira Cloud.
+Associate git commits with Jira issues using issue keys in commit messages.
 
 &nbsp;
 
-### Administration
+## Configure Administration Settings
 
-**[Setting Permissions »](https://bigbrassband.wistia.com/medias/21vd3arsj6)**
+**[Set Project Permissions »](https://bigbrassband.wistia.com/medias/21vd3arsj6)**
 
-Learn how to set project permissions with View Development Tools. The "View Development Tools" project permission enables users/groups to view commits and related information in Jira Cloud.
+Configure the "View Development Tools" project permission to control which users and groups can view commits and related information.
 
-<br>
+**[Create Branches and Pull Requests »](https://bigbrassband.wistia.com/medias/c5qh10mjgf)**
 
-**[Creating Branches and Merge/Pull Requests »](https://bigbrassband.wistia.com/medias/c5qh10mjgf)**
-
-Learn how to create branches, merge/pull requests by watching this video. These steps is also applicable to supported git hosts such as GitLab, GitHub, VSTS, TFS, etc.
+Create branches and pull/merge requests directly from Jira issues. These steps apply to all supported git hosts including GitLab, GitHub, Azure DevOps, and others.
 
 &nbsp;
 
-### Integration
+## Connect Your Git Host
 
-Quick and easy! Learn about the basics of integrating git repositories to Jira Cloud and associating git commits to a Jira issue. Click on a link to see specific steps for the selected git host.
+Select your git host to watch the integration walkthrough:
 
-**[GitHub.com »](https://bigbrassband.wistia.com/medias/8jtnqzp79y)**
-
-**[GitHub Enterprise »](https://bigbrassband.wistia.com/medias/vfwwqnn3mm)**
-
-**[GitLab.com »](https://bigbrassband.wistia.com/medias/hi45vum4yp)**
-
-**[GitLab CE/EE »](https://bigbrassband.wistia.com/medias/q9q0zg3rug)**
-
-**[Bitbucket Cloud »](https://bigbrassband.wistia.com/medias/t06mkhx4ae)**
-
-**[AWS CodeCommit »](https://bigbrassband.wistia.com/medias/5w5p0lbz77)**
-
-**[Visual Studio Team Services »](https://bigbrassband.wistia.com/medias/n840jfrer4)**
-
-**[Team Foundation Services »](https://bigbrassband.wistia.com/medias/czu7wovicv)**
-
-**[Azure DevOps »](https://bigbrassband.wistia.com/medias/czu7wovicv)**
-
-**[GitHub with 2FA »](https://bigbrassband.wistia.com/medias/td1tnswem8)**
-
-**[Gerrit »](https://bigbrassband.wistia.com/medias/eolraizc6s)**
-
-**[HTTPS/HTTP/SSH »](https://bigbrassband.wistia.com/medias/bu0wamg1fx)**
+| Git Host | Video Link |
+|----------|------------|
+| GitHub.com | [Watch tutorial »](https://bigbrassband.wistia.com/medias/8jtnqzp79y) |
+| GitHub Enterprise | [Watch tutorial »](https://bigbrassband.wistia.com/medias/vfwwqnn3mm) |
+| GitHub with 2FA | [Watch tutorial »](https://bigbrassband.wistia.com/medias/td1tnswem8) |
+| GitLab.com | [Watch tutorial »](https://bigbrassband.wistia.com/medias/hi45vum4yp) |
+| GitLab CE/EE | [Watch tutorial »](https://bigbrassband.wistia.com/medias/q9q0zg3rug) |
+| Bitbucket Cloud | [Watch tutorial »](https://bigbrassband.wistia.com/medias/t06mkhx4ae) |
+| Azure DevOps | [Watch tutorial »](https://bigbrassband.wistia.com/medias/czu7wovicv) |
+| Visual Studio Team Services | [Watch tutorial »](https://bigbrassband.wistia.com/medias/n840jfrer4) |
+| Team Foundation Server | [Watch tutorial »](https://bigbrassband.wistia.com/medias/czu7wovicv) |
+| AWS CodeCommit | [Watch tutorial »](https://bigbrassband.wistia.com/medias/5w5p0lbz77) |
+| Gerrit | [Watch tutorial »](https://bigbrassband.wistia.com/medias/eolraizc6s) |
+| HTTPS/HTTP/SSH | [Watch tutorial »](https://bigbrassband.wistia.com/medias/bu0wamg1fx) |
 
 &nbsp;
 
-### Customization
+## Customize Your Integration
 
-**[Webhooks »](https://bigbrassband.wistia.com/medias/4o796wnrdx)**
+**[Configure Webhooks »](https://bigbrassband.wistia.com/medias/4o796wnrdx)**
 
-Learn how to configure webhooks for supported git hosts.
+Set up webhooks to enable real-time indexing for supported git hosts.
 
-<br>
+**[Set Up Web Linking »](https://bigbrassband.wistia.com/medias/zfxfemq7z8)**
 
-**[Web Linking »](https://bigbrassband.wistia.com/medias/zfxfemq7z8)**
+Configure web linking options to create clickable links between Jira and your git host.
 
-Learn how to setup web linking options for supported git hosts via git configuration page.
+**[Configure GitLab Webhooks »](https://bigbrassband.wistia.com/medias/jp6bqtvkf4)**
 
-<br>
+Set up webhooks specifically for GitLab repositories.
 
-**[GitLab: Webhooks »](https://bigbrassband.wistia.com/medias/jp6bqtvkf4)**
+**[Configure GitHub Webhooks »](https://bigbrassband.wistia.com/medias/iqy5461ebq)**
 
-Learn how to configure webhooks for GitLab git hosts.
-
-<br>
-
-**[GitHub: Webhooks »](https://bigbrassband.wistia.com/medias/iqy5461ebq)**
-
-Learn how to configure webhooks for GitHub git hosts.
+Set up webhooks specifically for GitHub repositories.
 
 &nbsp;
 
-### Support
+## Set Up Authentication
 
-**[GitLab.com Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
+**[Create GitLab.com Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
 
-Setup GitLab.com personal access tokens and scopes required for Git for Jira Cloud integration. This video is applicable to GitLab git hosts.
+Generate personal access tokens with the required scopes for GitLab.com integration.
 
-<br>
+**[Create GitLab CE/EE Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
 
-**[GitLab CE/EE Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
+Generate personal access tokens with the required scopes for self-hosted GitLab servers.
 
-Setup GitLab server personal access tokens and scopes required for Git for Jira Cloud integration. This video is applicable to GitLab git hosts.
+**[Enable App Update Notifications »](https://bigbrassband.wistia.com/medias/u9rojnv0vv)**
 
-<br>
-
-**[Receive App Update Notifications »](https://bigbrassband.wistia.com/medias/u9rojnv0vv)**
-
-Configure Jira preferences to enable receiving of app update notifications.
+Configure Jira preferences to receive notifications when app updates are available.
 
 <kbd>Last updated: December 2025</kbd>
-
