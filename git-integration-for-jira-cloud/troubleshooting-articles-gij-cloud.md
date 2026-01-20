@@ -120,10 +120,6 @@ Commits appear in the Jira issue view:
 
 **Still not seeing commits?** Contact [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) or use the [GIJ Cloud Support Portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
-&nbsp;
-* * *
-&nbsp;
-
 ## When a GIJ license expires, it shows up as a session error
 
 ### Problem
@@ -142,9 +138,6 @@ This error indicates an expired trial or license. Renew your Git Integration for
 
 If the license expired for an extended period, you may see "There is no Enabled installID" after renewal. Submit a [support request](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) for manual enablement.
 
-&nbsp;
-* * *
-&nbsp;
 
 ## Licensing error - installCheck failed
 
@@ -180,17 +173,9 @@ Reinstall the app:
     </div>
 </div>
 
-&nbsp;
-* * *
-&nbsp;
-
 ## Why don't I see the Create branch or pull request features?
 
 Check that your integration supports these features and that you have the required permissions. See the [Feature matrix](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud) for supported features by git service.
-
-&nbsp;
-* * *
-&nbsp;
 
 ## Connection error for self-hosted git servers
 
@@ -209,10 +194,6 @@ TrackedGitLabRepoException: Can not connect to GitLab server
 ### Solution
 
 Add the Git Integration for Jira Cloud indexing service to your allowlist. See [Whitelist GIJ Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud).
-
-&nbsp;
-* * *
-&nbsp;
 
 ## Repositories missing from Azure DevOps (or VSTS) integration
 
@@ -242,9 +223,6 @@ See [Azure DevOps Access Levels](https://docs.microsoft.com/en-us/azure/devops/o
    - [Migrate from TFVC to Git](https://docs.microsoft.com/en-us/devops/develop/git/migrate-from-tfvc-to-git)
    - [Import repositories from TFVC to Git](https://docs.microsoft.com/en-us/azure/devops/repos/git/import-from-tfvc?view=azure-devops)
 
-&nbsp;
-* * *
-&nbsp;
 
 ## SSH key file format is invalid
 
@@ -299,9 +277,6 @@ ssh-keygen -t rsa -b 4096 -m pem -C your_email@example.com
 8. Convert to PEM: **Conversions** ➜ **Export OpenSSH key**.
 9. Upload the PEM file to Git Integration for Jira ➜ **SSH Keys**.
 
-&nbsp;
-* * *
-&nbsp;
 
 ## Error while reindexing - Java heap space / Object too large
 
@@ -341,10 +316,6 @@ Max object size limit is 2,147,483,639 bytes.
 
 **Option 3:** Filter out the repository using [Custom API Path](/git-integration-for-jira-cloud/working-with-custom-api-path-gij-cloud) or [JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
-&nbsp;
-* * *
-&nbsp;
-
 ## OAuth connection error or error 401 page with Azure DevOps integration
 
 ### Problem
@@ -364,10 +335,6 @@ Third-party OAuth access is disabled in Azure DevOps security settings.
 
 ![](/wp-content/uploads/gij-vsts-azure-devops-org-cfg-policy-oauth.png)
 
-&nbsp;
-* * *
-&nbsp;
-
 ## OAuth connection error or error 401 page with Azure DevOps with Active Directory integration
 
 ### Problem
@@ -385,10 +352,6 @@ Conditional access policy requires MFA for untrusted locations.
 
 ![](/wp-content/uploads/gij-enable-conditional-access-policy-AD.png)
 
-&nbsp;
-* * *
-&nbsp;
-
 ## Empty list of repositories after integration of Azure Repos
 
 ### Problem
@@ -403,10 +366,6 @@ Azure repository list is empty after integration, but status shows INDEXED.
 2. Verify PAT configuration per [Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
 
 If the problem persists, see the Azure DevOps OAuth troubleshooting sections above.
-
-&nbsp;
-* * *
-&nbsp;
 
 ## Reconnecting Azure DevOps and VSTS OAuth integrations
 
