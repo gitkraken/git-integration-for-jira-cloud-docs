@@ -52,7 +52,7 @@ taxonomy:
 </div>
 
 <div align='center' style='margin-top:15px;margin-bottom:35px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/ejgouua9x4'><b>here</b></a> to open in a new tab.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/ejgouua9x4'><b>here</b></a> to open in a new tab.</i>
 </div>
 
 ### Group-Level Setup
@@ -62,7 +62,7 @@ taxonomy:
 </div>
 
 <div align='center' style='margin-top:15px;margin-bottom:35px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/uh616awfnj'><b>here</b></a> to open in a new tab.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/uh616awfnj'><b>here</b></a> to open in a new tab.</i>
 </div>
 
 &nbsp;

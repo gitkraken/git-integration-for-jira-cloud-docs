@@ -79,7 +79,7 @@ taxonomy:
 </div>
 
 <div align='center' style='margin-top:15px;margin-bottom:35px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/3kzzx8i8pg'><b>here</b></a> to open in a new tab.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/3kzzx8i8pg'><b>here</b></a> to open in a new tab.</i>
 </div>
 
 1. Open your GitHub repository.
@@ -121,7 +121,7 @@ taxonomy:
 </div>
 
 <div align='center' style='margin-top:15px;margin-bottom:35px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/t5rrr6l1bw'><b>here</b></a> to open in a new tab.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/t5rrr6l1bw'><b>here</b></a> to open in a new tab.</i>
 </div>
 
 1. Open your GitHub organization.

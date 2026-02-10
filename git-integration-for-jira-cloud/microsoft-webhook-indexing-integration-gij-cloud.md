@@ -50,7 +50,7 @@ taxonomy:
 </div>
 
 <div align='center' style='margin-top:15px;margin-bottom:35px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/5ztyu5vu5l'><b>here</b></a> to open in a new tab.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/5ztyu5vu5l'><b>here</b></a> to open in a new tab.</i>
 </div>
 
 &nbsp;
