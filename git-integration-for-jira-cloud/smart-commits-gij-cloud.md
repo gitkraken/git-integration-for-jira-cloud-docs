@@ -556,7 +556,7 @@ The automatic workflow trigger is now configured.
 </div>
 
 <div align='center' style='margin-top:15px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/r8fm0tbrcs'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/r8fm0tbrcs'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;

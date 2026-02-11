@@ -39,7 +39,7 @@ There are several types of project permission levels:
 </div>
 
 <div align='center' style='margin-top:15px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 <div align='center' style='margin-bottom:30px;'>(<i>Updated video coming soon</i>)</div>
@@ -67,7 +67,7 @@ The same process applies to other single repository connections in Jira Cloud.
 </div>
 
 <div align='center' style='margin-top:15px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 <div align='center' style='margin-bottom:30px'>(<i>Updated video coming soon</i>)</div>
@@ -93,7 +93,7 @@ To configure project permissions for an integration (multiple repository connect
 </div>
 
 <div align='center' style='margin-top:15px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 <div align='center' style='margin-bottom:30px'>(<i>Updated video coming soon</i>)</div>
@@ -140,7 +140,7 @@ Watch the video below to learn about different settings for each project permiss
 </div>
 
 <div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/nnao2x4ses'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/nnao2x4ses'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 <div align='center'>(<i>Updated video coming soon</i>)</div>

@@ -51,7 +51,7 @@ For more information, see [Atlassian Jira Cloud Supported Browsers](https://conf
 </div>
 
 <div align='center' style='margin-top:10px;margin-bottom:30px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/m9u64t1a3h'><b>here</b></a> to open in a new tab.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/m9u64t1a3h'><b>here</b></a> to open in a new tab.</i>
 </div>
 
 No changes are necessary to your Git server. This Jira app acts as a regular Git client. A Jira administrator can install the Git Integration for Jira app from Atlassian Marketplace without leaving the web browser.
