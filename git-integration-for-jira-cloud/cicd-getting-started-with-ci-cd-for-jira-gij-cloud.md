@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-[CI/CD for Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview) is a free extension to Git Integration for Jira that connects your CI/CD DevOps pipelines with Jira Cloud's builds and deployments features. Just as Git Integration for Jira exposes commits, branches, and pull requests, CI/CD for Jira adds build and deployment information associated with Jira issues.
+CI/CD for Jira (previously a free extension, now included in Git Integration for Jira) connects your CI/CD DevOps pipelines with Jira's builds and deployments features. Just as Git Integration for Jira exposes commits, branches, and pull requests, CI/CD for Jira adds build and deployment information associated with Jira issues.
 
 CI/CD for Jira tracks builds and deployments by Pull Requests. The extension supports classic pipelines and YAML pipelines for builds only. If you run your deployments through the build YAML pipeline, the deployments do not appear.
 
@@ -36,7 +36,7 @@ CI/CD for Jira tracks builds and deployments by Pull Requests. The extension sup
 
 ## Supported services
 
-[CI/CD for Jira](https://marketplace.atlassian.com/apps/1228578/ci-cd-for-jira?hosting=cloud&tab=overview) currently supports the following tools for build and deployment information:
+CI/CD for Jira currently supports the following tools for build and deployment information:
 
 - GitHub Actions (Cloud or Self Hosted)
 - GitLab CI/CD (Cloud or Self Hosted)
@@ -47,7 +47,7 @@ CI/CD for Jira tracks builds and deployments by Pull Requests. The extension sup
 
 ## Setup
 
-After you add the CI/CD for Jira extension from the Atlassian Marketplace, no additional steps are needed to start seeing build and deployment information in Jira. Ensure your previously connected repositories have been reindexed.
+Head to App settings and select "Enable CI/CD". Ensure your previously connected repositories have been reindexed.
 
 &nbsp;
 
