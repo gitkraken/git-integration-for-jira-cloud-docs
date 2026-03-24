@@ -1,9 +1,22 @@
 ---
-title: GIJ Advanced Support Guide
-description: Guidelines for submitting priority support requests for GIJ Advanced edition.
+title: "GIJ Advanced Support Guide"
+description: "Guidelines for submitting priority support requests for GIJ Advanced edition."
+product: "Git Integration for Jira Cloud"
+feature: "GIJ Advanced Support Guide"
+content_type: "troubleshooting"
+audience: "admin"
+plan_required: "Advanced"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "troubleshooting", "admin", "Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 GIJ Advanced Edition provides priority support with an initial response within 6 business hours*.
 
@@ -60,4 +73,3 @@ Copy the information at the bottom of the page starting from "Current Build". In
 
 *During support team business hours (10:00-22:00 UTC, Monday-Friday). See our [GIJ Cloud Support Terms and Services](https://help.gitkraken.com/git-integration-for-jira-cloud/sla-terms-and-conditions-gij-cloud/#git-integration-for-jira-cloud-support) for details.
 
-<kbd>Last updated: December 2025</kbd>

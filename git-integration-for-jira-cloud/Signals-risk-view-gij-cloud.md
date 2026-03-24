@@ -1,11 +1,22 @@
 ---
-
-title: Signals Risk View Settings
-description: Configure risk thresholds and severity levels for sprints, issues, and pull requests in Signals to identify potential project risks.
+title: "Signals Risk View Settings"
+description: "Configure risk thresholds and severity levels for sprints, issues, and pull requests in Signals to identify potential project risks."
+product: "Git Integration for Jira Cloud"
+feature: "Signals Risk View Settings"
+content_type: "concept"
+audience: "developer"
+plan_required: "Advanced"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "developer", "Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Signals highlights sprints or issues not progressing as expected, drawing attention to potential delays. Managers can activate or deactivate risk alerts based on project requirements. Each risk has a configurable severity level that indicates its impact on the project.
 
@@ -145,4 +156,3 @@ Use this setting to identify code reviews that need attention or may be blocking
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

@@ -1,11 +1,22 @@
 ---
-
-title: Integration Guide
-description: Guide to connecting Git repositories with Jira Cloud using Git Integration for Jira
+title: "Integration Guide"
+description: "Guide to connecting Git repositories with Jira Cloud using Git Integration for Jira"
+product: "Git Integration for Jira Cloud"
+feature: "Integration Guide"
+content_type: "integration"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Welcome to the Git Integration for Jira app reference page index for topics about integration of git repositories with Jira Cloud.
 
@@ -81,4 +92,3 @@ Connect plain git repositories via the Git Integration for Jira app in Jira Clou
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

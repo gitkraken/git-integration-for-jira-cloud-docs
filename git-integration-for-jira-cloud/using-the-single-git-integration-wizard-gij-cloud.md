@@ -1,13 +1,30 @@
 ---
-
-title: Using the Single git integration wizard
-description: How to connect single git repositories using the integration wizard
+title: "Using the Single git integration wizard"
+description: "How to connect single git repositories using the integration wizard"
+product: "Git Integration for Jira Cloud"
+feature: "Using the Single git integration wizard"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Connect specific single git repositories using Git Integration for Jira.
+
+| Setup path | Repository scope | Best for | Notes |
+| :--- | :--- | :--- | :--- |
+| Quick start / Plain Git repository | Single repository | Connecting one repository over HTTPS or SSH | Use when you do not need multi-repository Git service integration |
+| HTTPS authentication | Single repository | Repositories accessed with username/password or PAT | If 2FA is enabled, use a personal access token as the password |
+| SSH authentication | Single repository | Repositories accessed with SSH keys | Requires the necessary private-key permissions and any passphrase information |
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -22,7 +39,7 @@ Connect specific single git repositories using Git Integration for Jira.
 
 &nbsp;
 
-### Step 1
+### How to start the single repository integration wizard
 
 On the Manage integrations page, click **Add integration**.
 
@@ -30,7 +47,7 @@ On the Manage integrations page, click **Add integration**.
 
 &nbsp;
 
-### Step 2
+### How to choose Quick start or Plain Git Repository
 
 On the Git hosting service selection screen, use the **Quick start** section by pasting the git clone URL in the provided box (HTTPS or SSH), then click **Connect** to proceed.
 
@@ -40,13 +57,13 @@ You can also click **Plain Git Repository** to connect single git repositories.
 
 &nbsp;
 
-### Step 3
+### How to enter the repository URL and choose the authentication flow
 
 Set up the integration depending on the type of git clone URL you are using. Enter the git clone URL into the **Host URL** field. The login form automatically adjusts to the type of URL provided.
 
 &nbsp;
 
-#### 3a. HTTPS Authentication
+#### How to connect a repository with HTTPS authentication
 
 ![](/wp-content/uploads/gij-gitcloud-managed-ui-single-repo-add-new-http-2025.png)
 
@@ -65,7 +82,7 @@ Provide login credentials as required, then click **Add integration** to complet
 
 &nbsp;
 
-### 3b. SSH Authentication
+### How to connect a repository with SSH authentication
 
 ![](/wp-content/uploads/gij-gitcloud-quick-start-plain-git-integration-ssh-2025.png)
 
@@ -98,7 +115,7 @@ If the [generated SSH key pair](/git-integration-for-jira-cloud/working-with-ssh
 
 &nbsp;
 
-### Setup Complete
+### What happens after single repository setup completes
 
 After completing the setup, the wizard indexes the git repository to build change history. This completes the setup, and the newly added repository appears in the integration list on the Manage integrations page.
 
@@ -111,4 +128,3 @@ After completing the setup, the wizard indexes the git repository to build chang
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

@@ -1,9 +1,22 @@
 ---
-title: Trusted Users
-description: Learn how to assign the Trusted role to users for Git Integration for Jira Cloud administrative access.
+title: "Trusted Users"
+description: "Learn how to assign the Trusted role to users for Git Integration for Jira Cloud administrative access."
+product: "Git Integration for Jira Cloud"
+feature: "Trusted Users"
+content_type: "security"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "security", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Trusted users have administrative permissions for the Git Integration for Jira app. They can see all pages of the app and invite other users.
 
@@ -66,4 +79,3 @@ Jira administrators can grant the Trusted role when inviting users and can chang
 
 6. The role change takes effect immediately.
 
-<kbd>Last updated: December 2025</kbd>

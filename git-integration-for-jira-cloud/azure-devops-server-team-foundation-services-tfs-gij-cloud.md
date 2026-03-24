@@ -1,11 +1,22 @@
 ---
-
-title: Azure DevOps Server | Team Foundation Services (TFS)
-description: Learn how to integrate Azure DevOps Server and Team Foundation Services (TFS) git repositories with Jira Cloud using Git Integration for Jira.
+title: "Azure DevOps Server | Team Foundation Services (TFS)"
+description: "Learn how to integrate Azure DevOps Server and Team Foundation Services (TFS) git repositories with Jira Cloud using Git Integration for Jira."
+product: "Git Integration for Jira Cloud"
+feature: "Azure DevOps Server | Team Foundation Services (TFS)"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Azure DevOps Server"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "Azure DevOps Server"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -28,6 +39,12 @@ taxonomy:
 Quickly learn how to connect Azure DevOps Server/TFS git repositories via Git Integration for Jira app.
 
 The Git Integration for Jira app supports Azure Repos.
+
+| Setup path | Auth method | Repository scope | Best for | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| Git service integration | PAT for newer servers, username/password for older TFS, plus host settings | Multiple repositories | Main Azure DevOps Server or TFS integration path for Jira Cloud | Recommended for multi-repository setup |
+| Single git repository integration | HTTPS or SSH | Single repository | One specific Azure DevOps Server or TFS repository | Use when you only need one repository connection |
+| Webhooks and web linking | Webhook trigger plus app configuration | Per integration | Faster indexing updates after repositories are connected | Requires separate webhook setup |
 
 **What’s on this page:**
 - [Integrate Azure DevOps Server/TFS with Jira Cloud](#integrate-azure-devops-servertfswith-jira-cloud)
@@ -72,11 +89,23 @@ If you have not yet generated a personal access token (PAT), you can create one 
 
 Set Azure DevOps Server/TFS repository permissions according to your organization's rules. Viewing commits from Jira requires the user to have at least **Read** or **View** permissions. For branch/pull request creation, set specific service users with **Write** permissions.
 
+| User goal | Minimum repository permission | Auth note |
+| :--- | :--- | :--- |
+| View commits in Jira | Read or View | Works with the base integration permissions |
+| Create branches or pull requests from Jira | Write | Use a service user with write access |
+
 ## Using Git service integration and OAuth
 
 This process requires an existing Microsoft account with Azure DevOps Server/TFS **git** projects.
 
 We recommend using the Git service integrations panel to connect multiple repositories from your Azure DevOps Server/TFS account.
+
+| Authentication or config choice | Use when | Notes |
+| :--- | :--- | :--- |
+| PAT | TFS 2017 and newer, or Azure DevOps Server | Recommended for modern server versions |
+| Username/password | TFS 2013 or TFS 2015 | PATs are not available on these versions |
+| Suffix `/tfs` | You are connecting Team Foundation Server | Defaults to `/tfs`; leave blank to use the default |
+| Empty suffix | You are connecting Azure DevOps Server | Leave the suffix blank |
 
 1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
     ![](/wp-content/uploads/gij-gitcloud-jira-apps-manage-integrations-sel-c-2025.png)
@@ -465,6 +494,4 @@ Once approved, the team leader or reviewer can then complete the merge. The com
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 
 <br>
-
-<kbd>Last updated: December 2025</kbd>
 

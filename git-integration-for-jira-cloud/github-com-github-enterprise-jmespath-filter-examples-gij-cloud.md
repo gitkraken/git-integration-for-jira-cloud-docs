@@ -1,11 +1,22 @@
 ---
-
-title: GitHub.com | GitHub Enterprise JMESPath filter examples
-description:
+title: "GitHub.com | GitHub Enterprise JMESPath filter examples"
+description: "Step-by-step guide to GitHub.com | GitHub Enterprise JMESPath filter examples in Git Integration for Jira Cloud for GitHub.com, GitHub, for Jira Cloud users."
+product: "Git Integration for Jira Cloud"
+feature: "GitHub.com | GitHub Enterprise JMESPath filter examples"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitHub.com"]
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "GitHub.com"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 &nbsp;
 

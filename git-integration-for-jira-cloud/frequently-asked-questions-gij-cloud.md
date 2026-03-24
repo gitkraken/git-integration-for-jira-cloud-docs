@@ -1,9 +1,22 @@
 ---
-title: Frequently Asked Questions
-description: Find answers to common questions about Git Integration for Jira Cloud, including setup, configuration, and troubleshooting.
+title: "Frequently Asked Questions"
+description: "Find answers to common questions about Git Integration for Jira Cloud, including setup, configuration, and troubleshooting."
+product: "Git Integration for Jira Cloud"
+feature: "Frequently Asked Questions"
+content_type: "faq"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "faq"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Find answers to questions asked by Git Integration for Jira app users. Use the table of contents below to jump to a specific topic.
 
@@ -319,4 +332,3 @@ Yes. Unicode characters are supported and displayed properly.
 
 Include this information in support requests.
 
-<kbd>Last updated: December 2025</kbd>

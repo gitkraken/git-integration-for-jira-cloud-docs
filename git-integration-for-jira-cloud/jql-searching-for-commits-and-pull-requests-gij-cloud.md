@@ -1,11 +1,22 @@
 ---
-
-title: JQL Searching for Commits and Pull Requests
-description: Learn how to use JQL syntax to search for Jira issues based on commit and pull request activity.
+title: "JQL Searching for Commits and Pull Requests"
+description: "Learn how to use JQL syntax to search for Jira issues based on commit and pull request activity."
+product: "Git Integration for Jira Cloud"
+feature: "JQL Searching for Commits and Pull Requests"
+content_type: "integration"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <!-- FEATURES -->
 
@@ -90,4 +101,3 @@ development[pullrequests].open > 0
 - [Jira Cloud Smart Commits and Workflow Triggers](/git-integration-for-jira-cloud/jira-cloud-smart-commits-and-workflow-triggers-gij-cloud/)
 - [Jira Development Information general settings](/git-integration-for-jira-cloud/jira-development-information-settings-gij-cloud)
 
-<kbd>Last updated: December 2025</kbd>

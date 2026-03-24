@@ -1,11 +1,22 @@
 ---
-
-title: Jira Development Information settings feature
-description:
+title: "Jira Development Information settings feature"
+description: "Administrative guide for Jira Development Information settings feature in Git Integration for Jira Cloud, for Jira administrators."
+product: "Git Integration for Jira Cloud"
+feature: "Jira Development Information settings feature"
+content_type: "admin"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Access this setting on the dashboard menu via Apps ➜ Git Integration: Manage Git repositories ➜ (sidebar) **General settings**. Alternatively, go to dashboard Jira Settings ➜ Apps ➜ (sidebar) **General settings**.
 

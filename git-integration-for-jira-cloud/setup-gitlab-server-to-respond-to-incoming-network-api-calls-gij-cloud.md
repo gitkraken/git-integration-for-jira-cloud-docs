@@ -1,11 +1,23 @@
 ---
-
-title: Setup GitLab Server to respond to incoming network API calls
-description:
+title: "Setup GitLab Server to respond to incoming network API calls"
+description: "Security and access guide for Setup GitLab Server to respond to incoming network API calls in Git Integration for Jira Cloud for GitLab, for Jira Cloud users."
+product: "Git Integration for Jira Cloud"
+feature: "Setup GitLab Server to respond to incoming network API calls"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitLab"]
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "GitLab"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
+
 In order for GitLab to display correct repository clone links to your users, it needs to know the URL under which it is reached by your users (e.g. `http://gitlab.example.com`)
 
 To reconfigure:

@@ -1,9 +1,22 @@
 ---
-title: Fix for empty JSON files
-description: Troubleshooting guide for corrupted JSON configuration files in Git Integration for Jira Cloud.
+title: "Fix for empty JSON files"
+description: "Troubleshooting guide for corrupted JSON configuration files in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Fix for empty JSON files"
+content_type: "troubleshooting"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "troubleshooting"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 This page provides solutions for recovering from corrupted integration configuration files.
 
@@ -87,4 +100,3 @@ Unexpected file corruption of the JSON file that stores integration and reposito
     </div>
 </div>
 
-<kbd>Last updated: December 2025</kbd>

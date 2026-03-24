@@ -1,11 +1,22 @@
 ---
-
-title: Managing integrations via Actions (Jira Cloud)
-description: How to use Actions to manage Git integrations and repositories
+title: "Managing integrations via Actions (Jira Cloud)"
+description: "How to use Actions to manage Git integrations and repositories"
+product: "Git Integration for Jira Cloud"
+feature: "Managing integrations via Actions (Jira Cloud)"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "deprecated"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "deprecated"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 After integrating your repository or git host service, you can perform a set of Actions by clicking the Gear icon under the **Actions** column on the integration/repository configuration list.
 
@@ -111,4 +122,3 @@ Group action becomes available when selecting multiple integrations and reposito
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

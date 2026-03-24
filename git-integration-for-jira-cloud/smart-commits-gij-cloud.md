@@ -1,11 +1,22 @@
 ---
-
-title: Smart commits
-description: Use Smart commits to perform actions on Jira issues directly from Git commit messages
+title: "Smart commits"
+description: "Use Smart commits to perform actions on Jira issues directly from Git commit messages"
+product: "Git Integration for Jira Cloud"
+feature: "Smart commits"
+content_type: "concept"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Smart commits allow your team to perform actions on Jira issues from a single commit. Users can enter the issue key and the desired action such as time tracking or closing an issue.
 
@@ -619,4 +630,3 @@ _The above example moves the stage of the Jira issue to CLOSED._
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

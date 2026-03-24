@@ -1,9 +1,22 @@
 ---
-title: How-to articles
-description: Browse step-by-step guides for Git Integration for Jira Cloud including pricing, configuration, and integration workflows.
+title: "How-to articles"
+description: "Browse step-by-step guides for Git Integration for Jira Cloud including pricing, configuration, and integration workflows."
+product: "Git Integration for Jira Cloud"
+feature: "How-to articles"
+content_type: "install"
+audience: "reseller"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "reseller"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "reseller"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 This collection of how-to guides walks you through common tasks and recommended workflows for Git Integration for Jira Cloud.
 
@@ -45,4 +58,3 @@ This collection of how-to guides walks you through common tasks and recommended 
 
 [How to Create Reindex Triggers for a Single Repository](/git-integration-for-jira-cloud/how-to-create-reindex-triggers-for-a-single-repository-gij-cloud) - Set up webhooks for targeted reindexing
 
-<kbd>Last updated: December 2025</kbd>

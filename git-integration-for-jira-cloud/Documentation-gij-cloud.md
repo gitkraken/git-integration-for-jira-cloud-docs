@@ -1,11 +1,31 @@
 ---
-
-title: Documentation
-description: Complete documentation for Git Integration for Jira Cloud
+title: "Documentation"
+description: "Complete documentation for Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Documentation"
+content_type: "reference"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
+
+Git Integration for Jira Cloud documentation explains how Jira administrators and Jira users install the app, connect repositories, and work with Git data inside Jira Cloud. Use this page as the entry point when you need the correct guide for setup, permissions, repository access, or issue-level Git workflows.
+
+**Quick Start**
+
+- Install the app from Atlassian Marketplace if Git Integration for Jira Cloud is not yet installed
+- Review permissions and SSH requirements before connecting repositories
+- Use the integration setup guides for your git host and authentication method
+- Use the feature guides below for issue, project, and repository workflows after setup
 
 <img src='/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png' height=auto width=100% />
 
@@ -34,7 +54,7 @@ New tabs are added to the **Issue** view called _**Git Roll Up**_ and _**Git Com
 
 Ask your Git administrator if you need access to the Git repository just like a regular developer would have.
 
-If you are the Git administrator, define a new Git user for this Jira Server/Data Center.
+If you are the Jira administrator, review the app permissions and integration setup guides for Jira Cloud before connecting repositories.
 
 Git Integration for Jira is available for Jira Server, Jira Data Center, and Cloud. It supports seamless integration with most git hosts and can be configured with ease.
 
@@ -66,7 +86,7 @@ Follow the link below for the quick installation guide, or choose topics from th
 * * *
 &nbsp;
 
-### Welcome to the Git Integration for Jira Documentation
+## How to choose the Git Integration for Jira Cloud guide you need
 
 Jump to a topic you are interested in by clicking the links below. Learn about administrative requirements, installation, and integration setup, or scroll to the topic you want to view.
 
@@ -160,4 +180,3 @@ Legal information about license and copyright notice.
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

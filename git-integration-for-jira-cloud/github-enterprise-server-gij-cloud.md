@@ -1,11 +1,22 @@
 ---
-
-title: GitHub Enterprise Server
-description: How to integrate GitHub Enterprise Server repositories with Jira Cloud
+title: "GitHub Enterprise Server"
+description: "How to integrate GitHub Enterprise Server repositories with Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "GitHub Enterprise Server"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitHub Enterprise Server"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "GitHub Enterprise Server"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -51,6 +62,12 @@ taxonomy:
 # Integrate GitHub Enterprise Server with Jira Cloud
 
 Quickly learn how to connect GitHub Enterprise Server git repositories via Git Integration for Jira Cloud.
+
+| Setup path | Auth method | Repository scope | Best for | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| Git service integration | Personal access token | Multiple repositories | Main GitHub Enterprise Server integration path for Jira Cloud | Recommended for multi-repository setup |
+| Single git repository integration | HTTPS or SSH | Single repository | One specific GitHub Enterprise Server repository | Use when you only need one repository or SSH access |
+| Webhook indexing integration | Webhook URL plus secret | Multiple repositories | GitHub Enterprise Server environments using webhook-based indexing | Use the dedicated webhook indexing guide instead |
 
 **What's on this page:**
 - [Integrate GitHub Enterprise Server with Jira Cloud](#integrate-github-enterprise-server-with-jira-cloud)
@@ -139,6 +156,12 @@ We recommend using the **Git service integration** panel to connect multiple rep
             To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
     *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
+
+    | Configuration option | Use when | Notes |
+    | :--- | :--- | :--- |
+    | PAT GitHub Server | You want the main multi-repository GitHub Enterprise Server setup flow | Main path in this guide |
+    | Custom API Path | You need to target a narrower API path on the server | Relative path, maximum 2000 characters |
+    | JMESPath filter | You need to limit which repositories are integrated | Maximum 2000 characters |
 
 6.  Click **Connect and select repositories** to proceed to the next step. The Git Integration for Jira app will read all available repositories from your GitHub Enterprise Server account.
 
@@ -442,6 +465,4 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
 

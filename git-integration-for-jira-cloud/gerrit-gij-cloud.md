@@ -1,11 +1,22 @@
 ---
-
-title: Gerrit
-description: Learn how to integrate Gerrit git repositories with Jira Cloud using Git Integration for Jira.
+title: "Gerrit"
+description: "Learn how to integrate Gerrit git repositories with Jira Cloud using Git Integration for Jira."
+product: "Git Integration for Jira Cloud"
+feature: "Gerrit"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Gerrit"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "Gerrit"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -28,6 +39,12 @@ taxonomy:
 
 Quickly learn how to connect Gerrit git repositories via Git Integration for Jira Cloud.
 
+| Setup path | Auth method | Repository scope | Best for | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| Git service integration | Username plus password or token | Multiple repositories | Main Gerrit integration path for Jira Cloud | Recommended for multi-repository setup |
+| Single repository connection | SSH, HTTP, or HTTPS clone URL | Single repository | One specific Gerrit repository | Use when you only need one repository connection |
+| Web linking | Automatic for Git service integrations, optional for single repositories | Per repository or integration | Opening Gerrit links from Jira | Single-repository connections can configure web links manually |
+
 **What's on this page:**
 - [Integrate Gerrit with Jira Cloud](#integrate-gerrit-with-jira-cloud)
   - [Git service integration](#git-service-integration)
@@ -44,6 +61,12 @@ Quickly learn how to connect Gerrit git repositories via Git Integration for Jir
 <br>
 
 ## Git service integration
+
+| Configuration option | Use when | Notes |
+| :--- | :--- | :--- |
+| Default Gerrit full feature integration | You want the main Gerrit multi-repository setup flow | Recommended path in this guide |
+| Gerrit webhook indexing | You are evaluating a webhook-based path | Still marked under construction in this page |
+| Host URL plus username/password or token | You are connecting directly to a Gerrit server | Required fields for the integration form |
 
 1.  On your Jira side bar, go to Apps ➜ **Git Integration for Jira**, then **Settings** ➜ **Manage Integrations**
 
@@ -93,6 +116,11 @@ The Gerrit git repositories are now connected to Jira Cloud.
 BigBrassBand recommends to use the Git service integration for Gerrit.
 
 Use this section for setting up single repository connections or connecting single repositories via SSH.
+
+| Single repository option | Best for | Notes |
+| :--- | :--- | :--- |
+| SSH clone URL | Authenticated Gerrit repository access over SSH | Useful when your Gerrit workflow is SSH-based |
+| Anonymous HTTPS | Read-only or simpler HTTPS access | Use when Gerrit exposes the repository over HTTPS |
 
 Login to your Gerrit account. Obtain the repository URL from the Gerrit repository project page. Use either SSH or Anonymous HTTPS.
 
@@ -182,6 +210,4 @@ For the case with Gerrit, the default main branch is always “master”.
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
 
 <br>
-
-<kbd>Last updated: December 2025</kbd>
 

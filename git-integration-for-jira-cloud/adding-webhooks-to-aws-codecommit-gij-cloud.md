@@ -1,9 +1,30 @@
 ---
-title: Adding webhooks to AWS CodeCommit
-description: Configure webhooks for AWS CodeCommit repositories in Git Integration for Jira Cloud.
+title: "Adding webhooks to AWS CodeCommit"
+description: "Configure webhooks for AWS CodeCommit repositories in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Adding webhooks to AWS CodeCommit"
+content_type: "reference"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["AWS CodeCommit"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "admin", "AWS CodeCommit"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
+
+Git Integration for Jira Cloud uses AWS SNS subscriptions and CodeCommit triggers to receive faster indexing updates after repository activity. Use this page when an AWS CodeCommit repository is already connected and you want AWS to push notifications to Jira Cloud instead of waiting for polling.
+
+| AWS CodeCommit webhook setup choice | Use when | AWS component | Notes |
+| :--- | :--- | :--- | :--- |
+| SNS topic creation | You do not yet have a notification topic for CodeCommit | Amazon SNS topic | Required before the repository trigger can send notifications |
+| HTTPS subscription to Jira | You need SNS to deliver notifications to Jira Cloud | SNS subscription | Uses the Jira webhook URL as the HTTPS endpoint |
+| Repository trigger | You want CodeCommit to publish repository activity to SNS | CodeCommit trigger | Use All repository events unless you need narrower scope |
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -42,7 +63,7 @@ taxonomy:
 * * *
 &nbsp;
 
-## Create an SNS Topic
+## How to create an SNS topic for CodeCommit notifications
 
 AWS CodeCommit uses SNS (Simple Notification Service) topics to send webhook notifications.
 
@@ -71,7 +92,7 @@ AWS CodeCommit uses SNS (Simple Notification Service) topics to send webhook not
 
 &nbsp;
 
-## Add the Webhook URL Subscription
+## How to subscribe the Jira webhook URL to the SNS topic
 
 1. Go to the **Subscriptions** tab for your new SNS topic.
 
@@ -107,7 +128,7 @@ AWS CodeCommit uses SNS (Simple Notification Service) topics to send webhook not
 
 &nbsp;
 
-## Configure the Repository Trigger
+## How to configure the CodeCommit repository trigger
 
 1. Open your CodeCommit repository in the AWS web portal.
 
@@ -135,7 +156,7 @@ AWS CodeCommit uses SNS (Simple Notification Service) topics to send webhook not
 
 &nbsp;
 
-## Verify the Configuration
+## How to verify the AWS CodeCommit webhook configuration
 
 1. Make a test commit to your repository.
 
@@ -169,4 +190,3 @@ If errors appear, verify your AWS trigger settings and reindex the integration.
     </div>
 </div>
 
-<kbd>Last updated: December 2025</kbd>

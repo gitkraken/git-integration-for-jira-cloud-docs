@@ -1,13 +1,34 @@
 ---
-
-title: Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues
-description: How to set up integrations with self-signed SSL certificates using automatic connection
+title: "Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues"
+description: "How to set up integrations with self-signed SSL certificates using automatic connection"
+product: "Git Integration for Jira Cloud"
+feature: "Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues"
+content_type: "security"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "deprecated"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "security", "admin", "deprecated"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>GITHUB ENTERPRISE</b> <b style='background-color:#FFE3B2; padding:1px 5px; color:#A35F00; border-radius:3px; margin: 0 5px; font-size: small;'>GITLAB CE/EE</b>
+
+Git Integration for Jira Cloud can connect automatically to private HTTPS repositories with self-signed certificates during full-feature integration, but this path is now deprecated. Use this page only if you are maintaining an older automatic setup flow for GitHub Enterprise or GitLab CE/EE; otherwise use the current self-signed HTTPS connection guidance first.
+
+**Requirements**
+
+- Jira Cloud with Git Integration for Jira Cloud installed
+- Jira Administrator access to Manage integrations
+- A private HTTPS repository that uses a self-signed or expired certificate
+
+## How to connect a repository through the deprecated automatic SSL flow
 
 Perform full feature integration with HTTPS git repositories that have self-signed SSL certificates or other SSL issues.
 
@@ -34,6 +55,8 @@ For this guide, we use GitLab Server as an example:
 
 6.  Select repositories or import all of them, then click **Connect repositories** to complete the setup.
 
+## What to do after the integration is created
+
 This integration appears in the Manage integrations list. Go to ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration** to make changes to the repository settings.
 
 &nbsp;
@@ -45,4 +68,3 @@ This integration appears in the Manage integrations list. Go to ![](/wp-content/
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

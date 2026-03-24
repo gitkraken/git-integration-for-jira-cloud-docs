@@ -1,11 +1,22 @@
 ---
-
-title: Signals Teams View
-description: Learn how to use the Teams View in Signals to monitor team member activities, track assignments, and view individual progress.
+title: "Signals Teams View"
+description: "Learn how to use the Teams View in Signals to monitor team member activities, track assignments, and view individual progress."
+product: "Git Integration for Jira Cloud"
+feature: "Signals Teams View"
+content_type: "concept"
+audience: "all"
+plan_required: "Advanced"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 ![](/wp-content/uploads/tij-gitcloud-teams-view-main-screen.png)
 
@@ -169,4 +180,3 @@ To apply your filter selections and display results, click **Search**.
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

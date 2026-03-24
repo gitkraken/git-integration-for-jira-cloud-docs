@@ -1,9 +1,30 @@
 ---
-title: Adding webhooks for Bitbucket Cloud
-description: Configure webhooks for Bitbucket Cloud repositories in Git Integration for Jira Cloud.
+title: "Adding webhooks for Bitbucket Cloud"
+description: "Configure webhooks for Bitbucket Cloud repositories in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Adding webhooks for Bitbucket Cloud"
+content_type: "reference"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Bitbucket Cloud"]
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "developer", "Bitbucket Cloud"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
+
+Git Integration for Jira Cloud uses Bitbucket Cloud webhooks to trigger faster indexing updates after repository pushes and pull request activity. Use this page when a Bitbucket Cloud repository is already connected and you want webhook-driven updates instead of waiting for the default polling interval.
+
+| Bitbucket Cloud webhook setup choice | Use when | Events to enable | Notes |
+| :--- | :--- | :--- | :--- |
+| Repository push only | You only need commit indexing | Repository push | Basic Bitbucket setup |
+| Repository push plus pull request events | You need commit and pull request updates | Repository push, Pull request created, Pull request updated | Recommended for fuller Bitbucket coverage |
+| Full trigger list selection | You want precise control over enabled events | Choose from the full trigger list | Use when the simplified trigger list is too limited |
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -34,7 +55,7 @@ taxonomy:
 
 &nbsp;
 
-## Configure Bitbucket Cloud Webhooks
+## How to configure a Bitbucket Cloud webhook
 
 1. Log in to Bitbucket and open your project.
 
@@ -67,7 +88,7 @@ taxonomy:
 
 &nbsp;
 
-## Enable Pull Request Webhooks
+## How to enable pull request webhook events in Bitbucket Cloud
 
 For pull request events, configure three separate triggers:
 
@@ -77,4 +98,3 @@ For pull request events, configure three separate triggers:
 
 ![](/wp-content/uploads/gij-webhooks-bitbucket-sample.png)
 
-<kbd>Last updated: December 2025</kbd>

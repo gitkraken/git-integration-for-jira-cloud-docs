@@ -1,13 +1,32 @@
 ---
-title: GitLab webhook events
-description: Reference documentation for GitLab webhook event types supported by Git Integration for Jira Cloud.
+title: "GitLab webhook events"
+description: "Reference documentation for GitLab webhook event types supported by Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "GitLab webhook events"
+content_type: "reference"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitLab"]
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "GitLab"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 This page documents the GitLab webhook event types that Git Integration for Jira Cloud supports.
 
-## Push Events
+| GitLab event type | Use when | Key header or hook type | Typical Jira impact |
+| :--- | :--- | :--- | :--- |
+| Push | You need commit and branch indexing after repository updates | `X-GitLab-Event: Push Hook` | Reindexes commit-related activity |
+| Merge request | You need merge request indexing updates | `X-GitLab-Event: Merge Request Hook` | Reindexes merge request-related activity |
+| Project create, update, destroy | You need project-level hook handling on GitLab | `System Hook` | Supports project lifecycle changes where configured |
+
+## When to use the GitLab push event
 
 | Property | Value |
 |----------|-------|
@@ -34,7 +53,7 @@ This page documents the GitLab webhook event types that Git Integration for Jira
 }
 ```
 
-## Merge Request Events
+## When to use the GitLab merge request event
 
 | Property | Value |
 |----------|-------|
@@ -69,7 +88,7 @@ This page documents the GitLab webhook event types that Git Integration for Jira
 }
 ```
 
-## Project Create Events
+## When to use the GitLab project create event
 
 | Property | Value |
 |----------|-------|
@@ -93,7 +112,7 @@ This page documents the GitLab webhook event types that Git Integration for Jira
 }
 ```
 
-## Project Update Events
+## When to use the GitLab project update event
 
 | Property | Value |
 |----------|-------|
@@ -117,7 +136,7 @@ This page documents the GitLab webhook event types that Git Integration for Jira
 }
 ```
 
-## Project Destroy Events
+## When to use the GitLab project destroy event
 
 | Property | Value |
 |----------|-------|
@@ -143,11 +162,10 @@ This page documents the GitLab webhook event types that Git Integration for Jira
 
 &nbsp;
 
-## Related Webhook Events
+## Related webhook event references
 
 - [GitHub webhook events](/git-integration-for-jira-cloud/github-webhook-events-gij-cloud)
 - [Microsoft webhook events](/git-integration-for-jira-cloud/microsoft-webhook-events-gij-cloud)
 - [AWS CodeCommit webhook events](/git-integration-for-jira-cloud/aws-codecommit-webhook-events-gij-cloud)
 - [Bitbucket webhook events](/git-integration-for-jira-cloud/bitbucket-webhook-events-gij-cloud)
 
-<kbd>Last updated: December 2025</kbd>

@@ -1,15 +1,32 @@
 ---
-
-title: Setting up integrations
-description: How to set up and manage Git repository integrations in Jira Cloud
+title: "Setting up integrations"
+description: "How to set up and manage Git repository integrations in Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Setting up integrations"
+content_type: "concept"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Set up repositories and manage them in the Git Integration app configuration in Jira.
 
 ![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page-2025.png)
+
+| Integration path | Best for | Repository scope | Requires inbound access from Jira Cloud | Main tradeoff |
+| :--- | :--- | :--- | :---: | :--- |
+| Git service integration | Supported git hosts where you want the main multi-repository setup flow | Multiple repositories | Yes, for self-hosted services unless allowlisted | Recommended path with the broadest feature coverage |
+| Webhook indexing integration | Git servers behind a firewall that can send outbound webhooks | Multiple repositories | No | Limited features compared with Git service integration |
+| Plain Git integration | One specific SSH or HTTP(S) repository | Single repository | Depends on repository access method | Manual setup and narrower scope than the multi-repository flows |
 
 &nbsp;
 
@@ -28,7 +45,7 @@ Set up repositories and manage them in the Git Integration app configuration in 
 
 &nbsp;
 
-## Introduction
+## How the available integration types differ
 
 Integrate your git repositories via Git Integration for Jira Cloud. The app provides special integrations with GitHub, GitLab, Azure Repos, and more. Start integrating your git repositories by clicking **Add integration**.
 
@@ -46,7 +63,7 @@ Cloud-hosted and self-hosted git host services support automatic connection of m
 
 &nbsp;
 
-## Menu Access Locations
+## How to open the Manage integrations page
 
 After installation, access the Git Integration for Jira app repository configuration page via:
 
@@ -60,7 +77,7 @@ After installation, access the Git Integration for Jira app repository configura
 
 &nbsp;
 
-## Git Integration Configuration Page
+## What you can do on the Git integration configuration page
 
 On this page, you can set up your git repositories and connect them to Jira.
 
@@ -84,7 +101,7 @@ Git Integration for Jira supports one or more integration types for specific Git
 
 &nbsp;
 
-## Git Service Integration
+## When to use Git service integration
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
 
@@ -153,13 +170,19 @@ Connect directly to a Git service by configuring webhooks to push commit, branch
 
 Webhook indexing integration allows your connected git servers to work behind a firewall. However, this integration type has limited features. Currently supported git servers are GitHub.com, GitLab, and Microsoft. More will be added in the future.
 
+| Git service integration type | Best for | Auth or setup model | Notes |
+| :--- | :--- | :--- | :--- |
+| OAuth integration | Supported git hosts that offer OAuth and need automated multi-repository setup | OAuth authorization | Recommended when available for multiple repository configuration |
+| PAT integration | Supported git hosts where OAuth is unavailable or PAT is preferred | Personal access token | Similar feature set to OAuth; GitLab API v3 is deprecated |
+| Webhook indexing integration | Git servers behind a firewall that can send outbound webhooks | Webhook URL plus secret | Limited features and no historical backfill |
+
 &nbsp;
 
 * * *
 
 &nbsp;
 
-## Plain Git Integration
+## When to use Plain Git integration
 
 <img src='/wp-content/uploads/gij-add-new-integration-plain-git-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
@@ -185,7 +208,7 @@ The above UI descriptions also apply to the Manage repositories page since it ha
 
 &nbsp;
 
-## Reindex Selected
+## How to reindex selected integrations or repositories
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>UPDATED FEATURE</b>
 
@@ -213,7 +236,7 @@ This function performs a reindex queue of all selected integrations/repositories
 
 &nbsp;
 
-## More Features
+## Where to find more features on the Manage integrations page
 
 Click **…** to see more features such as Repository browser and App settings.
 
@@ -235,4 +258,3 @@ The rest of the features can also be accessed on the left sidebar of the Manage 
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

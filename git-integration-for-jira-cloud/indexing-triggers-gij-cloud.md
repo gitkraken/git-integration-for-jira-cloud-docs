@@ -1,9 +1,29 @@
 ---
-title: Indexing Triggers
-description: Configure indexing triggers (webhooks) to enable real-time repository updates in Git Integration for Jira Cloud.
+title: "Indexing Triggers"
+description: "Configure indexing triggers (webhooks) to enable real-time repository updates in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Indexing Triggers"
+content_type: "integration"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
+
+Git Integration for Jira Cloud uses indexing triggers to start repository reindexing immediately after remote Git activity instead of waiting for the default polling interval. Use this page when you want faster updates from existing integrations; use webhook indexing integration instead when your git server must push Git metadata directly from behind a firewall.
+
+| Trigger model | Best for | Scope | What it does | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| Indexing triggers | Existing integrations that need faster reindexing | Install, integration, or repository level | Starts reindexing after a webhook call | Works with already connected repositories |
+| Webhook indexing integration | Firewalled git servers that push metadata directly | Integration level | Sends Git metadata directly to Jira Cloud | Separate integration type with limited features |
 
 **On this page:**
 - [Understand indexing triggers](#understand-indexing-triggers)
@@ -33,9 +53,14 @@ You can create indexing triggers for individual repositories, and most git provi
 
 Without indexing triggers, Jira relies on default polling (usually 5 minutes). Users must wait for the next interval to see new commits or pull requests. With indexing triggers, Jira receives updates immediately.
 
+| Option | Update timing | Setup requirement | Use when |
+| :--- | :--- | :--- | :--- |
+| Default polling | Usually about every 5 minutes | No extra setup | Immediate updates are not required |
+| Indexing triggers | Near real time after supported webhook events | Enable indexing triggers and configure a webhook URL | You want faster updates for existing integrations |
+
 &nbsp;
 
-## Enable Indexing Triggers
+## How to enable indexing triggers
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -58,7 +83,7 @@ Without indexing triggers, Jira relies on default polling (usually 5 minutes). U
 
 &nbsp;
 
-## Find the Webhook URL
+## How to find the webhook URL
 
 Access the webhook URL from these locations:
 
@@ -124,7 +149,7 @@ https://gitforjiracloud.bigbrassband.com/api/1/webhook/reindex/install/x5chdqpql
 
 &nbsp;
 
-## Choose a Webhook URL Level
+## How to choose the right webhook URL level
 
 Three webhook URL levels are available:
 
@@ -175,4 +200,3 @@ This webhook URL triggers events only for a single repository.
     </div>
 </div>
 
-<kbd>Last updated: December 2025</kbd>

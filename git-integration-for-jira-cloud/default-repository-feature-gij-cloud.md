@@ -1,11 +1,30 @@
 ---
-
-title: Default repository feature
-description: Learn how to set default repositories for Jira projects when using the Create Branch and Create Pull Request features.
+title: "Default repository feature"
+description: "Learn how to set default repositories for Jira projects when using the Create Branch and Create Pull Request features."
+product: "Git Integration for Jira Cloud"
+feature: "Default repository feature"
+content_type: "concept"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
+
+Git Integration for Jira Cloud lets Jira users assign a default repository for each project when they create branches or pull requests from Jira issues. Use this setting when a project usually works from one repository and you want branch and pull request dialogs to open with the correct repository selected.
+
+**Requirements**
+
+- Jira Cloud with Git Integration for Jira Cloud installed
+- Access to the Jira project where you create branches or pull requests
+- At least one connected repository available to the project
 
 Set the default repository for a Jira project when using the [Create Branch](/git-integration-for-jira-cloud/create-branch-gij-cloud) and [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud) features.
 
@@ -13,7 +32,7 @@ Set the default repository for a Jira project when using the [Create Branch](/gi
 
 &nbsp;
 
-## Search function
+## How to find the project you want to configure
 
 <img src='/wp-content/uploads/gij-gitcloud-user-settings-def-repo-search.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -21,7 +40,7 @@ If your Jira instance has multiple projects, use the search bar to find projects
 
 &nbsp;
 
-## Default repository setting
+## How to set the default repository for a project
 
 <img src='/wp-content/uploads/gij-gitcloud-user-settings-def-repo-list.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -29,7 +48,7 @@ In the **Repository** column, set default repositories using the dropdown list. 
 
 &nbsp;
 
-## Effect on branch and pull request dialogs
+## What changes in the branch and pull request dialogs
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -63,4 +82,3 @@ In the above example, the selected default repository displays a DEFAULT label. 
 
 [**Next:** Personal access token feature](/git-integration-for-jira-cloud/personal-access-token-feature-gij-cloud)
 
-<kbd>Last updated: December 2025</kbd>

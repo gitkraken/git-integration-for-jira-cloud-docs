@@ -1,11 +1,22 @@
 ---
-
-title: Bitbucket JMESPath filter examples
-description:
+title: "Bitbucket JMESPath filter examples"
+description: "Step-by-step guide to Bitbucket JMESPath filter examples in Git Integration for Jira Cloud for Bitbucket, for Jira Cloud users."
+product: "Git Integration for Jira Cloud"
+feature: "Bitbucket JMESPath filter examples"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Bitbucket"]
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "Bitbucket"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 &nbsp;
 

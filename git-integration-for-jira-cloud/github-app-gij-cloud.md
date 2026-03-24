@@ -1,11 +1,22 @@
 ---
-
-title: GitHub App integration
-description: How to integrate GitHub repositories using the GitHub App with Jira Cloud
+title: "GitHub App integration"
+description: "How to integrate GitHub repositories using the GitHub App with Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "GitHub App integration"
+content_type: "install"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitHub"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "admin", "GitHub"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 GitHub offers several integration options: API, OAuth, and GitHub Apps. GitHub Apps provide these advantages over OAuth:
 
@@ -153,4 +164,3 @@ Git Integration for Jira creates the GitHub App automatically. For questions, co
 
 See the [Features section](/git-integration-for-jira-cloud/features-gij-cloud) to learn more about Git Integration for Jira app features.
 
-<kbd>Last updated: December 2025</kbd>

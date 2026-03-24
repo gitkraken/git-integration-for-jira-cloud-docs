@@ -1,11 +1,22 @@
 ---
-
-title: Features
-description: Overview of Git Integration for Jira Cloud features including deep linking, CI/CD integration, automation, and repository management.
+title: "Features"
+description: "Overview of Git Integration for Jira Cloud features including deep linking, CI/CD integration, automation, and repository management."
+product: "Git Integration for Jira Cloud"
+feature: "Features"
+content_type: "concept"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Explore the features available in Git Integration for Jira Cloud. Select a topic below to learn more.
 
@@ -33,4 +44,3 @@ Explore the features available in Git Integration for Jira Cloud. Select a topic
 - [User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud)
 - [General Settings](/git-integration-for-jira-cloud/general-settings-gij-cloud)
 
-<kbd>Last updated: December 2025</kbd>

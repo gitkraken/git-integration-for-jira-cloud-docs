@@ -1,9 +1,30 @@
 ---
-title: Adding webhooks for GitLab repository
-description: Configure webhooks for GitLab repositories in Git Integration for Jira Cloud.
+title: "Adding webhooks for GitLab repository"
+description: "Configure webhooks for GitLab repositories in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Adding webhooks for GitLab repository"
+content_type: "reference"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitLab"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "admin", "GitLab"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
+
+Git Integration for Jira Cloud uses GitLab webhooks to trigger faster indexing updates after push and merge request activity. Use this page when a GitLab repository is already connected and you want GitLab to send webhook notifications to Jira Cloud instead of relying only on polling.
+
+| GitLab webhook setup choice | Use when | Events to enable | Notes |
+| :--- | :--- | :--- | :--- |
+| Push-only webhook | You only need commit indexing | Push events | Basic GitLab webhook setup |
+| Push plus merge request webhook | You need commit and merge request updates | Push events, Merge request events | Recommended for fuller GitLab coverage |
+| System hooks | You manage a self-hosted GitLab instance centrally | Merge request and project-level events | Reduces per-project configuration time on self-hosted GitLab |
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -44,7 +65,7 @@ taxonomy:
 
 &nbsp;
 
-## Configure GitLab Webhooks
+## How to configure a GitLab webhook for push events
 
 1. Log in to your GitLab account and select a repository.
 
@@ -66,7 +87,7 @@ taxonomy:
 
 &nbsp;
 
-## Enable Merge Request Webhooks
+## How to enable merge request webhook events in GitLab
 
 To receive both push and merge request events:
 
@@ -82,4 +103,3 @@ To receive both push and merge request events:
 
 4. Click **Add webhook** or **Save changes**.
 
-<kbd>Last updated: December 2025</kbd>

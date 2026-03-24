@@ -1,17 +1,34 @@
 ---
-
-title: Introduction to Git integration
-description: Learn how to integrate Git repositories with Jira Cloud
+title: "Introduction to Git integration"
+description: "Learn how to integrate Git repositories with Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Introduction to Git integration"
+content_type: "concept"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Learn basic integration for most git hosts by connecting git repositories to Jira Cloud. This page contains information about the different integration types and how to get started.
 
 <img src='/wp-content/uploads/gij-instant-integration-process.png' style='display:block;margin:25px auto;max-width:100%' width=500px /> 
 
 The Git Integration for Jira Cloud app offers three integration types:
+
+| Integration type | Best for | Repository scope | Key limitation or note |
+| :--- | :--- | :--- | :--- |
+| Git service integration | Connecting multiple repositories from supported cloud-hosted or self-hosted git services | Multiple repositories | Recommended path; may require allowlisting when the git host is behind a firewall |
+| Webhook indexing integration | Git servers behind a firewall that can send outbound webhook requests | Multiple repositories | Does not support creating branches or pull/merge requests inside Jira |
+| Single repository integration (Plain Git) | Connecting one specific repository over SSH or HTTP(S) | Single repository | Best for one-off or protocol-specific connections rather than full multi-repository setup |
 
 **Git service integration (recommended)**
 
@@ -39,7 +56,7 @@ The **Single repository integration** setup is ideal for users who use SSH conne
 
 &nbsp;
 
-### Integration Setup
+### How to choose the integration setup path
 
 Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integration: Manage integrations_ ➜ _Add integration_). Start by following the steps for your preferred git host service:
 
@@ -111,4 +128,3 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

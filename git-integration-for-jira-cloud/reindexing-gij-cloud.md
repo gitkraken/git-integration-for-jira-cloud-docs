@@ -1,11 +1,24 @@
 ---
-
-title: Reindexing
-description: How to manually reindex repositories in Git Integration for Jira Cloud
+title: "Reindexing"
+description: "How to manually reindex repositories in Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Reindexing"
+content_type: "install"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
+
+Git Integration for Jira Cloud reindexes repositories to refresh commits, branches, tags, and pull or merge request data when automatic synchronization is not enough. Use this page when you need to manually force synchronization; use indexing triggers instead when you want near-real-time updates after repository activity.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -19,15 +32,21 @@ taxonomy:
     </div>
 </div>
 
+| Reindex option | Use when | Scope | Notes |
+| :--- | :--- | :--- | :--- |
+| Reindex selected | You need to refresh multiple integrations or repositories at once | Multiple selected items | Use the Manage integrations list and bulk actions |
+| Reindex integration | You need to refresh one specific integration or repository | Single integration or repository | Best for targeted manual synchronization |
+| Indexing triggers | You want updates after repository activity without manual action | Existing integrations | Better for ongoing near-real-time updates |
+
 &nbsp;
 
-## Getting Started
+## How to start manual reindexing
 
 Synchronization between the repository and app starts automatically. However, reindexing may be required to manually start the synchronization process.
 
 There are two ways to do this:
 
-### Method 1
+### How to reindex selected integrations or repositories
 
 ![](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-02.png)
 
@@ -35,7 +54,7 @@ There are two ways to do this:
 
 2.  With the selected integrations, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Reindex selected**. Once synchronization starts, the progress displays on this tab.
 
-### Method 2
+### How to reindex one specific integration
 
 ![](/wp-content/uploads/gij-gitcloud-gitmgr-reindex-integration-01.png)
 
@@ -45,7 +64,7 @@ Git log entries may not immediately appear when you open the <i><b>Git Commits</
 
 &nbsp;
 
-## Indexing Explainer for Jira Cloud
+## How reindexing works in Jira Cloud
 
 Git Integration for Jira Cloud automatically indexes commits, branches, tags, and pull/merge requests.
 
@@ -55,7 +74,7 @@ For detailed information on this Jira Cloud feature, see [Feature: Classic Index
 
 &nbsp;
 
-## Indexing Errors
+## How to identify indexing errors
 
 The indexer shows an error message on the Jira issue ➜ Git Commits tab if indexing issues are found.
 
@@ -70,4 +89,3 @@ The indexer shows an error message on the Jira issue ➜ Git Commits tab if inde
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

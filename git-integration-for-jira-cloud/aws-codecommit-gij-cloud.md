@@ -1,11 +1,22 @@
 ---
-
-title: AWS CodeCommit for Git Integration for Jira Cloud
-description: Learn how to integrate AWS CodeCommit git repositories with Jira Cloud using Git Integration for Jira.
+title: "AWS CodeCommit for Git Integration for Jira Cloud"
+description: "Learn how to integrate AWS CodeCommit git repositories with Jira Cloud using Git Integration for Jira."
+product: "Git Integration for Jira Cloud"
+feature: "AWS CodeCommit for Git Integration for Jira Cloud"
+content_type: "concept"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["AWS CodeCommit"]
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "developer", "AWS CodeCommit"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -23,6 +34,12 @@ taxonomy:
 # Integrate AWS CodeCommit with Jira Cloud
 
 AWS CodeCommit is a git host service by Amazon Web Services to store and manage source code, related files and private Git repositories in the cloud.
+
+| Setup path | Auth method | Repository scope | Best for | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| Git service integration | AWS access key ID and secret access key | Multiple repositories | Main AWS CodeCommit integration path for Jira Cloud | Recommended for multi-repository setup |
+| Single repository integration | HTTPS or SSH clone URL | Single repository | One specific CodeCommit repository | Use when you only need one repository connection |
+| Triggers and SNS notifications | AWS SNS topic and subscription | Per repository integration | Faster indexing updates after repositories are connected | Requires additional IAM permissions and AWS-side trigger setup |
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -58,6 +75,11 @@ Quickly learn how to connect AWS CodeCommit git repositories via Git Integration
 The permissions detailed in the connect/Full feature integrations wizard are necessary for specific features to work.
 
 We recommend that the following AWS IAM policies are configured beforehand based on what features that will be used.
+
+| Feature area | Recommended IAM policy | Best for | Notes |
+| :--- | :--- | :--- | :--- |
+| Basic read-only features | `AWSCodeCommitReadOnly` | Viewing commits, branches, and pull requests in Jira | Covers the minimum repository-read scenario |
+| All interactive features | `AWSCodeCommitPowerUser` | Creating branches, pull requests, and automatic trigger setup | Needed for the full feature set |
 
 Configure [**AWSCodeCommitReadOnly »**](http://docs.aws.amazon.com/codecommit/latest/userguide/access-permissions.html) IAM policy for basic features:
 
@@ -171,6 +193,12 @@ For more information on Amazon SNS, see <a href='https://docs.aws.amazon.com/sn
 This process requires an AWS account with existing CodeCommit repositories.
 
 We recommend using the Full feature integrations panel (formerly Auto-connect integration panel) to connect multiple repositories from your AWS CodeCommit git host.
+
+| Configuration choice | Use when | Notes |
+| :--- | :--- | :--- |
+| Git service integration | You want to connect multiple CodeCommit repositories with AWS credentials | Main setup path in this guide |
+| Region selection | Your repositories are stored in a specific AWS region | Choose the region that hosts the CodeCommit repositories |
+| SNS trigger setup | You want indexing updates after repository activity | Requires the additional trigger-related IAM permissions above |
 
 To connect your repository to Jira thru the Git Integration for Jira app, open the Add new integration wizard:
 
@@ -513,6 +541,4 @@ The branch and the pull request status are also displayed on the developer panel
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 
 <br>
-
-<kbd>Last updated: December 2025</kbd>
 

@@ -1,9 +1,22 @@
 ---
-title: Creating Personal Access Tokens
-description: Create personal access tokens (PATs) for GitHub, GitLab, Azure DevOps, TFS, and AWS CodeCommit to authenticate with Git Integration for Jira Cloud.
+title: "Creating Personal Access Tokens"
+description: "Create personal access tokens (PATs) for GitHub, GitLab, Azure DevOps, TFS, and AWS CodeCommit to authenticate with Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Creating Personal Access Tokens"
+content_type: "security"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitHub", "GitLab", "Azure DevOps Server", "AWS CodeCommit"]
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "security", "GitHub", "GitLab", "Azure DevOps Server"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Personal access tokens (PATs) provide secure authentication for connecting git services to Git Integration for Jira Cloud. This page provides step-by-step instructions for creating PATs on each supported git host.
 
@@ -253,4 +266,3 @@ Grant these [AWS CodeCommit IAM Policy actions](https://docs.aws.amazon.com/IAM/
     </div>
 </div>
 
-<kbd>Last updated: December 2025</kbd>

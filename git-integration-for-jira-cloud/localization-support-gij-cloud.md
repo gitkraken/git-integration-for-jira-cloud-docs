@@ -1,11 +1,22 @@
 ---
-
-title: Localization support
-description: Supported languages for Git Integration for Jira Cloud
+title: "Localization support"
+description: "Supported languages for Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Localization support"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Unicode characters are supported and displayed properly.
 
@@ -42,4 +53,3 @@ To switch to another language:
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

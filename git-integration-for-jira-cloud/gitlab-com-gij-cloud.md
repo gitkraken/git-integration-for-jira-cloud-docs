@@ -1,11 +1,22 @@
 ---
-
-title: GitLab.com
-description: How to integrate GitLab.com repositories with Jira Cloud
+title: "GitLab.com"
+description: "How to integrate GitLab.com repositories with Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "GitLab.com"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitLab.com"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "deprecated"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "GitLab.com", "deprecated"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -25,6 +36,12 @@ taxonomy:
 ## Integrate GitLab.com with Jira Cloud
 
 GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories. Service users should switch from using username/password to using Personal Access Tokens (PAT) for GitLab.com.
+
+| Setup path | Auth method | Repository scope | Best for | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| Git service integration | OAuth or personal access token | Multiple repositories | Main GitLab.com integration path for Jira Cloud | Recommended for multiple repositories |
+| Single git repository integration | HTTPS or SSH | Single repository | One specific GitLab.com repository | Use when you do not need full multi-repository setup |
+| Webhook indexing integration | Webhook URL plus secret | Multiple repositories | GitLab repositories using webhook-based indexing | Use the dedicated GitLab webhook indexing guide instead |
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -206,6 +223,12 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
             To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
     *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
+
+    | Authentication option | Best for | Token or permission note | Notes |
+    | :--- | :--- | :--- | :--- |
+    | OAuth | Interactive browser-based setup | Uses GitLab account authorization | Recommended in this guide |
+    | PAT | Token-based setup and environments that prefer explicit token control | Use GitLab API v4 and manage token expiry carefully | Required when PAT is the preferred org standard |
+    | Webhook indexing | Firewalled environments using outbound webhooks | Separate webhook setup instead of direct repository browsing | Limited features compared with Git service integration |
 
 6.  Click **Connect to GitLab.com** to proceed to the next step.
 
@@ -474,4 +497,3 @@ The merge request is also ready for approval by the reviewers in your GitLab web
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

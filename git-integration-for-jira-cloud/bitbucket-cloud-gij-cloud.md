@@ -1,11 +1,22 @@
 ---
-
-title: Bitbucket Cloud
-description: Learn how to integrate Bitbucket Cloud git repositories with Jira Cloud using Git Integration for Jira.
+title: "Bitbucket Cloud"
+description: "Learn how to integrate Bitbucket Cloud git repositories with Jira Cloud using Git Integration for Jira."
+product: "Git Integration for Jira Cloud"
+feature: "Bitbucket Cloud"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Bitbucket Cloud"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "Bitbucket Cloud"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -27,6 +38,12 @@ taxonomy:
 # Integrate Bitbucket Cloud with Jira Cloud
 
 Quickly learn how to connect Bitbucket Cloud git repositories via Git Integration for Jira Cloud app.
+
+| Setup path | Auth method | Repository scope | Best for | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| Git service integration | OAuth | Multiple repositories | Main Bitbucket Cloud integration path for Jira Cloud | Recommended for multi-repository setup |
+| Single repository connection | HTTPS or SSH | Single repository | One specific Bitbucket Cloud repository | Use when you only need one repository |
+| Branch and pull request actions | Jira user permissions plus optional app password | Per repository | Users creating branches or pull requests from Jira | Workspace users need Write permissions |
 
 **What's on this page:**
 - [Integrate Bitbucket Cloud with Jira Cloud](#integratebitbucket-cloud-with-jira-cloud)
@@ -86,6 +103,12 @@ We recommend using the Git service integration setup to connect multiple reposit
             To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
     *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
+
+    | Configuration option | Use when | Notes |
+    | :--- | :--- | :--- |
+    | Standard OAuth connect flow | You want to authorize Bitbucket Cloud and select repositories interactively | Main path in this guide |
+    | Custom API Path | You need to target a narrower REST path | Relative path, maximum 2000 characters |
+    | JMESPath filter | You need to filter which repositories are integrated | Maximum 2000 characters; useful for limiting scanned repositories |
 
 5.  Click **Connect** to proceed.
 
@@ -296,6 +319,4 @@ Access the **Create branch** and **Create pull/merge request** features in t
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 
 <br>
-
-<kbd>Last updated: December 2025</kbd>
 

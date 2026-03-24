@@ -1,11 +1,22 @@
 ---
-
-title: Known Performance Limitations
-description: Soft limits and performance guidelines for Git Integration for Jira Cloud
+title: "Known Performance Limitations"
+description: "Soft limits and performance guidelines for Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Known Performance Limitations"
+content_type: "troubleshooting"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "troubleshooting"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Git Integration for Jira Cloud runs on AWS instances and has fewer configuration options compared to a self-hosted Jira/GIJ instance. This document details soft limits beyond which some customers experience performance issues.
 
@@ -92,4 +103,3 @@ See [Max Object Error](/git-integration-for-jira-cloud/error-while-reindexing-ja
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

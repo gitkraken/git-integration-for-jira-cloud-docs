@@ -1,11 +1,22 @@
 ---
-
-title: GitLab CE/EE
-description: How to integrate GitLab CE/EE repositories with Jira Cloud
+title: "GitLab CE/EE"
+description: "How to integrate GitLab CE/EE repositories with Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "GitLab CE/EE"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitLab CE/EE"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "deprecated"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "GitLab CE/EE", "deprecated"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -26,6 +37,12 @@ taxonomy:
 ## Integrate GitLab CE/EE with Jira Cloud
 
 This feature tracks added or deleted repositories from a remote GitLab server (EE/CE) and automatically imports those Git repository references into Jira.
+
+| Setup path | Auth method | Repository scope | Best for | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| Git service integration | Personal access token, with legacy options on older servers | Multiple repositories | Main GitLab CE/EE integration path for Jira Cloud | Recommended for multi-repository setup |
+| Single git repository integration | HTTPS or SSH | Single repository | One specific GitLab CE/EE repository | Use when full multi-repository setup is unnecessary |
+| Webhook indexing integration | Webhook URL plus secret | Multiple repositories | Firewalled GitLab environments using outbound webhooks | Limited features compared with Git service integration |
 
 GitLab v10+ stopped accepting username/password credentials for API access and will only recognize Personal Access Tokens (PAT) and OAuth authentications. Service users are strongly advised to switch from using username/password for newer versions of GitLab Server (CE/EE) to using PAT.
 
@@ -106,6 +123,11 @@ Take the following cases for example:
 
 
 We recommend creating a specific GitLab user for the integration. This way, the GitLab user can have specific permissions to do the given tasks.
+
+| GitLab user goal | PAT scope | Repository role | Notes |
+| :--- | :--- | :--- | :--- |
+| View commits only | `read_repository` | Reporter | Minimum read-only setup |
+| Create branches and merge requests | `api` | Developer | Needed for write actions from Jira |
 
 ![gitlab user permissions or repository permissions](/wp-content/uploads/gij-gitlab-user-permissions-or-repository-permissions.png)
 
@@ -209,6 +231,12 @@ We recommend using the Full feature integrations panel to connect multiple repos
     *   Enter the **Personal Access Token** for server authentication. 2FA must be enabled in your GitLab Server and [PAT has been configured](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
 
     *   Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed. These settings are used with integration to retrieve the list of tracked repositories. Set a filter that will only load some cloned repositories which can be viewed in the Manage repositories page.
+
+    | Configuration option | Use when | Notes |
+    | :--- | :--- | :--- |
+    | PAT GitLab Server APIv4 | You are connecting a modern GitLab CE/EE server | Recommended path |
+    | Legacy API options | You are maintaining an older GitLab server connection | Deprecated; migrate to API v4 |
+    | Custom API Path or JMESPath | You need to limit the scanned repository set | Use one or both to narrow the integration scope |
 
         ![](/wp-content/uploads/gij-gitcloud-integration-advanced-options-wo-sslverify-c.png)
 
@@ -501,6 +529,4 @@ The merge request is also ready for approval by the reviewers in your GitLab web
 </div>
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
 

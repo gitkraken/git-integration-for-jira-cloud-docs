@@ -1,13 +1,30 @@
 ---
-
-title: Associating project permissions
-description: How to configure project-level permissions for Git integrations and repositories
+title: "Associating project permissions"
+description: "How to configure project-level permissions for Git integrations and repositories"
+product: "Git Integration for Jira Cloud"
+feature: "Associating project permissions"
+content_type: "integration"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Integrations and repositories can be associated with one or more Jira projects to restrict which users can view development information. All newly-connected repositories or integrations are associated with all Jira projects by default.
+
+| Permission level | Use when | Scope | Important behavior |
+| :--- | :--- | :--- | :--- |
+| Repository level | You want to restrict one standalone repository | Single repository | Best for single-repository connections |
+| Integration level | You want the same restriction across a whole multi-repository integration | Entire integration | Updating integration-level permissions overwrites repository-level settings |
+| Repository within integration | You want to restrict one repository inside a multi-repository integration | One repository inside an integration | Use when only some repositories in the integration should be visible to a project |
 
 This feature is displayed in the following locations:
 
@@ -24,7 +41,7 @@ This feature is displayed in the following locations:
 
 &nbsp;
 
-## Project Permissions Level
+## How to choose the right project-permission level
 
 There are several types of project permission levels:
 
@@ -32,7 +49,7 @@ There are several types of project permission levels:
 - [Integration level](#integration-level)
 - [Repository level within integration](#repository-level-within-integration)
 
-### Repository level
+### How to set project permissions at the repository level
 
 <div class='embed-container' style='padding-bottom: 75.21%'>
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/xvzj32nxou?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -60,7 +77,7 @@ The same process applies to other single repository connections in Jira Cloud.
 
 &nbsp;
 
-### Integration level
+### How to set project permissions at the integration level
 
 <div class='embed-container' style='padding-bottom:75.21%'>
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/rnm5t639cz?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -86,7 +103,7 @@ To configure project permissions for an integration (multiple repository connect
 
 <p>&nbsp;</p>
 
-### Repository level within integration
+### How to set project permissions for one repository inside an integration
 
 <div class='embed-container' style='padding-bottom: 75.21%'>
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/fder2qnpgw?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -118,7 +135,7 @@ To configure project permissions for repositories within an integration:
 
 <p>&nbsp;</p>
 
-## Setting Project Permissions in Jira Cloud
+## What happens when project permissions are updated in Jira Cloud
 
 Project permissions are available in Git Integration for Jira Cloud. The default setting for new repository/integration connections is **Associated with all Jira projects**.
 
@@ -178,4 +195,3 @@ Watch the video below to learn about different settings for each project permiss
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

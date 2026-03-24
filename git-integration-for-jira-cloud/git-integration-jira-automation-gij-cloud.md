@@ -1,11 +1,22 @@
 ---
-
-title: Git Integration + Jira Automation
-description: Learn how to configure Jira automation rules with Git Integration for Jira Cloud triggers for branches, commits, and pull requests.
+title: "Git Integration + Jira Automation"
+description: "Learn how to configure Jira automation rules with Git Integration for Jira Cloud triggers for branches, commits, and pull requests."
+product: "Git Integration for Jira Cloud"
+feature: "Git Integration + Jira Automation"
+content_type: "integration"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA CLOUD</b> &mdash; <b>AVAILABLE!</b><br>
 <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA SERVER / DATA CENTER</b> &mdash; <b>AVAILABLE!</b>
@@ -215,4 +226,3 @@ Git Integration for Jira currently supports the five highlighted triggers shown 
 - [What are smart values?](https://support.atlassian.com/jira-software-cloud/docs/what-are-smart-values/)
 - [Automation conditions](https://support.atlassian.com/jira-software-cloud/docs/automation-conditions/)
 
-<kbd>Last updated: December 2025</kbd>

@@ -1,11 +1,22 @@
 ---
-
-title: GitHub.com
-description: Integrate GitHub.com repositories with Jira Cloud using Git Integration for Jira.
+title: "GitHub.com"
+description: "Integrate GitHub.com repositories with Jira Cloud using Git Integration for Jira."
+product: "Git Integration for Jira Cloud"
+feature: "GitHub.com"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitHub.com"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "GitHub.com"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -50,6 +61,12 @@ taxonomy:
 # Integrate GitHub.com with Jira Cloud
 
 Quickly learn how to connect GitHub.com git repositories via Git Integration for Jira Cloud app.
+
+| Setup path | Auth method | Repository scope | Best for | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| Git service integration | OAuth or personal access token | Multiple repositories | Main GitHub.com integration path for Jira Cloud | Recommended for multi-repository setup |
+| Single git repository integration | HTTPS or SSH | Single repository | One specific GitHub.com repository | Use when you only need one repository or SSH access |
+| Webhook indexing integration | Webhook URL plus secret | Multiple repositories | GitHub repositories using webhook-based indexing | Use the dedicated GitHub webhook indexing guide instead |
 
 **What's on this page:**
 - [Integrate GitHub.com with Jira Cloud](#integrate-githubcom-with-jira-cloud)
@@ -145,6 +162,12 @@ We recommend using the **Git service integration** panel to connect multiple rep
             To learn more examples, see article [Jira Cloud: Working with JMESPath Filters](/git-integration-for-jira-cloud/working-with-jmespath-filters-gij-cloud).
 
     *   While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
+
+    | Authentication option | Best for | Organization repository behavior | Notes |
+    | :--- | :--- | :--- | :--- |
+    | OAuth | Interactive browser-based setup | Organization repositories appear after the user grants organization access | Recommended in this guide |
+    | PAT | Token-based setup | Organization repositories connect immediately | Use when PAT-based authentication is preferred |
+    | Username/password | Legacy setup | Organization repositories connect immediately | Deprecated by GitHub.com; use PAT instead |
 
 6.  Click **Connect to GitHub.com** to proceed to the next step.
 
@@ -470,6 +493,4 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
 

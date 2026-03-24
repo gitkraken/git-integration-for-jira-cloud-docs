@@ -1,13 +1,32 @@
 ---
-title: Bitbucket webhook events
-description: Reference documentation for Bitbucket webhook event types supported by Git Integration for Jira Cloud.
+title: "Bitbucket webhook events"
+description: "Reference documentation for Bitbucket webhook event types supported by Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Bitbucket webhook events"
+content_type: "reference"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Bitbucket"]
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "developer", "Bitbucket"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 This page documents the Bitbucket webhook event types that Git Integration for Jira Cloud supports.
 
-## Repository Push Events
+| Bitbucket event type | Use when | Key header | Typical Jira impact |
+| :--- | :--- | :--- | :--- |
+| Repository push | You need commit and branch indexing after repository updates | `X-Event-Key: repo:push` | Reindexes commit-related activity |
+| Pull request created | You need new pull request indexing updates | `X-Event-Key: pullrequest:created` | Reindexes newly created pull requests |
+| Commit comment created | You need commit comment-related webhook handling | `X-Event-Key: repo:commit_comment_created` | Handles commit-comment activity where supported |
+
+## When to use the Bitbucket repository push event
 
 | Property | Value |
 |----------|-------|
@@ -32,7 +51,7 @@ This page documents the Bitbucket webhook event types that Git Integration for J
 }
 ```
 
-## Pull Request Created Events
+## When to use the Bitbucket pull request created event
 
 | Property | Value |
 |----------|-------|
@@ -72,7 +91,7 @@ This page documents the Bitbucket webhook event types that Git Integration for J
 }
 ```
 
-## Commit Comment Created Events
+## When to use the Bitbucket commit comment created event
 
 | Property | Value |
 |----------|-------|
@@ -106,11 +125,10 @@ This page documents the Bitbucket webhook event types that Git Integration for J
 
 &nbsp;
 
-## Related Webhook Events
+## Related webhook event references
 
 - [GitHub webhook events](/git-integration-for-jira-cloud/github-webhook-events-gij-cloud)
 - [GitLab webhook events](/git-integration-for-jira-cloud/gitlab-webhook-events-gij-cloud)
 - [AWS CodeCommit webhook events](/git-integration-for-jira-cloud/aws-codecommit-webhook-events-gij-cloud)
 - [Microsoft webhook events](/git-integration-for-jira-cloud/microsoft-webhook-events-gij-cloud)
 
-<kbd>Last updated: December 2025</kbd>

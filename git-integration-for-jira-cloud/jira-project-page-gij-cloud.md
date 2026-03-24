@@ -1,17 +1,38 @@
 ---
-
-title: Jira project page
-description: How to view Git commits on the Jira project page
+title: "Jira project page"
+description: "How to view Git commits on the Jira project page"
+product: "Git Integration for Jira Cloud"
+feature: "Jira project page"
+content_type: "integration"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
-The Project page allows you to manage project-related options.
+Git Integration for Jira Cloud adds a Git Commits tab to the Jira project page so Jira users can review commit activity across the whole project. Use the project page when you need project-wide commit history; use the issue page when you only need commits, branches, or pull requests tied to one issue.
+
+**Requirements**
+
+- Jira Cloud with Git Integration for Jira Cloud installed
+- A Jira project with linked Git activity
+- Permission to view the Jira project
+
+## How to open the Git Commits tab on a Jira project
 
 You can view the history of commits within the entire project scope. Select a project, then click the Git Commits tab. The format of commits is similar to that on the issue page.
 
 ![](/wp-content/uploads/gij-gitcloud-project-page-2025.png)
+
+## What you can do from the Jira project page
 
 *   To view commit code diff information, click the **View full commit** button to the right of the commit message.
 
@@ -32,4 +53,3 @@ You can view the history of commits within the entire project scope. Select a pr
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

@@ -1,9 +1,22 @@
 ---
-title: GIJ Terms and Conditions
-description: Support coverage, commitments, and service level agreements for Git Integration for Jira.
+title: "GIJ Terms and Conditions"
+description: "Support coverage, commitments, and service level agreements for Git Integration for Jira."
+product: "Git Integration for Jira Cloud"
+feature: "GIJ Terms and Conditions"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 GitKraken's goal is to ensure you can use Git Integration for Jira (GIJ) effortlessly and with minimal friction. This page covers terms and conditions for Git Integration for Jira Cloud.
 
@@ -114,4 +127,3 @@ GitKraken adheres to Atlassian's deprecation and support timelines for Jira Clou
     </div>
 </div>
 
-<kbd>Last updated: December 2025</kbd>

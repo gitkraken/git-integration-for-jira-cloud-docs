@@ -1,11 +1,22 @@
 ---
-
-title: Git Integration for Jira Cloud Support Home
-description: Your source for Git Integration for Jira Cloud documentation
+title: "Git Integration for Jira Cloud Support Home"
+description: "Your source for Git Integration for Jira Cloud documentation"
+product: "Git Integration for Jira Cloud"
+feature: "Git Integration for Jira Cloud Support Home"
+content_type: "troubleshooting"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "deprecated"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "troubleshooting", "deprecated"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Welcome to the Git Integration for Jira Cloud documentation. Use the links below to get started, or explore the left navigation for more topics.
 
@@ -57,4 +68,3 @@ Have an idea for improving Git Integration for Jira, found a bug, or need techni
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

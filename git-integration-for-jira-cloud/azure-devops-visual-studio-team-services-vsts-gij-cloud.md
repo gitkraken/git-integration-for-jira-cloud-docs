@@ -1,11 +1,22 @@
 ---
-
-title: Azure DevOps | Visual Studio Team Services (VSTS)
-description: Learn how to integrate Azure DevOps and Visual Studio Team Services (VSTS) git repositories with Jira Cloud using Git Integration for Jira.
+title: "Azure DevOps | Visual Studio Team Services (VSTS)"
+description: "Learn how to integrate Azure DevOps and Visual Studio Team Services (VSTS) git repositories with Jira Cloud using Git Integration for Jira."
+product: "Git Integration for Jira Cloud"
+feature: "Azure DevOps | Visual Studio Team Services (VSTS)"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Azure DevOps"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "Azure DevOps"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -28,6 +39,12 @@ taxonomy:
 Quickly learn how to connect Azure DevOps/VSTS git repositories via Git Integration for Jira app.
 
 The Git Integration for Jira app supports Azure Repos.
+
+| Setup path | Auth method | Repository scope | Best for | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| Git service integration | OAuth or personal access token | Multiple repositories | Main Azure DevOps or VSTS integration path for Jira Cloud | Recommended when you need usability features beyond single-repo setup |
+| Single git repository integration | HTTPS or SSH | Single repository | One Azure Repos repository | Use when you only need one repository connection |
+| Webhook indexing integration | Webhook URL plus secret | Multiple repositories | Azure repositories using webhook-based indexing | Limited features compared with Git service integration |
 
 **What's on this page:**
 - [Integrate VSTS/Azure DevOps with Jira Cloud](#integratevstsazure-devops-with-jira-cloud)
@@ -111,6 +128,11 @@ Connecting Azure DevOps / VSTS accounts via Git service integration enables usab
 </div>
 
 This step is <b>highly required</b> for Azure DevOps/ VSTS integrations connected via the Git service integrations setup.
+
+| Authentication option | Best for | Org prerequisite | Notes |
+| :--- | :--- | :--- | :--- |
+| OAuth | Interactive Microsoft sign-in flow | Third-party application access via OAuth must be enabled | Listed here as recommended, but verify your org policy first |
+| Personal access token | Token-based setup for Azure DevOps or VSTS | User must generate and manage a PAT | Common fallback when OAuth is restricted |
 
 &nbsp;
 
@@ -566,6 +588,4 @@ Not by itself, you need both [Git Integration for Jira Cloud app](https://market
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 
 <br>
-
-<kbd>Last updated: December 2025</kbd>
 

@@ -1,9 +1,30 @@
 ---
-title: Adding webhooks for GitHub repository
-description: Configure webhooks for GitHub repositories in Git Integration for Jira Cloud.
+title: "Adding webhooks for GitHub repository"
+description: "Configure webhooks for GitHub repositories in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Adding webhooks for GitHub repository"
+content_type: "reference"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitHub"]
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "developer", "GitHub"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
+
+Git Integration for Jira Cloud uses GitHub webhooks to trigger faster indexing updates after pushes and pull request activity. Use this page when you already connected a GitHub repository and want GitHub to notify Jira Cloud immediately instead of waiting for the polling interval.
+
+| GitHub webhook setup choice | Use when | Events to enable | Notes |
+| :--- | :--- | :--- | :--- |
+| Push-only webhook | You only need commit indexing | Pushes | Basic indexing setup |
+| Push plus pull request webhook | You need commit and pull request updates | Pushes, Pull requests | Recommended for fuller GitHub coverage |
+| Automatic webhook registration | The GitHub user has org-owner or repo-admin rights | Managed by the integration | Git Integration for Jira can register these automatically in supported cases |
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -33,7 +54,7 @@ taxonomy:
 
 &nbsp;
 
-## Configure GitHub Webhooks
+## How to configure a GitHub webhook for pushes
 
 1. Log in to your GitHub account and select a repository.
 
@@ -62,7 +83,7 @@ taxonomy:
 
 &nbsp;
 
-## Enable Pull Request Webhooks
+## How to enable pull request webhook events in GitHub
 
 To receive both commit and pull request events:
 
@@ -88,7 +109,7 @@ To receive both commit and pull request events:
 
 &nbsp;
 
-## Automatic Webhook Registration
+## When Git Integration for Jira Cloud can register GitHub webhooks automatically
 
 Indexing triggers are automatically registered for each GitHub repository connected to Jira Cloud. For automatic registration to work, the connecting GitHub user must be:
 
@@ -117,4 +138,3 @@ Indexing triggers are automatically registered for each GitHub repository connec
     </div>
 </div>
 
-<kbd>Last updated: December 2025</kbd>

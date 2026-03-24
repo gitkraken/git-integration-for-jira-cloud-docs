@@ -1,11 +1,30 @@
 ---
-title: Microsoft webhook events
-description: Reference documentation for Microsoft (Azure DevOps/VSTS/TFS) webhook event types supported by Git Integration for Jira Cloud.
+title: "Microsoft webhook events"
+description: "Reference documentation for Microsoft (Azure DevOps/VSTS/TFS) webhook event types supported by Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Microsoft webhook events"
+content_type: "reference"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Azure DevOps Server"]
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "developer", "Azure DevOps Server"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 This page documents the Microsoft webhook event types that Git Integration for Jira Cloud supports.
+
+| Microsoft event type | Use when | Payload signal | Typical Jira impact |
+| :--- | :--- | :--- | :--- |
+| Push | You need commit and branch indexing after repository updates | `eventType: git.push` | Reindexes commit-related activity |
+| Pull request created | You need new pull request indexing updates | `eventType: git.pullrequest.created` | Reindexes newly created pull requests |
+| Pull request updated | You need pull request status or content updates | `eventType: git.pullrequest.updated` | Reindexes updated pull request activity |
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -18,7 +37,7 @@ This page documents the Microsoft webhook event types that Git Integration for J
     </div>
 </div>
 
-## Push Events
+## When to use the Microsoft push event
 
 | Property | Value |
 |----------|-------|
@@ -45,7 +64,7 @@ This page documents the Microsoft webhook event types that Git Integration for J
 }
 ```
 
-## Pull Request Created Events
+## When to use the Microsoft pull request created event
 
 | Property | Value |
 |----------|-------|
@@ -76,7 +95,7 @@ This page documents the Microsoft webhook event types that Git Integration for J
 }
 ```
 
-## Pull Request Updated Events
+## When to use the Microsoft pull request updated event
 
 | Property | Value |
 |----------|-------|
@@ -109,11 +128,10 @@ This page documents the Microsoft webhook event types that Git Integration for J
 
 &nbsp;
 
-## Related Webhook Events
+## Related webhook event references
 
 - [GitHub webhook events](/git-integration-for-jira-cloud/github-webhook-events-gij-cloud)
 - [GitLab webhook events](/git-integration-for-jira-cloud/gitlab-webhook-events-gij-cloud)
 - [AWS CodeCommit webhook events](/git-integration-for-jira-cloud/aws-codecommit-webhook-events-gij-cloud)
 - [Bitbucket webhook events](/git-integration-for-jira-cloud/bitbucket-webhook-events-gij-cloud)
 
-<kbd>Last updated: December 2025</kbd>

@@ -1,17 +1,36 @@
 ---
-title: Webhook GitHub Organization support
-description: Configure organization-level webhooks in GitHub to automatically register webhooks for all repositories.
+title: "Webhook GitHub Organization support"
+description: "Configure organization-level webhooks in GitHub to automatically register webhooks for all repositories."
+product: "Git Integration for Jira Cloud"
+feature: "Webhook GitHub Organization support"
+content_type: "reference"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitHub"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "admin", "GitHub"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Git Integration for Jira supports GitHub Organization webhooks. Configure webhooks at the organization level to automatically register webhooks for all repositories, eliminating the need to create individual webhooks for each repository.
+
+| GitHub webhook scope | Use when | Event scope | Notes |
+| :--- | :--- | :--- | :--- |
+| Organization-level webhook | You want one webhook for all repositories in a GitHub organization | Branch or tag creation, branch or tag deletion, pulls, pushes | Best for organizations with many repositories |
+| Repository-level webhook | You only need notifications from one repository | Repository-specific events | Better for isolated repository setups |
+| Organization-level with selected events | You want broad coverage without enabling every GitHub event | Selected GitHub organization events | Recommended path in this page |
 
 ![](/wp-content/uploads/gij-new-github-org-webhook-settings-page.png)
 
 &nbsp;
 
-## Configure GitHub Organization Webhooks
+## How to configure GitHub organization webhooks
 
 1. Log in to GitHub and open your organization.
 
@@ -40,4 +59,3 @@ Git Integration for Jira supports GitHub Organization webhooks. Configure webhoo
 
 All repositories in the organization will now send webhook events to Git Integration for Jira.
 
-<kbd>Last updated: December 2025</kbd>

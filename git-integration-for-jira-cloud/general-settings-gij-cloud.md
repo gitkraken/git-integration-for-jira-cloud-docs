@@ -1,11 +1,22 @@
 ---
-
-title: General Settings
-description: Configure Git Integration for Jira Cloud general settings including development panel options, branch naming, and integration features.
+title: "General Settings"
+description: "Configure Git Integration for Jira Cloud general settings including development panel options, branch naming, and integration features."
+product: "Git Integration for Jira Cloud"
+feature: "General Settings"
+content_type: "admin"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <!-- ADMINS -->
 
@@ -21,6 +32,13 @@ taxonomy:
 </div>
 
 The General settings page lets administrators configure Git Integration for Jira Cloud app features. Enable or disable settings based on your organization's requirements.
+
+| Setting area | Controls | Default audience impact | Use when |
+| :--- | :--- | :--- | :--- |
+| Issue and project views | Git Roll Up, Git Commits tabs, developer panel visibility | Affects what Jira users see on issues and projects | You want to change user-facing Git features globally |
+| Repository Browser | Repository browsing and compare-related behavior | Affects repository exploration inside Jira | You want to expose or limit repository browsing |
+| GitKraken and GitLens integration | Deep-linking and companion app behavior | Affects users who open Git items in GitKraken tools | You use GitKraken or GitLens alongside Jira |
+| Jira development information settings | Development data visibility and app integration behavior | Affects how Git data appears in Jira development views | You need to align Git data visibility with Jira development workflows |
 
 **On this page:**
 - [Getting started](#getting-started)
@@ -40,7 +58,7 @@ The General settings page lets administrators configure Git Integration for Jira
 
 &nbsp;
 
-## Getting started
+## How to open the General settings page
 
 Open the **General settings** page in Jira Apps Management to enable or disable Git Integration for Jira Cloud app features.
 
@@ -58,7 +76,7 @@ Click **Update** to apply your changes.
 
 &nbsp;
 
-## Enable beta features
+## How to enable beta features
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -94,7 +112,7 @@ This toggle provides early access to upcoming features. Enable it to use new bet
 
 &nbsp;
 
-## Git Roll Up Issue Tab setting
+## How to control the Git Roll Up issue tab
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -135,7 +153,7 @@ For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integrat
 
 &nbsp;
 
-## Git Commits Issue Tab and Project Page
+## How to control the Git Commits issue tab and project page
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -176,7 +194,7 @@ For more details, see [**Features: Git Commits Issue tab and Project Page (Jira 
 
 &nbsp;
 
-## Issue Git Source Code Panel setting
+## How to control the issue Git source code panel
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -612,4 +630,3 @@ Click **Update** to apply your configuration changes.
 
 [General settings for administrators](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud) (Git Integration for Jira Cloud)
 
-<kbd>Last updated: December 2025</kbd>

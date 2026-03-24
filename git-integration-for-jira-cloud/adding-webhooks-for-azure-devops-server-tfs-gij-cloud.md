@@ -1,9 +1,30 @@
 ---
-title: Adding webhooks for Azure DevOps Server | TFS
-description: Configure webhooks for Azure DevOps Server (TFS) in Git Integration for Jira Cloud.
+title: "Adding webhooks for Azure DevOps Server | TFS"
+description: "Configure webhooks for Azure DevOps Server (TFS) in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Adding webhooks for Azure DevOps Server | TFS"
+content_type: "reference"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Azure DevOps Server"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "admin", "Azure DevOps Server"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
+
+Git Integration for Jira Cloud uses Azure DevOps Server or TFS service hooks to trigger faster indexing updates after pushes and pull request activity. Use this page when an Azure DevOps Server or TFS project is already connected and you want webhook-driven updates instead of relying only on polling.
+
+| Azure DevOps Server or TFS webhook setup choice | Use when | Events to enable | Notes |
+| :--- | :--- | :--- | :--- |
+| Code pushed only | You only need commit indexing | Code pushed | Basic server-side setup |
+| Code pushed plus pull request events | You need commit and pull request updates | Code pushed, Pull request created, Pull request updated | Recommended for fuller coverage |
+| Service hook test before finish | You want to validate the endpoint before saving | Same event as the current hook | Use the built-in Test action before Finish |
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -35,7 +56,7 @@ taxonomy:
 
 &nbsp;
 
-## Configure Azure DevOps Server Webhooks
+## How to configure an Azure DevOps Server or TFS webhook
 
 1. Log in to your Azure DevOps Server/TFS account and open a project.
 
@@ -100,7 +121,7 @@ taxonomy:
 
 &nbsp;
 
-## Enable Pull Request Webhooks
+## How to enable pull request webhook events in Azure DevOps Server or TFS
 
 Create separate service hooks for each pull request event:
 
@@ -112,4 +133,3 @@ Repeat steps 3-9 for each event type, changing only the trigger event in step 5a
 
 ![](/wp-content/uploads/gij-cloud-TFS-webhook-service-hook-list-c.png)
 
-<kbd>Last updated: December 2025</kbd>

@@ -1,9 +1,22 @@
 ---
-title: GitHub webhook indexing integration
-description: Configure webhook indexing integration for GitHub.com or GitHub Enterprise Server to work with Git Integration for Jira Cloud behind firewalls.
+title: "GitHub webhook indexing integration"
+description: "Configure webhook indexing integration for GitHub.com or GitHub Enterprise Server to work with Git Integration for Jira Cloud behind firewalls."
+product: "Git Integration for Jira Cloud"
+feature: "GitHub webhook indexing integration"
+content_type: "install"
+audience: "admin"
+plan_required: "Standard, Advanced"
+deployment: "Jira Cloud"
+git_host_support: ["GitHub Enterprise Server", "GitHub.com"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "admin", "GitHub Enterprise Server", "GitHub.com", "Standard, Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -190,4 +203,3 @@ For complete feature details, see [Feature matrix](/git-integration-for-jira-clo
 - [Microsoft webhook indexing integration](/git-integration-for-jira-cloud/microsoft-webhook-indexing-integration-gij-cloud)
 - [Gerrit webhook indexing integration](/git-integration-for-jira-cloud/gerrit-webhook-indexing-integration-gij-cloud)
 
-<kbd>Last updated: December 2025</kbd>

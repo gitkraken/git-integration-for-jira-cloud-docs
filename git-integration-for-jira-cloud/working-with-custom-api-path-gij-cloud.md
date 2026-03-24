@@ -1,9 +1,22 @@
 ---
-title: Working with Custom API Path
-description: Configure Custom API Path to filter and retrieve specific repositories from GitHub, GitLab, and Bitbucket integrations in Git Integration for Jira Cloud.
+title: "Working with Custom API Path"
+description: "Configure Custom API Path to filter and retrieve specific repositories from GitHub, GitLab, and Bitbucket integrations in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Working with Custom API Path"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitHub", "GitLab", "Bitbucket"]
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "GitHub", "GitLab", "Bitbucket"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 The Custom API Path is a relative path that starts with `/`. Use it to filter which repositories Git Integration for Jira retrieves from your git service. The maximum length is **2,000 characters**.
 
@@ -287,4 +300,3 @@ Returns repositories for the specified workspace ID.
     <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.<p><i>
 </div>
 
-<kbd>Last updated: December 2025</kbd>

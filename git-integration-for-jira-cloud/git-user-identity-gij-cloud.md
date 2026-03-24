@@ -1,11 +1,22 @@
 ---
-
-title: Git User Identity
-description: How Git user identity is configured and displayed in Jira
+title: "Git User Identity"
+description: "How Git user identity is configured and displayed in Jira"
+product: "Git Integration for Jira Cloud"
+feature: "Git User Identity"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 A git user can identify themselves on their local computer using the following commands:
 
@@ -44,4 +55,3 @@ Hosting services (like GitHub and Bitbucket, for example) try to match this data
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

@@ -1,11 +1,22 @@
 ---
-
-title: Working with SSH keys
-description: How to generate and configure SSH keys for Git Integration for Jira Cloud
+title: "Working with SSH keys"
+description: "How to generate and configure SSH keys for Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Working with SSH keys"
+content_type: "security"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "security"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 SSH keys provide a secure connection with the remote git host. Git Integration for Jira uses one set of keys for accessing all configured repositories.
 
@@ -286,4 +297,3 @@ If a new SSH key pair is generated for the configured repository, follow these s
 
 <p>&nbsp;</p>
 
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
