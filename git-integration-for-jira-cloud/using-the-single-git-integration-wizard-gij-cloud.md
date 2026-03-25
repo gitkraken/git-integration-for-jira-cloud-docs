@@ -1,11 +1,22 @@
 ---
-
-title: Using the Single git integration wizard
-description: How to connect single git repositories using the integration wizard
+title: "Using the Single git integration wizard"
+description: "How to connect single git repositories using the integration wizard"
+product: "Git Integration for Jira Cloud"
+feature: "Using the Single git integration wizard"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Connect specific single git repositories using Git Integration for Jira.
 
@@ -110,5 +121,3 @@ After completing the setup, the wizard indexes the git repository to build chang
 [**Next:** Self-signed HTTPS integration](/git-integration-for-jira-cloud/self-signed-https-integration-gij-cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

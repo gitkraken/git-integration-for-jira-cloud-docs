@@ -1,11 +1,22 @@
 ---
-
-title: Optional Features and Add-on Extensions
-description: Explore optional features and free add-on applications that extend Git Integration for Jira functionality
+title: "Optional Features and Add-on Extensions"
+description: "Explore optional features and free add-on applications that extend Git Integration for Jira functionality"
+product: "Git Integration for Jira Cloud"
+feature: "Optional Features and Add-on Extensions"
+content_type: "install"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Congratulations! You have successfully completed your base GIJ configuration. The following features and free add-on extension applications aren't required for GIJ to operate, but they provide additional value on top of the base functionality. We recommend exploring them.
 
@@ -44,5 +55,3 @@ Team Insights for Jira is a free standalone application designed for planning an
 [<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>PREVIOUS</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/">Integration Creation and Post Integration Configuration</a>
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

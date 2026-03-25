@@ -1,11 +1,22 @@
 ---
-
-title: Using the Git service integration wizard
-description: How to use the Git service integration wizard to connect repositories
+title: "Using the Git service integration wizard"
+description: "How to use the Git service integration wizard to connect repositories"
+product: "Git Integration for Jira Cloud"
+feature: "Using the Git service integration wizard"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 The Git service integration (formerly full feature integration panel) contains special integration for specific git hosts, supports multiple connected repositories, and automates git integration.
 
@@ -57,5 +68,3 @@ For more detailed information on specific integration steps for supported git ho
 [**Next:** Using the Webhook indexing integration wizard](/git-integration-for-jira-cloud/webhook-indexing-integration-gij-cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

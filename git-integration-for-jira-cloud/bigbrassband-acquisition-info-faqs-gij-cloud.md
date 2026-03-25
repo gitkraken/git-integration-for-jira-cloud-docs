@@ -1,11 +1,22 @@
 ---
-
-title: BigBrassBand Acquisition Info & FAQs
-description: Information and frequently asked questions about GitKraken's acquisition of BigBrassBand and Git Integration for Jira
+title: "BigBrassBand Acquisition Info & FAQs"
+description: "Information and frequently asked questions about GitKraken's acquisition of BigBrassBand and Git Integration for Jira"
+product: "Git Integration for Jira Cloud"
+feature: "BigBrassBand Acquisition Info & FAQs"
+content_type: "faq"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "faq"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 BigBrassBand has been acquired by [GitKraken](https://www.gitkraken.com), maker of Git collaboration tools for development teams. GitKraken is the world's most popular graphical user interface for Git, helping over 2.5 million developers in 75,000 companies worldwide develop code faster by making Git easier, safer, and more powerful. This acquisition brings together over 6 million Git users worldwide and represents an exciting move for developers and DevOps teams centered around Git.
 
@@ -52,5 +63,3 @@ Additionally, we're interested in talking with Solutions Partners who are intere
 Questions? Contact us at [support@gitkraken.com](mailto:support@gitkraken.com).
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

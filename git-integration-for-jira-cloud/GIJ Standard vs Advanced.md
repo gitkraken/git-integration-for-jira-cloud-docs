@@ -1,11 +1,22 @@
 ---
-
-title: GIJ Standard vs Advanced
-description: Learn about the differences between the Standard and Advanced versions of Git Integration for Jira
+title: "GIJ Standard vs Advanced"
+description: "Learn about the differences between the Standard and Advanced versions of Git Integration for Jira"
+product: "Git Integration for Jira Cloud"
+feature: "GIJ Standard vs Advanced"
+content_type: "integration"
+audience: "all"
+plan_required: "Standard, Advanced"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "Standard, Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Git Integration for Jira (GIJ) Advanced is a higher-tier edition designed for organizations that need greater indexing performance, reduced maintenance, and enhanced monitoring capabilities. Product and Engineering teams use the Advanced edition to monitor risks and consistently meet deadlines. Advanced edition users also benefit from higher configuration limits for repositories.
 
@@ -64,5 +75,3 @@ For a detailed breakdown of feature differences between the two editions, see [G
 </div>
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

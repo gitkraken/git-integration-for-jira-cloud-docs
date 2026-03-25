@@ -1,11 +1,22 @@
 ---
-
-title: Web linking
-description: Configuring web links to your git hosting provider in Git Integration for Jira Cloud
+title: "Web linking"
+description: "Configuring web links to your git hosting provider in Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Web linking"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b>
 
@@ -127,5 +138,3 @@ Web Linking section when editing repository settings.</i></div>
 [**Next:** Linking git commits to Jira issues](/git-integration-for-jira-cloud/smart-commits-gij-cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

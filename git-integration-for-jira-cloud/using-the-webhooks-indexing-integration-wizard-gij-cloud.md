@@ -1,9 +1,22 @@
 ---
-title: Using the Webhook indexing integration wizard
-description: How to use the Webhook indexing integration wizard for Git Integration for Jira Cloud.
+title: "Using the Webhook indexing integration wizard"
+description: "How to use the Webhook indexing integration wizard for Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Using the Webhook indexing integration wizard"
+content_type: "reference"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Webhook indexing integration enables git servers behind firewalls to send data to Jira. This integration type has limited features, including no branch or pull/merge request creation from Jira.
 
@@ -85,5 +98,3 @@ For detailed information, see [Webhook indexing integration guide](/git-integrat
 - [Using the Git service integration wizard](/git-integration-for-jira-cloud/using-the-git-service-integration-wizard-gij-cloud/)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

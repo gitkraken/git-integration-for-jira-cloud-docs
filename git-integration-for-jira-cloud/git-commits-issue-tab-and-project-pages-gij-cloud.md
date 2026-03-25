@@ -1,11 +1,22 @@
 ---
-
-title: Git Commits Issue Tab and Project Pages (Features)
-description: Learn how to view git commits associated with Jira issues and projects using the Git Commits Issue Tab and Project Page.
+title: "Git Commits Issue Tab and Project Pages (Features)"
+description: "Learn how to view git commits associated with Jira issues and projects using the Git Commits Issue Tab and Project Page."
+product: "Git Integration for Jira Cloud"
+feature: "Git Commits Issue Tab and Project Pages (Features)"
+content_type: "concept"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <!-- FEATURES -->
 
@@ -118,5 +129,3 @@ The Change association feature allows you to update the Jira issues associated w
 - [Git Integration Server/Data Center vs Jira Cloud – Feature Comparison](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud/)
 - [Migrating from Jira Server + Data Center to Jira Cloud](/git-integration-for-jira-cloud/migrating-from-jira-server-data-center-to-jira-cloud-gij-cloud/)
 - [User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud/)
-
-<kbd>Last updated: December 2025</kbd>

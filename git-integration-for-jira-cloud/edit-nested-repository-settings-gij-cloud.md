@@ -1,11 +1,22 @@
 ---
-
-title: Edit nested repository settings
-description: How to modify nested repository configuration settings
+title: "Edit nested repository settings"
+description: "How to modify nested repository configuration settings"
+product: "Git Integration for Jira Cloud"
+feature: "Edit nested repository settings"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Modify nested repository settings via the Manage repositories page.
 
@@ -107,5 +118,3 @@ Use the options below to configure repository settings:
 [Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/) (Git Integration for Jira Cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

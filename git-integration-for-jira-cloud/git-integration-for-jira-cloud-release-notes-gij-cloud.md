@@ -1,11 +1,22 @@
 ---
-
-title: Git Integration for Jira Cloud - Release Notes
-description: Release notes documenting new features, improvements, bug fixes, and security updates for Git Integration for Jira Cloud
+title: "Git Integration for Jira Cloud - Release Notes"
+description: "Release notes documenting new features, improvements, bug fixes, and security updates for Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Git Integration for Jira Cloud - Release Notes"
+content_type: "reference"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 We publish new features, bug fixes, security updates, and Jira compatibility improvements regularly. Below are highlights of the changes.
 

@@ -1,9 +1,22 @@
 ---
-title: Allow list (whitelist) GIJ Cloud
-description: Configure firewall settings to allow Git Integration for Jira Cloud to access your self-hosted git repositories.
+title: "Allow list (whitelist) GIJ Cloud"
+description: "Configure firewall settings to allow Git Integration for Jira Cloud to access your self-hosted git repositories."
+product: "Git Integration for Jira Cloud"
+feature: "Allow list (whitelist) GIJ Cloud"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -216,5 +229,3 @@ For more information, see:
 ## Get Support
 
 Contact [GIJ Cloud Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) for help connecting self-hosted git servers or repositories.
-
-<kbd>Last updated: December 2025</kbd>

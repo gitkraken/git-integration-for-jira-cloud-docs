@@ -1,9 +1,22 @@
 ---
-title: Linking git commits to Jira issues
-description: How to link Git commits, branches, and pull requests to Jira issues
+title: "Linking git commits to Jira issues"
+description: "How to link Git commits, branches, and pull requests to Jira issues"
+product: "Git Integration for Jira Cloud"
+feature: "Linking git commits to Jira issues"
+content_type: "integration"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Link your git commits to Jira issues by including the issue key in the commit message.
 
@@ -259,5 +272,3 @@ Include the Jira issue key in the pull request title or description when you cre
 [**Next:** Smart commits](/git-integration-for-jira-cloud/smart-commits-gij-cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

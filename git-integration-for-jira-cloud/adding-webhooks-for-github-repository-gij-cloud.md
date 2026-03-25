@@ -1,9 +1,22 @@
 ---
-title: Adding webhooks for GitHub repository
-description: Configure webhooks for GitHub repositories in Git Integration for Jira Cloud.
+title: "Adding webhooks for GitHub repository"
+description: "Configure webhooks for GitHub repositories in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Adding webhooks for GitHub repository"
+content_type: "reference"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitHub"]
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "developer", "GitHub"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -116,5 +129,3 @@ Indexing triggers are automatically registered for each GitHub repository connec
     </div>
     </div>
 </div>
-
-<kbd>Last updated: December 2025</kbd>

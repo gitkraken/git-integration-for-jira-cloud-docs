@@ -1,11 +1,23 @@
 ---
-
-title: GIJ Standard vs Advanced Feature matrix
-description: New Doc Description
+title: "GIJ Standard vs Advanced Feature matrix"
+description: "Reference documentation for GIJ Standard vs Advanced Feature matrix in Git Integration for Jira Cloud, for Jira users and developers."
+product: "Git Integration for Jira Cloud"
+feature: "GIJ Standard vs Advanced Feature matrix"
+content_type: "reference"
+audience: "developer"
+plan_required: "Standard, Advanced"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "developer", "Standard, Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
+
 # Feature availability between versions
 
 | Feature | Standard | Advanced |

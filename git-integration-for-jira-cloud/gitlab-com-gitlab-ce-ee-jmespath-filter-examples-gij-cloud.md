@@ -1,11 +1,22 @@
 ---
-
-title: GitLab.com | GitLab CE/EE JMESPath filter examples
-description:
+title: "GitLab.com | GitLab CE/EE JMESPath filter examples"
+description: "Step-by-step guide to GitLab.com | GitLab CE/EE JMESPath filter examples in Git Integration for Jira Cloud for GitLab CE/EE, GitLab.com, GitLab, for Jira Cloud users."
+product: "Git Integration for Jira Cloud"
+feature: "GitLab.com | GitLab CE/EE JMESPath filter examples"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitLab CE/EE", "GitLab.com"]
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "GitLab CE/EE", "GitLab.com"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 &nbsp;
 
@@ -111,4 +122,3 @@ Lists only repositories from projects that have existing repositories.
 * * *
 
 1 _Logo owned by_ [_GitLab Inc_](https://gitlab.com/) _used under_ [_license_](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-

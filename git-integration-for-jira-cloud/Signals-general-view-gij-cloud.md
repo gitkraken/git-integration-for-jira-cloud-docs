@@ -1,11 +1,22 @@
 ---
-
-title: General View (Signals)
-description: Learn how to use the General View in Signals to monitor Jira issues, track activity timelines, and filter by projects, sprints, and team members.
+title: "General View (Signals)"
+description: "Learn how to use the General View in Signals to monitor Jira issues, track activity timelines, and filter by projects, sprints, and team members."
+product: "Git Integration for Jira Cloud"
+feature: "General View (Signals)"
+content_type: "concept"
+audience: "developer"
+plan_required: "Advanced"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "developer", "Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 ![](/wp-content/uploads/tij-gitcloud-general-view-tab-access.png)
 
@@ -170,5 +181,3 @@ To apply your filter selections and display results, click **Search**.
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

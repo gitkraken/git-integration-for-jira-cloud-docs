@@ -1,11 +1,22 @@
 ---
-
-title: Default repository feature
-description: Learn how to set default repositories for Jira projects when using the Create Branch and Create Pull Request features.
+title: "Default repository feature"
+description: "Learn how to set default repositories for Jira projects when using the Create Branch and Create Pull Request features."
+product: "Git Integration for Jira Cloud"
+feature: "Default repository feature"
+content_type: "concept"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Set the default repository for a Jira project when using the [Create Branch](/git-integration-for-jira-cloud/create-branch-gij-cloud) and [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud) features.
 
@@ -62,5 +73,3 @@ In the above example, the selected default repository displays a DEFAULT label. 
 [**Prev:** Default branch feature](/git-integration-for-jira-cloud/default-branch-feature-gij-cloud)
 
 [**Next:** Personal access token feature](/git-integration-for-jira-cloud/personal-access-token-feature-gij-cloud)
-
-<kbd>Last updated: December 2025</kbd>

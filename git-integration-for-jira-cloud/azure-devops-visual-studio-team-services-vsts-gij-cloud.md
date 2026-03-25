@@ -1,11 +1,22 @@
 ---
-
-title: Azure DevOps | Visual Studio Team Services (VSTS)
-description: Learn how to integrate Azure DevOps and Visual Studio Team Services (VSTS) git repositories with Jira Cloud using Git Integration for Jira.
+title: "Azure DevOps | Visual Studio Team Services (VSTS)"
+description: "Learn how to integrate Azure DevOps and Visual Studio Team Services (VSTS) git repositories with Jira Cloud using Git Integration for Jira."
+product: "Git Integration for Jira Cloud"
+feature: "Azure DevOps | Visual Studio Team Services (VSTS)"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Azure DevOps"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "Azure DevOps"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -566,6 +577,3 @@ Not by itself, you need both [Git Integration for Jira Cloud app](https://market
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 
 <br>
-
-<kbd>Last updated: December 2025</kbd>
-

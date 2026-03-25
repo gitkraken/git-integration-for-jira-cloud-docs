@@ -1,11 +1,22 @@
 ---
-
-title: Jira user information card
-description: How to view user information cards in Git Integration for Jira Cloud
+title: "Jira user information card"
+description: "How to view user information cards in Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Jira user information card"
+content_type: "integration"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 The Jira user card is available on the following screens:
 
@@ -38,5 +49,3 @@ Click **View profile** to view this user's profile.
 [**Next:** Jira issue page](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

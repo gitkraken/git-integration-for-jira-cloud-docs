@@ -1,9 +1,22 @@
 ---
-title: AWS CodeCommit webhook events
-description: Reference documentation for AWS CodeCommit webhook event types supported by Git Integration for Jira Cloud.
+title: "AWS CodeCommit webhook events"
+description: "Reference documentation for AWS CodeCommit webhook event types supported by Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "AWS CodeCommit webhook events"
+content_type: "reference"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["AWS CodeCommit"]
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "AWS CodeCommit"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 This page documents the AWS CodeCommit webhook event types that Git Integration for Jira Cloud supports.
 
@@ -65,5 +78,3 @@ This page documents the AWS CodeCommit webhook event types that Git Integration 
 - [GitLab webhook events](/git-integration-for-jira-cloud/gitlab-webhook-events-gij-cloud)
 - [Microsoft webhook events](/git-integration-for-jira-cloud/microsoft-webhook-events-gij-cloud)
 - [Bitbucket webhook events](/git-integration-for-jira-cloud/bitbucket-webhook-events-gij-cloud)
-
-<kbd>Last updated: December 2025</kbd>

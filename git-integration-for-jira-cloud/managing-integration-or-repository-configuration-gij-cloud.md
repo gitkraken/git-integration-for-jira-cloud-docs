@@ -1,11 +1,22 @@
 ---
-
-title: Managing integration or repository configuration
-description: How to manage Git integrations and repositories in Jira Cloud
+title: "Managing integration or repository configuration"
+description: "How to manage Git integrations and repositories in Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Managing integration or repository configuration"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 After successfully integrating a git host service or connecting git repositories via Git Integration for Jira, you can modify integration or repository settings depending on the connection protocol.
 
@@ -63,5 +74,3 @@ Manage connected integrations or repositories using the <img src='/wp-content/up
 [**Next:** Managing integrations via Actions (Jira Cloud)](/git-integration-for-jira-cloud/managing-integrations-via-actions-jira-cloud-gij-cloud/)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

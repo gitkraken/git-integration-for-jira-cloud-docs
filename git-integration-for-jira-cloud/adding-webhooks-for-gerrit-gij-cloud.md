@@ -1,9 +1,22 @@
 ---
-title: Adding webhooks for Gerrit
-description: Configure webhooks for Gerrit repositories in Git Integration for Jira Cloud.
+title: "Adding webhooks for Gerrit"
+description: "Configure webhooks for Gerrit repositories in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Adding webhooks for Gerrit"
+content_type: "install"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Gerrit"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "admin", "Gerrit"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Webhooks are not built into Gerrit by default. You must install and configure the Gerrit webhook plugin before using webhooks with Git Integration for Jira Cloud.
 
@@ -98,5 +111,3 @@ Create a `payload.json` file:
 ```
 
 Replace `repository-origin` with your repository's origin URL.
-
-<kbd>Last updated: December 2025</kbd>

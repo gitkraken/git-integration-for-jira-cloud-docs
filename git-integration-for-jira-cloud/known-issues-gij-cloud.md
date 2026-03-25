@@ -1,9 +1,22 @@
 ---
-title: Known Issues (GIJ Cloud)
-description: Known issues and workarounds for Git Integration for Jira Cloud.
+title: "Known Issues (GIJ Cloud)"
+description: "Known issues and workarounds for Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Known Issues (GIJ Cloud)"
+content_type: "troubleshooting"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "troubleshooting", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 This page documents known issues and limitations in Git Integration for Jira Cloud along with available workarounds.
 
@@ -143,5 +156,3 @@ In rare cases, web links for branches and tags do not update automatically after
 2. Re-enable the integration to apply the web linking update.
 
 _Reference: GITCL-3981_
-
-<kbd>Last updated: December 2025</kbd>

@@ -1,11 +1,22 @@
 ---
-
-title: Repository browser
-description: View and browse Git repositories in Jira Cloud using the Repository browser
+title: "Repository browser"
+description: "View and browse Git repositories in Jira Cloud using the Repository browser"
+product: "Git Integration for Jira Cloud"
+feature: "Repository browser"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 The **Repository Browser** allows users to view git repositories of configured projects via the **Git** menu on the Jira dashboard.
 
@@ -188,5 +199,3 @@ On the **Issues** page, clicking the **View in issue navigator** label opens the
 [**Next:** Viewing commit code diffs](/git-integration-for-jira-cloud/viewing-commit-code-diffs-gij-cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

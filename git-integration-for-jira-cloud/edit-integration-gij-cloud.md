@@ -1,11 +1,22 @@
 ---
-
-title: Edit integration settings
-description: How to configure integration connection and feature settings
+title: "Edit integration settings"
+description: "How to configure integration connection and feature settings"
+product: "Git Integration for Jira Cloud"
+feature: "Edit integration settings"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 On the Manage integrations page, click <img src='/wp-content/uploads/actions-icon.png' style='margin: 0 3px' /> Actions ➜ **Edit integration** for the selected integration to open its configuration page.
 
@@ -106,5 +117,3 @@ Click **Save** to save the changes and apply the integration settings.
 [Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/) (Git Integration for Jira Cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>
