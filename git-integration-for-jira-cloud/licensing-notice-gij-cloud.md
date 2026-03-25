@@ -1,11 +1,22 @@
 ---
-
-title: Licensing notice
-description: License information for Git Integration for Jira Cloud
+title: "Licensing notice"
+description: "License information for Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Licensing notice"
+content_type: "reference"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 The **Git Integration for Jira** app contains some code covered by the following license:
 
@@ -32,5 +43,3 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 [**Back to:** Documentation main index](/git-integration-for-jira-cloud/documentation-gij-cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

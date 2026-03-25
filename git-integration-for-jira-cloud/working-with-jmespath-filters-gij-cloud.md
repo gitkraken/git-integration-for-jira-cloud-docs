@@ -1,9 +1,22 @@
 ---
-title: Working with JMESPath Filters
-description: Learn how to use JMESPath query language to filter API results and control which repositories are integrated with Jira Cloud.
+title: "Working with JMESPath Filters"
+description: "Learn how to use JMESPath query language to filter API results and control which repositories are integrated with Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Working with JMESPath Filters"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 JMESPath is a query language for JSON. Use JMESPath filters to control which repositories Git Integration for Jira connects to your Jira instance.
 
@@ -54,5 +67,3 @@ JMESPath filters work with these git services:
 - [GitLab.com | GitLab CE/EE JMESPath filter examples](/git-integration-for-jira-cloud/gitlab-com-gitlab-ce-ee-jmespath-filter-examples-gij-cloud)
 - [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/git-integration-for-jira-cloud/microsoft-vsts-tfs-azure-repos-jmespath-filter-examples-gij-cloud)
 - [Bitbucket JMESPath filter examples](/git-integration-for-jira-cloud/bitbucket-jmespath-filter-examples-gij-cloud)
-
-<kbd>Last updated: December 2025</kbd>

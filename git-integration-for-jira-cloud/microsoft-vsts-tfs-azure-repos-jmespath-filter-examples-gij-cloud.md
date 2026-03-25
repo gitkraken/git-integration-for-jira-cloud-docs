@@ -1,11 +1,22 @@
 ---
-
-title: Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples
-description:
+title: "Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples"
+description: "Step-by-step guide to Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples in Git Integration for Jira Cloud for Azure DevOps Server, Azure DevOps, for Jira Cloud users."
+product: "Git Integration for Jira Cloud"
+feature: "Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Azure DevOps Server"]
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "Azure DevOps Server"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 &nbsp;
 
@@ -66,4 +77,3 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 *   **Microsoft \| VSTS \| TFS \| Azure Repos JMESPath filter examples** (this page)
 
 *   [Bitbucket JMESPath filter examples](/git-integration-for-jira-cloud/bitbucket-jmespath-filter-examples-gij-cloud)
-

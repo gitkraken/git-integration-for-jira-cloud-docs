@@ -1,9 +1,22 @@
 ---
-title: Setting Project Permissions
-description: Configure project permissions to control which Jira projects can access Git integration data and repository content.
+title: "Setting Project Permissions"
+description: "Configure project permissions to control which Jira projects can access Git integration data and repository content."
+product: "Git Integration for Jira Cloud"
+feature: "Setting Project Permissions"
+content_type: "concept"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 **On this page:**
 - [Understand project permissions](#understand-project-permissions)
@@ -78,5 +91,3 @@ Limit which Jira projects can access a specific repository:
 5. Select one or more Jira projects from the list.
 
 6. Click **Update** to save your changes.
-
-<kbd>Last updated: December 2025</kbd>

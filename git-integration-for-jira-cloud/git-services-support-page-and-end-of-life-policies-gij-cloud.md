@@ -1,9 +1,22 @@
 ---
-title: Git Services Support Page and End-of-Life Policies
-description: End-of-life policies and support information for git services compatible with Git Integration for Jira Cloud.
+title: "Git Services Support Page and End-of-Life Policies"
+description: "End-of-life policies and support information for git services compatible with Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Git Services Support Page and End-of-Life Policies"
+content_type: "reference"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Git Integration for Jira Cloud supports all cloud-hosted versions and officially supported versions of self-hosted git services.
 
@@ -96,5 +109,3 @@ The Gerrit open-source community actively supports the last 2 releases on a best
 EOL for old releases occurs when a new Gerrit version is released and is announced via [project news](https://www.gerritcodereview.com/news.html).
 
 For more information, see the [Gerrit support page](https://www.gerritcodereview.com/support.html).
-
-<kbd>Last updated: December 2025</kbd>

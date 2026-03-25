@@ -1,11 +1,22 @@
 ---
-
-title: Associating project permissions
-description: How to configure project-level permissions for Git integrations and repositories
+title: "Associating project permissions"
+description: "How to configure project-level permissions for Git integrations and repositories"
+product: "Git Integration for Jira Cloud"
+feature: "Associating project permissions"
+content_type: "integration"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Integrations and repositories can be associated with one or more Jira projects to restrict which users can view development information. All newly-connected repositories or integrations are associated with all Jira projects by default.
 
@@ -177,5 +188,3 @@ Watch the video below to learn about different settings for each project permiss
 **Associating project permissions** (this page)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

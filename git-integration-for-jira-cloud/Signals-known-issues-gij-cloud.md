@@ -1,11 +1,22 @@
 ---
-
-title: Known Issues for Signals
-description: Review known issues and workarounds for the Signals feature in Git Integration for Jira Cloud.
+title: "Known Issues for Signals"
+description: "Review known issues and workarounds for the Signals feature in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Known Issues for Signals"
+content_type: "troubleshooting"
+audience: "all"
+plan_required: "Advanced"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "troubleshooting", "Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Signals provides features for team leaders and project leads. This page documents known issues and their workarounds.
 
@@ -52,5 +63,3 @@ Invalid issue key searches produce an error message:
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

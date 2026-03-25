@@ -1,9 +1,22 @@
 ---
-title: Require Personal Access Tokens for user actions (create branch/pull request)
-description: Configure Git Integration for Jira Cloud to require personal access tokens for user actions like creating branches and pull requests.
+title: "Require Personal Access Tokens for user actions (create branch/pull request)"
+description: "Configure Git Integration for Jira Cloud to require personal access tokens for user actions like creating branches and pull requests."
+product: "Git Integration for Jira Cloud"
+feature: "Require Personal Access Tokens for user actions (create branch/pull request)"
+content_type: "security"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "security", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 **On this page:**
 - [Understand user attribution](#understand-user-attribution)
@@ -104,5 +117,3 @@ User attribution with personal access tokens works with these integrations:
     <sup>1</sup> <i>Logo owned by <a href='https://gitlab.com/'>GitLab Inc</a> used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>license</a>.
     <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.<p><i>
 </div>
-
-<kbd>Last updated: December 2025</kbd>

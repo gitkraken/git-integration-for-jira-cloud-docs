@@ -1,11 +1,23 @@
 ---
-
-title: Feature matrix of Git Integration for Jira Cloud
-description: Compare features available across different integration types including git service integrations, single repositories, and webhook indexing.
+title: "Feature matrix of Git Integration for Jira Cloud"
+description: "Compare features available across different integration types including git service integrations, single repositories, and webhook indexing."
+product: "Git Integration for Jira Cloud"
+feature: "Feature matrix of Git Integration for Jira Cloud"
+content_type: "reference"
+audience: "admin"
+plan_required: "Standard, Advanced"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "admin", "Standard, Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
+
 See also [Feature Comparison](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud) for information on features and differences between Git Integration for Server/Data Center versus Git Integration for Jira Cloud.
 
 [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) offers various integration options and features. The matrix below shows which features each integration type supports. For questions, contact [BigBrassBand Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
@@ -60,5 +72,3 @@ See also [Feature Comparison](/git-integration-for-jira-cloud/git-integration-se
     </div>
     </div>
 </div>
-
-<kbd>Last updated: December 2025</kbd>

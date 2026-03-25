@@ -1,11 +1,22 @@
 ---
-
-title: Deep Linking
-description: Learn how to use deep linking in Git Integration for Jira Cloud to open repositories, commits, branches, and tags in GitKraken or GitLens.
+title: "Deep Linking"
+description: "Learn how to use deep linking in Git Integration for Jira Cloud to open repositories, commits, branches, and tags in GitKraken or GitLens."
+product: "Git Integration for Jira Cloud"
+feature: "Deep Linking"
+content_type: "concept"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
 <br>
@@ -163,5 +174,3 @@ Jira administrators can enable or disable this feature for all Jira users. Indiv
 2. Enable or disable this setting under the **GitLens integration** section.
 
 <img src='/wp-content/uploads/gij-gitcloud-deeplink-gitkraken-user-settings-2025.png'  style='margin:25px auto;display:block;' alt='Access the GitKraken integration option to enable/disable the feature in the User settings (sidebar) of the Git Integration for Jira app' />
-
-<kbd>Last updated: December 2025</kbd>

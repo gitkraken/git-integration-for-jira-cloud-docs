@@ -1,11 +1,22 @@
 ---
-
-title: Admin Getting Started Guide
-description: Essential configuration guide for Jira Admins setting up Git Integration for Jira Cloud
+title: "Admin Getting Started Guide"
+description: "Essential configuration guide for Jira Admins setting up Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Admin Getting Started Guide"
+content_type: "concept"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 ## Application Overview
 
@@ -60,5 +71,3 @@ Use [Project Association Permissions](/git-integration-for-jira-cloud/setting-pr
 [<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>NEXT</b>](/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning) <a href="https://help.gitkraken.com/git-integration-for-jira-cloud/Getting-Started-Guide-App-operations-and-planning/">Application Operations and Integration Structure Planning</a>
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

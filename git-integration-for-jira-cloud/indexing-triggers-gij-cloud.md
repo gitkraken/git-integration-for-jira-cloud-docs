@@ -1,9 +1,22 @@
 ---
-title: Indexing Triggers
-description: Configure indexing triggers (webhooks) to enable real-time repository updates in Git Integration for Jira Cloud.
+title: "Indexing Triggers"
+description: "Configure indexing triggers (webhooks) to enable real-time repository updates in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Indexing Triggers"
+content_type: "integration"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 **On this page:**
 - [Understand indexing triggers](#understand-indexing-triggers)
@@ -174,5 +187,3 @@ This webhook URL triggers events only for a single repository.
     </div>
     </div>
 </div>
-
-<kbd>Last updated: December 2025</kbd>

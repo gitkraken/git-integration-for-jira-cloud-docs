@@ -1,11 +1,22 @@
 ---
-
-title: Viewing commit code diffs
-description: How to view commit code differences in Git Integration for Jira Cloud
+title: "Viewing commit code diffs"
+description: "How to view commit code differences in Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Viewing commit code diffs"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Access the commit code diff dialog from the following locations:
 
@@ -35,5 +46,3 @@ Each click on the **# lines hidden** label expands up to 20 lines of code in tha
 [**Next:** Git user identity](/git-integration-for-jira-cloud/git-user-identity-gij-cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

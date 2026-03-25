@@ -1,9 +1,22 @@
 ---
-title: Webhook GitHub Organization support
-description: Configure organization-level webhooks in GitHub to automatically register webhooks for all repositories.
+title: "Webhook GitHub Organization support"
+description: "Configure organization-level webhooks in GitHub to automatically register webhooks for all repositories."
+product: "Git Integration for Jira Cloud"
+feature: "Webhook GitHub Organization support"
+content_type: "reference"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitHub"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "admin", "GitHub"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Git Integration for Jira supports GitHub Organization webhooks. Configure webhooks at the organization level to automatically register webhooks for all repositories, eliminating the need to create individual webhooks for each repository.
 
@@ -39,5 +52,3 @@ Git Integration for Jira supports GitHub Organization webhooks. Configure webhoo
 8. Click **Add webhook**.
 
 All repositories in the organization will now send webhook events to Git Integration for Jira.
-
-<kbd>Last updated: December 2025</kbd>

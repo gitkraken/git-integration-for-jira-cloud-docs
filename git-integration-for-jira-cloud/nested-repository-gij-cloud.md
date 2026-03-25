@@ -1,11 +1,22 @@
 ---
-
-title: Nested repository
-description: Understanding and configuring nested repositories in Git Integration for Jira Cloud
+title: "Nested repository"
+description: "Understanding and configuring nested repositories in Git Integration for Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Nested repository"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 A nested repository is a Git repository that exists inside the working directory of another Git repository. In other words, it's a repository within a repository. Each nested repository functions independently, with its own commit history, branches, and remote configurations.
 
@@ -214,5 +225,3 @@ To view the nested repository settings, go to the Manage repositories page and n
 [**Next:** Self-signed HTTPS integration](/git-integration-for-jira-cloud/self-signed-https-integration-gij-cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

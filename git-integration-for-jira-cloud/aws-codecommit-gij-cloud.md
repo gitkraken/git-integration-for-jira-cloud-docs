@@ -1,11 +1,22 @@
 ---
-
-title: AWS CodeCommit for Git Integration for Jira Cloud
-description: Learn how to integrate AWS CodeCommit git repositories with Jira Cloud using Git Integration for Jira.
+title: "AWS CodeCommit for Git Integration for Jira Cloud"
+description: "Learn how to integrate AWS CodeCommit git repositories with Jira Cloud using Git Integration for Jira."
+product: "Git Integration for Jira Cloud"
+feature: "AWS CodeCommit for Git Integration for Jira Cloud"
+content_type: "concept"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["AWS CodeCommit"]
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "developer", "AWS CodeCommit"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -513,6 +524,3 @@ The branch and the pull request status are also displayed on the developer panel
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud) (Git Integration for Jira Cloud)
 
 <br>
-
-<kbd>Last updated: December 2025</kbd>
-

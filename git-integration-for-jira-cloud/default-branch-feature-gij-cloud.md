@@ -1,11 +1,22 @@
 ---
-
-title: Default branch feature
-description: Learn how to configure default branches for repositories when creating new branches from Jira issues.
+title: "Default branch feature"
+description: "Learn how to configure default branches for repositories when creating new branches from Jira issues."
+product: "Git Integration for Jira Cloud"
+feature: "Default branch feature"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 ![](/wp-content/uploads/gij-gitcloud-user-settings-default-branches.png)
 
@@ -33,5 +44,3 @@ Assign a branch for the selected repository using this interface:
 [**Prev:** Connected apps](/git-integration-for-jira-cloud/connected-apps-gij-cloud)
 
 [**Next:** Default repository feature](/git-integration-for-jira-cloud/default-repository-feature-gij-cloud)
-
-<kbd>Last updated: December 2025</kbd>

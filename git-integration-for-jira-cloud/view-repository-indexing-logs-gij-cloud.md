@@ -1,11 +1,22 @@
 ---
-
-title: View repository indexing logs
-description: How to view and download repository indexing logs
+title: "View repository indexing logs"
+description: "How to view and download repository indexing logs"
+product: "Git Integration for Jira Cloud"
+feature: "View repository indexing logs"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 ![](/wp-content/uploads/gij-gitcloud-actions-view-logs-2025.png)
 
@@ -49,5 +60,3 @@ If you encounter issues, send this log to [gijsupport@gitkraken.com](mailto:gijs
 [Associating project permissions](/git-integration-for-jira-cloud/associating-project-permissions-gij-cloud/) (Git Integration for Jira Cloud)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

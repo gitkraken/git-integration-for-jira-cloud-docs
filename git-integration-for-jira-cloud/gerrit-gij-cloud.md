@@ -1,11 +1,22 @@
 ---
-
-title: Gerrit
-description: Learn how to integrate Gerrit git repositories with Jira Cloud using Git Integration for Jira.
+title: "Gerrit"
+description: "Learn how to integrate Gerrit git repositories with Jira Cloud using Git Integration for Jira."
+product: "Git Integration for Jira Cloud"
+feature: "Gerrit"
+content_type: "integration"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Gerrit"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "Gerrit"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -182,6 +193,3 @@ For the case with Gerrit, the default main branch is always “master”.
 [Introduction to Git integration](/git-integration-for-jira-cloud/integration-guide-gij-cloud)
 
 <br>
-
-<kbd>Last updated: December 2025</kbd>
-

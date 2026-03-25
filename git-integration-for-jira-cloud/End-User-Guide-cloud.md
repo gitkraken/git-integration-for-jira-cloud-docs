@@ -1,11 +1,22 @@
 ---
-
-title: User Guide - GIJ Cloud
-description: End user guide for Git Integration for Jira Cloud - learn how to view and create Git data in Jira
+title: "User Guide - GIJ Cloud"
+description: "End user guide for Git Integration for Jira Cloud - learn how to view and create Git data in Jira"
+product: "Git Integration for Jira Cloud"
+feature: "User Guide - GIJ Cloud"
+content_type: "concept"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 ## Introduction to GIJ
 
@@ -153,5 +164,3 @@ See [Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-p
 ![PAT](/wp-content/uploads/GIJ-Cloud-User-Settings-PAT.png)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

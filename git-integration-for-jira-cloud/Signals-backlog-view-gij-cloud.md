@@ -1,11 +1,22 @@
 ---
-
-title: Signals Backlog View
-description: Learn how to use the Backlog View in Signals to track sprint progress, identify work risks, and manage backlog priorities.
+title: "Signals Backlog View"
+description: "Learn how to use the Backlog View in Signals to track sprint progress, identify work risks, and manage backlog priorities."
+product: "Git Integration for Jira Cloud"
+feature: "Signals Backlog View"
+content_type: "concept"
+audience: "all"
+plan_required: "Advanced"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "all"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class='embed-container embed-container--16-9'>
     <iframe width='709' height='382' src='https://www.youtube.com/embed/nxp_D7UuVU8' frameborder='0' allowfullscreen ></iframe>
@@ -254,5 +265,3 @@ Sortable columns include:
 [Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-Signals-gij-cloud/)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

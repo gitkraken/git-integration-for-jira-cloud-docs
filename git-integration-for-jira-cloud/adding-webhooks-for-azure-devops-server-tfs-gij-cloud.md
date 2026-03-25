@@ -1,9 +1,22 @@
 ---
-title: Adding webhooks for Azure DevOps Server | TFS
-description: Configure webhooks for Azure DevOps Server (TFS) in Git Integration for Jira Cloud.
+title: "Adding webhooks for Azure DevOps Server | TFS"
+description: "Configure webhooks for Azure DevOps Server (TFS) in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Adding webhooks for Azure DevOps Server | TFS"
+content_type: "reference"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Azure DevOps Server"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "admin", "Azure DevOps Server"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -111,5 +124,3 @@ Create separate service hooks for each pull request event:
 Repeat steps 3-9 for each event type, changing only the trigger event in step 5a.
 
 ![](/wp-content/uploads/gij-cloud-TFS-webhook-service-hook-list-c.png)
-
-<kbd>Last updated: December 2025</kbd>

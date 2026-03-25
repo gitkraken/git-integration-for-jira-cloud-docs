@@ -1,9 +1,22 @@
 ---
-title: Bitbucket webhook events
-description: Reference documentation for Bitbucket webhook event types supported by Git Integration for Jira Cloud.
+title: "Bitbucket webhook events"
+description: "Reference documentation for Bitbucket webhook event types supported by Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Bitbucket webhook events"
+content_type: "reference"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Bitbucket"]
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "developer", "Bitbucket"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 This page documents the Bitbucket webhook event types that Git Integration for Jira Cloud supports.
 
@@ -112,5 +125,3 @@ This page documents the Bitbucket webhook event types that Git Integration for J
 - [GitLab webhook events](/git-integration-for-jira-cloud/gitlab-webhook-events-gij-cloud)
 - [AWS CodeCommit webhook events](/git-integration-for-jira-cloud/aws-codecommit-webhook-events-gij-cloud)
 - [Microsoft webhook events](/git-integration-for-jira-cloud/microsoft-webhook-events-gij-cloud)
-
-<kbd>Last updated: December 2025</kbd>

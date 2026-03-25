@@ -1,9 +1,22 @@
 ---
-title: How to Calculate Pricing
-description: Calculate Git Integration for Jira Cloud pricing using the Atlassian Cloud Pricing Calculator or Marketplace.
+title: "How to Calculate Pricing"
+description: "Calculate Git Integration for Jira Cloud pricing using the Atlassian Cloud Pricing Calculator or Marketplace."
+product: "Git Integration for Jira Cloud"
+feature: "How to Calculate Pricing"
+content_type: "faq"
+audience: "reseller"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "reseller"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "faq", "reseller"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Use one of these four methods to calculate Git Integration for Jira Cloud pricing.
 
@@ -39,5 +52,3 @@ Visit the [Atlassian Marketplace: Git Integration for Jira](https://marketplace.
     </div>
     </div>
 </div>
-
-<kbd>Last updated: December 2025</kbd>

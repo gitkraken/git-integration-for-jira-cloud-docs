@@ -1,9 +1,22 @@
 ---
-title: Adding webhooks for Bitbucket Cloud
-description: Configure webhooks for Bitbucket Cloud repositories in Git Integration for Jira Cloud.
+title: "Adding webhooks for Bitbucket Cloud"
+description: "Configure webhooks for Bitbucket Cloud repositories in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Adding webhooks for Bitbucket Cloud"
+content_type: "reference"
+audience: "developer"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["Bitbucket Cloud"]
+role_required: "User"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "developer", "Bitbucket Cloud"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -76,5 +89,3 @@ For pull request events, configure three separate triggers:
 3. Pull Request - **Updated**
 
 ![](/wp-content/uploads/gij-webhooks-bitbucket-sample.png)
-
-<kbd>Last updated: December 2025</kbd>

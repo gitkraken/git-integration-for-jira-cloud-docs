@@ -1,11 +1,22 @@
 ---
-
-title: Setting up integrations
-description: How to set up and manage Git repository integrations in Jira Cloud
+title: "Setting up integrations"
+description: "How to set up and manage Git repository integrations in Jira Cloud"
+product: "Git Integration for Jira Cloud"
+feature: "Setting up integrations"
+content_type: "concept"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: []
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
-
 ---
+<kbd>Last updated: March 2026</kbd>
 
 Set up repositories and manage them in the Git Integration app configuration in Jira.
 
@@ -234,5 +245,3 @@ The rest of the features can also be accessed on the left sidebar of the Manage 
 [**Next:** Using the Git service integration wizard](/git-integration-for-jira-cloud/using-the-git-service-integration-wizard-gij-cloud/)
 
 <p>&nbsp;</p>
-
-<p style="text-align: center; margin: 0; padding: 0;"><kbd>Last updated: December 2025</kbd></p>

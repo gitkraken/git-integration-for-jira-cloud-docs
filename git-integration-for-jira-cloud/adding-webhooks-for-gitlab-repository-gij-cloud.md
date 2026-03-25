@@ -1,9 +1,22 @@
 ---
-title: Adding webhooks for GitLab repository
-description: Configure webhooks for GitLab repositories in Git Integration for Jira Cloud.
+title: "Adding webhooks for GitLab repository"
+description: "Configure webhooks for GitLab repositories in Git Integration for Jira Cloud."
+product: "Git Integration for Jira Cloud"
+feature: "Adding webhooks for GitLab repository"
+content_type: "reference"
+audience: "admin"
+plan_required: "all"
+deployment: "Jira Cloud"
+git_host_support: ["GitLab"]
+role_required: "Jira Administrator"
+version_required: "all"
+status: "GA"
+last_verified: "2026-03"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "admin", "GitLab"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
+<kbd>Last updated: March 2026</kbd>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -81,5 +94,3 @@ To receive both push and merge request events:
     ![](/wp-content/uploads/gij-gitlab-merge-request-event-trigger-webhook.png)
 
 4. Click **Add webhook** or **Save changes**.
-
-<kbd>Last updated: December 2025</kbd>
