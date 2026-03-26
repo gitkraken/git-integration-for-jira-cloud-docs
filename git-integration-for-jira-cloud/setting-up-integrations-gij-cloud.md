@@ -22,6 +22,12 @@ Set up repositories and manage them in the Git Integration app configuration in 
 
 ![](/wp-content/uploads/gij-gitcloud-managed-ui-integrations-page-2025.png)
 
+| Integration path | Best for | Repository scope | Requires inbound access from Jira Cloud | Main tradeoff |
+| :--- | :--- | :--- | :---: | :--- |
+| Git service integration | Supported git hosts where you want the main multi-repository setup flow | Multiple repositories | Yes, for self-hosted services unless allowlisted | Recommended path with the broadest feature coverage |
+| Webhook indexing integration | Git servers behind a firewall that can send outbound webhooks | Multiple repositories | No | Limited features compared with Git service integration |
+| Plain Git integration | One specific SSH or HTTP(S) repository | Single repository | Depends on repository access method | Manual setup and narrower scope than the multi-repository flows |
+
 &nbsp;
 
 **On this page:**
@@ -164,13 +170,19 @@ Connect directly to a Git service by configuring webhooks to push commit, branch
 
 Webhook indexing integration allows your connected git servers to work behind a firewall. However, this integration type has limited features. Currently supported git servers are GitHub.com, GitLab, and Microsoft. More will be added in the future.
 
+| Git service integration type | Best for | Auth or setup model | Notes |
+| :--- | :--- | :--- | :--- |
+| OAuth integration | Supported git hosts that offer OAuth and need automated multi-repository setup | OAuth authorization | Recommended when available for multiple repository configuration |
+| PAT integration | Supported git hosts where OAuth is unavailable or PAT is preferred | Personal access token | Similar feature set to OAuth; GitLab API v3 is deprecated |
+| Webhook indexing integration | Git servers behind a firewall that can send outbound webhooks | Webhook URL plus secret | Limited features and no historical backfill |
+
 &nbsp;
 
 * * *
 
 &nbsp;
 
-## Plain Git Integration
+## When to use Plain Git integration
 
 <img src='/wp-content/uploads/gij-add-new-integration-plain-git-sel-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
