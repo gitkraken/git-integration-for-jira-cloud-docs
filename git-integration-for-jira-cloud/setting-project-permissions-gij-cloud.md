@@ -18,16 +18,24 @@ taxonomy:
 ---
 <kbd>Last updated: March 2026</kbd>
 
+Project permissions determine which Jira projects can access repository data from a Git Integration for Jira Cloud integration or from an individual connected repository. Use this page when you need to limit Git visibility by Jira project instead of exposing repository data to every project in the site.
+
+| Permission scope | What it controls | Common use case |
+| :--- | :--- | :--- |
+| Integration-level project permissions | Access to all repositories under an integration | Restrict one git host connection to a specific set of Jira projects |
+| Repository-level project permissions | Access to one connected repository | Expose only a single repository to a smaller project subset |
+| Jira project permissions | Visibility of Git data inside Jira | Confirm users can still view development information after mapping projects |
+
 **On this page:**
-- [Understand project permissions](#understand-project-permissions)
-- [Configure permissions for integrations](#configure-permissions-for-integrations)
-- [Configure permissions for individual repositories](#configure-permissions-for-individual-repositories)
+- [How project permissions work in Git Integration for Jira Cloud](#how-project-permissions-work-in-git-integration-for-jira-cloud)
+- [How to configure project permissions for integrations](#how-to-configure-project-permissions-for-integrations)
+- [How to configure project permissions for individual repositories](#how-to-configure-project-permissions-for-individual-repositories)
 
 &nbsp;
 * * *
 &nbsp;
 
-## Understand Project Permissions
+## How project permissions work in Git Integration for Jira Cloud
 
 By default, integrations (GitLab, GitHub, etc.) and individual repositories associate with all Jira projects. Jira administrators can limit which projects have access to specific integrations or repositories.
 
@@ -58,7 +66,7 @@ Project associations control which projects display repository content in:
 
 &nbsp;
 
-## Configure Permissions for Integrations
+## How to configure project permissions for integrations
 
 Limit which Jira projects can access an integration's repositories:
 
@@ -76,7 +84,7 @@ Limit which Jira projects can access an integration's repositories:
 
 &nbsp;
 
-## Configure Permissions for Individual Repositories
+## How to configure project permissions for individual repositories
 
 Limit which Jira projects can access a specific repository:
 

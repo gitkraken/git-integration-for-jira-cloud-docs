@@ -18,9 +18,16 @@ taxonomy:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-Explore the features available in Git Integration for Jira Cloud. Select a topic below to learn more.
+The Features hub explains what Jira administrators and Jira users can do with Git Integration for Jira Cloud after repositories are connected. Use this page to jump to the feature area you need, such as issue views, repository workflows, search, deep linking, or app settings.
 
-## Feature Topics
+| Feature area | Best for | Start here |
+| :--- | :--- | :--- |
+| Jira issue and project views | Reviewing commits, branches, pull requests, and source changes in Jira | Jira Development Information, Git Commits Issue Tab and Project Pages, Issue Git Source Code Panel |
+| Repository actions and user workflows | Creating branches or pull requests and managing user defaults | Create branch, End-user guide, User Settings |
+| Search, automation, and integrations | JQL, Smart Commits, CI/CD, and Jira Automation | JQL Searching, Smart Commits, CI/CD for Jira Cloud, Git Integration + Jira Automation |
+| Admin feature controls | Comparing capabilities and turning features on or off | Feature matrix, General Settings, migration and comparison guides |
+
+## How to explore Git Integration for Jira Cloud features
 
 - [Manager permissions](/git-integration-for-jira-cloud/manager-permissions-gij-cloud)
 - [Deep Linking to the GitKraken Git Client](/git-integration-for-jira-cloud/Deeplinking-feature-gij-cloud)

@@ -31,10 +31,17 @@ taxonomy:
     </div>
 </div>
 
-The General settings page lets administrators configure Git Integration for Jira Cloud app features. Enable or disable settings based on your organization's requirements.
+The General Settings page lets Jira administrators control which Git Integration for Jira Cloud features appear in Jira and how some app-wide behaviors work. Use this page when you need to enable or disable issue tabs, repository browser features, beta functionality, branch naming rules, or connected-app visibility.
+
+| Settings area | Use it to control | Typical reason to review it |
+| :--- | :--- | :--- |
+| Feature visibility | Git Roll Up, Git Commits, issue panel, and repository browser pages | Reduce clutter or match the features your team uses |
+| Integration behavior | Branch naming, branch name length, web linking, and app options | Standardize Git workflows across projects |
+| Connected apps | GitKraken and GitLens deep linking | Choose which external app actions users can access |
+| Jira development information | Development panel and related Jira surfaces | Adjust how Git data appears inside Jira |
 
 **On this page:**
-- [Getting started](#getting-started)
+- [How to open General settings](#how-to-open-general-settings)
 - [Enable beta features](#enable-beta-features)
 - [Git Roll Up Issue Tab setting](#git-roll-up-issue-tab-setting)
 - [Git Commits Issue Tab and Project Page](#git-commits-issue-tab-and-project-page)
@@ -51,7 +58,7 @@ The General settings page lets administrators configure Git Integration for Jira
 
 &nbsp;
 
-## Getting started
+## How to open General settings
 
 Open the **General settings** page in Jira Apps Management to enable or disable Git Integration for Jira Cloud app features.
 
