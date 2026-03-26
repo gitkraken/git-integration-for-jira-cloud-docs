@@ -18,6 +18,15 @@ taxonomy:
 ---
 <kbd>Last updated: March 2026</kbd>
 
+Git Integration for Jira Cloud documentation explains how Jira administrators and Jira users install the app, connect repositories, and work with Git data inside Jira Cloud. Use this page as the entry point when you need the correct guide for setup, permissions, repository access, or issue-level Git workflows.
+
+**Quick Start**
+
+- Install the app from Atlassian Marketplace if Git Integration for Jira Cloud is not yet installed
+- Review permissions and SSH requirements before connecting repositories
+- Use the integration setup guides for your git host and authentication method
+- Use the feature guides below for issue, project, and repository workflows after setup
+
 <img src='/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png' height=auto width=100% />
 
 <br>

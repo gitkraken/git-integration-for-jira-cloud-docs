@@ -18,7 +18,15 @@ taxonomy:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-## Introduction to GIJ
+Git Integration for Jira Cloud helps Jira users view commits, branches, pull requests, and repository actions directly from Jira Cloud issues and projects. Use this guide when you need the end-user workflows for linking Git activity to Jira issues, creating branches or pull requests, and managing your personal Git Integration settings.
+
+**Requirements**
+
+- Jira Cloud with Git Integration for Jira Cloud installed
+- A Jira project with linked Git repositories
+- User access to the Jira issues and projects you want to work in
+
+## How Git Integration for Jira Cloud appears in Jira
 
 Thank you for using Git Integration for Jira! This guide explains how Git information displays in Jira through our application.
 
