@@ -133,7 +133,7 @@ This toggle provides early access to upcoming features. Enable it to use new bet
 
 The Git Roll Up Issue tab displays a summary of files, lines, and developers who changed commits associated with a Jira issue. Toggle this setting to show or hide the **Git Roll Up** tab on Issue pages for all Jira projects.
 
-For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integration-for-jira-cloud/git-roll-up-tab-gij-cloud).
+For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integration-for-jira-cloud/git-roll-up-issue-tab-gij-cloud).
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -285,7 +285,7 @@ This setting controls pull/merge request creation from the Jira developer panel.
 
 <img src='/wp-content/uploads/gij-gitcloud-dev-panel-create-PRMR-sel-2025.png'  style='margin:25px auto;max-width:100%;display:block;' />
 
-For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
+For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-cloud/End-User-Guide-cloud#how-to-create-a-pull-or-merge-request-from-jira).
 
 ### Branch name template
 
