@@ -20,6 +20,14 @@ taxonomy:
 
 This collection of troubleshooting guides provides workarounds and solutions for common issues with Git Integration for Jira Cloud.
 
+| Problem area | Check first | Primary audience | Related topic |
+| :--- | :--- | :--- | :--- |
+| Missing commits or Git activity | License, permissions, repository connection, issue key | Jira Administrator | Commit visibility troubleshooting |
+| Licensing and installation errors | App subscription and install state | Jira Administrator | License renewal or reinstall |
+| Self-hosted connection problems | Network allowlist and integration connectivity | Jira Administrator | Firewall and allowlist setup |
+| Azure DevOps issues | OAuth, PAT scope, repository visibility | Jira Administrator | Azure integration troubleshooting |
+| SSH or reindexing issues | Key format, repository size, memory limits | Jira Administrator | SSH and reindexing troubleshooting |
+
 **On this page:**
 - [Why don't I see commits?](#why-dont-i-see-commits-git-integration-for-cloud)
 - [License expiration shows as session error](#when-a-gij-license-expires-it-shows-up-as-a-session-error)
@@ -38,7 +46,7 @@ This collection of troubleshooting guides provides workarounds and solutions for
 * * *
 &nbsp;
 
-## Why don't I see commits? (Git Integration for Cloud)
+## How to troubleshoot missing commits in Git Integration for Jira Cloud
 
 ![](/wp-content/uploads/gij-troubleshoot-how-do-i-see-commits-top.png)
 
@@ -133,7 +141,7 @@ Commits appear in the Jira issue view:
 
 **Still not seeing commits?** Contact [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) or use the [GIJ Cloud Support Portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
-## When a GIJ license expires, it shows up as a session error
+## How to fix the session error caused by an expired GIJ license
 
 ### Problem
 
@@ -152,7 +160,7 @@ This error indicates an expired trial or license. Renew your Git Integration for
 If the license expired for an extended period, you may see "There is no Enabled installID" after renewal. Submit a [support request](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) for manual enablement.
 
 
-## Licensing error - installCheck failed
+## How to fix the licensing error `installCheck failed`
 
 ### Problem
 
@@ -186,11 +194,11 @@ Reinstall the app:
     </div>
 </div>
 
-## Why don't I see the Create branch or pull request features?
+## How to troubleshoot missing Create branch or pull request features
 
 Check that your integration supports these features and that you have the required permissions. See the [Feature matrix](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud) for supported features by git service.
 
-## Connection error for self-hosted git servers
+## How to troubleshoot connection errors for self-hosted git servers
 
 ### Problem
 
@@ -208,7 +216,7 @@ TrackedGitLabRepoException: Can not connect to GitLab server
 
 Add the Git Integration for Jira Cloud indexing service to your allowlist. See [Whitelist GIJ Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud).
 
-## Repositories missing from Azure DevOps (or VSTS) integration
+## How to troubleshoot missing repositories in Azure DevOps or VSTS integrations
 
 ### Problem
 
@@ -409,3 +417,4 @@ Microsoft OAuth app client secrets expire after 5 years. All customers must reco
     </div>
     </div>
 </div>
+

@@ -24,6 +24,12 @@ Learn basic integration for most git hosts by connecting git repositories to Jir
 
 The Git Integration for Jira Cloud app offers three integration types:
 
+| Integration type | Best for | Repository scope | Key limitation or note |
+| :--- | :--- | :--- | :--- |
+| Git service integration | Connecting multiple repositories from supported cloud-hosted or self-hosted git services | Multiple repositories | Recommended path; may require allowlisting when the git host is behind a firewall |
+| Webhook indexing integration | Git servers behind a firewall that can send outbound webhook requests | Multiple repositories | Does not support creating branches or pull/merge requests inside Jira |
+| Single repository integration (Plain Git) | Connecting one specific repository over SSH or HTTP(S) | Single repository | Best for one-off or protocol-specific connections rather than full multi-repository setup |
+
 **Git service integration (recommended)**
 
 The **Git service integration** (formerly auto-connect/full feature integration) allows administrators to set up multiple repositories for integration with Jira. This is the recommended method and offers features not found in other integration types. _If you are behind a firewall, you need to_ [_whitelist the app_](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud/) _to get it to work._
@@ -50,7 +56,7 @@ The **Single repository integration** setup is ideal for users who use SSH conne
 
 &nbsp;
 
-### Integration Setup
+### How to choose the integration setup path
 
 Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integration: Manage integrations_ ➜ _Add integration_). Start by following the steps for your preferred git host service:
 
@@ -121,3 +127,4 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 [**Next:** Connecting to a Single Git Repository (HTTP/HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
 
 <p>&nbsp;</p>
+
