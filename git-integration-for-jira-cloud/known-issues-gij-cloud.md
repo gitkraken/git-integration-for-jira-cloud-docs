@@ -20,6 +20,14 @@ taxonomy:
 
 This page documents known issues and limitations in Git Integration for Jira Cloud along with available workarounds.
 
+| Issue area | Affected scope | Impact | Workaround status |
+| :--- | :--- | :--- | :--- |
+| Repository and object size limits | Large integrations or repositories | Performance or data limits | Documented workaround available |
+| Smart Commits attribution or duplicate commands | Smart Commit processing | Incorrect attribution or duplicate command handling | Use the documented API or processor choice |
+| Microsoft integration edge cases | Azure DevOps or Microsoft integrations | PAT or pull-request behavior issues | Configuration workaround available |
+| SSH automation limits | Single SSH repositories with Automation for Jira | Automation triggers do not run | Use HTTPS instead |
+| Web-linking and UI issues | Plain Git integrations or sidebar rendering | Delayed updates or stale links | Re-enable integration or wait for Atlassian-side fix |
+
 **On this page:**
 - [Repository limits per integration](#repository-limits-per-integration)
 - [2GB object size limit](#2gb-object-size-limit)

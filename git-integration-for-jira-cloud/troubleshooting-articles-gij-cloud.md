@@ -20,6 +20,14 @@ taxonomy:
 
 This collection of troubleshooting guides provides workarounds and solutions for common issues with Git Integration for Jira Cloud.
 
+| Problem area | Check first | Primary audience | Related topic |
+| :--- | :--- | :--- | :--- |
+| Missing commits or Git activity | License, permissions, repository connection, issue key | Jira Administrator | Commit visibility troubleshooting |
+| Licensing and installation errors | App subscription and install state | Jira Administrator | License renewal or reinstall |
+| Self-hosted connection problems | Network allowlist and integration connectivity | Jira Administrator | Firewall and allowlist setup |
+| Azure DevOps issues | OAuth, PAT scope, repository visibility | Jira Administrator | Azure integration troubleshooting |
+| SSH or reindexing issues | Key format, repository size, memory limits | Jira Administrator | SSH and reindexing troubleshooting |
+
 **On this page:**
 - [Why don't I see commits?](#why-dont-i-see-commits-git-integration-for-cloud)
 - [License expiration shows as session error](#when-a-gij-license-expires-it-shows-up-as-a-session-error)
