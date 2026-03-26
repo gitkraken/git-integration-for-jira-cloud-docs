@@ -44,7 +44,7 @@ This page documents known issues and limitations in Git Integration for Jira Clo
 * * *
 &nbsp;
 
-## Repository Limits Per Integration
+## Repository limits per integration
 
 Git Integration for Jira Cloud limits the number of connected repositories per integration:
 
@@ -58,7 +58,7 @@ _Reference: GITCL-1395, GITCL-1846_
 
 &nbsp;
 
-## 2GB Object Size Limit
+## 2GB object size limit
 
 Git Integration for Jira uses the JGit library, which does not support objects over 2GB in size stored in git repositories.
 
@@ -66,7 +66,7 @@ Git Integration for Jira uses the JGit library, which does not support objects o
 
 &nbsp;
 
-## Smart Commits User Search Issue
+## Smart Commits user search issue
 
 Some users have smart commits attributed to the app user rather than specific users when user search via email fails.
 
@@ -80,7 +80,7 @@ _Reference: GITCL-800_
 
 &nbsp;
 
-## Microsoft Pull Request Status Updates
+## Microsoft pull request status updates
 
 Microsoft integrations require all pull requests for configured repositories to be requested each time for status updates. Microsoft's Pull Request APIs do not provide filtering by last changed date/time.
 
@@ -88,7 +88,7 @@ _Reference: GIT-3889_
 
 &nbsp;
 
-## Microsoft PAT Organization Permission
+## Microsoft PAT organization permission
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b>
 
@@ -102,7 +102,7 @@ _Reference: GIT-3978_
 
 &nbsp;
 
-## SSH Repository Automation Triggers
+## SSH repository automation triggers
 
 Automation for Jira triggers work with auto-connected integrations and single HTTPS authenticated git repositories, but single repositories authenticated via SSH are not supported by Atlassian Jira Cloud.
 
@@ -119,13 +119,13 @@ _Reference: GITCL-1624_
 
 &nbsp;
 
-## Tag Loading Timeout
+## Tag loading timeout
 
 Loading tags on integrations with large git history can take a long time. Git Integration for Jira Cloud limits tag loading to **10 seconds** before timing out.
 
 &nbsp;
 
-## Left Sidebar Loading Delay
+## Left sidebar loading delay
 
 The Git Integration for Jira app panel in the left sidebar takes up to 10 seconds to load.
 
@@ -135,7 +135,7 @@ Atlassian has opened a [bug ticket](https://ecosystem.atlassian.net/browse/ACJIR
 
 &nbsp;
 
-## Duplicate Smart Commit Commands
+## Duplicate Smart Commit commands
 
 When both Atlassian and GitKraken Smart Commit processors are enabled, users see duplicate `#comment` and `#time` commands.
 
@@ -152,7 +152,7 @@ _Reference: GITCL-1334_
 
 &nbsp;
 
-## Web Links Not Updating
+## Web links not updating
 
 In rare cases, web links for branches and tags do not update automatically after modifying the web-linking template.
 
@@ -164,3 +164,4 @@ In rare cases, web links for branches and tags do not update automatically after
 2. Re-enable the integration to apply the web linking update.
 
 _Reference: GITCL-3981_
+

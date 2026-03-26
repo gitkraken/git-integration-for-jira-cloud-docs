@@ -86,7 +86,7 @@ Follow the link below for the quick installation guide, or choose topics from th
 * * *
 &nbsp;
 
-### Welcome to the Git Integration for Jira Documentation
+## How to choose the Git Integration for Jira Cloud guide you need
 
 Jump to a topic you are interested in by clicking the links below. Learn about administrative requirements, installation, and integration setup, or scroll to the topic you want to view.
 

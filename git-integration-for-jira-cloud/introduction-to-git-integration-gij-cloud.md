@@ -56,7 +56,7 @@ The **Single repository integration** setup is ideal for users who use SSH conne
 
 &nbsp;
 
-### Integration Setup
+### How to choose the integration setup path
 
 Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integration: Manage integrations_ ➜ _Add integration_). Start by following the steps for your preferred git host service:
 
@@ -127,3 +127,4 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 [**Next:** Connecting to a Single Git Repository (HTTP/HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
 
 <p>&nbsp;</p>
+

@@ -45,7 +45,7 @@ Set up repositories and manage them in the Git Integration app configuration in 
 
 &nbsp;
 
-## Introduction
+## How the available integration types differ
 
 Integrate your git repositories via Git Integration for Jira Cloud. The app provides special integrations with GitHub, GitLab, Azure Repos, and more. Start integrating your git repositories by clicking **Add integration**.
 
@@ -63,7 +63,7 @@ Cloud-hosted and self-hosted git host services support automatic connection of m
 
 &nbsp;
 
-## Menu Access Locations
+## How to open the Manage integrations page
 
 After installation, access the Git Integration for Jira app repository configuration page via:
 
@@ -77,7 +77,7 @@ After installation, access the Git Integration for Jira app repository configura
 
 &nbsp;
 
-## Git Integration Configuration Page
+## What you can do on the Git integration configuration page
 
 On this page, you can set up your git repositories and connect them to Jira.
 
@@ -101,7 +101,7 @@ Git Integration for Jira supports one or more integration types for specific Git
 
 &nbsp;
 
-## Git Service Integration
+## When to use Git service integration
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
 
@@ -208,7 +208,7 @@ The above UI descriptions also apply to the Manage repositories page since it ha
 
 &nbsp;
 
-## Reindex Selected
+## How to reindex selected integrations or repositories
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>UPDATED FEATURE</b>
 
@@ -236,7 +236,7 @@ This function performs a reindex queue of all selected integrations/repositories
 
 &nbsp;
 
-## More Features
+## Where to find more features on the Manage integrations page
 
 Click **…** to see more features such as Repository browser and App settings.
 
@@ -257,3 +257,4 @@ The rest of the features can also be accessed on the left sidebar of the Manage 
 [**Next:** Using the Git service integration wizard](/git-integration-for-jira-cloud/using-the-git-service-integration-wizard-gij-cloud/)
 
 <p>&nbsp;</p>
+

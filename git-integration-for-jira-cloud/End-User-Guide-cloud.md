@@ -43,7 +43,7 @@ Thank you for using Git Integration for Jira! This guide explains how Git inform
 
 &nbsp;
 
-## Jira Issue View
+## How to review Git activity on the Jira issue view
 
 GIJ displays commits, branches, and pull/merge requests associated with a specific Jira issue. To link items to a Jira issue, include the Jira issue key in the commit message, branch name, or pull/merge request title.
 
@@ -72,7 +72,7 @@ The [Git Rollup Tab](/git-integration-for-jira-cloud/git-roll-up-tab-gij-cloud/)
 
 &nbsp;
 
-## Linking Behavior
+## How linking between Git activity and Jira issues works
 
 GIJ uses the Jira issue key to determine whether repository activity (commits, branches, pull/merge requests) links to any Jira items. Include the Jira issue key in the commit message, branch name, or pull request title. The key can appear anywhere in the message or name.
 
@@ -86,7 +86,7 @@ See [Linking Git Commits to Jira Issues](/git-integration-for-jira-cloud/linking
 
 &nbsp;
 
-## Creating Branches
+## How to create a branch from a Jira issue
 
 You can [create branches](/git-integration-for-jira-cloud/create-branch-gij-cloud/) directly from a Jira issue using GIJ.
 
@@ -108,7 +108,7 @@ A confirmation popup appears after the branch is created. Click the link to open
 
 &nbsp;
 
-## Creating Pull/Merge Requests
+## How to create a pull or merge request from Jira
 
 You can [create pull/merge requests](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud/) directly from Jira using GIJ.
 
@@ -130,7 +130,7 @@ A confirmation popup appears after the pull/merge request is created. Click the 
 
 &nbsp;
 
-## GIJ User Settings
+## How to manage Git Integration for Jira Cloud user settings
 
 GIJ lets you manage your connected apps, default repository, default branch, and personal access tokens through the [GIJ User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud/) page.
 
@@ -141,7 +141,7 @@ GIJ lets you manage your connected apps, default repository, default branch, and
 
 ![User-Settings](/wp-content/uploads/GIJ-General-Settings-navigation-cloud-2025.png)
 
-### Connected Apps
+### How to manage connected apps
 
 Enable or disable the visibility of GitKraken and GitLens icons in Jira issues. These icons let you open specific Git items in the respective application directly from the issue.
 
@@ -149,19 +149,19 @@ Enable or disable the visibility of GitKraken and GitLens icons in Jira issues. 
 
 ![Connected Apps - icons](/wp-content/uploads/GIJ-Connected-Apps-Jiraissue-icons-2025.png)
 
-### Default Repository
+### How to set a default repository
 
 Set a default repository on a per-project basis.
 
 ![Default-repo](/wp-content/uploads/GIJ-Cloud-User-Settings-Default-Repo.png)
 
-### Default Branch
+### How to set a default branch
 
 Set a default branch for a specific repository, configured by Jira project.
 
 ![Default-Branch](/wp-content/uploads/GIJ-Cloud-User-Settings-Default-Branch.png)
 
-### Personal Access Tokens
+### How to manage personal access tokens
 
 Manage the personal access tokens used to authenticate your requests to create branches and pull requests directly from Jira. You need to provide a token for each integration.
 
@@ -172,3 +172,4 @@ See [Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-p
 ![PAT](/wp-content/uploads/GIJ-Cloud-User-Settings-PAT.png)
 
 <p>&nbsp;</p>
+
