@@ -18,9 +18,16 @@ taxonomy:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-Explore the features available in Git Integration for Jira Cloud. Select a topic below to learn more.
+The Features hub explains what Jira administrators and Jira users can do with Git Integration for Jira Cloud after repositories are connected. Use this page to jump to the feature area you need, such as issue views, repository workflows, search, deep linking, or app settings.
 
-## Feature Topics
+| Feature area | Best for | Start here |
+| :--- | :--- | :--- |
+| Jira issue and project views | Reviewing commits, branches, pull requests, and source changes in Jira | Jira Development Information, Git Commits Issue Tab and Project Pages, Issue Git Source Code Panel |
+| Repository actions and user workflows | Creating branches or pull requests and managing user defaults | Create branch, End-user guide, User Settings |
+| Search, automation, and integrations | JQL, Smart Commits, CI/CD, and Jira Automation | JQL Searching, Smart Commits, CI/CD for Jira Cloud, Git Integration + Jira Automation |
+| Admin feature controls | Comparing capabilities and turning features on or off | Feature matrix, General Settings, migration and comparison guides |
+
+## How to explore Git Integration for Jira Cloud features
 
 - [Manager permissions](/git-integration-for-jira-cloud/manager-permissions-gij-cloud)
 - [Deep Linking to the GitKraken Git Client](/git-integration-for-jira-cloud/Deeplinking-feature-gij-cloud)
@@ -35,9 +42,9 @@ Explore the features available in Git Integration for Jira Cloud. Select a topic
 - [Issue Git Source Code Panel](/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud)
 - [Repository Browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud)
 - [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud)
-- [Create pull or merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud)
+- [Create pull or merge request](/git-integration-for-jira-cloud/End-User-Guide-cloud#how-to-create-a-pull-or-merge-request-from-jira)
 - [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud)
-- [Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud)
+- [Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-integration-gij-cloud)
 - [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud)
 - [Git Integration Server/Data Center vs Jira Cloud - Feature Comparison](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud)
 - [Migrating from Jira Server + Data Center to Jira Cloud](/git-integration-for-jira-cloud/migrating-from-jira-server-data-center-to-jira-cloud-gij-cloud)

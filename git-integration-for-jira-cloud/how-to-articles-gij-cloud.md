@@ -18,9 +18,16 @@ taxonomy:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-This collection of how-to guides walks you through common tasks and recommended workflows for Git Integration for Jira Cloud.
+The How-to Articles hub groups step-by-step Git Integration for Jira Cloud tasks that do not fit into a single setup or feature guide. Use this page when you need targeted instructions for pricing, SSH setup, JMESPath filtering, linking behavior, permissions, or reindex trigger workflows.
 
-## Step-by-Step Guides
+| Task type | Start here when you need | Related section |
+| :--- | :--- | :--- |
+| Pricing and licensing | Marketplace pricing, quotes, or allowlist setup | Pricing and Licensing |
+| Repository configuration | SSH setup, custom API paths, or repository filtering | Repository Configuration |
+| Linking and workflows | Issue-key linking for commits, branches, or pull requests | Linking and Workflows |
+| Security and indexing | PAT requirements, project permissions, or webhook-style reindexing | Security and Permissions, Indexing and Webhooks |
+
+## How to find the right Git Integration for Jira Cloud task guide
 
 ### Pricing and Licensing
 

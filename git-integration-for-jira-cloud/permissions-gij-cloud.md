@@ -18,7 +18,15 @@ taxonomy:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-## Permissions Required to View Commit Information
+The Permissions guide explains the Jira permissions required for users and administrators to view Git Integration for Jira Cloud data on Jira issue and project pages. Use this page when Git data is missing from Jira or when you need to confirm which Jira permission grants access to commit and diff information.
+
+| Access need | Required Jira permission or group | Notes |
+| :--- | :--- | :--- |
+| View commits, branches, and pull requests on Jira issue pages | `View Development Tools` | Administrators must grant this to themselves too |
+| View code diffs with the default Jira permission scheme | Membership in the `developers` group | Applies when the default permission scheme is still in use |
+| View Git Integration content for a project | Project-level permissions configured in Jira | Permission names can vary by Jira setup |
+
+## How Git Integration for Jira Cloud permissions affect commit visibility
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">

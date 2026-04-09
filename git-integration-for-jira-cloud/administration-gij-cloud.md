@@ -18,9 +18,16 @@ taxonomy:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-This section contains administration resources for configuring and managing Git Integration for Jira Cloud.
+The Administration hub collects the Git Integration for Jira Cloud pages Jira administrators use to delegate access, manage app-wide settings, and handle trusted-user administration. Use this page when you need to decide which admin guide applies to permissions, settings, or GitLab server API behavior.
 
-## Administration Topics
+| Administrative task | Use this page | When it applies |
+| :--- | :--- | :--- |
+| Delegate integration management without full Jira admin access | Configure Manager Permissions | You want selected users to manage integrations and repositories |
+| Grant full Git Integration app access to invited users | Manage Trusted Users | You need users to access all app pages or invite others |
+| Turn app features on or off globally | Configure General Settings | You want to control issue tabs, repository browser, beta features, or dev info behavior |
+| Make a self-hosted GitLab server respond correctly to API calls | Set Up GitLab Server for API Calls | Users need correct clone links or inbound API behavior |
+
+## How to choose the Git Integration for Jira Cloud admin guide
 
 ### [Configure Manager Permissions](/git-integration-for-jira-cloud/manager-permissions-gij-cloud)
 
