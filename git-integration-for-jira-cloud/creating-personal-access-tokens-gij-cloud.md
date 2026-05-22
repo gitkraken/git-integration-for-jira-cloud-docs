@@ -68,6 +68,29 @@ If you enable two-factor authentication for your GitHub account, you must create
 
 7. Copy the token immediately. This is the only time GitHub displays it.
 
+### Fine-grained personal access token
+
+Fine-grained tokens provide more granular control over which repositories and actions the token can access.
+
+**Minimum required scopes for a read-only integration:**
+
+| Scope | Permission | Purpose |
+|---|---|---|
+| Metadata | Read-only | Required by GitHub on all fine-grained tokens |
+| Contents | Read-only | Repo listing, commits, branches, cloning |
+| Pull requests | Read-only | View pull request data |
+| Issues | Read-only | GitHub treats PRs as a subtype of issues |
+| Actions | Read-only | Workflow/CI data |
+| Deployments | Read-only | Deployment data |
+| Administration | Read-only | Enumerate org repositories |
+
+**Additional scopes for write features (branch/PR creation, branch management):**
+
+| Scope | Permission | Purpose |
+|---|---|---|
+| Pull requests | Read and write | Create and manage pull requests from Jira |
+| Contents | Read and write | Create and manage branches from Jira |
+
 &nbsp;
 * * *
 &nbsp;
