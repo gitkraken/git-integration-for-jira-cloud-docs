@@ -65,6 +65,8 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 **What's on this page:**
 - [Integrate GitHub.com with Jira Cloud](#integrate-githubcom-with-jira-cloud)
   - [Creating a personal access token](#creating-a-personal-access-token)
+    - [Classic personal access token](#classic-personal-access-token)
+    - [Fine-grained personal access token](#fine-grained-personal-access-token)
   - [Using Git service integration](#using-git-service-integration)
   - [Single git repository integration](#single-git-repository-integration)
   - [Setting up GitHub permissions](#setting-up-github-permissions)
@@ -84,6 +86,10 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 
 ## Creating a personal access token
 
+GitHub supports two types of personal access tokens: **Classic** and **Fine-grained**. Both work with Git Integration for Jira.
+
+### Classic personal access token
+
 <div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
@@ -97,6 +103,29 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 <br>
 
 While instructions from GitHub works just fine, please [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for a quick step-by-step guide to get you started.
+
+### Fine-grained personal access token
+
+Fine-grained tokens provide more granular control over which repositories and actions the token can access. For setup instructions, see [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
+
+**Minimum required scopes for a read-only integration:**
+
+| Scope | Permission | Purpose |
+|---|---|---|
+| Metadata | Read-only | Required by GitHub on all fine-grained tokens |
+| Contents | Read-only | Repo listing, commits, branches, cloning |
+| Pull requests | Read-only | View pull request data |
+| Issues | Read-only | GitHub treats PRs as a subtype of issues |
+| Actions | Read-only | Workflow/CI data |
+| Deployments | Read-only | Deployment data |
+| Administration | Read-only | Enumerate org repositories |
+
+**Additional scopes for write features (branch/PR creation, branch management):**
+
+| Scope | Permission | Purpose |
+|---|---|---|
+| Pull requests | Read and write | Create and manage pull requests from Jira |
+| Contents | Read and write | Create and manage branches from Jira |
 
 ## Using Git service integration
 
