@@ -84,22 +84,7 @@ When working with sub-tasks, include both the parent and sub-task issue keys in 
 
 ### Support for Renamed Projects
 
-Git Integration for Jira supports commits that use the old Jira key after a project rename (for example, `TEST-16` to `PROJ-16`).
-
-Two scenarios apply after a rename or move:
-- The Jira project key was renamed and the commit message contains the old key (from before you installed Git Integration for Jira)
-- A Jira issue was moved to another project and the message contains the old key (from before you installed Git Integration for Jira)
-
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Jira Activity Stream:</b> Only commits linked to Jira issues appear in the Activity Stream—not all commits from connected repositories.
-    </div>
-    </div>
-</div>
+Git Integration for Jira Cloud does not support Jira Project/Issue key renaming.
 
 &nbsp;
 * * *
