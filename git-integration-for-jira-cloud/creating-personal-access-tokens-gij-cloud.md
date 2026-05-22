@@ -21,7 +21,9 @@ taxonomy:
 Personal access tokens (PATs) provide secure authentication for connecting git services to Git Integration for Jira Cloud. This page provides step-by-step instructions for creating PATs on each supported git host.
 
 **On this page:**
-- [Create a GitHub or GitHub Enterprise PAT](#create-a-github-or-github-enterprise-pat)
+- [GitHub and GitHub Enterprise PAT](#github-and-github-enterprise-pat)
+  - [Classic personal access token](#classic-personal-access-token)
+  - [Fine-grained personal access token](#fine-grained-personal-access-token)
 - [Create a GitLab PAT](#create-a-gitlab-pat)
 - [Create an Azure DevOps or VSTS PAT](#create-an-azure-devops-or-vsts-pat)
 - [Create a TFS 2017+ PAT](#create-a-tfs-2017-pat)
@@ -32,7 +34,11 @@ Personal access tokens (PATs) provide secure authentication for connecting git s
 * * *
 &nbsp;
 
-## Create a GitHub or GitHub Enterprise PAT
+## GitHub and GitHub Enterprise PAT
+
+GitHub supports two types of personal access tokens: **Classic** and **Fine-grained**. Use the appropriate section below based on the token type you want to create.
+
+### Classic personal access token
 
 If you enable two-factor authentication for your GitHub account, you must create a PAT to access your git repositories. We recommend enabling two-factor authentication for increased security.
 
