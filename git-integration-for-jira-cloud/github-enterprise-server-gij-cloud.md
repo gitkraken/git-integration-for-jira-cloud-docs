@@ -66,6 +66,8 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
 **What's on this page:**
 - [Integrate GitHub Enterprise Server with Jira Cloud](#integrate-github-enterprise-server-with-jira-cloud)
   - [Creating a personal access token](#creating-a-personal-access-token)
+    - [Classic personal access token](#classic-personal-access-token)
+    - [Fine-grained personal access token](#fine-grained-personal-access-token)
   - [Using Git service integration](#using-git-service-integration)
   - [Single git repository integration](#single-git-repository-integration)
   - [Setting up GitHub Enterprise Server permissions](#setting-up-github-enterprise-server-permissions)
