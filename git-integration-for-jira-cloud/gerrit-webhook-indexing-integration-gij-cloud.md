@@ -16,7 +16,7 @@ tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "Gerrit"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
-<kbd>Last updated: March 2026</kbd>
+<kbd>Last updated: July 2026</kbd>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
