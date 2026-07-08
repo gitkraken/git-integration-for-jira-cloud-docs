@@ -24,10 +24,60 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This feature is under development. Documentation will be available when the integration is released.
+    Webhooks are not built into Gerrit by default. You must install and configure the Gerrit webhook plugin before using webhooks with Git Integration for Jira Cloud.        
     </div>
     </div>
 </div>
+
+**On this page:**
+- [Install the webhook plugin](#install-the-webhook-plugin)
+- [Configure webhooks](#configure-webhooks)
+- [Trigger webhooks manually](#trigger-webhooks-manually)
+
+&nbsp;
+* * *
+&nbsp;
+
+## Install the Webhook Plugin
+
+Install Gerrit with the webhook plugin from [https://gerrit.googlesource.com/plugins/webhooks/](https://gerrit.googlesource.com/plugins/webhooks/).
+
+&nbsp;
+
+## Configure Webhooks
+
+### List Projects (Repositories)
+
+```powershell
+curl http(s)://your.org.com:8080/projects/?d
+```
+
+### Check Enabled Webhooks
+
+```powershell
+curl http(s)://your.org.com:8080/config/server/webhooks~projects/MyTestRepo/remotes
+```
+
+### Add a Webhook
+
+```powershell
+curl --user username:password -H 'Content-Type: application/json' -X PUT -d @webhook.json http(s)://your.org.com:8080/a/config/server/webhooks~projects/MyTestRepo/remotes/bbb-webhook
+```
+
+Create a `webhook.json` file:
+
+```json
+{
+   "url" : "https://example.com/webhook/url",
+   "maxTries" : 3,
+   "sslVerify": true
+}
+```
+
+Replace `https://example.com/webhook/url` with your webhook URL from Git Integration for Jira Manage Integration page ➜ **Gerrit Webhook Indexing Integration** ➜ &#9881; ➜ Edit Integration ➜ 'Webhook URL'.
+
+&nbsp;
+
 
 &nbsp;
 
