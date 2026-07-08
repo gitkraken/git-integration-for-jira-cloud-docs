@@ -2,7 +2,7 @@
 
 > Git Integration for Jira Cloud documentation — connect your Git repositories to Jira Cloud for seamless issue tracking and development visibility.
 
-Generated: 2026-03-23
+Generated: 2026-07-08
 
 ---
 
@@ -68,7 +68,7 @@ Have an idea for improving Git Integration for Jira, found a bug, or need techni
 
 &nbsp;
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -864,9 +864,16 @@ Last updated: December 2025
 URL: https://help.gitkraken.com/git-integration-for-jira-cloud/administration-gij-cloud/
 Description: Administration resources for Git Integration for Jira Cloud including manager permissions, trusted users, and general settings.
 
-This section contains administration resources for configuring and managing Git Integration for Jira Cloud.
+The Administration hub collects the Git Integration for Jira Cloud pages Jira administrators use to delegate access, manage app-wide settings, and handle trusted-user administration. Use this page when you need to decide which admin guide applies to permissions, settings, or GitLab server API behavior.
 
-## Administration Topics
+| Administrative task | Use this page | When it applies |
+| :--- | :--- | :--- |
+| Delegate integration management without full Jira admin access | Configure Manager Permissions | You want selected users to manage integrations and repositories |
+| Grant full Git Integration app access to invited users | Manage Trusted Users | You need users to access all app pages or invite others |
+| Turn app features on or off globally | Configure General Settings | You want to control issue tabs, repository browser, beta features, or dev info behavior |
+| Make a self-hosted GitLab server respond correctly to API calls | Set Up GitLab Server for API Calls | Users need correct clone links or inbound API behavior |
+
+## How to choose the Git Integration for Jira Cloud admin guide
 
 ### [Configure Manager Permissions](/git-integration-for-jira-cloud/manager-permissions-gij-cloud)
 
@@ -884,7 +891,7 @@ Adjust performance and feature settings for Git Integration for Jira Cloud throu
 
 Configure your GitLab server to respond to incoming network API calls and provide correct repository clone links to users.
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -4602,7 +4609,9 @@ Description: Create personal access tokens (PATs) for GitHub, GitLab, Azure DevO
 Personal access tokens (PATs) provide secure authentication for connecting git services to Git Integration for Jira Cloud. This page provides step-by-step instructions for creating PATs on each supported git host.
 
 **On this page:**
-- [Create a GitHub or GitHub Enterprise PAT](#create-a-github-or-github-enterprise-pat)
+- [GitHub and GitHub Enterprise PAT](#github-and-github-enterprise-pat)
+  - [Classic personal access token](#classic-personal-access-token)
+  - [Fine-grained personal access token](#fine-grained-personal-access-token)
 - [Create a GitLab PAT](#create-a-gitlab-pat)
 - [Create an Azure DevOps or VSTS PAT](#create-an-azure-devops-or-vsts-pat)
 - [Create a TFS 2017+ PAT](#create-a-tfs-2017-pat)
@@ -4613,25 +4622,23 @@ Personal access tokens (PATs) provide secure authentication for connecting git s
 * * *
 &nbsp;
 
-## Create a GitHub or GitHub Enterprise PAT
+## GitHub and GitHub Enterprise PAT
+
+GitHub supports two types of personal access tokens: **Classic** and **Fine-grained**. Use the appropriate section below based on the token type you want to create.
+
+### Classic personal access token
 
 If you enable two-factor authentication for your GitHub account, you must create a PAT to access your git repositories. We recommend enabling two-factor authentication for increased security.
 
 1. Log in to GitHub and go to your profile settings.
 
-
-
 2. Click **Developer settings** in the sidebar.
-
-
 
 3. Click **Personal access tokens** in the sidebar.
 
 4. Click **Generate new token**.
 
 5. Configure your token:
-
-
 
 a. Enter a descriptive name in the **Note** field (for example, `git-integration-for-jira`).
 
@@ -4642,6 +4649,29 @@ c. Under **Select scopes**, select the **repo** scope (this automatically includ
 6. Click **Generate token**.
 
 7. Copy the token immediately. This is the only time GitHub displays it.
+
+### Fine-grained personal access token
+
+Fine-grained tokens provide more granular control over which repositories and actions the token can access.
+
+**Minimum required scopes for a read-only integration:**
+
+| Scope | Permission | Purpose |
+|---|---|---|
+| Metadata | Read-only | Required by GitHub on all fine-grained tokens |
+| Contents | Read-only | Repo listing, commits, branches, cloning |
+| Pull requests | Read-only | View pull request data |
+| Issues | Read-only | GitHub treats PRs as a subtype of issues |
+| Actions | Read-only | Workflow/CI data |
+| Deployments | Read-only | Deployment data |
+| Administration | Read-only | Enumerate org repositories |
+
+**Additional scopes for write features (branch/PR creation, branch management):**
+
+| Scope | Permission | Purpose |
+|---|---|---|
+| Pull requests | Read and write | Create and manage pull requests from Jira |
+| Contents | Read and write | Create and manage branches from Jira |
 
 &nbsp;
 * * *
@@ -5163,9 +5193,16 @@ Last updated: December 2025
 URL: https://help.gitkraken.com/git-integration-for-jira-cloud/documentation-gij-cloud/
 Description: Complete documentation for Git Integration for Jira Cloud
 
-This documentation covers v1.5.12-AC features. For information on released features, see Release notes.
+Git Integration for Jira Cloud documentation explains how Jira administrators and Jira users install the app, connect repositories, and work with Git data inside Jira Cloud. Use this page as the entry point when you need the correct guide for setup, permissions, repository access, or issue-level Git workflows.
 
+**Quick Start**
 
+- Install the app from Atlassian Marketplace if Git Integration for Jira Cloud is not yet installed
+- Review permissions and SSH requirements before connecting repositories
+- Use the integration setup guides for your git host and authentication method
+- Use the feature guides below for issue, project, and repository workflows after setup
+
+This documentation covers **v1.5.12-AC** features. For information on released features, see [Release notes](/git-integration-for-jira-cloud/git-integration-for-jira-cloud-release-notes-gij-cloud).
 
 &nbsp;
 * * *
@@ -5189,15 +5226,9 @@ For permissions requirements, see [App platform and system permissions requireme
 
 &nbsp;
 
-
-
-
-
-
 Get new product notifications and feature updates for Git Integration for Jira.
-Subscribe to our mailing list
 
-
+[Subscribe to our mailing list](http://eepurl.com/hhfbwz)
 
 &nbsp;
 
@@ -5209,7 +5240,7 @@ Follow the link below for the quick installation guide, or choose topics from th
 * * *
 &nbsp;
 
-### Welcome to the Git Integration for Jira Documentation
+## How to choose the Git Integration for Jira Cloud guide you need
 
 Jump to a topic you are interested in by clicking the links below. Learn about administrative requirements, installation, and integration setup, or scroll to the topic you want to view.
 
@@ -5303,7 +5334,7 @@ Legal information about license and copyright notice.
 
 &nbsp;
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -5653,9 +5684,16 @@ Last updated: December 2025
 URL: https://help.gitkraken.com/git-integration-for-jira-cloud/features-gij-cloud/
 Description: Overview of Git Integration for Jira Cloud features including deep linking, CI/CD integration, automation, and repository management.
 
-Explore the features available in Git Integration for Jira Cloud. Select a topic below to learn more.
+The Features hub explains what Jira administrators and Jira users can do with Git Integration for Jira Cloud after repositories are connected. Use this page to jump to the feature area you need, such as issue views, repository workflows, search, deep linking, or app settings.
 
-## Feature Topics
+| Feature area | Best for | Start here |
+| :--- | :--- | :--- |
+| Jira issue and project views | Reviewing commits, branches, pull requests, and source changes in Jira | Jira Development Information, Git Commits Issue Tab and Project Pages, Issue Git Source Code Panel |
+| Repository actions and user workflows | Creating branches or pull requests and managing user defaults | Create branch, End-user guide, User Settings |
+| Search, automation, and integrations | JQL, Smart Commits, CI/CD, and Jira Automation | JQL Searching, Smart Commits, CI/CD for Jira Cloud, Git Integration + Jira Automation |
+| Admin feature controls | Comparing capabilities and turning features on or off | Feature matrix, General Settings, migration and comparison guides |
+
+## How to explore Git Integration for Jira Cloud features
 
 - [Manager permissions](/git-integration-for-jira-cloud/manager-permissions-gij-cloud)
 - [Deep Linking to the GitKraken Git Client](/git-integration-for-jira-cloud/Deeplinking-feature-gij-cloud)
@@ -5670,16 +5708,16 @@ Explore the features available in Git Integration for Jira Cloud. Select a topic
 - [Issue Git Source Code Panel](/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud)
 - [Repository Browser](/git-integration-for-jira-cloud/repository-browser-gij-cloud)
 - [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud)
-- [Create pull or merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud)
+- [Create pull or merge request](/git-integration-for-jira-cloud/End-User-Guide-cloud#how-to-create-a-pull-or-merge-request-from-jira)
 - [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud)
-- [Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud)
+- [Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-integration-gij-cloud)
 - [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud-gij-cloud)
 - [Git Integration Server/Data Center vs Jira Cloud - Feature Comparison](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud)
 - [Migrating from Jira Server + Data Center to Jira Cloud](/git-integration-for-jira-cloud/migrating-from-jira-server-data-center-to-jira-cloud-gij-cloud)
 - [User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud)
 - [General Settings](/git-integration-for-jira-cloud/general-settings-gij-cloud)
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -6102,12 +6140,17 @@ Description: Configure Git Integration for Jira Cloud general settings including
 
 The General Settings page is only accessible to Jira Administrators.
 
+The General Settings page lets Jira administrators control which Git Integration for Jira Cloud features appear in Jira and how some app-wide behaviors work. Use this page when you need to enable or disable issue tabs, repository browser features, beta functionality, branch naming rules, or connected-app visibility.
 
-
-The General settings page lets administrators configure Git Integration for Jira Cloud app features. Enable or disable settings based on your organization's requirements.
+| Settings area | Use it to control | Typical reason to review it |
+| :--- | :--- | :--- |
+| Feature visibility | Git Roll Up, Git Commits, issue panel, and repository browser pages | Reduce clutter or match the features your team uses |
+| Integration behavior | Branch naming, branch name length, web linking, and app options | Standardize Git workflows across projects |
+| Connected apps | GitKraken and GitLens deep linking | Choose which external app actions users can access |
+| Jira development information | Development panel and related Jira surfaces | Adjust how Git data appears inside Jira |
 
 **On this page:**
-- [Getting started](#getting-started)
+- [How to open General settings](#how-to-open-general-settings)
 - [Enable beta features](#enable-beta-features)
 - [Git Roll Up Issue Tab setting](#git-roll-up-issue-tab-setting)
 - [Git Commits Issue Tab and Project Page](#git-commits-issue-tab-and-project-page)
@@ -6124,15 +6167,13 @@ The General settings page lets administrators configure Git Integration for Jira
 
 &nbsp;
 
-## Getting started
+## How to open General settings
 
 Open the **General settings** page in Jira Apps Management to enable or disable Git Integration for Jira Cloud app features.
 
 Access **General settings** through:
 
 *   Jira Side Bar ➜ Apps ➜ Git Integration for Jira ➜ **App settings**.
-
-
 
 Click **Update** to apply your changes.
 
@@ -6144,27 +6185,13 @@ Click **Update** to apply your changes.
 
 ## Enable beta features
 
-
-
-
-
-
 Default settings
-This setting is disabled in Git Integration for Jira Cloud app by default.
-This setting is turned off by default in Dev Info for Jira Cloud app.
-
-
+This setting is disabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 This toggle provides early access to upcoming features. Enable it to use new beta features and display them in General settings. Disable it to hide beta features.
 
-
-
-
-
-
-Share feedback and ideas to help us improve current beta features. We appreciate your suggestions. If you encounter bugs or performance issues, contact us through GIJ Cloud Support.
-
-
+Share feedback and ideas to help us improve current beta features. We appreciate your suggestions. If you encounter bugs or performance issues, contact us through [GIJ Cloud Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
 &nbsp;
 
@@ -6174,32 +6201,18 @@ Share feedback and ideas to help us improve current beta features. We appreciate
 
 ## Git Roll Up Issue Tab setting
 
-
-
-
-
-
 Default settings
-This setting is enabled in Git Integration for Jira Cloud app by default.
-This setting is turned off by default in Dev Info for Jira Cloud app.
-
-
+This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+This setting is turned off by default in [Dev Info for Jira Cloud](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 ### Show Git Roll Up Issue Tab
 
 The Git Roll Up Issue tab displays a summary of files, lines, and developers who changed commits associated with a Jira issue. Toggle this setting to show or hide the **Git Roll Up** tab on Issue pages for all Jira projects.
 
-For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integration-for-jira-cloud/git-roll-up-tab-gij-cloud).
-
-
-
-
-
+For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integration-for-jira-cloud/git-roll-up-issue-tab-gij-cloud).
 
 Permissions
-The View developer tools permission is required to view the Git Roll Up Issue Tab. Jira users must also have Browse Project permissions for a project associated with a repository to view.
-
-
+The **View developer tools** _permission_ is required to view the Git Roll Up Issue Tab. Jira users must also have **Browse Project** _permissions_ for a project associated with a repository to view.
 
 &nbsp;
 
@@ -6209,16 +6222,9 @@ The View developer tools permission is required to view the Git Roll Up Issue Ta
 
 ## Git Commits Issue Tab and Project Page
 
-
-
-
-
-
 Default settings
-This setting is enabled in Git Integration for Jira Cloud app by default.
-This setting is turned off by default in Dev Info for Jira Cloud app.
-
-
+This setting is enabled in [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 ### Show Git Commits Issue Tab and Project Page
 
@@ -6226,15 +6232,8 @@ This setting enables or disables the **Git Commits Issue tab** and the **Git Com
 
 For more details, see [**Features: Git Commits Issue tab and Project Page (Jira Cloud)**](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-pages-gij-cloud).
 
-
-
-
-
-
 Permissions
-The View developer tools permission is required to view the Git Commits Issue Tab and Projects Page. Jira users must also have Browse Project permissions for a project associated with a repository to view.
-
-
+The **View developer tools** _permission_ is required to view the Git Commits Issue Tab and Projects Page. Jira users must also have **Browse Project** _permissions_ for a project associated with a repository to view.
 
 &nbsp;
 
@@ -6244,30 +6243,16 @@ The View developer tools permission is required to view the Git Commits Issue Ta
 
 ## Issue Git Source Code Panel setting
 
-
-
-
-
-
 Default settings
-This setting is enabled in Git Integration for Jira Cloud app by default.
-This setting is turned off by default in Dev Info for Jira Cloud app.
-
-
+This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 ### Show Issue Git Source Code Panel
 
 Toggle this setting to show or hide the _Git Integration_ section on the Jira issue developer panel.
 
-
-
-
-
-
 Permissions
-The View developer tools permission is required to view the Git Integration panel. Jira users must also have Browse Project permissions for a project associated with a repository to view.
-
-
+The **View developer tools** _permission_ is required to view the Git Integration panel. Jira users must also have **Browse Project** _permissions_ for a project associated with a repository to view.
 
 Disabling this setting improves Jira performance.
 
@@ -6281,22 +6266,9 @@ For introductory information on this feature, see [Jira git issue development pa
 
 ## Repository Browser settings
 
-
-
-
-
-
 Default settings
-
-
-This setting is enabled in Git Integration for Jira Cloud app by default.
-
-
-This setting is turned off by default in Dev Info for Jira Cloud app.
-
-
-
-
+This setting is enabled in [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+This setting is turned off by default in [Dev Info for Jira Cloud](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 &nbsp;
 
@@ -6318,7 +6290,7 @@ For detailed information on this feature, see [Creating branches](/git-integrati
 
 This setting controls pull/merge request creation from the Jira developer panel.
 
-For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
+For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-cloud/End-User-Guide-cloud#how-to-create-a-pull-or-merge-request-from-jira).
 
 ### Branch name template
 
@@ -6338,16 +6310,9 @@ Use the following template variables:
 
 `${summary}` – Issue Summary. The Summary comes from the current Jira issue and appears in lowercase; spaces are replaced with "-" (dash).
 
-
-
-
-
-
 The Git Integration for Jira app default is:
-${issuekey}-${summary}
-This generates the string format like "PRJ-123-add-more-logging" as a default value for the Create Branch and Pull/Merge Request dialogs. Where PRJ-123 is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form).
-
-
+`${issuekey}-${summary}`
+This generates the string format like "**PRJ-123-add-more-logging**" as a default value for the Create Branch and Pull/Merge Request dialogs. Where `PRJ-123` is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form).
 
 `${sourcebranch}` – Source branch. The source branch from the Create Branch dialog appears in lowercase; spaces are replaced with "-" (dash).
 
@@ -6385,36 +6350,16 @@ This generates the string format like "**branch/PRJ-123-add-more-logging**" as a
 
 ## GitKraken Integration settings
 
-
-
-
-
-
 Default settings
-
-
-This setting is enabled in Git Integration for Jira Cloud app by default.
-
-
-This setting is turned off by default in Dev Info for Jira Cloud app.
-
-
-
-
+This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+This setting is turned off by default in [Dev Info for Jira Cloud](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 ### Enable GitKraken integration
 
 Enable deep linking to quickly move between Jira and your Git source code using the GitKraken git client. GitKraken also supports deep linking into Git Integration for Jira. For more information, see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
 
-
-
-
-
-
 Permissions
-The View developer tools permission is required to view git commits. Jira users must also have Browse Project permissions for a project associated with a repository to view.
-
-
+The **View developer tools** _permission_ is required to view git commits. Jira users must also have **Browse Project** _permissions_ for a project associated with a repository to view.
 
 For more details, see [Features: Deep Linking to the GitKraken Git client (Jira Cloud)](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client-gij-cloud).
 
@@ -6426,36 +6371,16 @@ For more details, see [Features: Deep Linking to the GitKraken Git client (Jira 
 
 ## GitLens Integration settings
 
-
-
-
-
-
 Default settings
-
-
-This setting is enabled in Git Integration for Jira Cloud app by default.
-
-
-This setting is turned off by default in Dev Info for Jira Cloud app.
-
-
-
-
+This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+This setting is turned off by default in [Dev Info for Jira Cloud](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 ### Enable GitLens integration
 
 Enable deep linking to quickly move between Jira and your Git source code using the GitLens VSCode extension. GitLens also supports deep linking into Git Integration for Jira. For more information, see [GitLens Integrations: Git Integration for Jira](https://www.gitkraken.com/gitlens).
 
-
-
-
-
-
 Permissions
-The View developer tools permission is required to view git commits. Jira users must also have Browse Project permissions for a project associated with a repository to view.
-
-
+The **View developer tools** _permission_ is required to view git commits. Jira users must also have **Browse Project** _permissions_ for a project associated with a repository to view.
 
 For more details, see [Features: Deep Linking to the GitLens (Jira Cloud)](/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud).
 
@@ -6467,7 +6392,7 @@ For more details, see [Features: Deep Linking to the GitLens (Jira Cloud)](/git-
 
 ## Jira Development Information settings
 
-The default settings for Jira Development Information are shown.
+_The default settings for Jira Development Information are shown._
 
 ### What is Jira Development Information?
 
@@ -6479,9 +6404,9 @@ The following settings affect the availability of specific smart commit commands
 
 | When this General setting is enabled | \#time | \#label |
 |:---|:---|:---|
-| Jira Cloud Smart Commits |  |  |
-| Git Integration app Smart Commits |  |  |
-|Both Jira Cloud Smart and GIJ app Smart commits | (doubled time and comments) |  |
+| Jira Cloud Smart Commits | Yes | No |
+| Git Integration app Smart Commits | Yes | Yes |
+| Both Jira Cloud Smart and GIJ app Smart commits | Yes (doubled time and comments) | Yes |
 
 &nbsp;
 
@@ -6489,37 +6414,16 @@ The following settings affect the availability of specific smart commit commands
 
 Toggle this setting to send new commit, branch, and pull request data to Jira Cloud for processing and display in various views and features.
 
-
-
-
-
-
 Default settings
-This setting is enabled in Git Integration for Jira Cloud app by default.
-This setting is turned off by default in Dev Info for Jira Cloud app.
-
-
+This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 Only newly added commits, branches, and pull requests upload to Jira Cloud when enabled. To upload the entire history of an integration or repository, remove it and add it back.
 
-
-
-
-
-
 Permissions
-The View Development Tools permission only applies to Jira Company-managed projects. Team-managed projects do not allow permission modifications.
+The **View Development Tools** _permission_ only applies to Jira **_Company-managed_** projects. **_Team-managed_** projects do not allow permission modifications.
 
-
-
-
-
-
-
-
-Turning this setting to ON automatically disables the Enable Git Integration app Smart Commits setting.
-
-
+Turning this setting to `ON` automatically disables the **Enable Git Integration app Smart Commits** setting.
 
 &nbsp;
 
@@ -6531,23 +6435,9 @@ Automatic workflow triggers let you use development activity to make automatic c
 
 For more information on Automation for Jira, see [Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud).
 
-
-
-
-
-
 With both smart commits processors active, the #time and #comment commands are processed twice, resulting in duplicated results.
 
-
-
-
-
-
-
-
-Compared to the other smart commit processor option, this one supports Jira Automation but lacks the #label command.
-
-
+Compared to the other smart commit processor option, this one supports Jira Automation but lacks the `#label` command.
 
 &nbsp;
 
@@ -6555,32 +6445,11 @@ Compared to the other smart commit processor option, this one supports Jira Auto
 
 This setting activates GitKraken's GIJ Smart Commit processor for `#time`, `#comment`, `#transition`, and `#label` commands. For more information, see [Smart Commits documentation](/git-integration-for-jira-cloud/smart-commits-gij-cloud).
 
+Turning this setting to `ON` automatically disables the **Send Development Information to Jira Cloud** and **Enable Jira Cloud Smart Commits & Workflow Triggers** settings.
 
+With both smart commits processors active, the `#time` and `#comment` commands are processed twice, resulting in duplicated results.
 
-
-
-
-Turning this setting to ON automatically disables the Send Development Information to Jira Cloud and Enable Jira Cloud Smart Commits & Workflow Triggers settings.
-
-
-
-
-
-
-
-
-With both smart commits processors active, the #time and #comment commands are processed twice, resulting in duplicated results.
-
-
-
-
-
-
-
-
-Compared to the other smart commit processor option, this one does not support Jira Automation but lets you use the #label command.
-
-
+Compared to the other smart commit processor option, this one does not support Jira Automation but lets you use the `#label` command.
 
 &nbsp;
 
@@ -6588,14 +6457,7 @@ Compared to the other smart commit processor option, this one does not support J
 
 The **Advanced** section contains a button that lets Jira administrators clear all Development Information associated with Git Integration for Jira.
 
-
-
-
-
-
 This action takes time to process and Development Information may remain visible in places until the process finishes. Expect the process to take up to one hour.
-
-
 
 &nbsp;
 
@@ -6611,7 +6473,7 @@ Click **Update** to apply your configuration changes.
 
 [General settings for administrators](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud) (Git Integration for Jira Cloud)
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -6984,9 +6846,54 @@ Last updated: December 2025
 URL: https://help.gitkraken.com/git-integration-for-jira-cloud/gerrit-webhook-indexing-integration-gij-cloud/
 Description: Configure webhook indexing integration for Gerrit to work with Git Integration for Jira Cloud behind firewalls.
 
-This feature is under development. Documentation will be available when the integration is released.
+Webhooks are not built into Gerrit by default. You must install and configure the Gerrit webhook plugin before using webhooks with Git Integration for Jira Cloud.
 
+**On this page:**
+- [Install the webhook plugin](#install-the-webhook-plugin)
+- [Configure webhooks](#configure-webhooks)
+- [Trigger webhooks manually](#trigger-webhooks-manually)
 
+&nbsp;
+* * *
+&nbsp;
+
+## Install the Webhook Plugin
+
+Install Gerrit with the webhook plugin from [https://gerrit.googlesource.com/plugins/webhooks/](https://gerrit.googlesource.com/plugins/webhooks/).
+
+&nbsp;
+
+## Configure Webhooks
+
+### List Projects (Repositories)
+
+```powershell
+curl http(s)://your.org.com:8080/projects/?d
+```
+
+### Check Enabled Webhooks
+
+```powershell
+curl http(s)://your.org.com:8080/config/server/webhooks~projects/MyTestRepo/remotes
+```
+
+### Add a Webhook
+
+```powershell
+curl --user username:password -H 'Content-Type: application/json' -X PUT -d @webhook.json http(s)://your.org.com:8080/a/config/server/webhooks~projects/MyTestRepo/remotes/bbb-webhook
+```
+
+Create a `webhook.json` file:
+
+```json
+{
+"url" : "https://example.com/webhook/url",
+"maxTries" : 3,
+"sslVerify": true
+}
+```
+
+Replace `https://example.com/webhook/url` with your webhook URL from Git Integration for Jira Manage Integration page ➜ **Gerrit Webhook Indexing Integration** ➜ ⚙ ➜ Edit Integration ➜ 'Webhook URL'.
 
 &nbsp;
 
@@ -6996,7 +6903,7 @@ This feature is under development. Documentation will be available when the inte
 - [GitLab webhook indexing integration](/git-integration-for-jira-cloud/gitlab-webhook-indexing-integration-gij-cloud)
 - [Microsoft webhook indexing integration](/git-integration-for-jira-cloud/microsoft-webhook-indexing-integration-gij-cloud)
 
-Last updated: December 2025
+Last updated: July 2026
 
 ---
 
@@ -7132,14 +7039,14 @@ If your organization requires additional usage limits or support beyond the Adva
 
 &nbsp;
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
 ## GIJ Standard vs Advanced Feature matrix
 
 URL: https://help.gitkraken.com/git-integration-for-jira-cloud/gij standard vs advanced features/
-Description: New Doc Description
+Description: Reference documentation for GIJ Standard vs Advanced Feature matrix in Git Integration for Jira Cloud, for Jira users and developers.
 
 # Feature availability between versions
 
@@ -9086,6 +8993,8 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
 **What's on this page:**
 - [Integrate GitHub Enterprise Server with Jira Cloud](#integrate-github-enterprise-server-with-jira-cloud)
 - [Creating a personal access token](#creating-a-personal-access-token)
+  - [Classic personal access token](#classic-personal-access-token)
+  - [Fine-grained personal access token](#fine-grained-personal-access-token)
 - [Using Git service integration](#using-git-service-integration)
 - [Single git repository integration](#single-git-repository-integration)
 - [Setting up GitHub Enterprise Server permissions](#setting-up-github-enterprise-server-permissions)
@@ -9738,6 +9647,8 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 **What's on this page:**
 - [Integrate GitHub.com with Jira Cloud](#integrate-githubcom-with-jira-cloud)
 - [Creating a personal access token](#creating-a-personal-access-token)
+  - [Classic personal access token](#classic-personal-access-token)
+  - [Fine-grained personal access token](#fine-grained-personal-access-token)
 - [Using Git service integration](#using-git-service-integration)
 - [Single git repository integration](#single-git-repository-integration)
 - [Setting up GitHub permissions](#setting-up-github-permissions)
@@ -9762,11 +9673,38 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 
 
 
+GitHub supports two types of personal access tokens: **Classic** and **Fine-grained**. Both work with Git Integration for Jira.
+
+### Classic personal access token
+
 If two-factor authentication is enabled for your GitHub account, you will need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitHub.com account for increased security.
 
 
 
 While instructions from GitHub works just fine, please [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for a quick step-by-step guide to get you started.
+
+### Fine-grained personal access token
+
+Fine-grained tokens provide more granular control over which repositories and actions the token can access. For setup instructions, see [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
+
+**Minimum required scopes for a read-only integration:**
+
+| Scope | Permission | Purpose |
+|---|---|---|
+| Metadata | Read-only | Required by GitHub on all fine-grained tokens |
+| Contents | Read-only | Repo listing, commits, branches, cloning |
+| Pull requests | Read-only | View pull request data |
+| Issues | Read-only | GitHub treats PRs as a subtype of issues |
+| Actions | Read-only | Workflow/CI data |
+| Deployments | Read-only | Deployment data |
+| Administration | Read-only | Enumerate org repositories |
+
+**Additional scopes for write features (branch/PR creation, branch management):**
+
+| Scope | Permission | Purpose |
+|---|---|---|
+| Pull requests | Read and write | Create and manage pull requests from Jira |
+| Contents | Read and write | Create and manage branches from Jira |
 
 ## Using Git service integration
 
@@ -11696,9 +11634,16 @@ Last updated: December 2025
 URL: https://help.gitkraken.com/git-integration-for-jira-cloud/how-to-articles-gij-cloud/
 Description: Browse step-by-step guides for Git Integration for Jira Cloud including pricing, configuration, and integration workflows.
 
-This collection of how-to guides walks you through common tasks and recommended workflows for Git Integration for Jira Cloud.
+The How-to Articles hub groups step-by-step Git Integration for Jira Cloud tasks that do not fit into a single setup or feature guide. Use this page when you need targeted instructions for pricing, SSH setup, JMESPath filtering, linking behavior, permissions, or reindex trigger workflows.
 
-## Step-by-Step Guides
+| Task type | Start here when you need | Related section |
+| :--- | :--- | :--- |
+| Pricing and licensing | Marketplace pricing, quotes, or allowlist setup | Pricing and Licensing |
+| Repository configuration | SSH setup, custom API paths, or repository filtering | Repository Configuration |
+| Linking and workflows | Issue-key linking for commits, branches, or pull requests | Linking and Workflows |
+| Security and indexing | PAT requirements, project permissions, or webhook-style reindexing | Security and Permissions, Indexing and Webhooks |
+
+## How to find the right Git Integration for Jira Cloud task guide
 
 ### Pricing and Licensing
 
@@ -11736,7 +11681,7 @@ This collection of how-to guides walks you through common tasks and recommended 
 
 [How to Create Reindex Triggers for a Single Repository](/git-integration-for-jira-cloud/how-to-create-reindex-triggers-for-a-single-repository-gij-cloud) - Set up webhooks for targeted reindexing
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -12085,11 +12030,20 @@ Last updated: December 2025
 URL: https://help.gitkraken.com/git-integration-for-jira-cloud/integration-guide-gij-cloud/
 Description: Guide to connecting Git repositories with Jira Cloud using Git Integration for Jira
 
-Welcome to the Git Integration for Jira app reference page index for topics about integration of git repositories with Jira Cloud.
+The Integration Guide helps Jira administrators choose the right setup document for each supported git host in Git Integration for Jira Cloud. Use this page when you need the correct host-specific guide for GitHub, GitLab, Azure DevOps, Bitbucket, AWS CodeCommit, or a Plain Git repository.
 
-On this page, you find the list of integration guides for specific git hosts. For general Jira git integration, see our **[Introduction to Git integration](/git-integration-for-jira-cloud/introduction-to-git-integration-gij-cloud)** to get more familiar with integration, viewing commits inside Jira, smart commits, and more.
+| Git host or setup path | Best for | Typical integration method | Start here when you need |
+| :--- | :--- | :--- | :--- |
+| GitHub and GitLab | Cloud-hosted or self-hosted git services with multi-repository support | Git service integration | OAuth or PAT-based setup guidance |
+| Azure DevOps or TFS | Microsoft-hosted or self-hosted repositories | Git service integration or webhook indexing | Microsoft-specific setup and repository selection steps |
+| AWS CodeCommit and Bitbucket Cloud | Service-specific connection requirements | Git service integration or HTTP/SSH | Provider-specific authentication and repository setup steps |
+| Plain Git repository | One SSH or HTTP(S) repository | Single repository integration | Direct repository connection outside the multi-repository flows |
 
-Click a topic title to view its content or search through the related topics.
+For a comparison of integration types before choosing a git-host guide, see **[Introduction to Git integration](/git-integration-for-jira-cloud/introduction-to-git-integration-gij-cloud)**.
+
+## How to choose the right Git Integration for Jira Cloud guide
+
+Select the git host that matches the repository platform you want to connect. If you need to connect only one repository over SSH or HTTP(S), use the Plain Git repository guide instead of the multi-repository host guides.
 
 * * *
 
@@ -12152,7 +12106,7 @@ Connect plain git repositories via the Git Integration for Jira app in Jira Clou
 
 &nbsp;
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -12163,9 +12117,13 @@ Description: Learn how to integrate Git repositories with Jira Cloud
 
 Learn basic integration for most git hosts by connecting git repositories to Jira Cloud. This page contains information about the different integration types and how to get started.
 
-
-
 The Git Integration for Jira Cloud app offers three integration types:
+
+| Integration type | Best for | Repository scope | Key limitation or note |
+| :--- | :--- | :--- | :--- |
+| Git service integration | Connecting multiple repositories from supported cloud-hosted or self-hosted git services | Multiple repositories | Recommended path; may require allowlisting when the git host is behind a firewall |
+| Webhook indexing integration | Git servers behind a firewall that can send outbound webhook requests | Multiple repositories | Does not support creating branches or pull/merge requests inside Jira |
+| Single repository integration (Plain Git) | Connecting one specific repository over SSH or HTTP(S) | Single repository | Best for one-off or protocol-specific connections rather than full multi-repository setup |
 
 **Git service integration (recommended)**
 
@@ -12193,7 +12151,7 @@ The **Single repository integration** setup is ideal for users who use SSH conne
 
 &nbsp;
 
-### Integration Setup
+### How to choose the integration setup path
 
 Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integration: Manage integrations_ ➜ _Add integration_). Start by following the steps for your preferred git host service:
 
@@ -12261,9 +12219,7 @@ Connect your git repositories via **Add integration** (_Apps_ ➜ _Git integrati
 
 [**Next:** Connecting to a Single Git Repository (HTTP/HTTPS)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https-gij-cloud)
 
-&nbsp;
-
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -12951,6 +12907,14 @@ Description: Known issues and workarounds for Git Integration for Jira Cloud.
 
 This page documents known issues and limitations in Git Integration for Jira Cloud along with available workarounds.
 
+| Issue area | Affected scope | Impact | Workaround status |
+| :--- | :--- | :--- | :--- |
+| Repository and object size limits | Large integrations or repositories | Performance or data limits | Documented workaround available |
+| Smart Commits attribution or duplicate commands | Smart Commit processing | Incorrect attribution or duplicate command handling | Use the documented API or processor choice |
+| Microsoft integration edge cases | Azure DevOps or Microsoft integrations | PAT or pull-request behavior issues | Configuration workaround available |
+| SSH automation limits | Single SSH repositories with Automation for Jira | Automation triggers do not run | Use HTTPS instead |
+| Web-linking and UI issues | Plain Git integrations or sidebar rendering | Delayed updates or stale links | Re-enable integration or wait for Atlassian-side fix |
+
 **On this page:**
 - [Repository limits per integration](#repository-limits-per-integration)
 - [2GB object size limit](#2gb-object-size-limit)
@@ -12967,7 +12931,7 @@ This page documents known issues and limitations in Git Integration for Jira Clo
 * * *
 &nbsp;
 
-## Repository Limits Per Integration
+## Repository limits per integration
 
 Git Integration for Jira Cloud limits the number of connected repositories per integration:
 
@@ -12981,7 +12945,7 @@ _Reference: GITCL-1395, GITCL-1846_
 
 &nbsp;
 
-## 2GB Object Size Limit
+## 2GB object size limit
 
 Git Integration for Jira uses the JGit library, which does not support objects over 2GB in size stored in git repositories.
 
@@ -12989,7 +12953,7 @@ Git Integration for Jira uses the JGit library, which does not support objects o
 
 &nbsp;
 
-## Smart Commits User Search Issue
+## Smart Commits user search issue
 
 Some users have smart commits attributed to the app user rather than specific users when user search via email fails.
 
@@ -13003,7 +12967,7 @@ _Reference: GITCL-800_
 
 &nbsp;
 
-## Microsoft Pull Request Status Updates
+## Microsoft pull request status updates
 
 Microsoft integrations require all pull requests for configured repositories to be requested each time for status updates. Microsoft's Pull Request APIs do not provide filtering by last changed date/time.
 
@@ -13011,7 +12975,7 @@ _Reference: GIT-3889_
 
 &nbsp;
 
-## Microsoft PAT Organization Permission
+## Microsoft PAT organization permission
 
 IMPORTANT
 
@@ -13025,7 +12989,7 @@ _Reference: GIT-3978_
 
 &nbsp;
 
-## SSH Repository Automation Triggers
+## SSH repository automation triggers
 
 Automation for Jira triggers work with auto-connected integrations and single HTTPS authenticated git repositories, but single repositories authenticated via SSH are not supported by Atlassian Jira Cloud.
 
@@ -13042,13 +13006,13 @@ _Reference: GITCL-1624_
 
 &nbsp;
 
-## Tag Loading Timeout
+## Tag loading timeout
 
 Loading tags on integrations with large git history can take a long time. Git Integration for Jira Cloud limits tag loading to **10 seconds** before timing out.
 
 &nbsp;
 
-## Left Sidebar Loading Delay
+## Left sidebar loading delay
 
 The Git Integration for Jira app panel in the left sidebar takes up to 10 seconds to load.
 
@@ -13056,14 +13020,14 @@ Atlassian has opened a [bug ticket](https://ecosystem.atlassian.net/browse/ACJIR
 
 &nbsp;
 
-## Duplicate Smart Commit Commands
+## Duplicate Smart Commit commands
 
 When both Atlassian and GitKraken Smart Commit processors are enabled, users see duplicate `#comment` and `#time` commands.
 
 | Processor | Commands Supported |
 |-----------|-------------------|
-| Atlassian | `#comment`, `#time`, `#` + workflow triggers |
-| GitKraken | `#comment`, `#time`, `#`, `#assign`, `#label` |
+| Atlassian | `#comment`, `#time`, `#<transition>` + workflow triggers |
+| GitKraken | `#comment`, `#time`, `#<transition>`, `#assign`, `#label` |
 
 **Recommendation:** Use Atlassian processor (default) for workflow trigger support. Use GitKraken processor only if you need `#assign` and `#label` commands.
 
@@ -13071,7 +13035,7 @@ _Reference: GITCL-1334_
 
 &nbsp;
 
-## Web Links Not Updating
+## Web links not updating
 
 In rare cases, web links for branches and tags do not update automatically after modifying the web-linking template.
 
@@ -13082,7 +13046,7 @@ In rare cases, web links for branches and tags do not update automatically after
 
 _Reference: GITCL-3981_
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -13323,20 +13287,7 @@ The maximum commit message length is 8,000 characters.
 
 ### Support for Renamed Projects
 
-Git Integration for Jira supports commits that use the old Jira key after a project rename (for example, `TEST-16` to `PROJ-16`).
-
-Two scenarios apply after a rename or move:
-- The Jira project key was renamed and the commit message contains the old key (from before you installed Git Integration for Jira)
-- A Jira issue was moved to another project and the message contains the old key (from before you installed Git Integration for Jira)
-
-
-
-
-
-
-Jira Activity Stream: Only commits linked to Jira issues appear in the Activity Stream—not all commits from connected repositories.
-
-
+Git Integration for Jira Cloud does not support Jira Project/Issue key renaming.
 
 &nbsp;
 * * *
@@ -14571,7 +14522,7 @@ Last updated: December 2025
 ## New Doc Title
 
 URL: https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-new-doc/
-Description: New Doc Description
+Description: Step-by-step guide to New Doc Title in Git Integration for Jira Cloud, for Jira Cloud users.
 
 
 
@@ -14629,17 +14580,18 @@ Last updated: December 2025
 URL: https://help.gitkraken.com/git-integration-for-jira-cloud/permissions-gij-cloud/
 Description: Permission requirements for viewing commit information and Git data in Jira
 
-## Permissions Required to View Commit Information
+The Permissions guide explains the Jira permissions required for users and administrators to view Git Integration for Jira Cloud data on Jira issue and project pages. Use this page when Git data is missing from Jira or when you need to confirm which Jira permission grants access to commit and diff information.
 
+| Access need | Required Jira permission or group | Notes |
+| :--- | :--- | :--- |
+| View commits, branches, and pull requests on Jira issue pages | `View Development Tools` | Administrators must grant this to themselves too |
+| View code diffs with the default Jira permission scheme | Membership in the `developers` group | Applies when the default permission scheme is still in use |
+| View Git Integration content for a project | Project-level permissions configured in Jira | Permission names can vary by Jira setup |
 
-
-
-
+## How Git Integration for Jira Cloud permissions affect commit visibility
 
 Users must have the View Development Tools permission to view commit information on issue pages.
 Administrators must also grant themselves this permission to view commit information.
-
-
 
 Users must belong to the developers group to view code diffs when using the default permission scheme.
 
@@ -14651,7 +14603,7 @@ When setting permissions, keep the following in mind:
 
 &nbsp;
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -15369,16 +15321,24 @@ Last updated: December 2025
 URL: https://help.gitkraken.com/git-integration-for-jira-cloud/setting-project-permissions-gij-cloud/
 Description: Configure project permissions to control which Jira projects can access Git integration data and repository content.
 
+Project permissions determine which Jira projects can access repository data from a Git Integration for Jira Cloud integration or from an individual connected repository. Use this page when you need to limit Git visibility by Jira project instead of exposing repository data to every project in the site.
+
+| Permission scope | What it controls | Common use case |
+| :--- | :--- | :--- |
+| Integration-level project permissions | Access to all repositories under an integration | Restrict one git host connection to a specific set of Jira projects |
+| Repository-level project permissions | Access to one connected repository | Expose only a single repository to a smaller project subset |
+| Jira project permissions | Visibility of Git data inside Jira | Confirm users can still view development information after mapping projects |
+
 **On this page:**
-- [Understand project permissions](#understand-project-permissions)
-- [Configure permissions for integrations](#configure-permissions-for-integrations)
-- [Configure permissions for individual repositories](#configure-permissions-for-individual-repositories)
+- [How project permissions work in Git Integration for Jira Cloud](#how-project-permissions-work-in-git-integration-for-jira-cloud)
+- [How to configure project permissions for integrations](#how-to-configure-project-permissions-for-integrations)
+- [How to configure project permissions for individual repositories](#how-to-configure-project-permissions-for-individual-repositories)
 
 &nbsp;
 * * *
 &nbsp;
 
-## Understand Project Permissions
+## How project permissions work in Git Integration for Jira Cloud
 
 By default, integrations (GitLab, GitHub, etc.) and individual repositories associate with all Jira projects. Jira administrators can limit which projects have access to specific integrations or repositories.
 
@@ -15396,18 +15356,11 @@ Project associations control which projects display repository content in:
 - Create branch issue dialog
 - Create pull/merge request issue dialog
 
-
-
-
-
-
-Users must have the View Development Tools permission in a Jira project to view Git Integration for Jira content.
-
-
+Users must have the **View Development Tools** permission in a Jira project to view Git Integration for Jira content.
 
 &nbsp;
 
-## Configure Permissions for Integrations
+## How to configure project permissions for integrations
 
 Limit which Jira projects can access an integration's repositories:
 
@@ -15425,7 +15378,7 @@ Limit which Jira projects can access an integration's repositories:
 
 &nbsp;
 
-## Configure Permissions for Individual Repositories
+## How to configure project permissions for individual repositories
 
 Limit which Jira projects can access a specific repository:
 
@@ -15441,7 +15394,7 @@ Limit which Jira projects can access a specific repository:
 
 6. Click **Update** to save your changes.
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -15451,6 +15404,12 @@ URL: https://help.gitkraken.com/git-integration-for-jira-cloud/setting-up-integr
 Description: How to set up and manage Git repository integrations in Jira Cloud
 
 Set up repositories and manage them in the Git Integration app configuration in Jira.
+
+| Integration path | Best for | Repository scope | Requires inbound access from Jira Cloud | Main tradeoff |
+| :--- | :--- | :--- | :---: | :--- |
+| Git service integration | Supported git hosts where you want the main multi-repository setup flow | Multiple repositories | Yes, for self-hosted services unless allowlisted | Recommended path with the broadest feature coverage |
+| Webhook indexing integration | Git servers behind a firewall that can send outbound webhooks | Multiple repositories | No | Limited features compared with Git service integration |
+| Plain Git integration | One specific SSH or HTTP(S) repository | Single repository | Depends on repository access method | Manual setup and narrower scope than the multi-repository flows |
 
 &nbsp;
 
@@ -15469,7 +15428,7 @@ Set up repositories and manage them in the Git Integration app configuration in 
 
 &nbsp;
 
-## Introduction
+## How the available integration types differ
 
 Integrate your git repositories via Git Integration for Jira Cloud. The app provides special integrations with GitHub, GitLab, Azure Repos, and more. Start integrating your git repositories by clicking **Add integration**.
 
@@ -15485,13 +15444,11 @@ Cloud-hosted and self-hosted git host services support automatic connection of m
 
 &nbsp;
 
-## Menu Access Locations
+## How to open the Manage integrations page
 
 After installation, access the Git Integration for Jira app repository configuration page via:
 
 *   Jira dashboard menu Apps ➜ **Git Integration: Manage integrations**
-
-
 
 &nbsp;
 
@@ -15499,7 +15456,7 @@ After installation, access the Git Integration for Jira app repository configura
 
 &nbsp;
 
-## Git Integration Configuration Page
+## What you can do on the Git integration configuration page
 
 On this page, you can set up your git repositories and connect them to Jira.
 
@@ -15519,7 +15476,7 @@ Git Integration for Jira supports one or more integration types for specific Git
 
 &nbsp;
 
-## Git Service Integration
+## When to use Git service integration
 
 RECOMMENDED
 
@@ -15547,14 +15504,7 @@ Formerly known as Full feature auto-connect integration.
 
 Use this type of integration to connect specific git host services to Jira. This integration supports multiple connected repositories and automates most git integration settings.
 
-
-
-
-
-
 We highly recommend this type of integration for multiple repository configuration.
-
-
 
 For more details on supported git host services, see the full feature integration section in our [Integration Guides](/git-integration-for-jira-cloud/integration-guide-gij-cloud/).
 
@@ -15562,15 +15512,8 @@ For more details on supported git host services, see the full feature integratio
 
 This type of integration has similar features to OAuth but uses PAT (personal access token) instead to automatically connect repository integrations.
 
-
-
-
-
-
 GitLab
 Support for Gitlab API v3 is deprecated. Use GitLab API v4 when adding new integrations for increased security.
-
-
 
 ### Webhook Indexing Integration
 
@@ -15578,13 +15521,19 @@ Connect directly to a Git service by configuring webhooks to push commit, branch
 
 Webhook indexing integration allows your connected git servers to work behind a firewall. However, this integration type has limited features. Currently supported git servers are GitHub.com, GitLab, and Microsoft. More will be added in the future.
 
+| Git service integration type | Best for | Auth or setup model | Notes |
+| :--- | :--- | :--- | :--- |
+| OAuth integration | Supported git hosts that offer OAuth and need automated multi-repository setup | OAuth authorization | Recommended when available for multiple repository configuration |
+| PAT integration | Supported git hosts where OAuth is unavailable or PAT is preferred | Personal access token | Similar feature set to OAuth; GitLab API v3 is deprecated |
+| Webhook indexing integration | Git servers behind a firewall that can send outbound webhooks | Webhook URL plus secret | Limited features and no historical backfill |
+
 &nbsp;
 
 * * *
 
 &nbsp;
 
-## Plain Git Integration
+## When to use Plain Git integration
 
 Manually connect single git repositories using this setup, such as git protocol, SSH, HTTP/HTTPS, etc., or connect one specific repository.
 
@@ -15596,7 +15545,7 @@ Connected git service integrations appear in the Manage integration configuratio
 
 3.  Use the column headers to sort the list in ascending or descending order.
 
-4.  Use  **Actions** to manage integration/repository settings.
+4.  Use **Actions** to manage integration/repository settings.
 
 The above UI descriptions also apply to the Manage repositories page since it has a similar layout.
 
@@ -15606,7 +15555,7 @@ The above UI descriptions also apply to the Manage repositories page since it ha
 
 &nbsp;
 
-## Reindex Selected
+## How to reindex selected integrations or repositories
 
 UPDATED FEATURE
 
@@ -15614,15 +15563,8 @@ In the new managed user interface, the **Reindex all** function has been improve
 
 This function performs a reindex queue of all selected integrations/repositories from the list.
 
-
-
-
-
-
 Note
-Reindex is not available for DISABLED integrations or repositories. On multiple item selection, Reindex ignores DISABLED integrations or repositories. For more information, see Reindexing.
-
-
+Reindex is not available for DISABLED integrations or repositories. On multiple item selection, Reindex ignores DISABLED integrations or repositories. For more information, see [Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud).
 
 &nbsp;
 
@@ -15630,7 +15572,7 @@ Reindex is not available for DISABLED integrations or repositories. On multiple 
 
 &nbsp;
 
-## More Features
+## Where to find more features on the Manage integrations page
 
 Click **…** to see more features such as Repository browser and App settings.
 
@@ -15648,7 +15590,7 @@ The rest of the features can also be accessed on the left sidebar of the Manage 
 
 &nbsp;
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -17040,6 +16982,14 @@ Description: Solutions and workarounds for common issues with Git Integration fo
 
 This collection of troubleshooting guides provides workarounds and solutions for common issues with Git Integration for Jira Cloud.
 
+| Problem area | Check first | Primary audience | Related topic |
+| :--- | :--- | :--- | :--- |
+| Missing commits or Git activity | License, permissions, repository connection, issue key | Jira Administrator | Commit visibility troubleshooting |
+| Licensing and installation errors | App subscription and install state | Jira Administrator | License renewal or reinstall |
+| Self-hosted connection problems | Network allowlist and integration connectivity | Jira Administrator | Firewall and allowlist setup |
+| Azure DevOps issues | OAuth, PAT scope, repository visibility | Jira Administrator | Azure integration troubleshooting |
+| SSH or reindexing issues | Key format, repository size, memory limits | Jira Administrator | SSH and reindexing troubleshooting |
+
 **On this page:**
 - [Why don't I see commits?](#why-dont-i-see-commits-git-integration-for-cloud)
 - [License expiration shows as session error](#when-a-gij-license-expires-it-shows-up-as-a-session-error)
@@ -17058,7 +17008,7 @@ This collection of troubleshooting guides provides workarounds and solutions for
 * * *
 &nbsp;
 
-## Why don't I see commits? (Git Integration for Cloud)
+## How to troubleshoot missing commits in Git Integration for Jira Cloud
 
 Follow this troubleshooting checklist to resolve missing commits.
 
@@ -17067,7 +17017,7 @@ Follow this troubleshooting checklist to resolve missing commits.
 JIRA ADMIN
 
 1. Install from [Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview).
-2. Go to  **Jira Settings** ➜ **Apps** ➜ **Manage apps**.
+2. Go to **Jira Settings** ➜ **Apps** ➜ **Manage apps**.
 3. Verify the license is valid and the application is active.
 
 ### Step 2: Check user permissions
@@ -17076,7 +17026,7 @@ JIRA ADMIN
 
 Use the **Permission Helper** to verify the user has **Development Tools** permission:
 
-Go to  **Jira settings** ➜ **System** ➜ **Permission Helper**.
+Go to **Jira settings** ➜ **System** ➜ **Permission Helper**.
 
 ### Step 3: Verify repository connection
 
@@ -17101,7 +17051,7 @@ Repositories update automatically every 8-15 minutes. To reindex manually:
 JIRA ADMIN
 
 1. Go to **Manage integrations**.
-2. Click  **Actions** ➜ **Edit integration**.
+2. Click **Actions** ➜ **Edit integration**.
 3. Scroll to **Project Permissions**.
 4. Set project associations or check **Associate all projects**.
 
@@ -17129,7 +17079,7 @@ Commits appear in the Jira issue view:
 
 **Still not seeing commits?** Contact [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) or use the [GIJ Cloud Support Portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
-## When a GIJ license expires, it shows up as a session error
+## How to fix the session error caused by an expired GIJ license
 
 ### Problem
 
@@ -17145,7 +17095,7 @@ This error indicates an expired trial or license. Renew your Git Integration for
 
 If the license expired for an extended period, you may see "There is no Enabled installID" after renewal. Submit a [support request](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) for manual enablement.
 
-## Licensing error - installCheck failed
+## How to fix the licensing error `installCheck failed`
 
 ### Problem
 
@@ -17165,21 +17115,13 @@ Reinstall the app:
 4. Click **Uninstall**.
 5. Install **Git Integration for Jira** again.
 
-
-
-
-
-
 Stop the evaluation/trial before uninstalling the app.
 
-
-
-
-## Why don't I see the Create branch or pull request features?
+## How to troubleshoot missing Create branch or pull request features
 
 Check that your integration supports these features and that you have the required permissions. See the [Feature matrix](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud) for supported features by git service.
 
-## Connection error for self-hosted git servers
+## How to troubleshoot connection errors for self-hosted git servers
 
 ### Problem
 
@@ -17197,7 +17139,7 @@ TrackedGitLabRepoException: Can not connect to GitLab server
 
 Add the Git Integration for Jira Cloud indexing service to your allowlist. See [Whitelist GIJ Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud).
 
-## Repositories missing from Azure DevOps (or VSTS) integration
+## How to troubleshoot missing repositories in Azure DevOps or VSTS integrations
 
 ### Problem
 
@@ -17251,14 +17193,7 @@ You see: "The key format is invalid. Please check your private key."
 ssh-keygen -t rsa -b 4096 -m pem -C your_email@example.com
 ```
 
-
-
-
-
-
 macOS may incorrectly create OpenSSH format certificates. See this common problem.
-
-
 
 **On Windows (using PuTTY):**
 
@@ -17289,14 +17224,7 @@ Max object size limit is 2,147,483,639 bytes.
 
 ### Solutions
 
-
-
-
-
-
 Changing git repository history can result in data loss. Proceed with caution.
-
-
 
 **Option 1:** Remove objects larger than 2GB from repository history:
 - [Removing large files from Git without losing history](https://support.acquia.com/hc/en-us/articles/360004334093-Removing-large-files-from-Git-without-losing-history)
@@ -17371,17 +17299,10 @@ Microsoft OAuth app client secrets expire after 5 years. All customers must reco
 3. Click **Reconnect**.
 4. Log in to Azure DevOps / VSTS with your account.
 
-
-
-
-
-
 Contact Us
 Reach out to our Support Desk or email gijsupport@gitkraken.com.
 
-
-
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
@@ -17460,30 +17381,29 @@ Last updated: December 2025
 URL: https://help.gitkraken.com/git-integration-for-jira-cloud/end-user-guide-cloud/
 Description: End user guide for Git Integration for Jira Cloud - learn how to view and create Git data in Jira
 
-## Introduction to GIJ
+Git Integration for Jira Cloud helps Jira users view commits, branches, pull requests, and repository actions directly from Jira Cloud issues and projects. Use this guide when you need the end-user workflows for linking Git activity to Jira issues, creating branches or pull requests, and managing your personal Git Integration settings.
+
+**Requirements**
+
+- Jira Cloud with Git Integration for Jira Cloud installed
+- A Jira project with linked Git repositories
+- User access to the Jira issues and projects you want to work in
+
+## How Git Integration for Jira Cloud appears in Jira
 
 Thank you for using Git Integration for Jira! This guide explains how Git information displays in Jira through our application.
 
-
-
-
-
-
-Have an idea for an improvement or want to request a specific feature? Submit a feature request on our Feature Request Board.
-
-
+Have an idea for an improvement or want to request a specific feature? Submit a feature request on our [Feature Request Board](https://gitkraken.canny.io/git-integration-for-jira-feedback).
 
 &nbsp;
 
-## Jira Issue View
+## How to review Git activity on the Jira issue view
 
 GIJ displays commits, branches, and pull/merge requests associated with a specific Jira issue. To link items to a Jira issue, include the Jira issue key in the commit message, branch name, or pull/merge request title.
 
 See [Linking Git Commits](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/) for more details.
 
 **Breakdown of information provided by GIJ in Jira issues:**
-
-Jira Issue View
 
 **Activity Stream - Git Commits**
 
@@ -17500,25 +17420,17 @@ Jira Issue View
 
 The [Git Rollup Tab](/git-integration-for-jira-cloud/git-roll-up-tab-gij-cloud/) shows a summary of files, lines changed, and the developers who made changes associated with the Jira issue.
 
-Git Rollup Tab
-
 &nbsp;
 
-## Linking Behavior
+## How linking between Git activity and Jira issues works
 
 GIJ uses the Jira issue key to determine whether repository activity (commits, branches, pull/merge requests) links to any Jira items. Include the Jira issue key in the commit message, branch name, or pull request title. The key can appear anywhere in the message or name.
 
 See [Linking Git Commits to Jira Issues](/git-integration-for-jira-cloud/linking-git-commits-to-jira-issues-gij-cloud/) for more details.
 
-Jira Issue Key
-
-Commit Example
-
-Pull request Example
-
 &nbsp;
 
-## Creating Branches
+## How to create a branch from a Jira issue
 
 You can [create branches](/git-integration-for-jira-cloud/create-branch-gij-cloud/) directly from a Jira issue using GIJ.
 
@@ -17527,20 +17439,16 @@ You can [create branches](/git-integration-for-jira-cloud/create-branch-gij-clou
 1. Open the Git Integration panel from the right side of the Jira issue.
 2. Click **Create branch**.
 
-Create Branch 1
-
 3. Select the repository to create the branch in.
 4. Select the source branch.
 5. Enter the branch name. Make sure the Jira issue key is included.
 6. Click **Create branch**.
 
-Create Branch 2
-
 A confirmation popup appears after the branch is created. Click the link to open the newly created branch directly.
 
 &nbsp;
 
-## Creating Pull/Merge Requests
+## How to create a pull or merge request from Jira
 
 You can [create pull/merge requests](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud/) directly from Jira using GIJ.
 
@@ -17549,20 +17457,16 @@ You can [create pull/merge requests](/git-integration-for-jira-cloud/create-pull
 1. Open the Git Integration panel from the right side of the Jira issue.
 2. Click **Create Pull Request** or **Create Merge Request**.
 
-Create PR 1
-
 3. Select the repository.
 4. Select the source and target branches.
 5. Verify the title contains the Jira issue key.
 6. Click **Create pull/merge request**.
 
-Create PR 2
-
 A confirmation popup appears after the pull/merge request is created. Click the link to open it directly.
 
 &nbsp;
 
-## GIJ User Settings
+## How to manage Git Integration for Jira Cloud user settings
 
 GIJ lets you manage your connected apps, default repository, default branch, and personal access tokens through the [GIJ User Settings](/git-integration-for-jira-cloud/user-settings-gij-cloud/) page.
 
@@ -17571,29 +17475,19 @@ GIJ lets you manage your connected apps, default repository, default branch, and
 1. Click your Jira profile picture icon.
 2. Select **Git Integration: User Settings**.
 
-User-Settings
-
-### Connected Apps
+### How to manage connected apps
 
 Enable or disable the visibility of GitKraken and GitLens icons in Jira issues. These icons let you open specific Git items in the respective application directly from the issue.
 
-Connected Apps
-
-Connected Apps - icons
-
-### Default Repository
+### How to set a default repository
 
 Set a default repository on a per-project basis.
 
-Default-repo
-
-### Default Branch
+### How to set a default branch
 
 Set a default branch for a specific repository, configured by Jira project.
 
-Default-Branch
-
-### Personal Access Tokens
+### How to manage personal access tokens
 
 Manage the personal access tokens used to authenticate your requests to create branches and pull requests directly from Jira. You need to provide a token for each integration.
 
@@ -17601,11 +17495,9 @@ You can enter an existing personal access token or click the link to create a ne
 
 See [Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud/) for detailed instructions.
 
-PAT
-
 &nbsp;
 
-Last updated: December 2025
+Last updated: March 2026
 
 ---
 
