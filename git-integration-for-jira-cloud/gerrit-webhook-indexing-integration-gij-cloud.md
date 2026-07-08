@@ -3,16 +3,16 @@ title: "Gerrit webhook indexing integration"
 description: "Configure webhook indexing integration for Gerrit to work with Git Integration for Jira Cloud behind firewalls."
 product: "Git Integration for Jira Cloud"
 feature: "Gerrit webhook indexing integration"
-content_type: "reference"
-audience: "all"
-plan_required: "all"
+content_type: "install"
+audience: "admin"
+plan_required: "Standard, Advanced"
 deployment: "Jira Cloud"
 git_host_support: ["Gerrit"]
-role_required: "all"
+role_required: "Jira Administrator"
 version_required: "all"
 status: "GA"
-last_verified: "2026-03"
-tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "Gerrit"]
+last_verified: "2026-07"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "admin", "Gerrit", "Standard, Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
