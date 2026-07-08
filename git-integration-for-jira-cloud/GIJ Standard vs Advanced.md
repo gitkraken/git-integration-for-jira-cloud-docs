@@ -39,7 +39,7 @@ Git Integration for Jira (GIJ) Advanced is a higher-tier edition designed for or
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you had an active GIJ subscription before May 14, 2025: Usage limits take effect on July 1, 2025 for Monthly Subscriptions and upon next renewal for Annual Subscriptions (if after July 1, 2025).
+        Active enforcement of GIJ Standard limits will begin on May 16th, 2026. If you are over your repository limits and are still on a Standard plan, you will need to either disconnect repositories until you get under the 200 limit, or upgrade to the GIJ Advanced plan. Starting on May 17th, indexing will be stopped for any repositories over 200, starting with repositories with lowest number of commits. The 200 repositories with the highest number of commits will continue to be indexed as normal. On June 12th, any remaining repositories over 200 will be disconnected automatically.
     </div>
     </div>
 </div>

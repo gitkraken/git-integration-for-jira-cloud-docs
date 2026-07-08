@@ -32,6 +32,16 @@ Welcome to the Git Integration for Jira Cloud documentation. Use the links below
 </div>
 
 &nbsp;
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Active enforcement of GIJ Standard limits will begin on May 16th, 2026. If you are over your repository limits and are still on a Standard plan, you will need to either disconnect repositories until you get under the 200 limit, or upgrade to the GIJ Advanced plan. Starting on May 17th, indexing will be stopped for any repositories over 200, starting with repositories with lowest number of commits. The 200 repositories with the highest number of commits will continue to be indexed as normal. On June 12th, any remaining repositories over 200 will be disconnected automatically.
+    </div>
+    </div>
+</div>
 
 ## Knowledgebase
 
