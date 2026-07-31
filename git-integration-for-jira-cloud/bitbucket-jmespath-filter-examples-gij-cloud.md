@@ -25,6 +25,7 @@ taxonomy:
 &nbsp;
 
 An optional JMESPath filter can be configured when adding Bitbucket integration or repositories.
+- <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> JMESPath filters are only applied to repositories, not workspaces.
 
 &nbsp;
 
