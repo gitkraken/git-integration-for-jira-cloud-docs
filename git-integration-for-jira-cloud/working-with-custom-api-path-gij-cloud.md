@@ -261,25 +261,17 @@ For more information, see the [GitLab API documentation](https://docs.gitlab.com
 
 ## Bitbucket Cloud Examples
 
-### List Repositories for a Specific User (Default)
-
-```java
-/!api/2.0/repositories/<username>
-```
-
-Returns repositories for the specified user. This is the default behavior when no API path is specified.
-
-**Example:** `/!api/2.0/repositories/wcoyote`
+The default behavior now is scanning all available workspaces and fetching repositories for each one of those if no api is specified.
 
 ### List Repositories for a Workspace
 
 ```java
-/!api/2.0/repositories/<workspaceID>
+/2.0/repositories/<workspaceID>
 ```
 
 Returns repositories for the specified workspace ID.
 
-**Example:** `/!api/2.0/repositories/acmegroup`
+**Example:** `/2.0/repositories/acme-workspace`
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
