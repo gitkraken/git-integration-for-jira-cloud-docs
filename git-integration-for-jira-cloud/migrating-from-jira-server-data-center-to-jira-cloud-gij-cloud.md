@@ -1,28 +1,29 @@
 ---
-title: "Migrating from Jira Server + Data Center to Jira Cloud"
-description: "Step-by-step guide for migrating Git Integration for Jira from Server or Data Center to Jira Cloud."
+title: "Migrating from Jira Data Center to Jira Cloud"
+description: "Step-by-step guide for migrating Git Integration for Jira Data Center to Jira Cloud using the Jira Cloud Migration Assistant (JCMA)"
 product: "Git Integration for Jira Cloud"
-feature: "Migrating from Jira Server + Data Center to Jira Cloud"
+feature: "Migrating from Jira Data Center to Jira Cloud"
 content_type: "integration"
 audience: "admin"
 plan_required: "all"
 deployment: "Jira Cloud"
-git_host_support: []
+git_host_support: ["GitHub Cloud", "GitHub self-hosted", "GitLab Cloud", "GitLab self-hosted", "Azure DevOps Cloud", "Azure DevOps self-hosted"]
 role_required: "Jira Administrator"
-version_required: "all"
+version_required: "4.29.5, 5.5.3, 6.1.3"
 status: "GA"
-last_verified: "2026-03"
-tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin"]
+last_verified: "2026-08"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "migration", "JCMA"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
-<kbd>Last updated: March 2026</kbd>
+<kbd>Last updated: August 2026</kbd>
 
 **What’s on this page:**
 - [Let us assist you with your migration to Jira Cloud!](#let-us-assist-you)
 - [Important Notes](#important-notes)
+- [Migrating through the Jira Cloud Migration Assistant (JCMA)](#migrating-through-the-jcma)
+- [Manual steps to migrate](#manual-steps-to-migrate)
 - [Links](#links)
-- [Steps to migrate](#steps-to-migrate)
 
 &nbsp;
 * * *
@@ -38,18 +39,67 @@ Use this page as a resource to get all the information you need to start your mi
 ## ![](/wp-content/uploads/gij-notes-two.png) Important Notes
 
 **Associations from Git data**<br>
-Indexing Jira issues via commit messages is the same in Jira Server + Data Center as Jira Cloud. All the associations will be preserved.
-
-**Manual commit associations**<br>
-At this time, manual commit \<--\> Jira issue associations cannot be migrated automatically but request [**GIJ Cloud Support**](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support) for instructions on how to check.
+Indexing Jira issues via commit messages is the same in Jira Data Center and Jira Cloud. All the associations will be preserved.
 
 **Self-hosted Git servers**<br>
-When connecting a self-hosted git server to [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) the git server must have a publicly addressable + route-able address. [GitHub.com](http://GitHub.com), [Azure DevOps](https://dev.azure.com), [GitLab.com](http://GitLab.com) and other services hosted on the “public cloud” work without any administrator interventions.
+When connecting a self-hosted git server to [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) the git server must have a publicly addressable and routable address. [GitHub.com](http://GitHub.com), [Azure DevOps](https://dev.azure.com), [GitLab.com](http://GitLab.com) and other services hosted on the “public cloud” work without any administrator intervention.
 
 For more information, see: [**Allowlist (whitelist) GIJ Cloud**](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud)
 
-**Known Atlassian issue:**<br>
-We highly recommend testing your Jira migration to the Cloud on a test Jira Cloud site. [AC-1528](https://ecosystem.atlassian.net/browse/AC-1528) is a bug in Atlassian Jira Cloud that breaks all Jira Cloud Atlassian Marketplace apps when a new project import is made. When migrating your users to Jira Cloud – we recommend installing and configuring the Git Integration for Jira Cloud app **after** all of your Jira users/projects/issues data is imported and verified.
+<p id='migrating-through-the-jcma'>&nbsp;</p>
+
+## Migrating through the Jira Cloud Migration Assistant (JCMA)
+
+- <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b> Minimum required versions based on your Jira version:
+    
+    * Jira 9: v4.29.5
+
+    * Jira 10: v5.5.3
+
+    * Jira 11: v6.1.3
+
+1. In Jira Data Center, go to System > Migrate to Cloud.
+
+2. In the Migration Dashboard, create a new migration and verify all the required steps. For more information on migrations, review the [**Atlassian's migration guide**](https://www.atlassian.com/migration/plan/cloud-guide#introduction).
+
+3. When you get to the "Assess your Apps" section, for the Git Integration for Jira app, make sure the Decision column is set to "Needed in Cloud" and click on Done.
+
+![](/wp-content/uploads/gij-mig-needed-in-cloud.png)
+
+4. In the "Prepare your Apps" section, click on "View Policy", confirm, and click on Done.
+
+![](/wp-content/uploads/gij-mig-view-policy.png)
+![](/wp-content/uploads/gij-mig-policy-agree.png)
+
+5. In the "Connect to your cloud site" section, choose the name, migration stage, cloud destination site and migration options. We recommend you first test the migration in a cloud test instance.
+
+![](/wp-content/uploads/gij-mig-connect-cloud.png)
+
+6. Select what data you will migrate. Make sure the Git Integration for Jira is selected in the apps section.
+
+7. In the "Pre-migration checks" section, review all possible errors. All checks should be green. Ignore the warning: "Some apps selected for this migration have low or unknown migration success rates" if Git Integration is the only application listed. Then click **Review Migration**.
+
+![](/wp-content/uploads/gij-mig-ignore-warning.png)
+
+8. Review the migration. Ignore the warning for Git Integration for Jira and click on Run.
+
+![](/wp-content/uploads/gij-mig-ignore-warning-2.png)
+
+9. The migration will take place. The duration will depend on the number of elements being migrated.
+
+![](/wp-content/uploads/gij-mig-complete-summary.png)
+
+10. After the migration completes, you can go to the Manage Integrations screen and you will see the migrated integrations. Jira will show a yellow banner indicating that a synchronization of elements is taking place in the background.
+
+![](/wp-content/uploads/gij-mig-after.png)
+
+<p id='manual-steps-to-migrate'>&nbsp;</p>
+
+## ![](/wp-content/uploads/gij-pencil-icon.png) Manual steps to migrate
+
+The Jira Cloud Migration Assistant (JCMA) will move all your integrations and manual commits. There is no need to migrate things manually, but if you prefer that route, simply recreate the integrations in the Cloud site. After indexing, all the links will be re-established.
+
+<p id='links'>&nbsp;</p>
 
 ## ![](/wp-content/uploads/gij-links-icon.png) Links
 
@@ -58,66 +108,9 @@ We highly recommend testing your Jira migration to the Cloud on a test Jira Clou
 *   [Git Integration Server/Data Center vs Jira Cloud](/git-integration-for-jira-cloud/git-integration-server-data-center-vs-jira-cloud-feature-comparison-gij-cloud)<br>
 Evaluating a move to Jira Cloud? Learn more about the similarities and differences.
 
-*   [Atlassian Migration Program](https://www.atlassian.com/migration/cloud)<br>Leverage the Atlassian Migration Program for step-by-step migration resources, free tools, and dedicated support.
+*   [Official Jira Cloud Migration guide.](https://www.atlassian.com/migration/plan/cloud-guide#introduction)<br>
+All the official Jira Cloud migration resources.
 
-*   [Self-guided Server to Cloud migration guide](https://www.atlassian.com/migration/cloud/guide/introduction/overview)<br>Migrate to Jira Cloud using Atlassian's step-by-step guide, tools and best practices.
-
-*   [Enterprise migration guide](https://www.atlassian.com/migration/cloud/enterprise)<br>For teams migrating 1,000 users or more, Atlassian offers additional resources and support.
-
-<p id='steps-to-migrate'>&nbsp;</p>
-
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-     GIJ now supports use of the JMCA migration tool! Currently you can use the tool to migrate any integrations of the following type: Github (PAT based) Cloud and Self-hosted, Gitlab Cloud, Azure DevOps Cloud and Self-hosted, and VSTS with more on the way! Detailed instructions coming soon!
-    </div>
-    </div>
-</div>
-
-## ![](/wp-content/uploads/gij-pencil-icon.png) Manual Steps to migrate
-
-Currently there are not automatic steps to migrate from Jira Server + Data Center to Jira Cloud.
-
-<ul style='list-style-type:none;'>
-    <li style='line-height:180%;margin-bottom:12px;'>
-      <input type="checkbox"> &nbsp;Create a <b>test</b> Jira Cloud instance. See below note.
-    </li>
-    <li style='line-height:180%;margin-bottom:12px;'>
-      <input type="checkbox"> &nbsp;Install <a href='https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview'>Git Integration for Jira Cloud</a> on a test Jira Cloud instance.
-    </li>
-    <li style='line-height:180%;margin-bottom:12px;'>
-      <input type="checkbox"> &nbsp;Verify self-hosted git servers have a a publicly addressable + rout-able address. For more information, see <a href='/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud'>Whitelist GIJ Cloud</a>.
-    </li>
-    <li style='line-height:180%;margin-bottom:12px;'>
-      <input type="checkbox"> &nbsp;Configure your git repositories via Git service integration or single, plain git repositories. For guides on connecting git servers + repositories to Jira Cloud, see <a href='/git-integration-for-jira-cloud/integration-guide-gij-cloud'>Integration Guide</a>.
-      <ul style='list-style-type:none;margin-top:12px'>
-        <li style='line-height:180%;margin-bottom:12px;'>
-            <input type="checkbox"> &nbsp;Connect GitHub.com to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/github-com-gij-cloud'>GitHub.com</a></li>
-        <li style='line-height:180%;margin-bottom:12px;'>
-            <input type="checkbox"> &nbsp;Connect GitHub Enterprise to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/github-enterprise-server-gij-cloud'>GitHub Enterprise</a></li>
-        <li style='line-height:180%;margin-bottom:12px;'>
-            <input type="checkbox"> &nbsp;Connect GitLab.com to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/gitlab-com-gij-cloud'>GitLab.com</a></li>
-        <li style='line-height:180%;margin-bottom:12px;'>
-            <input type="checkbox"> &nbsp;Connect GitLab CE/EE to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud'>GitLab CE/EE</a></li>
-        <li style='margin-bottom:10px'>
-            <input type="checkbox"> &nbsp;Connect AWS CodeCommit to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/aws-codecommit-gij-cloud'>AWS CodeCommit</a></li>
-        <li style='line-height:180%;margin-bottom:12px;'>
-            <input type="checkbox"> &nbsp;Connect Bitbucket Cloud to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud/'>Bitbucket Cloud</a></li>
-        <li style='line-height:180%;margin-bottom:12px;'>
-            <input type="checkbox"> &nbsp;Connect Microsoft Azure DevOps (Cloud) to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud'>Azure DevOps | Visual Studio Team Services (VSTS)</a></li>
-        <li style='line-height:180%;margin-bottom:12px;'>
-            <input type="checkbox"> &nbsp;Connect Microsoft Azure DevOps Server to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud'>Azure DevOps Server | Team Foundation Services (TFS)</a></li>
-        <li style='line-height:180%;margin-bottom:12px;'>
-            <input type="checkbox"> &nbsp;Connect Gerrit to Jira Cloud - see guide: <a href='/git-integration-for-jira-cloud/gerrit-gij-cloud'>Gerrit</a></li>
-      </ul>
-    </li>
-    <li style='line-height:180%;margin-bottom:12px;'>
-      <input type="checkbox"> &nbsp;Once indexing is completed, verify Jira issues are showing commits, branches, and pull requests as expected.
-    </li>
-</ul>
 
 &nbsp;
 
