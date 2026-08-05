@@ -11,12 +11,12 @@ git_host_support: []
 role_required: "User"
 version_required: "all"
 status: "GA"
-last_verified: "2026-03"
-tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer"]
+last_verified: "2026-08"
+tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer", "jql", "pull request", "commit"]
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
-<kbd>Last updated: March 2026</kbd>
+<kbd>Last updated: August 2026</kbd>
 
 <!-- FEATURES -->
 
