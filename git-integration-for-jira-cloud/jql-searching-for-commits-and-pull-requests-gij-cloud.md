@@ -44,7 +44,7 @@ Use the following JQL syntax to locate all Jira issues with at least one commit:
 development[commits].all > 0
 ```
 
-![JQL to find issues with at least one commit](/wp-content/uploads/gij-gitcloud-jql-seach-commit-issues.png)
+![JQL to find issues with at least one commit](/_images/gij-gitcloud-jql-seach-commit-issues.png)
 
 **Example:** Find all issues with more than 15 commits:
 
@@ -63,7 +63,7 @@ development[pullrequests].all > 0
 development[pullrequests].open > 0 (to search for open pull requests only)
 ```
 
-![JQL to find issues with at least one pull request](/wp-content/uploads/gij-gitcloud-jql-seach-pull-requests.png)
+![JQL to find issues with at least one pull request](/_images/gij-gitcloud-jql-seach-pull-requests.png)
 
 &nbsp;
 
