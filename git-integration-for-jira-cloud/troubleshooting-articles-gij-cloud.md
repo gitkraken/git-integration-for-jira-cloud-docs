@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "troubleshooting", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "troubleshooting-articles-gij-cloud"
+    nav_label: "Troubleshooting articles"
+    nav_order: 120
+    nav_parent: ""
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

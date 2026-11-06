@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "GitLab"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "administration-gij-cloud"
+    nav_label: "Setup GitLab Server to respond to incoming network API calls"
+    nav_order: 20
+    nav_parent: "administration-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

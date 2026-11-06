@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "git-integration-for-jira-cloud-release-notes-gij-cloud"
+    nav_label: "Git Integration for Jira Cloud Release Notes"
+    nav_order: 40
+    nav_parent: ""
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

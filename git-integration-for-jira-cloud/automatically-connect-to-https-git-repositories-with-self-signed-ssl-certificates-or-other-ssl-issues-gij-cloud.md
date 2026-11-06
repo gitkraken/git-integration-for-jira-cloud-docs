@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "security", "admin", "deprecated"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "documentation-gij-cloud"
+    nav_label: "Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues"
+    nav_order: 10
+    nav_parent: "self-signed-https-integration-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

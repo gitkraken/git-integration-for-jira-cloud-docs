@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "Standard, Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "app-editions-standard-vs-advanced"
+    nav_label: "GIJ Standard vs Advanced"
+    nav_order: 10
+    nav_parent: "app-editions-standard-vs-advanced"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

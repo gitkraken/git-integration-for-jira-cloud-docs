@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "GitLab CE/EE", "GitLab.com"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "how-to-articles-gij-cloud"
+    nav_label: "GitLab.com | GitLab CE/EE JMESPath filter examples"
+    nav_order: 20
+    nav_parent: "working-with-jmespath-filters-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

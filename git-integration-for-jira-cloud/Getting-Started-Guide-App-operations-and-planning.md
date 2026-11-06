@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "admin", "Standard, Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "getting-started"
+    nav_label: "Application Operations and Planning"
+    nav_order: 10
+    nav_parent: "getting-started-guide"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

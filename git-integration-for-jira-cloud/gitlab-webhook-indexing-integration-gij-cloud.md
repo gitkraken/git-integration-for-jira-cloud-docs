@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "admin", "GitLab CE/EE", "GitLab.com", "Standard, Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "integration-guide-gij-cloud"
+    nav_label: "GitLab webhook indexing integration"
+    nav_order: 20
+    nav_parent: "webhook-indexing-integration-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "admin", "Gerrit"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "how-to-articles-gij-cloud"
+    nav_label: "Adding Indexing Triggers for Gerrit"
+    nav_order: 70
+    nav_parent: "indexing-triggers-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

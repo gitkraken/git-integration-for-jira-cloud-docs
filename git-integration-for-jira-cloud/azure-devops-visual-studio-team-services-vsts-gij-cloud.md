@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "Azure DevOps"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "integration-guide-gij-cloud"
+    nav_label: "Azure DevOps | Visual Studio Team Services (VSTS)"
+    nav_order: 60
+    nav_parent: "integration-guide-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "features-gij-cloud"
+    nav_label: "Classic Indexing Explainer"
+    nav_order: 80
+    nav_parent: "features-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

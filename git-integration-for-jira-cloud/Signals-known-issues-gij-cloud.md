@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "troubleshooting", "Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "gij-advanced-features"
+    nav_label: "Known Issues for Signals"
+    nav_order: 50
+    nav_parent: "signals-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

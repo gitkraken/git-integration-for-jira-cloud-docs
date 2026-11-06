@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "reseller"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "how-to-articles-gij-cloud"
+    nav_label: "How to get a quote?"
+    nav_order: 10
+    nav_parent: "sales"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 
