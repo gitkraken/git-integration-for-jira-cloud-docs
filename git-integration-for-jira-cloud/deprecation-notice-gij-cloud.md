@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "admin", "deprecated"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "git-integration-for-jira-cloud-release-notes-gij-cloud"
+    nav_label: "Deprecation notice (GIJ Cloud)"
+    nav_order: 20
+    nav_parent: "git-integration-for-jira-cloud-release-notes-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

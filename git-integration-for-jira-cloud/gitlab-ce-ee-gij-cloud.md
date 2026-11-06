@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "GitLab CE/EE", "deprecated"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "integration-guide-gij-cloud"
+    nav_label: "GitLab CE/EE"
+    nav_order: 50
+    nav_parent: "integration-guide-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

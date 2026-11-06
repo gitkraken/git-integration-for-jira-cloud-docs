@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "developer", "Standard, Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "features-gij-cloud"
+    nav_label: "Git Integration Server/Data Center vs Jira Cloud – Feature Comparison"
+    nav_order: 130
+    nav_parent: "features-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "troubleshooting", "deprecated"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "git-integration-for-jira-home-gij-cloud"
+    nav_label: "Git Integration for Jira Cloud Support Home"
+    nav_order: 10
+    nav_parent: ""
+    page_type: "main-index"
 ---
 <kbd>Last updated: March 2026</kbd>
 

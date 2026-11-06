@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "documentation-gij-cloud"
+    nav_label: "Using the Single git integration wizard"
+    nav_order: 20
+    nav_parent: "setting-up-integrations-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

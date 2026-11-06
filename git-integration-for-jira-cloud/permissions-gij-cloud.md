@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "permissions-gij-cloud"
+    nav_label: "Permissions"
+    nav_order: 50
+    nav_parent: ""
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

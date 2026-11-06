@@ -15,6 +15,12 @@ last_verified: "2026-08"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer", "jql", "pull request", "commit"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "features-gij-cloud"
+    nav_label: "JQL Searching for Commits and Pull Requests"
+    nav_order: 70
+    nav_parent: "features-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: August 2026</kbd>
 

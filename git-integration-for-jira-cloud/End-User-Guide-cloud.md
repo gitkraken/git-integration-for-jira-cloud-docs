@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "developer"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "getting-started"
+    nav_label: "User Guide"
+    nav_order: 20
+    nav_parent: "getting-started"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

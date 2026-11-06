@@ -15,6 +15,12 @@ last_verified: "2026-07"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "install", "admin", "Gerrit", "Standard, Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "integration-guide-gij-cloud"
+    nav_label: "Gerrit webhook indexing integration"
+    nav_order: 40
+    nav_parent: "webhook-indexing-integration-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: July 2026</kbd>
 

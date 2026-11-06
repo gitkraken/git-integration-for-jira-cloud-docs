@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "GitHub.com"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "how-to-articles-gij-cloud"
+    nav_label: "GitHub.com | GitHub Enterprise JMESPath filter examples"
+    nav_order: 10
+    nav_parent: "working-with-jmespath-filters-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

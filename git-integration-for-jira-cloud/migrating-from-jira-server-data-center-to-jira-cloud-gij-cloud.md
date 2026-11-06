@@ -15,6 +15,12 @@ last_verified: "2026-08"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "migration", "JCMA"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "features-gij-cloud"
+    nav_label: "Migrating from Jira Data Center to Jira Cloud"
+    nav_order: 140
+    nav_parent: "features-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: August 2026</kbd>
 

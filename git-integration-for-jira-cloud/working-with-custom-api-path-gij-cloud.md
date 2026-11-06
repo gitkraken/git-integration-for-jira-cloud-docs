@@ -15,6 +15,12 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "GitHub", "GitLab", "Bitbucket"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "how-to-articles-gij-cloud"
+    nav_label: "Working with Custom API Path"
+    nav_order: 70
+    nav_parent: "how-to-articles-gij-cloud"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

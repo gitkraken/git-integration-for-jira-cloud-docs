@@ -15,6 +15,13 @@ last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "developer", "Standard, Advanced"]
 taxonomy:
     category: git-integration-for-jira-cloud
+custom_fields:
+    nav_category: "app-editions-standard-vs-advanced"
+    nav_label: "GIJ Standard vs Advanced Feature matrix"
+    nav_order: 20
+    nav_parent: "app-editions-standard-vs-advanced"
+    page_type: "content"
+    nav_also: ["gij-advanced-features|10|GIJ Standard vs Advanced Feature matrix"]
 ---
 <kbd>Last updated: March 2026</kbd>
 
