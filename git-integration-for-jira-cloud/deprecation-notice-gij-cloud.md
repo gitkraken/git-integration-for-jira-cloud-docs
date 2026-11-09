@@ -13,6 +13,7 @@ version_required: "all"
 status: "deprecated"
 last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "admin", "deprecated"]
+llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
