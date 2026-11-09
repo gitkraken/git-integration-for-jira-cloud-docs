@@ -3,14 +3,14 @@ title: "Deprecation notice (GIJ Cloud)"
 description: "Features and functionality being deprecated or removed from Git Integration for Jira Cloud."
 product: "Git Integration for Jira Cloud"
 feature: "Deprecation notice (GIJ Cloud)"
-content_type: "concept"
+content_type: "reference"
 audience: "admin"
 plan_required: "all"
 deployment: "Jira Cloud"
 git_host_support: []
 role_required: "Jira Administrator"
 version_required: "all"
-status: "deprecated"
+status: "GA"
 last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "concept", "admin", "deprecated"]
 taxonomy:

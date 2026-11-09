@@ -3,14 +3,14 @@ title: "Git Integration for Jira Cloud Support Home"
 description: "Your source for Git Integration for Jira Cloud documentation"
 product: "Git Integration for Jira Cloud"
 feature: "Git Integration for Jira Cloud Support Home"
-content_type: "troubleshooting"
+content_type: "home"
 audience: "all"
 plan_required: "all"
 deployment: "Jira Cloud"
 git_host_support: []
 role_required: "all"
 version_required: "all"
-status: "deprecated"
+status: "GA"
 last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "troubleshooting", "deprecated"]
 taxonomy:

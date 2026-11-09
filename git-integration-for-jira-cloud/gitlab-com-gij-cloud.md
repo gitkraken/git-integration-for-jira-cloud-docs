@@ -10,7 +10,7 @@ deployment: "Jira Cloud"
 git_host_support: ["GitLab.com"]
 role_required: "Jira Administrator"
 version_required: "all"
-status: "deprecated"
+status: "GA"
 last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "GitLab.com", "deprecated"]
 taxonomy:
