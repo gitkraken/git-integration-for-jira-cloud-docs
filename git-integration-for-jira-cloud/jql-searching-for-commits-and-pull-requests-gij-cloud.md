@@ -13,6 +13,7 @@ version_required: "all"
 status: "GA"
 last_verified: "2026-08"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "developer", "jql", "pull request", "commit"]
+llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:

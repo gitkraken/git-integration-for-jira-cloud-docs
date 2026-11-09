@@ -13,6 +13,7 @@ version_required: "all"
 status: "draft"
 last_verified: "2026-03"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "draft"]
+llms_include: false
 taxonomy:
     category: git-integration-for-jira-cloud
 ---

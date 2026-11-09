@@ -13,6 +13,7 @@ version_required: "4.29.5, 5.5.3, 6.1.3"
 status: "GA"
 last_verified: "2026-08"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "integration", "admin", "migration", "JCMA"]
+llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
