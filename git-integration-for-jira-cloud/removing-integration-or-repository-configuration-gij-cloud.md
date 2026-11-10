@@ -61,17 +61,9 @@ Click **Cancel** to abort this process.
 
 ## Disconnecting a Nested Repository
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Note</b><br>
-        You can only disconnect a nested git repository settings if it's a standalone integration.
-    </div>
-    </div>
-</div>
+> **Note:** **Note**
+>
+> You can only disconnect a nested git repository settings if it's a standalone integration.
 
 Go to the **Manage integrations** configuration page and choose a plain git integration with the nested repository to disconnect.
 

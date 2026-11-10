@@ -109,16 +109,7 @@ The best approach is usually to create one integration per org/group, keeping ea
 
 Rate limiting can become an issue for large instances with many repositories or repositories with long, complex Git histories with many branches and pull/merge requests. To address this, generate multiple service accounts on your Git service and spread authentication across different accounts. This distributes API calls across more accounts and over longer periods, helping avoid rate limits.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Review our <a href='/git-integration-for-jira-cloud/known-performance-limitations-gij-cloud/'>Known Performance Limitations</a> page for soft performance limitations to consider when planning your integrations.
-    </div>
-    </div>
-</div>
+> **Note:** Review our [Known Performance Limitations](/git-integration-for-jira-cloud/known-performance-limitations-gij-cloud/) page for soft performance limitations to consider when planning your integrations.
 
 &nbsp;
 

@@ -91,16 +91,7 @@ With a valid PAT saved, the user can create branches and pull requests normally:
 - The same token applies to both branch and pull request creation
 - Users must have **View Development Tools** permission in the Jira project context to view Git Integration for Jira content
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>TFS 2013 and TFS 2015 limitation:</b> These versions do not support PATs. If you enable <b>Require User PAT</b> for these integrations, users cannot create or delete branches and pull requests.
-    </div>
-    </div>
-</div>
+> **Warning:** **TFS 2013 and TFS 2015 limitation:** These versions do not support PATs. If you enable **Require User PAT** for these integrations, users cannot create or delete branches and pull requests.
 
 &nbsp;
 

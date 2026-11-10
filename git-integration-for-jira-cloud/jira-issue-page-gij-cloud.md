@@ -49,19 +49,9 @@ If the Git Integration for Jira app is configured and licensed successfully, new
 
 ## Overview
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Some features can be switched on and off via <a href='/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud'>General settings</a>:<br>
-        <ul style='margin-bottom:0px;'>
-            <li>Jira sidebar ➜ Apps ➜ Git Integration for Jira ➜ <b>App Setting</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Tip:** Some features can be switched on and off via [General settings](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud):
+>
+> - Jira sidebar ➜ Apps ➜ Git Integration for Jira ➜ **App Setting**
 
 Users can see available features in the Jira issue page:
 
@@ -176,16 +166,7 @@ The branch is displayed on the developer panel and is also associated to the men
 
 The branch panel will show a summary of all the unmerged branches (regardless of the number of commits and the number of repositories) -- that either contain the name of the issue or have unmerged commits that reference the issue. This also gives users a view into the behind/ahead status and provide links to the Repository browser for those branch names.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For example, <code>TST-1-new-branch</code> branch will be visible on the developer panel of the <b>TST-1</b> issue page even if the <code>TST-1-new-branch</code> branch has just been forked from master and does not have any new commit.
-    </div>
-    </div>
-</div>
+> **Note:** For example, `TST-1-new-branch` branch will be visible on the developer panel of the **TST-1** issue page even if the `TST-1-new-branch` branch has just been forked from master and does not have any new commit.
 
 ### Create branch
 
@@ -201,16 +182,7 @@ Click **Create branch** on the Issue Activity by Gitkraken panel to create a bra
 
 3.  The Git Integration for Jira app will populate the **Branch name** field according to the _Branch Name Template_ declared in the [**Git Integration Options**](/git-integration-for-jira-cloud/general-settings-for-administrators-gij-cloud) via **General Settings**. Enter a descriptive name or leave it as is (recommended).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        After creating a branch, it is added to the Git Integration developer panel under the Branches list.
-    </div>
-    </div>
-</div>
+> **Note:** After creating a branch, it is added to the Git Integration developer panel under the Branches list.
 
 <img src='/wp-content/uploads/gij-gitcloud-devpanel-branches-list-2025.png' style='margin:25px auto;max-width:100%;display:block;' />
 
@@ -232,17 +204,9 @@ The displayed information depends on which supported git hosts are connected to 
 *   Other integrations – pull requests
 *   Both GitLab and GitHub integrations – separate sections for merge requests and pull requests
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Prerequisite</b><br>
-        The source branch for the pull/merge request must have a commit. Fulfill this condition to create pull/merge request via Jira Git Integration panel without issues.
-    </div>
-    </div>
-</div>
+> **Warning:** **Prerequisite**
+>
+> The source branch for the pull/merge request must have a commit. Fulfill this condition to create pull/merge request via Jira Git Integration panel without issues.
 
 ### Create pull/merge request
 
@@ -283,16 +247,7 @@ The Git Integration for Jira app supports both lightweight and annotated tags. T
 
 Git tags identify specific release versions of your code in a particular branch and do not change when the branch moves on. A tag is an alias for a commit hash, much like symbolic names for a given revision. It is typically used to mark a particular point in the commit. It is like a branch with a read-only attribute. The git tags are accessible in the developer panel.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Having more than one tag with the same name across different branches can become difficult to maintain.
-    </div>
-    </div>
-</div>
+> **Note:** Having more than one tag with the same name across different branches can become difficult to maintain.
 
 Tags cannot be moved since it is linked to a specific commit and are not pushed by default.
 
@@ -307,16 +262,7 @@ The Git Integration for Jira app will show the last 3 and first tags if no filte
 
 If there are several git tags listed, click the **more...** label link to expand the list in increments of five tags.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Click the adjacent icons to the right of the tags to open this tag in your git host service portal or in GitKraken git client app.
-    </div>
-    </div>
-</div>
+> **Tip:** Click the adjacent icons to the right of the tags to open this tag in your git host service portal or in GitKraken git client app.
 
 ### Tag information
 
@@ -341,27 +287,9 @@ Tags are only associated with the Jira issue by Jira keys that are specified in 
 
 ## Jira Development Information
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>View Development Tools</b> <i>permission</i> only applies to Jira <b><i>Company-managed</i></b> projects. <b><i>Team-managed</i></b> projects don't allow to modify the permission.
-    </div>
-    </div>
-</div>
+> **Warning:** The **View Development Tools** *permission* only applies to Jira ***Company-managed*** projects. ***Team-managed*** projects don't allow to modify the permission.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only newly added commits, branches and pull requests will be uploaded to Jira Cloud when enabling the <a href='/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting-gij-cloud'>Send Development Information to Jira Cloud</a> setting. If you wish to upload the entire history of an integration or repository - remove the integration/repository and then add the integration/repository back.
-    </div>
-    </div>
-</div>
+> **Note:** Only newly added commits, branches and pull requests will be uploaded to Jira Cloud when enabling the [Send Development Information to Jira Cloud](/git-integration-for-jira-cloud/send-development-information-to-jira-cloud-setting-gij-cloud) setting. If you wish to upload the entire history of an integration or repository - remove the integration/repository and then add the integration/repository back.
 
 ### What is Jira Development Information?
 
@@ -379,16 +307,7 @@ The [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) and [
 *   Jira users with the View development tools Jira permission for a given Jira project can.
 *   Jira administrators can verify a user's permissions using the [**Permission Helper**](https://confluence.atlassian.com/adminjiracloud/jira-admin-helper-818578850.html).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>View developer tools</b> <i>permission</i> is required to view the Jira Development Information. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
-    </div>
-    </div>
-</div>
+> **Warning:** The **View developer tools** *permission* is required to view the Jira Development Information. Jira users must also have the **Browse Project** *permissions* to a project associated with a repository to view.
 
 ### How to enable or disable Jira Development Information
 

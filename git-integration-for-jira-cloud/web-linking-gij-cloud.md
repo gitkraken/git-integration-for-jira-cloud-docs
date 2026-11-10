@@ -29,16 +29,7 @@ custom_fields:
 
 The web linking feature adds links to your git hosting provider directly into the **Git Commits** tab. Configure web linking options while editing **repository settings** (![](/wp-content/uploads/actions-icon.png) _Actions ➜ Edit integration_ \| ![](/wp-content/uploads/actions-icon.png) _Actions_ ➜ _Edit repository_) so that commits can include links to the git host pages.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Git Integration for Jira Cloud automatically configures web links for most git hosts via Git service integration panel.
-    </div>
-    </div>
-</div>
+> **Note:** Git Integration for Jira Cloud automatically configures web links for most git hosts via Git service integration panel.
 
 For single git repository integration, web link setup is optional. However, git links become available in Git Commits tab when configured.
 
@@ -69,16 +60,7 @@ The following providers are supported:
 
 Select a git host from the **Web Link** list. The web linking format fields are automatically filled out with corresponding variables for the selected git host service. Change the variables according to the actual URL settings of the git host.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only configure the variables enclosed in <code>&lt;&gt;</code> (tags) and leave variables enclosed in <code>{}</code> (brackets) as is.
-    </div>
-    </div>
-</div>
+> **Warning:** Only configure the variables enclosed in `<>` (tags) and leave variables enclosed in `{}` (brackets) as is.
 
 You can create several custom configurations to support other git hosting providers. Configure the following five URLs for setup:
 
@@ -90,42 +72,15 @@ You can create several custom configurations to support other git hosting provid
 | _**Branch Format**_ | This is the URL to display content of branches. |
 | _**Tag Format**_ | This is the URL to display content for tag information. |
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Git Integration for Jira</b> supports an unlimited number of repositories.
-    </div>
-    </div>
-</div>
+> **Tip:** **Git Integration for Jira** supports an unlimited number of repositories.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Some git hosts require web linking to be configured via Git Integration for Jira ➜ Actions ➜ <b>Edit repository</b> screen (<i>mostly single git repository integrations</i>).
-    </div>
-    </div>
-</div>
+> **Note:** Some git hosts require web linking to be configured via Git Integration for Jira ➜ Actions ➜ **Edit repository** screen (*mostly single git repository integrations*).
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Bonobo git server requires a branch name to construct URL. Use <code>$convert(${branch},"/","~2")</code> for web linking since Bonobo requires substitution of <code>/</code> with <code>~2</code> in the branch name.
-        <p style='margin-bottom:-10px'>
-            <b>For example:</b><br>
-            <code>http://&lt;host&gt;/Bonobo.Git.Server/Repository/&lt;project&gt;/$convert(${branch},"/","~2")/Commit/${rev}</code>
-        </p>
-    </div>
-    </div>
-</div>
+> **Note:** The Bonobo git server requires a branch name to construct URL. Use `$convert(${branch},"/","~2")` for web linking since Bonobo requires substitution of `/` with `~2` in the branch name.
+>
+> **For example:**
+>
+> `http://<host>/Bonobo.Git.Server/Repository/<project>/$convert(${branch},"/","~2")/Commit/${rev}`
 
 Any git host that is accessible via SSH, HTTP, HTTPS, and git protocol is supported.
 

@@ -60,16 +60,7 @@ Project associations control which projects display repository content in:
 - Create branch issue dialog
 - Create pull/merge request issue dialog
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Users must have the <b>View Development Tools</b> permission in a Jira project to view Git Integration for Jira content.
-    </div>
-    </div>
-</div>
+> **Note:** Users must have the **View Development Tools** permission in a Jira project to view Git Integration for Jira content.
 
 &nbsp;
 

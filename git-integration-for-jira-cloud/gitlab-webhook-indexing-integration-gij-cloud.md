@@ -25,31 +25,12 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>More information:</b>
-        <ul style='margin-bottom:0px;margin-top:-8px;'>
-            <li><a href='/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud'>Webhook Indexing Explainer</a></li>
-            <li><a href='/git-integration-for-jira-cloud/features-gij-cloud'>Feature matrix of Git Integration for Jira Cloud</a></li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **More information:**
+>
+> - [Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud)
+> - [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/features-gij-cloud)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Webhook indexing integration does not require indexing triggers in the git manager configuration page.
-    </div>
-    </div>
-</div>
+> **Tip:** Webhook indexing integration does not require indexing triggers in the git manager configuration page.
 
 **On this page:**
 - [Video guides](#video-guides)

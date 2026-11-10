@@ -25,16 +25,7 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This feature requires Git Integration for Jira to display pull request data in Signals.
-    </div>
-    </div>
-</div>
+> **Tip:** This feature requires Git Integration for Jira to display pull request data in Signals.
 
 The pull request timeline feature captures pull/merge request (PR/MR) event history and projects reindex data to Signals. Install Git Integration for Jira to see detailed information in tasks and Backlog View.
 

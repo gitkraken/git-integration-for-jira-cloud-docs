@@ -29,16 +29,7 @@ SSH keys provide a secure connection with the remote git host. Git Integration f
 
 Follow this guide if you want to use SSH to securely connect to your git repositories.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Features such as branch and pull/merge request creation are only available for repositories/git hosts connected via the Full feature integration (<i>formerly Auto-connect integration</i>).
-    </div>
-    </div>
-</div>
+> **Note:** Features such as branch and pull/merge request creation are only available for repositories/git hosts connected via the Full feature integration (*formerly Auto-connect integration*).
 
 &nbsp;
 
@@ -70,24 +61,16 @@ In this case, the SSH server is the Git server and the SSH client is the Jira se
 *   Git server — public key
 *   Jira server — private key
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Git Integration for Jira SSH key requirements:
-        <ul>
-            <li>Must not use the OpenSSH format</li>
-            <li>Must be the private key</li>
-            <li>Must use the supported certificate format: RSA</li>
-            <li>Must use the supported storage format: OpenSSL PEM</li>
-        </ul>
-        <hr>
-        <p style='margin-bottom:0px !important'>For more information, see known issue <a href='/git-integration-for-jira-cloud/ssh-key-file-format-is-invalid-gij-cloud'>SSH key format is invalid</a>.</p>
-    </div>
-    </div>
-</div>
+> **Tip:** Git Integration for Jira SSH key requirements:
+>
+> - Must not use the OpenSSH format
+> - Must be the private key
+> - Must use the supported certificate format: RSA
+> - Must use the supported storage format: OpenSSL PEM
+>
+> ---
+>
+> For more information, see known issue [SSH key format is invalid](/git-integration-for-jira-cloud/ssh-key-file-format-is-invalid-gij-cloud).
 
 &nbsp;
 
@@ -119,27 +102,9 @@ For Windows, we recommend using [**PuTTY**](https://www.putty.org/) and PuTTYgen
 
 9.  For the private key, see the notes below.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        PuTTY creates a private key in its own ".ppk" format. To convert it to ".pem", select <b>Conversions</b> ➜ <b>Export OpenSSH key</b> in PuTTYgen. Add/upload this file to Git Integration for Jira ➜ <b>SSH keys</b> or when prompted while connecting SSH git repositories in Jira via the Connect wizard.
-    </div>
-    </div>
-</div>
+> **Tip:** PuTTY creates a private key in its own ".ppk" format. To convert it to ".pem", select **Conversions** ➜ **Export OpenSSH key** in PuTTYgen. Add/upload this file to Git Integration for Jira ➜ **SSH keys** or when prompted while connecting SSH git repositories in Jira via the Connect wizard.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        You can also use the git bash command line to generate an SSH key pair. For detailed information, see <a href='https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key'><b>Generate SSH via Git bash</b></a>.
-    </div>
-    </div>
-</div>
+> **Note:** You can also use the git bash command line to generate an SSH key pair. For detailed information, see [**Generate SSH via Git bash**](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key).
 
 &nbsp;
 

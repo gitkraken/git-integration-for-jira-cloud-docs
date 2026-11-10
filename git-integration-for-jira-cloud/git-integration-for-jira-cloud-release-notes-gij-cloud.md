@@ -481,16 +481,7 @@ Jira administrators can now edit the names of integrations and repositories that
 
 ![](/wp-content/uploads/gij-gitcloud-integration-repo-display-name-feature.gif)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Use the Display Name feature to record information about the git server account.
-    </div>
-    </div>
-</div>
+> **Tip:** Use the Display Name feature to record information about the git server account.
 
 ![](/wp-content/uploads/gij-gitcloud-edit-integration-repo-settings-display-name.png)
 

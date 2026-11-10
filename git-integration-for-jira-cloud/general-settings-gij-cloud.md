@@ -27,16 +27,7 @@ custom_fields:
 
 <!-- ADMINS -->
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The General Settings page is only accessible to Jira Administrators.
-    </div>
-    </div>
-</div>
+> **Warning:** The General Settings page is only accessible to Jira Administrators.
 
 The General Settings page lets Jira administrators control which Git Integration for Jira Cloud features appear in Jira and how some app-wide behaviors work. Use this page when you need to enable or disable issue tabs, repository browser features, beta functionality, branch naming rules, or connected-app visibility.
 
@@ -85,33 +76,17 @@ Click **Update** to apply your changes.
 
 ## Enable beta features
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Default settings</b><br>
-        This setting is disabled in <a href='https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud'><b>Git Integration for Jira Cloud</b></a> app by default.<br>
-        This setting is turned off by default in <a href='https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview'><b>Dev Info for Jira Cloud</b></a> app.
-    </div>
-    </div>
-</div>
+> **Tip:** **Default settings**
+>
+> This setting is disabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+>
+> This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 <img src='/wp-content/uploads/gij-gitcloud-gencfg-enable-beta-features.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 This toggle provides early access to upcoming features. Enable it to use new beta features and display them in General settings. Disable it to hide beta features.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Share feedback and ideas to help us improve current beta features. We appreciate your suggestions. If you encounter bugs or performance issues, contact us through <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>GIJ Cloud Support</a>.
-    </div>
-    </div>
-</div>
+> **Tip:** Share feedback and ideas to help us improve current beta features. We appreciate your suggestions. If you encounter bugs or performance issues, contact us through [GIJ Cloud Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
 &nbsp;
 
@@ -121,18 +96,11 @@ This toggle provides early access to upcoming features. Enable it to use new bet
 
 ## Git Roll Up Issue Tab setting
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Default settings</b><br>
-        This setting is enabled in <a href="https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud"><b>Git Integration for Jira Cloud</b></a> app by default.<br>
-        This setting is turned off by default in <a href="https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview">Dev Info for Jira Cloud</a> app.
-    </div>
-    </div>
-</div>
+> **Tip:** **Default settings**
+>
+> This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+>
+> This setting is turned off by default in [Dev Info for Jira Cloud](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 ### Show Git Roll Up Issue Tab
 
@@ -142,17 +110,9 @@ The Git Roll Up Issue tab displays a summary of files, lines, and developers who
 
 For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integration-for-jira-cloud/git-roll-up-issue-tab-gij-cloud).
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Permissions</b><br>
-        The <b>View developer tools</b> <i>permission</i> is required to view the Git Roll Up Issue Tab. Jira users must also have <b>Browse Project</b> <i>permissions</i> for a project associated with a repository to view.
-    </div>
-    </div>
-</div>
+> **Tip:** **Permissions**
+>
+> The **View developer tools** *permission* is required to view the Git Roll Up Issue Tab. Jira users must also have **Browse Project** *permissions* for a project associated with a repository to view.
 
 &nbsp;
 
@@ -162,18 +122,11 @@ For more details, see [**Features: Git Roll Up tab (Jira Cloud)**](/git-integrat
 
 ## Git Commits Issue Tab and Project Page
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Default settings</b><br>
-        This setting is enabled in <a href="https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud" target="_blank">Git Integration for Jira Cloud</a> app by default.<br>
-        This setting is turned off by default in <a href="https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview" target="_blank"><b>Dev Info for Jira Cloud</b></a> app.
-    </div>
-    </div>
-</div>
+> **Tip:** **Default settings**
+>
+> This setting is enabled in [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+>
+> This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 ### Show Git Commits Issue Tab and Project Page
 
@@ -183,17 +136,9 @@ This setting enables or disables the **Git Commits Issue tab** and the **Git Com
 
 For more details, see [**Features: Git Commits Issue tab and Project Page (Jira Cloud)**](/git-integration-for-jira-cloud/git-commits-issue-tab-and-project-pages-gij-cloud).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Permissions</b><br>
-        The <b>View developer tools</b> <i>permission</i> is required to view the Git Commits Issue Tab and Projects Page. Jira users must also have <b>Browse Project</b> <i>permissions</i> for a project associated with a repository to view.
-    </div>
-    </div>
-</div>
+> **Warning:** **Permissions**
+>
+> The **View developer tools** *permission* is required to view the Git Commits Issue Tab and Projects Page. Jira users must also have **Browse Project** *permissions* for a project associated with a repository to view.
 
 &nbsp;
 
@@ -203,18 +148,11 @@ For more details, see [**Features: Git Commits Issue tab and Project Page (Jira 
 
 ## Issue Git Source Code Panel setting
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Default settings</b><br>
-        This setting is enabled in <a href="https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud" target="_blank"><b>Git Integration for Jira Cloud</b></a> app by default.<br>
-        This setting is turned off by default in <a href="https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview" target="_blank"><b>Dev Info for Jira Cloud</b></a> app.
-    </div>
-    </div>
-</div>
+> **Tip:** **Default settings**
+>
+> This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+>
+> This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 ### Show Issue Git Source Code Panel
 
@@ -224,17 +162,9 @@ Toggle this setting to show or hide the _Git Integration_ section on the Jira is
 
 ![](/wp-content/uploads/gij-gitcloud-jira-dev-integration-panel-sel-2025.png)
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Permissions</b><br>
-        The <b>View developer tools</b> <i>permission</i> is required to view the Git Integration panel. Jira users must also have <b>Browse Project</b> <i>permissions</i> for a project associated with a repository to view.
-    </div>
-    </div>
-</div>
+> **Warning:** **Permissions**
+>
+> The **View developer tools** *permission* is required to view the Git Integration panel. Jira users must also have **Browse Project** *permissions* for a project associated with a repository to view.
 
 Disabling this setting improves Jira performance.
 
@@ -248,24 +178,11 @@ For introductory information on this feature, see [Jira git issue development pa
 
 ## Repository Browser settings
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Default settings</b><br>
-        <ul style='margin-bottom:0px;'>
-            <li>
-                This setting is enabled in <a href="https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud" target="_blank">Git Integration for Jira Cloud</a> app by default.
-            </li>
-            <li>
-                This setting is turned off by default in <a href="https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview" target="_blank">Dev Info for Jira Cloud</a> app.
-            </li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Tip:** **Default settings**
+>
+> - This setting is enabled in [Git Integration for Jira Cloud](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+> - This setting is turned off by default in [Dev Info for Jira Cloud](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
+
 &nbsp;
 
 * * *
@@ -314,17 +231,12 @@ Use the following template variables:
 
 `${summary}` – Issue Summary. The Summary comes from the current Jira issue and appears in lowercase; spaces are replaced with "-" (dash).
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>The Git Integration for Jira app default is:</b><br>
-        <code>${issuekey}-${summary}</code><br>
-        <div style='margin-bottom:-10px'>This generates the string format like "<b>PRJ-123-add-more-logging</b>" as a default value for the Create Branch and Pull/Merge Request dialogs. Where <code>PRJ-123</code> is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form).</div>
-    </div>
-    </div>
+> **Tip:** **The Git Integration for Jira app default is:**
+>
+> `${issuekey}-${summary}`
+>
+> This generates the string format like "**PRJ-123-add-more-logging**" as a default value for the Create Branch and Pull/Merge Request dialogs. Where `PRJ-123` is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form).
+
 </div>
 
 `${sourcebranch}` – Source branch. The source branch from the Create Branch dialog appears in lowercase; spaces are replaced with "-" (dash).
@@ -367,24 +279,10 @@ This generates the string format like "**branch/PRJ-123-add-more-logging**" as a
 
 ## GitKraken Integration settings
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Default settings</b><br>
-        <ul style='margin-bottom:0px;'>
-            <li>
-                This setting is enabled in <a href="https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud" target="_blank"><b>Git Integration for Jira Cloud</b></a> app by default.
-            </li>
-            <li>
-                This setting is turned off by default in <a href="https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview" target="_blank"><b>Dev Info for Jira Cloud</b></a> app.
-            </li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Tip:** **Default settings**
+>
+> - This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+> - This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 ### Enable GitKraken integration
 
@@ -392,17 +290,9 @@ This generates the string format like "**branch/PRJ-123-add-more-logging**" as a
 
 Enable deep linking to quickly move between Jira and your Git source code using the GitKraken git client. GitKraken also supports deep linking into Git Integration for Jira. For more information, see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Permissions</b><br>
-        The <b>View developer tools</b> <i>permission</i> is required to view git commits. Jira users must also have <b>Browse Project</b> <i>permissions</i> for a project associated with a repository to view.
-    </div>
-    </div>
-</div>
+> **Warning:** **Permissions**
+>
+> The **View developer tools** *permission* is required to view git commits. Jira users must also have **Browse Project** *permissions* for a project associated with a repository to view.
 
 For more details, see [Features: Deep Linking to the GitKraken Git client (Jira Cloud)](/git-integration-for-jira-cloud/deep-linking-to-the-gitkraken-client-gij-cloud).
 
@@ -414,24 +304,10 @@ For more details, see [Features: Deep Linking to the GitKraken Git client (Jira 
 
 ## GitLens Integration settings
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Default settings</b><br>
-        <ul style='margin-bottom:0px;'>
-            <li>
-                This setting is enabled in <a href="https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud" target="_blank"><b>Git Integration for Jira Cloud</b></a> app by default.
-            </li>
-            <li>
-                This setting is turned off by default in <a href="https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview" target="_blank"><b>Dev Info for Jira Cloud</b></a> app.
-            </li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Tip:** **Default settings**
+>
+> - This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+> - This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 ### Enable GitLens integration
 
@@ -439,17 +315,9 @@ For more details, see [Features: Deep Linking to the GitKraken Git client (Jira 
 
 Enable deep linking to quickly move between Jira and your Git source code using the GitLens VSCode extension. GitLens also supports deep linking into Git Integration for Jira. For more information, see [GitLens Integrations: Git Integration for Jira](https://www.gitkraken.com/gitlens).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Permissions</b><br>
-        The <b>View developer tools</b> <i>permission</i> is required to view git commits. Jira users must also have <b>Browse Project</b> <i>permissions</i> for a project associated with a repository to view.
-    </div>
-    </div>
-</div>
+> **Warning:** **Permissions**
+>
+> The **View developer tools** *permission* is required to view git commits. Jira users must also have **Browse Project** *permissions* for a project associated with a repository to view.
 
 For more details, see [Features: Deep Linking to the GitLens (Jira Cloud)](/git-integration-for-jira-cloud/deep-linking-into-gitlens-gij-cloud).
 
@@ -491,43 +359,19 @@ The following settings affect the availability of specific smart commit commands
 
 Toggle this setting to send new commit, branch, and pull request data to Jira Cloud for processing and display in various views and features.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Default settings</b><br>
-        This setting is enabled in <a href="https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud" target="_blank"><b>Git Integration for Jira Cloud</b></a> app by default.<br>
-        This setting is turned off by default in <a href="https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview" target="_blank"><b>Dev Info for Jira Cloud</b></a> app.
-    </div>
-    </div>
-</div>
+> **Tip:** **Default settings**
+>
+> This setting is enabled in [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=cloud) app by default.
+>
+> This setting is turned off by default in [**Dev Info for Jira Cloud**](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?hosting=cloud&tab=overview) app.
 
 Only newly added commits, branches, and pull requests upload to Jira Cloud when enabled. To upload the entire history of an integration or repository, remove it and add it back.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Permissions</b><br>
-        The <b>View Development Tools</b> <i>permission</i> only applies to Jira <b><i>Company-managed</i></b> projects. <b><i>Team-managed</i></b> projects do not allow permission modifications.
-    </div>
-    </div>
-</div>
+> **Warning:** **Permissions**
+>
+> The **View Development Tools** *permission* only applies to Jira ***Company-managed*** projects. ***Team-managed*** projects do not allow permission modifications.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Turning this setting to <code>ON</code> automatically disables the <b>Enable Git Integration app Smart Commits</b> setting.
-    </div>
-    </div>
-</div>
+> **Note:** Turning this setting to `ON` automatically disables the **Enable Git Integration app Smart Commits** setting.
 
 &nbsp;
 
@@ -541,27 +385,9 @@ Automatic workflow triggers let you use development activity to make automatic c
 
 For more information on Automation for Jira, see [Git Integration + Jira Automation](/git-integration-for-jira-cloud/git-integration-jira-automation-gij-cloud).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        With both smart commits processors active, the #time and #comment commands are processed twice, resulting in duplicated results.
-    </div>
-    </div>
-</div>
+> **Warning:** With both smart commits processors active, the #time and #comment commands are processed twice, resulting in duplicated results.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Compared to the other smart commit processor option, this one supports Jira Automation but lacks the <code>#label</code> command.
-    </div>
-    </div>
-</div>
+> **Note:** Compared to the other smart commit processor option, this one supports Jira Automation but lacks the `#label` command.
 
 &nbsp;
 
@@ -571,38 +397,11 @@ For more information on Automation for Jira, see [Git Integration + Jira Automat
 
 This setting activates GitKraken's GIJ Smart Commit processor for `#time`, `#comment`, `#transition`, and `#label` commands. For more information, see [Smart Commits documentation](/git-integration-for-jira-cloud/smart-commits-gij-cloud).
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Turning this setting to <code>ON</code> automatically disables the <b>Send Development Information to Jira Cloud</b> and <b>Enable Jira Cloud Smart Commits & Workflow Triggers</b> settings.
-    </div>
-    </div>
-</div>
+> **Tip:** Turning this setting to `ON` automatically disables the **Send Development Information to Jira Cloud** and **Enable Jira Cloud Smart Commits & Workflow Triggers** settings.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        With both smart commits processors active, the <code>#time</code> and <code>#comment</code> commands are processed twice, resulting in duplicated results.
-    </div>
-    </div>
-</div>
+> **Warning:** With both smart commits processors active, the `#time` and `#comment` commands are processed twice, resulting in duplicated results.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Compared to the other smart commit processor option, this one does not support Jira Automation but lets you use the <code>#label</code> command.
-    </div>
-    </div>
-</div>
+> **Note:** Compared to the other smart commit processor option, this one does not support Jira Automation but lets you use the `#label` command.
 
 &nbsp;
 
@@ -612,16 +411,7 @@ This setting activates GitKraken's GIJ Smart Commit processor for `#time`, `#com
 
 The **Advanced** section contains a button that lets Jira administrators clear all Development Information associated with Git Integration for Jira.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This action takes time to process and Development Information may remain visible in places until the process finishes. Expect the process to take up to one hour.
-    </div>
-    </div>
-</div>
+> **Note:** This action takes time to process and Development Information may remain visible in places until the process finishes. Expect the process to take up to one hour.
 
 &nbsp;
 

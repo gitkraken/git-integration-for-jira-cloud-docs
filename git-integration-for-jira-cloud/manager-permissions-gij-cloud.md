@@ -107,16 +107,7 @@ Return to the **Manager permission** page to view the active managers list:
 
 ![](/wp-content/uploads/gij-gitserverdc-manager-permission-active-user-list-2025.png)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The active managers list updates automatically when you add users to the GIJ Manager group.
-    </div>
-    </div>
-</div>
+> **Tip:** The active managers list updates automatically when you add users to the GIJ Manager group.
 
 &nbsp;
 

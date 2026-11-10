@@ -27,16 +27,7 @@ custom_fields:
 
 Connect specific single git repositories using Git Integration for Jira.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Copy the git clone URL from your repository home portal before proceeding.
-    </div>
-    </div>
-</div>
+> **Tip:** Copy the git clone URL from your repository home portal before proceeding.
 
 &nbsp;
 
@@ -70,16 +61,7 @@ Set up the integration depending on the type of git clone URL you are using. Ent
 
 Provide login credentials as required, then click **Add integration** to complete this setup.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If two-factor authentication is enabled in your git host service account, enter the personal access token as the password.
-    </div>
-    </div>
-</div>
+> **Tip:** If two-factor authentication is enabled in your git host service account, enter the personal access token as the password.
 
 &nbsp;
 
@@ -91,28 +73,11 @@ Provide SSH credentials as required, then click **Add integration** to complete 
 
 If the [generated SSH key pair](/git-integration-for-jira-cloud/working-with-ssh-keys-gij-cloud) has a passphrase, enter the **Passphrase** for your private key.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The SSH server is the Git server (git service such as GitHub, GitLab, etc.), and the SSH client is the Jira server (in this case, the Jira Cloud instance).
-    </div>
-    </div>
-</div>
+> **Note:** The SSH server is the Git server (git service such as GitHub, GitLab, etc.), and the SSH client is the Jira server (in this case, the Jira Cloud instance).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>SSH</b><br>
-        When setting up repositories with Git Integration for Jira, you need the necessary access permissions on the private key in the Git server to proceed.
-    </div>
-    </div>
-</div>
+> **Warning:** **SSH**
+>
+> When setting up repositories with Git Integration for Jira, you need the necessary access permissions on the private key in the Git server to proceed.
 
 &nbsp;
 

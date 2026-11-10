@@ -138,16 +138,7 @@ Formerly known as Full feature auto-connect integration.
 
 Use this type of integration to connect specific git host services to Jira. This integration supports multiple connected repositories and automates most git integration settings.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>We highly recommend this type of integration for multiple repository configuration.</b>
-    </div>
-    </div>
-</div>
+> **Tip:** **We highly recommend this type of integration for multiple repository configuration.**
 
 For more details on supported git host services, see the full feature integration section in our [Integration Guides](/git-integration-for-jira-cloud/integration-guide-gij-cloud/).
 
@@ -157,17 +148,9 @@ For more details on supported git host services, see the full feature integratio
 
 This type of integration has similar features to OAuth but uses PAT (personal access token) instead to automatically connect repository integrations.
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>GitLab</b><br>
-        Support for Gitlab API v3 is deprecated. Use <b>GitLab API v4</b> when adding new integrations for increased security.
-    </div>
-    </div>
-</div>
+> **Warning:** **GitLab**
+>
+> Support for Gitlab API v3 is deprecated. Use **GitLab API v4** when adding new integrations for increased security.
 
 ### Webhook Indexing Integration
 
@@ -225,17 +208,9 @@ In the new managed user interface, the **Reindex all** function has been improve
 
 This function performs a reindex queue of all selected integrations/repositories from the list.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Note</b><br>
-        Reindex is not available for <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>DISABLED</b> integrations or repositories. On multiple item selection, Reindex ignores <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>DISABLED</b> integrations or repositories. For more information, see <a href='/git-integration-for-jira-cloud/reindexing-gij-cloud'>Reindexing</a>.
-    </div>
-    </div>
-</div>
+> **Note:** **Note**
+>
+> Reindex is not available for **DISABLED** integrations or repositories. On multiple item selection, Reindex ignores **DISABLED** integrations or repositories. For more information, see [Reindexing](/git-integration-for-jira-cloud/reindexing-gij-cloud).
 
 &nbsp;
 

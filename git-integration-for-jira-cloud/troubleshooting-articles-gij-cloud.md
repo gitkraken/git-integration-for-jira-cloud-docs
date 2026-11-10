@@ -189,17 +189,9 @@ Reinstall the app:
 4. Click **Uninstall**.
 5. Install **Git Integration for Jira** again.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Stop the evaluation/trial before uninstalling the app.<br>
-        <img src='/wp-content/uploads/gij-gitcloud-manage-apps-git-cloud-admin.png' style='margin:25px auto;max-width:100%;display:block;' />
-    </div>
-    </div>
-</div>
+> **Note:** Stop the evaluation/trial before uninstalling the app.
+>
+> ![](/wp-content/uploads/gij-gitcloud-manage-apps-git-cloud-admin.png)
 
 ## How to troubleshoot missing Create branch or pull request features
 
@@ -282,16 +274,7 @@ You see: "The key format is invalid. Please check your private key."
 ssh-keygen -t rsa -b 4096 -m pem -C your_email@example.com
 ```
 
-<div class="bbb-callout bbb--alert">
-  <div class="irow">
-    <div class="ilogobox">
-      <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-      macOS may incorrectly create OpenSSH format certificates. See this <a href='https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key' target='_blank'><b>common problem</b></a>.
-    </div>
-  </div>
-</div>
+> **Warning:** macOS may incorrectly create OpenSSH format certificates. See this [**common problem**](https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key).
 
 **On Windows (using PuTTY):**
 
@@ -323,16 +306,7 @@ Max object size limit is 2,147,483,639 bytes.
 
 ### Solutions
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Changing git repository history can result in data loss. Proceed with caution.
-    </div>
-    </div>
-</div>
+> **Warning:** Changing git repository history can result in data loss. Proceed with caution.
 
 **Option 1:** Remove objects larger than 2GB from repository history:
 - [Removing large files from Git without losing history](https://support.acquia.com/hc/en-us/articles/360004334093-Removing-large-files-from-Git-without-losing-history)
@@ -413,15 +387,7 @@ Microsoft OAuth app client secrets expire after 5 years. All customers must reco
 3. Click **Reconnect**.
 4. Log in to Azure DevOps / VSTS with your account.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact Us</b><br>
-        Reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Note:** **Contact Us**
+>
+> Reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) or email [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com).
 

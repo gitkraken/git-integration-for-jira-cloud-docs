@@ -25,17 +25,9 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This page applies to GIJ Atlassian Cloud products only, including Git Integration for Jira Cloud and Dev Info for Jira Cloud.<br>
-        <span style='margin-top:10px;margin-bottom:0px'>GitKraken does not host Jira Server or Jira Data Center products.</span>
-    </div>
-    </div>
-</div>
+> **Note:** This page applies to GIJ Atlassian Cloud products only, including Git Integration for Jira Cloud and Dev Info for Jira Cloud.
+>
+> GitKraken does not host Jira Server or Jira Data Center products.
 
 If your firewall or proxy server restricts outbound connections, add the IP addresses listed below to your allow list. This configuration enables GIJ Cloud applications to connect to your private git server (GitHub Enterprise, GitLab CE/EE, Microsoft TFS, Azure DevOps Server, Gerrit, Bitbucket Server, or a plain git server).
 
@@ -89,16 +81,7 @@ Add this IP address for customers hosted in the EU stack (Frankfurt, Germany, EU
 | :--- |
 | **18.156.13.64** |
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <a href='https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?tab=overview&hosting=cloud'>Dev Info for Jira Cloud</a> does not support EU hosting.
-    </div>
-    </div>
-</div>
+> **Note:** [Dev Info for Jira Cloud](https://marketplace.atlassian.com/apps/1219270/dev-info-for-jira?tab=overview&hosting=cloud) does not support EU hosting.
 
 &nbsp;
 
@@ -144,17 +127,9 @@ Open the following ports to allow GIJ Cloud applications to index your self-host
 | HTTP | 80 | Rarely used |
 | SSH | 22 | Required only when using SSH keys for authentication |
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Open only the ports your git server requires.<br><br>
-        <span style='margin-top:10px;margin-bottom:0px;'><i><b>Example:</b> If your self-managed GitLab or GitHub Enterprise uses HTTPS, open only port 443.</i></span>
-    </div>
-    </div>
-</div>
+> **Note:** Open only the ports your git server requires.
+>
+> ***Example:** If your self-managed GitLab or GitHub Enterprise uses HTTPS, open only port 443.*
 
 &nbsp;
 

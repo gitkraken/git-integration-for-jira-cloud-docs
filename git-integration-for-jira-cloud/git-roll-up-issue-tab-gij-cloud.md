@@ -25,35 +25,12 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Note</b>
-        <ul style='margin-bottom:0px'>
-            <li>
-                By default, <a href='https://marketplace.atlassian.com/4984'>Git Integration for Jira</a> has the Git Roll Up Issue Tab enabled. (<a href='#how-can-a-jira-administrator-enable-or-disable-the-git-roll-up-issue-tab'>How to disable</a>)
-            </li>
-            <li>
-                By default, <a href='https://marketplace.atlassian.com/1219270'>Dev Info for Jira</a> has the Git Roll Up Issue Tab disabled. (<a href='#how-can-a-jira-administrator-enable-or-disable-the-git-roll-up-issue-tab'>How to enable</a>)
-            </li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **Note**
+>
+> - By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Git Roll Up Issue Tab enabled. ([How to disable](#how-can-a-jira-administrator-enable-or-disable-the-git-roll-up-issue-tab))
+> - By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Git Roll Up Issue Tab disabled. ([How to enable](#how-can-a-jira-administrator-enable-or-disable-the-git-roll-up-issue-tab))
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>View developer tools</b> <i>permission</i> is required to view the Git Roll Up Issue Tab. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
-    </div>
-    </div>
-</div>
+> **Warning:** The **View developer tools** *permission* is required to view the Git Roll Up Issue Tab. Jira users must also have the **Browse Project** *permissions* to a project associated with a repository to view.
 
 &nbsp;
 
@@ -89,17 +66,9 @@ Notable sections include:
 
 <br>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact Us</b><br>
-        If you still have a question, reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Note:** **Contact Us**
+>
+> If you still have a question, reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) or email us at [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com).
 
 &nbsp;
 

@@ -25,16 +25,8 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Server or Data Center</b>?  <a href='/git-integration-for-jira-self-managed/azure-devops-visual-studio-team-services-vsts-gij-self-managed'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Note:** Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/azure-devops-visual-studio-team-services-vsts-gij-self-managed).
+
 <br>
 
 <img src='/wp-content/uploads/gij-azure-devops2-banner.png' width=340 height=74 style='margin:25px 0' />
@@ -78,16 +70,7 @@ The Git Integration for Jira app supports Azure Repos.
 
 If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) – use the table of content anchor link to go to the Azure DevOps / VSTS section.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This step is <b>highly required</b> for Azure DevOps/VSTS integrations connected via the Git service integrations setup.
-    </div>
-    </div>
-</div>
+> **Tip:** This step is **highly required** for Azure DevOps/VSTS integrations connected via the Git service integrations setup.
 
 &nbsp;
 
@@ -117,16 +100,7 @@ For projects connected with Azure Active Directory, set the conditional access p
 
 Connecting Azure DevOps / VSTS accounts via Git service integration enables usability features that are not available in single repository connections or webhook indexing integrations.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        
-    </div>
-    </div>
-</div>
+
 
 This step is <b>highly required</b> for Azure DevOps/ VSTS integrations connected via the Git service integrations setup.
 
@@ -272,17 +246,9 @@ Use this information to connect the Azure/VSTS git repository to your Jira Cloud
 
 The repository is now connected to Jira Cloud.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Webhooks fail with DefaultCollection in URL Path</b><br>
-        To fix webhooks for old VSTS/Azure repository connections with <code>DefaultCollection</code> in the URL path, update the <b><i>Repository origin</i></b> field in the Manage git repositories page ➜ Actions ➜ <b>Edit repository settings</b> with the repository URL currently being returned by Azure.
-    </div>
-    </div>
-</div>
+> **Tip:** **Webhooks fail with DefaultCollection in URL Path**
+>
+> To fix webhooks for old VSTS/Azure repository connections with `DefaultCollection` in the URL path, update the ***Repository origin*** field in the Manage git repositories page ➜ Actions ➜ **Edit repository settings** with the repository URL currently being returned by Azure.
 
 &nbsp;
 
@@ -305,17 +271,9 @@ For detailed information, see [Troubleshooting: Repositories missing from Azure
 
 The Git Integration for Jira app automatically configures web linking for Azure DevOps/VSTS git repositories.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Webhooks are supported on Azure DevOps and VSTS.</b><br>
-        First - configure webhooks in the Git Integration app in Jira via the <b>Apps</b> menu ➜ <b>Git Integration: Manage Git Repositories</b> then click <b>Indexing triggers</b> (sidebar). Enable the feature and save the settings. Then <a href='https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts'>follow these instructions</a> to setup the webhook trigger. Azure DevOps/VSTS webhooks will trigger an immediate index of all repositories within the integration.
-    </div>
-    </div>
-</div>
+> **Note:** **Webhooks are supported on Azure DevOps and VSTS.**
+>
+> First - configure webhooks in the Git Integration app in Jira via the **Apps** menu ➜ **Git Integration: Manage Git Repositories** then click **Indexing triggers** (sidebar). Enable the feature and save the settings. Then [follow these instructions](https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts) to setup the webhook trigger. Azure DevOps/VSTS webhooks will trigger an immediate index of all repositories within the integration.
 
 For detailed step-by-step guide showcasing webhooks setup, [see this article](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-repos-vsts-gij-cloud).
 
@@ -378,16 +336,7 @@ This feature allows users to create branches and pull requests while inside Jira
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
 
 &nbsp;
 
@@ -419,31 +368,13 @@ On your Jira Cloud, open a Jira issue. On the Jira Git integration development 
 
 4.  Click **Create branch** to complete this process.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-branch-gij-cloud'>Create branch</a>.
-    </div>
-    </div>
-</div>
+> **Tip:** For more detailed information on this feature, see [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud).
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
 #### Creating pull requests
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Before you can create a pull request, you need to create a branch first.
-    </div>
-    </div>
-</div>
+> **Tip:** Before you can create a pull request, you need to create a branch first.
 
 The pull request feature works the same as merge request.
 
@@ -473,38 +404,11 @@ On your Jira Cloud, open the Jira issue where your previously created a branch. 
 
 4.  Enter a descriptive **Title** or leave it as is _(recommended)_.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Pull requests are still indexed based on branch name even if the PR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
-    </div>
-    </div>
-</div>
+> **Note:** Pull requests are still indexed based on branch name even if the PR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).
-    </div>
-    </div>
-</div>
+> **Tip:** **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (*usually master*).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud'>Create pull/merge request</a>.
-    </div>
-    </div>
-</div>
+> **Note:** For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
 
 The pull request is listed on the developer panel of the Jira issue page.
 

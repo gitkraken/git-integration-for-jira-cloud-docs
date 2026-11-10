@@ -122,16 +122,8 @@ Jira includes a timeline that shows deployments across environments. You can sea
 
 This feature is turned off by default and must be enabled.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        You must be a project admin to enable and disable features on a project. You must also have the <b>View Development Tools</b> permission to enable the Deployments feature.
-    </div>
-    </div>
-</div>
+> **Warning:** You must be a project admin to enable and disable features on a project. You must also have the **View Development Tools** permission to enable the Deployments feature.
+
 <br>
 
 1. Navigate to your project.

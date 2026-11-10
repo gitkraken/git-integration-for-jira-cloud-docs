@@ -43,36 +43,14 @@ The **Repository Browser** allows users to view git repositories of configured p
 
 ## Getting Started
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Default Settings</b><br>
-        <ul style='margin-bottom:0px'>
-            <li>
-                By default, <a href="https://marketplace.atlassian.com/4984" target="_blank">Git Integration for Jira</a> has the Repository Browser enabled.
-            </li>
-            <li>
-                By default, <a href="https://marketplace.atlassian.com/1219270" target="_blank">Dev Info for Jira</a> has the Repository Browser disabled.
-            </li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **Default Settings**
+>
+> - By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Repository Browser enabled.
+> - By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Repository Browser disabled.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Permissions</b><br>
-        The <b>View developer tools</b> <i>permission</i> is required to view the Repository Browser. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view. For more information on assigning Jira permissions, see <a href='https://confluence.atlassian.com/display/Jira/Managing+Global+Permissions'><b>Managing Permissions in Jira</b></a>.
-    </div>
-    </div>
-</div>
+> **Warning:** **Permissions**
+>
+> The **View developer tools** *permission* is required to view the Repository Browser. Jira users must also have the **Browse Project** *permissions* to a project associated with a repository to view. For more information on assigning Jira permissions, see [**Managing Permissions in Jira**](https://confluence.atlassian.com/display/Jira/Managing+Global+Permissions).
 
 The Repository Browser provides a view into your connected repositories in Jira Cloud. From the Repository browser page, you can see summaries of:
 
@@ -136,27 +114,9 @@ The list of commits for the currently selected project appears in descending ord
 
 7. Click the GitLens icon at the far right of the row to view this commit in the [GitLens for VSCode extension](https://www.gitkraken.com/gitlens).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Repository browser in Git Integration for Jira Cloud only supports displaying commits from a repository and comparing branches.
-    </div>
-    </div>
-</div>
+> **Warning:** The Repository browser in Git Integration for Jira Cloud only supports displaying commits from a repository and comparing branches.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If the selected path is a <i><b>root</b></i> of the repository and no files are present, a message appears instead of an empty file list.
-    </div>
-    </div>
-</div>
+> **Note:** If the selected path is a ***root*** of the repository and no files are present, a message appears instead of an empty file list.
 
 &nbsp;
 

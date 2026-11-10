@@ -57,18 +57,11 @@ Smart commit processing is **active by default** and can be enabled/disabled via
 
 <div align=center>In Jira Cloud, Smart Commits is a toggle setting in the repository settings.</div>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Smart commits support project keys that have an underscore "_" character.<br>
-        Smart commits support all alphabet characters.<br>
-        Smart commits are case-insensitive.
-    </div>
-    </div>
-</div>
+> **Note:** Smart commits support project keys that have an underscore "_" character.
+>
+> Smart commits support all alphabet characters.
+>
+> Smart commits are case-insensitive.
 
 ### Smart Commits Configuration Checklist
 
@@ -114,16 +107,7 @@ The `#comment` command adds a comment to a Jira issue.
 
 The above examples add the specified comment text against the Jira issues.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The committer's email address in the git configuration must match the email address of the corresponding Jira user (or vice versa) to comment on issues.
-    </div>
-    </div>
-</div>
+> **Warning:** The committer's email address in the git configuration must match the email address of the corresponding Jira user (or vice versa) to comment on issues.
 
 ### \#time
 
@@ -140,16 +124,7 @@ The `#time` command records time tracking information against a Jira issue.
 
 The above examples add the respective time and worklog comment text against the Jira issues.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Jira time tracking feature allows users to log the length of time spent working on issues. Jira administrators must enable this feature for this smart commit to work.
-    </div>
-    </div>
-</div>
+> **Warning:** The Jira time tracking feature allows users to log the length of time spent working on issues. Jira administrators must enable this feature for this smart commit to work.
 
 ### \#\<transition-name\>
 
@@ -157,16 +132,7 @@ This command works in both Jira Server and Cloud.
 
 The `#<transition-name>` command moves the Jira issue to a particular workflow state.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Jira user must have the appropriate project permissions to transition issues.
-    </div>
-    </div>
-</div>
+> **Warning:** The Jira user must have the appropriate project permissions to transition issues.
 
 **Syntax:**
 `ISSUE_KEY #<transition-name> [Your commit comment text]`
@@ -243,17 +209,9 @@ Resolves specified issues.
 
 Resolves specified issues; logs specified `#time` of **2 days and 4 hours** and adds `#comment` "Fixed code" against the issues.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>VERSION 2.6.33+</b><br>
-        Multi-line commit messages with smart commits are supported.
-    </div>
-    </div>
-</div>
+> **Note:** **VERSION 2.6.33+**
+>
+> Multi-line commit messages with smart commits are supported.
 
 ### Multi-line Commit Messages
 
@@ -306,53 +264,21 @@ The name of the status is the transition. Using the basic example above, the val
 *   **\#in-progress**
 *   **\#in-review**
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Transition names</b><br>
-        The workflow transition names must be unique.
-    </div>
-    </div>
-</div>
+> **Warning:** **Transition names**
+>
+> The workflow transition names must be unique.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Absence of transition names</b><br>
-        When there are no transition names, use the status names. If there is a space, replace it with "–" (hyphens). For example, <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>CODE REVIEW</b> becomes <code>#code-review</code>.
-    </div>
-    </div>
-</div>
+> **Tip:** **Absence of transition names**
+>
+> When there are no transition names, use the status names. If there is a space, replace it with "–" (hyphens). For example, **CODE REVIEW** becomes `#code-review`.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Commit authors</b><br>
-        Only letters and "-" (dash) are valid for workflow transition names for smart commits. Any other characters are treated as invalid. Smart commits use only the valid characters before the occurrence of an invalid character for processing.
-    </div>
-    </div>
-</div>
+> **Note:** **Commit authors**
+>
+> Only letters and "-" (dash) are valid for workflow transition names for smart commits. Any other characters are treated as invalid. Smart commits use only the valid characters before the occurrence of an invalid character for processing.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Jira Administrators</b><br>
-        When adding transitions in the Workflow editor, make transition names simple and easy to remember. Use only letters and only one space between words.
-    </div>
-    </div>
-</div>
+> **Tip:** **Jira Administrators**
+>
+> When adding transitions in the Workflow editor, make transition names simple and easy to remember. Use only letters and only one space between words.
 
 &nbsp;
 
@@ -362,16 +288,7 @@ The name of the status is the transition. Using the basic example above, the val
 
 ## Viewing Workflows
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Accessing the view workflow feature on the Jira issue page requires a user or user group to have the <b>View Read-Only Workflow</b> project permissions.
-    </div>
-    </div>
-</div>
+> **Warning:** Accessing the view workflow feature on the Jira issue page requires a user or user group to have the **View Read-Only Workflow** project permissions.
 
 ![](/wp-content/uploads/gij-gitcloud-jira-workflow-access-location.png)
 
@@ -423,16 +340,7 @@ Both of these transitions are smart commit-friendly and the possible transitions
 
 The "..." indicates the truncation with the least character length to have the transition names be recognized as unique by Smart Commits.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user can't be identified.
-    </div>
-    </div>
-</div>
+> **Note:** If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user can't be identified.
 
 &nbsp;
 
@@ -448,16 +356,7 @@ The "..." indicates the truncation with the least character length to have the t
 
 **Max commit age** – This setting is a hidden feature in Git Integration for Jira Cloud and Dev Info for Jira Cloud. All commits older than this setting (in seconds) are ignored for smart commits processing. The default value is **1209600** seconds (14 days).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        When <a href="/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-development-information">DevInfo for Jira Cloud is enabled</a>, commits are sent with <b><i>disabledTransition</i></b> flag.
-    </div>
-    </div>
-</div>
+> **Note:** When [DevInfo for Jira Cloud is enabled](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-development-information), commits are sent with ***disabledTransition*** flag.
 
 &nbsp;
 
@@ -467,18 +366,9 @@ The "..." indicates the truncation with the least character length to have the t
 
 ## Jira Cloud Smart Commits and Workflow Triggers
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Administrator note</b><br>
-        Both <b>Send Development Information to Jira Cloud</b> and <b>Enable Dev Info Smart Commits & Workflow</b> settings must be enabled for automatic workflow triggers to be enabled.
-        <img src='/wp-content/uploads/gij-gitcloud-jira-dev-info-smart-commits-req-sel.png' style='display:block;margin:25px auto 0 auto;max-width:100%' />
-    </div>
-    </div>
-</div>
+> **Note:** **Administrator note**
+>
+> Both **Send Development Information to Jira Cloud** and **Enable Dev Info Smart Commits & Workflow** settings must be enabled for automatic workflow triggers to be enabled. ![](/wp-content/uploads/gij-gitcloud-jira-dev-info-smart-commits-req-sel.png)
 
 ### General Settings Effect on Smart Commits Commands
 
@@ -522,24 +412,14 @@ Use your development activity to make automatic changes in your Jira project wor
 
 *   You can send a Jira issue to <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>IN PROGRESS</b> when a commit is pushed and associated with a Jira issue.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Available triggers through the <a href='https://marketplace.atlassian.com/4984' target='_blank'><b>Git Integration for Jira</b></a> and <a href='https://marketplace.atlassian.com/1219270' target='_blank'><b>Dev Info for Jira</b></a> apps:
-        <ul>
-            <li>Commit created</li>
-            <li>Branch created</li>
-            <li>Pull request created</li>
-            <li>Pull request merged</li>
-            <li>Pull request declined (closed)</li>
-            <li>Pull request reopened</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** Available triggers through the [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) and [**Dev Info for Jira**](https://marketplace.atlassian.com/1219270) apps:
+>
+> - Commit created
+> - Branch created
+> - Pull request created
+> - Pull request merged
+> - Pull request declined (closed)
+> - Pull request reopened
 
 ### Configuring Automatic Workflow Triggers
 

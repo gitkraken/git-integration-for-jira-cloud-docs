@@ -58,16 +58,7 @@ GitKraken provides technical support for Git Integration for Jira in alignment w
 |---------------|-----------------|
 | One business day | Email |
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        SLA commitments apply exclusively to <b>paid Git Integration for Jira licenses</b> with <b>current and active License Maintenance coverage</b>.
-    </div>
-    </div>
-</div>
+> **Note:** SLA commitments apply exclusively to **paid Git Integration for Jira licenses** with **current and active License Maintenance coverage**.
 
 For details on supported Jira versions, browser compatibility, service limitations, and end-of-life policies, see [Support & Compatibility Information](https://help.gitkraken.com).
 
@@ -123,13 +114,5 @@ See the [Atlassian Marketplace Versions Page](https://marketplace.atlassian.com/
 
 GitKraken adheres to Atlassian's deprecation and support timelines for Jira Cloud, monitoring and adapting to platform changes for continued compatibility.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Keep your Java Runtime Environment (JRE) up-to-date for the latest security patches and application features.
-    </div>
-    </div>
-</div>
+> **Tip:** Keep your Java Runtime Environment (JRE) up-to-date for the latest security patches and application features.
+

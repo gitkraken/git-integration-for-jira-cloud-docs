@@ -49,13 +49,5 @@ Visit the [Atlassian Marketplace: Git Integration for Jira](https://marketplace.
 
 [Contact Atlassian](https://www.atlassian.com/company/contact/purchasing-licensing) to request a custom quote. Expect a response within one business day.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        All active Jira users require a license for Atlassian Marketplace apps. See the <a href='https://www.atlassian.com/licensing/marketplace#licensingandpricing-1'>Atlassian Marketplace FAQ</a> for details.
-    </div>
-    </div>
-</div>
+> **Note:** All active Jira users require a license for Atlassian Marketplace apps. See the [Atlassian Marketplace FAQ](https://www.atlassian.com/licensing/marketplace#licensingandpricing-1) for details.
+
