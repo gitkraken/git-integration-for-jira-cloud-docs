@@ -27,12 +27,6 @@ custom_fields:
 
 Server-side hooks enforce project policies by running scripts before and after pushes. Use these hooks to require valid Jira ticket references in commit messages.
 
-**On this page:**
-- [Understand server-side hooks](#understand-server-side-hooks)
-- [Install the pre-receive hook](#install-the-pre-receive-hook)
-- [Configure the script](#configure-the-script)
-- [Sample script](#sample-script)
-
 &nbsp;
 * * *
 &nbsp;

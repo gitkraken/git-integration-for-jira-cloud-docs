@@ -32,14 +32,6 @@ custom_fields:
 
 > **Tip:** Webhook indexing integration does not require indexing triggers in the git manager configuration page.
 
-**On this page:**
-- [Video guides](#video-guides)
-- [Connect GitLab to Jira Cloud](#connect-gitlab-to-jira-cloud)
-- [Configure repository-level webhooks](#configure-repository-level-webhooks)
-- [Configure group-level webhooks](#configure-group-level-webhooks)
-- [Post-setup tips](#post-setup-tips)
-- [Supported features](#supported-features)
-
 &nbsp;
 * * *
 &nbsp;

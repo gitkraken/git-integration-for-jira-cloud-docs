@@ -27,12 +27,6 @@ custom_fields:
 
 The commit-msg hook validates commit messages before they're accepted. Use this client-side hook to ensure all commits reference valid Jira tickets.
 
-**On this page:**
-- [Understand the commit-msg hook](#understand-the-commit-msg-hook)
-- [Install the hook](#install-the-hook)
-- [Configure the script](#configure-the-script)
-- [Sample script](#sample-script)
-
 &nbsp;
 * * *
 &nbsp;

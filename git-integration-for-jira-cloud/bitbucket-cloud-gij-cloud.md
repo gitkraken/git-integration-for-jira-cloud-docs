@@ -37,18 +37,6 @@ custom_fields:
 
 Quickly learn how to connect Bitbucket Cloud git repositories via Git Integration for Jira Cloud app.
 
-**What's on this page:**
-- [Integrate Bitbucket Cloud with Jira Cloud](#integratebitbucket-cloud-with-jira-cloud)
-  - [Permissions](#permissions)
-  - [Using Git service integration](#using-git-service-integration)
-  - [Single repository connection](#single-repository-connection)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Working with branches and pull requests with Bitbucket](#working-with-branches-and-pull-requests-with-bitbucket)
-    - [Default Branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Creating pull/merge requests](#creating-pullmerge-requests)
-  - [More Integration Guides](#more-integration-guides)
-
 <br>
 <br>
 <hr>

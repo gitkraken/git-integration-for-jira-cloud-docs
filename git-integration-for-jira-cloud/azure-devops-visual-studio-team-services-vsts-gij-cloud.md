@@ -39,27 +39,6 @@ Quickly learn how to connect Azure DevOps/VSTS git repositories via Git Integrat
 
 The Git Integration for Jira app supports Azure Repos.
 
-**What's on this page:**
-- [Integrate VSTS/Azure DevOps with Jira Cloud](#integratevstsazure-devops-with-jira-cloud)
-  - [Creating personal access tokens](#creating-personal-access-tokens)
-  - [Permissions](#permissions)
-  - [Using Git service integration](#using-git-service-integration)
-  - [Authenticate with OAuth (recommended)](#authenticate-with-oauth-recommended)
-  - [Authenticate with personal access token](#authenticate-with-personal-access-token)
-  - [Single git repository integration](#single-git-repository-integration)
-- [Troubleshooting integration](#troubleshooting-integration)
-- [Webhooks and web linking](#webhooks-and-web-linking)
-- [Linking Azure DevOps/VSTS git commits to Jira Cloud](#linking-azure-devopsvsts-git-commits-to-jira-cloud)
-- [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-- [Working with branches and pull requests with Azure DevOps/VSTS](#working-with-branches-and-pull-requests-with-azure-devopsvsts)
-  - [Default branch](#default-branch)
-  - [Creating branches](#creating-branches)
-  - [Creating pull requests](#creating-pull-requests)
-  - [Merging _branch_ to _master_](#merging-branch-tomaster)
-- [Is it possible to integrate Azure Pipelines with Jira?](#is-it-possible-to-integrate-azure-pipelines-with-jira)
-- [Is CI/CD for Jira enough to display deployment data for Azure?](#is-cicd-for-jira-enough-to-display-deployment-data-for-azure)
-- [More Integration Guides](#more-integration-guides)
-
 &nbsp;
 * * *
 &nbsp;

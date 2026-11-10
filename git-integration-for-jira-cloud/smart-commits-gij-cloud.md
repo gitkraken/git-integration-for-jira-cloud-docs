@@ -29,17 +29,6 @@ Smart commits allow your team to perform actions on Jira issues from a single co
 
 &nbsp;
 
-**On this page:**
-- [Getting started](#getting-started)
-- [Basic commands](#basic-commands)
-- [Advanced examples](#advanced-examples)
-- [Workflow transitions](#workflow-transitions)
-- [Viewing workflows](#viewing-workflows)
-- [General settings](#general-settings)
-- [Jira Cloud Smart Commits and Workflow Triggers](#jira-cloud-smart-commits-and-workflow-triggers)
-- [Automatic Workflow Triggers](#automatic-workflow-triggers)
-- [Email notifications for Smart Commits](#email-notifications-for-smart-commits)
-
 &nbsp;
 
 * * *

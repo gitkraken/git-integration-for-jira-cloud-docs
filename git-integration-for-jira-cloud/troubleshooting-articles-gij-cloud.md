@@ -35,20 +35,6 @@ This collection of troubleshooting guides provides workarounds and solutions for
 | Azure DevOps issues | OAuth, PAT scope, repository visibility | Jira Administrator | Azure integration troubleshooting |
 | SSH or reindexing issues | Key format, repository size, memory limits | Jira Administrator | SSH and reindexing troubleshooting |
 
-**On this page:**
-- [Why don't I see commits?](#why-dont-i-see-commits-git-integration-for-cloud)
-- [License expiration shows as session error](#when-a-gij-license-expires-it-shows-up-as-a-session-error)
-- [Licensing error - installCheck failed](#licensing-error---installcheck-failed)
-- [Missing Create branch or pull request features](#why-dont-i-see-the-create-branch-or-pull-request-features)
-- [Connection error for self-hosted git servers](#connection-error-for-self-hosted-git-servers)
-- [Repositories missing from Azure DevOps integration](#repositories-missing-from-azure-devops-or-vsts-integration)
-- [SSH key file format is invalid](#ssh-key-file-format-is-invalid)
-- [Error while reindexing - Java heap space](#error-while-reindexing---java-heap-space--object-too-large)
-- [OAuth connection error with Azure DevOps](#oauth-connection-error-or-error-401-page-with-azure-devops-integration)
-- [OAuth connection error with Azure DevOps Active Directory](#oauth-connection-error-or-error-401-page-with-azure-devops-with-active-directory-integration)
-- [Empty list of repositories after Azure Repos integration](#empty-list-of-repositories-after-integration-of-azure-repos)
-- [Reconnecting Azure DevOps OAuth integrations](#reconnecting-azure-devops-and-vsts-oauth-integrations)
-
 &nbsp;
 * * *
 &nbsp;

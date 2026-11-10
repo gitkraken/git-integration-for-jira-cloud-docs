@@ -37,15 +37,6 @@ Set up repositories and manage them in the Git Integration app configuration in 
 
 &nbsp;
 
-**On this page:**
-- [Introduction](#introduction)
-- [Menu access locations](#menu-access-locations)
-- [Git integration configuration page](#git-integration-configuration-page)
-- [Git service integration](#git-service-integration)
-- [Plain Git integration](#plain-git-integration)
-- [Reindex selected](#reindex-selected)
-- [More features](#more-features)
-
 &nbsp;
 
 * * *

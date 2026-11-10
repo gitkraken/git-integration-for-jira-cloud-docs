@@ -33,13 +33,6 @@ If your firewall or proxy server restricts outbound connections, add the IP addr
 
 Alternatively, use the [Webhook indexing feature](#webhooks-indexing-integration-for-private-networks) to avoid incoming API requests.
 
-**On this page:**
-- [Configure allow list for self-hosted git repositories](#configure-allow-list-for-self-hosted-git-repositories)
-- [Open required ports](#open-required-ports)
-- [Configure allow list for GitHub.com, Azure DevOps Repos, and GitLab.com](#configure-allow-list-for-githubcom-azure-devops-repos-and-gitlabcom)
-- [Verify network reachability](#verify-network-reachability)
-- [Use webhook indexing for private networks](#webhooks-indexing-integration-for-private-networks)
-
 &nbsp;
 * * *
 &nbsp;

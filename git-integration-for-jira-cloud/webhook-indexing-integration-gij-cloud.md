@@ -27,12 +27,6 @@ custom_fields:
 
 Webhook indexing integration enables your git servers to work behind a firewall while still sending git data to Jira Cloud.
 
-**On this page:**
-- [Understand webhook indexing](#understand-webhook-indexing)
-- [Configure webhook indexing](#configure-webhook-indexing)
-- [Supported integrations](#supported-integrations)
-- [Frequently asked questions](#frequently-asked-questions)
-
 &nbsp;
 * * *
 &nbsp;

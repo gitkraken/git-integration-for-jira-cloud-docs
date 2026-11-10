@@ -27,13 +27,6 @@ custom_fields:
 
 We are committed to providing efficient and reliable support. This page contains helpful tips to get started.
 
-**On this page:**
-- [Jira Server platform migration planning](#jira-server-platform-migration-planning)
-- [Browser compatibility](#browser-compatibility)
-- [Quick installation video](#quick-installation-video)
-- [View reindex logs](#view-reindex-logs)
-- [Atlassian support end of life](#atlassian-support-end-of-life)
-
 &nbsp;
 * * *
 &nbsp;

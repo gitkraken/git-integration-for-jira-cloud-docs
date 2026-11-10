@@ -43,24 +43,6 @@ custom_fields:
 
 Quickly learn how to connect GitHub.com git repositories via Git Integration for Jira Cloud app.
 
-**What's on this page:**
-- [Integrate GitHub.com with Jira Cloud](#integrate-githubcom-with-jira-cloud)
-  - [Creating a personal access token](#creating-a-personal-access-token)
-    - [Classic personal access token](#classic-personal-access-token)
-    - [Fine-grained personal access token](#fine-grained-personal-access-token)
-  - [Using Git service integration](#using-git-service-integration)
-  - [Single git repository integration](#single-git-repository-integration)
-  - [Setting up GitHub permissions](#setting-up-github-permissions)
-    - [Default repository permission](#default-repository-permission)
-    - [Teams and collaborators](#teams-and-collaborators)
-  - [Setting up GitHub web links](#setting-up-github-web-links)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Working with branches and pull requests with GitHub](#working-with-branches-and-pull-requests-with-github)
-    - [Default Branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Creating pull requests](#creating-pull-requests)
-  - [More Integration Guides](#more-integration-guides)
-
 &nbsp;
 <hr>
 &nbsp;

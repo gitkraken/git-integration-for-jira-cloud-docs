@@ -29,10 +29,6 @@ Indexing triggers enable immediate reindexing of your repositories from remote s
 
 Most git providers also support account-level or organization-level webhooks. For details, see [About GitLab Webhooks](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/web_hooks/web_hooks.md).
 
-**On this page:**
-- [Enable indexing triggers](#enable-indexing-triggers)
-- [Configure the webhook URL](#configure-the-webhook-url)
-
 &nbsp;
 * * *
 &nbsp;

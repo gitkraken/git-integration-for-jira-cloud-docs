@@ -27,16 +27,6 @@ custom_fields:
 
 Personal access tokens (PATs) provide secure authentication for connecting git services to Git Integration for Jira Cloud. This page provides step-by-step instructions for creating PATs on each supported git host.
 
-**On this page:**
-- [GitHub and GitHub Enterprise PAT](#github-and-github-enterprise-pat)
-  - [Classic personal access token](#classic-personal-access-token)
-  - [Fine-grained personal access token](#fine-grained-personal-access-token)
-- [Create a GitLab PAT](#create-a-gitlab-pat)
-- [Create an Azure DevOps or VSTS PAT](#create-an-azure-devops-or-vsts-pat)
-- [Create a TFS 2017+ PAT](#create-a-tfs-2017-pat)
-- [Create an Azure DevOps Server PAT](#create-an-azure-devops-server-pat)
-- [Create AWS CodeCommit credentials](#create-aws-codecommit-credentials)
-
 &nbsp;
 * * *
 &nbsp;

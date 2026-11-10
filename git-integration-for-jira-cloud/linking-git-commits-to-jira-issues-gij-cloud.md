@@ -27,13 +27,6 @@ custom_fields:
 
 Link your git commits to Jira issues by including the issue key in the commit message.
 
-**On this page:**
-- [Understand commit linking](#understand-commit-linking)
-- [Follow best practices for linking](#follow-best-practices-for-linking)
-- [Associate commits manually](#associate-commits-manually)
-- [Link branches to a Jira issue](#link-branches-to-a-jira-issue)
-- [Link pull or merge requests to a Jira issue](#link-pull-or-merge-requests-to-a-jira-issue)
-
 &nbsp;
 * * *
 &nbsp;

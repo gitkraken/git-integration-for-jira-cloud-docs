@@ -25,23 +25,6 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-**What's on this page:**
-- [How is git data indexed?](#how-is-git-data-indexed)
-- [Automatic indexing](#automatic-indexing)
-  - [Indexing repositories](#indexing-repositories)
-  - [Indexing integrations](#indexing-integrations)
-  - [Triggering automatic reindexes via webhooks](#triggering-automatic-reindexes-via-webhooks)
-  - [Automatic indexing period limits](#automatic-indexing-period-limits)
-- [Manual indexing](#manual-indexing)
-  - [Reindex all](#reindex-all)
-  - [Repositories](#repositories)
-  - [Integrations](#integrations)
-  - [Indexing statuses](#indexing-statuses)
-- [Indexing definitions](#indexing-definitions)
-  - [Definitions](#definitions)
-  - [Indexing errors](#indexing-errors)
-- [Branch and pull/merge request name index triggers](#branch-and-pullmerge-request-name-index-triggers)
-
 &nbsp;
 * * *
 &nbsp;

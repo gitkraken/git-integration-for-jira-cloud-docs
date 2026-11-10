@@ -32,13 +32,6 @@ custom_fields:
 
 > **Tip:** Webhook indexing integration does not require indexing triggers in the git manager configuration page.
 
-**On this page:**
-- [Connect GitHub to Jira Cloud](#connect-github-to-jira-cloud)
-- [Configure repository-level webhooks](#configure-repository-level-webhooks)
-- [Configure organization-level webhooks](#configure-organization-level-webhooks)
-- [Post-setup tips](#post-setup-tips)
-- [Supported features](#supported-features)
-
 &nbsp;
 * * *
 &nbsp;

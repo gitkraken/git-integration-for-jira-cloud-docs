@@ -32,14 +32,6 @@ custom_fields:
 
 > **Tip:** Webhook indexing integration does not require indexing triggers in the git manager configuration page.
 
-**On this page:**
-- [Video guide](#video-guide)
-- [Connect Microsoft git services to Jira Cloud](#connect-microsoft-git-services-to-jira-cloud)
-- [Configure project-level service hooks](#configure-project-level-service-hooks)
-- [Configure repository-level service hooks](#configure-repository-level-service-hooks)
-- [Post-setup tips](#post-setup-tips)
-- [Supported features](#supported-features)
-
 &nbsp;
 * * *
 &nbsp;

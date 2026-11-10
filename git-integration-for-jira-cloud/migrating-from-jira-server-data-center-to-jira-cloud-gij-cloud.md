@@ -25,13 +25,6 @@ custom_fields:
 ---
 <kbd>Last updated: August 2026</kbd>
 
-**What’s on this page:**
-- [Let us assist you with your migration to Jira Cloud!](#let-us-assist-you)
-- [Important Notes](#important-notes)
-- [Migrating through the Jira Cloud Migration Assistant (JCMA)](#migrating-through-the-jcma)
-- [Manual steps to migrate](#manual-steps-to-migrate)
-- [Links](#links)
-
 &nbsp;
 * * *
 

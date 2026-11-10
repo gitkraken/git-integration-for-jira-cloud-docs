@@ -29,18 +29,6 @@ If the Git Integration for Jira app is configured and licensed successfully, new
 
 &nbsp;
 
-**On this page:**
-- [Overview](#overview)
-- [Git Roll Up tab](#git-roll-up-tab)
-- [Git Commits tab](#git-commits-tab)
-- [Jira Git integration development panel](#jira-git-integration-development-panel)
-- [Development panel locations](#development-panel-locations)
-- [Branches](#branches)
-- [Pull or merge requests](#pull-or-merge-requests)
-- [Git tags](#git-tags)
-- [Jira Development Information](#jira-development-information)
-- [Development Information Views](#development-information-views)
-
 &nbsp;
 
 * * *

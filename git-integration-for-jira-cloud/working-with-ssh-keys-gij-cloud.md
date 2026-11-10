@@ -33,15 +33,6 @@ Follow this guide if you want to use SSH to securely connect to your git reposit
 
 &nbsp;
 
-**On this page:**
-- [Getting started](#getting-started)
-- [Generating SSH keys on Windows](#generating-ssh-keys-on-windows)
-- [Generating SSH keys on Linux/MacOS](#generating-ssh-keys-on-linuxmacos)
-- [Git host specific SSH key instructions](#git-host-specific-ssh-key-instructions)
-- [Connecting SSH Git Repositories](#connecting-ssh-git-repositories)
-- [Adding a public SSH key to your Git server](#adding-a-public-ssh-key-to-your-git-server)
-- [Updating a private SSH key](#updating-a-private-ssh-key)
-
 &nbsp;
 
 * * *

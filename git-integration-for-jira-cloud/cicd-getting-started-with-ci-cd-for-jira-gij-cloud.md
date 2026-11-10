@@ -29,27 +29,6 @@ CI/CD for Jira (previously a free extension, now included in Git Integration for
 
 CI/CD for Jira tracks builds and deployments by Pull Requests. The extension supports classic pipelines and YAML pipelines for builds only. If you run your deployments through the build YAML pipeline, the deployments do not appear.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>On this page:</b><br>
-        <ul style='margin-bottom:0px;'>
-            <li><a href='#supported-services'>Supported services</a></li>
-            <li><a href='#setup'>Setup</a></li>
-            <li><a href='#associating-issues'>Associating issues</a></li>
-            <li><a href='#does-this-extension-support-sending-builddeployment-information-via-webhook'>Does this extension support sending build/deployment information via webhook?</a></li>
-            <li><a href='#viewing-builds-and-deployments-in-a-jira-issue'>Viewing builds and deployments in a Jira issue</a></li>
-            <li><a href='#how-to-enable-deployment-view-in-jira'>How to enable Deployment View in Jira</a></li>
-            <li><a href='#how-to-use-jql-searches-for-builds-and-deployments'>How to use JQL searches for builds and deployments</a></li>
-            <li><a href='#how-to-trigger-automation-for-jira-with-builds-and-deployments'>How to trigger Automation for Jira with builds and deployments</a></li>
-        </ul>
-    </div>
-    </div>
-</div>
-
 &nbsp;
 
 ## Supported services

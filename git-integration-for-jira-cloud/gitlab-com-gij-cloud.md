@@ -39,21 +39,6 @@ GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) 
 
 Learn how to connect GitLab.com git repositories via the Git Integration for Jira Cloud app.
 
-**What's on this page:**
-- [Integrate GitLab.com with Jira Cloud](#integrate-gitlabcom-with-jira-cloud)
-  - [Permissions](#permissions)
-  - [Creating a personal access token](#creating-a-personal-access-token)
-    - [Automatic token rotation](#automatic-token-rotation)
-  - [Using Git service integration](#using-git-service-integration)
-  - [Single git repository integration](#single-git-repository-integration)
-  - [Setting up GitLab web links](#setting-up-gitlab-web-links)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Working with branches and merge requests with GitLab](#working-with-branches-and-merge-requests-with-gitlab)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Creating merge requests](#creating-merge-requests)
-  - [More Integration Guides](#more-integration-guides)
-
 &nbsp;
 <hr>
 &nbsp;

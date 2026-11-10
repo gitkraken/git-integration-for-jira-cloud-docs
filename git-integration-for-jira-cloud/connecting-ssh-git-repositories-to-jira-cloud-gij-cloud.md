@@ -27,13 +27,6 @@ custom_fields:
 
 Connect SSH git repositories to Jira Cloud using [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview).
 
-**On this page:**
-- [Generate SSH keys](#generate-ssh-keys)
-  - [Generate SSH keys on Windows](#generate-ssh-keys-on-windows)
-  - [Generate SSH keys on Linux/MacOS](#generate-ssh-keys-on-linuxmacos)
-- [Convert SSH key format](#convert-ssh-key-format)
-- [Connect an SSH git repository](#connect-an-ssh-git-repository)
-
 &nbsp;
 * * *
 &nbsp;

@@ -37,15 +37,6 @@ custom_fields:
 
 Quickly learn how to connect Gerrit git repositories via Git Integration for Jira Cloud.
 
-**What's on this page:**
-- [Integrate Gerrit with Jira Cloud](#integrate-gerrit-with-jira-cloud)
-  - [Git service integration](#git-service-integration)
-  - [Single repository (Manually connect via SSH/HTTP/HTTPS)](#single-repository-manually-connect-via-sshhttphttps)
-  - [Setting up Gerrit web links](#setting-up-gerrit-web-links)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Default branch](#default-branch)
-  - [More Integration Guides](#more-integration-guides)
-
 <br>
 <br>
 <hr>

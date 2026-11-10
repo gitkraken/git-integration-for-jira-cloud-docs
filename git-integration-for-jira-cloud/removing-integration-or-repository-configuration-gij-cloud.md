@@ -29,10 +29,6 @@ Disconnect a repository or integration if it isn't needed or is broken in the Gi
 
 &nbsp;
 
-**On this page:**
-- [Disconnecting an integration or repository](#disconnecting-an-integration-or-repository)
-- [Disconnecting a nested repository](#disconnecting-a-nested-repository)
-
 &nbsp;
 
 * * *

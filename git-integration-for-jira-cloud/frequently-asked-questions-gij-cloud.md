@@ -29,19 +29,6 @@ Find answers to questions asked by Git Integration for Jira app users. Use the t
 
 Contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
-**On this page:**
-- [General](#general)
-- [Developer](#developer)
-- [Installation and setup](#installation-and-setup)
-- [Administration](#administration)
-- [Repositories](#repositories)
-- [Workspace](#workspace)
-- [SSH](#ssh)
-- [Reindex](#reindex)
-- [Uninstall and reinstall](#uninstall-and-reinstall)
-- [Purchase and pricing](#purchase-and-pricing)
-- [Support](#support)
-
 &nbsp;
 * * *
 &nbsp;

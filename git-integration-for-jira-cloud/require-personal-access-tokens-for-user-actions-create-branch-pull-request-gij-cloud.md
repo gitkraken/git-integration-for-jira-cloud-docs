@@ -25,12 +25,6 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-**On this page:**
-- [Understand user attribution](#understand-user-attribution)
-- [Enable the Require User PAT setting](#enable-the-require-user-pat-setting)
-- [User experience after enabling](#user-experience-after-enabling)
-- [Supported integrations](#supported-integrations)
-
 &nbsp;
 * * *
 &nbsp;

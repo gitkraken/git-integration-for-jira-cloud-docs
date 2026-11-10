@@ -33,12 +33,6 @@ custom_fields:
 
 > **Warning:** **Prerequisite:** Enable webhooks in the Git Integration for Jira app before proceeding. See [**Indexing triggers - Getting started**](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud).
 
-**On this page:**
-- [Create an SNS topic](#create-an-sns-topic)
-- [Add the webhook URL subscription](#add-the-webhook-url-subscription)
-- [Configure the repository trigger](#configure-the-repository-trigger)
-- [Verify the configuration](#verify-the-configuration)
-
 &nbsp;
 * * *
 &nbsp;

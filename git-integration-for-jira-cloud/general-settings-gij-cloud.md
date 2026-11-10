@@ -38,18 +38,6 @@ The General Settings page lets Jira administrators control which Git Integration
 | Connected apps | GitKraken and GitLens deep linking | Choose which external app actions users can access |
 | Jira development information | Development panel and related Jira surfaces | Adjust how Git data appears inside Jira |
 
-**On this page:**
-- [How to open General settings](#how-to-open-general-settings)
-- [Enable beta features](#enable-beta-features)
-- [Git Roll Up Issue Tab setting](#git-roll-up-issue-tab-setting)
-- [Git Commits Issue Tab and Project Page](#git-commits-issue-tab-and-project-page)
-- [Issue Git Source Code Panel setting](#issue-git-source-code-panel-setting)
-- [Repository Browser settings](#repository-browser-settings)
-- [Git Integration Options](#git-integration-options)
-- [GitKraken Integration settings](#gitkraken-integration-settings)
-- [GitLens Integration settings](#gitlens-integration-settings)
-- [Jira Development Information settings](#jira-development-information-settings)
-
 &nbsp;
 
 * * *

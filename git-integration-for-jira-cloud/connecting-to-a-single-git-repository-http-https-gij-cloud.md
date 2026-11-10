@@ -27,11 +27,6 @@ custom_fields:
 
 This guide covers connecting a single git repository to Jira using either HTTP/HTTPS or SSH protocols.
 
-**On this page:**
-- [Connecting via HTTP/HTTPS](#connecting-via-httphttps)
-- [Connecting via SSH](#connecting-via-ssh)
-- [Configuring Repository Settings](#configuring-repository-settings)
-
 &nbsp;
 
 * * *

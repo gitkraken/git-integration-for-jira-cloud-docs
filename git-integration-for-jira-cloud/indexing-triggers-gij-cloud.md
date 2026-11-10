@@ -25,12 +25,6 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-**On this page:**
-- [Understand indexing triggers](#understand-indexing-triggers)
-- [Enable indexing triggers](#enable-indexing-triggers)
-- [Find the webhook URL](#find-the-webhook-url)
-- [Choose a webhook URL level](#choose-a-webhook-url-level)
-
 &nbsp;
 * * *
 &nbsp;

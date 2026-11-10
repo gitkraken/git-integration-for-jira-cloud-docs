@@ -31,22 +31,6 @@ The Git Integration for Jira app adds two features to the Jira issue developer p
 
 > **Tip:** Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>On this page:</b><br>
-        <ul style='margin-bottom:0px;'>
-            <li><a href='#default-branch'>Default branch</a></li>
-            <li><a href='#create-branch'>Create branch</a></li>
-            <li><a href='#create-pull-or-merge-request'>Create pull or merge request</a></li>
-        </ul>
-    </div>
-    </div>
-</div>
-
 &nbsp;
 
 ## Default branch

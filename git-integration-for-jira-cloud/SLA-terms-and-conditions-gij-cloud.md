@@ -29,12 +29,6 @@ GitKraken's goal is to ensure you can use Git Integration for Jira (GIJ) effortl
 
 Contact us via [Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
-**On this page:**
-- [Support coverage and commitments](#support-coverage-and-commitments)
-- [Scope of technical support](#scope-of-technical-support)
-- [Support exceptions and limitations](#support-exceptions-and-limitations)
-- [Platform compatibility and customer responsibilities](#platform-compatibility-and-customer-responsibilities)
-
 &nbsp;
 * * *
 &nbsp;

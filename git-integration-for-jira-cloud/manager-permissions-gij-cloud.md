@@ -27,11 +27,6 @@ custom_fields:
 
 Manager permissions allow Jira administrators to delegate Git Integration for Jira app management to non-admin users. Designated users can manage integrations, add or remove repositories, and update settings without requiring full Jira admin access.
 
-**On this page:**
-- [Understand manager permissions](#understand-manager-permissions)
-- [Set up manager permissions](#set-up-manager-permissions)
-- [Understand manager access levels](#understand-manager-access-levels)
-
 &nbsp;
 * * *
 &nbsp;

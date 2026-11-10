@@ -29,12 +29,6 @@ The **Repository Browser** allows users to view git repositories of configured p
 
 &nbsp;
 
-**On this page:**
-- [Getting started](#getting-started)
-- [Repositories list](#repositories-list)
-- [Repository view - Viewing list of commits](#repository-view---viewing-list-of-commits)
-- [Comparing branches or tags](#comparing-branches-or-tags)
-
 &nbsp;
 
 * * *

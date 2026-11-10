@@ -33,11 +33,6 @@ Project permissions determine which Jira projects can access repository data fro
 | Repository-level project permissions | Access to one connected repository | Expose only a single repository to a smaller project subset |
 | Jira project permissions | Visibility of Git data inside Jira | Confirm users can still view development information after mapping projects |
 
-**On this page:**
-- [How project permissions work in Git Integration for Jira Cloud](#how-project-permissions-work-in-git-integration-for-jira-cloud)
-- [How to configure project permissions for integrations](#how-to-configure-project-permissions-for-integrations)
-- [How to configure project permissions for individual repositories](#how-to-configure-project-permissions-for-individual-repositories)
-
 &nbsp;
 * * *
 &nbsp;

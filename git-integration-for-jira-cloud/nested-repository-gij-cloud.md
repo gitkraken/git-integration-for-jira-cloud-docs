@@ -29,16 +29,6 @@ A nested repository is a Git repository that exists inside the working directory
 
 &nbsp;
 
-**On this page:**
-- [Permissions](#permissions)
-- [How nested repositories work](#how-nested-repositories-work)
-- [Practical use for developers](#practical-use-for-developers)
-- [Some challenges with using nested repositories](#some-challenges-with-using-nested-repositories)
-- [Nested repository as a formal feature](#nested-repository-as-a-formal-feature)
-- [Adding a nested repository with Git Submodule](#adding-a-nested-repository-with-git-submodule)
-- [Connecting a nested repository with Git Integration for Jira Cloud app](#connecting-a-nested-repository-with-git-integration-for-jira-cloud-app)
-- [Connecting an integration that contains nested repositories](#connecting-an-integration-that-contains-nested-repositories)
-
 &nbsp;
 
 * * *

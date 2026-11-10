@@ -57,21 +57,6 @@ For GitLab Server service users, they won't see the issue until they upgrade the
 
 Quickly learn how to connect GitLab CE/EE git repositories via Git Integration for Jira Server app.
 
-**What's on this page:**
-- [Integrate GitLab CE/EE with Jira Cloud](#integrate-gitlab-ceee-with-jira-cloud)
-  - [Permissions](#permissions)
-  - [Creating a personal access token](#creating-a-personal-access-token)
-    - [Automatic token rotation](#automatic-token-rotation)
-  - [Using Git service integration](#using-git-service-integration)
-  - [Single git repository integration](#single-git-repository-integration)
-  - [Setting up GitLab web links](#setting-up-gitlab-web-links)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Working with branches and merge requests with GitLab CE/EE](#working-with-branches-and-merge-requests-with-gitlab-ceee)
-    - [Default branch](#default-branch)
-    - [Creating Branches](#creating-branches)
-    - [Creating merge requests](#creating-merge-requests)
-  - [More Integration Guides](#more-integration-guides)
-
 <br>
 <hr>
 <br>

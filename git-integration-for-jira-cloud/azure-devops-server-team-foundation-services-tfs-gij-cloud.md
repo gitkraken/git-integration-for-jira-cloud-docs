@@ -39,23 +39,6 @@ Quickly learn how to connect Azure DevOps Server/TFS git repositories via Git In
 
 The Git Integration for Jira app supports Azure Repos.
 
-**What’s on this page:**
-- [Integrate Azure DevOps Server/TFS with Jira Cloud](#integrate-azure-devops-servertfswith-jira-cloud)
-  - [Creating personal access tokens](#creating-personal-access-tokens)
-  - [Permissions](#permissions)
-  - [Using Git service integration and OAuth](#using-git-service-integration-and-oauth)
-  - [Single git repository integration](#single-git-repository-integration)
-  - [Troubleshooting integration](#troubleshooting-integration)
-  - [Webhooks and web linking](#webhooks-and-web-linking)
-  - [Linking Azure DevOps Server/TFS git commits to Jira Cloud](#linking-azure-devops-servertfs-git-commits-to-jira-cloud)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Working with branches and pull requests with Azure DevOps Server/TFS](#working-with-branches-and-pull-requests-with-azure-devops-servertfs)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Creating pull requests](#creating-pull-requests)
-    - [Merging _branch_ to _master_](#merging-branch-to-master)
-  - [More Integration Guides](#more-integration-guides)
-
 <br>
 <br>
 <hr>

@@ -36,26 +36,6 @@ Automation rules have three parts:
 - **Conditions** – Set the scope of a rule with specific events tailored for your team.
 - **Actions** – Set automated tasks to perform when a condition is met.
 
-
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>On this page:</b><br>
-        <ul style='margin-bottom:0px;'>
-            <li><a href='#permissions'>Permissions</a></li>
-            <li><a href='#git-integration-for-jira-app-supported-triggers'>Git Integration for Jira app supported triggers</a></li>
-            <li><a href='#how-to-set-up-automation-templates'>How to set up automation templates</a></li>
-            <li><a href='#known-issue'>Known issue</a></li>
-            <li><a href='#advanced-examples'>Advanced examples</a></li>
-            <li><a href='#automation-template-library'>Automation template library</a></li>
-        </ul>
-    </div>
-    </div>
-</div>
-
 &nbsp;
 
 ## Permissions

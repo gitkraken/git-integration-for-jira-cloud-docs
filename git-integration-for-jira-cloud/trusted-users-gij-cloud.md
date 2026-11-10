@@ -21,11 +21,6 @@ taxonomy:
 
 Trusted users have administrative permissions for the Git Integration for Jira app. They can see all pages of the app and invite other users.
 
-**On this page:**
-- [Understand trusted users](#understand-trusted-users)
-- [Invite a user and assign the Trusted role](#invite-a-user-and-assign-the-trusted-role)
-- [Change a user's role](#change-a-users-role)
-
 &nbsp;
 * * *
 &nbsp;

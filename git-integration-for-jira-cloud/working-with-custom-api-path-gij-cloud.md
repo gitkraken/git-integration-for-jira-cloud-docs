@@ -33,13 +33,6 @@ Git Integration for Jira calls the Custom API Path during:
 - Scheduled reindexing
 - Manual reindexing
 
-**On this page:**
-- [Access Custom API Path settings](#access-custom-api-path-settings)
-- [GitHub.com examples](#githubcom-examples)
-- [GitHub Enterprise examples](#github-enterprise-examples)
-- [GitLab.com and GitLab CE/EE examples](#gitlabcom-and-gitlab-ceee-examples)
-- [Bitbucket Cloud examples](#bitbucket-cloud-examples)
-
 &nbsp;
 * * *
 &nbsp;
