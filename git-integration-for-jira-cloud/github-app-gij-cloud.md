@@ -55,16 +55,7 @@ Key terms:
 
 ### Permissions
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        You must be a GitHub organization owner or have GitHub admin permissions in a repository to install/uninstall a GitHub App on that organization. If a GitHub App is installed in a repository and requires organization permissions, the GitHub organization owner must approve the application.
-    </div>
-    </div>
-</div>
+> **Warning:** You must be a GitHub organization owner or have GitHub admin permissions in a repository to install/uninstall a GitHub App on that organization. If a GitHub App is installed in a repository and requires organization permissions, the GitHub organization owner must approve the application.
 
 To check GitHub Apps permissions for your organization:
 

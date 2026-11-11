@@ -30,12 +30,6 @@ custom_fields:
 
 Webhook indexing integration enables your git servers to work behind a firewall while still sending git data to Jira Cloud.
 
-**On this page:**
-- [Understand webhook indexing](#understand-webhook-indexing)
-- [Configure webhook indexing](#configure-webhook-indexing)
-- [Supported integrations](#supported-integrations)
-- [Frequently asked questions](#frequently-asked-questions)
-
 &nbsp;
 * * *
 &nbsp;
@@ -60,16 +54,7 @@ The system uses git metadata from webhook payloads to index commits, branches, a
 2. The administrator configures the git server to send webhooks to a unique, password-protected address
 3. Future commit, branch, and pull/merge request activity is automatically indexed
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Set up webhooks at the organization/group/project level in your git server to configure multiple repositories at once.
-    </div>
-    </div>
-</div>
+> **Tip:** Set up webhooks at the organization/group/project level in your git server to configure multiple repositories at once.
 
 &nbsp;
 

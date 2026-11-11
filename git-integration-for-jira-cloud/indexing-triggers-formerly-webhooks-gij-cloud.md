@@ -32,10 +32,6 @@ Indexing triggers enable immediate reindexing of your repositories from remote s
 
 Most git providers also support account-level or organization-level webhooks. For details, see [About GitLab Webhooks](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/web_hooks/web_hooks.md).
 
-**On this page:**
-- [Enable indexing triggers](#enable-indexing-triggers)
-- [Configure the webhook URL](#configure-the-webhook-url)
-
 &nbsp;
 * * *
 &nbsp;
@@ -66,17 +62,9 @@ The **Secret Key** is a secure, randomly-generated alphanumeric string created w
 <JIRA_BASE_URL>/git/webhook/reindex/<SECRET_KEY>
 ```
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Activating this URL through <code>GET</code>, <code>POST</code>, or <code>PUT</code> triggers reindexing of all repositories when webhooks are enabled.
-        <p style='margin-bottom:-10px'><code>DELETE</code> and <code>HEAD</code> methods are not supported.</p>
-    </div>
-    </div>
-</div>
+> **Note:** Activating this URL through `GET`, `POST`, or `PUT` triggers reindexing of all repositories when webhooks are enabled.
+>
+> `DELETE` and `HEAD` methods are not supported.
 
 &nbsp;
 

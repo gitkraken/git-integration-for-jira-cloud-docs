@@ -27,16 +27,7 @@ custom_fields:
 
 Self-signed certificates are common in HTTPS Git repositories that are hosted privately. Even for an administrator, setting the HTTP `sslVerify` option to connect to this repository can be challenging.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Jira administrators can now disable <code>sslVerify</code> for specific repositories from within Jira.
-    </div>
-    </div>
-</div>
+> **Tip:** Jira administrators can now disable `sslVerify` for specific repositories from within Jira.
 
 This feature is available in the **Connect to Git Repository** wizard and the **Full feature integration** panel for GitHub and GitLab.
 

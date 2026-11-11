@@ -32,32 +32,7 @@ custom_fields:
 
 The Git Integration for Jira app adds two features to the Jira issue developer panel – **Create branch** and **Create pull/merge request**. For more information on where to access them, see the [Jira Git integration development panel documentation](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel).
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-       Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
-    </div>
-    </div>
-</div>
-
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>On this page:</b><br>
-        <ul style='margin-bottom:0px;'>
-            <li><a href='#default-branch'>Default branch</a></li>
-            <li><a href='#create-branch'>Create branch</a></li>
-            <li><a href='#create-pull-or-merge-request'>Create pull or merge request</a></li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Tip:** Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
 
 &nbsp;
 
@@ -75,27 +50,11 @@ You can only change the main branch for repositories within an integration on th
 
 ## Create branch
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Jira administrator notes</b><br>
-        <ul style='margin-bottom:0px'>
-            <li>
-                Jira users can provide their own personal access tokens (PAT) even if the Jira admin does not require them. See <a href="/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud">Require Personal Access Tokens for user actions (create branch/pull request)</a> for configuration instructions.
-            </li>
-            <li>
-                The <b>View developer tools</b> <i>permission</i> is required to view the Source Code panel (see more in <a href='/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud'>Issue Git Source Code Panel</a>). Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
-            </li>
-            <li>
-                You can disable the create branch feature for all Jira users (regardless of permissions) in <a href="/git-integration-for-jira-cloud/general-settings-gij-cloud#git-integration-options">General settings</a>.
-            </li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **Jira administrator notes**
+>
+> - Jira users can provide their own personal access tokens (PAT) even if the Jira admin does not require them. See [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud) for configuration instructions.
+> - The **View developer tools** *permission* is required to view the Source Code panel (see more in [Issue Git Source Code Panel](/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud)). Jira users must also have the **Browse Project** *permissions* to a project associated with a repository to view.
+> - You can disable the create branch feature for all Jira users (regardless of permissions) in [General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud#git-integration-options).
 
 The Create branch feature allows Jira users to create a git branch directly from the Jira issue.
 
@@ -168,39 +127,15 @@ Make a commit to this branch, then continue to create a pull/merge request.
 
 ## Create pull or merge request
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Jira administrator notes</b><br>
-        <ul style='margin-bottom:0px'>
-            <li>
-                Jira users can provide their own personal access tokens (PAT) even if the Jira admin does not require them. See <a href="/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud">Require Personal Access Tokens for user actions (create branch/pull request)</a> for configuration instructions.
-            </li>
-            <li>
-                The <b>View developer tools</b> <i>permission</i> is required to view the Source Code panel (see more in <a href="/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud">Issue Git Source Code Panel</a>). Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
-            </li>
-            <li>
-                You can disable the create pull request feature for all Jira users (regardless of permissions) in <a href="/git-integration-for-jira-cloud/general-settings-gij-cloud#git-integration-options">General settings</a>.
-            </li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **Jira administrator notes**
+>
+> - Jira users can provide their own personal access tokens (PAT) even if the Jira admin does not require them. See [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-cloud/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud) for configuration instructions.
+> - The **View developer tools** *permission* is required to view the Source Code panel (see more in [Issue Git Source Code Panel](/git-integration-for-jira-cloud/issue-git-source-code-panel-gij-cloud)). Jira users must also have the **Browse Project** *permissions* to a project associated with a repository to view.
+> - You can disable the create pull request feature for all Jira users (regardless of permissions) in [General settings](/git-integration-for-jira-cloud/general-settings-gij-cloud#git-integration-options).
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>GitLab note</b><br>
-        GitLab uses the term Merge Request rather than Pull Request (used by other major git services). In this article, Pull Request and Merge Request are interchangeable.
-    </div>
-    </div>
-</div>
+> **Note:** **GitLab note**
+>
+> GitLab uses the term Merge Request rather than Pull Request (used by other major git services). In this article, Pull Request and Merge Request are interchangeable.
 
 The **Create pull request** feature allows Jira users to create a git pull request directly from the Jira issue.
 
@@ -243,17 +178,9 @@ When you create a pull request from within Jira:
 
 1. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>PREREQUISITE</b> A Jira administrator configures a Full feature integration in the Git Integration for Jira Cloud app. See the <a href='/git-integration-for-jira-cloud/integration-guide-gij-cloud'>Integration Guide</a> for more information.
 
-    <div class="bbb-callout bbb--alert">
-        <div class="irow">
-        <div class="ilogobox">
-            <span class="logoimg"></span>
-        </div>
-        <div class="imsgbox">
-            <b>Important</b><br>
-            The source branch for the pull/merge request must have a commit. You must fulfill this condition to create a pull/merge request via the Jira Git Integration panel.
-        </div>
-        </div>
-    </div>
+    > **Warning:** **Important**
+    >
+    > The source branch for the pull/merge request must have a commit. You must fulfill this condition to create a pull/merge request via the Jira Git Integration panel.
 
 2. To access the Create pull/merge request action, do one of the following:
     - Enable the **Git Development panel**, or
@@ -297,13 +224,5 @@ Additionally, creating a PR/MR via the Git developer panel automatically associa
 
 &nbsp;
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If you still have a question, reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Note:** If you still have a question, reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) or email us at [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com).
+

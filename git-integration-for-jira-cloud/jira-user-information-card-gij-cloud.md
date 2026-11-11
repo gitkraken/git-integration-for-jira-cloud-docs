@@ -40,16 +40,7 @@ Click **Reported issues** to view the latest reported issues by that user.
 
 Click **View profile** to view this user's profile.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <a href='/git-integration-for-jira-cloud/git-user-identity-gij-cloud'><b>Git user identity</b></a> must be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
-    </div>
-    </div>
-</div>
+> **Note:** The [**Git user identity**](/git-integration-for-jira-cloud/git-user-identity-gij-cloud) must be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
 
 &nbsp;
 * * *

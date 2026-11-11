@@ -50,16 +50,7 @@ custom_fields:
 
 &nbsp;
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        To purchase the Git Integration for Jira subscription service, see <a href='https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=pricing' target='_blank'>Git Integration for Jira Cloud pricing and subscription tiers</a> for more information.
-    </div>
-    </div>
-</div>
+> **Tip:** To purchase the Git Integration for Jira subscription service, see [Git Integration for Jira Cloud pricing and subscription tiers](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=pricing) for more information.
 
 &nbsp;
 

@@ -21,13 +21,6 @@ taxonomy:
 
 These video tutorials walk you through key features of Git Integration for Jira Cloud, including installation, connecting git hosts, and viewing commits from Jira.
 
-**On this page:**
-- [Get started with installation](#get-started-with-installation)
-- [Configure administration settings](#configure-administration-settings)
-- [Connect your git host](#connect-your-git-host)
-- [Customize your integration](#customize-your-integration)
-- [Set up authentication](#set-up-authentication)
-
 &nbsp;
 * * *
 &nbsp;

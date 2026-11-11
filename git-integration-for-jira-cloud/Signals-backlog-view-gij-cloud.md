@@ -71,16 +71,7 @@ The activity timeline displays sprint duration and user activity. A two-week spr
 
 To view sprint changes, hover over activity boxes. A popup displays issue additions, removals, and status changes. This audit window shows progress and modifications throughout the sprint.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Hover over daily activities to see work performed on each specific day.
-    </div>
-    </div>
-</div>
+> **Tip:** Hover over daily activities to see work performed on each specific day.
 
 &nbsp;
 
@@ -90,16 +81,7 @@ To expand a sprint and view issue activities, click the expand icon (**\>**).
 
 ![](/wp-content/uploads/tij-gitcloud-backlog-view-open-item-detail.png)
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Hover on issue rows to display the active date period beside the status column.
-    </div>
-    </div>
-</div>
+> **Note:** Hover on issue rows to display the active date period beside the status column.
 
 &nbsp;
 
@@ -133,16 +115,7 @@ To display issues with code changes, click **Show diff**. To hide code differenc
 
 #### Using the actions menu
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Requires Jira write permissions.
-    </div>
-    </div>
-</div>
+> **Warning:** Requires Jira write permissions.
 
 <img src='/wp-content/uploads/tij-gitcloud-backlog-view-actions-menu.png' style='margin:25px auto 35px auto;max-width:100%;display:block;' />
 

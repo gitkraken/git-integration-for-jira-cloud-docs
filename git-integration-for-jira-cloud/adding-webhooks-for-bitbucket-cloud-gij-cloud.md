@@ -26,32 +26,13 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Supported webhook events:</b>
-        <ul style='margin-bottom:0px;'>
-            <li>Repository - Push</li>
-            <li>Pull request - Created</li>
-            <li>Pull request - Updated</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **Supported webhook events:**
+>
+> - Repository - Push
+> - Pull request - Created
+> - Pull request - Updated
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Prerequisite:</b> Enable webhooks in the Git Integration for Jira app before proceeding. See <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing triggers - Getting Started</b></a>.
-    </div>
-    </div>
-</div>
+> **Warning:** **Prerequisite:** Enable webhooks in the Git Integration for Jira app before proceeding. See [**Indexing triggers - Getting Started**](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud).
 
 &nbsp;
 

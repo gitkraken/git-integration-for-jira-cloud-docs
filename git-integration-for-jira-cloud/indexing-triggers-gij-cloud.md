@@ -25,12 +25,6 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-**On this page:**
-- [Understand indexing triggers](#understand-indexing-triggers)
-- [Enable indexing triggers](#enable-indexing-triggers)
-- [Find the webhook URL](#find-the-webhook-url)
-- [Choose a webhook URL level](#choose-a-webhook-url-level)
-
 &nbsp;
 * * *
 &nbsp;
@@ -57,16 +51,7 @@ Without indexing triggers, Jira relies on default polling (usually 5 minutes). U
 
 ## Enable Indexing Triggers
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        You must enable indexing triggers before using this feature.
-    </div>
-    </div>
-</div>
+> **Warning:** You must enable indexing triggers before using this feature.
 
 1. From your Jira Cloud dashboard, go to **Apps** ➜ **Git Integration: Repository browser**.
 
@@ -119,28 +104,11 @@ https://[your-cloud-domain-url]/api/1/webhook/reindex/install/<INSTANCE_ID>/<SEC
 https://gitforjiracloud.bigbrassband.com/api/1/webhook/reindex/install/x5chdqpqln0j04xcgv02zy7h9/vfTmXtqIFyqeCYYS3WjLIn2RRz5rHSDO
 ```
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Click the copy icon next to the Webhook URL to copy it to your clipboard.
-    </div>
-    </div>
-</div>
+> **Tip:** Click the copy icon next to the Webhook URL to copy it to your clipboard.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Supported HTTP methods:</b> <code>GET</code>, <code>POST</code>, <code>PUT</code><br>
-        <b>Not supported:</b> <code>DELETE</code>, <code>HEAD</code>
-    </div>
-    </div>
-</div>
+> **Note:** **Supported HTTP methods:** `GET`, `POST`, `PUT`
+>
+> **Not supported:** `DELETE`, `HEAD`
 
 &nbsp;
 
@@ -184,13 +152,5 @@ This webhook URL triggers events only for a single repository.
 
 ![](/wp-content/uploads/gij-git-cloud-webhook-url-repo-list-loc-c.-02-2025.png)
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Repository IDs are extracted from all webhook types (including install level). Only repositories specified in the webhook are indexed, preventing unnecessary indexing of all repositories in large integrations.
-    </div>
-    </div>
-</div>
+> **Note:** Repository IDs are extracted from all webhook types (including install level). Only repositories specified in the webhook are indexed, preventing unnecessary indexing of all repositories in large integrations.
+

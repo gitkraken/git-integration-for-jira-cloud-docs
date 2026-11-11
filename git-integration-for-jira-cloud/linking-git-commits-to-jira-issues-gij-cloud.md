@@ -30,13 +30,6 @@ custom_fields:
 
 Link your git commits to Jira issues by including the issue key in the commit message.
 
-**On this page:**
-- [Understand commit linking](#understand-commit-linking)
-- [Follow best practices for linking](#follow-best-practices-for-linking)
-- [Associate commits manually](#associate-commits-manually)
-- [Link branches to a Jira issue](#link-branches-to-a-jira-issue)
-- [Link pull or merge requests to a Jira issue](#link-pull-or-merge-requests-to-a-jira-issue)
-
 &nbsp;
 * * *
 &nbsp;
@@ -45,31 +38,13 @@ Link your git commits to Jira issues by including the issue key in the commit me
 
 Git Integration for Jira selects commits by issue key. Include issue keys in your commit messages every time you commit.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Example:</b> The commit message <b>"PRJ-50 fixed issue"</b> links to issue #50 in the PRJ project. This assumes you have a Jira project with the key "PRJ" and someone created issue #50 within that project.
-    </div>
-    </div>
-</div>
+> **Tip:** **Example:** The commit message **"PRJ-50 fixed issue"** links to issue #50 in the PRJ project. This assumes you have a Jira project with the key "PRJ" and someone created issue #50 within that project.
 
 <img src='/wp-content/uploads/gij-gitcloud-git-commits-commits-info.png' style='margin-top:25px auto;max-width:100%;display:block;' />
 
 <div style='margin-top:10px'><i>Example: The commit message <b>"TEST-1 Update..."</b> links to Jira issue TEST-1.</i></div>
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Commits from non-master branches appear only if the master branch does not contain them.
-    </div>
-    </div>
-</div>
+> **Warning:** Commits from non-master branches appear only if the master branch does not contain them.
 
 &nbsp;
 
@@ -81,16 +56,7 @@ When working with sub-tasks, include both the parent and sub-task issue keys in 
 
 <img src='/wp-content/uploads/gij-gitcloud-git-commit-commit-sel-subtask.png' style='margin:25px auto' />
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The maximum commit message length is <b>8,000 characters</b>.
-    </div>
-    </div>
-</div>
+> **Note:** The maximum commit message length is **8,000 characters**.
 
 ### Support for Renamed Projects
 
@@ -102,16 +68,7 @@ Git Integration for Jira Cloud does not support Jira Project/Issue key renaming.
 
 ## Associate Commits Manually
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        These steps apply to Jira Cloud instances with Git Integration for Jira installed.
-    </div>
-    </div>
-</div>
+> **Note:** These steps apply to Jira Cloud instances with Git Integration for Jira installed.
 
 Access the **Change commit issues** feature from two locations:
 
@@ -152,38 +109,11 @@ Access the **Change commit issues** feature from two locations:
 
 ### Association Permissions
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Jira administrators can add or remove any associations.
-    </div>
-    </div>
-</div>
+> **Tip:** Jira administrators can add or remove any associations.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Project administrators can add or remove associations within their projects.
-    </div>
-    </div>
-</div>
+> **Note:** Project administrators can add or remove associations within their projects.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Commit authors can add or remove their own associations if they have <b>View Development Tools</b> access.
-    </div>
-    </div>
-</div>
+> **Warning:** Commit authors can add or remove their own associations if they have **View Development Tools** access.
 
 ### Multiple Associations
 
@@ -193,16 +123,7 @@ If a commit is associated with multiple Jira issues, you see all linked issues i
 
 In this example, the commit is associated with issues `TEST-1` and `TEST-4`.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Saving changes triggers a repository reindex to display the new associations.
-    </div>
-    </div>
-</div>
+> **Note:** Saving changes triggers a repository reindex to display the new associations.
 
 &nbsp;
 * * *

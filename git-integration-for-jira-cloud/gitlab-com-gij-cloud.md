@@ -29,16 +29,7 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Server or Data Center</b>? <a href='/git-integration-for-jira-self-managed/gitlab-gij-self-managed'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Note:** Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/gitlab-gij-self-managed).
 
 &nbsp;
 
@@ -48,33 +39,9 @@ custom_fields:
 
 GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories. Service users should switch from using username/password to using Personal Access Tokens (PAT) for GitLab.com.
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Support for Gitlab API v3 is deprecated. We recommend using <b>GitLab API v4</b> when adding new integrations for increased security.
-    </div>
-    </div>
-</div>
+> **Warning:** Support for Gitlab API v3 is deprecated. We recommend using **GitLab API v4** when adding new integrations for increased security.
 
 Learn how to connect GitLab.com git repositories via the Git Integration for Jira Cloud app.
-
-**What's on this page:**
-- [Integrate GitLab.com with Jira Cloud](#integrate-gitlabcom-with-jira-cloud)
-  - [Permissions](#permissions)
-  - [Creating a personal access token](#creating-a-personal-access-token)
-    - [Automatic token rotation](#automatic-token-rotation)
-  - [Using Git service integration](#using-git-service-integration)
-  - [Single git repository integration](#single-git-repository-integration)
-  - [Setting up GitLab web links](#setting-up-gitlab-web-links)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Working with branches and merge requests with GitLab](#working-with-branches-and-merge-requests-with-gitlab)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Creating merge requests](#creating-merge-requests)
-  - [More Integration Guides](#more-integration-guides)
 
 &nbsp;
 <hr>
@@ -129,16 +96,7 @@ There are several [Gitlab token types](https://docs.gitlab.com/ee/security/token
 
 *   [Group access token](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html)
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If two-factor authentication is enabled for your GitLab account, you need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitLab.com account for increased security.
-    </div>
-    </div>
-</div>
+> **Warning:** If two-factor authentication is enabled for your GitLab account, you need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitLab.com account for increased security.
 
 While instructions from GitLab work fine, [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for a quick step-by-step guide to get started.
 
@@ -150,16 +108,7 @@ GIJ can [automatically rotate tokens](https://docs.gitlab.com/ee/api/personal_ac
 
 The automatic rotation occurs only for the tokens used to connect GitLab integrations. Any user PATs (used to create PRs) for GitLab integrations aren't automatically rotated, and must be manually updated by each user themselves.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If a PAT is used to connect several GitLab integrations, only the integration that rotates the PAT first will still work. All other integrations will fail as they don't know the new PAT, and the old PAT has been revoked by the rotation. The Jira admin will have to generate new PATs for each failed integration and manually update them.
-    </div>
-    </div>
-</div>
+> **Note:** If a PAT is used to connect several GitLab integrations, only the integration that rotates the PAT first will still work. All other integrations will fail as they don't know the new PAT, and the old PAT has been revoked by the rotation. The Jira admin will have to generate new PATs for each failed integration and manually update them.
 
 &nbsp;
 
@@ -209,17 +158,9 @@ We recommend using the Git service integration panel[1](#logo) to connect multip
             Gitlab v9.5 and above -- only API v4.            
             ```
 
-            <div class="bbb-callout bbb--note">
-                <div class="irow">
-                <div class="ilogobox">
-                    <span class="logoimg"></span>
-                </div>
-                <div class="imsgbox">
-                    <b>Remember:</b><br>
-                    The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
-                </div>
-                </div>
-            </div>
+            > **Note:** **Remember:**
+            >
+            > The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
 
         *   **JMESPath filter** – JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
@@ -270,17 +211,12 @@ The GitLab.com git repositories are now connected to Jira Cloud.
 
 There is a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Administrators</b><br>
-        If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ Actions ➜ Edit integration** ➜ <b>Feature settings</b>.
-        <div style='margin:8px auto;margin-bottom:0px !important'><img src='/wp-content/uploads/gij-gitcloud-edit-integration-feature-cfg-req-user-PAT.png' /></div>
-    </div>
-    </div>
+> **Warning:** **Administrators**
+>
+> If you need to require users PAT for creating branches or merge requests, turn on this setting via the selected integration in Manage integrations page ➜ Actions ➜ Edit integration** ➜ **Feature settings**.
+>
+> ![](/wp-content/uploads/gij-gitcloud-edit-integration-feature-cfg-req-user-PAT.png)
+
 </div>
 
 &nbsp;
@@ -297,16 +233,7 @@ Use this information to connect the GitLab git repository to your Jira Cloud via
 
 There is a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        To access a Git repository over HTTP, use the username as the username and the PAT for the password.
-    </div>
-    </div>
-</div>
+> **Note:** To access a Git repository over HTTP, use the username as the username and the PAT for the password.
 
 &nbsp;
 
@@ -344,16 +271,7 @@ For GitLab Group, the user must have the **Write** permissions and the `api` PAT
 
 Most git integrations allow changing the default branch of the repository/project other than "master". This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and applies this setting at repository level.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
 
 #### Creating branches
 
@@ -379,16 +297,8 @@ On your Jira Cloud instance, open a Jira issue. On the Jira Git integration deve
 
 4.  Click **Create branch** to complete this process.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-branch-gij-cloud'>Create branch</a>.
-    </div>
-    </div>
-</div>
+> **Note:** For more detailed information on this feature, see [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud).
+
 <br>
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
@@ -421,38 +331,11 @@ The merge request feature works the same as merge request. On your Jira Cloud, o
 
 5.  Click **Create pull request** to complete this process. Follow the link to the PR to setup for review and approval.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Merge requests are still indexed based on branch name even if the MR title does not have the Jira issue key, as long as the branch name contains the Jira issue key.
-    </div>
-    </div>
-</div>
+> **Note:** Merge requests are still indexed based on branch name even if the MR title does not have the Jira issue key, as long as the branch name contains the Jira issue key.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).
-    </div>
-    </div>
-</div>
+> **Tip:** **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (*usually master*).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud'>Create pull/merge request</a>.
-    </div>
-    </div>
-</div>
+> **Note:** For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
 
 The merge request is listed on the developer panel of the Jira issue page.
 

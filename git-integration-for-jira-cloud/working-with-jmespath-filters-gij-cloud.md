@@ -34,10 +34,6 @@ For help writing expressions, contact [support](mailto:gijsupport@gitkraken.com)
 
 Learn more about JMESPath expressions on the [JMESPath website](http://jmespath.org/).
 
-**On this page:**
-- [Access JMESPath filter settings](#access-jmespath-filter-settings)
-- [Supported git services](#supported-git-services)
-
 &nbsp;
 * * *
 &nbsp;

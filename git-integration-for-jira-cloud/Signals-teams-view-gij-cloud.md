@@ -47,16 +47,7 @@ The expanded view displays real-time information for each team member:
 *   Progress and status of each issue
 *   Task deadlines via the timeline
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This view helps project managers quickly assess workloads and make necessary adjustments.
-    </div>
-    </div>
-</div>
+> **Note:** This view helps project managers quickly assess workloads and make necessary adjustments.
 
 As you scroll, the team member's name stays at the top while displaying their related issues below.
 

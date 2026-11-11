@@ -29,16 +29,7 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Server</b> or <b>Data Center</b>? <a href='/git-integration-for-jira-self-managed/aws-codecommit-gij-self-managed'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Note:** Using **Jira Server** or **Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/aws-codecommit-gij-self-managed).
 
 <img src='/wp-content/uploads/gij-aws-cc-logo-banner.png' width=442 height=92 style='margin:25px 0 30px 0' />
 
@@ -46,16 +37,8 @@ custom_fields:
 
 AWS CodeCommit is a git host service by Amazon Web Services to store and manage source code, related files and private Git repositories in the cloud.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        You can use the AWS CLI or the AWS CodeCommit console to track and manage your repositories.
-    </div>
-    </div>
-</div>
+> **Tip:** You can use the AWS CLI or the AWS CodeCommit console to track and manage your repositories.
+
 <br>
 
 Quickly learn how to connect AWS CodeCommit git repositories via Git Integration for Jira Cloud.
@@ -66,16 +49,7 @@ Quickly learn how to connect AWS CodeCommit git repositories via Git Integration
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT</b>
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Before performing an AWS CodeCommit integration, make sure to configure the recommended permissions.
-    </div>
-    </div>
-</div>
+> **Warning:** Before performing an AWS CodeCommit integration, make sure to configure the recommended permissions.
 
 The permissions detailed in the connect/Full feature integrations wizard are necessary for specific features to work.
 
@@ -151,39 +125,13 @@ See [this article](/git-integration-for-jira-cloud/creating-personal-access-tok
 
 CodeCommit doesn't have webhooks but it has SNS triggers requiring a <a href='https://docs.aws.amazon.com/sns/latest/dg/SendMessageToHttp.html' target='_blank'><b>subscription confirmation »</b></a>.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For webhooks to work automatically, the IAM user used to setup the connection must have the <b><i>configure webhooks automatically</i></b> permissions (<i>see Required permissions above – under IAM policy for</i> all features). If permissions has not been set, the repositories are connected but no webhooks are created.
-    </div>
-    </div>
-</div>
+> **Note:** For webhooks to work automatically, the IAM user used to setup the connection must have the ***configure webhooks automatically*** permissions (*see Required permissions above – under IAM policy for* all features). If permissions has not been set, the repositories are connected but no webhooks are created.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        While the new UI is not fully functional in AWS CodeCommits, users are required to create triggers via the old UI or with the API.
-    </div>
-    </div>
-</div>
+> **Warning:** While the new UI is not fully functional in AWS CodeCommits, users are required to create triggers via the old UI or with the API.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Shorthand:</b><br>
-        With an existing AWS CC repository, enable triggers then create an SNS topic and subscribe to that topic.
-    </div>
-    </div>
-</div>
+> **Note:** **Shorthand:**
+>
+> With an existing AWS CC repository, enable triggers then create an SNS topic and subscribe to that topic.
 
 For more information on Amazon SNS, see <a href='https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html' target='_blank'><b>Amazon SNS: Getting Started »</b></a>.
 <br>
@@ -288,29 +236,13 @@ Use the SSH git clone URL from your AWS CodeCommit repository project page. Clic
 
 The repository is now connected to Jira Cloud.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>SSH setup</b><br>
-        SSH connections are handled automatically if the PUBLIC KEY was added in the AWS IAM console and the associated PRIVATE KEY was added/uploaded on the Jira side (<i>Manage repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' style='margin:0 3px' /> Actions ➜ <b>Edit repository</b> with an SSH repository on the list</i>).
-    </div>
-    </div>
-</div>
+> **Note:** **SSH setup**
+>
+> SSH connections are handled automatically if the PUBLIC KEY was added in the AWS IAM console and the associated PRIVATE KEY was added/uploaded on the Jira side (*Manage repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository** with an SSH repository on the list*).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>SSH authentication issues</b><br>
-        If authentication issues are encountered during connecting an AWS repository to Jira, modify the original URL by inserting the <b>SSH Key ID</b> as the username. The SSH Key ID is an alphanumeric sequence provided by AWS IAM when importing a PUBLIC KEY for a particular user account in IAM.
-    </div>
-    </div>
-</div>
+> **Warning:** **SSH authentication issues**
+>
+> If authentication issues are encountered during connecting an AWS repository to Jira, modify the original URL by inserting the **SSH Key ID** as the username. The SSH Key ID is an alphanumeric sequence provided by AWS IAM when importing a PUBLIC KEY for a particular user account in IAM.
 
 For example, the original URL is:
 
@@ -353,27 +285,10 @@ For detailed information on this process, see [Linking git commits to Jira issue
 
 ## Working with branches and pull requests
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This section requires the necessary permissions for <a href='#all-features'>all features</a>.
-    </div>
-    </div>
-</div>
+> **Warning:** This section requires the necessary permissions for [all features](#all-features).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The user must have the required permissions in IAM to proceed creating the branch or pull request. Otherwise, no branch or pull request is created. For more information, see <a href='#required-permissions'>Required permissions</a> at the start of this guide.
-    </div>
-    </div>
-</div>
+> **Note:** The user must have the required permissions in IAM to proceed creating the branch or pull request. Otherwise, no branch or pull request is created. For more information, see [Required permissions](#required-permissions) at the start of this guide.
+
 <br>
 
 The Git Integration for Jira app supports creation of branches and pull requests from Jira via the developer panel.
@@ -382,16 +297,8 @@ The Git Integration for Jira app supports creation of branches and pull requests
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level. 
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
+
 <br>
 
 ### Creating branches
@@ -418,16 +325,7 @@ On your Jira Cloud, open a Jira issue. On the Jira Git development panel, click
 
 4.  Click **Create branch** to complete this process.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-branch-gij-cloud'>Create branch</a>.
-    </div>
-    </div>
-</div>
+> **Note:** For more detailed information on this feature, see [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud).
 
 The newly-created branch is now listed in the [Jira git development panel](/git-integration-for-jira-cloud/jira-git-integration-development-panel-gij-cloud) under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
@@ -435,16 +333,8 @@ The branch is also created and can be viewed under the **Branches** tab in your 
 
 ### Creating pull requests
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Before you can create a pull request, you need to create a branch first.
-    </div>
-    </div>
-</div>
+> **Warning:** Before you can create a pull request, you need to create a branch first.
+
 <br>
 
 The pull request feature works the same as merge request.
@@ -473,38 +363,11 @@ On your Jira Cloud, open the Jira issue where your previously created a branch. 
 
 5.  Click **Create pull request** to complete this setup.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
-    </div>
-    </div>
-</div>
+> **Note:** Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (usually master).
-    </div>
-    </div>
-</div>
+> **Tip:** **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (usually master).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud'>Create pull/merge request</a>.
-    </div>
-    </div>
-</div>
+> **Note:** For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
 
 The pull request is listed on the developer panel of the Jira issue page.
 

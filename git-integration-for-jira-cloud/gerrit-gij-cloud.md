@@ -29,16 +29,7 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Server</b> or <b>Data Center</b>? <a href='/git-integration-for-jira-self-managed/gerrit-gij-self-managed'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Note:** Using **Jira Server** or **Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/gerrit-gij-self-managed).
 
 &nbsp;
 
@@ -49,15 +40,6 @@ custom_fields:
 # Integrate Gerrit with Jira Cloud
 
 Quickly learn how to connect Gerrit git repositories via Git Integration for Jira Cloud.
-
-**What's on this page:**
-- [Integrate Gerrit with Jira Cloud](#integrate-gerrit-with-jira-cloud)
-  - [Git service integration](#git-service-integration)
-  - [Single repository (Manually connect via SSH/HTTP/HTTPS)](#single-repository-manually-connect-via-sshhttphttps)
-  - [Setting up Gerrit web links](#setting-up-gerrit-web-links)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Default branch](#default-branch)
-  - [More Integration Guides](#more-integration-guides)
 
 <br>
 <br>
@@ -167,16 +149,8 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 For the case with Gerrit, the default main branch is always “master”.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
+
 <br>
 
 &nbsp;

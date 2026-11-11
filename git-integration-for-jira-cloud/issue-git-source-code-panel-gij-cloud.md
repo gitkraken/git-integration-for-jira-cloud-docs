@@ -28,35 +28,12 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Features</b><br>
-        <ul style='margin-bottom:0px'>
-            <li>
-                By default, <a href="https://marketplace.atlassian.com/4984" target="_blank">Git Integration for Jira</a> has the Git Source Code Panel enabled. (<a href="#how-can-a-jira-administrator-enable-or-disable-the-issue-git-source-code-panel">How to disable</a>)
-            </li>
-            <li>
-                By default, <a href="https://marketplace.atlassian.com/1219270" target="_blank">Dev Info for Jira</a> has the Git Source Code Panel disabled. (<a href="#how-can-a-jira-administrator-enable-or-disable-the-issue-git-source-code-panel">How to enable</a>)
-            </li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **Features**
+>
+> - By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Git Source Code Panel enabled. ([How to disable](#how-can-a-jira-administrator-enable-or-disable-the-issue-git-source-code-panel))
+> - By default, [Dev Info for Jira](https://marketplace.atlassian.com/1219270) has the Git Source Code Panel disabled. ([How to enable](#how-can-a-jira-administrator-enable-or-disable-the-issue-git-source-code-panel))
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>View developer tools</b> <i>permission</i> is required to view the Git Source Code Panel (Git integration panel). Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
-    </div>
-    </div>
-</div>
+> **Warning:** The **View developer tools** *permission* is required to view the Git Source Code Panel (Git integration panel). Jira users must also have the **Browse Project** *permissions* to a project associated with a repository to view.
 
 &nbsp;
 * * *
@@ -106,17 +83,9 @@ The Git Commits Issue tab lists the git commits associated with the Jira issue, 
 
 For detailed information about this feature, see [Documentation: Jira Git integration development panel](/git-integration-for-jira-cloud/jira-issue-page-gij-cloud#jira-git-integration-development-panel).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact Us</b><br>
-        If you still have a question, reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/' target='_blank'>Support Desk</a> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Note:** **Contact Us**
+>
+> If you still have a question, reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) or email us at [support@gitkraken.com](mailto:support@gitkraken.com).
 
 ## See more features
 

@@ -27,12 +27,6 @@ custom_fields:
 
 The commit-msg hook validates commit messages before they're accepted. Use this client-side hook to ensure all commits reference valid Jira tickets.
 
-**On this page:**
-- [Understand the commit-msg hook](#understand-the-commit-msg-hook)
-- [Install the hook](#install-the-hook)
-- [Configure the script](#configure-the-script)
-- [Sample script](#sample-script)
-
 &nbsp;
 * * *
 &nbsp;
@@ -59,16 +53,7 @@ The commit-msg hook is a Python script that runs on each developer's local machi
    chmod +x .git/hooks/commit-msg
    ```
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Windows users:</b> Executable permissions are not required. To run the hook without Python installed, see <a href='https://docs.python.org/2/faq/windows.html#how-do-i-make-an-executable-from-a-python-script'>Python on Windows FAQ</a>.
-    </div>
-    </div>
-</div>
+> **Tip:** **Windows users:** Executable permissions are not required. To run the hook without Python installed, see [Python on Windows FAQ](https://docs.python.org/2/faq/windows.html#how-do-i-make-an-executable-from-a-python-script).
 
 &nbsp;
 

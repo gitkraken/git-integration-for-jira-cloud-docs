@@ -30,13 +30,6 @@ custom_fields:
 
 We are committed to providing efficient and reliable support. This page contains helpful tips to get started.
 
-**On this page:**
-- [Jira Server platform migration planning](#jira-server-platform-migration-planning)
-- [Browser compatibility](#browser-compatibility)
-- [Quick installation video](#quick-installation-video)
-- [View reindex logs](#view-reindex-logs)
-- [Atlassian support end of life](#atlassian-support-end-of-life)
-
 &nbsp;
 * * *
 &nbsp;
@@ -97,17 +90,9 @@ If an error occurs when connecting to a repository, the indexing error log displ
 
 ## Atlassian Support End of Life
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Important changes to Atlassian server and Data Center products</b><br>
-        Atlassian ended new server license sales on February 2, 2021 and ended server support on February 2, 2024. <a href='https://www.atlassian.com/migration/journey-to-cloud'>Learn what this means for you</a>.
-    </div>
-    </div>
-</div>
+> **Note:** **Important changes to Atlassian server and Data Center products**
+>
+> Atlassian ended new server license sales on February 2, 2021 and ended server support on February 2, 2024. [Learn what this means for you](https://www.atlassian.com/migration/journey-to-cloud).
 
 **Deprecated support:**
 - Java 7
@@ -120,14 +105,7 @@ With the release of the Edge browser in 2015, IE has not received major updates.
 - **Atlassian Cloud products:** Support ended March 31, 2020
 - **Atlassian server and data center products:** Last IE11-supported version released between September 2019 and March 2020
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact Us</b><br>
-        Reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Note:** **Contact Us**
+>
+> Reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) or email us at [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com).
+

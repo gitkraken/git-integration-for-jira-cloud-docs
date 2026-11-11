@@ -30,16 +30,7 @@ custom_fields:
 
 Git Integration for Jira Cloud runs on AWS instances and has fewer configuration options compared to a self-hosted Jira/GIJ instance. This document details soft limits beyond which some customers experience performance issues.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The thresholds below are guidelines rather than hard limits. In most cases, you can exceed these limits, but depending on severity, this could lead to degraded performance or halted operation. If you experience issues due to exceeding these limits, our support team will suggest alternative configurations, but we cannot guarantee performance or operation when limits are breached.
-    </div>
-    </div>
-</div>
+> **Warning:** The thresholds below are guidelines rather than hard limits. In most cases, you can exceed these limits, but depending on severity, this could lead to degraded performance or halted operation. If you experience issues due to exceeding these limits, our support team will suggest alternative configurations, but we cannot guarantee performance or operation when limits are breached.
 
 &nbsp;
 

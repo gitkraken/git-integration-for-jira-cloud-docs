@@ -28,27 +28,10 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        See also <a href='/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud'>Feature matrix of Git Integration for Jira Cloud</a> on which features are offered when using a specific type of integration.
-    </div>
-    </div>
-</div>
+> **Note:** See also [Feature matrix of Git Integration for Jira Cloud](/git-integration-for-jira-cloud/feature-matrix-of-git-integration-for-jira-cloud) on which features are offered when using a specific type of integration.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        We publish roadmaps for <a href='https://trello.com/b/Af64QYkE/git-integration-jira-cloud-roadmap'><b>Jira Cloud</b></a> and <a href='https://trello.com/b/WRrWMs87/git-integration-server-data-center-roadmap'><b>Jira Server + Data Center</b></a>. If you have questions about specific differences between Jira Server + Data Center and Jira Cloud &ndash; <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>contact us through our support desk</a>.
-    </div>
-    </div>
-</div>
+> **Note:** We publish roadmaps for [**Jira Cloud**](https://trello.com/b/Af64QYkE/git-integration-jira-cloud-roadmap) and [**Jira Server + Data Center**](https://trello.com/b/WRrWMs87/git-integration-server-data-center-roadmap). If you have questions about specific differences between Jira Server + Data Center and Jira Cloud &ndash; [contact us through our support desk](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
+
 <br>
 
 <table>
@@ -516,42 +499,27 @@ Git Integration for Jira Data Center</th>
 
 <b><sup>1</sup></b> See information for self-hosted git servers in Jira Cloud below:
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        When connecting a self-hosted git server to <a href='https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview'><b>Git Integration for Jira Cloud</b></a>, the git server must have a publicly addressable + route-able address. For example, <a href='http://github.com/'>GitHub.com</a>, <a href='https://dev.azure.com/'>MS Azure</a>, <a href='http://gitlab.com/'>GitLab.com</a> and other services hosted on the "public cloud" work without any administrator interventions.
-        <p style='margin-bottom:-10px'>For more information, see <a href='/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud'>Whitelist BigBrassBand Cloud</a>.</p>
-    </div>
-    </div>
-</div>
+> **Warning:** When connecting a self-hosted git server to [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview), the git server must have a publicly addressable + route-able address. For example, [GitHub.com](http://github.com/), [MS Azure](https://dev.azure.com/), [GitLab.com](http://gitlab.com/) and other services hosted on the "public cloud" work without any administrator interventions.
+>
+> For more information, see [Whitelist BigBrassBand Cloud](/git-integration-for-jira-cloud/allow-list-whitelist-bigbrassband-cloud-gij-cloud).
+
 <br>
 
 <sup><b>2</b></sup> No support on Jira Cloud for third-party publishing to Jira Activity Stream.
 
 <b><sup>3</sup></b> See JQL examples below:
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Git Integration for Jira Server / Jira Data Center</b>
-        <ul>
-            <li><code>gitCommitsReferenced is not empty</code></li>    <li><code>gitCommitsReferenced is empty</code></li>
-            <li><code>gitBranch in (Version-5.2, Version-5.3)</code></li>
-        </ul>
-        <p><b>Git Integration for Jira Cloud</b></p>
-        <ul style=''>
-            <li><code>development[commits].all > 15</code></li>
-            <li><code>development[pullrequests].open > 0</code></li>
-        </li>
-    </div>
-    </div>
-</div>
+> **Note:** **Git Integration for Jira Server / Jira Data Center**
+>
+> - `gitCommitsReferenced is not empty`
+> - `gitCommitsReferenced is empty`
+> - `gitBranch in (Version-5.2, Version-5.3)`
+>
+> **Git Integration for Jira Cloud**
+>
+> - `development[commits].all > 15`
+> - `development[pullrequests].open > 0`
+
 <br>
 
 <b><sup>4</sup></b> <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>GIT INTEGRATION: JIRA CLOUD</b> Smart commit email notifications will fail when using <a href='/git-integration-for-jira-cloud/jira-development-information-gij-cloud'>Jira Development Information</a>.
@@ -560,27 +528,12 @@ Git Integration for Jira Data Center</th>
 
 <b><sup>6</sup></b> See notes below:
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Git Integration for Jira Server | Git Integration for Jira Data Center</b><br>
-        Jira administrators have the option to disable this feature.
-    </div>
-    </div>
-</div>
+> **Tip:** **Git Integration for Jira Server | Git Integration for Jira Data Center**
+>
+> Jira administrators have the option to disable this feature.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Git Integration for Jira Cloud</b><br>
-        There is no setting to disable this feature.
-    </div>
-</div>
-</div>
+> **Warning:** **Git Integration for Jira Cloud**
+>
+> There is no setting to disable this feature.
+
 <br>

@@ -26,42 +26,14 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Supported webhook events:</b>
-        <ul style='margin-bottom:0px !important'>
-            <li>Push events</li>
-            <li>Merge request events</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Tip:** **Supported webhook events:**
+>
+> - Push events
+> - Merge request events
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>GitLab System Hooks:</b> For self-hosted GitLab instances, use System Hooks (Admin Area ➜ System Hooks ➜ Merge Request events) to reduce configuration time.
-    </div>
-    </div>
-</div>
+> **Tip:** **GitLab System Hooks:** For self-hosted GitLab instances, use System Hooks (Admin Area ➜ System Hooks ➜ Merge Request events) to reduce configuration time.
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Prerequisite:</b> Enable webhooks in the Git Integration for Jira app before proceeding. See <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing Triggers - Getting Started</b></a>.
-    </div>
-    </div>
-</div>
+> **Warning:** **Prerequisite:** Enable webhooks in the Git Integration for Jira app before proceeding. See [**Indexing Triggers - Getting Started**](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud).
 
 &nbsp;
 

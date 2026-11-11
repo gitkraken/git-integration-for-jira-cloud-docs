@@ -27,16 +27,7 @@ custom_fields:
 
 Webhook indexing integration enables git servers behind firewalls to send data to Jira. This integration type has limited features, including no branch or pull/merge request creation from Jira.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Supported git host services: GitHub, GitLab, Microsoft, and Gerrit.
-    </div>
-    </div>
-</div>
+> **Note:** Supported git host services: GitHub, GitLab, Microsoft, and Gerrit.
 
 &nbsp;
 
@@ -57,16 +48,7 @@ Webhook indexing integration enables git servers behind firewalls to send data t
 
 ## Step 3: Configure Webhooks in Your Git Host
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Important:</b> Don't click <b>Finish</b> yet! First, set up webhooks in your git host service using the information on this screen.
-    </div>
-    </div>
-</div>
+> **Warning:** **Important:** Don't click **Finish** yet! First, set up webhooks in your git host service using the information on this screen.
 
 <img src='/wp-content/uploads/gij-gitcloud-webhook-indexing-data-sample-info-2025.png' style='display:block;max-width:100%;margin:25px auto 35px auto' />
 
@@ -75,16 +57,7 @@ Webhook indexing integration enables git servers behind firewalls to send data t
 3. Create a webhook in your git host using the copied information.
 4. Return to the wizard and click **Finish**.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Webhook events from this integration also appear in the indexing triggers log: <b>Git integration sidebar</b> ➜ <b>Indexing triggers</b> ➜ <b>Indexing triggers log</b>.
-    </div>
-    </div>
-</div>
+> **Tip:** Webhook events from this integration also appear in the indexing triggers log: **Git integration sidebar** ➜ **Indexing triggers** ➜ **Indexing triggers log**.
 
 For detailed information, see [Webhook indexing integration guide](/git-integration-for-jira-cloud/webhook-indexing-integration-gij-cloud/).
 

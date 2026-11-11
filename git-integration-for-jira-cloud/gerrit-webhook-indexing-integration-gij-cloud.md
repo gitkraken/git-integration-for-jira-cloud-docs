@@ -26,21 +26,7 @@ custom_fields:
 ---
 <kbd>Last updated: July 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-    Webhooks are not built into Gerrit by default. You must install and configure the Gerrit webhook plugin before using webhooks with Git Integration for Jira Cloud.        
-    </div>
-    </div>
-</div>
-
-**On this page:**
-- [Install the webhook plugin](#install-the-webhook-plugin)
-- [Configure webhooks](#configure-webhooks)
-- [Trigger webhooks manually](#trigger-webhooks-manually)
+> **Note:** Webhooks are not built into Gerrit by default. You must install and configure the Gerrit webhook plugin before using webhooks with Git Integration for Jira Cloud.
 
 &nbsp;
 * * *
