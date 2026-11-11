@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "table"
+    card_color: "green"
+    card_description: "Compare features available across different integration types including git service integrations, single repositories, and webhook indexing"
 ---
 <kbd>Last updated: March 2026</kbd>
 

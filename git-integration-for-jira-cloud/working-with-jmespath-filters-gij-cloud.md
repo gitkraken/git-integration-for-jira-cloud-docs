@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "how-to-articles-gij-cloud"
     page_type: "content"
+    card_icon: "filter"
+    card_color: "amber"
+    card_description: "Learn how to use JMESPath query language to filter API results and control which repositories are integrated with Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

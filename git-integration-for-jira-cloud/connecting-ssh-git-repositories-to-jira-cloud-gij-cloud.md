@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "how-to-articles-gij-cloud"
     page_type: "content"
+    card_icon: "terminal-2"
+    card_color: "amber"
+    card_description: "Learn how to connect SSH git repositories to Jira Cloud, including SSH key generation and configuration"
 ---
 <kbd>Last updated: March 2026</kbd>
 

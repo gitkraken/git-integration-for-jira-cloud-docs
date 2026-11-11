@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 140
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "cloud-upload"
+    card_color: "green"
+    card_description: "Step-by-step guide for migrating Git Integration for Jira Data Center to Jira Cloud using the Jira Cloud Migration Assistant (JCMA)"
 ---
 <kbd>Last updated: August 2026</kbd>
 

@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "how-to-articles-gij-cloud"
     page_type: "content"
+    card_icon: "shield-lock"
+    card_color: "amber"
+    card_description: "Configure Git Integration for Jira Cloud to require personal access tokens for user actions like creating branches and pull requests"
 ---
 <kbd>Last updated: March 2026</kbd>
 

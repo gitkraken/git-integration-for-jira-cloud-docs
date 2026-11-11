@@ -21,11 +21,13 @@ custom_fields:
     nav_label: "Features"
     nav_order: 90
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 <kbd>Last updated: March 2026</kbd>
 
 The Features hub explains what Jira administrators and Jira users can do with Git Integration for Jira Cloud after repositories are connected. Use this page to jump to the feature area you need, such as issue views, repository workflows, search, deep linking, or app settings.
+
+---
 
 | Feature area | Best for | Start here |
 | :--- | :--- | :--- |

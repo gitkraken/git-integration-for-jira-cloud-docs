@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 120
     nav_parent: "integration-guide-gij-cloud"
     page_type: "content"
+    card_icon: "webhook"
+    card_color: "purple"
+    card_description: "Learn how to configure webhook indexing integration for Git Integration for Jira Cloud to work with git servers behind firewalls"
 ---
 <kbd>Last updated: March 2026</kbd>
 

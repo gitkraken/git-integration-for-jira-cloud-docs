@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "infinity"
+    card_color: "green"
+    card_description: "Learn how to use CI/CD for Jira Cloud to connect your DevOps pipelines with Jira's builds and deployments features"
 ---
 <kbd>Last updated: March 2026</kbd>
 

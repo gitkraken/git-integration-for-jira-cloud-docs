@@ -21,11 +21,13 @@ custom_fields:
     nav_label: "Documentation"
     nav_order: 60
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 <kbd>Last updated: March 2026</kbd>
 
 Git Integration for Jira Cloud documentation explains how Jira administrators and Jira users install the app, connect repositories, and work with Git data inside Jira Cloud. Use this page as the entry point when you need the correct guide for setup, permissions, repository access, or issue-level Git workflows.
+
+---
 
 **Quick Start**
 

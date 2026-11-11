@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 120
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "list-details"
+    card_color: "green"
+    card_description: "Learn how to view git commits associated with Jira issues and projects using the Git Commits Issue Tab and Project Page"
 ---
 <kbd>Last updated: March 2026</kbd>
 

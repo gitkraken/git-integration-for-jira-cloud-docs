@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "git-pull-request"
+    card_color: "green"
+    card_description: "Learn how to create branches and pull/merge requests directly from Jira issues using Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

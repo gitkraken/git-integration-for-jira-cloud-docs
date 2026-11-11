@@ -17,11 +17,14 @@ llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
-    nav_category: "getting-started"
+    nav_category: "getting-started-gij-cloud"
     nav_label: "Admin Getting Started Guide"
     nav_order: 10
-    nav_parent: "getting-started"
+    nav_parent: "getting-started-gij-cloud"
     page_type: "content"
+    card_icon: "rocket"
+    card_color: "green"
+    card_description: "Essential configuration guide for Jira Admins setting up Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

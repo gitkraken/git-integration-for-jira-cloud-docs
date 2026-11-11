@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 170
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "bolt"
+    card_color: "blue"
+    card_description: "How to configure indexing triggers for faster repository updates in Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

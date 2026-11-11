@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "how-to-articles-gij-cloud"
     page_type: "content"
+    card_icon: "key"
+    card_color: "amber"
+    card_description: "Create personal access tokens (PATs) for GitHub, GitLab, Azure DevOps, TFS, and AWS CodeCommit to authenticate with Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

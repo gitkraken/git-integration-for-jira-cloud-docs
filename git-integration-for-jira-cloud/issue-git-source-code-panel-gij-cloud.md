@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "code"
+    card_color: "green"
+    card_description: "Learn how to view commits, branches, pull requests, and tags in the Issue Git Source Code Panel on Jira issues"
 ---
 <kbd>Last updated: March 2026</kbd>
 

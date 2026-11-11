@@ -17,11 +17,14 @@ llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
-    nav_category: "app-editions-standard-vs-advanced"
+    nav_category: "app-editions-standard-vs-advanced-gij-cloud"
     nav_label: "GIJ Standard vs Advanced"
     nav_order: 10
-    nav_parent: "app-editions-standard-vs-advanced"
+    nav_parent: "app-editions-standard-vs-advanced-gij-cloud"
     page_type: "content"
+    card_icon: "scale"
+    card_color: "amber"
+    card_description: "Learn about the differences between the Standard and Advanced versions of Git Integration for Jira"
 ---
 <kbd>Last updated: March 2026</kbd>
 

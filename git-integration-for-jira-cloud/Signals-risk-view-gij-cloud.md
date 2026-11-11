@@ -17,7 +17,7 @@ llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
-    nav_category: "gij-advanced-features"
+    nav_category: "gij-advanced-features-gij-cloud"
     nav_label: "Signals Risk View Settings"
     nav_order: 60
     nav_parent: "signals-gij-cloud"

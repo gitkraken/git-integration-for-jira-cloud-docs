@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "database"
+    card_color: "green"
+    card_description: "Learn how Git Integration for Jira Cloud indexes commits, branches, tags, and pull requests using classic indexing"
 ---
 <kbd>Last updated: March 2026</kbd>
 

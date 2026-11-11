@@ -21,11 +21,13 @@ custom_fields:
     nav_label: "Integration Guide"
     nav_order: 80
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 <kbd>Last updated: March 2026</kbd>
 
 The Integration Guide helps Jira administrators choose the right setup document for each supported git host in Git Integration for Jira Cloud. Use this page when you need the correct host-specific guide for GitHub, GitLab, Azure DevOps, Bitbucket, AWS CodeCommit, or a Plain Git repository.
+
+---
 
 | Git host or setup path | Best for | Typical integration method | Start here when you need |
 | :--- | :--- | :--- | :--- |

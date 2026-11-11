@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "external-link"
+    card_color: "green"
+    card_description: "Learn how to use deep linking in Git Integration for Jira Cloud to open repositories, commits, branches, and tags in GitKraken or GitLens"
 ---
 <kbd>Last updated: March 2026</kbd>
 

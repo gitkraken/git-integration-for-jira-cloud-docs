@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "blue"
+    card_description: "How to link Git commits, branches, and pull requests to Jira issues"
 ---
 <kbd>Last updated: March 2026</kbd>
 

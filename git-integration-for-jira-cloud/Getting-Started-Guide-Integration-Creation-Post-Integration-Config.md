@@ -17,7 +17,7 @@ llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
-    nav_category: "getting-started"
+    nav_category: "getting-started-gij-cloud"
     nav_label: "Integration Creation and Post Integration Configuration"
     nav_order: 20
     nav_parent: "getting-started-guide"

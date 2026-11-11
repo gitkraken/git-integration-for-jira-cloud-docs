@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "stack-2"
+    card_color: "green"
+    card_description: "Learn how to use the Git Roll Up Issue Tab to view commit summaries, file changes, and developer activity in Jira issues"
 ---
 <kbd>Last updated: March 2026</kbd>
 

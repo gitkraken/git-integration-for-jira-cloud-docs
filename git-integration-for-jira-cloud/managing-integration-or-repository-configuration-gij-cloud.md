@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "adjustments"
+    card_color: "blue"
+    card_description: "How to manage Git integrations and repositories in Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

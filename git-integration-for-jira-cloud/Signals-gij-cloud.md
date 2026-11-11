@@ -17,11 +17,14 @@ llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
-    nav_category: "gij-advanced-features"
+    nav_category: "gij-advanced-features-gij-cloud"
     nav_label: "Signals – GIJ Advanced"
     nav_order: 20
-    nav_parent: "gij-advanced-features"
+    nav_parent: "gij-advanced-features-gij-cloud"
     page_type: "content"
+    card_icon: "chart-line"
+    card_color: "purple"
+    card_description: "Learn how to use Signals (Team Insights for Jira) to monitor team activity, track sprint progress, and identify work risks in Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

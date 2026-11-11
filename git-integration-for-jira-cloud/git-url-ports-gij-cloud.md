@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "plug"
+    card_color: "blue"
+    card_description: "Default port configurations for Git URL protocols"
 ---
 <kbd>Last updated: March 2026</kbd>
 

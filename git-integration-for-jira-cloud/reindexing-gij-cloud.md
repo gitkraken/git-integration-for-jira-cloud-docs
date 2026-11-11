@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 160
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "refresh"
+    card_color: "blue"
+    card_description: "How to manually reindex repositories in Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

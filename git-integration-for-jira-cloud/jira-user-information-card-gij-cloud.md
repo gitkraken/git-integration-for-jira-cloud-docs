@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 130
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "user-circle"
+    card_color: "blue"
+    card_description: "How to view user information cards in Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

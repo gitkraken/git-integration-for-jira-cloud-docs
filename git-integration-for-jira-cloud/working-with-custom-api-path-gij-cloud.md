@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "how-to-articles-gij-cloud"
     page_type: "content"
+    card_icon: "api"
+    card_color: "amber"
+    card_description: "Configure Custom API Path to filter and retrieve specific repositories from GitHub, GitLab, and Bitbucket integrations in Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

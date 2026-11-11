@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "download"
+    card_color: "blue"
+    card_description: "How to install Git Integration for Jira Cloud from the Atlassian Marketplace"
 ---
 <kbd>Last updated: March 2026</kbd>
 

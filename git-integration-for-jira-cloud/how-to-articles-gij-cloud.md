@@ -21,11 +21,13 @@ custom_fields:
     nav_label: "How-to articles"
     nav_order: 110
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 <kbd>Last updated: March 2026</kbd>
 
 The How-to Articles hub groups step-by-step Git Integration for Jira Cloud tasks that do not fit into a single setup or feature guide. Use this page when you need targeted instructions for pricing, SSH setup, JMESPath filtering, linking behavior, permissions, or reindex trigger workflows.
+
+---
 
 | Task type | Start here when you need | Related section |
 | :--- | :--- | :--- |

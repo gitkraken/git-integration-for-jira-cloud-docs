@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "integration-guide-gij-cloud"
     page_type: "content"
+    card_icon: "brand-github"
+    card_color: "purple"
+    card_description: "Integrate GitHub.com repositories with Jira Cloud using Git Integration for Jira"
 ---
 <kbd>Last updated: March 2026</kbd>
 

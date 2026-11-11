@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "folders"
+    card_color: "blue"
+    card_description: "View and browse Git repositories in Jira Cloud using the Repository browser"
 ---
 <kbd>Last updated: March 2026</kbd>
 

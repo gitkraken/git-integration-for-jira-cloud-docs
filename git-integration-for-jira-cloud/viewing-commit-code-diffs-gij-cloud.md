@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "file-diff"
+    card_color: "blue"
+    card_description: "How to view commit code differences in Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 
