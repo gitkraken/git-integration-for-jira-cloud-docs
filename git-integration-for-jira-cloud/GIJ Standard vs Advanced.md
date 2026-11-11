@@ -17,10 +17,10 @@ llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
-    nav_category: "app-editions-standard-vs-advanced-gij-cloud"
+    nav_category: "gijc-app-editions-standard-vs-advanced"
     nav_label: "GIJ Standard vs Advanced"
     nav_order: 10
-    nav_parent: "app-editions-standard-vs-advanced-gij-cloud"
+    nav_parent: "gijc-app-editions-standard-vs-advanced"
     page_type: "content"
     card_icon: "scale"
     card_color: "amber"

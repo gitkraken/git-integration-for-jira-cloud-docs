@@ -17,7 +17,7 @@ llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
-    nav_category: "app-editions-standard-vs-advanced-gij-cloud"
+    nav_category: "gijc-app-editions-standard-vs-advanced"
     nav_label: "App Editions: Standard vs. Advanced"
     nav_order: 20
     nav_parent: ""

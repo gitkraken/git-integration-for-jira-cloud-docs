@@ -17,10 +17,10 @@ llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
-    nav_category: "getting-started-gij-cloud"
+    nav_category: "gijc-getting-started"
     nav_label: "Known Performance Limitations"
     nav_order: 30
-    nav_parent: "getting-started-gij-cloud"
+    nav_parent: "gijc-getting-started"
     page_type: "content"
     card_icon: "gauge"
     card_color: "green"
