@@ -38,16 +38,7 @@ Git Integration for Jira Cloud documentation explains how Jira administrators an
 
 <br>
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This documentation covers <b>v1.5.12-AC</b> features. For information on released features, see <a href='/git-integration-for-jira-cloud/git-integration-for-jira-cloud-release-notes-gij-cloud'>Release notes</a>.
-    </div>
-    </div>
-</div>
+> **Tip:** This documentation covers **v1.5.12-AC** features. For information on released features, see [Release notes](/git-integration-for-jira-cloud/git-integration-for-jira-cloud-release-notes-gij-cloud).
 
 &nbsp;
 * * *
@@ -71,17 +62,9 @@ For permissions requirements, see [App platform and system permissions requireme
 
 &nbsp;
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <p style='font-size:18px;font-weight:bold;'>Get new product notifications and feature updates for Git Integration for Jira.</p>
-        <p style='margin-bottom:-10px;'><a href='http://eepurl.com/hhfbwz'>Subscribe to our mailing list</a></p>
-    </div>
-    </div>
-</div>
+> **Note:** Get new product notifications and feature updates for Git Integration for Jira.
+>
+> [Subscribe to our mailing list](http://eepurl.com/hhfbwz)
 
 &nbsp;
 

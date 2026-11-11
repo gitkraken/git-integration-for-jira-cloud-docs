@@ -25,38 +25,13 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Supported webhook events:</b>
-        <ul style='margin-bottom:0px;'>
-            <li>Repository - Push</li>
-            <li>Pull request - Created</li>
-            <li>Pull request - Updated</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **Supported webhook events:**
+>
+> - Repository - Push
+> - Pull request - Created
+> - Pull request - Updated
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Prerequisite:</b> Enable webhooks in the Git Integration for Jira app before proceeding. See <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing triggers - Getting started</b></a>.
-    </div>
-    </div>
-</div>
-
-**On this page:**
-- [Create an SNS topic](#create-an-sns-topic)
-- [Add the webhook URL subscription](#add-the-webhook-url-subscription)
-- [Configure the repository trigger](#configure-the-repository-trigger)
-- [Verify the configuration](#verify-the-configuration)
+> **Warning:** **Prerequisite:** Enable webhooks in the Git Integration for Jira app before proceeding. See [**Indexing triggers - Getting started**](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud).
 
 &nbsp;
 * * *
@@ -114,16 +89,7 @@ AWS CodeCommit uses SNS (Simple Notification Service) topics to send webhook not
 
 5. Click **Create subscription**.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        AWS CodeCommit sends a <code>SubscriptionConfirmation</code> request to the endpoint URL. Git Integration for Jira automatically processes and confirms this request. If confirmation fails, the subscription remains in 'Pending confirmation' status for three days.
-    </div>
-    </div>
-</div>
+> **Tip:** AWS CodeCommit sends a `SubscriptionConfirmation` request to the endpoint URL. Git Integration for Jira automatically processes and confirms this request. If confirmation fails, the subscription remains in 'Pending confirmation' status for three days.
 
 &nbsp;
 
@@ -167,24 +133,7 @@ AWS CodeCommit uses SNS (Simple Notification Service) topics to send webhook not
 
 If errors appear, verify your AWS trigger settings and reindex the integration.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Webhooks are automatically registered for each AWS CodeCommit repository. The connecting service user must have the <a href='/git-integration-for-jira-cloud/aws-codecommit-gij-cloud#required-permissions'><b>basic + all features</b> required permissions</a>.
-    </div>
-    </div>
-</div>
+> **Note:** Webhooks are automatically registered for each AWS CodeCommit repository. The connecting service user must have the [**basic + all features** required permissions](/git-integration-for-jira-cloud/aws-codecommit-gij-cloud#required-permissions).
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Webhooks are deleted when you disconnect the AWS CodeCommit integration from Git Integration for Jira Cloud.
-    </div>
-    </div>
-</div>
+> **Note:** Webhooks are deleted when you disconnect the AWS CodeCommit integration from Git Integration for Jira Cloud.
+

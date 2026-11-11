@@ -33,13 +33,6 @@ Git Integration for Jira calls the Custom API Path during:
 - Scheduled reindexing
 - Manual reindexing
 
-**On this page:**
-- [Access Custom API Path settings](#access-custom-api-path-settings)
-- [GitHub.com examples](#githubcom-examples)
-- [GitHub Enterprise examples](#github-enterprise-examples)
-- [GitLab.com and GitLab CE/EE examples](#gitlabcom-and-gitlab-ceee-examples)
-- [Bitbucket Cloud examples](#bitbucket-cloud-examples)
-
 &nbsp;
 * * *
 &nbsp;
@@ -234,31 +227,12 @@ Returns projects within a group and all its nested subgroups.
 
 For more information, see the [GitLab API documentation](https://docs.gitlab.com/ee/api/projects.html).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>GitLab API version support:</b><br>
-        <ul style='margin-bottom:0px'>
-            <li>GitLab v9.5 and later: API v4 only</li>
-            <li>GitLab v9.0 to v9.4.x: API v3 and API v4</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **GitLab API version support:**
+>
+> - GitLab v9.5 and later: API v4 only
+> - GitLab v9.0 to v9.4.x: API v3 and API v4
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The GitLab.com API returns all public projects. For GitLab.com, use JMESPath filters instead of Custom API Path when possible. See <a href='/git-integration-for-jira-cloud/working-with-jmespath-filters'>Working with JMESPath filters</a>.
-    </div>
-    </div>
-</div>
+> **Note:** The GitLab.com API returns all public projects. For GitLab.com, use JMESPath filters instead of Custom API Path when possible. See [Working with JMESPath filters](/git-integration-for-jira-cloud/working-with-jmespath-filters).
 
 &nbsp;
 * * *
@@ -280,16 +254,7 @@ Returns repositories for the specified workspace ID.
 
 **Example:** `/2.0/repositories/acme-workspace`
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Custom API Path and JMESPath filters are not mutually exclusive. You can use one, both, or neither.
-    </div>
-    </div>
-</div>
+> **Tip:** Custom API Path and JMESPath filters are not mutually exclusive. You can use one, both, or neither.
 
 &nbsp;
 

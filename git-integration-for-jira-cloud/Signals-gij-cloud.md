@@ -39,16 +39,7 @@ Signals monitors git history and Jira team activity at the project, epic, and sp
 
 Signals provides a complete view of team work and progress, highlighting at-risk items based on activity and progress metrics.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Install Git Integration for Jira Cloud to add Git data to your views and enhance planning workflows.
-    </div>
-    </div>
-</div>
+> **Tip:** Install Git Integration for Jira Cloud to add Git data to your views and enhance planning workflows.
 
 &nbsp;
 
@@ -139,16 +130,7 @@ To access Signals from the Jira dashboard, navigate to **Apps** ➜ **Git Integr
 
 Signals displays Git activity across projects and issues, revealing collaboration patterns and development progress.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Analyze Git activity to identify trends, track progress, and make data-driven decisions.
-    </div>
-    </div>
-</div>
+> **Note:** Analyze Git activity to identify trends, track progress, and make data-driven decisions.
 
 &nbsp;
 
@@ -156,16 +138,7 @@ Signals displays Git activity across projects and issues, revealing collaboratio
 
 View timelines by epics, issues, and sub-tasks. Filter by project, sprint, team members, issue status, and more. Sort tasks by days since last status update or by commit count.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        These sorting options reveal workflow bottlenecks and help you stay organized.
-    </div>
-    </div>
-</div>
+> **Tip:** These sorting options reveal workflow bottlenecks and help you stay organized.
 
 &nbsp;
 
@@ -187,16 +160,7 @@ Signals displays your team's Jira and Git activity over time, enabling you to tr
 
 Signals shows Jira activity for all users. When you install [Git Integration for Jira](https://www.gitkraken.com/git-integration-for-jira), branches, commits, pull requests, and tags appear automatically in your views.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This combination enhances team workflows with no additional setup required.
-    </div>
-    </div>
-</div>
+> **Tip:** This combination enhances team workflows with no additional setup required.
 
 &nbsp;
 

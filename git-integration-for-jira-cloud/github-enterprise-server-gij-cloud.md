@@ -25,38 +25,12 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        These instructions apply to self-hosted GitHub Enterprise Server.
-    </div>
-    </div>
-</div>
+> **Tip:** These instructions apply to self-hosted GitHub Enterprise Server.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including <a href='https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users'><b>EMU</b></a>) plans), please go to <a href='/git-integration-for-jira-cloud/github-com-gij-cloud'>this page</a>.
-    </div>
-    </div>
-</div>
+> **Note:** For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans), please go to [this page](/git-integration-for-jira-cloud/github-com-gij-cloud).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Server or Data Center</b>? <a href='/git-integration-for-jira-data-center/github-enterprise-server-gij-self-managed'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Note:** Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-data-center/github-enterprise-server-gij-self-managed).
+
 <br>
 
 &nbsp;
@@ -70,24 +44,6 @@ custom_fields:
 
 Quickly learn how to connect GitHub Enterprise Server git repositories via Git Integration for Jira Cloud.
 
-**What's on this page:**
-- [Integrate GitHub Enterprise Server with Jira Cloud](#integrate-github-enterprise-server-with-jira-cloud)
-  - [Creating a personal access token](#creating-a-personal-access-token)
-    - [Classic personal access token](#classic-personal-access-token)
-    - [Fine-grained personal access token](#fine-grained-personal-access-token)
-  - [Using Git service integration](#using-git-service-integration)
-  - [Single git repository integration](#single-git-repository-integration)
-  - [Setting up GitHub Enterprise Server permissions](#setting-up-github-enterprise-server-permissions)
-    - [Default repository permission](#default-repository-permission)
-    - [Teams and collaborators](#teams-and-collaborators)
-  - [Setting up GitHub web links](#setting-up-github-web-links)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Working with branches and pull requests with GitHub Enterprise Server](#working-with-branches-and-pull-requests-with-github-enterprise-server)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Creating pull requests](#creating-pull-requests)
-  - [More Integration Guides](#more-integration-guides)
-
 <br>
 <br>
 <hr>
@@ -96,16 +52,8 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
 
 ## Creating a personal access token
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If two-factor authentication is enabled for your GitHub Enterprise Server account, you will need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitHub Enterprise Server account for increased security.
-    </div>
-    </div>
-</div>
+> **Warning:** If two-factor authentication is enabled for your GitHub Enterprise Server account, you will need to create a personal access token (PAT) to access your git repositories. Enable two-factor authentication in your GitHub Enterprise Server account for increased security.
+
 <br>
 
 While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) for a quick step-by-step guide to get you started.
@@ -179,16 +127,8 @@ GitHub Enterprise Server repositories are now connected to Jira Cloud.
 
 ## Single git repository integration
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
-    </div>
-    </div>
-</div>
+> **Tip:** This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
+
 <br>
 
 This process requires an existing GitHub Enterprise Server git repository. Look for the the repository clone URL on the repository project page.
@@ -265,29 +205,14 @@ To give a member additional access, they must be added to a team or make them co
 
     ![](/wp-content/uploads/gij-github-manage-team-repo-permission-c.png)
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Organization Permissions</b><br>
-        While users have configured PAT for repository access, users in a GitHub Organization must at least have **Read** permissions. This allows them to view commits and smart commits (if enabled) of connected GitHub Organization repositories inside Jira.
-    </div>
-    </div>
-</div>
+> **Note:** **Organization Permissions**
+>
+> While users have configured PAT for repository access, users in a GitHub Organization must at least have **Read** permissions. This allows them to view commits and smart commits (if enabled) of connected GitHub Organization repositories inside Jira.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>GitHub Organization</b><br>
-        For collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
-    </div>
-    </div>
-</div>
+> **Note:** **GitHub Organization**
+>
+> For collaborators and commit authors, set these users to have **Write** permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
+
 <br>
 
 For more information on organization teams, see [**GitHub: Organizing Members into Teams »**](https://help.github.com/articles/organizing-members-into-teams/).
@@ -325,16 +250,8 @@ For GitHub Organization, the user must have the **Write** permissions and the�
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
+
 <br>
 
 ### Creating branches
@@ -361,16 +278,8 @@ On your Jira Cloud, open a Jira issue. On the Jira Git integration development p
 
 3.  Enter a **Branch name** or leave it as is (recommended).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-branch-gij-cloud'>Create branch</a>.
-    </div>
-    </div>
-</div>
+> **Note:** For more detailed information on this feature, see [Create branch](/git-integration-for-jira-cloud/create-branch-gij-cloud).
+
 <br>
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
@@ -401,38 +310,12 @@ The pull request feature works the same as merge request. On your Jira Cloud, op
 
 4.  Enter a descriptive **Title** or leave it as is _(recommended)_.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
-    </div>
-    </div>
-</div>
+> **Note:** Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).
-    </div>
-    </div>
-</div>
+> **Note:** **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (*usually master*).
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For more detailed information on this feature, see <a href='/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud'>Create pull/merge request</a>.
-    </div>
-    </div>
-</div>
+> **Note:** For more detailed information on this feature, see [Create pull/merge request](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
+
 <br>
 
 The pull request is listed on the developer panel of the Jira issue page.

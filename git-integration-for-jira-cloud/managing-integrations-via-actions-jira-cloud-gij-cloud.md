@@ -43,16 +43,8 @@ Use the following actions to manage integrations in Jira Cloud:
 | _**View logs**_ | Opens a dialog showing the indexing log of the selected integration. |
 | _**Disconnect integration**_ | Disconnects the selected integration and removes its settings from the Git Integration for Jira Cloud app integration configuration page. |
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>Show integration repositories</b> command is deprecated. Integration repositories are now on the <b>Manage repositories</b> page.
-    </div>
-    </div>
-</div>
+> **Note:** The **Show integration repositories** command is deprecated. Integration repositories are now on the **Manage repositories** page.
+
 <br>
 
 Jump to [Edit integration](/git-integration-for-jira-cloud/edit-integration-gij-cloud) settings page documentation.
@@ -72,18 +64,12 @@ Use the following actions to manage repositories in Jira Cloud:
 | _**View log**_ | Opens a dialog showing the indexing log of the selected repository. |
 | _**Disable repository**_ | Disables specific repositories if you are not using them with Jira. Enable them again when needed. |
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Disconnecting unused repositories</b><br>
-        Disconnect or disable selected repositories if they are not used for faster integration reindex.
-        <p style=margin-bottom:-10px>To disconnect a repository integration (plain git), use the relative action command from the Manage integrations page to remove its settings and clone data from Git Integration for Jira Cloud.</p>
-    </div>
-    </div>
-</div>
+> **Tip:** **Disconnecting unused repositories**
+>
+> Disconnect or disable selected repositories if they are not used for faster integration reindex.
+>
+> To disconnect a repository integration (plain git), use the relative action command from the Manage integrations page to remove its settings and clone data from Git Integration for Jira Cloud.
+
 <br>
 
 Jump to [Edit repository](/git-integration-for-jira-cloud/edit-repository-gij-cloud) settings page documentation.

@@ -35,18 +35,6 @@ This page documents known issues and limitations in Git Integration for Jira Clo
 | SSH automation limits | Single SSH repositories with Automation for Jira | Automation triggers do not run | Use HTTPS instead |
 | Web-linking and UI issues | Plain Git integrations or sidebar rendering | Delayed updates or stale links | Re-enable integration or wait for Atlassian-side fix |
 
-**On this page:**
-- [Repository limits per integration](#repository-limits-per-integration)
-- [2GB object size limit](#2gb-object-size-limit)
-- [Smart commits user search issue](#smart-commits-user-search-issue)
-- [Microsoft pull request status updates](#microsoft-pull-request-status-updates)
-- [Microsoft PAT organization permission](#microsoft-pat-organization-permission)
-- [SSH repository automation triggers](#ssh-repository-automation-triggers)
-- [Tag loading timeout](#tag-loading-timeout)
-- [Left sidebar loading delay](#left-sidebar-loading-delay)
-- [Duplicate Smart Commit commands](#duplicate-smart-commit-commands)
-- [Web links not updating](#web-links-not-updating)
-
 &nbsp;
 * * *
 &nbsp;

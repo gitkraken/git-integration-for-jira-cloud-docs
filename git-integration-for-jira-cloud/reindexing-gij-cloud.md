@@ -25,17 +25,9 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Permissions</b><br>
-        You must be a member of the <b>jira-developers</b> <i>group</i> to start reindex.
-    </div>
-    </div>
-</div>
+> **Warning:** **Permissions**
+>
+> You must be a member of the **jira-developers** *group* to start reindex.
 
 &nbsp;
 

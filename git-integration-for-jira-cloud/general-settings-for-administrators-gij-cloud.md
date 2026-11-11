@@ -25,16 +25,7 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only Jira Administrators can access the General settings page.
-    </div>
-    </div>
-</div>
+> **Note:** Only Jira Administrators can access the General settings page.
 
 The General settings page contains configuration options for performance and features in Git Integration for Jira Cloud.
 
@@ -48,16 +39,7 @@ The General settings page contains configuration options for performance and fea
 
 ![](/wp-content/uploads/gij-gitcloud-gitmenu-apps-gencfg-sel-2025.png)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using Jira Server or Jira Data Center? <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'>View the self-managed version of this page</a>.
-    </div>
-    </div>
-</div>
+> **Tip:** Using Jira Server or Jira Data Center? [View the self-managed version of this page](/git-integration-for-jira-data-center/general-settings-gij-self-managed).
 
 &nbsp;
 

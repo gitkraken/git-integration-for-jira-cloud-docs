@@ -52,30 +52,11 @@ See also [Feature Comparison](/git-integration-for-jira-cloud/git-integration-se
 | **Connect any git repository** | <img src='/wp-content/uploads/gij-matrix-open-warn-blue.png' width=20 height=20 />&nbsp; Classic integrations currently include: GitHub, GitLab, Bitbucket, AWS CodeCommit, Azure DevOps, VSTS, TFS and Gerrit. | <img src='/wp-content/uploads/gij-matrix-open-check-green.png' width=20 height=20 /> | <img src='/wp-content/uploads/gij-matrix-open-warn-blue.png' width=20 height=20 />&nbsp; Webhook indexing currently supports: GitHub, GitLab, Azure DevOps, VSTS, and TFS. |
 | **Indexing triggers** | <img src='/wp-content/uploads/gij-matrix-open-check-green.png' width=20 height=20 /> | <img src='/wp-content/uploads/gij-matrix-open-check-green.png' width=20 height=20 /> | <img src='/wp-content/uploads/gij-matrix-open-check-green.png' width=20 height=20 /> Indexing triggers are not necessary. |
 
+> **Note:** For more information about the different types of integrations:
+>
+> - [Classic Indexing Explainer](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud)
+> - [Webhook Indexing Explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud)
+> - [Setting up integrations](/git-integration-for-jira-cloud/setting-up-integrations-gij-cloud)
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For more information about the different types of integrations:
-        <ul>
-            <li><a href='/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud'>Classic Indexing Explainer</a></li>
-            <li><a href='/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud'>Webhook Indexing Explainer</a></li>
-            <li><a href='/git-integration-for-jira-cloud/setting-up-integrations-gij-cloud'>Setting up integrations</a></li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** If you have questions or need additional support - contact [BigBrassBand Support](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If you have questions or need additional support - contact <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>BigBrassBand Support</a>.
-    </div>
-    </div>
-</div>

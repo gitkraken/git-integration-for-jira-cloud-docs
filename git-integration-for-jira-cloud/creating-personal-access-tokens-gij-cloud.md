@@ -27,16 +27,6 @@ custom_fields:
 
 Personal access tokens (PATs) provide secure authentication for connecting git services to Git Integration for Jira Cloud. This page provides step-by-step instructions for creating PATs on each supported git host.
 
-**On this page:**
-- [GitHub and GitHub Enterprise PAT](#github-and-github-enterprise-pat)
-  - [Classic personal access token](#classic-personal-access-token)
-  - [Fine-grained personal access token](#fine-grained-personal-access-token)
-- [Create a GitLab PAT](#create-a-gitlab-pat)
-- [Create an Azure DevOps or VSTS PAT](#create-an-azure-devops-or-vsts-pat)
-- [Create a TFS 2017+ PAT](#create-a-tfs-2017-pat)
-- [Create an Azure DevOps Server PAT](#create-an-azure-devops-server-pat)
-- [Create AWS CodeCommit credentials](#create-aws-codecommit-credentials)
-
 &nbsp;
 * * *
 &nbsp;
@@ -128,16 +118,7 @@ GitLab uses personal access tokens (PATs) for authentication starting with versi
 
 5. Copy the token immediately. This is the only time GitLab displays it.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>api</b> scope enables creating branches and merge requests from the Jira issue developer panel.
-    </div>
-    </div>
-</div>
+> **Note:** The **api** scope enables creating branches and merge requests from the Jira issue developer panel.
 
 &nbsp;
 * * *
@@ -173,20 +154,10 @@ PATs let you access Azure Repos without using your username or password directly
 
 6. Copy the token immediately. Use this token as your password.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>About scopes:</b>
-        <ul style='margin-bottom:0px !important'>
-            <li><code>Code (read)</code> — View commits, smart commits, and browse repositories</li>
-            <li><code>Code (read and write)</code> — All read permissions plus create branches and pull requests from Jira</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **About scopes:**
+>
+> - `Code (read)` — View commits, smart commits, and browse repositories
+> - `Code (read and write)` — All read permissions plus create branches and pull requests from Jira
 
 &nbsp;
 * * *
@@ -224,16 +195,7 @@ TFS 2017 and later versions support PATs for on-premises installations.
 
 Azure DevOps Server (formerly Visual Studio Team Foundation Server) supports PATs for on-premises installations.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Azure DevOps Server was previously named Visual Studio Team Foundation Server (TFS).
-    </div>
-    </div>
-</div>
+> **Note:** Azure DevOps Server was previously named Visual Studio Team Foundation Server (TFS).
 
 1. In the Azure DevOps Server portal, click your profile icon in the top-right corner, then click **Security**.
 
@@ -280,24 +242,7 @@ Grant these [AWS CodeCommit IAM Policy actions](https://docs.aws.amazon.com/IAM/
 
 3. Copy both the Access Key ID and Secret Access Key immediately.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        AWS IAM allows a maximum of two Access Keys per IAM user.
-    </div>
-    </div>
-</div>
+> **Note:** AWS IAM allows a maximum of two Access Keys per IAM user.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Create a dedicated IAM user for Git Integration for Jira tasks. Do not share Access Keys with other applications.
-    </div>
-    </div>
-</div>
+> **Tip:** Create a dedicated IAM user for Git Integration for Jira tasks. Do not share Access Keys with other applications.
+

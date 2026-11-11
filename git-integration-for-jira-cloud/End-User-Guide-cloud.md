@@ -37,16 +37,7 @@ Git Integration for Jira Cloud helps Jira users view commits, branches, pull req
 
 Thank you for using Git Integration for Jira! This guide explains how Git information displays in Jira through our application.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Have an idea for an improvement or want to request a specific feature? Submit a feature request on our <a href='https://gitkraken.canny.io/git-integration-for-jira-feedback'>Feature Request Board</a>.
-    </div>
-    </div>
-</div>
+> **Note:** Have an idea for an improvement or want to request a specific feature? Submit a feature request on our [Feature Request Board](https://gitkraken.canny.io/git-integration-for-jira-feedback).
 
 &nbsp;
 

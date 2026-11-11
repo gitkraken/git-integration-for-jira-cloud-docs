@@ -25,23 +25,6 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-**What's on this page:**
-- [How is git data indexed?](#how-is-git-data-indexed)
-- [Automatic indexing](#automatic-indexing)
-  - [Indexing repositories](#indexing-repositories)
-  - [Indexing integrations](#indexing-integrations)
-  - [Triggering automatic reindexes via webhooks](#triggering-automatic-reindexes-via-webhooks)
-  - [Automatic indexing period limits](#automatic-indexing-period-limits)
-- [Manual indexing](#manual-indexing)
-  - [Reindex all](#reindex-all)
-  - [Repositories](#repositories)
-  - [Integrations](#integrations)
-  - [Indexing statuses](#indexing-statuses)
-- [Indexing definitions](#indexing-definitions)
-  - [Definitions](#definitions)
-  - [Indexing errors](#indexing-errors)
-- [Branch and pull/merge request name index triggers](#branch-and-pullmerge-request-name-index-triggers)
-
 &nbsp;
 * * *
 &nbsp;
@@ -50,17 +33,9 @@ The [**Git Integration for Jira Cloud**](https://marketplace.atlassian.com/apps/
 
 Starting on October 28, 2019, the system calculates indexing based on per-repository activity. The overall goals are to reduce the strain on git services and make the indexing service more available for webhook triggers.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Note</b><br>
-        The system only indexes pull/merge requests for repositories connected using the Full feature integrations panel in <b>Manage Git Repositories</b>. You can access them via the Jira Developer Panel on the right sidebar of a Jira issue. Git repositories added individually via SSH or HTTPS credentials do not show pull/merge requests.
-    </div>
-    </div>
-</div>
+> **Note:** **Note**
+>
+> The system only indexes pull/merge requests for repositories connected using the Full feature integrations panel in **Manage Git Repositories**. You can access them via the Jira Developer Panel on the right sidebar of a Jira issue. Git repositories added individually via SSH or HTTPS credentials do not show pull/merge requests.
 
 &nbsp;
 
@@ -83,16 +58,7 @@ See our [Privacy Policy](https://www.gitkraken.com/privacy-gij) and [Data Deleti
 
 ## Automatic indexing
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The system does not run indexing on disabled integrations/repositories.
-    </div>
-    </div>
-</div>
+> **Note:** The system does not run indexing on disabled integrations/repositories.
 
 ### Indexing repositories
 
@@ -130,41 +96,15 @@ The table below describes the automatic indexing period limits:
 | Check a repository | Webhooks (PR or push) arrives for the repository | 1 hr | 24 hr |
 | Check an integration | Regardless of arriving webhooks | 19.2 hrs | 24 hr |
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If a user or webhook requests indexing, the system executes it immediately – regardless of any skipping settings.
-    </div>
-    </div>
-</div>
+> **Note:** If a user or webhook requests indexing, the system executes it immediately – regardless of any skipping settings.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        There can be an additional delay with repository indexer checking due to fetch delay.
-    </div>
-    </div>
-</div>
+> **Note:** There can be an additional delay with repository indexer checking due to fetch delay.
+
 <br>
 
 ## Manual indexing
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The system does not run indexing on disabled integrations/repositories.
-    </div>
-    </div>
-</div>
+> **Note:** The system does not run indexing on disabled integrations/repositories.
 
 ### Reindex all
 
@@ -200,44 +140,20 @@ You can update integrations manually via the Manage git repositories screen by o
 | <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> | The integration has at least one repository in an error state (and not updating) and at least one repository was successfully updated. |
 | <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> | The integration or all repositories are in an error state and are not updating. |
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The upper limit of the indexer checking frequency is daily (24 hours / 86400 seconds). The integration and repository indexer checking upper limit follows the same value.
-    </div>
-    </div>
-</div>
+> **Note:** The upper limit of the indexer checking frequency is daily (24 hours / 86400 seconds). The integration and repository indexer checking upper limit follows the same value.
+
 <br>
 
 ### Indexing errors
 
 ![Git commits tab in Jira issue showing indexing error messages](/wp-content/uploads/gij-gitcloud-git-commits-tab-indexing-error-msgs.png)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Indexing Errors</b><br>
-        A notification about indexing errors appears in the Git Commits tab so Jira administrators receive immediate alerts.
-    </div>
-    </div>
-</div>
+> **Tip:** **Indexing Errors**
+>
+> A notification about indexing errors appears in the Git Commits tab so Jira administrators receive immediate alerts.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If you still have a question, reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'><b>Support Desk</b></a> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Note:** If you still have a question, reach out to our [**Support Desk**](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) or email us at [support@gitkraken.com](mailto:support@gitkraken.com).
+
 <br>
 
 ## Branch and pull/merge request name index triggers

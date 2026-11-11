@@ -27,11 +27,6 @@ custom_fields:
 
 Manager permissions allow Jira administrators to delegate Git Integration for Jira app management to non-admin users. Designated users can manage integrations, add or remove repositories, and update settings without requiring full Jira admin access.
 
-**On this page:**
-- [Understand manager permissions](#understand-manager-permissions)
-- [Set up manager permissions](#set-up-manager-permissions)
-- [Understand manager access levels](#understand-manager-access-levels)
-
 &nbsp;
 * * *
 &nbsp;
@@ -107,16 +102,7 @@ Return to the **Manager permission** page to view the active managers list:
 
 ![](/wp-content/uploads/gij-gitserverdc-manager-permission-active-user-list-2025.png)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The active managers list updates automatically when you add users to the GIJ Manager group.
-    </div>
-    </div>
-</div>
+> **Tip:** The active managers list updates automatically when you add users to the GIJ Manager group.
 
 &nbsp;
 

@@ -25,33 +25,14 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Supported webhook events:</b>
-        <ul style='margin-bottom:0px'>
-            <li>Code pushed</li>
-            <li>Pull request created</li>
-            <li>Pull request updated</li>
-            <li>Pull request merge attempted</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **Supported webhook events:**
+>
+> - Code pushed
+> - Pull request created
+> - Pull request updated
+> - Pull request merge attempted
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Prerequisite:</b> Enable indexing triggers in the Git Integration for Jira app before proceeding. See <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'>Indexing Triggers - Getting Started</a>.
-    </div>
-    </div>
-</div>
+> **Tip:** **Prerequisite:** Enable indexing triggers in the Git Integration for Jira app before proceeding. See [Indexing Triggers - Getting Started](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud).
 
 &nbsp;
 
@@ -101,16 +82,7 @@ custom_fields:
     | Messages to send | None |
     | Detailed messages to send | None |
 
-    <div class="bbb-callout bbb--tip">
-        <div class="irow">
-        <div class="ilogobox">
-            <span class="logoimg"></span>
-        </div>
-        <div class="imsgbox">
-            Setting Messages and Detailed messages to <b>None</b> limits data transfer and prevents performance degradation from excessive webhook traffic.
-        </div>
-        </div>
-    </div>
+    > **Tip:** Setting Messages and Detailed messages to **None** limits data transfer and prevents performance degradation from excessive webhook traffic.
 
 8. Click **Test** to verify the webhook configuration.
 

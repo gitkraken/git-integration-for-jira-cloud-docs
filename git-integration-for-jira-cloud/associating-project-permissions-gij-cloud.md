@@ -140,16 +140,7 @@ To configure project permissions for repositories within an integration:
 
 Project permissions are available in Git Integration for Jira Cloud. The default setting for new repository/integration connections is **Associated with all Jira projects**.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        When you update <b>integration</b> settings for project permissions, the repository settings are overwritten.
-    </div>
-    </div>
-</div>
+> **Warning:** When you update **integration** settings for project permissions, the repository settings are overwritten.
 
 Watch the video below to learn about different settings for each project permissions level.
 

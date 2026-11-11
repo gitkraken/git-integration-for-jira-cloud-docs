@@ -29,16 +29,6 @@ A nested repository is a Git repository that exists inside the working directory
 
 &nbsp;
 
-**On this page:**
-- [Permissions](#permissions)
-- [How nested repositories work](#how-nested-repositories-work)
-- [Practical use for developers](#practical-use-for-developers)
-- [Some challenges with using nested repositories](#some-challenges-with-using-nested-repositories)
-- [Nested repository as a formal feature](#nested-repository-as-a-formal-feature)
-- [Adding a nested repository with Git Submodule](#adding-a-nested-repository-with-git-submodule)
-- [Connecting a nested repository with Git Integration for Jira Cloud app](#connecting-a-nested-repository-with-git-integration-for-jira-cloud-app)
-- [Connecting an integration that contains nested repositories](#connecting-an-integration-that-contains-nested-repositories)
-
 &nbsp;
 
 * * *
@@ -146,16 +136,7 @@ While GitHub does not allow nested repositories (Git doesn't allow this for bare
 
 3.  Commit (`.gitmodules` and `<sub_repo>`), push, and you're done.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <code>git submodule add</code> command works on most Git services that support it. Check your Git service documentation for how to add a submodule.
-    </div>
-    </div>
-</div>
+> **Tip:** The `git submodule add` command works on most Git services that support it. Check your Git service documentation for how to add a submodule.
 
 &nbsp;
 

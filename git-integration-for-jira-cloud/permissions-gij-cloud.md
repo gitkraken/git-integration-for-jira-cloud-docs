@@ -35,17 +35,9 @@ The Permissions guide explains the Jira permissions required for users and admin
 
 ## How Git Integration for Jira Cloud permissions affect commit visibility
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Users must have the <b>View Development Tools</b> permission to view commit information on issue pages.
-        <p style='margin-bottom:-10px'>Administrators must also grant themselves this permission to view commit information.</p>
-    </div>
-    </div>
-</div>
+> **Warning:** Users must have the **View Development Tools** permission to view commit information on issue pages.
+>
+> Administrators must also grant themselves this permission to view commit information.
 
 Users must belong to the developers group to view code diffs when using the default permission scheme.
 

@@ -29,19 +29,6 @@ Find answers to questions asked by Git Integration for Jira app users. Use the t
 
 Contact our [support team](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
-**On this page:**
-- [General](#general)
-- [Developer](#developer)
-- [Installation and setup](#installation-and-setup)
-- [Administration](#administration)
-- [Repositories](#repositories)
-- [Workspace](#workspace)
-- [SSH](#ssh)
-- [Reindex](#reindex)
-- [Uninstall and reinstall](#uninstall-and-reinstall)
-- [Purchase and pricing](#purchase-and-pricing)
-- [Support](#support)
-
 &nbsp;
 * * *
 &nbsp;
@@ -103,16 +90,7 @@ All changes that developers have submitted appear in reverse chronological order
 
 Moving Jira issues to a different project is not recommended for repositories with extensive git commit histories. Associated git commits from the old project do not automatically transfer to the new project due to the different project key.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        You can manually associate git commits to a Jira issue via the Repository browser.
-    </div>
-    </div>
-</div>
+> **Tip:** You can manually associate git commits to a Jira issue via the Repository browser.
 
 **To manually associate git commits:**
 
@@ -122,16 +100,7 @@ Moving Jira issues to a different project is not recommended for repositories wi
 4. Click the edit ![](/wp-content/uploads/gij-edit-icon-dark.png) icon or **Link commit** label.
 5. Add, remove, or change Jira issue keys for the selected commit.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The app supports multiple issue keys in a commit message.
-    </div>
-    </div>
-</div>
+> **Note:** The app supports multiple issue keys in a commit message.
 
 For migrations from Jira Server/Data Center to Jira Cloud, see [Export project from Jira Server to Jira Cloud](https://support.atlassian.com/migration/resources/). Maintaining the same project name retains all git commit associations after migration.
 
@@ -171,16 +140,7 @@ See the Atlassian documentation:
 
 Look for the section titled "Can customers use developer licenses for my add-on?" for instructions.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Generate a developer license (free) after purchasing the plugin. It can only be installed on a development-licensed version of Jira.
-    </div>
-    </div>
-</div>
+> **Note:** Generate a developer license (free) after purchasing the plugin. It can only be installed on a development-licensed version of Jira.
 
 &nbsp;
 * * *
@@ -277,16 +237,7 @@ Commits won't appear immediately. Configure webhooks via the **Manage integratio
 
 No. The Git Integration for Jira app performs a full index.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The reindex process won't start if reindex is already running.
-    </div>
-    </div>
-</div>
+> **Tip:** The reindex process won't start if reindex is already running.
 
 For more information, see [Indexing Explainer for Git Integration for Jira Cloud](/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud/).
 

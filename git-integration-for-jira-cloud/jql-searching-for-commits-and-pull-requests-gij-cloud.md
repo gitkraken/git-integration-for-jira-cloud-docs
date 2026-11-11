@@ -29,17 +29,9 @@ custom_fields:
 
 Access JQL searching via _Issues and Filters_ ➜ **Search Issues**.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Limitation</b><br>
-Only Jira <b><i>Company-managed</i></b> projects support development JQL searching. <b><i>Team-managed</i></b> projects are not currently supported.
-    </div>
-    </div>
-</div>
+> **Warning:** **Limitation**
+>
+> Only Jira ***Company-managed*** projects support development JQL searching. ***Team-managed*** projects are not currently supported.
 
 &nbsp;
 
@@ -88,16 +80,7 @@ Find all issues with any open pull requests:
 development[pullrequests].open > 0
 ```
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <a href='https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-developer-reference-967312910.html'><b>More information from Atlassian</b></a>
-    </div>
-    </div>
-</div>
+> **Tip:** [**More information from Atlassian**](https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-developer-reference-967312910.html)
 
 &nbsp;
 

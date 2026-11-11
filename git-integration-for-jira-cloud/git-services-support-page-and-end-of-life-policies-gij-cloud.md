@@ -27,13 +27,6 @@ custom_fields:
 
 Git Integration for Jira Cloud supports all cloud-hosted versions and officially supported versions of self-hosted git services.
 
-**On this page:**
-- [GitHub Enterprise](#github-enterprise-eol)
-- [GitLab CE/EE](#gitlab-ceee-eol-support-policy)
-- [Bitbucket Server/Cloud](#bitbucket-servercloud-eol-support-policy)
-- [Azure DevOps Server / TFS](#azure-devops-server-lifecycle-policies)
-- [Gerrit](#gerrit-end-of-life-eol)
-
 Most git services have End-of-Life (EOL) policies ranging from one year or more following the release date.
 
 &nbsp;

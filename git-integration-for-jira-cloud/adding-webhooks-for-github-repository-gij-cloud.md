@@ -25,31 +25,12 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Supported webhook events:</b>
-        <ul style='margin-bottom:0px;'>
-            <li>Pushes</li>
-            <li>Pull requests</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** **Supported webhook events:**
+>
+> - Pushes
+> - Pull requests
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Prerequisite:</b> Enable indexing triggers in the Git Integration for Jira app before proceeding. See <a href='/git-integration-for-jira-cloud/indexing-triggers-gij-cloud'><b>Indexing Triggers - Getting Started</b></a>.
-    </div>
-    </div>
-</div>
+> **Warning:** **Prerequisite:** Enable indexing triggers in the Git Integration for Jira app before proceeding. See [**Indexing Triggers - Getting Started**](/git-integration-for-jira-cloud/indexing-triggers-gij-cloud).
 
 &nbsp;
 
@@ -115,24 +96,7 @@ Indexing triggers are automatically registered for each GitHub repository connec
 - The Organization Owner, OR
 - Have repository **ADMIN** rights
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Indexing triggers for GitHub are deleted when you disconnect the GitHub integration from Git Integration for Jira Cloud.
-    </div>
-    </div>
-</div>
+> **Note:** Indexing triggers for GitHub are deleted when you disconnect the GitHub integration from Git Integration for Jira Cloud.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Git Integration for Jira indexes only the repositories indicated by the GitHub organization webhook, not all repositories.
-    </div>
-    </div>
-</div>
+> **Note:** Git Integration for Jira indexes only the repositories indicated by the GitHub organization webhook, not all repositories.
+

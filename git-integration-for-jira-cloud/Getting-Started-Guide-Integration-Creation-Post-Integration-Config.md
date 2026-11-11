@@ -33,16 +33,7 @@ Decide which authentication option works best for you. Full Featured integration
 
 We recommend OAuth authentication when available. OAuth allows GIJ to perform certain automatic actions depending on the account's permission level and the Git service. In some cases, GIJ can automatically create indexing triggers for your repositories, saving you time and effort.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If you use multiple service accounts for authentication, use an incognito or private browser window when creating integrations. This lets you sign in with different accounts and avoids using cached credentials, which would associate the same account with multiple integrations.
-    </div>
-    </div>
-</div>
+> **Tip:** If you use multiple service accounts for authentication, use an incognito or private browser window when creating integrations. This lets you sign in with different accounts and avoids using cached credentials, which would associate the same account with multiple integrations.
 
 PAT authentication is easier to maintain at an organizational level, especially when using multiple service accounts. Git Service Admins typically have easy access to generate PATs for accounts. For detailed instructions, see [Creating Personal Access Tokens](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud).
 

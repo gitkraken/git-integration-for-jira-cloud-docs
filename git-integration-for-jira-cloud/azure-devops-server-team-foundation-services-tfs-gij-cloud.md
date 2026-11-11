@@ -25,16 +25,8 @@ custom_fields:
 ---
 <kbd>Last updated: March 2026</kbd>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Server or Data Center</b>? <a href='/git-integration-for-jira-self-managed/azure-devops-server-team-foundation-services-tfs-gij-self-managed'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Note:** Using **Jira Server or Data Center**? [See the corresponding article](/git-integration-for-jira-self-managed/azure-devops-server-team-foundation-services-tfs-gij-self-managed).
+
 <br>
 
 <img src='/wp-content/uploads/gij-azure-devops-banner.png' width=481 height=77 style='margin:25px 0;max-width:100%;margin-bottom:0' />
@@ -47,23 +39,6 @@ Quickly learn how to connect Azure DevOps Server/TFS git repositories via Git In
 
 The Git Integration for Jira app supports Azure Repos.
 
-**What’s on this page:**
-- [Integrate Azure DevOps Server/TFS with Jira Cloud](#integrate-azure-devops-servertfswith-jira-cloud)
-  - [Creating personal access tokens](#creating-personal-access-tokens)
-  - [Permissions](#permissions)
-  - [Using Git service integration and OAuth](#using-git-service-integration-and-oauth)
-  - [Single git repository integration](#single-git-repository-integration)
-  - [Troubleshooting integration](#troubleshooting-integration)
-  - [Webhooks and web linking](#webhooks-and-web-linking)
-  - [Linking Azure DevOps Server/TFS git commits to Jira Cloud](#linking-azure-devops-servertfs-git-commits-to-jira-cloud)
-  - [Viewing git commits in Jira Cloud](#viewing-git-commits-in-jira-cloud)
-  - [Working with branches and pull requests with Azure DevOps Server/TFS](#working-with-branches-and-pull-requests-with-azure-devops-servertfs)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Creating pull requests](#creating-pull-requests)
-    - [Merging _branch_ to _master_](#merging-branch-to-master)
-  - [More Integration Guides](#more-integration-guides)
-
 <br>
 <br>
 <hr>
@@ -74,16 +49,8 @@ The Git Integration for Jira app supports Azure Repos.
 
 If you have not yet generated a personal access token (PAT), you can create one by following the simple steps in [this article](/git-integration-for-jira-cloud/creating-personal-access-tokens-gij-cloud) – use the table of content anchor link to go to the Azure DevOps Server/TFS section.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This step is <b>highly required</b> for Azure DevOps Server/TFS integrations connected via the Git service integrations setup.
-    </div>
-    </div>
-</div>
+> **Warning:** This step is **highly required** for Azure DevOps Server/TFS integrations connected via the Git service integrations setup.
+
 <br>
 
 ## Permissions
@@ -199,17 +166,10 @@ For detailed information, see [Troubleshooting: Repositories missing from Azure
 
 The Git Integration for Jira app automatically configures web linking for Azure DevOps Server/TFS git repositories.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Webhooks are supported on Azure DevOps Server and TFS.</b><br>
-        First - configure webhooks in the Git Integration app in Jira via the <b>Apps</b> menu ➜ <b>Git Integration: Manage integrations</b> then click <b>Indexing triggers</b> (sidebar). Enable the feature and save the settings. Then <a href='https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts' target='_blank'>follow these instructions</a> to setup the webhook trigger. Azure DevOps Server/TFS webhooks will trigger an immediate index of all repositories within the integration.
-    </div>
-    </div>
-</div>
+> **Note:** **Webhooks are supported on Azure DevOps Server and TFS.**
+>
+> First - configure webhooks in the Git Integration app in Jira via the **Apps** menu ➜ **Git Integration: Manage integrations** then click **Indexing triggers** (sidebar). Enable the feature and save the settings. Then [follow these instructions](https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts) to setup the webhook trigger. Azure DevOps Server/TFS webhooks will trigger an immediate index of all repositories within the integration.
+
 <br>
 
 For detailed step-by-step guide showcasing webhooks setup, [see this article](/git-integration-for-jira-cloud/adding-webhooks-for-azure-devops-server-tfs-gij-cloud).
@@ -291,16 +251,8 @@ This feature allows users to create branches and pull requests while inside Jira
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
+
 <br>
 
 ### Creating branches
@@ -332,16 +284,8 @@ On your Jira Cloud, open a Jira issue. On the Jira Git integration development p
 
 The branch is created and can be viewed under the **Branches** tab in your Azure DevOps Server/TFS.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs – for this case, if the repository setting <i>Require User PAT</i> property is set to <code>ON</code>, the users will not be able to create/delete branches and pull requests.
-    </div>
-    </div>
-</div>
+> **Warning:** PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs – for this case, if the repository setting *Require User PAT* property is set to `ON`, the users will not be able to create/delete branches and pull requests.
+
 <br>
 
 <img src='/gij-tfs-server-2017-new-branch-example-c.png' width=723 height=451 style='margin:25px auto;display:block;max-width:100%;' />
@@ -373,16 +317,8 @@ The commit is pushed to the new branch and is now ready for merge.
 
 ### Creating pull requests
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Before you can create a pull request, you need to create a branch first.
-    </div>
-    </div>
-</div>
+> **Warning:** Before you can create a pull request, you need to create a branch first.
+
 <br>
 
 The pull request feature works the same as merge request.
@@ -411,16 +347,8 @@ On your Jira Cloud, open the Jira issue where your previously created a branch. 
 
 4.  Enter a descriptive **Title** or leave it as is _(recommended)_.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
-    </div>
-    </div>
-</div>
+> **Note:** Pull/merge requests are still indexed based on branch name even if the PR/MR title does not have the Jira issue key – as long as the branch name contains the Jira issue key.
+
 <br>
 
 The branch and the pull request status are displayed on the developer panel.

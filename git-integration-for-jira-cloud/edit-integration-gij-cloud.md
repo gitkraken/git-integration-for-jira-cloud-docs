@@ -29,16 +29,7 @@ On the Manage integrations page, click <img src='/wp-content/uploads/actions-ico
 
 ![](/wp-content/uploads/gij-gitcloud-manage-integration-actions-edit-cfg-2025.png)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The displayed options and settings depend on the type of connected git service.
-    </div>
-    </div>
-</div>
+> **Tip:** The displayed options and settings depend on the type of connected git service.
 
 &nbsp;
 

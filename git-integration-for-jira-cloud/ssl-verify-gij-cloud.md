@@ -58,16 +58,7 @@ The **SSL Verify** option is set to `Enabled` by default. If set to `Disabled`, 
 
 <img src='/wp-content/uploads/gij-gitcloud-edit-repo-cfg-ssl-verify.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>SSL Verify</b> setting is available in Jira Server, Data Center, and Jira Cloud. This option is not available for non-fetched repositories.
-    </div>
-    </div>
-</div>
+> **Note:** The **SSL Verify** setting is available in Jira Server, Data Center, and Jira Cloud. This option is not available for non-fetched repositories.
 
 &nbsp;
 * * *

@@ -27,13 +27,6 @@ custom_fields:
 
 Connect SSH git repositories to Jira Cloud using [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview).
 
-**On this page:**
-- [Generate SSH keys](#generate-ssh-keys)
-  - [Generate SSH keys on Windows](#generate-ssh-keys-on-windows)
-  - [Generate SSH keys on Linux/MacOS](#generate-ssh-keys-on-linuxmacos)
-- [Convert SSH key format](#convert-ssh-key-format)
-- [Connect an SSH git repository](#connect-an-ssh-git-repository)
-
 &nbsp;
 * * *
 &nbsp;
@@ -66,20 +59,10 @@ Windows users should use [PuTTY](https://www.putty.org/) and PuTTYgen to generat
 
 8. Copy the generated public key from the text box. Use this key on your git host's SSH configuration page.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        PuTTY saves private keys in its proprietary ".ppk" format. To convert to ".pem" format:
-        <ol style='margin-bottom:0px !important'>
-            <li>In PuTTYgen, select <b>Conversions</b> ➜ <b>Export OpenSSH key</b>.</li>
-            <li>Upload this file to Git Integration for Jira ➜ <b>SSH keys</b>, or provide it when connecting SSH git repositories.</li>
-        </ol>
-    </div>
-    </div>
-</div>
+> **Note:** PuTTY saves private keys in its proprietary ".ppk" format. To convert to ".pem" format:
+>
+> 1. In PuTTYgen, select **Conversions** ➜ **Export OpenSSH key**.
+> 2. Upload this file to Git Integration for Jira ➜ **SSH keys**, or provide it when connecting SSH git repositories.
 
 You can also generate SSH keys using Git Bash. For details, see [Generate SSH via Git Bash](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key).
 
@@ -95,16 +78,7 @@ Run this command to generate an RSA SSH key:
 ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 ```
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        MacOS sometimes creates OpenSSH format certificates instead of PEM format. For more details, see this <a href='https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key'>common issue and solution</a>.
-    </div>
-    </div>
-</div>
+> **Warning:** MacOS sometimes creates OpenSSH format certificates instead of PEM format. For more details, see this [common issue and solution](https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key).
 
 &nbsp;
 
@@ -140,13 +114,5 @@ ssh-keygen -p -P "old_password" -N "new_password" -m pem
 
 The connected repository appears in your git configuration page.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For Jira Cloud, we recommend using the <a href='/git-integration-for-jira-cloud/using-the-git-service-integration-wizard-gij-cloud'><b>Git service integration</b></a> panel to connect multiple repositories. It provides additional features not available with SSH integrations.
-    </div>
-    </div>
-</div>
+> **Note:** For Jira Cloud, we recommend using the [**Git service integration**](/git-integration-for-jira-cloud/using-the-git-service-integration-wizard-gij-cloud) panel to connect multiple repositories. It provides additional features not available with SSH integrations.
+

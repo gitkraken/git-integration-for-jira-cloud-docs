@@ -63,16 +63,7 @@ This is a filter based on text in the repository name. It will list all the repo
 
 **3** – Lists repositories with names that either do not contain the words `'firstword'` OR `'secondword'`.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
-    </div>
-    </div>
-</div>
+> **Note:** The `!condition` must be wrapped in a parenthesis so it won’t invert the whole expression.
 
 ### 3\. Tags
 
@@ -82,17 +73,9 @@ This is a filter based on text in the repository name. It will list all the repo
 
 Whitelists project tag.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Note!</b><br>
-        GitLab refers to <b><i>project tags</i></b> as tags in the API and in some places in the UI but the actual setting is called <b>Topics</b>.
-    </div>
-    </div>
-</div>
+> **Note:** **Note!**
+>
+> GitLab refers to ***project tags*** as tags in the API and in some places in the UI but the actual setting is called **Topics**.
 
 ### 4\. Starts with or ends with
 

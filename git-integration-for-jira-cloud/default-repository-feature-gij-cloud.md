@@ -43,16 +43,7 @@ In the **Repository** column, set default repositories using the dropdown list. 
 
 ## Effect on branch and pull request dialogs
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This configuration affects <a href='/git-integration-for-jira-cloud/create-branch-gij-cloud'>Create Branch</a> and <a href='/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud'>Create Pull or Merge Requests</a>.
-    </div>
-    </div>
-</div>
+> **Note:** This configuration affects [Create Branch](/git-integration-for-jira-cloud/create-branch-gij-cloud) and [Create Pull or Merge Requests](/git-integration-for-jira-cloud/create-pull-or-merge-request-gij-cloud).
 
 If no default repository is set, the **Create Branch** and **Create Pull/Merge Request** dialogs let users select a repository and _**make it the default**_ by clicking the corresponding button.
 

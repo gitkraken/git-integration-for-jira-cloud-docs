@@ -27,11 +27,6 @@ custom_fields:
 
 Webhooks are not built into Gerrit by default. You must install and configure the Gerrit webhook plugin before using webhooks with Git Integration for Jira Cloud.
 
-**On this page:**
-- [Install the webhook plugin](#install-the-webhook-plugin)
-- [Configure webhooks](#configure-webhooks)
-- [Trigger webhooks manually](#trigger-webhooks-manually)
-
 &nbsp;
 * * *
 &nbsp;

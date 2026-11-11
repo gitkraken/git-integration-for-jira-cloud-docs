@@ -27,16 +27,8 @@ custom_fields:
 
 The Git service integration (formerly full feature integration panel) contains special integration for specific git hosts, supports multiple connected repositories, and automates git integration.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        We highly recommend this feature for multiple repository configuration.
-    </div>
-    </div>
-</div>
+> **Tip:** We highly recommend this feature for multiple repository configuration.
+
 <br>
 
 ## Step 1
