@@ -205,7 +205,7 @@ Enter text to search for issues. Apply filters to narrow results.
 
 #### Filtering by sprint type
 
-![](/wp-content/uploads/tij-gitcloud-backlog-view-search-pane-typel.png)
+![](/wp-content/uploads/tij-gitcloud-backlog-view-search-pane-type.png)
 
 Select sprint types to display: active, future, or backlog. The counter shows the number of matches per type.
 

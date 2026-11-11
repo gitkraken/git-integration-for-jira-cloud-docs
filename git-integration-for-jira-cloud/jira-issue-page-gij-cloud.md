@@ -193,7 +193,7 @@ The branch panel will show a summary of all the unmerged branches (regardless of
 
 Click **Create branch** on the Issue Activity by Gitkraken panel to create a branch for the selected repository.
 
-![](/wp-content/uploads/gij-gitcloud-issue-dev-panel-create-branch-dlg-2025)
+![](/wp-content/uploads/gij-gitcloud-issue-dev-panel-create-branch-dlg-2025.png)
 
 1.  Select a **Repository**. _(Optional - click Make default to set this repository as default for branch and PR/MR creation dialogs)._
 
@@ -250,7 +250,7 @@ The displayed information depends on which supported git hosts are connected to 
 
 If a git host is connected to Jira, create a pull/merge request by clicking **Create pull request** or **Create merge request** label link on the Jira Git integration development panel.
 
-![](/wp-content/uploads/gij-gitcloud-create-pull-req-dlg-2025)
+![](/wp-content/uploads/gij-gitcloud-create-pull-req-dlg-2025.png)
 
 *   Select **Repository** from the list.
 *   Choose a branch as the **Source branch**. This branch will be merged to the target branch.

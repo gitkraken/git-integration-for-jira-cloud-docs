@@ -101,7 +101,7 @@ The Change association feature allows you to update the Jira issues associated w
 
 4. Click the **Update** button.
 
-![](/wp-content/uploads/gij-gitcloud-general-settings-git-commits-issue-project-1455.png)
+![](/wp-content/uploads/gij-gitcloud-general-settings-git-commits-issue-project.png)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">

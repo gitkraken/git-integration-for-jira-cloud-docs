@@ -53,7 +53,7 @@ The Manage integrations page allows administrators to integrate and manage suppo
 
 The Manage repositories page displays connected git repositories in Jira. All integration repositories appear here.
 
-![](/wp-content/uploads/gitcloud-managed-ui-git-repo-list.png)
+![](/wp-content/uploads/gij-gitcloud-managed-ui-git-repo-list.png)
 
 <br>
 
