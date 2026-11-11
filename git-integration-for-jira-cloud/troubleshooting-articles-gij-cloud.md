@@ -22,6 +22,10 @@ custom_fields:
     nav_order: 120
     nav_parent: ""
     page_type: "content"
+    entry_title: "Troubleshooting articles"
+    entry_role: "Troubleshoot"
+    entry_desc: "Solutions and workarounds for common issues with Git Integration for Jira Cloud"
+    entry_order: 30
 ---
 <kbd>Last updated: March 2026</kbd>
 

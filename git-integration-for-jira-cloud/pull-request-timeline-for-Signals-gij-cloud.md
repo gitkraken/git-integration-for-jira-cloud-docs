@@ -22,6 +22,7 @@ custom_fields:
     nav_order: 40
     nav_parent: "signals-gij-cloud"
     page_type: "content"
+    git_hosts: ["github", "github-enterprise", "gitlab", "gitlab-self-managed"]
 ---
 <kbd>Last updated: March 2026</kbd>
 

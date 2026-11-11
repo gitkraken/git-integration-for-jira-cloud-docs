@@ -27,6 +27,8 @@ custom_fields:
 
 Welcome to the Git Integration for Jira Cloud documentation. Use the links below to get started, or explore the left navigation for more topics.
 
+---
+
 <div class="bbb-callout bbb--tip">
     <div class="irow">
     <div class="ilogobox">

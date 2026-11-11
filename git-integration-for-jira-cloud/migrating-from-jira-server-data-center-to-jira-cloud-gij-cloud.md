@@ -25,6 +25,7 @@ custom_fields:
     card_icon: "cloud-upload"
     card_color: "green"
     card_description: "Step-by-step guide for migrating Git Integration for Jira Data Center to Jira Cloud using the Jira Cloud Migration Assistant (JCMA)"
+    git_hosts: ["github", "github-enterprise", "gitlab", "gitlab-self-managed", "azure-devops", "azure-devops-server"]
 ---
 <kbd>Last updated: August 2026</kbd>
 

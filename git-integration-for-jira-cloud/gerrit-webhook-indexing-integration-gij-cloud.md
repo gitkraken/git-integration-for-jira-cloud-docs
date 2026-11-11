@@ -22,6 +22,7 @@ custom_fields:
     nav_order: 40
     nav_parent: "webhook-indexing-integration-gij-cloud"
     page_type: "content"
+    git_hosts: ["gerrit"]
 ---
 <kbd>Last updated: July 2026</kbd>
 

@@ -25,6 +25,7 @@ custom_fields:
     card_icon: "git-merge"
     card_color: "purple"
     card_description: "Learn how to integrate Gerrit git repositories with Jira Cloud using Git Integration for Jira"
+    git_hosts: ["gerrit"]
 ---
 <kbd>Last updated: March 2026</kbd>
 

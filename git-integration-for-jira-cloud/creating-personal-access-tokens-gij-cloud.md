@@ -25,6 +25,7 @@ custom_fields:
     card_icon: "key"
     card_color: "amber"
     card_description: "Create personal access tokens (PATs) for GitHub, GitLab, Azure DevOps, TFS, and AWS CodeCommit to authenticate with Git Integration for Jira Cloud"
+    git_hosts: ["github", "github-enterprise", "gitlab", "gitlab-self-managed", "azure-devops-server", "aws-codecommit"]
 ---
 <kbd>Last updated: March 2026</kbd>
 
