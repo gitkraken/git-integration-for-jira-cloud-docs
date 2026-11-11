@@ -20,7 +20,7 @@ custom_fields:
     nav_category: "how-to-articles-gij-cloud"
     nav_label: "How to get a quote?"
     nav_order: 10
-    nav_parent: "sales-gij-cloud"
+    nav_parent: "gijc-sales"
     page_type: "content"
     card_icon: "file-invoice"
     card_color: "amber"
