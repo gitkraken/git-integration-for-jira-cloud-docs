@@ -29,12 +29,12 @@ The How-to Articles hub groups step-by-step Git Integration for Jira Cloud tasks
 
 ---
 
-| Task type | Start here when you need | Related section |
-| :--- | :--- | :--- |
-| Pricing and licensing | Marketplace pricing, quotes, or allowlist setup | Pricing and Licensing |
-| Repository configuration | SSH setup, custom API paths, or repository filtering | Repository Configuration |
-| Linking and workflows | Issue-key linking for commits, branches, or pull requests | Linking and Workflows |
-| Security and indexing | PAT requirements, project permissions, or webhook-style reindexing | Security and Permissions, Indexing and Webhooks |
+| Task type | Start here when you need |
+| :--- | :--- |
+| Pricing and licensing | Marketplace pricing, quotes, or allowlist setup |
+| Repository configuration | SSH setup, custom API paths, or repository filtering |
+| Linking and workflows | Issue-key linking for commits, branches, or pull requests |
+| Security and indexing | PAT requirements, project permissions, or webhook-style reindexing |
 
 ## How to find the right Git Integration for Jira Cloud task guide
 
