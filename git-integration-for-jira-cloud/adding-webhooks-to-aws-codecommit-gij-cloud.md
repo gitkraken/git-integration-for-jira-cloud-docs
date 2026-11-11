@@ -22,6 +22,7 @@ custom_fields:
     nav_order: 60
     nav_parent: "indexing-triggers-gij-cloud"
     page_type: "content"
+    git_hosts: ["aws-codecommit"]
 ---
 <kbd>Last updated: March 2026</kbd>
 

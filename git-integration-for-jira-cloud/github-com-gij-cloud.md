@@ -25,6 +25,7 @@ custom_fields:
     card_icon: "brand-github"
     card_color: "purple"
     card_description: "Integrate GitHub.com repositories with Jira Cloud using Git Integration for Jira"
+    git_hosts: ["github"]
 ---
 <kbd>Last updated: March 2026</kbd>
 

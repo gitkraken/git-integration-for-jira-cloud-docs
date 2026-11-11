@@ -27,6 +27,8 @@ custom_fields:
 
 Welcome to the Git Integration for Jira Cloud documentation. Use the links below to get started, or explore the left navigation for more topics.
 
+---
+
 > **Tip:** Looking for information on the Server or Data Center version? [Visit the Data Center documentation](/git-integration-for-jira-data-center/git-integration-for-jira-home-self-manged).
 
 &nbsp;

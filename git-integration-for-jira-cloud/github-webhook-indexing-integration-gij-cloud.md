@@ -22,6 +22,7 @@ custom_fields:
     nav_order: 10
     nav_parent: "webhook-indexing-integration-gij-cloud"
     page_type: "content"
+    git_hosts: ["github-enterprise", "github"]
 ---
 <kbd>Last updated: March 2026</kbd>
 

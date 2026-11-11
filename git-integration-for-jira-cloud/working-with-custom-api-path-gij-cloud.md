@@ -25,6 +25,7 @@ custom_fields:
     card_icon: "api"
     card_color: "amber"
     card_description: "Configure Custom API Path to filter and retrieve specific repositories from GitHub, GitLab, and Bitbucket integrations in Git Integration for Jira Cloud"
+    git_hosts: ["github", "github-enterprise", "gitlab", "gitlab-self-managed", "bitbucket"]
 ---
 <kbd>Last updated: March 2026</kbd>
 

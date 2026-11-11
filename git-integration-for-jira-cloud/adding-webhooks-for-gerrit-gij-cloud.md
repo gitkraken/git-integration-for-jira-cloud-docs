@@ -22,6 +22,7 @@ custom_fields:
     nav_order: 70
     nav_parent: "indexing-triggers-gij-cloud"
     page_type: "content"
+    git_hosts: ["gerrit"]
 ---
 <kbd>Last updated: March 2026</kbd>
 

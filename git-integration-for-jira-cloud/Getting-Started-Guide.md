@@ -25,6 +25,10 @@ custom_fields:
     card_icon: "rocket"
     card_color: "green"
     card_description: "Essential configuration guide for Jira Admins setting up Git Integration for Jira Cloud"
+    entry_title: "Admin Getting Started Guide"
+    entry_role: "Jira admin"
+    entry_desc: "Essential configuration guide for Jira Admins setting up Git Integration for Jira Cloud"
+    entry_order: 10
 ---
 <kbd>Last updated: March 2026</kbd>
 

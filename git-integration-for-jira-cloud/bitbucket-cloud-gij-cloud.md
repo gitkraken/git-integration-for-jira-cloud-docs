@@ -25,6 +25,7 @@ custom_fields:
     card_icon: "brand-bitbucket"
     card_color: "purple"
     card_description: "Learn how to integrate Bitbucket Cloud git repositories with Jira Cloud using Git Integration for Jira"
+    git_hosts: ["bitbucket"]
 ---
 <kbd>Last updated: March 2026</kbd>
 

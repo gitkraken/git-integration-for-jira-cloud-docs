@@ -25,6 +25,7 @@ custom_fields:
     card_icon: "brand-azure"
     card_color: "purple"
     card_description: "Learn how to integrate Azure DevOps and Visual Studio Team Services (VSTS) git repositories with Jira Cloud using Git Integration for Jira"
+    git_hosts: ["azure-devops"]
 ---
 <kbd>Last updated: March 2026</kbd>
 

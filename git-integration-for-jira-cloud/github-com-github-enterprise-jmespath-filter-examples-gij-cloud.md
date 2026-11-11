@@ -22,6 +22,7 @@ custom_fields:
     nav_order: 10
     nav_parent: "working-with-jmespath-filters-gij-cloud"
     page_type: "content"
+    git_hosts: ["github", "github-enterprise"]
 ---
 <kbd>Last updated: March 2026</kbd>
 

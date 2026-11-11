@@ -22,6 +22,7 @@ custom_fields:
     nav_order: 30
     nav_parent: "working-with-jmespath-filters-gij-cloud"
     page_type: "content"
+    git_hosts: ["azure-devops", "azure-devops-server"]
 ---
 <kbd>Last updated: March 2026</kbd>
 

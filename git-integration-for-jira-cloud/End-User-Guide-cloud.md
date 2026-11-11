@@ -25,6 +25,10 @@ custom_fields:
     card_icon: "user"
     card_color: "green"
     card_description: "End user guide for Git Integration for Jira Cloud - learn how to view and create Git data in Jira"
+    entry_title: "User Guide"
+    entry_role: "Developer"
+    entry_desc: "Learn how to view and create Git data in Jira"
+    entry_order: 20
 ---
 <kbd>Last updated: March 2026</kbd>
 

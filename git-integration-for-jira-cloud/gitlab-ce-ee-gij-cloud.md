@@ -25,6 +25,7 @@ custom_fields:
     card_icon: "brand-gitlab"
     card_color: "purple"
     card_description: "How to integrate GitLab CE/EE repositories with Jira Cloud"
+    git_hosts: ["gitlab-self-managed"]
 ---
 <kbd>Last updated: March 2026</kbd>
 
