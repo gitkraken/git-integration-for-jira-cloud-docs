@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "integration-guide-gij-cloud"
     page_type: "content"
+    card_icon: "git-branch"
+    card_color: "purple"
+    card_description: "Learn how to connect a single git repository to Jira Cloud using HTTP/HTTPS or SSH protocols with Git Integration for Jira"
 ---
 <kbd>Last updated: March 2026</kbd>
 

@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "how-to-articles-gij-cloud"
     page_type: "content"
+    card_icon: "webhook"
+    card_color: "amber"
+    card_description: "Configure client-side hooks, server-side hooks, and indexing triggers for Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

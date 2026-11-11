@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 140
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "layout-sidebar-right"
+    card_color: "blue"
+    card_description: "Git development information displayed on the Jira issue page"
 ---
 <kbd>Last updated: March 2026</kbd>
 

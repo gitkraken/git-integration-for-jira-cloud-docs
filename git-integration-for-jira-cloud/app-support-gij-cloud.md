@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 180
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "lifebuoy"
+    card_color: "blue"
+    card_description: "Get help with Git Integration for Jira Cloud including installation, migration, and troubleshooting"
 ---
 <kbd>Last updated: March 2026</kbd>
 

@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "integration-guide-gij-cloud"
     page_type: "content"
+    card_icon: "brand-azure"
+    card_color: "purple"
+    card_description: "Learn how to integrate Azure DevOps Server and Team Foundation Services (TFS) git repositories with Jira Cloud using Git Integration for Jira"
 ---
 <kbd>Last updated: March 2026</kbd>
 

@@ -17,7 +17,7 @@ llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
-    nav_category: "gij-advanced-features"
+    nav_category: "gijc-advanced-features"
     nav_label: "Signals Backlog View"
     nav_order: 30
     nav_parent: "signals-gij-cloud"

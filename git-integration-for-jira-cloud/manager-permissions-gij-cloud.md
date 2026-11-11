@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "user-shield"
+    card_color: "green"
+    card_description: "Learn how to configure manager permissions in Git Integration for Jira Cloud to delegate app administration to non-admin users"
 ---
 <kbd>Last updated: March 2026</kbd>
 

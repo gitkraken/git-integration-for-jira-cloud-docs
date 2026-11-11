@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "how-to-articles-gij-cloud"
     page_type: "content"
+    card_icon: "shield-check"
+    card_color: "amber"
+    card_description: "Configure firewall settings to allow Git Integration for Jira Cloud to access your self-hosted git repositories"
 ---
 <kbd>Last updated: March 2026</kbd>
 

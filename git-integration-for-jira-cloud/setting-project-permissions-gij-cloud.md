@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "how-to-articles-gij-cloud"
     page_type: "content"
+    card_icon: "lock"
+    card_color: "amber"
+    card_description: "Configure project permissions to control which Jira projects can access Git integration data and repository content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

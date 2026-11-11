@@ -17,11 +17,14 @@ llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 custom_fields:
-    nav_category: "getting-started"
+    nav_category: "gijc-getting-started"
     nav_label: "User Guide"
     nav_order: 20
-    nav_parent: "getting-started"
+    nav_parent: "gijc-getting-started"
     page_type: "content"
+    card_icon: "user"
+    card_color: "green"
+    card_description: "End user guide for Git Integration for Jira Cloud - learn how to view and create Git data in Jira"
 ---
 <kbd>Last updated: March 2026</kbd>
 

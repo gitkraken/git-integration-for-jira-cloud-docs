@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "terminal"
+    card_color: "blue"
+    card_description: "Use Smart commits to perform actions on Jira issues directly from Git commit messages"
 ---
 <kbd>Last updated: March 2026</kbd>
 

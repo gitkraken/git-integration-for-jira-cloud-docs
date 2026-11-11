@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "integration-guide-gij-cloud"
     page_type: "content"
+    card_icon: "info-circle"
+    card_color: "purple"
+    card_description: "Learn how to integrate Git repositories with Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

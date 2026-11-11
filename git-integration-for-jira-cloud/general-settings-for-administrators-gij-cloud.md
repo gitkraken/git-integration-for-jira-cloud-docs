@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "blue"
+    card_description: "Overview of general settings configuration for Jira administrators using Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

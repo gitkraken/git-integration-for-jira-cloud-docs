@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "how-to-articles-gij-cloud"
     page_type: "content"
+    card_icon: "refresh"
+    card_color: "amber"
+    card_description: "Create webhook triggers to reindex a single repository in Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

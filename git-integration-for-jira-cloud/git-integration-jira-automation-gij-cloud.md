@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "robot"
+    card_color: "green"
+    card_description: "Learn how to configure Jira automation rules with Git Integration for Jira Cloud triggers for branches, commits, and pull requests"
 ---
 <kbd>Last updated: March 2026</kbd>
 

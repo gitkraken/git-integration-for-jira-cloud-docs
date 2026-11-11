@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "key"
+    card_color: "blue"
+    card_description: "How to generate and configure SSH keys for Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

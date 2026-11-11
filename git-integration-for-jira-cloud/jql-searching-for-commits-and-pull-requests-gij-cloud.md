@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "features-gij-cloud"
     page_type: "content"
+    card_icon: "search"
+    card_color: "green"
+    card_description: "Learn how to use JQL syntax to search for Jira issues based on commit and pull request activity"
 ---
 <kbd>Last updated: August 2026</kbd>
 

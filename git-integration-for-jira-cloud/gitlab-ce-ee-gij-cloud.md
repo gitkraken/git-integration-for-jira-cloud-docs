@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "integration-guide-gij-cloud"
     page_type: "content"
+    card_icon: "brand-gitlab"
+    card_color: "purple"
+    card_description: "How to integrate GitLab CE/EE repositories with Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

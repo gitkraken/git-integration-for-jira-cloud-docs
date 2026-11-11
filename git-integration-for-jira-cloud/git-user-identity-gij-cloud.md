@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 120
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "id-badge"
+    card_color: "blue"
+    card_description: "How Git user identity is configured and displayed in Jira"
 ---
 <kbd>Last updated: March 2026</kbd>
 

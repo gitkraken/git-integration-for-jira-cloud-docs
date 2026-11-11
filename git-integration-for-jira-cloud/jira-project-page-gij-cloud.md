@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 150
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "layout-dashboard"
+    card_color: "blue"
+    card_description: "How to view Git commits on the Jira project page"
 ---
 <kbd>Last updated: March 2026</kbd>
 

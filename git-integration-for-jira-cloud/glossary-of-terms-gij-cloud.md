@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 200
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "book"
+    card_color: "blue"
+    card_description: "Definitions of common terms used in Git Integration for Jira documentation"
 ---
 <kbd>Last updated: March 2026</kbd>
 

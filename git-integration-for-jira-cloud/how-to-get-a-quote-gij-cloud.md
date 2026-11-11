@@ -20,8 +20,11 @@ custom_fields:
     nav_category: "how-to-articles-gij-cloud"
     nav_label: "How to get a quote?"
     nav_order: 10
-    nav_parent: "sales"
+    nav_parent: "gijc-sales"
     page_type: "content"
+    card_icon: "file-invoice"
+    card_color: "amber"
+    card_description: "Generate a pricing quote for Git Integration for Jira Cloud through the Atlassian Marketplace"
 ---
 <kbd>Last updated: March 2026</kbd>
 

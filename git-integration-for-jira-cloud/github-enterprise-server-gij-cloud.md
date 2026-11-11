@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "integration-guide-gij-cloud"
     page_type: "content"
+    card_icon: "brand-github"
+    card_color: "purple"
+    card_description: "How to integrate GitHub Enterprise Server repositories with Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 

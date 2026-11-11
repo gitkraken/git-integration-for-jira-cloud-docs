@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 210
     nav_parent: "documentation-gij-cloud"
     page_type: "content"
+    card_icon: "license"
+    card_color: "blue"
+    card_description: "License information for Git Integration for Jira Cloud"
 ---
 <kbd>Last updated: March 2026</kbd>
 
