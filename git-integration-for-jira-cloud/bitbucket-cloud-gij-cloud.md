@@ -117,7 +117,7 @@ Obtain the repository URL from the Bitbucket Cloud repository project page. Cho
 
 3.  At the bottom section on the following screen, enter the git clone URL in the provided box.
 
-    ![](/wp-content/uploads/ij-gitcloud-managed-ui-git-integration-single-https-bitbucket.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-single-https-bitbucket.png)
 
 4.  Click **Connect** to proceed.
 

@@ -81,7 +81,7 @@ The Change association feature allows you to update the Jira issues associated w
 
 4. Click the **Update** button.
 
-![](/wp-content/uploads/gij-gitcloud-general-settings-git-commits-issue-project-1455.png)
+![](/wp-content/uploads/gij-gitcloud-general-settings-git-commits-issue-project.png)
 
 > **Note:** If you still have a question, reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) or email us at [support@gitkraken.com](mailto:support@gitkraken.com).
 

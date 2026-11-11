@@ -155,7 +155,7 @@ To display commits in Jira, include the Jira issue key in your commit messages. 
 
 The Git Roll Up tab is supported for GitLab webhook indexing integration.
 
-![](/wp-content/uploads/gij-gitcloud-webhook-indexing-compare-vs-full-gitlab.png)
+![](/wp-content/uploads/gij-gitcloud-webhook-indexing-compare-vs-full.png)
 
 | Feature | Status |
 |---------|--------|

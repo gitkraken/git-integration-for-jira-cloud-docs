@@ -163,7 +163,7 @@ The Git Integration for Jira Cloud app licensing fails to fully provision during
 
 You see a message similar to:
 
-![](/wp-content/uploads/gij-licensing-installcheck-failed-error.png)
+![](/wp-content/uploads/gij-gitcloud-licensing-installcheck-failed-error.png)
 
 ### Solution
 

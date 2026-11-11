@@ -62,7 +62,7 @@ custom_fields:
 
 3. Select **Visual Studio Team Services (VSTS)** or **Azure DevOps Repos**.
 
-    ![](/wp-content/uploads/https://help.gitkraken.com/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-vsts-2025.png)
+    ![](/wp-content/uploads/gij-gitcloud-managed-ui-git-integration-azure-vsts-2025.png)
 
 4. Select the **Webhook indexing** panel.
 
