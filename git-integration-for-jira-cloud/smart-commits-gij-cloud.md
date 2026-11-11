@@ -609,7 +609,6 @@ For example, **JIRA-700000** **#time** **4h 30m**
 
 **3. Smart commits with a non-editable workflow state**
 
-![](/wp-content/uploads/gij-sc-bitbucket-non-editable-workflow-state.png)
 
 ### Examples of Smart Commits Messages that are Processed Correctly
 
