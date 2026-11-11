@@ -1,0 +1,194 @@
+{
+  "_comment": "Product config of the gkhc-docs-authoring skill for this help center. Local to the docs repo (product/ is never overwritten by skillsync). Seeded by GK-WP-HC-Design skills/seed_products.py; check_pages.py and preview/ read it.",
+  "key": "gijc",
+  "name": "Git Integration for Jira Cloud",
+  "category": "git-integration-for-jira-cloud",
+  "content_dir": "git-integration-for-jira-cloud",
+  "images_dir": "_images",
+  "home_slug": "git-integration-for-jira-home-gij-cloud",
+  "nav_file": "gijc",
+  "max_depth": 5,
+  "toc_levels": [
+    2,
+    3
+  ],
+  "code_default_label": "Code",
+  "nav": {
+    "sections": null,
+    "section_fallback": false,
+    "parent_must_be_index": false,
+    "every_page_in_nav": false,
+    "card_fields_required": false,
+    "slug_prefix": ""
+  },
+  "features": {
+    "metric_pipeline": false,
+    "playbooks": false,
+    "settings_specs": false
+  },
+  "checks": {
+    "missing_link_target": "warn",
+    "missing_image": "error",
+    "figures_only": false,
+    "ignore_link_targets": []
+  },
+  "metadata": {
+    "check": "error",
+    "conditional": [
+      "git_hosts",
+      "deployment",
+      "role_required",
+      "version_required"
+    ],
+    "optional": [
+      "og_image"
+    ],
+    "constants": {
+      "product": "Git Integration for Jira Cloud",
+      "deployment": "Jira Cloud"
+    },
+    "defaults": {},
+    "plan_required": [
+      "all",
+      "Standard",
+      "Advanced"
+    ],
+    "plan_required_vocabulary": "error",
+    "aliases": {
+      "git_hosts": "git_host_support"
+    },
+    "extra_fields": [
+      "git_host_support"
+    ]
+  },
+  "other_category_pages": {},
+  "known_wp_images": {
+    "/wp-content/uploads/GIJ-Cloud-User-Settings-Connnected-Apps.png": [
+      "end-user-guide-cloud"
+    ],
+    "/wp-content/uploads/GIJ-Cloud-User-Settings-Default-Branch.png": [
+      "end-user-guide-cloud"
+    ],
+    "/wp-content/uploads/GIJ-Cloud-User-Settings-Default-Repo.png": [
+      "end-user-guide-cloud"
+    ],
+    "/wp-content/uploads/GIJ-Cloud-User-Settings-PAT.png": [
+      "end-user-guide-cloud"
+    ],
+    "/wp-content/uploads/Jira-Issue-key-linking-cloud.png": [
+      "end-user-guide-cloud"
+    ],
+    "/wp-content/uploads/Linking-Commit-example.png": [
+      "end-user-guide-cloud"
+    ],
+    "/wp-content/uploads/Pull-Request-Linking-Example.png": [
+      "end-user-guide-cloud"
+    ],
+    "/wp-content/uploads/actions-icon.png": [
+      "associating-project-permissions-gij-cloud",
+      "automatically-connect-to-https-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues-gij-cloud",
+      "aws-codecommit-gij-cloud",
+      "classic-indexing-explainer-gij-cloud",
+      "connecting-to-a-single-git-repository-http-https-gij-cloud",
+      "edit-integration-gij-cloud",
+      "edit-nested-repository-settings-gij-cloud",
+      "edit-repository-gij-cloud",
+      "git-integration-jira-automation-gij-cloud",
+      "indexing-triggers-gij-cloud",
+      "jira-issue-page-gij-cloud",
+      "managing-integration-or-repository-configuration-gij-cloud",
+      "reindexing-gij-cloud",
+      "removing-integration-or-repository-configuration-gij-cloud",
+      "require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-cloud",
+      "setting-up-integrations-gij-cloud",
+      "smart-commits-gij-cloud",
+      "ssl-verify-gij-cloud",
+      "troubleshooting-articles-gij-cloud",
+      "trusted-users-gij-cloud",
+      "view-repository-indexing-logs-gij-cloud",
+      "web-linking-gij-cloud",
+      "working-with-custom-api-path-gij-cloud",
+      "working-with-jmespath-filters-gij-cloud",
+      "working-with-ssh-keys-gij-cloud"
+    ],
+    "/wp-content/uploads/azure2-logo.png": [
+      "microsoft-vsts-tfs-azure-repos-jmespath-filter-examples-gij-cloud"
+    ],
+    "/wp-content/uploads/bbb-alert-20.png": [
+      "signals-backlog-view-gij-cloud"
+    ],
+    "/wp-content/uploads/bbb-tips-20.png": [
+      "cicd-getting-started-with-ci-cd-for-jira-gij-cloud"
+    ],
+    "/wp-content/uploads/gerrit-banner-logo.png": [
+      "gerrit-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-automation-branch-01.png": [
+      "git-integration-jira-automation-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-automation-branch-conditional-01.png": [
+      "git-integration-jira-automation-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-automation-commit-01.png": [
+      "git-integration-jira-automation-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-automation-issue-condition-01.png": [
+      "git-integration-jira-automation-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-automation-pullreq-01.png": [
+      "git-integration-jira-automation-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-automation-pullreq-02.png": [
+      "git-integration-jira-automation-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-aws-codecommit-icon.png": [
+      "integration-guide-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-bonobo-icon.png": [
+      "integration-guide-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png": [
+      "documentation-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-edit-icon-dark.png": [
+      "frequently-asked-questions-gij-cloud",
+      "linking-git-commits-to-jira-issues-gij-cloud",
+      "repository-browser-gij-cloud",
+      "smart-commits-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-git-user-non-matching-email.png": [
+      "git-user-identity-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-github-mobile-logo-dark.png": [
+      "github-com-gij-cloud",
+      "github-com-github-enterprise-jmespath-filter-examples-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-gitlab-icon-ee32.png": [
+      "integration-guide-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-icon-add.png": [
+      "creating-personal-access-tokens-gij-cloud",
+      "microsoft-webhook-indexing-integration-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-profile-icon.png": [
+      "github-com-gij-cloud",
+      "github-enterprise-server-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-tfs-icon.png": [
+      "integration-guide-gij-cloud"
+    ],
+    "/wp-content/uploads/gij-web-hooks-gitlab-settings-c.png": [
+      "adding-webhooks-for-gitlab-repository-gij-cloud"
+    ],
+    "/wp-content/uploads/git-user-matching-email.png": [
+      "git-user-identity-gij-cloud"
+    ],
+    "/wp-content/uploads/gitlab-ceee-integration-banner-logo.png": [
+      "gitlab-ce-ee-gij-cloud"
+    ],
+    "/wp-content/uploads/gitlab-mobile-custom1.png": [
+      "gitlab-com-gij-cloud",
+      "gitlab-com-gitlab-ce-ee-jmespath-filter-examples-gij-cloud"
+    ]
+  }
+}
