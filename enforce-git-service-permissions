@@ -53,13 +53,19 @@ What a user sees is the overlap of two sets: the repositories your integration i
 
 In the **GIJ Settings: App settings** page, ensure the **Enable Beta Features** flag is enabled.
 
+![EGSP Beta Setting](../images/egsp-beta-setting.png)
+
 ### 2. Turn on Enforce Git Service Permissions
 
 In **GIJ Settings: Enforce Git Service Permissions**. It's off by default and applies to the whole app installation, covering every integration at once.
 
+![EGSP Settings](../images/egsp-settings.png)
+
 ### 3. Decide what happens to integrations that can't be filtered
 
 The setting **"Integrations the app cannot check - Show to everyone"** is off by default, meaning those integrations are hidden from ordinary users. One example is servers behind a firewall. Turn it on only if you accept that their data is visible unfiltered.
+
+![EGSP Integrations cannot check](../images/egsp-integrations-cannot-check.png)
 
 ### 4. Grant the app's Jira permission to your users
 
@@ -67,17 +73,23 @@ Enforce Git Service Permissions introduces a project permission, **View Developm
 
 Two limits to plan around: existing installations only receive the new permission after the app is upgraded, and team-managed projects have no permission scheme, so the permission can't be granted there. You must be using company-managed projects.
 
+![EGSP Jira permissions](../images/egsp-jira-permissions.png)
+
 ### 5. Remove View Development Tools permission from ordinary users
 
 This is the step that hides Jira's native Development panel. The app's own tabs and panels no longer require it, so users keep working through them. Remove **View Development Tools** from all users in the space settings. If you do not remove this permission, users will be able to see development information in Jira's Development panel.
 
 Be aware of what else that permission controls. Removing it also removes native development JQL searches, the development icons on boards, and the Code and Deployments views. Automation for Jira triggers are unaffected, because they run in the rule's context rather than the user's.
 
+![EGSP Jira permissions](../images/egsp-jira-permissions.png)
+
 ### 6. Optionally clear existing development information
 
 Development information already pushed to Jira stays there. If you don't want historical data reachable by anyone who still holds View Development Tools, clear it from the app's advanced settings by clicking **Clear Development Information**. Optionally, you can stop sending that data by unchecking **"Send Development Information to Jira Cloud"**.
 
 > **Note:** These choices will also impact JQL searches, Automation Rules, etc. as mentioned in step 5.
+
+![EGSP Development info](../images/egsp-development-info.png)
 
 ### 7. Tell your users to add Personal Access Token(s) or other Git credentials
 
@@ -92,6 +104,8 @@ Turning the setting back off restores the previous behaviour immediately. Nothin
 Open the Git Integration for Jira app and navigate to **Settings: User settings**. Find the **Personal access tokens** section and add a token for each integration you work with. Use a token with read access to the repositories you need. Your visibility in Jira matches what that token can read, so a narrowly scoped token means a narrower view.
 
 > **Note:** Some providers like Gerrit and AWS CodeCommit will require additional authentication information.
+
+![EGSP User settings](../images/egsp-user-settings.png)
 
 There's a short delay after saving before your repositories appear.
 
