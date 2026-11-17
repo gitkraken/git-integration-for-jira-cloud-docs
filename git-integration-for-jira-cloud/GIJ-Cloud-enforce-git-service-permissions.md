@@ -4,21 +4,20 @@ description: "Reference documentation for Enforce Git Service Permissions featur
 product: "Git Integration for Jira Cloud"
 feature: "Enforce Git Service Permissions"
 content_type: "reference"
-audience: "administrator, developer"
+audience: "admin"
 plan_required: "Advanced"
 deployment: "Jira Cloud"
 git_host_support: []
 role_required: "User"
 version_required: "all"
-status: "Beta"
+status: "beta"
 last_verified: "2026-11"
 tags: ["Git Integration for Jira Cloud", "Jira Cloud", "reference", "developer", "Administrator", "Advanced"]
+llms_include: true
 taxonomy:
     category: git-integration-for-jira-cloud
 ---
 <kbd>Last updated: November 2026</kbd>
-
-# Enforce Git Service Permissions
 
 By default, Git Integration for Jira Cloud shows every repository in an integration to every Jira user who can view development information (per Jira's **View Development Tools** permission).
 
@@ -53,19 +52,19 @@ What a user sees is the overlap of two sets: the repositories your integration i
 
 In the **GIJ Settings: App settings** page, ensure the **Enable Beta Features** flag is enabled.
 
-![EGSP Beta Setting](../images/egsp-beta-setting.png)
+![EGSP Beta Setting](/wp-content/uploads/EGSP-Beta-Setting.png)
 
 ### 2. Turn on Enforce Git Service Permissions
 
 In **GIJ Settings: Enforce Git Service Permissions**. It's off by default and applies to the whole app installation, covering every integration at once.
 
-![EGSP Settings](../images/egsp-settings.png)
+![EGSP Settings](/wp-content/uploads/EGSP-Settings.png)
 
 ### 3. Decide what happens to integrations that can't be filtered
 
 The setting **"Integrations the app cannot check - Show to everyone"** is off by default, meaning those integrations are hidden from ordinary users. One example is servers behind a firewall. Turn it on only if you accept that their data is visible unfiltered.
 
-![EGSP Integrations cannot check](../images/egsp-integrations-cannot-check.png)
+![EGSP Integrations cannot check](/wp-content/uploads/EGSP-Integrations-cannot-check.png)
 
 ### 4. Grant the app's Jira permission to your users
 
@@ -73,7 +72,7 @@ Enforce Git Service Permissions introduces a project permission, **View Developm
 
 Two limits to plan around: existing installations only receive the new permission after the app is upgraded, and team-managed projects have no permission scheme, so the permission can't be granted there. You must be using company-managed projects.
 
-![EGSP Jira permissions](../images/egsp-jira-permissions.png)
+![EGSP Jira permissions](/wp-content/uploads/EGSP-Jira-permissions.png)
 
 ### 5. Remove View Development Tools permission from ordinary users
 
@@ -81,7 +80,7 @@ This is the step that hides Jira's native Development panel. The app's own tabs 
 
 Be aware of what else that permission controls. Removing it also removes native development JQL searches, the development icons on boards, and the Code and Deployments views. Automation for Jira triggers are unaffected, because they run in the rule's context rather than the user's.
 
-![EGSP Jira permissions](../images/egsp-jira-permissions.png)
+![EGSP Jira permissions](/wp-content/uploads/EGSP-Jira-permissions.png)
 
 ### 6. Optionally clear existing development information
 
@@ -89,7 +88,7 @@ Development information already pushed to Jira stays there. If you don't want hi
 
 > **Note:** These choices will also impact JQL searches, Automation Rules, etc. as mentioned in step 5.
 
-![EGSP Development info](../images/egsp-development-info.png)
+![EGSP Development info](/wp-content/uploads/EGSP-Development-info.png)
 
 ### 7. Tell your users to add Personal Access Token(s) or other Git credentials
 
@@ -105,7 +104,7 @@ Open the Git Integration for Jira app and navigate to **Settings: User settings*
 
 > **Note:** Some providers like Gerrit and AWS CodeCommit will require additional authentication information.
 
-![EGSP User settings](../images/egsp-user-settings.png)
+![EGSP User settings](/wp-content/uploads/EGSP-User-settings.png)
 
 There's a short delay after saving before your repositories appear.
 
